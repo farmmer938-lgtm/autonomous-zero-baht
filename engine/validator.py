@@ -22,6 +22,12 @@ def validate_drafts(paths):
                 errors.append("missing_affiliate_disclosure")
             if not formats.get("seo_article_outline", {}).get("sections"):
                 errors.append("missing_article_outline")
+            if not data.get("source_feed"):
+                errors.append("missing_source_feed")
+            if data.get("research_quality") == "seed_unverified":
+                errors.append("unverified_research_seed")
+            if not data.get("source_title"):
+                errors.append("missing_source_title")
         except Exception as exc:
             errors.append("invalid_json:" + type(exc).__name__)
         result = {"path": relative, "passed": not errors, "errors": errors}

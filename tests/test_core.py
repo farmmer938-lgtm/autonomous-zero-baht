@@ -10,6 +10,8 @@ class CoreTests(unittest.TestCase):
         self.assertFalse(draft["first_hand_experience_claimed"])
         self.assertEqual(draft["status"], "draft_requires_human_review")
         self.assertIn("affiliate_disclosure", draft["formats"])
+        self.assertEqual(draft["research_score"], 0)
+        self.assertEqual(draft["research_quality"], "unknown")
 
     def test_no_payment_guard_config(self):
         from pathlib import Path
@@ -26,6 +28,14 @@ class CoreTests(unittest.TestCase):
         self.assertIn("how to", matched)
         self.assertGreaterEqual(intent_score, 2)
         self.assertEqual(total, keyword_score + intent_score)
+
+    def test_seed_research_is_not_publishable(self):
+        draft = create_draft({
+            "title": "Seed topic", "url": "https://example.com",
+            "summary": "unverified", "source": "local_seed_data",
+            "research_quality": "seed_unverified", "opportunity_score": 2,
+        })
+        self.assertEqual(draft["research_quality"], "seed_unverified")
 
     def test_research_deduplication(self):
         items = [
