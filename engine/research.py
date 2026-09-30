@@ -2,7 +2,7 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from .logger import log_event
 
@@ -78,6 +78,19 @@ def _normalize(value):
     return re.sub(r"\s+", " ", (value or "").lower()).strip()
 
 
+def _freshness(item, max_age_days=30, now=None):
+    published = (item.get("published") or "").strip()
+    if not published:
+        return "date_unverified"
+    try:
+        value = datetime.fromisoformat(published.replace("Z", "+00:00"))
+        if value.tzinfo is None:
+            value = value.replace(tzinfo=timezone.utc)
+        reference = now or datetime.now(timezone.utc)
+        return "fresh" if value >= reference - timedelta(days=max_age_days) else "stale_unverified"
+    except ValueError:
+        return "date_unverified"
+
 def _score_item(item, keywords):
     text = _normalize((item.get("title", "") + " " + item.get("summary", "")))
     matched = sorted({k for k in keywords if _normalize(k) and _normalize(k) in text}, key=len, reverse=True)
@@ -127,7 +140,13 @@ def run_research(config):
         item["keyword_score"] = keyword_score
         item["intent_score"] = intent_score
         item["opportunity_score"] = total
-        item["research_quality"] = "seed_unverified" if item.get("source") == "local_seed_data" else "public_feed"
+        item["freshness"] = _freshness(item, int(config.get("max_age_days", 30)))
+        if item.get("source") == "local_seed_data":
+            item["research_quality"] = "seed_unverified"
+        elif item["freshness"] != "fresh":
+            item["research_quality"] = "stale_unverified"
+        else:
+            item["research_quality"] = "public_feed"
         item["researched_at"] = datetime.now(timezone.utc).isoformat()
 
     all_items.sort(
