@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Zero-baht content workflow test topic",
+    "url": "https://example.com/zero-baht-test",
+    "summary": "Seed topic used only when public research feeds are unavailable. Review and replace with verified research before publishing.",
+    "source": "local_seed_data"
+  },
+  {
+    "title": "How to validate affiliate content before publishing",
+    "url": "https://example.com/affiliate-validation",
+    "summary": "Checklist topic for source attribution, disclosure, factual verification, and platform policy review.",
+    "source": "local_seed_data"
+  }
+]
