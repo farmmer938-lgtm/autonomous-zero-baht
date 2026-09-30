@@ -23,6 +23,7 @@ def create_draft(item):
         "source_url": url,
         "source_feed": source,
         "research_quality": item.get("research_quality", "unknown"),
+        "freshness": item.get("freshness", "unknown"),
         "research_score": item.get("opportunity_score", 0),
         "formats": {
             "seo_article_outline": {
