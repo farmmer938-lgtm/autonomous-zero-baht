@@ -1,0 +1,33 @@
+import json
+from pathlib import Path
+from .logger import log_event
+
+ROOT = Path(__file__).resolve().parents[1]
+
+def validate_drafts(paths):
+    results = []
+    for relative in paths:
+        path = ROOT / relative
+        errors = []
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if not data.get("source_url"):
+                errors.append("missing_source_url")
+            if data.get("status") != "draft_requires_human_review":
+                errors.append("unexpected_status")
+            if data.get("first_hand_experience_claimed"):
+                errors.append("unsupported_experience_claim")
+            formats = data.get("formats", {})
+            if not formats.get("affiliate_disclosure"):
+                errors.append("missing_affiliate_disclosure")
+            if not formats.get("seo_article_outline", {}).get("sections"):
+                errors.append("missing_article_outline")
+        except Exception as exc:
+            errors.append("invalid_json:" + type(exc).__name__)
+        result = {"path": relative, "passed": not errors, "errors": errors}
+        results.append(result)
+        log_event("draft_validation", **result)
+    out = ROOT / "data" / "analytics"
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "validation.json").write_text(json.dumps(results, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return results
