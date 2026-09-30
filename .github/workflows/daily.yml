@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: zero-baht-daily
+  cancel-in-progress: false
+
 jobs:
   research-create-validate:
     runs-on: ubuntu-latest
@@ -23,7 +27,6 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Run zero-cost workflow
         run: python -m engine.run
-        continue-on-error: true
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
