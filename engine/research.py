@@ -40,15 +40,34 @@ def _fetch_feed(url, user_agent, limit):
         results.append({"title": title, "url": link, "summary": re.sub(r"<[^>]+>", " ", summary)[:1000], "source": url})
     return results
 
+def _load_seed_data(limit):
+    path = ROOT / "data" / "research" / "seed.json"
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, list) else []
+    except Exception as exc:
+        log_event("research_seed_failed", error=type(exc).__name__, detail=str(exc)[:250])
+        return []
+
 def run_research(config):
     all_items = []
+    successful_feeds = 0
     for feed in config.get("rss_feeds", []):
         try:
             items = _fetch_feed(feed, config.get("user_agent", "ZeroBahtOS/0.1"), int(config.get("max_items_per_feed", 20)))
             all_items.extend(items)
+            successful_feeds += 1
             log_event("research_feed_success", feed=feed, item_count=len(items))
         except Exception as exc:
             log_event("research_feed_failed", feed=feed, error=type(exc).__name__, detail=str(exc)[:250])
+    if not all_items:
+        all_items = _load_seed_data(int(config.get("max_items_per_feed", 20)))
+        if all_items:
+            log_event("research_fallback_used", provider="local_seed_data", item_count=len(all_items))
+        else:
+            log_event("research_fallback_empty", provider="local_seed_data")
     keywords = [str(k).lower() for k in config.get("keywords", [])]
     for item in all_items:
         text = (item.get("title", "") + " " + item.get("summary", "")).lower()
