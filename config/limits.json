@@ -1,0 +1,7 @@
+{
+  "max_requests_per_feed_per_run": 1,
+  "max_drafts_per_run": 5,
+  "max_retries": 1,
+  "publish_automatically": false,
+  "spend_allowed_thb": 0
+}
