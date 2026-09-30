@@ -46,5 +46,13 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(len(_dedupe(items)), 2)
 
 
+    def test_stale_item_is_marked_unverified(self):
+        from engine.research import _freshness
+        self.assertEqual(_freshness({"published": "2022-01-01T00:00:00+00:00"}, max_age_days=30), "stale_unverified")
+
+    def test_missing_published_date_is_unverified(self):
+        from engine.research import _freshness
+        self.assertEqual(_freshness({"published": ""}, max_age_days=30), "date_unverified")
+
 if __name__ == "__main__":
     unittest.main()
