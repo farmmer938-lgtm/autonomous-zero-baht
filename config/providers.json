@@ -1,0 +1,20 @@
+{
+  "research": {
+    "provider": "public_rss",
+    "paid": false,
+    "fallback": "local_seed_data"
+  },
+  "content": {
+    "provider": "template_mode",
+    "paid": false,
+    "fallback": "rule_based"
+  },
+  "publishing": {
+    "enabled": false,
+    "reason": "Requires approved platform credentials, policy checks, and explicit setup"
+  },
+  "analytics": {
+    "provider": "local_json",
+    "paid": false
+  }
+}
