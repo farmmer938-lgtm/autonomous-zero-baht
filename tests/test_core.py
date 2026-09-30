@@ -1,6 +1,8 @@
 import json
 import unittest
 from engine.content import create_draft
+from engine.research import _dedupe, _score_item
+
 
 class CoreTests(unittest.TestCase):
     def test_draft_does_not_claim_personal_experience(self):
@@ -15,6 +17,24 @@ class CoreTests(unittest.TestCase):
         config = json.loads((root / "config" / "system.json").read_text(encoding="utf-8"))
         self.assertEqual(config["budget_thb"], 0)
         self.assertTrue(config["no_payment_guard"])
+
+    def test_research_scoring_rewards_intent(self):
+        matched, keyword_score, intent_score, total = _score_item(
+            {"title": "How to compare tools", "summary": "A guide to price and features"},
+            ["how to", "compare", "guide", "price"],
+        )
+        self.assertIn("how to", matched)
+        self.assertGreaterEqual(intent_score, 2)
+        self.assertEqual(total, keyword_score + intent_score)
+
+    def test_research_deduplication(self):
+        items = [
+            {"title": " Same topic ", "url": "https://example.com/a"},
+            {"title": "same topic", "url": "https://example.com/a"},
+            {"title": "Other topic", "url": "https://example.com/b"},
+        ]
+        self.assertEqual(len(_dedupe(items)), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
