@@ -17,8 +17,8 @@ def main():
     try:
         opportunities = run_research(config)
     except Exception as exc:
-        opportunities = []
         log_event("research_engine_failed", error=type(exc).__name__, detail=str(exc)[:250])
+        raise
     drafts = generate_drafts(opportunities, int(config.get("max_drafts_per_run", 5))) if opportunities else []
     validations = validate_drafts(drafts)
     decision = record_decision(len(opportunities), len(drafts), validations)
