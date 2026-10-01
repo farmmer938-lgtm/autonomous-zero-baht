@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-01T06:54:01.133082+00:00",
+  "scope": "operational_pipeline_only",
+  "research_items": 30,
+  "drafts_created": 5,
+  "drafts_validated": 5,
+  "validation_passed": 5,
+  "validation_failures": 0,
+  "publish_automatically": false,
+  "external_distribution": "not_measured",
+  "traffic": "not_measured",
+  "clicks": "not_measured",
+  "conversions": "not_measured",
+  "transactions": "not_verified",
+  "revenue": "not_verified",
+  "cash_received": "not_verified"
+}
