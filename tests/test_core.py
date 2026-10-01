@@ -89,6 +89,21 @@ class CoreTests(unittest.TestCase):
             self.assertIn("invalid_source_url", result[0]["errors"])
             self.assertIn("unverified_freshness", result[0]["errors"])
 
+
+    def test_validator_accepts_https_source_url(self):
+        draft = create_draft({"title": "Safe", "url": "https://example.com", "summary": "x", "source": "feed", "research_quality": "public_feed", "freshness": "fresh"})
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "draft.json"
+            path.write_text(json.dumps(draft, ensure_ascii=False), encoding="utf-8")
+            import engine.validator as validator
+            original = validator.ROOT
+            try:
+                validator.ROOT = Path(tmp)
+                result = validate_drafts(["draft.json"])
+            finally:
+                validator.ROOT = original
+            self.assertTrue(result[0]["passed"])
+
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
         now = datetime(2026, 10, 1, 2, 0, tzinfo=timezone.utc)
