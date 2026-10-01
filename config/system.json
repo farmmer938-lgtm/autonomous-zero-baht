@@ -24,5 +24,6 @@
   "max_items_per_feed": 20,
   "max_age_days": 30,
   "max_drafts_per_run": 5,
-  "user_agent": "AutonomousZeroBahtBusinessOS/0.1 (public RSS research)"
+  "user_agent": "AutonomousZeroBahtBusinessOS/0.1 (public RSS research)",
+  "max_feed_retries": 2
 }
