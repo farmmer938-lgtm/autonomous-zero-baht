@@ -46,8 +46,8 @@ def create_draft(item):
         "first_hand_experience_claimed": False
     }
 
-def generate_drafts(items, limit=5):
-    out = ROOT / "data" / "content" / "drafts"
+def generate_drafts(items, limit=5, output_dir=None):
+    out = Path(output_dir) if output_dir else ROOT / "data" / "content" / "drafts"
     out.mkdir(parents=True, exist_ok=True)
     created = []
     seen = set()
@@ -61,7 +61,7 @@ def generate_drafts(items, limit=5):
         draft = create_draft(item)
         path = out / f"{draft['id']}.json"
         path.write_text(json.dumps(draft, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        created.append(str(path.relative_to(ROOT)))
+        created.append(str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path))
         log_event("draft_created", draft_id=draft["id"], path=created[-1])
         if len(created) >= limit:
             break
