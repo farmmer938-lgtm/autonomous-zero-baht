@@ -52,6 +52,8 @@ def generate_drafts(items, limit=5):
     created = []
     seen = set()
     for item in items:
+        if item.get("freshness") != "fresh" or item.get("research_quality") != "public_feed":
+            continue
         title = (item.get("title") or "").strip()
         if not title or title in seen:
             continue
