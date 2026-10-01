@@ -47,6 +47,8 @@ def create_draft(item):
     }
 
 def generate_drafts(items, limit=5, output_dir=None):
+    if limit <= 0:
+        return []
     out = Path(output_dir) if output_dir else ROOT / "data" / "content" / "drafts"
     out.mkdir(parents=True, exist_ok=True)
     created = []

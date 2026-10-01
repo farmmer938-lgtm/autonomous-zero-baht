@@ -177,6 +177,18 @@ class CoreTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 run.main()
 
+    def test_draft_generation_rejects_non_positive_limit(self):
+        items = [{
+            "title": "fresh",
+            "freshness": "fresh",
+            "research_quality": "public_feed",
+            "url": "https://example.com",
+            "source": "feed",
+        }]
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(generate_drafts(items, limit=0, output_dir=tmp), [])
+            self.assertEqual(generate_drafts(items, limit=-1, output_dir=tmp), [])
+
 
 if __name__ == "__main__":
     unittest.main()
