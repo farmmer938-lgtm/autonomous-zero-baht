@@ -161,7 +161,8 @@ class CoreTests(unittest.TestCase):
         finally:
             research._fetch_feed = original
         self.assertEqual(calls["count"], 3)
-        self.assertEqual(items, [])
+        self.assertEqual(len(items), 2)
+        self.assertTrue(all(item["research_quality"] == "seed_unverified" for item in items))
 
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
