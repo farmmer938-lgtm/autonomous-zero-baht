@@ -187,3 +187,34 @@
 {"timestamp": "2026-10-01T06:54:01.132538+00:00", "event": "draft_validation", "path": "data/content/drafts/เป็นทางการแล้ว-donald-trump-ลงนามคำสั่งเปลี่ยนคำเรียก-artificial-intelligence-เป.json", "passed": true, "errors": []}
 {"timestamp": "2026-10-01T06:54:01.132836+00:00", "event": "decision_recorded", "research_items": 30, "drafts_created": 5, "validation_failures": 0, "recommended_action": "human_review_drafts_then_consider_platform_compliant_publishing", "reason": "Drafts passed basic structural checks only; factual and platform review is still required.", "publish_automatically": false}
 {"timestamp": "2026-10-01T06:54:01.133547+00:00", "event": "run_completed", "research_count": 30, "draft_count": 5, "next_action": "human_review_drafts_then_consider_platform_compliant_publishing"}
+{"timestamp": "2026-10-01T06:54:56.691189+00:00", "event": "draft_created", "draft_id": "a-b", "path": "/tmp/tmpjpb1r_xs/a-b.json"}
+{"timestamp": "2026-10-01T06:54:56.691456+00:00", "event": "draft_created", "draft_id": "a-b-2", "path": "/tmp/tmpjpb1r_xs/a-b-2.json"}
+{"timestamp": "2026-10-01T06:54:56.692051+00:00", "event": "draft_created", "draft_id": "fresh", "path": "/tmp/tmp_jk911_u/fresh.json"}
+{"timestamp": "2026-10-01T06:54:56.692229+00:00", "event": "research_feed_failed", "feed": "https://feed.example.test/rss", "attempt": 1, "retry_scheduled": true, "error": "TimeoutError", "detail": "temporary"}
+{"timestamp": "2026-10-01T06:54:56.692315+00:00", "event": "research_feed_success", "feed": "https://feed.example.test/rss", "item_count": 1, "attempt": 2}
+{"timestamp": "2026-10-01T06:54:56.692625+00:00", "event": "research_ranked", "candidate_count": 1, "selected_count": 1}
+{"timestamp": "2026-10-01T06:54:56.692733+00:00", "event": "research_feed_failed", "feed": "https://feed.example.test/rss", "attempt": 1, "retry_scheduled": true, "error": "TimeoutError", "detail": "persistent"}
+{"timestamp": "2026-10-01T06:54:56.692814+00:00", "event": "research_feed_failed", "feed": "https://feed.example.test/rss", "attempt": 2, "retry_scheduled": true, "error": "TimeoutError", "detail": "persistent"}
+{"timestamp": "2026-10-01T06:54:56.692870+00:00", "event": "research_feed_failed", "feed": "https://feed.example.test/rss", "attempt": 3, "retry_scheduled": false, "error": "TimeoutError", "detail": "persistent"}
+{"timestamp": "2026-10-01T06:54:56.693004+00:00", "event": "research_fallback_used", "provider": "local_seed_data", "item_count": 2}
+{"timestamp": "2026-10-01T06:54:56.693693+00:00", "event": "research_ranked", "candidate_count": 2, "selected_count": 2}
+{"timestamp": "2026-10-01T06:54:56.823991+00:00", "event": "run_started", "project": "AUTONOMOUS ZERO-BAHT BUSINESS OS", "mode": "autonomous-first", "budget_thb": 0}
+{"timestamp": "2026-10-01T06:54:56.824105+00:00", "event": "research_engine_failed", "error": "RuntimeError", "detail": "unexpected research failure"}
+{"timestamp": "2026-10-01T06:54:56.825602+00:00", "event": "draft_validation", "path": "draft.json", "passed": true, "errors": []}
+{"timestamp": "2026-10-01T06:54:56.826230+00:00", "event": "draft_validation", "path": "draft.json", "passed": false, "errors": ["invalid_source_url", "unverified_freshness"]}
+{"timestamp": "2026-10-01T06:54:56.905120+00:00", "event": "run_started", "project": "AUTONOMOUS ZERO-BAHT BUSINESS OS", "mode": "autonomous-first", "budget_thb": 0}
+{"timestamp": "2026-10-01T06:54:57.323150+00:00", "event": "research_feed_success", "feed": "https://feeds.feedburner.com/TechCrunch/", "item_count": 20, "attempt": 1}
+{"timestamp": "2026-10-01T06:54:57.418937+00:00", "event": "research_feed_success", "feed": "https://www.blognone.com/atom.xml", "item_count": 10, "attempt": 1}
+{"timestamp": "2026-10-01T06:54:57.422772+00:00", "event": "research_ranked", "candidate_count": 30, "selected_count": 5}
+{"timestamp": "2026-10-01T06:54:57.423359+00:00", "event": "draft_created", "draft_id": "nvidia-ประกาศแผนซื้อหุ้นคืนครั้งใหญ่-วงเงิน-1-5-แสนล้านดอลลาร์", "path": "data/content/drafts/nvidia-ประกาศแผนซื้อหุ้นคืนครั้งใหญ่-วงเงิน-1-5-แสนล้านดอลลาร์.json"}
+{"timestamp": "2026-10-01T06:54:57.423662+00:00", "event": "draft_created", "draft_id": "เปิดตัว-gemini-4-argon-เอาชนะโมเดลคู่แข่งได้เกือบหมด-แก้ปัญหาเขียนโค้ดไม่เก่งได้", "path": "data/content/drafts/เปิดตัว-gemini-4-argon-เอาชนะโมเดลคู่แข่งได้เกือบหมด-แก้ปัญหาเขียนโค้ดไม่เก่งได้.json"}
+{"timestamp": "2026-10-01T06:54:57.423972+00:00", "event": "draft_created", "draft_id": "openai-อัปเดต-gpt-6-1-sol-ชูจุดเด่นทำงานใกล้เคียง-astra-ในราคาแค่-1-ใน-5", "path": "data/content/drafts/openai-อัปเดต-gpt-6-1-sol-ชูจุดเด่นทำงานใกล้เคียง-astra-ในราคาแค่-1-ใน-5.json"}
+{"timestamp": "2026-10-01T06:54:57.424242+00:00", "event": "draft_created", "draft_id": "openai-ออกแพ็คเกจใหม่-pro-500-เพิ่มโควต้าใช้งาน-พร้อมโหมด-ultrafast-เบิร์นโทเค็น", "path": "data/content/drafts/openai-ออกแพ็คเกจใหม่-pro-500-เพิ่มโควต้าใช้งาน-พร้อมโหมด-ultrafast-เบิร์นโทเค็น.json"}
+{"timestamp": "2026-10-01T06:54:57.424533+00:00", "event": "draft_created", "draft_id": "เป็นทางการแล้ว-donald-trump-ลงนามคำสั่งเปลี่ยนคำเรียก-artificial-intelligence-เป", "path": "data/content/drafts/เป็นทางการแล้ว-donald-trump-ลงนามคำสั่งเปลี่ยนคำเรียก-artificial-intelligence-เป.json"}
+{"timestamp": "2026-10-01T06:54:57.424722+00:00", "event": "draft_validation", "path": "data/content/drafts/nvidia-ประกาศแผนซื้อหุ้นคืนครั้งใหญ่-วงเงิน-1-5-แสนล้านดอลลาร์.json", "passed": true, "errors": []}
+{"timestamp": "2026-10-01T06:54:57.424886+00:00", "event": "draft_validation", "path": "data/content/drafts/เปิดตัว-gemini-4-argon-เอาชนะโมเดลคู่แข่งได้เกือบหมด-แก้ปัญหาเขียนโค้ดไม่เก่งได้.json", "passed": true, "errors": []}
+{"timestamp": "2026-10-01T06:54:57.425027+00:00", "event": "draft_validation", "path": "data/content/drafts/openai-อัปเดต-gpt-6-1-sol-ชูจุดเด่นทำงานใกล้เคียง-astra-ในราคาแค่-1-ใน-5.json", "passed": true, "errors": []}
+{"timestamp": "2026-10-01T06:54:57.425167+00:00", "event": "draft_validation", "path": "data/content/drafts/openai-ออกแพ็คเกจใหม่-pro-500-เพิ่มโควต้าใช้งาน-พร้อมโหมด-ultrafast-เบิร์นโทเค็น.json", "passed": true, "errors": []}
+{"timestamp": "2026-10-01T06:54:57.425294+00:00", "event": "draft_validation", "path": "data/content/drafts/เป็นทางการแล้ว-donald-trump-ลงนามคำสั่งเปลี่ยนคำเรียก-artificial-intelligence-เป.json", "passed": true, "errors": []}
+{"timestamp": "2026-10-01T06:54:57.425506+00:00", "event": "decision_recorded", "research_items": 30, "drafts_created": 5, "validation_failures": 0, "recommended_action": "human_review_drafts_then_consider_platform_compliant_publishing", "reason": "Drafts passed basic structural checks only; factual and platform review is still required.", "publish_automatically": false}
+{"timestamp": "2026-10-01T06:54:57.425980+00:00", "event": "run_completed", "research_count": 30, "draft_count": 5, "next_action": "human_review_drafts_then_consider_platform_compliant_publishing"}

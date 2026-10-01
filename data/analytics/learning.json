@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-01T06:54:01.133414+00:00",
+  "timestamp": "2026-10-01T06:54:57.425882+00:00",
   "scope": "operational_learning_only",
-  "runs_considered": 8,
-  "research_items_observed": 240,
-  "drafts_observed": 40,
+  "runs_considered": 9,
+  "research_items_observed": 270,
+  "drafts_observed": 45,
   "validation_failures_observed": 0,
   "recommended_actions_observed": {
-    "human_review_drafts_then_consider_platform_compliant_publishing": 8
+    "human_review_drafts_then_consider_platform_compliant_publishing": 9
   },
   "economic_evidence": {
     "external_distribution": "not_verified",
