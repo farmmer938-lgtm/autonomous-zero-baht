@@ -1,7 +1,7 @@
 import json
 import unittest
 from datetime import datetime, timezone
-from engine.content import create_draft
+from engine.content import create_draft, generate_drafts
 from engine.research import _dedupe, _freshness, _score_item
 
 
@@ -57,6 +57,16 @@ class CoreTests(unittest.TestCase):
             _freshness({"published": ""}, max_age_days=30),
             "date_unverified",
         )
+
+    def test_draft_generation_skips_unverified_items(self):
+        items = [
+            {"title": "stale", "freshness": "stale_unverified", "research_quality": "stale_unverified"},
+            {"title": "missing-date", "freshness": "date_unverified", "research_quality": "stale_unverified"},
+            {"title": "fresh", "freshness": "fresh", "research_quality": "public_feed", "url": "https://example.com", "source": "feed"},
+        ]
+        paths = generate_drafts(items, limit=5)
+        self.assertEqual(len(paths), 1)
+        self.assertTrue(paths[0].endswith("fresh.json"))
 
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
