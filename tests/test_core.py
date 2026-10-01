@@ -169,6 +169,14 @@ class CoreTests(unittest.TestCase):
         now = datetime(2026, 10, 1, 2, 0, tzinfo=timezone.utc)
         self.assertEqual(_freshness(item, max_age_days=30, now=now), "fresh")
 
+    def test_main_fails_on_unexpected_research_engine_error(self):
+        import engine.run as run
+        from unittest.mock import patch
+
+        with patch.object(run, "run_research", side_effect=RuntimeError("unexpected research failure")):
+            with self.assertRaises(RuntimeError):
+                run.main()
+
 
 if __name__ == "__main__":
     unittest.main()
