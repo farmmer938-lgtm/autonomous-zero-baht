@@ -1,6 +1,8 @@
 import json
+import tempfile
 import unittest
 from datetime import datetime, timezone
+from pathlib import Path
 from engine.content import create_draft, generate_drafts
 from engine.research import _dedupe, _freshness, _score_item
 
@@ -15,7 +17,6 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(draft["research_quality"], "unknown")
 
     def test_no_payment_guard_config(self):
-        from pathlib import Path
         root = Path(__file__).resolve().parents[1]
         config = json.loads((root / "config" / "system.json").read_text(encoding="utf-8"))
         self.assertEqual(config["budget_thb"], 0)
@@ -64,9 +65,11 @@ class CoreTests(unittest.TestCase):
             {"title": "missing-date", "freshness": "date_unverified", "research_quality": "stale_unverified"},
             {"title": "fresh", "freshness": "fresh", "research_quality": "public_feed", "url": "https://example.com", "source": "feed"},
         ]
-        paths = generate_drafts(items, limit=5)
-        self.assertEqual(len(paths), 1)
-        self.assertTrue(paths[0].endswith("fresh.json"))
+        with tempfile.TemporaryDirectory() as tmp:
+            paths = generate_drafts(items, limit=5, output_dir=tmp)
+            self.assertEqual(len(paths), 1)
+            self.assertTrue(paths[0].endswith("fresh.json"))
+            self.assertTrue(Path(tmp, "fresh.json").exists())
 
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
