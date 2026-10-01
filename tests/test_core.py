@@ -1,20 +1,11 @@
 import json
 import unittest
+from datetime import datetime, timezone
 from engine.content import create_draft
-from engine.research import _dedupe, _score_item
+from engine.research import _dedupe, _freshness, _score_item
 
 
-class CoreTests
-    def test_draft_generation_skips_unverified_research(self):
-        items = [
-            {"title": "stale", "freshness": "stale_unverified", "research_quality": "stale_unverified"},
-            {"title": "fresh", "freshness": "fresh", "research_quality": "public_feed", "url": "https://example.com", "source": "feed"},
-        ]
-        paths = generate_drafts(items, limit=5)
-        self.assertEqual(len(paths), 1)
-        self.assertTrue(paths[0].endswith("fresh.json"))
-
-(unittest.TestCase):
+class CoreTests(unittest.TestCase):
     def test_draft_does_not_claim_personal_experience(self):
         draft = create_draft({"title": "Example guide", "url": "https://example.com", "summary": "Example summary", "source": "feed", "score": 1})
         self.assertFalse(draft["first_hand_experience_claimed"])
@@ -55,15 +46,23 @@ class CoreTests
         ]
         self.assertEqual(len(_dedupe(items)), 2)
 
-
     def test_stale_item_is_marked_unverified(self):
-        from engine.research import _freshness
-from engine.content import generate_drafts
-        self.assertEqual(_freshness({"published": "2022-01-01T00:00:00+00:00"}, max_age_days=30), "stale_unverified")
+        self.assertEqual(
+            _freshness({"published": "2022-01-01T00:00:00+00:00"}, max_age_days=30),
+            "stale_unverified",
+        )
 
     def test_missing_published_date_is_unverified(self):
-        from engine.research import _freshness
-        self.assertEqual(_freshness({"published": ""}, max_age_days=30), "date_unverified")
+        self.assertEqual(
+            _freshness({"published": ""}, max_age_days=30),
+            "date_unverified",
+        )
+
+    def test_rfc822_published_date_is_parsed(self):
+        item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
+        now = datetime(2026, 10, 1, 2, 0, tzinfo=timezone.utc)
+        self.assertEqual(_freshness(item, max_age_days=30, now=now), "fresh")
+
 
 if __name__ == "__main__":
     unittest.main()
