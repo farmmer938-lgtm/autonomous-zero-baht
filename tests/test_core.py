@@ -177,6 +177,18 @@ class CoreTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 run.main()
 
+    def test_draft_generation_prevents_slug_collisions(self):
+        items = [
+            {"title": "A/B", "freshness": "fresh", "research_quality": "public_feed", "url": "https://example.com/a", "source": "feed"},
+            {"title": "A B", "freshness": "fresh", "research_quality": "public_feed", "url": "https://example.com/b", "source": "feed"},
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            paths = generate_drafts(items, limit=5, output_dir=tmp)
+            self.assertEqual(len(paths), 2)
+            self.assertNotEqual(paths[0], paths[1])
+            self.assertTrue(Path(paths[0]).exists())
+            self.assertTrue(Path(paths[1]).exists())
+
     def test_draft_generation_rejects_non_positive_limit(self):
         items = [{
             "title": "fresh",

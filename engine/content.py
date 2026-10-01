@@ -53,15 +53,25 @@ def generate_drafts(items, limit=5, output_dir=None):
     out.mkdir(parents=True, exist_ok=True)
     created = []
     seen = set()
+    used_ids = set()
     for item in items:
         if item.get("freshness") != "fresh" or item.get("research_quality") != "public_feed":
             continue
         title = (item.get("title") or "").strip()
-        if not title or title in seen:
+        normalized_title = re.sub(r"\s+", " ", title).casefold()
+        if not title or normalized_title in seen:
             continue
-        seen.add(title)
+        seen.add(normalized_title)
         draft = create_draft(item)
-        path = out / f"{draft['id']}.json"
+        base_id = draft["id"]
+        draft_id = base_id
+        suffix = 2
+        while draft_id in used_ids:
+            draft_id = f"{base_id}-{suffix}"
+            suffix += 1
+        used_ids.add(draft_id)
+        draft["id"] = draft_id
+        path = out / f"{draft_id}.json"
         path.write_text(json.dumps(draft, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         created.append(str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path))
         log_event("draft_created", draft_id=draft["id"], path=created[-1])
