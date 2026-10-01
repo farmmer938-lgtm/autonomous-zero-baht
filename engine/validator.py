@@ -12,8 +12,13 @@ def validate_drafts(paths):
         errors = []
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
-            if not data.get("source_url"):
+            source_url = data.get("source_url", "")
+            if not source_url:
                 errors.append("missing_source_url")
+            else:
+                parsed = urlparse(source_url.strip())
+                if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                    errors.append("invalid_source_url")
             if data.get("status") != "draft_requires_human_review":
                 errors.append("unexpected_status")
             if data.get("first_hand_experience_claimed"):
