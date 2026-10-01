@@ -4,7 +4,17 @@ from engine.content import create_draft
 from engine.research import _dedupe, _score_item
 
 
-class CoreTests(unittest.TestCase):
+class CoreTests
+    def test_draft_generation_skips_unverified_research(self):
+        items = [
+            {"title": "stale", "freshness": "stale_unverified", "research_quality": "stale_unverified"},
+            {"title": "fresh", "freshness": "fresh", "research_quality": "public_feed", "url": "https://example.com", "source": "feed"},
+        ]
+        paths = generate_drafts(items, limit=5)
+        self.assertEqual(len(paths), 1)
+        self.assertTrue(paths[0].endswith("fresh.json"))
+
+(unittest.TestCase):
     def test_draft_does_not_claim_personal_experience(self):
         draft = create_draft({"title": "Example guide", "url": "https://example.com", "summary": "Example summary", "source": "feed", "score": 1})
         self.assertFalse(draft["first_hand_experience_claimed"])
@@ -48,6 +58,7 @@ class CoreTests(unittest.TestCase):
 
     def test_stale_item_is_marked_unverified(self):
         from engine.research import _freshness
+from engine.content import generate_drafts
         self.assertEqual(_freshness({"published": "2022-01-01T00:00:00+00:00"}, max_age_days=30), "stale_unverified")
 
     def test_missing_published_date_is_unverified(self):
