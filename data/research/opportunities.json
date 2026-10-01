@@ -13,24 +13,26 @@
     "keyword_score": 4,
     "intent_score": 6,
     "opportunity_score": 10,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039140+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.775989+00:00"
   },
   {
-    "title": "Anthropic เปิดตัว Claude Sonnet 5.5 เร็วขึ้น 30% เข้าใกล้ Opus มากขึ้น",
-    "url": "https://www.blognone.com/node/151776",
-    "summary": "Anthropic เปิดตัว Claude Sonnet 5.5 เร็วขึ้น 30% เข้าใกล้ Opus มากขึ้น Body Anthropic เปิดตัวโมเดลรุ่น (เคย) กลาง Claude Sonnet 5.5 หลังจากอัพเดต Opus 5.5 ไปก่อนหน้านี้แล้ว โดยมีจุดแข็งคือผลทดสอบใกล้เคียง Opus 5.5 มาก แม้ราคาจะถูกกว่า แซงหน้าโมเดลเทียบเคียงอย่าง GPT-6 Sol ไปได้ ค่า API ของ Sonnet 5.5 อยู่ที่ 2/10 ดอลลาร์ต่อล้านโทเค็นเช่นเดิม และค่าอ่านแคช 0.2 ดอลลาร์ต่อล้านโทเค็น ทำให้ราคาส่วนนี้เท่ากับ Opus 5.5 จุดที่เหนือกว่า Opus คือความเร็วที่เพิ่มขึ้น 30% และแก้ปัญหาด้วยโทเค็นรวมน้อยลง 30% ความเปลี่ยนแปลงสำคัญคือ Anthropic ผูก preserved thinking เข้ากับบัญชีผู้ใช้ เพื่อป้องกันการโจมตีแบบ distillation ที่ดึงเอาความสามารถของ Claude ไปฝึกโมเดลอื่น มาตรการนี้จะทำให้มีปัญหาในกรณีที่มีการเปลี่ยนบัญชีผู้ใช้ระหว่างทาง ที่มา - Anthropic lew Tue, 29/09/2026 - 14:36",
+    "title": "NVIDIA ประกาศแผนซื้อหุ้นคืนครั้งใหญ่ วงเงิน 1.5 แสนล้านดอลลาร์",
+    "url": "https://www.blognone.com/node/151787",
+    "summary": "NVIDIA ประกาศแผนซื้อหุ้นคืนครั้งใหญ่ วงเงิน 1.5 แสนล้านดอลลาร์ Body NVIDIA ประกาศแผนซื้อหุ้นคืนจากนักลงทุนด้วยวงเงินเพิ่มเติมถึง 150,000 ล้านดอลลาร์ สูงสุดในประวัติศาสตร์ของตลาดหุ้นสหรัฐ โดยสถิติก่อนหน้านี้คือแอปเปิลที่ประกาศวงเงิน 110,000 ล้านดอลลาร์ ในปี 2024 เมื่อรวมกับวงเงินที่ประกาศก่อนหน้านี้ทำให้ NVIDIA มีแผนซื้อหุ้นคืนรวม 235,000 ล้านดอลลาร์ NVIDIA คาดว่าการซื้อหุ้นคืนรวมทั้งหมดจะเสร็จสิ้นภายในปีการเงินบริษัท 2028 การซื้อหุ้นคืนเป็นหนึ่งในวิธีการบริหารจัดการสินทรัพย์ของบริษัท เพราะทำให้จำนวนหุ้นของบริษัทลดลง ผลตอบแทนต่อจำนวนหุ้นจึงสูงขึ้น สะท้อนกลับไปได้ที่ราคาหุ้น ขณะเดียวกันยังเป็นการเพิ่มทางเลือกจ่ายผลตอบแทนให้ผู้ถือหุ้น รวมถึงส่งสัญญาณว่าราคาหุ้นปัจจุบันในมุมมองบริษัทนั้นยังมีราคาไม่สูงจนบริษัทยังนำเงินสดมาซื้อหุ้นเองได้ด้วย Jensen Huang ซีอีโอ NVIDIA บอกว่าการเติบโตที่เกี่ยวข้องกับ AI ทำให้บริษัทมีกระแสเงินสดเพียงพอสำหรับการลงทุนในเทคโนโลยีต่าง ๆ และยังสามารถคืนผลตอบแทนกับผู้ถือหุ้นได้ด้วย ที่มา: NVIDIA arjin Thu, 01/10/2026 - 00:22",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 07:36:49 +0000",
+    "published": "Wed, 30 Sep 2026 17:22:52 +0000",
     "matched_keywords": [
-      "แก้ปัญหา",
+      "วิธี",
       "ราคา"
     ],
     "keyword_score": 2,
     "intent_score": 4,
     "opportunity_score": 6,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040637+00:00"
+    "researched_at": "2026-10-01T02:27:56.777840+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -44,23 +46,25 @@
     "keyword_score": 2,
     "intent_score": 2,
     "opportunity_score": 4,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040340+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.777381+00:00"
   },
   {
-    "title": "Windows 11 ออกอัพเดต 26H2 ประจำปี 2026 ตามรอบปกติ ไม่มีอะไรใหม่",
-    "url": "https://www.blognone.com/node/151778",
-    "summary": "Windows 11 ออกอัพเดต 26H2 ประจำปี 2026 ตามรอบปกติ ไม่มีอะไรใหม่ Body ไมโครซอฟท์ออก Windows 11 26H2 อัพเดตตัวแกนหลักของระบบปฏิบัติการประจำรอบปี และ เช่นเคยเหมือนปีก่อนๆ คือผู้ใช้แทบไม่รู้สึกถึงความแตกต่าง เพราะไมโครซอฟท์เปลี่ยนมาใช้วิธีทยอยปล่อยฟีเจอร์ใหม่ผ่านอัพเดตประจำเดือนย่อยๆ แทนมาสักพักใหญ่ๆ แล้ว ( ตัวอย่างอัพเดตย่อยรอบล่าสุด ) กระบวนการอัพเดตตัว Windows 11 26H2 ยังเป็นการอัพเดต \"เล็ก\" ที่เรียกว่า enablement package คือมีลักษณะเหมือนอัพเดตรายเดือน, เป็นการอัพเดตทับบน 24H2 หรือ 25H2 (ไม่ได้เป็น service branch แยก), ไฟล์อัพเดตมีขนาดเล็ก ติดตั้งรวดเร็ว มีความเข้ากันได้สูงกว่า มีผลกระทบจากการอัพเดตน้อยกว่า ไม่ต้องปวดหัวสำหรับผู้ดูแลพีซีองค์กร หากผู้ใช้ Windows 11 24H2 หรือ 25H2 ไม่ได้กดอัพเดตย่อยประจำเดือนเลย การอัพเกรดมาเป็น 26H2 จะได้ฟีเจอร์ต่างๆ ที่ไมโครซอฟท์ทยอยปล่อยมาในช่วง 1-2 ปีนี้ เช่น Start Menu และ Taskbar เวอร์ชันปรับปรุงใหม่ รวมถึงฟีเจอร์ด้านความปลอดภัยต่างๆ Windows 11 26H2 มีระยะซัพพอร์ตให้นาน 24 เดือนตามรอบปกติ ส่วนลูกค้าองค์กรจะได้นานขึ้นเป็น 36 เดือน ที่มา - Microsoft ",
+    "title": "เปิดตัว Gemini 4 Argon เอาชนะโมเดลคู่แข่งได้เกือบหมด แก้ปัญหาเขียนโค้ดไม่เก่งได้แล้ว",
+    "url": "https://www.blognone.com/node/151788",
+    "summary": "เปิดตัว Gemini 4 Argon เอาชนะโมเดลคู่แข่งได้เกือบหมด แก้ปัญหาเขียนโค้ดไม่เก่งได้แล้ว Body กูเกิลเปิดตัวโมเดลรุ่นใหญ่ Gemini 4 Argon ตามที่เคยพูดไว้ก่อนหน้านี้ โดยการกลับมาครั้งนี้ของ Gemini สามารถเอาชนะโมเดลคู่แข่งทั้ง GPT-6 Astra และ Claude Fable 5.1 ได้ในเกือบทุกการทดสอบ สิ่งที่เป็นจุดอ่อนที่สุดของโมเดลตระกูล Gemini คือเรื่องโค้ดดิ้ง (และเป็นเหตุให้ Gemini Pro 3.5 ออกไม่ได้ตามเป้า ) คราวนี้กลับมาด้วยคะแนนเบนช์มาร์ค DeepSWE v1.1 ที่ 77.9% เอาชนะโมเดลที่ดีที่สุดก่อนหน้านี้คือ GPT-6 Astra ทำไว้ 74.1% กับ Claude Opus 5.5 ทำไว้ 74.2% Vibe Code Bench ทำได้ 91.9% เทียบกับ Claude Fable 5.1 ทำไว้ 90.3% ส่วน FrontierSWE กับ Terminal-bench ยังแพ้ GPT-6 Astra และ Claude Opus 5.5 ตามลำดับ กูเกิลบอกว่าใช้ Gemini 4 Argon สำหรับงานเขียนโค้ดภายในมาสักระยะแล้ว มีทั้งงานแปลงโค้ด C/C++ เดิมมาเป็น Rust จำนวนระดับ 8 แสนบรรทัด และแปลงโค้ด Rust มาเป็นโค้ด Single Instruction, Multiple Data (SIMD) ทำให้ประสิทธิภาพดีขึ้น 2.7 เท่า ส่วนความสามารถด้านความปลอดภัยไซเบอร์ก็ทำได้ดีกว่า Gemini 3.8 Flash Cyber ที่เป็นโ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 23:28:18 +0000",
+    "published": "Wed, 30 Sep 2026 23:21:52 +0000",
     "matched_keywords": [
-      "วิธี"
+      "แก้ปัญหา"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040496+00:00"
+    "researched_at": "2026-10-01T02:27:56.777666+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -74,8 +78,9 @@
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.038691+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.775552+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -89,8 +94,41 @@
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776497+00:00"
+  },
+  {
+    "title": "OpenAI อัปเดต GPT-6.1 Sol ชูจุดเด่นทำงานใกล้เคียง Astra ในราคาแค่ 1 ใน 5",
+    "url": "https://www.blognone.com/node/151782",
+    "summary": "OpenAI อัปเดต GPT-6.1 Sol ชูจุดเด่นทำงานใกล้เคียง Astra ในราคาแค่ 1 ใน 5 Body OpenAI อัปเดตโมเดล AI รุ่นเคยบนแต่ตอนนี้เป็นรุ่นกลาง Sol ในเวอร์ชันล่าสุด GPT-6.1 Sol โดยชูจุดเด่นเรื่องความสามารถ เกือบ เท่ากับ Astra แต่ราคาใช้งานถูกกว่าคือ 1 ใน 5 ของ Astra เท่านั้น ราคาของ GPT-6.1 Sol เท่ากับเวอร์ชัน 6 คือ 2/10 ดอลลาร์ต่อ อินพุท/เอาท์พุท 1M โทเค็น ส่วนแคชอินพุท 0.10 ดอลลาร์ ลดลงครึ่งหนึ่งจาก GPT-6 Sol ผลการทดสอบด้านการเขียนโค้ด DeepSWE v1.1 ทำคะแนนออกมาได้ใกล้เคียงกับ GPT-6 Astra, งานเอกสาร GDP.pdf ทำคะแนนได้สูงกว่า Opus 5.5, ด้านเวิร์กโฟลว์ AutomationBench ก็มีคะแนนสูงกว่า Opus 5.5 เล็กน้อย ซึ่งทั้งหมด OpenAI ก็ย้ำว่าต้นทุนใช้งานนั้นต่ำกว่ามาก GPT‑6.1 Sol เริ่มใช้งานได้ตั้งแต่วันนี้สำหรับลูกค้า Plus, Pro, Business, Enterprise และ Edu ผ่าน ChatGPT Work และ Codex ก่อน ส่วนใน Chat ยังไม่มีให้ใช้งานตอนนี้ สำหรับนักพัฒนาสามารถเรียกใช้โมเดลนี้ได้ผ่าน API gpt-6.1-sol และจะมีเวอร์ชัน GPT-6.1 Sol Ultrafast ที่ทำงานเร็วขึ้นและใช้โทเค็นมากขึ้น 8 เท่าออกมาด้วย ที่มา: OpenAI arjin Wed, 30/09/2026 - 1",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 30 Sep 2026 11:11:14 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039578+00:00"
+    "researched_at": "2026-10-01T02:27:56.778291+00:00"
+  },
+  {
+    "title": "OpenAI ออกแพ็คเกจใหม่ Pro $500 เพิ่มโควต้าใช้งาน พร้อมโหมด Ultrafast เบิร์นโทเค็นเร็วกว่าเดิม",
+    "url": "https://www.blognone.com/node/151783",
+    "summary": "OpenAI ออกแพ็คเกจใหม่ Pro $500 เพิ่มโควต้าใช้งาน พร้อมโหมด Ultrafast เบิร์นโทเค็นเร็วกว่าเดิม Body ดูเหมือนแพ็คเกจใช้งาน AI เยอะแค่ไหนก็ยังไม่พอ OpenAI เลยออกแพ็คเกจราคาแพงที่สุดตัวใหม่ในงาน DevDay เมื่อคืนนี้ ChatGPT Pro 500 ราคา 500 ดอลลาร์ต่อเดือนตามชื่อ (ประมาณ 17,000 บาท) สูงกว่าแพ็คเกจแพงที่สุดปัจจุบัน Pro 200 ซึ่ง OpenAI ก็ประกาศด้วยว่า Pro 200 ที่ ปิดรับสมัครไปชั่วคราวหลังจากเปิดตัว Astra จะกลับมาให้ผู้ใช้งานสมัครอัปเกรดได้แล้วด้วย นอกจากโควต้าใช้งานที่มากขึ้นตามเงินที่จ่ายไป OpenAI บอกว่าลูกค้า Pro 500 จะเป็นกลุ่มเดียวที่สามารถเลือกเปิดใช้งานโหมด Ultrafast ได้ ซึ่งเป็นโหมดที่ทำให้ใช้งานโมเดลขั้นสูงพร้อมกับความเร็วในการทำงานที่มากกว่าระดับ 300 โทเค็นต่อวินาที ทั้งนี้หากโควต้าใช้งานเต็มก็สามารถซื้อเครดิตเพิ่มเติมได้ แต่ลูกค้า Pro 100, Pro 200 จะไม่สามารถใช้ Ultrafast ได้ แม้ซื้อเครดิตเพิ่ม OpenAI ยังปรับปรุงเงื่อนไขการใช้งานของแพ็คเกจ Pro 200 โดยโควต้าใช้งานผ่าน Codex และ Work ลดลงเป็น 10 เท่าของ Plus จากเดิมได้ 20 เท่า และปริมาณใช้งาน GPT-6 Pro ผ่าน ChatGPT ลดลงจาก 200 เป็น 100",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 30 Sep 2026 11:32:21 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-01T02:27:56.778196+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -104,8 +142,9 @@
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.038832+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.775656+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -119,8 +158,9 @@
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039830+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776793+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -134,34 +174,51 @@
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039646+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776579+00:00"
   },
   {
-    "title": "ไม่ต้องเขียนมือแล้วทำอะไรก็ได้ DHH เริ่มพอร์ตโค้ดลินุกซ์ Omarchy บางส่วนไปยัง Assembly",
-    "url": "https://www.blognone.com/node/151772",
-    "summary": "ไม่ต้องเขียนมือแล้วทำอะไรก็ได้ DHH เริ่มพอร์ตโค้ดลินุกซ์ Omarchy บางส่วนไปยัง Assembly Body David Heinemeier Hansson (DHH) ผู้สร้าง Ruby on Rails เริ่มพอร์ตโค้ดบางส่วนของ screensaver ในลินุกซ์ Omarchy ที่เขาพัฒนาขึ้น จาก Rust ให้เป็น Assembly โดยระบุว่าเพิ่มความเร็วได้ 32 เท่าตัว โค้ดเหล่านี้เป็นโค้ดเอฟเฟกต์ของ screensaver จึงไม่น่ากระทบการทำงานทั่วไปนัก และโค้ดเดิมก็เป็น Rust อยู่แล้ว แต่หากรันบนซีพียูที่รองรับก็จะเลือกใช้โค้ด Assembly แทน ข้อดีสำคัญคือโค้ด Assembly เร็วกว่า Rust ทุกกรณีเฉลี่ยใช้เวลาน้อยกว่า 7.53 เท่าตัว โดยอาศัยการใช้คำสั่งเฉพาะ เช่น SSE2, AVX2, AVX-512 ที่มา - GitHub: omacom/ttfx The asm-accelerated version of ttfx has been released as 0.4. Will ship in next Omarchy. This print effect now runs more than 1,000x faster than the original Python and 32x faster than the old Rust! (But we'll soon speed up the Rust fallback too.) https://t.co/e3r7mn47Hs pic.twitter.com/yKKZhevTVx — DHH (@dhh) September 26, 2026 lew Mon, 28/09/2026 - 14:35",
+    "title": "เป็นทางการแล้ว! Donald Trump ลงนามคำสั่งเปลี่ยนคำเรียก Artificial Intelligence เป็น Super Intelligence",
+    "url": "https://www.blognone.com/node/151784",
+    "summary": "เป็นทางการแล้ว! Donald Trump ลงนามคำสั่งเปลี่ยนคำเรียก Artificial Intelligence เป็น Super Intelligence Body ประธานาธิบดี Donald Trump ลงนามคำสั่งบริหาร (executive order) ให้หน่วยงานของรัฐบาลสหรัฐเปลี่ยนคำเรียก AI หรือ Artificial Intelligence มาเป็น Super Intelligence ใช้ตัวย่อ SI ตามที่เขาได้ ประกาศ ในที่ประชุมใหญ่สหประชาชาติเมื่อสัปดาห์ที่แล้ว โดยให้เหตุผลว่า AI รุ่นใหม่มีความสามารถที่ไม่ใช่แค่การเลียนแบบมนุษย์แล้ว แต่เป็นการขยายความสามารถของมนุษย์ คำสั่งนี้ระบุให้หน่วยงานของรัฐทั้งหมดใช้คำว่า Super Intelligence ในการสื่อสารที่เกี่ยวข้อง และหยุดใช้คำว่า Artificial Intelligence ทันที อย่างไรก็ตามคำสั่งไม่มีผลกับกฎหมายที่เกี่ยวข้องที่ใช้คำว่า AI ไปแล้ว ให้ต้องแก้ไขตามทันที รวมถึงคำสั่งในอดีตก็ไม่ต้องตามแก้ไขให้เป็น SI ด้วย ทั้งนี้คำสั่งของ Trump ระบุให้หน่วยงานที่เกี่ยวข้องกำหนดนิยามของคำว่า SI ในระดับรัฐบาลด้วยให้แล้วเสร็จภายใน 60 วัน ในวันเดียวกัน Trump ได้เชิญผู้บริหารบริษัทเทคโนโลยีรายใหญ่ด้าน AI SI มาหารือที่ทำเนียบขาว และลงนามข้อตกลงด้าน Super Intelligence ซึ่งรายชื่อที่ลงนามมี Su",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 28 Sep 2026 07:35:52 +0000",
+    "published": "Wed, 30 Sep 2026 15:52:14 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.041022+00:00"
+    "researched_at": "2026-10-01T02:27:56.778011+00:00"
   },
   {
-    "title": "ระบบปฏิบัติการของ Googlebook มีชื่อว่า Googlebook OS",
-    "url": "https://www.blognone.com/node/151771",
-    "summary": "ระบบปฏิบัติการของ Googlebook มีชื่อว่า Googlebook OS Body เก็บตกควันหลงหลัง การเปิดตัว Googlebook เมื่อสัปดาห์ก่อน ระบบปฏิบัติการที่เกิดจากการรวม ChromeOS กับ Android เดิมมีโค้ดเนม Aluminium ตอนนี้มีชื่อเรียกทางการแล้วว่า Googlebook OS Chromebook บางรุ่นจะได้อัพเกรดเป็น Googlebook OS (ยังไม่บอกว่ามีรุ่นไหนบ้าง) รุ่นที่ไม่ได้อัพเกรด OS จะซัพพอร์ตนาน 10 ปี, โครงการ ChromeOS Flex สำหรับพีซีเก่าจะยังอยู่ต่อไป Googlebook OS จะออกอัพเดตฟีเจอร์ทุกไตรมาส แบบเดียวกับ Android Quarterly Platform Release (QPR) ส่วนระยะเวลาซัพพอร์ต การันตีขั้นต่ำ 10 ปี หน้าตาและการใช้งาน Googlebook OS อินเทอร์เฟซของ Googlebook OS ให้ความรู้สึกเหมือน Google Pixel แทบยกบางส่วนมาเลย เช่น Notifications, Settings เบราว์เซอร์เป็น Chrome ตัวเต็ม ใช้งานส่วนขยายได้เหมือน Chrome บนเดสก์ท็อปอื่น มีฟีเจอร์ Continue On ช่วยให้เปิดแอพ Android บนมือถือ แล้วหากเปิด Googlebook ขึ้นมา แอพจะโผล่ขึ้นมาบนทาสก์บาร์ของ Googlebook รันงานต่อได้ทันที หน้าจอเดิมที่เปิดค้างไว้ อีกฟีเจอร์คือ Cast My Apps แคสต์หน้าจอแอพที่รันใน Android มาทำงานบ",
+    "title": "[ไม่ยืนยัน] ซีอีโอใหม่ Apple กำหนดเป้าหมาย มีสินค้าสู่ตลาดเร็วขึ้น ไม่ต้องรองานประจำปี ลีนองค์กรให้การตัดสินใจเร็วขึ้น",
+    "url": "https://www.blognone.com/node/151785",
+    "summary": "[ไม่ยืนยัน] ซีอีโอใหม่ Apple กำหนดเป้าหมาย มีสินค้าสู่ตลาดเร็วขึ้น ไม่ต้องรองานประจำปี ลีนองค์กรให้การตัดสินใจเร็วขึ้น Body มีรายงานจาก Mark Gurman แห่ง Bloomberg คนเดิม เกี่ยวกับการปรับโครงสร้างบริหารของแอปเปิลในยุคซีอีโอ John Ternus ซึ่งมีประเด็นสำคัญคือ ออกสินค้าใหม่ถี่มากขึ้น ไม่ต้องรอรอบเปิดตัวต้นปี-กลางปี-ปลายปี แบบเดิม มีสินค้าใหม่ออกมาสู่ตลาดเร็วขึ้นตลอดปี กล้าทดลองตลาดมากขึ้นตามยุคสมัยของ AI ลดลำดับขั้นขององค์กร เพื่อให้การตัดสินใจและดำเนินการเร็วขึ้น นอกจากนี้ Ternus ยังพูดถึงการปรับโครงสร้างจำนวนพนักงานให้เหมาะสมมากขึ้น ซึ่งเป็นไปตามข่าวก่อนหน้านี้ทั้งการ ปลดพนักงานฝ่าย VR และ Fitness+ รวมถึงการทำเงินจากธุรกิจ Services ให้มากขึ้น ซึ่งมีข่าวก่อนหน้านี้ว่าเป็นสาเหตุให้ Phil Schiller ลาออกจากการดูแล App Store ที่มา: Bloomberg arjin Wed, 30/09/2026 - 23:16",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 27 Sep 2026 01:55:20 +0000",
+    "published": "Wed, 30 Sep 2026 16:16:48 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.041099+00:00"
+    "researched_at": "2026-10-01T02:27:56.777921+00:00"
+  },
+  {
+    "title": "[ลือ] Apple เตรียมเปิดตัวจอสมาร์ทโฮมสินค้าใหม่ พร้อม Apple TV, HomePod mini อัปเกรด 13 ตุลาคมนี้",
+    "url": "https://www.blognone.com/node/151786",
+    "summary": "[ลือ] Apple เตรียมเปิดตัวจอสมาร์ทโฮมสินค้าใหม่ พร้อม Apple TV, HomePod mini อัปเกรด 13 ตุลาคมนี้ Body Mark Gurman แห่ง Bloomberg คนเดิม มีรายงานล่าสุดเกี่ยวกับจอสมาร์ทโฮมควบคุมอุปกรณ์ในบ้านของแอปเปิล ที่ มีข่าว มานานแต่ก็ ยังไม่เปิดตัว สักที โดยข้อมูลใหม่เขาบอกว่าแอปเปิลกำหนดเปิดตัวสินค้านี้ในวันที่ 13 ตุลาคม รวมทั้งสินค้าอื่นที่เป็นอุปกรณ์ภายในบ้าน ข้อมูลสเป็กจอสมาร์ทโฮมล่าสุดที่ Gurman บอกคือหน้าจอมีขนาด 6 นิ้ว ปรับการใช้งานได้ทั้งแบบตั้งโต๊ะหรือแขวนผนัง มีกล้อง FaceTime ด้านหน้า, มีไมโครโฟน-ลำโพงที่ฐาน, ขอบจอใหญ่เหมือน iPad รุ่นแรก ๆ, ไม่มีแบตเตอรี่ในตัว ต้องเสียบปลั๊กตลอดเวลา, ไม่มีปุ่มปรับระดับเสียง, ไม่มีปุ่มปิด-เปิดจอ ภาพรวมของหน้าจอนี้ทำให้เขานึกถึง iMac G4 ที่หน้าจอใหญ่และฐานด้านล่างเล็ก ๆ สินค้าที่จะเปิดตัวพร้อมกันในวันนั้นคือ Apple TV รุ่นใหม่ และ HomePod mini รุ่นใหม่ โดยทั้งสองสินค้านี้ไม่ได้เปลี่ยนแปลงการออกแบบภายนอก เป็นการอัปเกรดฮาร์ดแวร์ด้านใน โดยทั้งหมดแอปเปิลจะเน้นนำเสนอความสามารถการทำงานร่วมกับ Siri AI ใหม่ ซึ่งเป็นสาเหตุให้สินค้ากลุ่มนี้เลื่อนเปิดตัวมานานนับปีนั่นเ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 30 Sep 2026 18:05:00 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-01T02:27:56.777758+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -173,8 +230,23 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776281+00:00"
+  },
+  {
+    "title": "Ubisoft รวมทีมสร้างเกมยิงตระกูล Tom Clancy มาอยู่ใต้ Massive Entertainment",
+    "url": "https://www.blognone.com/node/151789",
+    "summary": "Ubisoft รวมทีมสร้างเกมยิงตระกูล Tom Clancy มาอยู่ใต้ Massive Entertainment Body Ubisoft ประกาศชื่อสตูดิโอแห่งที่สองตาม ระบบใหม่ Creative House ที่แยก 5 บ้าน รับผิดชอบเกม 5 ประเภท โดยสตูดิโอ Creative House 1 คือ Vantage Studios รับผิดชอบแฟรนไชส์ดังๆ Assassin's Creed, Far Cry, Rainbow Six วันนี้ Creative House 2 ประกาศชื่อแล้วคือ Massive Entertainment มีฐานมาจากสตูดิโอเกมสวีเดนที่รับผิดชอบแฟรนไชส์ Tom Clancy’s The Division โดยจะดึงทีมที่รับผิดชอบเกมยิง Tom Clancy สายอื่น ได้แก่ Ghost Recon (พัฒนาโดย Ubisoft Paris) และ Splinter Cell (พัฒนาโดย Ubisoft Toronto) เข้ามาอยู่ภายใต้โครงสร้างใหม่ และใช้โลโก้ใหม่ของสตูดิโอด้วย (เท่ากับว่ามี Tom Clancy ทุกเกมยกเว้น Rainbow Six) นอกจากนี้ Massive Entertainment โฉมใหม่ ยังจะได้ สตูดิโอ Amazon Games Montreal เดิมที่ Ubisoft ซื้อกิจการมาตอนปลายปี 2025 เป็นเกมแฟรนไชส์ใหม่ชื่อ March of Giants เกมแนว MOBA 4v4 เข้ามาร่วมด้วย เท่ากับว่า Massive Entertainment โฉมใหม่ในระบบ Creative House 2 มีสตูดิโอใน 4 เมืองคือ Montréal, Paris, Sweden, Toronto ส่วนหัวหน้าสต",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 01 Oct 2026 00:57:58 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039431+00:00"
+    "researched_at": "2026-10-01T02:27:56.777571+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -186,8 +258,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039921+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776897+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -199,8 +272,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039739+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776690+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -212,8 +286,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.038954+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.775770+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -225,21 +300,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039049+00:00"
-  },
-  {
-    "title": "Tencent เปิดตัว TenPayGo แอปพลิเคชันชำระเงินสำหรับนักท่องเที่ยวต่างชาติในจีนโดยเฉพาะ",
-    "url": "https://www.blognone.com/node/151754",
-    "summary": "Tencent เปิดตัว TenPayGo แอปพลิเคชันชำระเงินสำหรับนักท่องเที่ยวต่างชาติในจีนโดยเฉพาะ Body Tencent โดย Weixin Pay เปิดตัว TenPayGo แอปพลิเคชันชำระเงินตัวใหม่ที่พัฒนาขึ้นมาเพื่อนักท่องเที่ยวและชาวต่างชาติที่เดินทางไปเยือนประเทศจีนโดยเฉพาะ รองรับการใช้จ่ายผ่านร้านค้าทุกแห่งที่รับ Weixin Pay (WeChat Pay) ตัวแอปพลิเคชัน TenPayGo ชูจุดเด่นเรื่องความสะดวกในการลงทะเบียน โดยผู้ใช้งานสามารถสมัครใช้งานได้ทันทีด้วยอีเมลของผู้ให้บริการรายใหญ่ (เช่น Gmail, iCloud หรือ Hotmail) โดยไม่ต้องผูกบัญชีธนาคารในจีน และรองรับการผูกช่องทางชำระเงินระหว่างประเทศ ทั้งบัตรเครดิต/เดบิต, Apple Pay ตลอดจนกระเป๋าเงินดิจิทัล (e-wallets) จากต่างประเทศเกือบ 60 ผู้ให้บริการ ซึ่งระบบจะตัดยอดเงินจากบัตรหรือวอลเล็ตที่เชื่อมไว้โดยตรงในทุกการทำธุรกรรม นอกจากฟังก์ชันการชำระเงินแล้ว TenPayGo ยังมาพร้อมฟีเจอร์ช่วยเหลือการท่องเที่ยว ได้แก่: ฟังก์ชันถ่ายภาพเพื่อระบุสถานที่สำคัญหรือสิ่งของ ฟังก์ชันแปลภาษาเมนูอาหาร การซื้อตั๋วระบบขนส่งสาธารณะ เช่น รถไฟใต้ดินและรถบัส (เริ่มนำร่องที่เมืองเซินเจิ้น) ระบบขอคืนภาษี (Tax Refund) แบบสะดวกรว",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 00:36:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040787+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.775883+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -251,21 +314,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039264+00:00"
-  },
-  {
-    "title": "Reuters เผยข้อมูลเตรียม IPO ของ Anthropic พบปี 2025 ขาดทุนถึง 1.4 ล้านล้านบาท",
-    "url": "https://www.blognone.com/node/151777",
-    "summary": "Reuters เผยข้อมูลเตรียม IPO ของ Anthropic พบปี 2025 ขาดทุนถึง 1.4 ล้านล้านบาท Body สำนักข่าวรอยเตอร์ส รายงานถึงข้อมูลในเอกสารประกอบการนำหุ้นเข้าตลาดหลักทรัพย์ของ Anthropic ที่คาดว่าจะมีมูลค่าบริษัทเมื่อเข้าตลาดรวมถึง 2 ล้านล้านดอลลาร์ หรือประมาณ 67 ล้านล้านบาท ข้อมูลที่เปิดเผยออกมาหยุดที่ปี 2025 เท่านั้น ทำให้เราไม่เห็นข้อมูลของปี 2026 หลังการเปิดตัว Cowork ที่เป็นจุดขายสำคัญและทำให้การใช้งาน Claude เพิ่มขึ้นอย่างรวดเร็วในช่วงปีนี้ โดยรายได้ปี 2025 อยู่ที่ 4.6 พันล้านดอลลาร์ ขาดทุนจากการดำเนินงาน 8 พันล้านดอลลาร์ โดยรวมบริษัทขาดทุน 42 พันล้านดอลลาร์ หรือ 1.4 ล้านล้านบาท ก้อนใหญ่มากจากผลขาดทุนเนื่องจากการหาเงินกู้ที่แปลงเป็นหุ้นได้ ทำให้บันทึกขาดทุนไปถึง 34 พันล้านดอลลาร์ รายได้ของบริษัท 25% แรกมาจากลูกค้าเพียง 2 รายเท่านั้น โดยไม่มีการเซ็นสัญญาระยะยาวแต่อย่างใด ที่มา - Reuters lew Wed, 30/09/2026 - 01:48",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 18:48:34 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040566+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776092+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -277,8 +328,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039504+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776408+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -290,8 +342,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040085+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.777083+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -303,8 +356,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039340+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776177+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -316,21 +370,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040265+00:00"
-  },
-  {
-    "title": "Meta ตั้งแผนกใหม่ Meta Enterprise Platform รองรับลูกค้าองค์กรในการติดตั้ง AI - ได้ซีอีโอ MongoDB มานำทีม",
-    "url": "https://www.blognone.com/node/151775",
-    "summary": "Meta ตั้งแผนกใหม่ Meta Enterprise Platform รองรับลูกค้าองค์กรในการติดตั้ง AI - ได้ซีอีโอ MongoDB มานำทีม Body Meta เปิดตัวส่วนธุรกิจใหม่ Meta Enterprise Platform มีเป้าหมายช่วยเหลือและสนับสนุนลูกค้าธุรกิจในการนำ AI มาใช้พัฒนาเปลี่ยนผ่านองค์กร ซึ่งถือเป็นการต่อยอดด้าน AI ล่าสุด หลังจากบริษัท เปิดตัว Muse ผู้ช่วย AI เมื่อสัปดาห์ก่อนและได้รับการตอบรับที่ดีในสหรัฐอเมริกา Meta อธิบายว่า Meta Enterprise Platform เป็นการรวมความแข็งแกร่งหลายด้านที่มีเพียงไม่กี่บริษัทเท่านั้นที่มีทั้ง โมเดล AI รุ่นชั้นนำ, ผู้ช่วย AI, โครงสร้างพื้นฐานการประมวลผลขนาดใหญ่ และความเข้าใจลูกค้าธุรกิจจากประสบการณ์ยาวนาน ซึ่ง Meta จะนำทั้ง Muse Agent, Meta Business Agent, Muse API, Muse Code และเครื่องมืออีกหลายอย่างมาเสริมพลังให้กับลูกค้าองค์กร Meta Enterprise Platform จะมี Chirantan Desai เป็นหัวหน้าทีมโดยรับตำแหน่งประธานฝ่าย Enterprise Platform ซึ่งตำแหน่งสุดท้ายก่อนหน้านี้ Desai เป็นซีอีโออยู่ที่ MongoDB ส่วนก่อนหน้าเขาเคยเป็นวิศวกรที่ Cloudflare และเป็นซีโอโอที่ ServiceNow โดยการเปลี่ยนแปลงนี้มีผลทันที ด้าน MongoD",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 02:04:37 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040715+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.777267+00:00"
   },
   {
     "title": "KBTG Techtopia: Human of Tomorrow งานรวมแนวคิดที่นำให้ \"มนุษย์ของวันพรุ่งนี้\" เป็นนายของ AI ที่ทำงานที่ AI ทดแทนไม่ได้",
@@ -342,8 +384,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040415+00:00"
+    "researched_at": "2026-10-01T02:27:56.777472+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -355,8 +398,9 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.038516+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.775305+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -368,34 +412,23 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.039995+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.776982+00:00"
   },
   {
-    "title": "Apple อัปเดต iOS 27.0.1 แก้ไขบั๊ก Face ID ใน iPhone 18 Pro",
-    "url": "https://www.blognone.com/node/151773",
-    "summary": "Apple อัปเดต iOS 27.0.1 แก้ไขบั๊ก Face ID ใน iPhone 18 Pro Body แอปเปิลออกอัปเดตย่อยระบบปฏิบัติการทั้งรุ่นเวอร์ชัน 27 และเวอร์ชันก่อนหน้า 26 แก้ไขบั๊กและช่องโหว่ความปลอดภัย มีรายละเอียดดังนี้ iOS 27.0.1 แก้ไขบั๊ก Face ID ทำงานไม่ถูกต้องในบางกรณีจนเครื่องรีบูท ซึ่งพบใน iPhone 18 Pro และ iPhone 18 Pro Max, ปัญหาสีเพี้ยนของรูปถ่ายระยะ 2x ในบางสภาพแสดง ที่เกิดกับ iPhone 18 Pro และ iPhone 18 Pro Max, ปัญหาเปิด Notification Center และ Control Center ต่อกัน ทำให้หน้าจอค้าง, แก้ไขช่องโหว่ความปลอดภัย โดยไม่ได้เปิดเผยรายละเอียด iPadOS 27.0.1 แก้ไขช่องโหว่ความปลอดภัย macOS Golden Gate 27.0.1 แก้ไขบั๊กและช่องโหว่ความปลอดภัย watchOS 27.0.1 แก้ไขช่องโหว่ความปลอดภัย visionOS 27.0.1 แก้ไขช่องโหว่ความปลอดภัย ส่วนระบบปฏิบัติการเวอร์ชันก่อนหน้านี้ แอปเปิลออกอัปเดตความปลอดภัยเช่นกัน iOS 26.7.1 และ iPadOS 26.7.1 แก้ไขช่องโหว่ความปลอดภัยใน CoreGraphics macOS Tahoe 26.7.1 และ macOS Sequoia 15.8.1 แก้ไขช่องโหว่ความปลอดภัยใน CoreGraphics ที่มา: MacRumors arjin Tue, 29/09/2026 - 07:10",
+    "title": "ASUS ประกาศเปิดตัว ProArt 16 โน้ตบุ๊กชิป RTX Spark วันที่ 8 ตุลาคมนี้",
+    "url": "https://www.blognone.com/node/151781",
+    "summary": "ASUS ประกาศเปิดตัว ProArt 16 โน้ตบุ๊กชิป RTX Spark วันที่ 8 ตุลาคมนี้ Body ASUS ประกาศผ่านช่องทางโซเชียลมีเดียในจีน เตรียมเปิดตัวโน้ตบุ๊ก ASUS ProArt 16 RTX Spark ในวันที่ 8 ตุลาคม 2026 โดยชูจุดเด่นเป็น \"Agentic PC เครื่องแรกของโลก\" ซึ่งถือเป็นหนึ่งในผู้ผลิตรายแรกๆ ที่ระบุวันเวลาชัดเจนสำหรับอุปกรณ์สาย RTX Spark ตัวเครื่องมาพร้อมชิปประมวลผล NVIDIA RTX Spark N1X ที่รวมสถาปัตยกรรมกราฟิก Blackwell เข้ากับซีพียู Grace แบบ 20 คอร์ และรองรับหน่วยความจำแบบ Unified Memory สูงสุด 128GB อย่างไรก็ตาม โปสเตอร์ประชาสัมพันธ์ยังไม่ระบุชัดว่ากำหนดการวันที่ 8 ตุลาคมนี้ จะเป็นการเปิดตัวอย่างเป็นทางการ เปิดสั่งจองล่วงหน้า หรือวางจำหน่ายจริง ก่อนหน้านี้ NVIDIA เคยเปิดเผยว่า พีซีระบบปฏิบัติการ Windows ที่ใช้ชิป RTX Spark จากพาร์ทเนอร์ผู้ผลิต 6 ราย จะเริ่มทยอยส่งมอบตั้งแต่เดือนตุลาคม 2026 เป็นต้นไป ขณะที่ Microsoft เองก็มีแผนเปิดตัวอุปกรณ์กลุ่มนี้ เช่น Surface Laptop Ultra และ Surface RTX Spark Dev Box ในช่วงปลายปีเช่นกัน ที่มา: VideoCardz ผ่านทาง ASUS Weibo GreenoxZ Wed, 30/09/2026 - 21:11",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 00:10:30 +0000",
+    "published": "Wed, 30 Sep 2026 14:11:00 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
+    "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040941+00:00"
-  },
-  {
-    "title": "AMD ปิดดีลซื้อกิจการ World Labs ของ Fei-Fei Li มูลค่าดีล 8.2 พันล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151774",
-    "summary": "AMD ปิดดีลซื้อกิจการ World Labs ของ Fei-Fei Li มูลค่าดีล 8.2 พันล้านดอลลาร์ Body ข่าวดีลซื้อกิจการในวงการ AI ประจำวันนี้มาจาก AMD โดยตกลงซื้อกิจการ World Labs บริษัท AI ของ Dr. Fei-Fei Li ที่ถูกเรียกว่าเป็นเจ้าแม่วงการ AI ซึ่งเน้นการพัฒนาโมเดลสร้างโลกเสมือนหรือ world model มูลค่าของดีลอยู่ที่ 8,200 ล้านดอลลาร์ โดยดีล AMD จ่ายเป็นหุ้นของบริษัททั้งหมด คาดว่าจะเสร็จสิ้นการควบรวมภายในปีนี้ ทั้งนี้ AMD เป็น บริษัทที่ร่วมลงทุน ใน World Labs อยู่ก่อนหน้าแล้ว Fei-Fei Li กล่าวในแถลงการณ์ว่าการพัฒนาเทคโนโลยี AI ยุคถัดไปต้องอาศัยความร่วมมือที่ใกล้ชิดมากขึ้นทั้งระหว่างนักวิจัยพัฒนาโมเดลใหม่, ระบบที่รองรับ รวมถึงทรัพยากรประมวลผล ซึ่งการเข้าร่วมกับ AMD จะทำให้ทีมงานนักวิจัยสามารถเข้าถึงทรัพยากรจำเป็นในการพัฒนาได้อย่างรวดเร็วมากขึ้น ทั้งนี้ Fei-Fei Li จะรับตำแหน่งเป็นรองประธานใน AMD รวมทั้งหัวหน้าฝ่ายวิทยาศาสตร์ ขึ้นตรงกับซีอีโอ Dr. Lisa Su ซึ่ง Lisa Su ก็พูดถึงดีลนี้ว่าในการพัฒนาแพลตฟอร์มประมวลผลเพื่อรองรับ AI ยุคถัดไป บริษัทก็ต้องเข้าใจอย่างลึกซึ้งว่าโมเดลเหล่านี้มีการเปลี่ยนแปลงไปรูปแบบใด ความร่วม",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 29 Sep 2026 00:34:21 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040863+00:00"
+    "researched_at": "2026-10-01T02:27:56.778103+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -407,7 +440,8 @@
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
-    "research_quality": "public_feed",
-    "researched_at": "2026-09-30T02:47:10.040176+00:00"
+    "freshness": "stale_unverified",
+    "research_quality": "stale_unverified",
+    "researched_at": "2026-10-01T02:27:56.777185+00:00"
   }
 ]
