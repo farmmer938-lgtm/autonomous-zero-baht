@@ -104,6 +104,65 @@ class CoreTests(unittest.TestCase):
                 validator.ROOT = original
             self.assertTrue(result[0]["passed"])
 
+    def test_feed_retry_is_bounded_and_recovers(self):
+        import engine.research as research
+        calls = {"count": 0}
+        original = research._fetch_feed
+
+        def flaky_fetch(*args, **kwargs):
+            calls["count"] += 1
+            if calls["count"] == 1:
+                raise TimeoutError("temporary")
+            return [{
+                "title": "Fresh guide",
+                "url": "https://example.com/guide",
+                "summary": "how to guide",
+                "source": args[0],
+                "published": "2026-10-01T00:00:00+00:00",
+            }]
+
+        research._fetch_feed = flaky_fetch
+        try:
+            items = research.run_research({
+                "rss_feeds": ["https://feed.example.test/rss"],
+                "user_agent": "test",
+                "max_items_per_feed": 20,
+                "max_feed_retries": 2,
+                "max_age_days": 30,
+                "keywords": ["guide"],
+                "max_drafts_per_run": 5,
+            })
+        finally:
+            research._fetch_feed = original
+        self.assertEqual(calls["count"], 2)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["research_quality"], "public_feed")
+
+    def test_feed_retry_stops_after_configured_bound(self):
+        import engine.research as research
+        calls = {"count": 0}
+        original = research._fetch_feed
+
+        def always_fail(*args, **kwargs):
+            calls["count"] += 1
+            raise TimeoutError("persistent")
+
+        research._fetch_feed = always_fail
+        try:
+            items = research.run_research({
+                "rss_feeds": ["https://feed.example.test/rss"],
+                "user_agent": "test",
+                "max_items_per_feed": 20,
+                "max_feed_retries": 2,
+                "max_age_days": 30,
+                "keywords": ["guide"],
+                "max_drafts_per_run": 5,
+            })
+        finally:
+            research._fetch_feed = original
+        self.assertEqual(calls["count"], 3)
+        self.assertEqual(items, [])
+
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
         now = datetime(2026, 10, 1, 2, 0, tzinfo=timezone.utc)
