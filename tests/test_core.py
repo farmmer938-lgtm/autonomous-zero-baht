@@ -189,6 +189,47 @@ class CoreTests(unittest.TestCase):
             self.assertTrue(Path(paths[0]).exists())
             self.assertTrue(Path(paths[1]).exists())
 
+    def test_measurement_separates_operational_and_economic_evidence(self):
+        import engine.measure as measure
+        with tempfile.TemporaryDirectory() as tmp:
+            original = measure.ROOT
+            try:
+                measure.ROOT = Path(tmp)
+                record = measure.record_measurement(
+                    3, 2, [{"passed": True}, {"passed": False, "errors": ["x"]}],
+                    {"publish_automatically": False},
+                )
+            finally:
+                measure.ROOT = original
+            self.assertEqual(record["research_items"], 3)
+            self.assertEqual(record["validation_failures"], 1)
+            self.assertEqual(record["traffic"], "not_measured")
+            self.assertEqual(record["revenue"], "not_verified")
+
+    def test_learning_does_not_infer_economic_success(self):
+        import engine.learn as learn
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data" / "decisions").mkdir(parents=True)
+            (root / "data" / "decisions" / "decision.log").write_text(
+                json.dumps({
+                    "research_items": 3,
+                    "drafts_created": 2,
+                    "validation_failures": 0,
+                    "recommended_action": "continue",
+                }) + "\n",
+                encoding="utf-8",
+            )
+            original = learn.ROOT
+            try:
+                learn.ROOT = root
+                result = learn.record_learning()
+            finally:
+                learn.ROOT = original
+            self.assertEqual(result["runs_considered"], 1)
+            self.assertEqual(result["economic_evidence"]["revenue"], "not_verified")
+            self.assertNotEqual(result["next_step"], "publish_automatically")
+
     def test_draft_generation_rejects_non_positive_limit(self):
         items = [{
             "title": "fresh",
