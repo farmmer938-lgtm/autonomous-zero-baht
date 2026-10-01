@@ -2,6 +2,7 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from .logger import log_event
@@ -84,12 +85,15 @@ def _freshness(item, max_age_days=30, now=None):
         return "date_unverified"
     try:
         value = datetime.fromisoformat(published.replace("Z", "+00:00"))
-        if value.tzinfo is None:
-            value = value.replace(tzinfo=timezone.utc)
-        reference = now or datetime.now(timezone.utc)
-        return "fresh" if value >= reference - timedelta(days=max_age_days) else "stale_unverified"
     except ValueError:
-        return "date_unverified"
+        try:
+            value = parsedate_to_datetime(published)
+        except (TypeError, ValueError, IndexError):
+            return "date_unverified"
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=timezone.utc)
+    reference = now or datetime.now(timezone.utc)
+    return "fresh" if value >= reference - timedelta(days=max_age_days) else "stale_unverified"
 
 def _score_item(item, keywords):
     text = _normalize((item.get("title", "") + " " + item.get("summary", "")))
