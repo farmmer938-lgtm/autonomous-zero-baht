@@ -121,13 +121,25 @@ def _dedupe(items):
 
 def run_research(config):
     all_items = []
+    max_retries = max(0, int(config.get("max_feed_retries", 2)))
     for feed in config.get("rss_feeds", []):
-        try:
-            items = _fetch_feed(feed, config.get("user_agent", "ZeroBahtOS/0.1"), int(config.get("max_items_per_feed", 20)))
-            all_items.extend(items)
-            log_event("research_feed_success", feed=feed, item_count=len(items))
-        except Exception as exc:
-            log_event("research_feed_failed", feed=feed, error=type(exc).__name__, detail=str(exc)[:250])
+        for attempt in range(1, max_retries + 2):
+            try:
+                items = _fetch_feed(feed, config.get("user_agent", "ZeroBahtOS/0.1"), int(config.get("max_items_per_feed", 20)))
+                all_items.extend(items)
+                log_event("research_feed_success", feed=feed, item_count=len(items), attempt=attempt)
+                break
+            except Exception as exc:
+                log_event(
+                    "research_feed_failed",
+                    feed=feed,
+                    attempt=attempt,
+                    retry_scheduled=attempt <= max_retries,
+                    error=type(exc).__name__,
+                    detail=str(exc)[:250],
+                )
+                if attempt > max_retries:
+                    break
 
     all_items = _dedupe(all_items)
     if not all_items:
