@@ -1,4 +1,5 @@
 import json
+from urllib.parse import urlparse
 from pathlib import Path
 from .logger import log_event
 
@@ -26,6 +27,8 @@ def validate_drafts(paths):
                 errors.append("missing_source_feed")
             if data.get("research_quality") in {"seed_unverified", "stale_unverified", "unknown"}:
                 errors.append("unverified_research")
+            if data.get("freshness") != "fresh":
+                errors.append("unverified_freshness")
             if not data.get("source_title"):
                 errors.append("missing_source_title")
         except Exception as exc:
