@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from engine.content import create_draft, generate_drafts
 from engine.research import _dedupe, _freshness, _score_item
+from engine.validator import validate_drafts
 
 
 class CoreTests(unittest.TestCase):
@@ -70,6 +71,23 @@ class CoreTests(unittest.TestCase):
             self.assertEqual(len(paths), 1)
             self.assertTrue(paths[0].endswith("fresh.json"))
             self.assertTrue(Path(tmp, "fresh.json").exists())
+
+
+    def test_validator_rejects_stale_and_unsafe_urls(self):
+        draft = create_draft({"title": "Unsafe", "url": "javascript:alert(1)", "summary": "x", "source": "feed", "research_quality": "public_feed", "freshness": "stale_unverified"})
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "draft.json"
+            path.write_text(json.dumps(draft, ensure_ascii=False), encoding="utf-8")
+            import engine.validator as validator
+            original = validator.ROOT
+            try:
+                validator.ROOT = Path(tmp)
+                result = validate_drafts(["draft.json"])
+            finally:
+                validator.ROOT = original
+            self.assertFalse(result[0]["passed"])
+            self.assertIn("invalid_source_url", result[0]["errors"])
+            self.assertIn("unverified_freshness", result[0]["errors"])
 
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}
