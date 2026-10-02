@@ -8,7 +8,7 @@ from .decision import record_decision
 from .measure import record_measurement
 from .learn import record_learning
 from .optimize import optimize
-from .economic_loop import build_loop_state, load_runtime_gates, build_activation_readiness
+from .economic_loop import build_loop_state, load_runtime_gates, build_activation_readiness, build_human_gate_checklist
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -32,7 +32,9 @@ def main():
     log_event("optimization_recorded", action=optimization["action"], economic_status=optimization["actual_outcome"]["economic_status"])
     gates = load_runtime_gates(ROOT)
     activation_readiness = build_activation_readiness(gates)
+    human_gate_checklist = build_human_gate_checklist(gates)
     log_event("economic_activation_readiness", **activation_readiness)
+    log_event("human_activation_gate_checklist", **human_gate_checklist)
     loop_state = build_loop_state(
         distribution_enabled=gates["distribution_enabled"],
         live_publish_authorized=gates["live_publish_authorized"],
