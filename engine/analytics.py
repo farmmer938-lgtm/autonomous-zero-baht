@@ -56,6 +56,9 @@ def validate_external_evidence(evidence: dict) -> dict:
         errors.append("invalid_metrics")
         metrics = {}
 
+    if not metrics:
+        errors.append("missing_metrics")
+
     unknown = sorted(set(metrics) - ALLOWED_METRICS)
     if unknown:
         errors.append("unknown_metrics:" + ",".join(unknown))
@@ -66,6 +69,8 @@ def validate_external_evidence(evidence: dict) -> dict:
                 errors.append(f"non_numeric_metric:{key}")
             elif not isfinite(value):
                 errors.append(f"non_finite_metric:{key}")
+            elif value < 0:
+                errors.append(f"negative_metric:{key}")
 
     return {
         "verified": not errors,
@@ -89,7 +94,7 @@ def empty_economic_evidence() -> dict:
 
 def is_iso_datetime(value: str) -> bool:
     try:
-        datetime.fromisoformat(value.replace("Z", "+00:00"))
-        return True
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return parsed.tzinfo is not None and parsed.utcoffset() is not None
     except (AttributeError, TypeError, ValueError):
         return False
