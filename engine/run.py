@@ -29,7 +29,14 @@ def main():
     measurement = record_measurement(len(opportunities), len(drafts), validations, decision)
     learning = record_learning()
     optimization = optimize(measurement, learning)
-    log_event("optimization_recorded", action=optimization["action"], economic_status=optimization["actual_outcome"]["economic_status"])\n    loop_state = build_loop_state(\n        distribution_enabled=False,\n        live_publish_authorized=False,\n        economic_evidence_status=optimization["actual_outcome"]["economic_status"],\n        validation_failures=int(measurement.get("validation_failures", 0)),\n    )\n    log_event("economic_loop_state", **loop_state)
+    log_event("optimization_recorded", action=optimization["action"], economic_status=optimization["actual_outcome"]["economic_status"])
+    loop_state = build_loop_state(
+        distribution_enabled=False,
+        live_publish_authorized=False,
+        economic_evidence_status=optimization["actual_outcome"]["economic_status"],
+        validation_failures=int(measurement.get("validation_failures", 0)),
+    )
+    log_event("economic_loop_state", **loop_state)
     log_event("run_completed", research_count=len(opportunities), draft_count=len(drafts), next_action=decision["recommended_action"], optimization_action=optimization["action"])
 
 if __name__ == "__main__":
