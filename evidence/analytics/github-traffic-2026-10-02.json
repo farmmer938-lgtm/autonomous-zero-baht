@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "provider": "github_repository_traffic",
+  "source_url": "https://github.com/farmmer938-lgtm/autonomous-zero-baht/graphs/traffic",
+  "retrieved_at": "2026-10-02T01:57:01+00:00",
+  "verification_reference": "User-provided GitHub Insights > Traffic dashboard extract in this execution; official GitHub source URL preserved.",
+  "period": {
+    "days": 14,
+    "scope": "repository"
+  },
+  "metrics": {
+    "clones": 218,
+    "unique_cloners": 101,
+    "views": 5,
+    "unique_visitors": 1
+  },
+  "referring_sites": [
+    {
+      "site": "github.com",
+      "views": 1,
+      "unique_visitors": 1
+    }
+  ],
+  "popular_content": [
+    {
+      "content": "Overview",
+      "views": 4,
+      "unique_visitors": 1
+    },
+    {
+      "content": "/actions",
+      "views": 1,
+      "unique_visitors": 1
+    }
+  ],
+  "interpretation_guardrail": "These are GitHub repository traffic/activity measurements only. They do not establish conversions, transactions, revenue, cash received, or repeatability."
+}
