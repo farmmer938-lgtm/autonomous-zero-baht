@@ -3,7 +3,10 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from engine.economic_evidence import ingest_economic_evidence
+
 ROOT = Path(__file__).resolve().parents[1]
+
 
 def _read_decisions(path):
     if not path.exists():
@@ -18,7 +21,39 @@ def _read_decisions(path):
             continue
     return records
 
-def record_learning():
+
+def _economic_learning_state(economic_evidence=None, economic_authorized=False):
+    if economic_evidence is None:
+        return {
+            "status": "NOT_VERIFIED",
+            "ingested": False,
+            "metrics": {},
+            "reason": "No external economic evidence was supplied.",
+        }
+
+    result = ingest_economic_evidence(
+        economic_evidence,
+        authorized=economic_authorized,
+    )
+    if not result["ingested"]:
+        return {
+            "status": "NOT_VERIFIED",
+            "ingested": False,
+            "metrics": {},
+            "reason": result["errors"][0] if result["errors"] else "economic_ingestion_disabled",
+        }
+
+    return {
+        "status": "VERIFIED",
+        "ingested": True,
+        "metrics": result["metrics"],
+        "provider": result["provider"],
+        "transaction_reference": result["transaction_reference"],
+        "verification_reference": result["verification_reference"],
+    }
+
+
+def record_learning(economic_evidence=None, economic_authorized=False):
     decision_path = ROOT / "data" / "decisions" / "decision.log"
     records = _read_decisions(decision_path)
     recent = records[-10:]
@@ -26,6 +61,10 @@ def record_learning():
     total_research = sum(int(item.get("research_items", 0)) for item in recent)
     total_drafts = sum(int(item.get("drafts_created", 0)) for item in recent)
     total_failures = sum(int(item.get("validation_failures", 0)) for item in recent)
+    economic = _economic_learning_state(
+        economic_evidence,
+        economic_authorized=economic_authorized,
+    )
 
     if not records:
         next_step = "collect_more_verified_runs_before_pattern_change"
@@ -42,19 +81,13 @@ def record_learning():
         "drafts_observed": total_drafts,
         "validation_failures_observed": total_failures,
         "recommended_actions_observed": dict(actions),
-        "economic_evidence": {
-            "external_distribution": "not_verified",
-            "traffic": "not_verified",
-            "conversions": "not_verified",
-            "transactions": "not_verified",
-            "revenue": "not_verified",
-            "cash_received": "not_verified",
-        },
+        "economic_evidence": economic,
         "next_step": next_step,
     }
     out = ROOT / "data" / "analytics"
     out.mkdir(parents=True, exist_ok=True)
     (out / "learning.json").write_text(
-        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
     return result
