@@ -31,6 +31,26 @@ def load_runtime_gates(root: Path) -> dict[str, Any]:
         "economic_verification_authorized": economic.get("economic_verification", {}).get("authorized") is True,
     }
 
+def build_human_gate_checklist(gates: dict[str, Any]) -> dict[str, Any]:
+    """Expose named human gates as explicit states without granting authorization."""
+    distribution = bool(gates.get("distribution_enabled"))
+    live_publish = bool(gates.get("live_publish_authorized"))
+    economic = bool(gates.get("economic_verification_authorized"))
+    checks = {
+        "provider_account_setup": "NOT_VERIFIED",
+        "kyc_tax_bank_2fa_if_required": "NOT_VERIFIED",
+        "platform_policy_acceptance": "PENDING",
+        "live_publish_authorization": "VERIFIED" if live_publish else "PENDING",
+        "economic_ingestion_authorization": "VERIFIED" if economic else "PENDING",
+        "distribution_runtime_enabled": "VERIFIED" if distribution else "PENDING",
+    }
+    return {
+        "status": "READY" if all(value == "VERIFIED" for value in checks.values()) else "PENDING",
+        "checks": checks,
+        "authorization_changes_applied": False,
+    }
+
+
 def build_activation_readiness(gates: dict[str, Any]) -> dict[str, Any]:
     """Report missing human/system activation gates without changing any gate."""
     checks = {
