@@ -31,6 +31,22 @@ def load_runtime_gates(root: Path) -> dict[str, Any]:
         "economic_verification_authorized": economic.get("economic_verification", {}).get("authorized") is True,
     }
 
+def build_activation_readiness(gates: dict[str, Any]) -> dict[str, Any]:
+    """Report missing human/system activation gates without changing any gate."""
+    checks = {
+        "live_distribution_enabled": bool(gates.get("distribution_enabled")),
+        "live_publish_authorized": bool(gates.get("live_publish_authorized")),
+        "economic_verification_authorized": bool(gates.get("economic_verification_authorized")),
+    }
+    missing = [name for name, ok in checks.items() if not ok]
+    return {
+        "status": "READY" if not missing else "PENDING",
+        "checks": checks,
+        "missing_gates": missing,
+        "activation_changes_applied": False,
+    }
+
+
 def build_loop_state(*, distribution_enabled: bool, live_publish_authorized: bool,
                      economic_evidence_status: str="NOT_VERIFIED",
                      validation_failures: int=0) -> dict[str, Any]:

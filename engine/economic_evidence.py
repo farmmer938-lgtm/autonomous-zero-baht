@@ -1,7 +1,54 @@
 from datetime import datetime
 from math import isfinite
 from typing import Any
+from enum import Enum
 from urllib.parse import urlparse
+
+
+
+class EvidenceStatus(str, Enum):
+    RECEIVED = "RECEIVED"
+    PENDING_VERIFICATION = "PENDING_VERIFICATION"
+    VERIFIED = "VERIFIED"
+    REJECTED = "REJECTED"
+    NOT_VERIFIED = "NOT_VERIFIED"
+
+
+def normalize_provider_event(event: Any) -> dict:
+    """Normalize a provider event without treating the event itself as economic proof."""
+    if not isinstance(event, dict):
+        return {"status": EvidenceStatus.NOT_VERIFIED.value, "errors": ["invalid_event"]}
+    sponsorship = event.get("sponsorship")
+    if not isinstance(sponsorship, dict):
+        return {"status": EvidenceStatus.NOT_VERIFIED.value, "errors": ["missing_sponsorship_object"]}
+    reference = str(sponsorship.get("id") or sponsorship.get("node_id") or "").strip()
+    if not reference:
+        return {"status": EvidenceStatus.NOT_VERIFIED.value, "errors": ["missing_transaction_reference"]}
+    return {
+        "status": EvidenceStatus.PENDING_VERIFICATION.value,
+        "provider": "github_sponsors",
+        "transaction_reference": reference,
+        "verification_required": True,
+        "errors": [],
+    }
+
+
+def reconcile_economic_evidence(evidence: Any, *, external_authoritative: bool = False,
+                                authorized: bool = False, synthetic: bool = False) -> dict:
+    """Classify evidence through explicit provenance and authorization gates."""
+    if synthetic:
+        return {"status": EvidenceStatus.NOT_VERIFIED.value, "verified": False,
+                "ingested": False, "errors": ["synthetic_evidence_not_verifiable"]}
+    result = validate_economic_evidence(evidence)
+    if not result["verified"]:
+        return {**result, "status": EvidenceStatus.REJECTED.value, "ingested": False}
+    if not external_authoritative:
+        return {**result, "status": EvidenceStatus.PENDING_VERIFICATION.value, "ingested": False,
+                "errors": ["authoritative_provider_evidence_required"]}
+    if not authorized:
+        return {**result, "status": EvidenceStatus.PENDING_VERIFICATION.value, "ingested": False,
+                "errors": ["economic_ingestion_disabled"]}
+    return {**result, "status": EvidenceStatus.VERIFIED.value, "ingested": True, "errors": []}
 
 ECONOMIC_METRICS = {
     "transaction_amount",

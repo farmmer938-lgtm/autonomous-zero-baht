@@ -1,6 +1,6 @@
 import unittest
 from pathlib import Path
-from engine.economic_loop import GateStatus, LoopState, build_loop_state, load_runtime_gates, validate_provider_event
+from engine.economic_loop import GateStatus, LoopState, build_loop_state, load_runtime_gates, validate_provider_event, build_activation_readiness
 
 class EconomicLoopTests(unittest.TestCase):
     def test_runtime_gates_are_loaded_from_safe_config(self):
@@ -28,5 +28,22 @@ class EconomicLoopTests(unittest.TestCase):
         self.assertTrue(result["verification_required"])
     def test_invalid_provider_event(self):
         self.assertEqual(validate_provider_event({})["status"],GateStatus.NOT_VERIFIED.value)
+
+    def test_activation_readiness_reports_missing_gates_without_mutation(self):
+        gates = load_runtime_gates(Path(__file__).resolve().parents[1])
+        result = build_activation_readiness(gates)
+        self.assertEqual(result["status"], "PENDING")
+        self.assertTrue(result["missing_gates"])
+        self.assertFalse(result["activation_changes_applied"])
+
+    def test_activation_readiness_is_ready_only_when_all_gates_are_true(self):
+        result = build_activation_readiness({
+            "distribution_enabled": True,
+            "live_publish_authorized": True,
+            "economic_verification_authorized": True,
+        })
+        self.assertEqual(result["status"], "READY")
+        self.assertEqual(result["missing_gates"], [])
+
 
 if __name__=="__main__": unittest.main()

@@ -1,7 +1,7 @@
 import math
 import unittest
 
-from engine.economic_evidence import validate_economic_evidence
+from engine.economic_evidence import validate_economic_evidence, reconcile_economic_evidence, normalize_provider_event
 
 
 class EconomicEvidenceValidatorTests(unittest.TestCase):
@@ -94,6 +94,27 @@ class EconomicEvidenceValidatorTests(unittest.TestCase):
         result = validate_economic_evidence(evidence)
         self.assertFalse(result["verified"])
         self.assertIn("invalid_currency", result["errors"])
+
+    def test_provider_event_is_pending_until_authoritative_evidence(self):
+        result = normalize_provider_event({"action": "created", "sponsorship": {"id": "sp-1"}})
+        self.assertEqual(result["status"], "PENDING_VERIFICATION")
+        self.assertTrue(result["verification_required"])
+
+    def test_synthetic_evidence_can_never_verify(self):
+        result = reconcile_economic_evidence(self.valid(), external_authoritative=True, authorized=True, synthetic=True)
+        self.assertEqual(result["status"], "NOT_VERIFIED")
+        self.assertFalse(result["ingested"])
+
+    def test_non_authoritative_evidence_stays_pending(self):
+        result = reconcile_economic_evidence(self.valid(), external_authoritative=False, authorized=True)
+        self.assertEqual(result["status"], "PENDING_VERIFICATION")
+        self.assertFalse(result["ingested"])
+
+    def test_authoritative_evidence_requires_ingestion_authorization(self):
+        result = reconcile_economic_evidence(self.valid(), external_authoritative=True, authorized=False)
+        self.assertEqual(result["status"], "PENDING_VERIFICATION")
+        self.assertIn("economic_ingestion_disabled", result["errors"])
+
 
 if __name__ == "__main__":
     unittest.main()
