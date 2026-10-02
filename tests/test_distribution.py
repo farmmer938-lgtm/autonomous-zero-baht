@@ -34,6 +34,39 @@ class DistributionGateTests(unittest.TestCase):
         self.assertIn("missing_verification_reference", result["errors"])
         self.assertEqual(result["status"], "NOT_VERIFIED")
 
+    def test_empty_metrics_are_not_verified(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {},
+        })
+        self.assertFalse(result["verified"])
+        self.assertIn("missing_metrics", result["errors"])
+
+    def test_naive_retrieved_at_is_not_verified(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 1},
+        })
+        self.assertFalse(result["verified"])
+        self.assertIn("invalid_retrieved_at", result["errors"])
+
+    def test_negative_metrics_are_not_verified(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": -1},
+        })
+        self.assertFalse(result["verified"])
+        self.assertIn("negative_metric:clicks", result["errors"])
+
     def test_valid_external_evidence_is_structurally_verifiable(self):
         result = validate_external_evidence({
             "provider": "example",
