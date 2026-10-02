@@ -163,6 +163,34 @@ class DistributionGateTests(unittest.TestCase):
         self.assertEqual(evidence["metrics"]["revenue"], "not_verified")
         self.assertEqual(evidence["metrics"]["cash_received"], "not_verified")
 
+    def test_measurement_verification_delegates_to_external_evidence_validator(self):
+        from engine.measure import verify_external_evidence
+
+        result = verify_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 0},
+        })
+        self.assertTrue(result["verified"])
+        self.assertEqual(result["status"], "VERIFIED")
+
+    def test_measurement_verification_keeps_invalid_evidence_out_of_learn(self):
+        from engine.measure import verify_external_evidence
+
+        result = verify_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 1},
+        })
+        self.assertFalse(result["verified"])
+        self.assertEqual(result["status"], "NOT_VERIFIED")
+        self.assertIn("invalid_retrieved_at", result["errors"])
+
 
 if __name__ == "__main__":
+
     unittest.main()
