@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "mode": "readiness",
+  "live_distribution": {"enabled": false, "authorized": false},
+  "economic_verification": {
+    "enabled": true,
+    "authorized": false,
+    "status": "NOT_VERIFIED",
+    "provider": "github_sponsors",
+    "webhook_events_allowed": true,
+    "provider_side_evidence_required": true
+  },
+  "human_gates": [
+    "provider_account_setup",
+    "kyc_tax_bank_2fa_if_required",
+    "platform_policy_acceptance",
+    "live_publish_authorization",
+    "economic_ingestion_authorization"
+  ],
+  "zero_baht_guard": true
+}
