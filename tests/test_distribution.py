@@ -1,5 +1,6 @@
 import unittest
 
+
 from engine.analytics import empty_economic_evidence, validate_external_evidence
 from engine.distribution import build_distribution_plan, dry_run_distribution, publish
 
@@ -43,6 +44,39 @@ class DistributionGateTests(unittest.TestCase):
         })
         self.assertTrue(result["verified"])
         self.assertEqual(result["status"], "VERIFIED")
+
+    def test_invalid_retrieved_at_is_not_verified(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "not-a-date",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 1},
+        })
+        self.assertFalse(result["verified"])
+        self.assertIn("invalid_retrieved_at", result["errors"])
+
+    def test_boolean_and_non_finite_metrics_are_not_verified(self):
+        for value, expected_error in [
+            (True, "non_numeric_metric:clicks"),
+            (float("nan"), "non_finite_metric:clicks"),
+            (float("inf"), "non_finite_metric:clicks"),
+        ]:
+            result = validate_external_evidence({
+                "provider": "example",
+                "retrieved_at": "2026-10-02T00:00:00+00:00",
+                "source_url": "https://example.com/dashboard",
+                "verification_reference": "external-record-123",
+                "metrics": {"clicks": value},
+            })
+            self.assertFalse(result["verified"])
+            self.assertIn(expected_error, result["errors"])
+
+    def test_invalid_evidence_shape_is_not_verified(self):
+        result = validate_external_evidence(None)
+        self.assertFalse(result["verified"])
+        self.assertEqual(result["status"], "NOT_VERIFIED")
+        self.assertIn("invalid_evidence", result["errors"])
 
     def test_empty_economic_evidence_does_not_invent_numbers(self):
         evidence = empty_economic_evidence()
