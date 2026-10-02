@@ -1,6 +1,6 @@
 import unittest
 from pathlib import Path
-from engine.economic_loop import GateStatus, LoopState, build_loop_state, load_runtime_gates, validate_provider_event, build_activation_readiness
+from engine.economic_loop import GateStatus, LoopState, build_loop_state, load_runtime_gates, validate_provider_event, build_activation_readiness, build_human_gate_checklist
 
 class EconomicLoopTests(unittest.TestCase):
     def test_runtime_gates_are_loaded_from_safe_config(self):
@@ -35,6 +35,19 @@ class EconomicLoopTests(unittest.TestCase):
         self.assertEqual(result["status"], "PENDING")
         self.assertTrue(result["missing_gates"])
         self.assertFalse(result["activation_changes_applied"])
+
+    def test_human_gate_checklist_is_pending_without_authorization(self):
+        result = build_human_gate_checklist({
+            "distribution_enabled": False,
+            "live_publish_authorized": False,
+            "economic_verification_authorized": False,
+        })
+        self.assertEqual(result["status"], "PENDING")
+        self.assertEqual(result["checks"]["provider_account_setup"], "NOT_VERIFIED")
+        self.assertEqual(result["checks"]["kyc_tax_bank_2fa_if_required"], "NOT_VERIFIED")
+        self.assertEqual(result["checks"]["live_publish_authorization"], "PENDING")
+        self.assertFalse(result["authorization_changes_applied"] if "authorization_changes_applied" in result else result["authorization_changes_applied"])
+
 
     def test_activation_readiness_is_ready_only_when_all_gates_are_true(self):
         result = build_activation_readiness({
