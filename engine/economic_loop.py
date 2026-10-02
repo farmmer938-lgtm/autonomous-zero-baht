@@ -1,7 +1,9 @@
 """Safe autonomous economic-loop state machine."""
 from datetime import datetime, timezone
 from enum import Enum
+from pathlib import Path
 from typing import Any
+import json
 
 class LoopState(str, Enum):
     RESEARCH="RESEARCH"; CREATE="CREATE"; VALIDATE="VALIDATE"; PUBLISH="PUBLISH"
@@ -12,6 +14,22 @@ class GateStatus(str, Enum):
     VERIFIED="VERIFIED"; PENDING="PENDING"; BLOCKED="BLOCKED"; NOT_VERIFIED="NOT_VERIFIED"
 
 def utc_now(): return datetime.now(timezone.utc).isoformat()
+
+def load_runtime_gates(root: Path) -> dict[str, Any]:
+    """Load activation gates from versioned config without granting authorization."""
+    distribution = json.loads((root / "config" / "distribution.json").read_text(encoding="utf-8"))
+    economic = json.loads((root / "config" / "economic_loop.json").read_text(encoding="utf-8"))
+    external_gate = distribution.get("external_platform_gate", {})
+    live = economic.get("live_distribution", {})
+    return {
+        "distribution_enabled": distribution.get("enabled") is True,
+        "live_publish_authorized": (
+            external_gate.get("live_publish_authorized") is True
+            and live.get("enabled") is True
+            and live.get("authorized") is True
+        ),
+        "economic_verification_authorized": economic.get("economic_verification", {}).get("authorized") is True,
+    }
 
 def build_loop_state(*, distribution_enabled: bool, live_publish_authorized: bool,
                      economic_evidence_status: str="NOT_VERIFIED",
