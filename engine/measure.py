@@ -38,3 +38,17 @@ def verify_external_evidence(evidence: dict[str, Any]) -> dict[str, Any]:
     from engine.analytics import validate_external_evidence
 
     return validate_external_evidence(evidence)
+
+
+def capture_external_evidence(evidence: dict[str, Any], path: str | Path) -> dict[str, Any]:
+    """Validate and persist only externally captured evidence that is VERIFIED."""
+    result = verify_external_evidence(evidence)
+    if not result["verified"]:
+        raise ValueError("NOT_VERIFIED: external evidence was rejected")
+    destination = Path(path)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_text(
+        json.dumps({**evidence, "status": "VERIFIED"}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return result
