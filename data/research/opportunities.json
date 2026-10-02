@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393243+00:00"
+    "researched_at": "2026-10-02T08:31:20.140670+00:00"
   },
   {
     "title": "NVIDIA ประกาศแผนซื้อหุ้นคืนครั้งใหญ่ วงเงิน 1.5 แสนล้านดอลลาร์",
@@ -24,15 +24,15 @@
     "source": "https://www.blognone.com/atom.xml",
     "published": "Wed, 30 Sep 2026 17:22:52 +0000",
     "matched_keywords": [
-      "ราคา",
-      "วิธี"
+      "วิธี",
+      "ราคา"
     ],
     "keyword_score": 2,
     "intent_score": 4,
     "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.394950+00:00"
+    "researched_at": "2026-10-02T08:31:20.142908+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,7 +48,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.394520+00:00"
+    "researched_at": "2026-10-02T08:31:20.141988+00:00"
   },
   {
     "title": "เปิดตัว Gemini 4 Argon เอาชนะโมเดลคู่แข่งได้เกือบหมด แก้ปัญหาเขียนโค้ดไม่เก่งได้แล้ว",
@@ -64,7 +64,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.394785+00:00"
+    "researched_at": "2026-10-02T08:31:20.142735+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -80,7 +80,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.392851+00:00"
+    "researched_at": "2026-10-02T08:31:20.140190+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -96,14 +96,30 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393698+00:00"
+    "researched_at": "2026-10-02T08:31:20.141128+00:00"
   },
   {
-    "title": "OpenAI อัปเดต GPT-6.1 Sol ชูจุดเด่นทำงานใกล้เคียง Astra ในราคาแค่ 1 ใน 5",
-    "url": "https://www.blognone.com/node/151782",
-    "summary": "OpenAI อัปเดต GPT-6.1 Sol ชูจุดเด่นทำงานใกล้เคียง Astra ในราคาแค่ 1 ใน 5 Body OpenAI อัปเดตโมเดล AI รุ่นเคยบนแต่ตอนนี้เป็นรุ่นกลาง Sol ในเวอร์ชันล่าสุด GPT-6.1 Sol โดยชูจุดเด่นเรื่องความสามารถ เกือบ เท่ากับ Astra แต่ราคาใช้งานถูกกว่าคือ 1 ใน 5 ของ Astra เท่านั้น ราคาของ GPT-6.1 Sol เท่ากับเวอร์ชัน 6 คือ 2/10 ดอลลาร์ต่อ อินพุท/เอาท์พุท 1M โทเค็น ส่วนแคชอินพุท 0.10 ดอลลาร์ ลดลงครึ่งหนึ่งจาก GPT-6 Sol ผลการทดสอบด้านการเขียนโค้ด DeepSWE v1.1 ทำคะแนนออกมาได้ใกล้เคียงกับ GPT-6 Astra, งานเอกสาร GDP.pdf ทำคะแนนได้สูงกว่า Opus 5.5, ด้านเวิร์กโฟลว์ AutomationBench ก็มีคะแนนสูงกว่า Opus 5.5 เล็กน้อย ซึ่งทั้งหมด OpenAI ก็ย้ำว่าต้นทุนใช้งานนั้นต่ำกว่ามาก GPT‑6.1 Sol เริ่มใช้งานได้ตั้งแต่วันนี้สำหรับลูกค้า Plus, Pro, Business, Enterprise และ Edu ผ่าน ChatGPT Work และ Codex ก่อน ส่วนใน Chat ยังไม่มีให้ใช้งานตอนนี้ สำหรับนักพัฒนาสามารถเรียกใช้โมเดลนี้ได้ผ่าน API gpt-6.1-sol และจะมีเวอร์ชัน GPT-6.1 Sol Ultrafast ที่ทำงานเร็วขึ้นและใช้โทเค็นมากขึ้น 8 เท่าออกมาด้วย ที่มา: OpenAI arjin Wed, 30/09/2026 - 1",
+    "title": "Salesforce ซื้อกิจการ Listen Labs สตาร์ทอัปพัฒนา AI สำหรับค้นหา Customer Insight",
+    "url": "https://www.blognone.com/node/151790",
+    "summary": "Salesforce ซื้อกิจการ Listen Labs สตาร์ทอัปพัฒนา AI สำหรับค้นหา Customer Insight Body Salesforce ประกาศซื้อกิจการ Listen Labs สตาร์ทอัปที่พัฒนาแพลตฟอร์มวิจัยพฤติกรรมลูกค้าด้วย AI รวมถึงสร้างแบบจำลองการตัดสินใจของมนุษย์ ซึ่ง Salesforce บอกว่าดีลนี้จะนำมาเสริมความสามารถแพลตฟอร์มบริหารความสัมพันธ์ลูกค้า (CRM) ให้เข้าใจสิ่งที่ลูกค้าคิดตัดสินใจกระทำได้ดียิ่งกว่าการทำแบบสอบถามวิจัยดั้งเดิม Alfred Wahlforss ซีอีโอและผู้ร่วมก่อตั้ง Listen Labs อธิบายว่าทุกธุรกิจต่างอยากฟังความคิดจากลูกค้าทุกคน แต่วิธีที่มีประโยชน์ในการประยุกต์ใช้นั้นมีไม่มาก สิ่งที่บริษัทพัฒนาคือการนำ AI มาเรียนรู้จากสถานการณ์จริง รวมถึงออกแบบโมเดลทดลองว่าหากทำแบบนี้ลูกค้าจะตัดสินใจแบบใดในแต่ละขั้นตอน ดีลนี้ไม่มีการเปิดเผยมูลค่าอย่างเป็นทางการ แต่มีตัวเลขรายงานว่าอยู่ราว 2 พันล้านดอลลาร์ ที่มา: Salesforce และ Tech Times arjin Thu, 01/10/2026 - 18:52",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 11:11:14 +0000",
+    "published": "Thu, 01 Oct 2026 11:52:50 +0000",
+    "matched_keywords": [
+      "วิธี"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-02T08:31:20.142544+00:00"
+  },
+  {
+    "title": "Micron ระบุยอดผลิตของปี 2027 ถูกจองไป 75% แล้ว ยอดจองปี 2028 ยังแน่น บางรายจองไปถึง 2030",
+    "url": "https://www.blognone.com/node/151794",
+    "summary": "Micron ระบุยอดผลิตของปี 2027 ถูกจองไป 75% แล้ว ยอดจองปี 2028 ยังแน่น บางรายจองไปถึง 2030 Body Micron รายงานผลประกอบการไตรมาสที่ 4 ของปีงบประมาณ 2026 โดยคำถามสำคัญคือบริษัทมองเห็นตลาดในอนาคตเป็นอย่างไรบ้าง หลังจากปีนี้แรมขาดแคลนจนบริษัทแรมล้วนทำกำไรได้ดีถ้วนหน้า Manish Bhatia COO ของ Micron ระบุว่าความต้องการสินค้ายังคงสูงมาก หากนับกำลังผลิตของปี 2027 ตอนนี้ถูกจองไปแล้วถึง 75% และหากนับออกไปถึงปี 2030 ก็ยังถูกจองไปถึง 35% โดยยอดจองนี้เป็นรายงานรวมกำลังผลิตสินค้าทุกประเภท เขาระบุว่ายอดแรมโดยตรงนั้นต่ำกว่าเล็กน้อยขณะที่ยอด NAND นั้นสูงกว่าเล็กน้อย โดยระหว่างนี้ก็มีการเจรจาจองกำลังผลิตเพิ่มขึ้นเรื่อยๆ Bhatia ยังระบุว่ามองไม่เห็นว่ากำลังผลิตจะเพียงพอต่อความต้องการเมื่อใด นอกจากนี้สัญญาจองกำลังผลิตล่วงหน้าบางส่วนยังเปิดช่องเจรจาราคาส่งมอบตามราคาตลาดอีกครั้ง Scott DeBoer CTO ของบริษัทยังพูดถึงการแข่งขันจากจีนว่าตอนนี้ Micron ใช้เทคโนโลยีนำอยู่สองช่วงตัว โดยเฉพาะเทคโนโลยี 1-gamma ของบริษัทใช้เทคโนโลยีการผลิต EUV (ซึ่งบริษัทแรมจีนซื้อเครื่องจาก ASML ไม่ได้) และในอนาคตทั้ง EUV และความเชี่ยวชาญขอ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 02 Oct 2026 07:54:30 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -112,23 +128,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.395402+00:00"
-  },
-  {
-    "title": "OpenAI ออกแพ็คเกจใหม่ Pro $500 เพิ่มโควต้าใช้งาน พร้อมโหมด Ultrafast เบิร์นโทเค็นเร็วกว่าเดิม",
-    "url": "https://www.blognone.com/node/151783",
-    "summary": "OpenAI ออกแพ็คเกจใหม่ Pro $500 เพิ่มโควต้าใช้งาน พร้อมโหมด Ultrafast เบิร์นโทเค็นเร็วกว่าเดิม Body ดูเหมือนแพ็คเกจใช้งาน AI เยอะแค่ไหนก็ยังไม่พอ OpenAI เลยออกแพ็คเกจราคาแพงที่สุดตัวใหม่ในงาน DevDay เมื่อคืนนี้ ChatGPT Pro 500 ราคา 500 ดอลลาร์ต่อเดือนตามชื่อ (ประมาณ 17,000 บาท) สูงกว่าแพ็คเกจแพงที่สุดปัจจุบัน Pro 200 ซึ่ง OpenAI ก็ประกาศด้วยว่า Pro 200 ที่ ปิดรับสมัครไปชั่วคราวหลังจากเปิดตัว Astra จะกลับมาให้ผู้ใช้งานสมัครอัปเกรดได้แล้วด้วย นอกจากโควต้าใช้งานที่มากขึ้นตามเงินที่จ่ายไป OpenAI บอกว่าลูกค้า Pro 500 จะเป็นกลุ่มเดียวที่สามารถเลือกเปิดใช้งานโหมด Ultrafast ได้ ซึ่งเป็นโหมดที่ทำให้ใช้งานโมเดลขั้นสูงพร้อมกับความเร็วในการทำงานที่มากกว่าระดับ 300 โทเค็นต่อวินาที ทั้งนี้หากโควต้าใช้งานเต็มก็สามารถซื้อเครดิตเพิ่มเติมได้ แต่ลูกค้า Pro 100, Pro 200 จะไม่สามารถใช้ Ultrafast ได้ แม้ซื้อเครดิตเพิ่ม OpenAI ยังปรับปรุงเงื่อนไขการใช้งานของแพ็คเกจ Pro 200 โดยโควต้าใช้งานผ่าน Codex และ Work ลดลงเป็น 10 เท่าของ Plus จากเดิมได้ 20 เท่า และปริมาณใช้งาน GPT-6 Pro ผ่าน ChatGPT ลดลงจาก 200 เป็น 100",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 11:32:21 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.395293+00:00"
+    "researched_at": "2026-10-02T08:31:20.142163+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -144,7 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.392941+00:00"
+    "researched_at": "2026-10-02T08:31:20.140330+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -160,7 +160,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393976+00:00"
+    "researched_at": "2026-10-02T08:31:20.141436+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -176,35 +176,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393776+00:00"
-  },
-  {
-    "title": "เป็นทางการแล้ว! Donald Trump ลงนามคำสั่งเปลี่ยนคำเรียก Artificial Intelligence เป็น Super Intelligence",
-    "url": "https://www.blognone.com/node/151784",
-    "summary": "เป็นทางการแล้ว! Donald Trump ลงนามคำสั่งเปลี่ยนคำเรียก Artificial Intelligence เป็น Super Intelligence Body ประธานาธิบดี Donald Trump ลงนามคำสั่งบริหาร (executive order) ให้หน่วยงานของรัฐบาลสหรัฐเปลี่ยนคำเรียก AI หรือ Artificial Intelligence มาเป็น Super Intelligence ใช้ตัวย่อ SI ตามที่เขาได้ ประกาศ ในที่ประชุมใหญ่สหประชาชาติเมื่อสัปดาห์ที่แล้ว โดยให้เหตุผลว่า AI รุ่นใหม่มีความสามารถที่ไม่ใช่แค่การเลียนแบบมนุษย์แล้ว แต่เป็นการขยายความสามารถของมนุษย์ คำสั่งนี้ระบุให้หน่วยงานของรัฐทั้งหมดใช้คำว่า Super Intelligence ในการสื่อสารที่เกี่ยวข้อง และหยุดใช้คำว่า Artificial Intelligence ทันที อย่างไรก็ตามคำสั่งไม่มีผลกับกฎหมายที่เกี่ยวข้องที่ใช้คำว่า AI ไปแล้ว ให้ต้องแก้ไขตามทันที รวมถึงคำสั่งในอดีตก็ไม่ต้องตามแก้ไขให้เป็น SI ด้วย ทั้งนี้คำสั่งของ Trump ระบุให้หน่วยงานที่เกี่ยวข้องกำหนดนิยามของคำว่า SI ในระดับรัฐบาลด้วยให้แล้วเสร็จภายใน 60 วัน ในวันเดียวกัน Trump ได้เชิญผู้บริหารบริษัทเทคโนโลยีรายใหญ่ด้าน AI SI มาหารือที่ทำเนียบขาว และลงนามข้อตกลงด้าน Super Intelligence ซึ่งรายชื่อที่ลงนามมี Su",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 15:52:14 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.395109+00:00"
-  },
-  {
-    "title": "[ไม่ยืนยัน] ซีอีโอใหม่ Apple กำหนดเป้าหมาย มีสินค้าสู่ตลาดเร็วขึ้น ไม่ต้องรองานประจำปี ลีนองค์กรให้การตัดสินใจเร็วขึ้น",
-    "url": "https://www.blognone.com/node/151785",
-    "summary": "[ไม่ยืนยัน] ซีอีโอใหม่ Apple กำหนดเป้าหมาย มีสินค้าสู่ตลาดเร็วขึ้น ไม่ต้องรองานประจำปี ลีนองค์กรให้การตัดสินใจเร็วขึ้น Body มีรายงานจาก Mark Gurman แห่ง Bloomberg คนเดิม เกี่ยวกับการปรับโครงสร้างบริหารของแอปเปิลในยุคซีอีโอ John Ternus ซึ่งมีประเด็นสำคัญคือ ออกสินค้าใหม่ถี่มากขึ้น ไม่ต้องรอรอบเปิดตัวต้นปี-กลางปี-ปลายปี แบบเดิม มีสินค้าใหม่ออกมาสู่ตลาดเร็วขึ้นตลอดปี กล้าทดลองตลาดมากขึ้นตามยุคสมัยของ AI ลดลำดับขั้นขององค์กร เพื่อให้การตัดสินใจและดำเนินการเร็วขึ้น นอกจากนี้ Ternus ยังพูดถึงการปรับโครงสร้างจำนวนพนักงานให้เหมาะสมมากขึ้น ซึ่งเป็นไปตามข่าวก่อนหน้านี้ทั้งการ ปลดพนักงานฝ่าย VR และ Fitness+ รวมถึงการทำเงินจากธุรกิจ Services ให้มากขึ้น ซึ่งมีข่าวก่อนหน้านี้ว่าเป็นสาเหตุให้ Phil Schiller ลาออกจากการดูแล App Store ที่มา: Bloomberg arjin Wed, 30/09/2026 - 23:16",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 16:16:48 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.395024+00:00"
+    "researched_at": "2026-10-02T08:31:20.141228+00:00"
   },
   {
     "title": "[ลือ] Apple เตรียมเปิดตัวจอสมาร์ทโฮมสินค้าใหม่ พร้อม Apple TV, HomePod mini อัปเกรด 13 ตุลาคมนี้",
@@ -218,7 +190,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.394871+00:00"
+    "researched_at": "2026-10-02T08:31:20.142825+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -232,7 +204,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393535+00:00"
+    "researched_at": "2026-10-02T08:31:20.140959+00:00"
+  },
+  {
+    "title": "WSL Containers เข้าสู่สถานะ GA พร้อมใช้งานจริงแล้ว",
+    "url": "https://www.blognone.com/node/151792",
+    "summary": "WSL Containers เข้าสู่สถานะ GA พร้อมใช้งานจริงแล้ว Body ไมโครซอฟท์ปล่อย WSL Containers คำสั่งสำหรับรันคอนเทนเนอร์ภายใต้วินโดวส์โดยตรง เป็นรุ่น GA พร้อมใช้งาน จากเดิมที่ต้องการ Docker Desktop หรือติดตั้ง Docker ในลินุกซ์ที่รันใน WSL อีกครั้ง ตัวสถาปัตยกรรมของ WSL Containers ยังคงเป็น Linux VM แบบเดียวกับ WSL ปกติ แต่ดัดแปลงเพื่อให้ทำงานคอนเทนเนอร์ร่วมกับวินโดวส์ได้โดยตรง เช่น การ mount โฟลเดอร์จากวินโดวส์เข้าไปในคอนเทนเนอร์ การใช้พอร์ตจะเหมือนเป็นการรันโปรแกรมจากวินโดวส์โดยตรง สำหรับลูกค้าองค์กรยังสามารถใช้ Intune และ Windows Defender ร่วมกับ WSL Containers ได้ด้วย ตอนนี้ฟีเจอร์ต่างๆ ใกล้เคียง docker ปกติมากแล้ว แต่ยังขาดคำสั่ง compose อยู่ โดยไมโครซอฟท์ยืนยันว่าจะมาในรอบต่อไป และทำงานร่วมกับไฟล์ compose.yaml เดิมได้ทันที ที่มา - Windows Blog lew Fri, 02/10/2026 - 05:47",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 01 Oct 2026 22:47:10 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-02T08:31:20.142383+00:00"
   },
   {
     "title": "Ubisoft รวมทีมสร้างเกมยิงตระกูล Tom Clancy มาอยู่ใต้ Massive Entertainment",
@@ -246,7 +232,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.394695+00:00"
+    "researched_at": "2026-10-02T08:31:20.142641+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -260,7 +246,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.394076+00:00"
+    "researched_at": "2026-10-02T08:31:20.141536+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -274,7 +260,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393878+00:00"
+    "researched_at": "2026-10-02T08:31:20.141337+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -288,7 +274,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393045+00:00"
+    "researched_at": "2026-10-02T08:31:20.140450+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -302,7 +288,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393145+00:00"
+    "researched_at": "2026-10-02T08:31:20.140565+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -316,7 +302,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393354+00:00"
+    "researched_at": "2026-10-02T08:31:20.140771+00:00"
+  },
+  {
+    "title": "Reddit ปิดบริการ RSS บอกเป็นช่องโหว่ให้โดนบ็อตมา Scraping ข้อมูล",
+    "url": "https://www.blognone.com/node/151793",
+    "summary": "Reddit ปิดบริการ RSS บอกเป็นช่องโหว่ให้โดนบ็อตมา Scraping ข้อมูล Body Reddit ประกาศปรับเปลี่ยนโครงสร้างพื้นฐานการกระจายข้อมูลหลายอย่าง ประเด็นสำคัญคือจะปิด data API และ RSS สำหรับให้แอพภายนอกเรียกใช้งาน เปลี่ยนไปให้เรียกจาก Developer Platform ที่ต้องลงทะเบียนก่อนใช้งานแทน Reddit อธิบายเหตุผลของการเปลี่ยนแปลงว่า กรณีของ RSS ถูกใช้ในการดึงข้อมูลขนาดใหญ่ (large-scale scraping) จึงประกาศหยุดซัพพอร์ต RSS ในวันที่ 13 พฤศจิกายน 2026 เปลี่ยนไปให้ดึงข้อมูลจาก Developer Platform ส่วน Data API ที่บ็อตและแอพภายนอกเข้าถึงได้ ก็จำเป็นต้องย้ายไปใช้ Developer Platform โดยลงทะเบียนนักพัฒนาภายใน 12 มกราคม 2017 ซึ่งตอนนี้มีแอพไปลงทะเบียนแล้วกว่า 14,000 ตัว ช่วงหลัง Reddit หันมาสร้างรายได้จากการขายข้อมูลมากขึ้น และ ไล่ฟ้อง ไล่ปิด ช่องทางการดูดข้อมูลฟรีโดยไม่จ่ายเงิน ที่มา - Reddit via TechCrunch mk Fri, 02/10/2026 - 12:41",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 02 Oct 2026 05:41:45 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-02T08:31:20.142298+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -330,7 +330,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393618+00:00"
+    "researched_at": "2026-10-02T08:31:20.141044+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -344,7 +344,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.394252+00:00"
+    "researched_at": "2026-10-02T08:31:20.141720+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -358,7 +358,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.393436+00:00"
+    "researched_at": "2026-10-02T08:31:20.140855+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -372,7 +372,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.394439+00:00"
+    "researched_at": "2026-10-02T08:31:20.141903+00:00"
   },
   {
     "title": "KBTG Techtopia: Human of Tomorrow งานรวมแนวคิดที่นำให้ \"มนุษย์ของวันพรุ่งนี้\" เป็นนายของ AI ที่ทำงานที่ AI ทดแทนไม่ได้",
@@ -386,7 +386,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.394603+00:00"
+    "researched_at": "2026-10-02T08:31:20.142075+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -400,7 +400,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.392727+00:00"
+    "researched_at": "2026-10-02T08:31:20.140056+00:00"
+  },
+  {
+    "title": "Google Japan เปิดตัวต้นแบบคีย์บอร์ดสายพาน ปุ่มกดหมุนวนไปเรื่อย ๆ ทำให้พิมพ์นิ้วเดียวสะดวกขึ้น",
+    "url": "https://www.blognone.com/node/151791",
+    "summary": "Google Japan เปิดตัวต้นแบบคีย์บอร์ดสายพาน ปุ่มกดหมุนวนไปเรื่อย ๆ ทำให้พิมพ์นิ้วเดียวสะดวกขึ้น Body กูเกิลประเทศญี่ปุ่นเปิดตัวคีย์บอร์ดต้นแบบประจำปีตามธรรมเนียมที่นำมาทดแทน April Fools ในทุกวันที่ 1 ตุลาคม (101 = เลขมาตรฐานสเป็กคีย์บอร์ด) ซึ่งปีนี้ก็เป็นคีย์บอร์ดลำดับที่ 15 แล้ว (ตัวอย่าง 2021 , 2022 , 2023 , 2024 , 2025 ) โดยปีนี้เป็นคีย์บอร์ดที่ได้แรงบันดาลใจจากซูชิสายพาน เพราะมันคือคีย์บอร์ดสายพาน! กูเกิลบอกว่าคีย์บอร์ดดั้งเดิมนั้นออกแบบมาให้ใช้สองมือในการพิมพ์ต่อเนื่อง ทีนี้ถ้าผู้ใช้งานสะดวกพิมพ์แค่มือเดียวหรือนิ้วเดียว บนคีย์บอร์ดแบบเดิมก็ต้องขยับแขนไปมาเยอะมาก จะดีกว่าไหมถ้าคีย์บอร์ดเป็นฝ่ายขยับเข้าหาแทน นี่จึงเป็นที่มาของคีย์บอร์ดสายพานที่ปุ่มกดหมุนวนไปตลอด เหมือนเช่นทุกปี กูเกิลโอเพนซอร์สต้นแบบคีย์บอร์ดสายพานนี้ไว้ที่ Github ให้ไปสร้างขึ้นเองต่อได้ ที่มา: กูเกิลญี่ปุ่น arjin Thu, 01/10/2026 - 19:03",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 01 Oct 2026 12:03:51 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-02T08:31:20.142462+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -414,21 +428,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.394157+00:00"
-  },
-  {
-    "title": "ASUS ประกาศเปิดตัว ProArt 16 โน้ตบุ๊กชิป RTX Spark วันที่ 8 ตุลาคมนี้",
-    "url": "https://www.blognone.com/node/151781",
-    "summary": "ASUS ประกาศเปิดตัว ProArt 16 โน้ตบุ๊กชิป RTX Spark วันที่ 8 ตุลาคมนี้ Body ASUS ประกาศผ่านช่องทางโซเชียลมีเดียในจีน เตรียมเปิดตัวโน้ตบุ๊ก ASUS ProArt 16 RTX Spark ในวันที่ 8 ตุลาคม 2026 โดยชูจุดเด่นเป็น \"Agentic PC เครื่องแรกของโลก\" ซึ่งถือเป็นหนึ่งในผู้ผลิตรายแรกๆ ที่ระบุวันเวลาชัดเจนสำหรับอุปกรณ์สาย RTX Spark ตัวเครื่องมาพร้อมชิปประมวลผล NVIDIA RTX Spark N1X ที่รวมสถาปัตยกรรมกราฟิก Blackwell เข้ากับซีพียู Grace แบบ 20 คอร์ และรองรับหน่วยความจำแบบ Unified Memory สูงสุด 128GB อย่างไรก็ตาม โปสเตอร์ประชาสัมพันธ์ยังไม่ระบุชัดว่ากำหนดการวันที่ 8 ตุลาคมนี้ จะเป็นการเปิดตัวอย่างเป็นทางการ เปิดสั่งจองล่วงหน้า หรือวางจำหน่ายจริง ก่อนหน้านี้ NVIDIA เคยเปิดเผยว่า พีซีระบบปฏิบัติการ Windows ที่ใช้ชิป RTX Spark จากพาร์ทเนอร์ผู้ผลิต 6 ราย จะเริ่มทยอยส่งมอบตั้งแต่เดือนตุลาคม 2026 เป็นต้นไป ขณะที่ Microsoft เองก็มีแผนเปิดตัวอุปกรณ์กลุ่มนี้ เช่น Surface Laptop Ultra และ Surface RTX Spark Dev Box ในช่วงปลายปีเช่นกัน ที่มา: VideoCardz ผ่านทาง ASUS Weibo GreenoxZ Wed, 30/09/2026 - 21:11",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 14:11:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-01T06:55:10.395203+00:00"
+    "researched_at": "2026-10-02T08:31:20.141620+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -442,6 +442,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-01T06:55:10.394360+00:00"
+    "researched_at": "2026-10-02T08:31:20.141821+00:00"
   }
 ]

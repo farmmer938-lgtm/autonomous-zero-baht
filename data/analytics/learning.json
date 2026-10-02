@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-01T06:55:10.401641+00:00",
+  "timestamp": "2026-10-02T08:31:20.148804+00:00",
   "scope": "operational_learning_only",
   "runs_considered": 10,
   "research_items_observed": 300,
@@ -14,7 +14,11 @@
     "conversions": "not_verified",
     "transactions": "not_verified",
     "revenue": "not_verified",
-    "cash_received": "not_verified"
+    "cash_received": "not_verified",
+    "status": "NOT_VERIFIED",
+    "ingested": false,
+    "metrics": {},
+    "reason": "No external economic evidence was supplied."
   },
   "next_step": "continue_research_create_validate_measure_and_keep_publish_disabled"
 }
