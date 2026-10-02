@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "publish_automatically": false,
+  "mode": "dry_run",
+  "provider": "github_pages",
+  "external_platform_gate": {
+    "status": "verified_eligible_pending_activation",
+    "platform": "GitHub Pages",
+    "repository_visibility_required": "public_for_github_free",
+    "repository_visibility_observed": "public",
+    "terms_review_required": true,
+    "human_activation_required": true,
+    "credentials_required_for_dry_run": false,
+    "live_publish_authorized": false,
+    "evidence": [
+      {
+        "claim": "GitHub Pages is available for public repositories on GitHub Free.",
+        "source": "https://docs.github.com/en/pages/getting-started-with-github-pages"
+      },
+      {
+        "claim": "GitHub Pages can publish from a branch or a GitHub Actions workflow.",
+        "source": "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"
+      },
+      {
+        "claim": "GitHub Acceptable Use Policies prohibit excessive automated bulk activity such as spamming and restrict promotional use.",
+        "source": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies"
+      }
+    ]
+  },
+  "activation_requirements": [
+    "human_authorization",
+    "final_content_review",
+    "platform_policy_check",
+    "pages_settings_activation",
+    "external_deployment_verification"
+  ]
+}
