@@ -25,6 +25,27 @@ class EconomicEvidenceValidatorTests(unittest.TestCase):
         self.assertTrue(result["verified"])
         self.assertEqual(result["status"], "VERIFIED")
 
+    def test_ingestion_stays_disabled_without_authorization(self):
+        from engine.economic_evidence import ingest_economic_evidence
+        result = ingest_economic_evidence(self.valid())
+        self.assertFalse(result["ingested"])
+        self.assertEqual(result["status"], "NOT_VERIFIED")
+        self.assertIn("economic_ingestion_disabled", result["errors"])
+
+    def test_authorized_ingestion_requires_verified_evidence(self):
+        from engine.economic_evidence import ingest_economic_evidence
+        result = ingest_economic_evidence(self.valid(), authorized=True)
+        self.assertTrue(result["ingested"])
+        self.assertEqual(result["status"], "VERIFIED")
+
+    def test_authorized_ingestion_rejects_invalid_evidence(self):
+        from engine.economic_evidence import ingest_economic_evidence
+        evidence = self.valid()
+        evidence["metrics"]["transaction_amount"] = -1
+        result = ingest_economic_evidence(evidence, authorized=True)
+        self.assertFalse(result["ingested"])
+        self.assertEqual(result["status"], "NOT_VERIFIED")
+
     def test_missing_transaction_reference_is_rejected(self):
         evidence = self.valid()
         del evidence["transaction_reference"]
