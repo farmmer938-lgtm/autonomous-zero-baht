@@ -1,7 +1,14 @@
 import unittest
-from engine.economic_loop import GateStatus, LoopState, build_loop_state, validate_provider_event
+from pathlib import Path
+from engine.economic_loop import GateStatus, LoopState, build_loop_state, load_runtime_gates, validate_provider_event
 
 class EconomicLoopTests(unittest.TestCase):
+    def test_runtime_gates_are_loaded_from_safe_config(self):
+        gates = load_runtime_gates(Path(__file__).resolve().parents[1])
+        self.assertFalse(gates["distribution_enabled"])
+        self.assertFalse(gates["live_publish_authorized"])
+        self.assertFalse(gates["economic_verification_authorized"])
+
     def test_disabled_distribution_stays_pending(self):
         state=build_loop_state(distribution_enabled=False,live_publish_authorized=False)
         self.assertEqual(state["status"],GateStatus.PENDING.value)
