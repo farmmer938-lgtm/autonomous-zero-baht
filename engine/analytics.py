@@ -10,6 +10,10 @@ ALLOWED_METRICS = {
     "transactions",
     "revenue",
     "cash_received",
+    "clones",
+    "unique_cloners",
+    "views",
+    "unique_visitors",
 }
 
 
@@ -87,7 +91,10 @@ def validate_external_evidence(evidence: dict) -> dict:
 def empty_economic_evidence() -> dict:
     return {
         "status": "NOT_VERIFIED",
-        "metrics": {key: "not_verified" for key in sorted(ALLOWED_METRICS)},
+        "metrics": {
+            key: "not_verified"
+            for key in sorted(ALLOWED_METRICS)
+        },
         "reason": "No external evidence has been ingested.",
     }
 
