@@ -67,6 +67,52 @@ class DistributionGateTests(unittest.TestCase):
         self.assertFalse(result["verified"])
         self.assertIn("negative_metric:clicks", result["errors"])
 
+
+    def test_zero_metric_is_valid(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 0},
+        })
+        self.assertTrue(result["verified"])
+        self.assertEqual(result["status"], "VERIFIED")
+
+    def test_unknown_metric_is_not_verified(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"sessions": 10},
+        })
+        self.assertFalse(result["verified"])
+        self.assertIn("unknown_metrics:sessions", result["errors"])
+
+    def test_invalid_source_url_is_not_verified(self):
+        for source_url in ("example.com/dashboard", "ftp://example.com/dashboard", "javascript:alert(1)"):
+            result = validate_external_evidence({
+                "provider": "example",
+                "retrieved_at": "2026-10-02T00:00:00+00:00",
+                "source_url": source_url,
+                "verification_reference": "external-record-123",
+                "metrics": {"clicks": 1},
+            })
+            self.assertFalse(result["verified"])
+            self.assertIn("invalid_source_url", result["errors"])
+
+    def test_invalid_metrics_type_is_not_verified(self):
+        result = validate_external_evidence({
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": ["clicks", 1],
+        })
+        self.assertFalse(result["verified"])
+        self.assertIn("invalid_metrics", result["errors"])
+
     def test_valid_external_evidence_is_structurally_verifiable(self):
         result = validate_external_evidence({
             "provider": "example",
