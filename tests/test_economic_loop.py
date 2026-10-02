@@ -46,7 +46,7 @@ class EconomicLoopTests(unittest.TestCase):
         self.assertEqual(result["checks"]["provider_account_setup"], "NOT_VERIFIED")
         self.assertEqual(result["checks"]["kyc_tax_bank_2fa_if_required"], "NOT_VERIFIED")
         self.assertEqual(result["checks"]["live_publish_authorization"], "PENDING")
-        self.assertFalse(result["authorization_changes_applied"] if "authorization_changes_applied" in result else result["authorization_changes_applied"])
+        self.assertFalse(result["authorization_changes_applied"])
 
 
     def test_activation_readiness_is_ready_only_when_all_gates_are_true(self):
