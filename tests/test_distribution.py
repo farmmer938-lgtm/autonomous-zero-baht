@@ -194,3 +194,47 @@ class DistributionGateTests(unittest.TestCase):
 if __name__ == "__main__":
 
     unittest.main()
+
+
+    def test_evidence_capture_writes_verified_record(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        from engine.measure import capture_external_evidence
+
+        evidence = {
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00+00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 7},
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "captured.json"
+            result = capture_external_evidence(evidence, path)
+            saved = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertEqual(result["status"], "VERIFIED")
+        self.assertEqual(saved["status"], "VERIFIED")
+        self.assertEqual(saved["metrics"]["clicks"], 7)
+
+    def test_evidence_capture_refuses_unverified_record(self):
+        import tempfile
+        from pathlib import Path
+        from engine.measure import capture_external_evidence
+
+        evidence = {
+            "provider": "example",
+            "retrieved_at": "2026-10-02T00:00:00",
+            "source_url": "https://example.com/dashboard",
+            "verification_reference": "external-record-123",
+            "metrics": {"clicks": 7},
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "captured.json"
+            try:
+                capture_external_evidence(evidence, path)
+            except ValueError as exc:
+                self.assertIn("NOT_VERIFIED", str(exc))
+            else:
+                self.fail("unverified evidence must not be written")
