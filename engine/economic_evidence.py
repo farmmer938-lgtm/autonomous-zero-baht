@@ -82,6 +82,16 @@ def validate_economic_evidence(evidence: Any) -> dict:
         metrics=metrics,
     )
 
+def ingest_economic_evidence(evidence: Any, *, authorized: bool = False) -> dict:
+    """Validate evidence, but keep ingestion disabled until explicit authorization."""
+    result = validate_economic_evidence(evidence)
+    if not authorized:
+        return {**result, "ingested": False, "status": "NOT_VERIFIED",
+                "errors": [*result["errors"], "economic_ingestion_disabled"]}
+    if not result["verified"]:
+        return {**result, "ingested": False}
+    return {**result, "ingested": True}
+
 def _is_timezone_aware_iso(value: Any) -> bool:
     try:
         parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
