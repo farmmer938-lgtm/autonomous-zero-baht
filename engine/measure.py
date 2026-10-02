@@ -30,3 +30,10 @@ def record_measurement(research_count, drafts_count, validations, decision):
         json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return record
+
+
+def verify_external_evidence(evidence: dict[str, Any]) -> dict[str, Any]:
+    """Validate externally captured evidence before it can enter LEARN."""
+    from engine.analytics import validate_external_evidence
+
+    return validate_external_evidence(evidence)
