@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,24 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140670+00:00"
-  },
-  {
-    "title": "NVIDIA ประกาศแผนซื้อหุ้นคืนครั้งใหญ่ วงเงิน 1.5 แสนล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151787",
-    "summary": "NVIDIA ประกาศแผนซื้อหุ้นคืนครั้งใหญ่ วงเงิน 1.5 แสนล้านดอลลาร์ Body NVIDIA ประกาศแผนซื้อหุ้นคืนจากนักลงทุนด้วยวงเงินเพิ่มเติมถึง 150,000 ล้านดอลลาร์ สูงสุดในประวัติศาสตร์ของตลาดหุ้นสหรัฐ โดยสถิติก่อนหน้านี้คือแอปเปิลที่ประกาศวงเงิน 110,000 ล้านดอลลาร์ ในปี 2024 เมื่อรวมกับวงเงินที่ประกาศก่อนหน้านี้ทำให้ NVIDIA มีแผนซื้อหุ้นคืนรวม 235,000 ล้านดอลลาร์ NVIDIA คาดว่าการซื้อหุ้นคืนรวมทั้งหมดจะเสร็จสิ้นภายในปีการเงินบริษัท 2028 การซื้อหุ้นคืนเป็นหนึ่งในวิธีการบริหารจัดการสินทรัพย์ของบริษัท เพราะทำให้จำนวนหุ้นของบริษัทลดลง ผลตอบแทนต่อจำนวนหุ้นจึงสูงขึ้น สะท้อนกลับไปได้ที่ราคาหุ้น ขณะเดียวกันยังเป็นการเพิ่มทางเลือกจ่ายผลตอบแทนให้ผู้ถือหุ้น รวมถึงส่งสัญญาณว่าราคาหุ้นปัจจุบันในมุมมองบริษัทนั้นยังมีราคาไม่สูงจนบริษัทยังนำเงินสดมาซื้อหุ้นเองได้ด้วย Jensen Huang ซีอีโอ NVIDIA บอกว่าการเติบโตที่เกี่ยวข้องกับ AI ทำให้บริษัทมีกระแสเงินสดเพียงพอสำหรับการลงทุนในเทคโนโลยีต่าง ๆ และยังสามารถคืนผลตอบแทนกับผู้ถือหุ้นได้ด้วย ที่มา: NVIDIA arjin Thu, 01/10/2026 - 00:22",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 17:22:52 +0000",
-    "matched_keywords": [
-      "วิธี",
-      "ราคา"
-    ],
-    "keyword_score": 2,
-    "intent_score": 4,
-    "opportunity_score": 6,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142908+00:00"
+    "researched_at": "2026-10-03T08:06:13.841009+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,23 +31,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141988+00:00"
-  },
-  {
-    "title": "เปิดตัว Gemini 4 Argon เอาชนะโมเดลคู่แข่งได้เกือบหมด แก้ปัญหาเขียนโค้ดไม่เก่งได้แล้ว",
-    "url": "https://www.blognone.com/node/151788",
-    "summary": "เปิดตัว Gemini 4 Argon เอาชนะโมเดลคู่แข่งได้เกือบหมด แก้ปัญหาเขียนโค้ดไม่เก่งได้แล้ว Body กูเกิลเปิดตัวโมเดลรุ่นใหญ่ Gemini 4 Argon ตามที่เคยพูดไว้ก่อนหน้านี้ โดยการกลับมาครั้งนี้ของ Gemini สามารถเอาชนะโมเดลคู่แข่งทั้ง GPT-6 Astra และ Claude Fable 5.1 ได้ในเกือบทุกการทดสอบ สิ่งที่เป็นจุดอ่อนที่สุดของโมเดลตระกูล Gemini คือเรื่องโค้ดดิ้ง (และเป็นเหตุให้ Gemini Pro 3.5 ออกไม่ได้ตามเป้า ) คราวนี้กลับมาด้วยคะแนนเบนช์มาร์ค DeepSWE v1.1 ที่ 77.9% เอาชนะโมเดลที่ดีที่สุดก่อนหน้านี้คือ GPT-6 Astra ทำไว้ 74.1% กับ Claude Opus 5.5 ทำไว้ 74.2% Vibe Code Bench ทำได้ 91.9% เทียบกับ Claude Fable 5.1 ทำไว้ 90.3% ส่วน FrontierSWE กับ Terminal-bench ยังแพ้ GPT-6 Astra และ Claude Opus 5.5 ตามลำดับ กูเกิลบอกว่าใช้ Gemini 4 Argon สำหรับงานเขียนโค้ดภายในมาสักระยะแล้ว มีทั้งงานแปลงโค้ด C/C++ เดิมมาเป็น Rust จำนวนระดับ 8 แสนบรรทัด และแปลงโค้ด Rust มาเป็นโค้ด Single Instruction, Multiple Data (SIMD) ทำให้ประสิทธิภาพดีขึ้น 2.7 เท่า ส่วนความสามารถด้านความปลอดภัยไซเบอร์ก็ทำได้ดีกว่า Gemini 3.8 Flash Cyber ที่เป็นโ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 23:21:52 +0000",
-    "matched_keywords": [
-      "แก้ปัญหา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142735+00:00"
+    "researched_at": "2026-10-03T08:06:13.842363+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -80,7 +47,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140190+00:00"
+    "researched_at": "2026-10-03T08:06:13.840322+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -96,39 +63,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141128+00:00"
-  },
-  {
-    "title": "Salesforce ซื้อกิจการ Listen Labs สตาร์ทอัปพัฒนา AI สำหรับค้นหา Customer Insight",
-    "url": "https://www.blognone.com/node/151790",
-    "summary": "Salesforce ซื้อกิจการ Listen Labs สตาร์ทอัปพัฒนา AI สำหรับค้นหา Customer Insight Body Salesforce ประกาศซื้อกิจการ Listen Labs สตาร์ทอัปที่พัฒนาแพลตฟอร์มวิจัยพฤติกรรมลูกค้าด้วย AI รวมถึงสร้างแบบจำลองการตัดสินใจของมนุษย์ ซึ่ง Salesforce บอกว่าดีลนี้จะนำมาเสริมความสามารถแพลตฟอร์มบริหารความสัมพันธ์ลูกค้า (CRM) ให้เข้าใจสิ่งที่ลูกค้าคิดตัดสินใจกระทำได้ดียิ่งกว่าการทำแบบสอบถามวิจัยดั้งเดิม Alfred Wahlforss ซีอีโอและผู้ร่วมก่อตั้ง Listen Labs อธิบายว่าทุกธุรกิจต่างอยากฟังความคิดจากลูกค้าทุกคน แต่วิธีที่มีประโยชน์ในการประยุกต์ใช้นั้นมีไม่มาก สิ่งที่บริษัทพัฒนาคือการนำ AI มาเรียนรู้จากสถานการณ์จริง รวมถึงออกแบบโมเดลทดลองว่าหากทำแบบนี้ลูกค้าจะตัดสินใจแบบใดในแต่ละขั้นตอน ดีลนี้ไม่มีการเปิดเผยมูลค่าอย่างเป็นทางการ แต่มีตัวเลขรายงานว่าอยู่ราว 2 พันล้านดอลลาร์ ที่มา: Salesforce และ Tech Times arjin Thu, 01/10/2026 - 18:52",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 01 Oct 2026 11:52:50 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142544+00:00"
-  },
-  {
-    "title": "Micron ระบุยอดผลิตของปี 2027 ถูกจองไป 75% แล้ว ยอดจองปี 2028 ยังแน่น บางรายจองไปถึง 2030",
-    "url": "https://www.blognone.com/node/151794",
-    "summary": "Micron ระบุยอดผลิตของปี 2027 ถูกจองไป 75% แล้ว ยอดจองปี 2028 ยังแน่น บางรายจองไปถึง 2030 Body Micron รายงานผลประกอบการไตรมาสที่ 4 ของปีงบประมาณ 2026 โดยคำถามสำคัญคือบริษัทมองเห็นตลาดในอนาคตเป็นอย่างไรบ้าง หลังจากปีนี้แรมขาดแคลนจนบริษัทแรมล้วนทำกำไรได้ดีถ้วนหน้า Manish Bhatia COO ของ Micron ระบุว่าความต้องการสินค้ายังคงสูงมาก หากนับกำลังผลิตของปี 2027 ตอนนี้ถูกจองไปแล้วถึง 75% และหากนับออกไปถึงปี 2030 ก็ยังถูกจองไปถึง 35% โดยยอดจองนี้เป็นรายงานรวมกำลังผลิตสินค้าทุกประเภท เขาระบุว่ายอดแรมโดยตรงนั้นต่ำกว่าเล็กน้อยขณะที่ยอด NAND นั้นสูงกว่าเล็กน้อย โดยระหว่างนี้ก็มีการเจรจาจองกำลังผลิตเพิ่มขึ้นเรื่อยๆ Bhatia ยังระบุว่ามองไม่เห็นว่ากำลังผลิตจะเพียงพอต่อความต้องการเมื่อใด นอกจากนี้สัญญาจองกำลังผลิตล่วงหน้าบางส่วนยังเปิดช่องเจรจาราคาส่งมอบตามราคาตลาดอีกครั้ง Scott DeBoer CTO ของบริษัทยังพูดถึงการแข่งขันจากจีนว่าตอนนี้ Micron ใช้เทคโนโลยีนำอยู่สองช่วงตัว โดยเฉพาะเทคโนโลยี 1-gamma ของบริษัทใช้เทคโนโลยีการผลิต EUV (ซึ่งบริษัทแรมจีนซื้อเครื่องจาก ASML ไม่ได้) และในอนาคตทั้ง EUV และความเชี่ยวชาญขอ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 02 Oct 2026 07:54:30 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142163+00:00"
+    "researched_at": "2026-10-03T08:06:13.841472+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -144,7 +79,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140330+00:00"
+    "researched_at": "2026-10-03T08:06:13.840512+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -160,7 +95,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141436+00:00"
+    "researched_at": "2026-10-03T08:06:13.841797+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -176,21 +111,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141228+00:00"
-  },
-  {
-    "title": "[ลือ] Apple เตรียมเปิดตัวจอสมาร์ทโฮมสินค้าใหม่ พร้อม Apple TV, HomePod mini อัปเกรด 13 ตุลาคมนี้",
-    "url": "https://www.blognone.com/node/151786",
-    "summary": "[ลือ] Apple เตรียมเปิดตัวจอสมาร์ทโฮมสินค้าใหม่ พร้อม Apple TV, HomePod mini อัปเกรด 13 ตุลาคมนี้ Body Mark Gurman แห่ง Bloomberg คนเดิม มีรายงานล่าสุดเกี่ยวกับจอสมาร์ทโฮมควบคุมอุปกรณ์ในบ้านของแอปเปิล ที่ มีข่าว มานานแต่ก็ ยังไม่เปิดตัว สักที โดยข้อมูลใหม่เขาบอกว่าแอปเปิลกำหนดเปิดตัวสินค้านี้ในวันที่ 13 ตุลาคม รวมทั้งสินค้าอื่นที่เป็นอุปกรณ์ภายในบ้าน ข้อมูลสเป็กจอสมาร์ทโฮมล่าสุดที่ Gurman บอกคือหน้าจอมีขนาด 6 นิ้ว ปรับการใช้งานได้ทั้งแบบตั้งโต๊ะหรือแขวนผนัง มีกล้อง FaceTime ด้านหน้า, มีไมโครโฟน-ลำโพงที่ฐาน, ขอบจอใหญ่เหมือน iPad รุ่นแรก ๆ, ไม่มีแบตเตอรี่ในตัว ต้องเสียบปลั๊กตลอดเวลา, ไม่มีปุ่มปรับระดับเสียง, ไม่มีปุ่มปิด-เปิดจอ ภาพรวมของหน้าจอนี้ทำให้เขานึกถึง iMac G4 ที่หน้าจอใหญ่และฐานด้านล่างเล็ก ๆ สินค้าที่จะเปิดตัวพร้อมกันในวันนั้นคือ Apple TV รุ่นใหม่ และ HomePod mini รุ่นใหม่ โดยทั้งสองสินค้านี้ไม่ได้เปลี่ยนแปลงการออกแบบภายนอก เป็นการอัปเกรดฮาร์ดแวร์ด้านใน โดยทั้งหมดแอปเปิลจะเน้นนำเสนอความสามารถการทำงานร่วมกับ Siri AI ใหม่ ซึ่งเป็นสาเหตุให้สินค้ากลุ่มนี้เลื่อนเปิดตัวมานานนับปีนั่นเ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 30 Sep 2026 18:05:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142825+00:00"
+    "researched_at": "2026-10-03T08:06:13.841551+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -204,35 +125,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140959+00:00"
-  },
-  {
-    "title": "WSL Containers เข้าสู่สถานะ GA พร้อมใช้งานจริงแล้ว",
-    "url": "https://www.blognone.com/node/151792",
-    "summary": "WSL Containers เข้าสู่สถานะ GA พร้อมใช้งานจริงแล้ว Body ไมโครซอฟท์ปล่อย WSL Containers คำสั่งสำหรับรันคอนเทนเนอร์ภายใต้วินโดวส์โดยตรง เป็นรุ่น GA พร้อมใช้งาน จากเดิมที่ต้องการ Docker Desktop หรือติดตั้ง Docker ในลินุกซ์ที่รันใน WSL อีกครั้ง ตัวสถาปัตยกรรมของ WSL Containers ยังคงเป็น Linux VM แบบเดียวกับ WSL ปกติ แต่ดัดแปลงเพื่อให้ทำงานคอนเทนเนอร์ร่วมกับวินโดวส์ได้โดยตรง เช่น การ mount โฟลเดอร์จากวินโดวส์เข้าไปในคอนเทนเนอร์ การใช้พอร์ตจะเหมือนเป็นการรันโปรแกรมจากวินโดวส์โดยตรง สำหรับลูกค้าองค์กรยังสามารถใช้ Intune และ Windows Defender ร่วมกับ WSL Containers ได้ด้วย ตอนนี้ฟีเจอร์ต่างๆ ใกล้เคียง docker ปกติมากแล้ว แต่ยังขาดคำสั่ง compose อยู่ โดยไมโครซอฟท์ยืนยันว่าจะมาในรอบต่อไป และทำงานร่วมกับไฟล์ compose.yaml เดิมได้ทันที ที่มา - Windows Blog lew Fri, 02/10/2026 - 05:47",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 01 Oct 2026 22:47:10 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142383+00:00"
-  },
-  {
-    "title": "Ubisoft รวมทีมสร้างเกมยิงตระกูล Tom Clancy มาอยู่ใต้ Massive Entertainment",
-    "url": "https://www.blognone.com/node/151789",
-    "summary": "Ubisoft รวมทีมสร้างเกมยิงตระกูล Tom Clancy มาอยู่ใต้ Massive Entertainment Body Ubisoft ประกาศชื่อสตูดิโอแห่งที่สองตาม ระบบใหม่ Creative House ที่แยก 5 บ้าน รับผิดชอบเกม 5 ประเภท โดยสตูดิโอ Creative House 1 คือ Vantage Studios รับผิดชอบแฟรนไชส์ดังๆ Assassin's Creed, Far Cry, Rainbow Six วันนี้ Creative House 2 ประกาศชื่อแล้วคือ Massive Entertainment มีฐานมาจากสตูดิโอเกมสวีเดนที่รับผิดชอบแฟรนไชส์ Tom Clancy’s The Division โดยจะดึงทีมที่รับผิดชอบเกมยิง Tom Clancy สายอื่น ได้แก่ Ghost Recon (พัฒนาโดย Ubisoft Paris) และ Splinter Cell (พัฒนาโดย Ubisoft Toronto) เข้ามาอยู่ภายใต้โครงสร้างใหม่ และใช้โลโก้ใหม่ของสตูดิโอด้วย (เท่ากับว่ามี Tom Clancy ทุกเกมยกเว้น Rainbow Six) นอกจากนี้ Massive Entertainment โฉมใหม่ ยังจะได้ สตูดิโอ Amazon Games Montreal เดิมที่ Ubisoft ซื้อกิจการมาตอนปลายปี 2025 เป็นเกมแฟรนไชส์ใหม่ชื่อ March of Giants เกมแนว MOBA 4v4 เข้ามาร่วมด้วย เท่ากับว่า Massive Entertainment โฉมใหม่ในระบบ Creative House 2 มีสตูดิโอใน 4 เมืองคือ Montréal, Paris, Sweden, Toronto ส่วนหัวหน้าสต",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 01 Oct 2026 00:57:58 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142641+00:00"
+    "researched_at": "2026-10-03T08:06:13.841301+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -246,7 +139,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141536+00:00"
+    "researched_at": "2026-10-03T08:06:13.841905+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -260,7 +153,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141337+00:00"
+    "researched_at": "2026-10-03T08:06:13.841656+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -274,7 +167,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140450+00:00"
+    "researched_at": "2026-10-03T08:06:13.840705+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -288,7 +181,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140565+00:00"
+    "researched_at": "2026-10-03T08:06:13.840901+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -302,21 +195,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140771+00:00"
-  },
-  {
-    "title": "Reddit ปิดบริการ RSS บอกเป็นช่องโหว่ให้โดนบ็อตมา Scraping ข้อมูล",
-    "url": "https://www.blognone.com/node/151793",
-    "summary": "Reddit ปิดบริการ RSS บอกเป็นช่องโหว่ให้โดนบ็อตมา Scraping ข้อมูล Body Reddit ประกาศปรับเปลี่ยนโครงสร้างพื้นฐานการกระจายข้อมูลหลายอย่าง ประเด็นสำคัญคือจะปิด data API และ RSS สำหรับให้แอพภายนอกเรียกใช้งาน เปลี่ยนไปให้เรียกจาก Developer Platform ที่ต้องลงทะเบียนก่อนใช้งานแทน Reddit อธิบายเหตุผลของการเปลี่ยนแปลงว่า กรณีของ RSS ถูกใช้ในการดึงข้อมูลขนาดใหญ่ (large-scale scraping) จึงประกาศหยุดซัพพอร์ต RSS ในวันที่ 13 พฤศจิกายน 2026 เปลี่ยนไปให้ดึงข้อมูลจาก Developer Platform ส่วน Data API ที่บ็อตและแอพภายนอกเข้าถึงได้ ก็จำเป็นต้องย้ายไปใช้ Developer Platform โดยลงทะเบียนนักพัฒนาภายใน 12 มกราคม 2017 ซึ่งตอนนี้มีแอพไปลงทะเบียนแล้วกว่า 14,000 ตัว ช่วงหลัง Reddit หันมาสร้างรายได้จากการขายข้อมูลมากขึ้น และ ไล่ฟ้อง ไล่ปิด ช่องทางการดูดข้อมูลฟรีโดยไม่จ่ายเงิน ที่มา - Reddit via TechCrunch mk Fri, 02/10/2026 - 12:41",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 02 Oct 2026 05:41:45 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142298+00:00"
+    "researched_at": "2026-10-03T08:06:13.841112+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -330,7 +209,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141044+00:00"
+    "researched_at": "2026-10-03T08:06:13.841388+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -344,7 +223,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141720+00:00"
+    "researched_at": "2026-10-03T08:06:13.842095+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -358,7 +237,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140855+00:00"
+    "researched_at": "2026-10-03T08:06:13.841199+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -372,21 +251,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141903+00:00"
-  },
-  {
-    "title": "KBTG Techtopia: Human of Tomorrow งานรวมแนวคิดที่นำให้ \"มนุษย์ของวันพรุ่งนี้\" เป็นนายของ AI ที่ทำงานที่ AI ทดแทนไม่ได้",
-    "url": "https://www.blognone.com/node/151712",
-    "summary": "KBTG Techtopia: Human of Tomorrow งานรวมแนวคิดที่นำให้ \"มนุษย์ของวันพรุ่งนี้\" เป็นนายของ AI ที่ทำงานที่ AI ทดแทนไม่ได้ Body งาน KBTG Techtopiaนับเป็นปีที่สี่แล้วที่ทาง KBTG ได้จัดงานสัมมนาด้านเทคโนโลยีที่ให้เผยแพร่ความรู้ทั้งด้านเทคโนโลยีอย่างเข้มข้น ไปพร้อมกับการแลกเปลี่ยนมุมมองต่างๆ ทั้งความเปลี่ยนแปลงในอุตสาหกรรม, กฎหมาย, และสังคม ให้ทั้งคนทำงานและผู้สนใจในความเปลี่ยนแปลงของโลกได้มาแลกเปลี่ยนกัน นับจากงานที่จัดปีแรกเมื่อปี 2023 ในสำนักงานของ KBTG เองมาถึงปีนี้ทาง KBTG ขยายพื้นที่จนมาจัดการที่ศูนย์ประชุมแห่งชาติสิริกิติ์ พื้นที่ในงานใหญ่ขึ้น มีเวทีต่างๆ บรรยายและแลกเปลี่ยนขนานให้เลือกพูดคุยและรับฟังได้ตลอดเวลา นับจากปี 2023 หลังการเปิดตัว ChatGPT งาน KBTG Techtopia นำเสนอแนวทางว่าเราจะปรับตัวในโลกยุคต่อจากนี้ได้อย่างไร โดยงานปีนี้เริ่มเปิดตัวจากภาพใหญ่ของประเทศจากคุณศุภจี สุธรรมพันธุ์ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์ ที่แสดงให้เห็นความท้าทายของโลกยุคต่อไปที่ไทยกำลังเผชิญกับภาวะเติบโตต่ำเพียง 1.9% และกลุ่มผู้ได้ประโยชน์กลับเป็นธุรกิจขนาดใหญ่เป็นหลัก พี่ต้อม วรนุช เดชะไกศ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 22 Sep 2026 08:30:26 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142075+00:00"
+    "researched_at": "2026-10-03T08:06:13.842280+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -400,21 +265,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.140056+00:00"
-  },
-  {
-    "title": "Google Japan เปิดตัวต้นแบบคีย์บอร์ดสายพาน ปุ่มกดหมุนวนไปเรื่อย ๆ ทำให้พิมพ์นิ้วเดียวสะดวกขึ้น",
-    "url": "https://www.blognone.com/node/151791",
-    "summary": "Google Japan เปิดตัวต้นแบบคีย์บอร์ดสายพาน ปุ่มกดหมุนวนไปเรื่อย ๆ ทำให้พิมพ์นิ้วเดียวสะดวกขึ้น Body กูเกิลประเทศญี่ปุ่นเปิดตัวคีย์บอร์ดต้นแบบประจำปีตามธรรมเนียมที่นำมาทดแทน April Fools ในทุกวันที่ 1 ตุลาคม (101 = เลขมาตรฐานสเป็กคีย์บอร์ด) ซึ่งปีนี้ก็เป็นคีย์บอร์ดลำดับที่ 15 แล้ว (ตัวอย่าง 2021 , 2022 , 2023 , 2024 , 2025 ) โดยปีนี้เป็นคีย์บอร์ดที่ได้แรงบันดาลใจจากซูชิสายพาน เพราะมันคือคีย์บอร์ดสายพาน! กูเกิลบอกว่าคีย์บอร์ดดั้งเดิมนั้นออกแบบมาให้ใช้สองมือในการพิมพ์ต่อเนื่อง ทีนี้ถ้าผู้ใช้งานสะดวกพิมพ์แค่มือเดียวหรือนิ้วเดียว บนคีย์บอร์ดแบบเดิมก็ต้องขยับแขนไปมาเยอะมาก จะดีกว่าไหมถ้าคีย์บอร์ดเป็นฝ่ายขยับเข้าหาแทน นี่จึงเป็นที่มาของคีย์บอร์ดสายพานที่ปุ่มกดหมุนวนไปตลอด เหมือนเช่นทุกปี กูเกิลโอเพนซอร์สต้นแบบคีย์บอร์ดสายพานนี้ไว้ที่ Github ให้ไปสร้างขึ้นเองต่อได้ ที่มา: กูเกิลญี่ปุ่น arjin Thu, 01/10/2026 - 19:03",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 01 Oct 2026 12:03:51 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-02T08:31:20.142462+00:00"
+    "researched_at": "2026-10-03T08:06:13.840068+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -428,7 +279,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141620+00:00"
+    "researched_at": "2026-10-03T08:06:13.841994+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -442,6 +293,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-02T08:31:20.141821+00:00"
+    "researched_at": "2026-10-03T08:06:13.842198+00:00"
   }
 ]

@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-02T08:31:20.148804+00:00",
+  "timestamp": "2026-10-03T08:06:13.844596+00:00",
   "scope": "operational_learning_only",
   "runs_considered": 10,
-  "research_items_observed": 300,
-  "drafts_observed": 50,
+  "research_items_observed": 290,
+  "drafts_observed": 45,
   "validation_failures_observed": 0,
   "recommended_actions_observed": {
     "human_review_drafts_then_consider_platform_compliant_publishing": 10
