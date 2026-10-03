@@ -47,6 +47,20 @@ class EconomicLoopTests(unittest.TestCase):
         self.assertEqual(result["checks"]["kyc_tax_bank_2fa_if_required"], "NOT_VERIFIED")
         self.assertEqual(result["checks"]["live_publish_authorization"], "PENDING")
         self.assertFalse(result["authorization_changes_applied"])
+        self.assertEqual(result["verification_basis"]["provider_account_setup"], "external_provider_authoritative_evidence_required")
+        self.assertEqual(result["verification_basis"]["live_publish_authorization"], "runtime_config_gate")
+
+    def test_human_gate_checklist_stays_pending_when_only_runtime_gates_are_true(self):
+        result = build_human_gate_checklist({
+            "distribution_enabled": True,
+            "live_publish_authorized": True,
+            "economic_verification_authorized": True,
+        })
+        self.assertEqual(result["status"], "PENDING")
+        self.assertEqual(result["checks"]["live_publish_authorization"], "VERIFIED")
+        self.assertEqual(result["checks"]["distribution_runtime_enabled"], "VERIFIED")
+        self.assertEqual(result["checks"]["provider_account_setup"], "NOT_VERIFIED")
+        self.assertFalse(result["authorization_changes_applied"])
 
 
     def test_activation_readiness_is_ready_only_when_all_gates_are_true(self):
