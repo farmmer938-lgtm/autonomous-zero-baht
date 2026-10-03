@@ -99,6 +99,13 @@ def validate_provider_event(event: Any) -> dict[str, Any]:
         return {"status":GateStatus.NOT_VERIFIED.value,"errors":["missing_action"]}
     if not isinstance(sponsorship,dict):
         return {"status":GateStatus.NOT_VERIFIED.value,"errors":["missing_sponsorship_object"],"action":action}
+    transaction_reference = str(sponsorship.get("id") or sponsorship.get("node_id") or "").strip()
+    if not transaction_reference:
+        return {
+            "status": GateStatus.NOT_VERIFIED.value,
+            "errors": ["missing_transaction_reference"],
+            "action": action,
+        }
     return {"status":GateStatus.PENDING.value,"action":action,
-            "transaction_reference":str(sponsorship.get("id") or sponsorship.get("node_id") or "") or None,
+            "transaction_reference":transaction_reference,
             "provider":"github_sponsors","verification_required":True,"errors":[]}
