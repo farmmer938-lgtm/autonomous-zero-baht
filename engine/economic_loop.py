@@ -47,6 +47,14 @@ def build_human_gate_checklist(gates: dict[str, Any]) -> dict[str, Any]:
     return {
         "status": "READY" if all(value == "VERIFIED" for value in checks.values()) else "PENDING",
         "checks": checks,
+        "verification_basis": {
+            "provider_account_setup": "external_provider_authoritative_evidence_required",
+            "kyc_tax_bank_2fa_if_required": "external_provider_authoritative_evidence_required",
+            "platform_policy_acceptance": "human_acceptance_evidence_required",
+            "live_publish_authorization": "runtime_config_gate",
+            "economic_ingestion_authorization": "runtime_config_gate",
+            "distribution_runtime_enabled": "runtime_config_gate",
+        },
         "authorization_changes_applied": False,
     }
 
