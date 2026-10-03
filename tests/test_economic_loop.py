@@ -29,6 +29,12 @@ class EconomicLoopTests(unittest.TestCase):
     def test_invalid_provider_event(self):
         self.assertEqual(validate_provider_event({})["status"],GateStatus.NOT_VERIFIED.value)
 
+    def test_provider_event_without_transaction_reference_is_not_verified(self):
+        result = validate_provider_event({"action": "created", "sponsorship": {}})
+        self.assertEqual(result["status"], GateStatus.NOT_VERIFIED.value)
+        self.assertIn("missing_transaction_reference", result["errors"])
+
+
     def test_activation_readiness_reports_missing_gates_without_mutation(self):
         gates = load_runtime_gates(Path(__file__).resolve().parents[1])
         result = build_activation_readiness(gates)
