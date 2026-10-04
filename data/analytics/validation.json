@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "path": "data/content/drafts/shuhei-yoshida-แนะ-ยืดอายุ-ps5-และ-switch-2-ให้นานที่สุด-คนไม่อยากได้คอนโซลใหม่.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/เว็บรวมงานวิจัย-arxiv-จำกัดจำนวนเปเปอร์-หลังโดนถล่มด้วยเปเปอร์ที่เขียนด้วย-ai.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/อดีตซีอีโอ-playstation-บอกนี่คือ-สภาวะ-dreamcast-ของ-xbox-ต้องเลือกจะถอนตัวไหม.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/ลือ-tencent-เช่าจีพียู-oracle-ในเอเชียตะวันออกเฉียงใต้-แก้ปัญหาจีพียูไม่พอ.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/youtube-shorts-ปรับระบบแนะนำวิดีโอในฟีด-ลดวิดีโอที่นำคลิปคนอื่นมาอัปโหลดซ้ำโดยไม.json",
+    "passed": true,
+    "errors": []
+  }
+]
