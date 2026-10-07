@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "how to",
       "review",
+      "how to",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.416988+00:00"
+    "researched_at": "2026-10-07T08:38:27.074483+00:00"
+  },
+  {
+    "title": "OpenAI เปิดตัว Decisions API โมเดลตัดสินใจแบบ Jev ทำงานเร็วขึ้น 10 เท่า",
+    "url": "https://www.blognone.com/node/151840",
+    "summary": "OpenAI เปิดตัว Decisions API โมเดลตัดสินใจแบบ Jev ทำงานเร็วขึ้น 10 เท่า Body OpenAI เปิดตัว Decisions API โมเดลสำหรับตัดสินใจเรื่องต่างๆ ลักษณะเดียวกับ Jev หรือ Cloudflare Clef โดยเป็นการนำ GPT-6 Luna รุ่นเล็กมาใช้งานเบื้องหลัง วิธีการทำงานของ Decisions API เหมือนกับ Jev หรือ Clef คือรับอินพุตเป็นข้อความ รูปภาพ หรือทั้งสองอย่าง แล้วตัดสินใจตามคำถามหรือเงื่อนไขที่กำหนด เช่น ข้อความจากลูกค้าควรส่งต่อไปยังทีมไหนในบริษัท หรือ หันกล้องติดตามภาพวัตถุที่เคลื่อนไหวไปมา ข้อดีของมันคือทำงานได้เร็วขึ้นเป็น 10 เท่า เทียบกับการให้ผลลัพธ์เป็นข้อความตามปกติ วิธ๊คิดเงินของ Decisions API จ่ายเฉพาะค่าโทเคนฝั่งอินพุตเท่านั้น ในราคา 0.10 ดอลลาร์ต่อ 1 ล้านโทเคน ซึ่งเป็นราคาเดียวกับค่าอินพุตของ GPT-6 Luna ที่มา - OpenAI mk Wed, 07/10/2026 - 07:02",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 07 Oct 2026 00:02:46 +0000",
+    "matched_keywords": [
+      "ราคา",
+      "วิธี"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-07T08:38:27.076050+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,23 +48,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.419937+00:00"
-  },
-  {
-    "title": "กูเกิลขึ้นราคา Pixel 10a อีก 100 ดอลลาร์ หลังวางขายมา 8 เดือน",
-    "url": "https://www.blognone.com/node/151832",
-    "summary": "กูเกิลขึ้นราคา Pixel 10a อีก 100 ดอลลาร์ หลังวางขายมา 8 เดือน Body กูเกิลขึ้นราคา Pixel 10a มือถือรุ่นราคาถูก (ไม่รู้ยังใช้คำนี้ได้ไหม) แบบเงียบๆ อีก 100 ดอลลาร์ Pixel 10a เปิดตัวในเดือนกุมภาพันธ์ 2026 โดยรุ่นล่างสุดความจุ 128GB ราคา 499 ดอลลาร์ (เท่ากับ Pixel 9a) แต่หลังจากเวลาผ่านมา 8 เดือน หน้าเว็บ Google Store ปรับราคารุ่นนี้เป็น 599 ดอลลาร์ ส่วนรุ่นความจุ 256GB ก็ขึ้นอีกขั้นเป็น 699 ดอลลาร์ เว็บไซต์ Notebookcheck บอกว่าคงไม่สามารถแนะนำให้ซื้อ Pixel 10a ที่ราคานี้ได้อีกต่อไป เพราะจริงๆ แล้วสเปกมันก็ไม่ได้ดีกว่า 9a สักเท่าไร และในตลาดยังมีสมาร์ทโฟนระดับราคาใกล้ๆ กันที่สเปกดีกว่า คุ้มค่ากว่าให้เลือก เช่น Nothing Phone (4a) Pro ที่ยังราคา 499 ดอลลาร์ แบบยังไม่รวมส่วนลด ที่มา - Notebookcheck mk Tue, 06/10/2026 - 10:17",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 06 Oct 2026 03:17:28 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.420763+00:00"
+    "researched_at": "2026-10-07T08:38:27.075658+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -63,7 +64,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.416094+00:00"
+    "researched_at": "2026-10-07T08:38:27.074105+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -79,39 +80,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.418009+00:00"
-  },
-  {
-    "title": "Schneider Electric ซื้อกิจการบริษัทซอฟต์แวร์อุตสาหกรรม PTC มูลค่าดีล 2.3 หมื่นล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151828",
-    "summary": "Schneider Electric ซื้อกิจการบริษัทซอฟต์แวร์อุตสาหกรรม PTC มูลค่าดีล 2.3 หมื่นล้านดอลลาร์ Body Schneider Electric บริษัทด้านเทคโนโลยีพลังงานจากฝรั่งเศสประกาศซื้อกิจการ PTC บริษัทผู้ผลิตซอฟต์แวร์อุตสาหกรรมในสหรัฐอเมริกา โดย Schneider จะซื้อหุ้นทั้งหมดของ PTC ด้วยเงินสด เป็นมูลค่ากิจการรวมประมาณ 2.26 หมื่นล้านดอลลาร์ สูงกว่าราคาหุ้นปัจจุบันของ PTC ประมาณ 42% Olivier Blum ซีอีโอ Schneider บอกว่าการซื้อกิจการ PTC นี้เป็นก้าวที่สำคัญของบริษัทในด้านพลังงานและอุตสาหกรรมอัจฉริยะ ทำให้พอร์ตโฟลิโอของบริษัทมีครบทั้งด้านซอฟต์แวร์และ AI ที่เชื่อมต่อระหว่างโลก physical และดิจิทัลเข้าด้วยกัน PTC เป็นบริษัทผู้ผลิตซอฟต์แวร์และระบบอัจฉริยะสำหรับภาคอุตสาหกรรม มีลูกค้ามากกว่า 3 หมื่นรายทั่วโลก มีผลิตภัณฑ์เด่นด้าน CAD, PLM และ ALM ในด้านการออกแบบและพัฒนาผลิตภัณฑ์อุตสาหกรรม ที่มา: Web Disclosure arjin Mon, 05/10/2026 - 21:39",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 05 Oct 2026 14:39:52 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.421370+00:00"
-  },
-  {
-    "title": "OpenAI เริ่มใส่ลายน้ำในข้อความจาก ChatGPT และ Codex ตามกฎหมาย EU AI Act",
-    "url": "https://www.blognone.com/node/151829",
-    "summary": "OpenAI เริ่มใส่ลายน้ำในข้อความจาก ChatGPT และ Codex ตามกฎหมาย EU AI Act Body OpenAI ประกาศฝังลายน้ำที่มองไม่เห็น (text watermark) ไว้ในข้อความผลลัพธ์ของ ChatGPT เพื่อปฏิบัติตามกฎหมาย EU AI Act ของยุโรป ตามหลัง Anthropic ที่นำหน้าไปก่อนแล้วตั้งแต่เดือนสิงหาคม เทคโนโลยี text watermark ของ OpenAI พัฒนาขึ้นเองชื่อว่า textGrain เป็นการใส่ \"สัญญาณ\" ทางสถิติลงไปใปคำที่โมเดลเลือก ซึ่งจะทำให้ประสิทธิภาพของผลลัพธ์ลดลงจากปกติเล็กน้อย ส่วนวิธีการตรวจจับก็จะดูสัญญาณเหล่านี้ว่าตรงหรือไม่ โดย OpenAI บอกว่าประสิทธิภาพดีกว่า SynthID ของกูเกิล และแนวทางอื่นๆ ในตลาด อย่างไรก็ตาม OpenAI ยอมรับว่ายิ่งข้อความสั้นยิ่งตรวจจับได้ยาก รวมถึงข้อความประเภทที่มีคำให้ใช้ค่อนข้างจำกัด เช่น คณิตศาสตร์ และการปรับแก้ข้อความในภายหลังย่อมส่งผลให้การตรวจจับลดประสิทธิภาพลง ผู้ใช้งาน ChatGPT และ Codex ในสหภาพยุโรปจะถูกฝังลายน้ำแบบปิดไม่ได้ ส่วนผู้ใช้นอกยุโรปที่เรียกผ่าน API ยังสามารถเลือกได้ (opt -in) ที่มา - [OpenAI](https://openai.com/index/eu-text-provenance/ mk Tue, 06/10/2026 - 08:35",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 06 Oct 2026 01:35:49 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.421279+00:00"
+    "researched_at": "2026-10-07T08:38:27.074912+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -127,23 +96,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.416308+00:00"
-  },
-  {
-    "title": "Google Docs รองรับการแก้ไขไฟล์ Markdown โดยตรงแล้ว",
-    "url": "https://www.blognone.com/node/151830",
-    "summary": "Google Docs รองรับการแก้ไขไฟล์ Markdown โดยตรงแล้ว Body Google Docs ประกาศรองรับไฟล์แบบ Markdown (.md หรือ .markdown) โดยตรง แบบไม่ต้อง convert ก่อนเหมือนในอดีต สอดรับกับความนิยมของ Markdown ที่เพิ่มขึ้นเรื่อยๆ โดยเฉพาะในยุคที่ LLM ใช้อ่านค่าต่างๆ โดยไม่ต้องเปลืองแรงไปใช้ฟอร์แมตข้อความที่หนักกว่านั้น ผู้ใช้สามารถเปิดและแก้ไข Markdown โดยตรงใน Google Docs ได้เลย เห็นข้อความถูกเรนเดอร์ฟอร์แมตและตารางอย่างสวยงาม (โดยไม่ต้องแก้ตัวซอร์ส Markdown) ส่วน Google Drive ก็รองรับการพรีวิวไฟล์ Markdown อย่างสวยงามด้วยเช่นกัน ส่วน Blognone นั้นใช้ Markdown มาตั้งแต่ปี 2007 ที่มา - Google Workspace mk Tue, 06/10/2026 - 09:12",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 06 Oct 2026 02:12:58 +0000",
-    "matched_keywords": [
-      "รีวิว"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.421094+00:00"
+    "researched_at": "2026-10-07T08:38:27.074191+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -159,7 +112,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.418631+00:00"
+    "researched_at": "2026-10-07T08:38:27.075166+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -175,21 +128,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.418202+00:00"
+    "researched_at": "2026-10-07T08:38:27.074983+00:00"
   },
   {
-    "title": "หญิงสหรัฐฯ ถูกจับหลังคุยกับ Claude ว่าอยากไปยิงสำนักงานนายอำเภอ",
-    "url": "https://www.blognone.com/node/151831",
-    "summary": "หญิงสหรัฐฯ ถูกจับหลังคุยกับ Claude ว่าอยากไปยิงสำนักงานนายอำเภอ Body Carli Michelle Heller สตรีสหรัฐฯ ในฟลอริดาถูกจับกุม หลังเธอคุยกับ Claude เป็นไดอารี และบอกว่าอยากไปยิงสำนักงานนายอำเภอ (sheriff's office) เมื่อวันที่ 26 กันยายนที่ผ่านมา Anthropic มีระบบตรวจจับเนื้อหาเป็นภัย และเมื่อพบแล้วก็จะใช้เจ้าหน้าที่เข้าตรวจข้อความ เมื่อพบข้อความนี้เจ้าหน้าที่ของ Anthropic ตัดสินใจแจ้งความกับตำรวจ โดย Heller ถูกตั้งข้อหาข่มขู่ด้วยข้อความ (written threat) ข้อตกลงการใช้งานของ Claude ระบุชัดเจนว่าเจ้าหน้าที่มีสิทธิ์ตรวจสอบข้อความในแชตก่อน รวมถึงแม้จะไม่อนุญาตให้ Anthropic นำข้อความไปฝึกโมเดลแต่ทางบริษัทก็ยังนำไปปรับปรุงโมเดลเพื่อตรวจสอบความปลอดภัยได้อยู่ดี ที่มา - SWFL.io lew Tue, 06/10/2026 - 09:31",
+    "title": "รัฐบาลสิงคโปร์เตรียมแก้กฎหมายบัญชีม้า เพิ่มโทษแม้เป็นเยาวชน หลังศาลพิพากษาบางคดีให้รอลงอาญา",
+    "url": "https://www.blognone.com/node/151837",
+    "summary": "รัฐบาลสิงคโปร์เตรียมแก้กฎหมายบัญชีม้า เพิ่มโทษแม้เป็นเยาวชน หลังศาลพิพากษาบางคดีให้รอลงอาญา Body Kasiviswanathan Shanmugam รัฐมนตรีอาวุโสของรัฐบาลสิงคโปร์ระบุว่ารัฐบาลเตรียมแก้กฎหมายเพิ่มโทษคดีบัญชีม้า หลังเดือนที่ผ่านมา ศาลอาญาสิงคโปร์พิพากษาให้ผู้กระทำผิดในคดีบัญชีม้าบางส่วนรับโทษรอลงอาญาและทำงานสาธารณประโยชน์ ก่อนหน้านี้รัฐบาลสิงคโปร์เคยออกแนวทางการลงโทษในคดีบัญชีม้าเอาไว้ โดยระบุว่าไม่ควรลงโทษปรับ, รอลงอาญา, หรือทำงานสาธารณประโยชน์ เนื่องจากความเสียหายต่อผู้เสียหายนั้นมีมูลค่าสูง แต่แนวทางการลงโทษเป็นเพียงคำแนะนำที่ไม่ได้บังคับให้ผู้พิพากษาต้องลงโทษตามนั้น และศาลสิงคโปร์มีแนวทางที่จะให้โทษสถานเบาแก่เยาวชน แนวทางของรัฐบาลคือการเสนอกฎหมายเข้าสภาเพื่อบังคับให้ผู้พิพากษาต้องลงโทษตามเกณฑ์ขั้นต่ำ โดยคาดว่าร่างกฎหมายจะเข้าสู่สภาเร็วๆ นี้ สิงคโปร์ยังเป็นเป้าของแก๊งคอลเซ็นเตอร์อย่างหนัก ทุกวันนี้โดยเฉลี่ยมีคดีวันละ 90 คดี ความเสียหายวันละ 2 ล้านดอลลาร์สิงคโปร์ ปีที่แล้วสิงคโปร์ก็เพิ่งปรับแก้กฎหมายเพิ่มโทษเฆี่ยนในคดีบัญชีม้า อัตราเยาวชนเป็นผู้กระทำผิดสูงขึ้นอย่างรวดเร็วในปี 2025 สูงกว่าปีก่อ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 06 Oct 2026 02:31:43 +0000",
+    "published": "Tue, 06 Oct 2026 18:11:06 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.420935+00:00"
+    "researched_at": "2026-10-07T08:38:27.076194+00:00"
+  },
+  {
+    "title": "กูเกิลเปิดตัว EmbeddingGemma 2 โมเดลขนาดเล็กรัน On-device คุณภาพดีขึ้น",
+    "url": "https://www.blognone.com/node/151843",
+    "summary": "กูเกิลเปิดตัว EmbeddingGemma 2 โมเดลขนาดเล็กรัน On-device คุณภาพดีขึ้น Body กูเกิลเปิดตัว EmbeddingGemma 2 โมเดลขนาดเล็กสำหรับรันในอุปกรณ์แบบ on-device โดยต่อยอดมาจาก EmbeddingGemma ที่เปิดตัวในเดือนกันยายน 2025 EmbeddingGemma 2 มีฐานมาจาก Gemma 4 มีขนาดพารามิเตอร์ 740M (ใหญ่ขึ้นจากเวอร์ชัน 1 ที่ขนาด 308M) แต่สามารถปิดบางโหมดให้เหลือแต่ text-only จนเหลือขนาด 270M แล้วเลือกเปิดเพิ่มเฉพาะส่วน vision (170M) กับ audio (300M) ได้ กูเกิลบอกว่าโมเดลนี้ถูกใช้งานจริงใน Pixel 11 โดยใช้แรมเพียง 191MB สำหรับโหมด text-only และ 567MB ถ้าเปิดครบทุกโหมด (multimodal) จุดเด่นของ EmbeddingGemma 2 คือคุณภาพของคำตอบที่ทำได้ดี ทั้งข้อความ เขียนโค้ด เสียง และรูปภาพ ได้คะแนนเบนช์มาร์คระดับสูงใกล้เคียงกับโมเดลที่ขนาดใหญ่กว่ามันมาก ถือว่าเป็นโมเดลที่ทำคะแนนในกลุ่มนำ เมื่อเทียบกับโมเดลขนาดต่ำกว่า 1B ด้วยกัน EmbeddingGemma 2 มีขนาด context window ที่ 8K เพิ่มขึ้นสี่เท่าจากเวอร์ชันแรก สามารถประมวลผลภาพ 29 ภาพ หรือวิดีโอ 58 เฟรมได้ในคราวเดียว นอกจากนี้การที่มันพัฒนาต่อมาจาก Gemma 4 ทำให้สามารถรัน 2 โมเดลควบคู่กันไป",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 07 Oct 2026 08:00:07 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-07T08:38:27.075760+00:00"
   },
   {
     "title": "กูเกิลอธิบาย Googlebook ไส้ในเป็น Android ตั้งใจจับกลุ่มผู้ใช้ Android",
@@ -203,7 +170,35 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.420375+00:00"
+    "researched_at": "2026-10-07T08:38:27.076584+00:00"
+  },
+  {
+    "title": "[ไม่ยืนยัน] John Ternus ซีอีโอใหม่ Apple ลงมาดูแลฝ่ายออกแบบผลิตภัณฑ์แบบใกล้ชิด",
+    "url": "https://www.blognone.com/node/151836",
+    "summary": "[ไม่ยืนยัน] John Ternus ซีอีโอใหม่ Apple ลงมาดูแลฝ่ายออกแบบผลิตภัณฑ์แบบใกล้ชิด Body จดหมายข่าว Power On ประจำสัปดาห์นี้ของ Mark Gurman มีหลายประเด็นที่เขาพูดถึง โดยเรื่องหนึ่งเกี่ยวกับทิศทางของแอปเปิลภายใต้ซีอีโอคนใหม่ John Ternus ซึ่ง Gurman ก็เคย พูดถึงมาก่อนหน้านี้ รายงานบอกว่า Ternus ได้ให้ความสำคัญกับฝ่ายออกแบบผลิตภัณฑ์เป็นเรื่องหลัก โดยก่อนหน้ารับตำแหน่งซีอีโอ ที่เขาเป็นหัวหน้าฝ่ายวิศวกรรมฮาร์ดแวร์ก็ได้ทำงานร่วมกับฝ่ายออกแบบสินค้าอย่างใกล้ชิดอยู่แล้ว เมื่อมาเป็นซีอีโอเขาก็เลือกมาดูแลส่วนการออกแบบผลิตภัณฑ์อุตสาหกรรมและฝ่ายซอฟต์แวร์ส่วนติดต่อผู้ใช้งานมากขึ้นกว่าเดิมอีก โดยเขาเข้าไปพูดคุยกับฝ่ายออกแบบหลายครั้งในหนึ่งสัปดาห์ บางวันก็เข้าออกแผนกนี้หลายครั้ง เมื่อเทียบสมัยซีอีโอ Tim Cook ที่ไปพูดคุยกับฝ่ายนี้ประมาณ 1 ชั่วโมงต่อเดือน Gurman ยังบอกอีกว่าสไตล์ทำงานของ Ternus ต่างกับ Tim Cook โดยงานส่วนที่ Cook สนใจมากกว่าอย่างการเงินกับซัพพลายเชนตอนนี้ Ternus ก็ให้ซีเอฟโอ Kevan Parekh กับซีโอโอ Sabih Khan ดูแลไปเต็มที่เลย ที่มา: Bloomberg arjin Tue, 06/10/2026 - 18:29",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 06 Oct 2026 11:29:27 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-07T08:38:27.076298+00:00"
+  },
+  {
+    "title": "[ไม่ยืนยัน] DeepSeek เตรียมรับเงินลงทุนรอบใหม่ก่อนไอพีโอปีหน้า มี Tencent และ CATL เป็นผู้ลงทุนหลัก",
+    "url": "https://www.blognone.com/node/151839",
+    "summary": "[ไม่ยืนยัน] DeepSeek เตรียมรับเงินลงทุนรอบใหม่ก่อนไอพีโอปีหน้า มี Tencent และ CATL เป็นผู้ลงทุนหลัก Body Bloomberg รายงานว่า DeepSeek เตรียมรับเงินลงทุนในรอบล่าสุดอย่างน้อย 8 หมื่นล้านหยวน ซึ่งน่าจะเป็นการรับเงินลงทุนรอบสุดท้ายก่อนไอพีโอเข้าตลาดหุ้นในช่วงต้นปีหน้า 2027 ผู้ลงทุนหลักในรอบนี้ที่ถูกระบุชื่อ Tencent บริษัทอินเทอร์เน็ตรายใหญ่ของจีน ซึ่งเป็นผู้ลงทุนรายสำคัญใน DeepSeek อยู่แล้ว และ Contemporary Amperex Technology หรือ CATL บริษัทผู้ผลิตแบตเตอรี่สำหรับรถยนต์ EV รายใหญ่ รายงานบอกว่าเงินลงทุนรอบนี้สูงกว่าที่ DeepSeek ประเมินไว้ตอนแรกที่ 5 หมื่นล้านหยวน แต่จากความสำเร็จในการออกโมเดล AI ใหม่ ๆ ช่วงที่ผ่านมา ทำให้นักลงทุนหลายรายต้องการเพิ่มเงินลงทุน ซึ่งตัวเลขสุดท้ายอาจไปถึง 1 แสนล้านหยวนได้ด้วย ที่มา: Bloomberg arjin Wed, 07/10/2026 - 06:52",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 06 Oct 2026 23:52:43 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-07T08:38:27.076121+00:00"
   },
   {
     "title": "[ลือ] Microsoft และ Meta ลดการใช้ Claude กับพนักงาน ลดค่าใช้จ่าย ใช้ของตัวเองแทน",
@@ -217,7 +212,21 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.420576+00:00"
+    "researched_at": "2026-10-07T08:38:27.076698+00:00"
+  },
+  {
+    "title": "[ลือ] MacBook Pro จอ OLED จะมีน้ำหนักเบาลงมา จากการออกแบบใหม่ เริ่มขายภายในปีนี้",
+    "url": "https://www.blognone.com/node/151841",
+    "summary": "[ลือ] MacBook Pro จอ OLED จะมีน้ำหนักเบาลงมา จากการออกแบบใหม่ เริ่มขายภายในปีนี้ Body นอกจากเรื่อง ซีอีโอ John Ternus ในจดหมายข่าวของ Mark Gurman แห่ง Bloomberg ยังพูดถึงแผนการออก MacBook Pro รุ่นใหม่ที่ใช้จอ OLED ด้วย โดย Gurman บอกว่า MacBook Pro นี้ได้ยกเครื่องการออกแบบภายในใหม่ ลดจำนวนชิ้นส่วน ทำให้พกพาได้ง่ายขึ้นน้ำหนักเบาลงอย่างรู้สึกได้ถึงความต่าง แถมความบางเครื่องก็ลดลงด้วย MacBook Pro รุ่นจอ 14 นิ้ว ที่ขายอยู่ปัจจุบันมีน้ำหนัก 1.55 กิโลกรัม ส่วน MacBook Air และ MacBook Neo หนักประมาณ 1.23 กิโลกรัม Gurman บอกว่า MacBook Pro จอ OLED นี้ คาดว่าจะเปิดตัวในเดือนตุลาคมหรือพฤศจิกายนนี้ เพราะแอปเปิลเริ่มทดสอบการใช้งานทั่วไปด้วย macOS 27.2 เบต้า แล้ว ที่มา: Bloomberg arjin Wed, 07/10/2026 - 07:12",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 07 Oct 2026 00:12:02 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-07T08:38:27.075955+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -231,7 +240,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.417637+00:00"
+    "researched_at": "2026-10-07T08:38:27.074760+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -245,7 +254,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.418870+00:00"
+    "researched_at": "2026-10-07T08:38:27.075258+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -259,7 +268,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.418416+00:00"
+    "researched_at": "2026-10-07T08:38:27.075076+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -273,7 +282,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.416545+00:00"
+    "researched_at": "2026-10-07T08:38:27.074289+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -287,7 +296,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.416780+00:00"
+    "researched_at": "2026-10-07T08:38:27.074390+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -301,7 +310,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.417230+00:00"
+    "researched_at": "2026-10-07T08:38:27.074572+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -315,21 +324,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.417829+00:00"
-  },
-  {
-    "title": "OpenAI ทดสอบโฆษณาแบบ Visual แสดงผลเมื่อใช้ ChatGPT สร้างรูปภาพ",
-    "url": "https://www.blognone.com/node/151826",
-    "summary": "OpenAI ทดสอบโฆษณาแบบ Visual แสดงผลเมื่อใช้ ChatGPT สร้างรูปภาพ Body OpenAI อัปเดตการแสดงโฆษณาใน ChatGPT โดยเพิ่มโฆษณารูปแบบใหม่ที่เป็นสื่อรูปภาพพร้อมรายละเอียด (visual ad) ที่ทำให้ผู้ชมโฆษณาเข้าใจถึงสินค้า-บริการ การใช้งาน หรือไอเดียใหม่ ๆ จากแบรนด์สินค้านั้นมากขึ้น OpenAI บอกว่าโฆษณาแบบสื่อรูปภาพนี้ยังอยู่ในขั้นทดสอบกับผู้ใช้งานจำนวนหนึ่งในสหรัฐอเมริกาเท่านั้น และจะแสดงเมื่อผู้ใช้งาน ChatGPT ใช้งานคำสั่งสร้างรูปภาพ โดยรูปที่เป็นโฆษณามีป้ายกำกับที่ชัดเจน และแยกส่วนกับรูปภาพที่สร้างจาก prompt ระบบไม่มีการเข้าถึงเนื้อหาที่สนทนาใน ChatGPT OpenAI ยังย้ำในประกาศนี้ด้วยว่าตอนนี้ ChatGPT มีผู้ใช้งานถึง 1.2 พันล้านคนต่อสัปดาห์ รายได้จากโฆษณาจะช่วยให้บริการเข้าถึงลูกค้าที่ไม่ได้จ่าย subscription ได้ดีขึ้น ที่มา: OpenAI arjin Mon, 05/10/2026 - 21:23",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 05 Oct 2026 14:23:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.421449+00:00"
+    "researched_at": "2026-10-07T08:38:27.074837+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -343,7 +338,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.419334+00:00"
+    "researched_at": "2026-10-07T08:38:27.075421+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -357,7 +352,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.417410+00:00"
+    "researched_at": "2026-10-07T08:38:27.074649+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -371,7 +366,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.419743+00:00"
+    "researched_at": "2026-10-07T08:38:27.075584+00:00"
   },
   {
     "title": "Moonshot AI รับทุนเพิ่มรอบล่าสุดที่มูลค่าบริษัท 50,000 ล้านดอลลาร์ เตรียม IPO ต้นปี 2027",
@@ -385,21 +380,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.420142+00:00"
-  },
-  {
-    "title": "Huawei ทำข้อตกลงให้ Qualcomm ใช้งานสิทธิบัตรในหลายหัวข้อเป็นระยะเวลาหลายปี",
-    "url": "https://www.blognone.com/node/151827",
-    "summary": "Huawei ทำข้อตกลงให้ Qualcomm ใช้งานสิทธิบัตรในหลายหัวข้อเป็นระยะเวลาหลายปี Body Huawei และ Qualcomm ประกาศทำข้อตกลงเป็นระยะเวลาหลายปีด้านสิทธิบัตร โดย Qualcomm จะจ่ายเงินเพื่อใช้สิทธิบัตรของ Huawei ที่จดในสหรัฐอเมริกาครอบคลุมหลายหัวข้อทั้ง 5G, การประมวลผล, AI, เน็ตเวิร์ก และเทคโนโลยีอื่น ๆ Huawei บอกว่าความร่วมมือนี้สะท้อนถึงผลจากการลงทุนวิจัยพัฒนาต่อเนื่องยาวนานของบริษัท โดยเฉพาะในเทคโนโลยีการสื่อสารและส่วนที่เกี่ยวข้อง ที่ทำให้บริษัทเป็นผู้นำในหลายด้านและเป็นส่วนธุรกิจที่สร้างรายได้กับบริษัท ด้าน Qualcomm บอกว่าข้อตกลงนี้ช่วยเสริมให้เทคโนโลยี 5G ของบริษัทยังรักษาความเป็นผู้นำ รวมถึงผ่านการขายไลเซนส์ใช้งานกับลูกค้า ที่มา: Huawei arjin Mon, 05/10/2026 - 21:20",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 05 Oct 2026 14:20:34 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-06T08:58:31.421521+00:00"
+    "researched_at": "2026-10-07T08:38:27.076428+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -413,7 +394,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.415868+00:00"
+    "researched_at": "2026-10-07T08:38:27.073958+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -427,7 +408,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.419066+00:00"
+    "researched_at": "2026-10-07T08:38:27.075332+00:00"
+  },
+  {
+    "title": "Anthropic เปิดตัว Claude for Google Workspace",
+    "url": "https://www.blognone.com/node/151842",
+    "summary": "Anthropic เปิดตัว Claude for Google Workspace Body Anthropic เปิดตัว Claude for Google Workspace หรือ Claude เวอร์ชันควบคุมการทำงานของ Google Docs, Sheets, Slides ลักษณะเดียวกับ Claude for Microsoft 365 ที่เปิดตัวไปตอนต้นปี รูปแบบการใช้งาน Claude for Google Workspace มี 2 ทาง ส่วนขยาย (extension) ของ Google Workspace เปิดขึ้นมาใน sidebar ของหน้าจอ Google Docs, Sheets, Slides อยากได้อะไรก็พิมพ์ prompt สั่งได้เลย ตัวเชื่อมต่อ (connector) กับ Google Workspace เปลี่ยนข้างมาสั่งงานได้จากในหน้าเว็บ Claude แทน สั่งสร้างและแก้ไขไฟล์ของ Google Workspace ได้จากหน้าจอ Claude ฟีเจอร์นี้เปิดใช้งานแล้วสำหรับลูกค้า Claude แพ็กเกจจ่ายเงินทุกราย ที่มา - Anthropic mk Wed, 07/10/2026 - 07:16",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 07 Oct 2026 00:16:40 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-07T08:38:27.075844+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -441,6 +436,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-06T08:58:31.419561+00:00"
+    "researched_at": "2026-10-07T08:38:27.075512+00:00"
   }
 ]
