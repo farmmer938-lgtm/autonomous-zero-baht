@@ -15,7 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614080+00:00"
+    "researched_at": "2026-10-10T08:29:24.283284+00:00"
+  },
+  {
+    "title": "Windows Search เขียนใหม่เป็นเนทีฟ ทำงานเร็วขึ้น, พิมพ์สั่งเปลี่ยนค่า Windows ได้",
+    "url": "https://www.blognone.com/node/151868",
+    "summary": "Windows Search เขียนใหม่เป็นเนทีฟ ทำงานเร็วขึ้น, พิมพ์สั่งเปลี่ยนค่า Windows ได้ Body ไมโครซอฟท์ปรับปรุง Windows Search ระบบค้นหาของ Windows 11 เพิ่มเติม หลัง ปรับเล็ก ถอดโฆษณา เน้นการค้นหาของในเครื่องมากกว่าเว็บ ไปเมื่อเดือนกรกฎาคม การเปลี่ยนแปลงรอบนี้คือ เขียน UI ของ Windows Search ใหม่เป็นเนทีฟด้วย WinUI 3 ช่วยให้ประสิทธิภาพดีขึ้น ตอบสนองรวดเร็วกว่าเดิม กินทรัพยากรน้อยลง หน้าตาของ Windows Search ถูกปรับให้มินิมอลมากขึ้น จากของเดิมแสดงผลการค้นหาเป็น 2 คอลัมน์ซ้ายชื่อไฟล์-ขวาพรีวิว มาเหลือคอลัมน์เดียว โดยแสดงภาพพรีวิวไว้ด้านบนสุด มีทั้งพรีวิวไฟล์ หรือข้อมูลสภาพอากาศ-ราคาหุ้น ของใหม่ที่สำคัญคือ รองรับการพิมพ์คำสั่ง (action) เช่น turn off Bluetooth, dim my screen, mute, minimize all my windows, show desktop แล้วกด enter สั่งได้เลยโดยไม่ต้องเปิดแอพขึ้นมาก่อน ลักษณะเดียวกับ Spotlight ของ macOS หรือ Command Palette ในชุด PowerToys แต่อันนี้ฝังมาใน Windows Search เลย ไมโครซอฟท์ยังบอกว่าจะเพิ่มฟีเจอร์ให้สั่งมือถือได้ผ่านแอพ Phone Link ในเร็วๆ นี้ เราสามารถพิมพ์ข้อความให้ส่ง SMS หาเพื่อนในช่อ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 09 Oct 2026 23:43:49 +0000",
+    "matched_keywords": [
+      "รีวิว",
+      "ราคา"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-10T08:29:24.285422+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,14 +48,14 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.615421+00:00"
+    "researched_at": "2026-10-10T08:29:24.284650+00:00"
   },
   {
-    "title": "[ลือ] Apple จะเปิดตัว MacBook Pro ใหม่ จอ OLED แบบทัชสกรีน ปลายเดือนตุลาคม",
-    "url": "https://www.blognone.com/node/151863",
-    "summary": "[ลือ] Apple จะเปิดตัว MacBook Pro ใหม่ จอ OLED แบบทัชสกรีน ปลายเดือนตุลาคม Body หลังแอปเปิลประกาศจัดงานแถลงข่าวเปิดตัวสินค้าสมาร์ทโฮมในสัปดาห์หน้า Mark Gurman แห่ง Bloomberg คนเดิมก็รายงานข่าวลือใหม่กันต่อเลย โดยบอกว่าแอปเปิลจะเปิดตัว MacBook Pro ใหม่ ที่เป็นหน้าจอทัชสกรีน ประมาณวันที่ 27 ตุลาคม หรือสองสัปดาห์หลัง งาน Welcome home สินค้าทั้งหมดที่แอปเปิลคาดว่าจะเปิดตัวในช่วงปลายเดือนได้แก่ MacBook Pro จอ OLED แบบทัชสกรีน มีทั้งขนาด 14 และ 16 นิ้ว พร้อมกับ Dynamic Island ด้านบนหน้าจอ มีน้ำหนักเบากว่ารุ่นปัจจุบัน ส่วนชิปที่ใช้เป็น M5 Pro กับ M5 Max นอกจากนี้แอปเปิลยังอาจเปิดตัว iPad mini รุ่นใหม่ มีการเปลี่ยนแปลงคือหน้าจอเป็น OLED, กล้อง FaceTime ย้ายตำแหน่ง และปรับปรุงระบบลำโพงใหม่ ส่วนสินค้าอื่นได้แก่ iMac รุ่นใหม่ และ MacBook Pro ที่เป็นดีไซน์เดิม อัปเกรดชิปเป็น M6 ในปี 2024 แอปเปิลใช้วิธีเปิดตัวสินค้าตระกูล Mac แบบ ต่อเนื่องสามวัน ในเดือนตุลาคม จึงมีโอกาสที่แอปเปิลจะใช้วิธีเดียวกันสำหรับปีนี้ ที่มา: Bloomberg arjin Fri, 09/10/2026 - 15:49",
+    "title": "เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจ ทำงานเร็วกว่า แม่นยำกว่า Jev",
+    "url": "https://www.blognone.com/node/151870",
+    "summary": "เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจ ทำงานเร็วกว่า แม่นยำกว่า Jev Body ไมโครซอฟท์เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจแบบเดียวกับ Jev แต่โฆษณาว่าทำงานเร็วกว่า Jev และมีความแม่นยำเฉลี่ย 83.5% สูงกว่าโมเดลตัดสินใจตัวอื่นๆ ทุกตัว รวมถึง OpenAI GPT-6 Luna Decision ที่ทำได้ 79.4% ความน่าสนใจคือ Microsoft-Decision-1 เป็นการดัดแปลงจากโมเดล Qwen3.5-9B (ท่าเดียวกับ Cloudflare Clef ) แต่ก็บอกว่าในอนาคตจะเปลี่ยนไปใช้ฐานโมเดลอื่น ทั้งโมเดลของ Microsoft AI (MAI) เองและโมเดลจาก OpenAI (โมเดลนี้เป็นผลงานของไมโครซอฟท์ทีมหลัก ไม่ได้มาจาก Microsoft AI) วิธีการเทรนออกแบบให้โฟกัสทั้งเรื่องความเร็ว และการทำงานหลากหลาย ทดสอบกับเบนช์มาร์คหลายตัว เพื่อไม่ให้โมเดลเก่งไปแค่ทางเดียว โมเดลนี้ถูกนำไปใช้งานกับทีม Xbox เอาความเห็นในโซเชียลไปแยกแยะ (classification) แล้วพบว่าได้คุณภาพใกล้เคียงกับโมเดลรุ่นใหญ่ GPT-6 Sol แต่ทำงานเร็วกว่า 14 เท่า และต้นทุนการรันถูกกว่า 200 เท่า โมเดล Microsoft-Decision-1 เปิดให้ใช้งานแล้วผ่าน Microsoft Foundry และ OpenRouter ค่ารันอยู่ที่ 0.042 ดอลลาร์ต่อ 1 ล้านโทเคนอินพุต ส่ว",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 09 Oct 2026 08:49:16 +0000",
+    "published": "Sat, 10 Oct 2026 02:20:31 +0000",
     "matched_keywords": [
       "วิธี"
     ],
@@ -47,7 +64,39 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.615515+00:00"
+    "researched_at": "2026-10-10T08:29:24.285229+00:00"
+  },
+  {
+    "title": "ยอดขายพีซีไตรมาส 3/2026 ตกหนัก -20% หรือหายไป 1/5 ของปี 2025",
+    "url": "https://www.blognone.com/node/151873",
+    "summary": "ยอดขายพีซีไตรมาส 3/2026 ตกหนัก -20% หรือหายไป 1/5 ของปี 2025 Body บริษัทวิจัย IDC และ Omdia ออกตัวเลขรายงานยอดขายพีซีประจำไตรมาส 3/2026 ออกมาใกล้เคียงกันคือ ยอดขายตกหนักประมาณ 20% หรือลดลงไป 1/5 ของไตรมาสเดียวกันปี 2025 (IDC ให้ -20.1%, Omdia ให้ -21.2%) เหตุผลก็เข้าใจได้ไม่ยากว่ามาจากต้นทุนชิ้นส่วนอิเล็กทรอนิกส์ที่แพงขึ้นมาก บวกกับปัจจัยซ้อนคือ ลูกค้าจำนวนมากเร่งซื้อพีซีไปตั้งแต่ไตรมาส 1-2 เพื่อเลี่ยงปัญหาราคาแพงขึ้น ทำให้ความต้องการของไตรมาส 3 ตามปกติ ถูกใช้ไปก่อนแล้ว อันดับผู้ผลิตพีซี Top 5 ยังเหมือนเดิมคือ Lenovo, HP, Dell, Apple, ASUS ทุกรายยอดตกกันถ้วนหน้า รายที่ตกน้อยสุดคือ ASUS -8.6% ส่วนตกหนักสุดคือ HP -30.9% (ตัวเลข IDC) IDC ประเมินว่าสถานการณ์ \"พีซีแพง\" จะยังคงอยู่ต่อไปในปี 2027 และยอดขายพีซีจะยังร่วงลงเรื่อยๆ เหมือนเดิม ส่วน Omdia ให้ตัวเลขว่ายอดขายพีซีไตรมาส 4/2026 จะลดลง -24% ส่วนในปี 2027 จะลดลงกว่าเดิมอีก ที่มา - IDC , Omdia mk Sat, 10/10/2026 - 11:55",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 10 Oct 2026 04:55:28 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-10T08:29:24.284926+00:00"
+  },
+  {
+    "title": "[ไม่ยืนยัน] Apple ลดคำสั่งซื้อชิ้นส่วน iPhone 18 Pro, Pro Max ลง 15-20% บอกความต้องการน้อยกว่าที่ประเมินไว้",
+    "url": "https://www.blognone.com/node/151872",
+    "summary": "[ไม่ยืนยัน] Apple ลดคำสั่งซื้อชิ้นส่วน iPhone 18 Pro, Pro Max ลง 15-20% บอกความต้องการน้อยกว่าที่ประเมินไว้ Body มีรายงานจาก Nikkei Asia อ้างแหล่งข่าวจากซัพพลายเออร์ระบุว่า แอปเปิลได้ลดคำสั่งซื้อชิ้นส่วนสำหรับการผลิต iPhone 18 Pro และ iPhone 18 Pro Max เนื่องจากความต้องการของลูกค้าน้อยกว่าที่เคยประเมินไว้ โดยคาดว่าปัจจัยหลักมาจาก ราคาต่อเครื่องที่ปรับเพิ่มขึ้น แหล่งข่าวบอกว่าคำสั่งซื้อชิ้นส่วนลดลงประมาณ 15-20% จากตัวเลขแรกที่แอปเปิลประเมินและให้ไว้กับผู้ผลิต ซึ่งมีผลแล้วสำหรับเดือนตุลาคม แต่แอปเปิลยังไม่ยืนยันว่าจะคงตัวเลขนี้ต่อไปถึงพฤศจิกายนหรือไม่ อีกปัจจัยที่ซัพพลายเออร์มองว่าทำให้การประเมินยอดขาย iPhone 18 Pro ปีนี้ของแอปเปิลทำได้ยากขึ้น เพราะมี iPhone Duo ที่เป็นรุ่นใหม่เปิดตัวมาพร้อมกัน และรุ่นเทียบ iPhone 18 ก็ เลื่อนไปเปิดตัวปีหน้า ด้วย ที่มา: Nikkei Asia arjin Sat, 10/10/2026 - 11:45",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 10 Oct 2026 04:45:01 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-10T08:29:24.285011+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -63,7 +112,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.613660+00:00"
+    "researched_at": "2026-10-10T08:29:24.282805+00:00"
+  },
+  {
+    "title": "SpaceX ซื้อคลื่นความถี่ 800MHz เพื่อเสริมบริการอินเทอร์เน็ตมือถือในสหรัฐ ขยายโครงข่ายร่วมกับอินเทอร์เน็ตดาวเทียม",
+    "url": "https://www.blognone.com/node/151871",
+    "summary": "SpaceX ซื้อคลื่นความถี่ 800MHz เพื่อเสริมบริการอินเทอร์เน็ตมือถือในสหรัฐ ขยายโครงข่ายร่วมกับอินเทอร์เน็ตดาวเทียม Body SpaceX ประกาศซื้อสิทธิ์การใช้งานคลื่นความถี่ต่ำช่วง 800MHz ในสหรัฐอเมริกา ครอบคลุมทั่วประเทศ ซึ่ง SpaceX บอกว่าการมีคลื่นความถี่นี้จะทำให้ Starlink Mobile เป็นผู้ให้บริการเครือข่ายโทรศัพท์มือถือรายใหญ่ในสหรัฐอเมริกา คลื่น 800MHz นี้จะนำมาเสริมกับโครงข่ายอินเทอร์เน็ตดาวเทียมของ Starlink ทำให้การเชื่อมต่อจากโทรศัพท์ไปยังดาวเทียมรองรับพื้นที่กว้างขึ้น เพราะคลื่นความถี่ต่ำสามารถผ่านสิ่งกีดขวาง เช่น ผนังอาคาร ที่เดิมเป็นอุปสรรคของอินเทอร์เน็ตดาวเทียม นอกจากนี้ยังสามารถขยายตลาดได้ง่ายเพราะอุปกรณ์โทรศัพท์มือถือในตลาดรองรับอยู่แล้ว นอกจากนี้ SpaceX ยังเพิ่งได้รับการอนุมัติจาก FCC หน่วยงานกำกับดูแลการสื่อสารของสหรัฐ ให้สามารถส่งดาวเทียมของ Starlink ขึ้นสู่วงโคจรได้อีก 15,000 ดวง ซึ่งจะนำมาใช้กับเครือข่ายความถี่ 2GHz ดาวเทียมเป็นรุ่นที่ 2 รองรับแบนด์วิธมากกว่ารุ่นก่อนหน้า 100 เท่า ประกาศนี้ทำให้ราคาหุ้นของผู้ให้บริการโทรศัพท์มือถือรายใหญ่ในสหรัฐทั้ง Verizon, T-Mobile และ AT&amp;T",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 10 Oct 2026 03:23:33 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-10T08:29:24.285133+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -79,23 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614528+00:00"
-  },
-  {
-    "title": "OpenAI แจ้งนักลงทุนรายรับ 12 เดือน ณ กันยายนอยู่ที่ 5 หมื่นล้านดอลลาร์ น้อยกว่าที่เคยประเมินไว้ 7 หมื่นล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151861",
-    "summary": "OpenAI แจ้งนักลงทุนรายรับ 12 เดือน ณ กันยายนอยู่ที่ 5 หมื่นล้านดอลลาร์ น้อยกว่าที่เคยประเมินไว้ 7 หมื่นล้านดอลลาร์ Body ข่าวสารวงการ AI ประจำวันนี้มาจากรายงานที่ OpenAI แจ้งกับนักลงทุนบริษัท โดยระบุว่าตัวเลขรายรับ 12 เดือนข้างหน้า ณ เดือนกันยายน อยู่ที่ประมาณ 5 หมื่นล้านดอลลาร์ น้อยกว่าตัวเลขที่บริษัทประเมินก่อนหน้านี้ซึ่งอยู่ที่ 7 หมื่นล้านดอลลาร์ อย่างไรก็ตามมีข้อมูลว่าวิธีการคำนวณรายได้ของ OpenAI มีความแตกต่างไปจาก Anthropic จึงอาจส่งผลต่อตัวเลขที่เหมือนจะน้อยกว่าคาด OpenAI จะไม่รวมรายรับ 12 เดือนข้างหน้า ในส่วนที่เป็นรายได้การขายโมเดลผ่านผู้ให้บริการคลาวด์พันธมิตรเช่น AWS, Google Cloud ขณะที่ Anthropic คำนวณรายได้ส่วนนี้เข้ามาด้วย โดยจ่ายส่วนแบ่งกลับให้ผู้บริการคลาวด์ประมาณ 16% ตัวเลขรายได้ของ Anthropic ในไตรมาส 2/2026 ที่ผ่านมาระบุว่าอยู่ที่ 1.15 หมื่นล้านดอลลาร์ ซึ่งพอใช้สูตรคำนวณรายรับ 12 เดือนข้างหน้า ด้วยการคูณ 12 เข้าไปจากรายได้เดือนล่าสุด จึงอาจทำให้การประเมินผิดเพี้ยนไปจากความจริงได้ แต่สูตรนี้ก็ดูเป็นที่นิยมในกลุ่มสตาร์ทอัป AI ที่มา: Reuters arjin Fri, 09/10/2026 - 15:29",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 09 Oct 2026 08:29:06 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.615746+00:00"
+    "researched_at": "2026-10-10T08:29:24.283750+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -111,23 +160,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.613760+00:00"
-  },
-  {
-    "title": "ChatGPT อัปเดตอินเทอร์เฟซ Intelligent UI ให้ผู้ใช้งานเข้าใจคำตอบที่ซับซ้อนได้ง่ายขึ้นแบบ Multimedia",
-    "url": "https://www.blognone.com/node/151856",
-    "summary": "ChatGPT อัปเดตอินเทอร์เฟซ Intelligent UI ให้ผู้ใช้งานเข้าใจคำตอบที่ซับซ้อนได้ง่ายขึ้นแบบ Multimedia Body OpenAI อัปเดต ChatGPT โดยปรับปรุงการแสดงผลสำหรับผู้ใช้งานในรูปแบบที่คำตอบเป็นภาพกับสื่อผสมผสานมากขึ้น เรียกรวมว่า Intelligent UI ทำงานบนโมเดลใหม่ GPT-6 การแสดงผลคำตอบบนอินเทอร์เฟซแบบใหม่นี้ ไม่ได้มีแค่รูปภาพที่มากขึ้น แต่มาในรูปคำตอบที่ผู้ใช้งานสามารถกดโต้ตอบได้สำหรับบางคำถาม ซึ่ง OpenAI บอกว่าเป้าหมายของอินเทอร์เฟซใหม่นี้เพื่อช่วยให้ผู้ใช้งานเรียนรู้สิ่งที่ซับซ้อนได้ง่ายขึ้น (ตามตัวอย่างในคลิป เช่นคู่มือที่อธิบายยาวเป็นตัวหนังสือ) GPT-6 ที่แสดงผลบนอินเทอร์เฟซใหม่ Intelligent UI นี้ เริ่มอัปเดตให้ผู้ใช้งาน ChatGPT Plus, Pro และ Enterprise ทั่วโลก ตั้งแต่วันนี้ จากนั้นอีกหนึ่งวัน จะอัปเดตให้ผู้ใช้งานแบบฟรีและ Go ต่อไป ส่วนโมเดลย่อย (Sol กับ Luna) ที่เลือกใช้ก็เป็นไปตามแผนที่สมัครใช้งาน ที่มา: OpenAI arjin Thu, 08/10/2026 - 18:36",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 11:36:28 +0000",
-    "matched_keywords": [
-      "คู่มือ"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.616173+00:00"
+    "researched_at": "2026-10-10T08:29:24.282904+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -143,7 +176,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614866+00:00"
+    "researched_at": "2026-10-10T08:29:24.284079+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -159,35 +192,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614653+00:00"
+    "researched_at": "2026-10-10T08:29:24.283832+00:00"
   },
   {
-    "title": "กูเกิลเปิดตัว Playground สั่ง AI สร้างเกมเบราว์เซอร์, เตรียมขยายไปยังเกม Unity",
-    "url": "https://www.blognone.com/node/151858",
-    "summary": "กูเกิลเปิดตัว Playground สั่ง AI สร้างเกมเบราว์เซอร์, เตรียมขยายไปยังเกม Unity Body กูเกิลเปิดตัว Playground แพลตฟอร์มที่เปิดให้ผู้ใช้เข้ามาสร้างเกมด้วย AI และแชร์ให้คนอื่นเล่นได้ง่ายๆ ผ่านเบราว์เซอร์ วิธ๊การใช้งานคือสั่งผ่าน prompt ตรงๆ ได้เลย โดยมีตัวเลือกให้เล็กน้อยว่าต้องการกราฟิก 2D/3D และเป็นเกมสำหรับเล่นกี่คน เมื่อสร้างเกมเสร็จแล้วก็ส่งลิงก์ให้เพื่อนเล่นผ่านเบราว์เซอร์ได้เลย ฝั่งผู้เล่นจะใช้บัญชี Google Play Games สำหรับการเล่นเกมด้วยกันหลายคน เช่น จับคู่เล่น หรือ จัดลำดับ leaderboard ประเด็นที่น่าสนใจคือ Playground จะไม่ถูกจำกัดแต่เกมแบบเว็บเบราว์เซอร์ เพราะกูเกิลกำลังร่วมมือกับ Unity สร้างบริการสร้างเกมด้วย AI ลักษณะเดียวกันชื่อ Unity Spark แล้วได้ผลลัพธ์ออกมาเป็นเกมที่ใช้เอนจิน Unity เลย Playground เปิดให้ใช้งานแล้วภายใต้แบรนด์ Google Labs เพื่อบ่งบอกว่ายังเป็นบริการแนวทดลอง และยังจำกัดเฉพาะผู้ใช้ในสหรัฐอเมริกาเท่านั้น ที่มา - Google , Unity mk Thu, 08/10/2026 - 18:58",
+    "title": "มีคนแกะ Googlebook OS มารันใน VM ได้แล้ว ตอนนี้รันได้บน Apple Silicon",
+    "url": "https://www.blognone.com/node/151867",
+    "summary": "มีคนแกะ Googlebook OS มารันใน VM ได้แล้ว ตอนนี้รันได้บน Apple Silicon Body หลังโน้ตบุ๊กกลุ่ม Googlebook เริ่มวางขาย ก็มีคนสามารถแกะระบบปฏิบัติการ Googlebook OS มารันใน VM ได้แล้ว เปิดทางให้ลองใช้งาน Googlebook OS โดยไม่จำเป็นต้องซื้อเครื่องจริง โครงการนี้มีชื่อว่า gbos-vm นำ recovery image ของ Googlebook OS จากเครื่องของ Dell มารันใน QEMU โดยตอนนี้ยังจำกัดเฉพาะฮาร์ดแวร์กลุ่ม Apple Silicon เพราะเป็นอิมเมจแบบ Arm (Snapdragon X) รันเครื่องบน Arm (Apple Silicon) และต้องแปลงกราฟิกจาก Vulkan มารันใน Apple Metal ด้วย ไม่ได้เป็นการรันผ่านอีมูเลเตอร์ สถานะการรัน Googlebook OS ในตอนนี้คือยังใช้งานได้เฉพาะ Chrome และยังมีฟังก์ชันบางอย่างใช้งานไม่ได้ แต่อย่างน้อยก็ช่วยให้คนที่สนใจลองรัน Googlebook OS มีช่องทางให้ทดสอบได้ง่ายขึ้นแล้ว ที่มา - gbos-vm , Android Police mk Fri, 09/10/2026 - 22:08",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 11:58:28 +0000",
+    "published": "Fri, 09 Oct 2026 15:08:46 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.616090+00:00"
+    "researched_at": "2026-10-10T08:29:24.285508+00:00"
   },
   {
-    "title": "Xbox ตั้งแผนกใหม่ XP ขยายเกมไปยังธุรกิจอื่น หนัง อีเวนต์ สวนสนุก ของที่ระลึก",
-    "url": "https://www.blognone.com/node/151862",
-    "summary": "Xbox ตั้งแผนกใหม่ XP ขยายเกมไปยังธุรกิจอื่น หนัง อีเวนต์ สวนสนุก ของที่ระลึก Body Xbox ประกาศตั้งแผนกใหม่ชื่อ XP ที่ไม่เกี่ยวอะไรกับ Windows XP แต่มาจากคำว่า Experience Points (ตามภาษาเกม) งานของแผนกนี้เป็นการขยายธุรกิจไปยังเรื่องอื่นๆ นอกเหนือจากเกม เช่น ภาพยนตร์ อีเวนต์ สวนสนุก สินค้าที่ระลึก รวมถึงการทำพาร์ทเนอร์กับบริษัทอื่นๆ ธุรกิจในเครือ XP แบ่งออกเป็น 4 ส่วน ซึ่งใช้ชื่อตามธีม XP ทั้งหมด คือ Xbox Pictures ภาพยนตร์ ทีวี และสื่อการเล่าเรื่องแบบอื่นๆ Xbox Products สินค้าที่ระลึกสำหรับแฟนๆ Xbox Places ธุรกิจอีเวนต์ สวนสนุก Xbox Partnerships การทำงานร่วมกับครีเอเตอร์ แบรนด์ ชุมชน แผนก Xbox XP จะได้ Kayleen Walters ประธานของ Mojang Studios และโปรดิวเซอร์ของ Minecraft Movies ทั้งสองภาคมาเป็นผู้นำองค์กร เธอเคยทำงานที่ Lucasfilm มานาน 13 ปีและมีประสบการณ์ด้านการตลาดภาพยนตร์ Star Wars มาอย่างช่ำชอง ไมโครซอฟท์ยังดึงเอา Maria Angelidou-Smith ที่เคยทำงานเป็น Chief Product Officer ของ Reddit เข้ามาเป็นประธานคนใหม่ของ Mojang ด้วย ที่มา - Xbox mk Fri, 09/10/2026 - 15:30",
+    "title": "ความเป็นเจ้าของเกม Ultima จะกลับคืนผู้สร้างเดิม Richard Garriott ในปี 2027",
+    "url": "https://www.blognone.com/node/151866",
+    "summary": "ความเป็นเจ้าของเกม Ultima จะกลับคืนผู้สร้างเดิม Richard Garriott ในปี 2027 Body สิทธิความเป็นเจ้าของเกม RPG ซีรีส์ Ultima กำลังจะกลับมาเป็นของผู้สร้าง Richard Garriott หลังเวลาผ่านมา 35 ปี ที่เขาขายบริษัท Origin Systems ให้กับ EA ในปี 1992 เหตุผลมาจาก มาตรา 203 ในกฎหมายลิขสิทธิ์สหรัฐ US Copyright Act ที่ระบุไว้ว่าเจ้าของสิทธิดั้งเดิมสามารถ \"ยกเลิก\" การโอนถ่ายความเป็นเจ้าของสิทธิได้ หากเวลาผ่านไปแล้ว 35 ปี (ฟังดูแปลกๆ แต่มีเขียนไว้จริงๆ) ตัวของ Garriott เองก็ยอมรับว่ากฎข้อนี้ฟังดูแปลกๆ แต่เขาก็จะใช้สิทธิตามกฎหมายข้อนี้ เงื่อนไขตามกฎหมายระบุว่า Garriott ต้องยื่นขอยกเลิกการโอนถ่ายสิทธิล่วงหน้าเป็นเวลา 1 ปี ซึ่งกรณีของ Garriott ได้ยื่นไปแล้ว และทาง EA ก็ตอบกลับมาแล้วว่ารับทราบ ยินดีปฏิบัติตาม สิ่งที่เหลืออยู่มีเพียงรอเวลาให้ครบ 1 ปี ก่อนที่สิทธิความเป็นเจ้าของ Ultima จะกลับมายัง Garriott ในปีหน้า 2027 Garriott บอกว่าเขามีเวลา 1 ปีในการคิดว่าอยากทำอะไรกับ Ultima บ้าง สิ่งที่เขาทำได้มีทั้งการนำเกมภาคเก่าๆ กลับมาขายใหม่ และออกเกมภาคต่อ เขาบอกว่าได้คุยกับ EA อยู่ตลอดว่ามีโครงการอะไรร่วมกันได้บ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 09 Oct 2026 08:30:57 +0000",
+    "published": "Fri, 09 Oct 2026 12:42:06 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.615648+00:00"
+    "researched_at": "2026-10-10T08:29:24.285600+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -201,7 +234,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614363+00:00"
+    "researched_at": "2026-10-10T08:29:24.283580+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -215,7 +248,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614969+00:00"
+    "researched_at": "2026-10-10T08:29:24.284190+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -229,7 +262,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614764+00:00"
+    "researched_at": "2026-10-10T08:29:24.283941+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -243,7 +276,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.613870+00:00"
+    "researched_at": "2026-10-10T08:29:24.283017+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -257,21 +290,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.613976+00:00"
-  },
-  {
-    "title": "TSMC รายงานรายได้ไตรมาส 3/2026 ทำสถิติใหม่อีกไตรมาส เพิ่มขึ้น 50% จากปีก่อน",
-    "url": "https://www.blognone.com/node/151854",
-    "summary": "TSMC รายงานรายได้ไตรมาส 3/2026 ทำสถิติใหม่อีกไตรมาส เพิ่มขึ้น 50% จากปีก่อน Body TSMC รายงานตัวเลขรายได้ของไตรมาสที่ 3 ปี 2026 ทำสถิติใหม่สูงสุดต่อเนื่องที่ 1.49 ล้านล้านดอลลาร์ไต้หวัน เพิ่มขึ้นจากช่วงเดียวกันในปีก่อน 50% และสูงกว่าที่นักวิเคราะห์ประเมินไว้เฉลี่ยที่ 1.46 ล้านล้านดอลลาร์ไต้หวัน ตัวเลขที่ TSMC รายงานยังแยกรายได้ในระดับรายเดือนด้วย โดยเฉพาะของเดือนกันยายนเพิ่มขึ้น 54.6% เป็น 5.12 แสนล้านดอลลาร์ไต้หวัน TSMC กำหนดวันรายงานผลประกอบการที่มีรายละเอียดตามส่วนธุรกิจและตัวเลขกำไรสุทธิ ในวันที่ 15 ตุลาคม ที่มา: Reuters arjin Thu, 08/10/2026 - 17:44",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 10:44:13 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.616316+00:00"
+    "researched_at": "2026-10-10T08:29:24.283174+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -285,21 +304,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614180+00:00"
-  },
-  {
-    "title": "Samsung รายงานผลประกอบการเบื้องต้นไตรมาส 3/2026 ทำสถิติสูงสุดอีกไตรมาส ตามความต้องการหน่วยความจำ",
-    "url": "https://www.blognone.com/node/151855",
-    "summary": "Samsung รายงานผลประกอบการเบื้องต้นไตรมาส 3/2026 ทำสถิติสูงสุดอีกไตรมาส ตามความต้องการหน่วยความจำ Body ซัมซุงรายงานผลประกอบการเบื้องต้นของไตรมาสที่ 3 ปี 2026 คาดรายได้รวมที่ประมาณ 195 ล้านล้านวอน เพิ่มขึ้นมากกว่าสองเท่าจากช่วงเดียวกันในปีก่อน และคาดการณ์กำไรจากการดำเนินงาน (Operating Profit) ที่ประมาณ 107.40 ล้านล้านวอน ซึ่งเพิ่มขึ้นเกือบเก้าเท่า โดยซัมซุงจะรายงานผลประกอบการพร้อมรายละเอียดตามกลุ่มธุรกิจในวันที่ 29 ตุลาคม ตัวเลขนี้ทำให้ผลประกอบการไตรมาส 3/2026 ของซัมซุงจะทำสถิติสูงสุดต่อเนื่องอีกไตรมาสทั้งรายได้และกำไรจากการดำเนินงาน ปัจจัยหลักที่ทำให้ตัวเลขเติบโตสูงยังคงมาจากธุรกิจหน่วยความจำตามความต้องการโครงสร้างพื้นฐาน AI ที่ยังอยู่ในระดับที่สูง ที่มา: Reuters arjin Thu, 08/10/2026 - 17:45",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 10:45:30 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.616246+00:00"
+    "researched_at": "2026-10-10T08:29:24.283388+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -313,21 +318,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614446+00:00"
-  },
-  {
-    "title": "OpenAI เผยแพร่บทพิสูจน์คณิตศาสตร์รวดเดียวกว่า 700 รายการ แต่เริ่มถอนบางส่วนออกแล้ว",
-    "url": "https://www.blognone.com/node/151859",
-    "summary": "OpenAI เผยแพร่บทพิสูจน์คณิตศาสตร์รวดเดียวกว่า 700 รายการ แต่เริ่มถอนบางส่วนออกแล้ว Body OpenAI เผยแพร่บทพิสูจน์ทฤษฎีคณิตศาสตร์รวดเดียวถึง 722 รายการ แบ่งเป็นกลุ่มปัญหา 377 กลุ่ม ปัญหาบางข้อเกี่ยวกับวงการคอมพิวเตอร์โดยตรง เช่น การหาขอบเขตใหม่ของ Big-O ในการคูณแมทริกซ์ แต่ล่าสุดก็ต้องถอนรายงานบางส่วนและแก้ไขรายงานที่อ้างอิงถึงบทความเหล่านั้น ทาง OpenAI อาศัยการหาปัญหาคณิตศาสตร์ที่ยังไม่ถูกแก้ 4,000 ปัญหาไปให้โมเดลใหม่ที่ยังไม่ได้ปล่อยออกมาลองแก้ บทพิสูจน์จำนวนมากเหล่านี้หากใช้นักคณิตศาสตร์ทำงานจริงๆ ก็น่าจะใช้เวลาหลายปีทำให้การเผยแพร่ครั้งนี้น่าจะเปลี่ยนแนวทางการทำงานของนักคณิตศาสตร์ในอนาคตไปอย่างชัดเจน อย่างไรก็ตาม บทความที่เผยแพร่ออกมายังมีระดับความสมบูรณ์ต่างกันไป บางบทพิสูจน์มีโค้ดภาษา Lean แนบมาด้วย แม้จะมีโค้ด Lean แต่บางส่วนก็ยังดูมีปัญหาที่ต้องปรับแก้ ล่าสุดทาง OpenAI ก็ ตรวจพบความผิดพลาดในรายงาน 3 ฉบับที่ต้องถอนออก และมีการปรับแก้อีก 14 ฉบับ แต่กระนั้นรายงานอื่นก็ยังคงน่าศึกษาและตรวจสอบกันต่อไป ที่มา - OpenAI lew Fri, 09/10/2026 - 00:15",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 17:15:58 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.615919+00:00"
+    "researched_at": "2026-10-10T08:29:24.283665+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -341,7 +332,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.615153+00:00"
+    "researched_at": "2026-10-10T08:29:24.284378+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -355,7 +346,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.614262+00:00"
+    "researched_at": "2026-10-10T08:29:24.283474+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -369,7 +360,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.615336+00:00"
+    "researched_at": "2026-10-10T08:29:24.284565+00:00"
+  },
+  {
+    "title": "Microsoft 365 เปลี่ยนแปลงพื้นที่ OneDrive แพ็คเกจ Family, Premium จากได้รวมสูงสุด 6TB เป็นแชร์กัน 2TB",
+    "url": "https://www.blognone.com/node/151874",
+    "summary": "Microsoft 365 เปลี่ยนแปลงพื้นที่ OneDrive แพ็คเกจ Family, Premium จากได้รวมสูงสุด 6TB เป็นแชร์กัน 2TB Body ไมโครซอฟท์แจ้งการเปลี่ยนแปลงขนาดพื้นที่สตอเรจของ OneDrive สำหรับลูกค้า Microsoft 365 Family และ Premium จากเดิมได้ พื้นที่รวม สูงสุด 6TB เป็นพื้นที่แชร์ร่วมกันรวม 2TB มีผลทันทีสำหรับลูกค้าที่สมัครใหม่ ส่วนลูกค้าปัจจุบันจะเริ่มมีผลหลังรอบบิลตั้งแต่ 2 พฤษภาคม 2027 เป็นต้นไป ที่ผ่านมาแพ็คเกจ Microsoft 365 Family และ Premium จะให้พื้นที่ OneDrive คนละ 1TB โดยสามารถเพิ่มสมาชิกได้อีกสูงสุด 5 คน และได้พื้นที่คนละ 1TB ด้วย ทำให้จำนวนพื้นที่รวมคิดเป็น 6TB แต่ในระบบใหม่นี้พื้นที่จะคิดรวมทั้งหมด 2TB การเปลี่ยนแปลงนี้จึงกระทบกับคนที่มีสมาชิกหลายคน แต่หากสมัครใช้คนเดียวก็อาจมองว่าได้พื้นที่เพิ่มขึ้นได้ ไมโครซอฟท์ บอกว่า การคิดพื้นที่สตอเรจแบบแชร์กลุ่มจะทำให้การใช้งานยืดหยุ่นมากขึ้น โดยมีการแจ้งเตือนหากพื้นที่รวมใกล้เต็ม 2TB นอกจากนี้ยังสามารถซื้อพื้นที่เพิ่มได้อีกต่างหากสูงสุดรวม 10TB ที่มา: Android Authority arjin Sat, 10/10/2026 - 12:59",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 10 Oct 2026 05:59:39 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-10T08:29:24.284835+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -383,7 +388,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.613487+00:00"
+    "researched_at": "2026-10-10T08:29:24.282673+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -397,35 +402,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.615052+00:00"
+    "researched_at": "2026-10-10T08:29:24.284274+00:00"
   },
   {
-    "title": "Elon Musk บอก Grok Bot จะทำงานโดยเลือกโมเดล AI ที่ดีที่สุดสำหรับคำถามนั้น ไม่จำกัดว่าต้องเป็น Grok",
-    "url": "https://www.blognone.com/node/151857",
-    "summary": "Elon Musk บอก Grok Bot จะทำงานโดยเลือกโมเดล AI ที่ดีที่สุดสำหรับคำถามนั้น ไม่จำกัดว่าต้องเป็น Grok Body Elon Musk ซีอีโอ SpaceX โพสต์ ข้อความว่า Grok Bot บริการ AI Agent ของ SpaceXAI จะทำงานโดยเลือกใช้โมเดลจากค่ายต่าง ๆ ให้ได้ผลลัพธ์ดีที่สุดตามคำสั่งของผู้ใช้งาน ไม่จำกัดว่าต้องเป็นโมเดล Grok ของบริษัท โมเดล AI จากค่ายต่าง ๆ ที่ Musk ระบุถึงได้แก่ Claude Opus 5.5, MidJourney, Suno และ API ชั้นนำค่ายอื่น (ส่วน บางค่าย ที่ไม่มีก็ ละไว้ในฐานที่เข้าใจ ) ส่วนการตัดสินใจเลือกใช้โมเดลนั้น Musk อธิบาย ว่าคำถามที่ไม่ยากจะใช้โมเดลขนาดเล็กทำงานได้รวดเร็ว ส่วนคำถามที่คำตอบซับซ้อนก็จะใช้โมเดลขนาดใหญ่ ประกาศนี้อาจไม่ได้สื่อว่า SpaceXAI ( หรือ SI? ) จะเปลี่ยนบทบาทไม่พัฒนาโมเดล Grok ของตนเองแล้ว เพราะหากมองในอีกด้าน Anthropic เจ้าของโมเดล Claude ก็เป็น หนึ่งในลูกค้า ศูนย์ข้อมูลของ SpaceXAI ด้วยเช่นกัน ที่มา: Gizmodo arjin Thu, 08/10/2026 - 19:08",
+    "title": "Cloudflare เข้าซื้อ Deno ยุบทีมรวมเข้า Cloudflare Workers ตัว Deno พัฒนาต่ออีกหนึ่งปี",
+    "url": "https://www.blognone.com/node/151875",
+    "summary": "Cloudflare เข้าซื้อ Deno ยุบทีมรวมเข้า Cloudflare Workers ตัว Deno พัฒนาต่ออีกหนึ่งปี Body Cloudflare เข้าซื้อ Deno ผู้พัฒนาจาวาสคริปต์รันไทม์ที่เขียนด้วย Rust โดยไม่ระบุมูลค่า แต่ผลกระทบที่ชัดที่สุดคือ ทีมงานจะหยุดพัฒนาตัวรันไทม์ และจะซัพพอร์ตการออกเวอร์ชั่นใหม่อีกหนึ่งปีเท่านั้น สำหรับลูกค้า Deno Deploy บริการคลาวด์ของ Deno จะให้บริการต่อไปอีก 6 เดือนและจะมีแนวทางการย้ายไปยัง Cloudflare Workers ให้ ประกาศการรวมบริษัทครั้งนี้แสดงให้เห็นว่า Cloudflare ไม่ได้อยากได้ตัวรันไทม์ Deno โดยตรง แต่กลับสนใจ โครงการ celld ที่เลียนแบบ Cloudflare Durable Objects แต่สามารถโฮสต์เองได้ ตัวโครงการนี้เพิ่งปล่อยออกมาเมื่อเดือนสิงหาคมนี้เท่านั้น แต่ Kenton Varda จาก Cloudflare ระบุว่ามีเสียงวิจารณ์ว่าการใช้ Durable Objects นั้นเป็นการล็อกกับแพลตฟอร์ม Cloudflare เท่านั้น การนำ celld มารวมกับ workerd ทำให้แพลตฟอร์มกลายเป็นแพลตฟอร์มเปิด ที่ลูกค้าเลือกใช้ Cloudflare หรือจะโฮสต์เองที่อื่นก็ได้ โดยที่ผ่านมาก็มีลูกค้าย้ายออกไปโฮสต์เองอยู่เนืองๆ ที่ผ่านมาแม้ workerd จะเป็นโครงการโอเพนซอร์ส แต่ Durable Objects ก็",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 12:08:03 +0000",
+    "published": "Sat, 10 Oct 2026 06:38:32 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.616004+00:00"
+    "researched_at": "2026-10-10T08:29:24.284744+00:00"
   },
   {
-    "title": "Apple เตรียมเปิดตัวสินค้าใหม่ธีม \"Welcome home\" คืนวันที่ 13 ตุลาคมนี้",
-    "url": "https://www.blognone.com/node/151860",
-    "summary": "Apple เตรียมเปิดตัวสินค้าใหม่ธีม \"Welcome home\" คืนวันที่ 13 ตุลาคมนี้ Body Greg Joswiak หัวหน้าฝ่ายการตลาดของแอปเปิล โพสต์ ประกาศว่าแอปเปิลจะเปิดตัวสินค้าใหม่ในธีม \"Welcome home\" คืนวันที่ 13 ตุลาคม 2026 ตามเวลาในไทย ตรงตาม ข่าวลือ ก่อนหน้านี้ เนื่องจากแอปเปิลใช้ธีมเกี่ยวกับ Home จึงคาดว่าสินค้าที่เตรียมเปิดตัวจะเป็นกลุ่มสมาร์ทโฮม ซึ่งตามข่าวลือก่อนหน้านี้มีทั้งสินค้าใหม่ จอควบคุมอุปกรณ์สมาร์ทโฮมที่คล้าย HomePod+iPad ส่วนสินค้าอัปเกรดได้แก่ Apple TV 4K และ HomePod mini 2 ไปจนถึงสินค้าสมาร์ทโฮมภายใต้แบรนด์ LG ที่ เพิ่งมีข่าว ออกมา ทั้งนี้แอปเปิลไม่ได้ระบุเวลาของการแถลงข่าว จึงอาจเป็นการปล่อยวิดีโอสินค้าหรือออกจดหมายข่าวเท่านั้น ขณะที่ MKBHD ก็บอกว่าเขา ได้รับเชิญ ไปงาน Apple Experience ที่จัดวันเดียวกันในนิวยอร์ก โดยตรงกับเวลาไทยคือ 2 ทุ่ม ที่มา: 9to5Mac arjin Fri, 09/10/2026 - 03:11",
+    "title": "Capcom บอกวางแผนไว้แล้ว Resident Evil ภาคหลักกับ Remake จะเชื่อมกันอย่างไร",
+    "url": "https://www.blognone.com/node/151869",
+    "summary": "Capcom บอกวางแผนไว้แล้ว Resident Evil ภาคหลักกับ Remake จะเชื่อมกันอย่างไร Body Jun Takeuchi หนึ่งในโปรดิวเซอร์เกมซีรีส์ Resident Evil ให้ข้อมูลผ่านนิตยสารฉบับพิเศษครบ 30 ปีซีรีส์ Resident Evil / Biohazard ว่า Capcom วางแผนไว้แล้วเรื่องการให้เส้นเรื่องของ Resident Evil ภาคหลัก (ปัจจุบันคือ Resident Evil 9 Requiem) กับ Resident Evil Remake ( ภาคถัดไปคือ Code Veronica ) เชื่อมโยงกัน Takeuchi บอกว่าเกม Resident Evil ตอนนี้แบ่งเป็น 2 สาย คือ สาย Remake ที่ให้ผู้เล่นย้อนทวนประสบการณ์เก่าในอดีต และสายเกมภาคหลักที่มองไปในอนาคต เนื้อเรื่องเดินหน้าต่อ แต่สุดท้ายแล้ว สาย Remake จะวิ่งไล่ทันสายหลักเข้าสักวัน ซึ่ง Capcom คิดเรื่องนี้ไว้แล้วว่าจะทำอย่างไร สิ่งที่ Capcom ทำอยู่คือแทรกความเชื่อมโยงระหว่าง 2 สายเข้ามาทีละน้อย เริ่มจากภาค 8 Resident Evil Village ที่นำชื่อคุ้นเคยอย่าง Umbrella กับ Spencer กลับมา หรือในภาค 9 ที่กลับคืนสู่ Raccoon City ก็เป็นหนึ่งในการเตรียมการของการ crossover กันในอนาคต Takeuchi ยังบอกว่าภายใน Capcom เองมองภาค 7 เป็นจุดเปลี่ยนสำคัญของซีรีส์ ตอนแรกบริษัทแทรกชื่อเก่าๆ เข้า",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 08 Oct 2026 20:11:52 +0000",
+    "published": "Sat, 10 Oct 2026 02:01:22 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-09T09:03:34.615831+00:00"
+    "researched_at": "2026-10-10T08:29:24.285327+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -439,6 +444,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-09T09:03:34.615254+00:00"
+    "researched_at": "2026-10-10T08:29:24.284482+00:00"
   }
 ]
