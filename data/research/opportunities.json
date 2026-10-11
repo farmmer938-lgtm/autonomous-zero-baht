@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283284+00:00"
+    "researched_at": "2026-10-11T08:49:54.691060+00:00"
   },
   {
     "title": "Windows Search เขียนใหม่เป็นเนทีฟ ทำงานเร็วขึ้น, พิมพ์สั่งเปลี่ยนค่า Windows ได้",
@@ -32,7 +32,7 @@
     "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285422+00:00"
+    "researched_at": "2026-10-11T08:49:54.693405+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,7 +48,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284650+00:00"
+    "researched_at": "2026-10-11T08:49:54.692454+00:00"
   },
   {
     "title": "เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจ ทำงานเร็วกว่า แม่นยำกว่า Jev",
@@ -64,7 +64,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285229+00:00"
+    "researched_at": "2026-10-11T08:49:54.693213+00:00"
   },
   {
     "title": "ยอดขายพีซีไตรมาส 3/2026 ตกหนัก -20% หรือหายไป 1/5 ของปี 2025",
@@ -80,7 +80,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.284926+00:00"
+    "researched_at": "2026-10-11T08:49:54.692890+00:00"
   },
   {
     "title": "[ไม่ยืนยัน] Apple ลดคำสั่งซื้อชิ้นส่วน iPhone 18 Pro, Pro Max ลง 15-20% บอกความต้องการน้อยกว่าที่ประเมินไว้",
@@ -96,7 +96,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285011+00:00"
+    "researched_at": "2026-10-11T08:49:54.692972+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -112,7 +112,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.282805+00:00"
+    "researched_at": "2026-10-11T08:49:54.690362+00:00"
   },
   {
     "title": "SpaceX ซื้อคลื่นความถี่ 800MHz เพื่อเสริมบริการอินเทอร์เน็ตมือถือในสหรัฐ ขยายโครงข่ายร่วมกับอินเทอร์เน็ตดาวเทียม",
@@ -128,7 +128,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285133+00:00"
+    "researched_at": "2026-10-11T08:49:54.693061+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -144,7 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283750+00:00"
+    "researched_at": "2026-10-11T08:49:54.691556+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -160,7 +160,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.282904+00:00"
+    "researched_at": "2026-10-11T08:49:54.690518+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -176,7 +176,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284079+00:00"
+    "researched_at": "2026-10-11T08:49:54.691843+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -192,35 +192,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283832+00:00"
-  },
-  {
-    "title": "มีคนแกะ Googlebook OS มารันใน VM ได้แล้ว ตอนนี้รันได้บน Apple Silicon",
-    "url": "https://www.blognone.com/node/151867",
-    "summary": "มีคนแกะ Googlebook OS มารันใน VM ได้แล้ว ตอนนี้รันได้บน Apple Silicon Body หลังโน้ตบุ๊กกลุ่ม Googlebook เริ่มวางขาย ก็มีคนสามารถแกะระบบปฏิบัติการ Googlebook OS มารันใน VM ได้แล้ว เปิดทางให้ลองใช้งาน Googlebook OS โดยไม่จำเป็นต้องซื้อเครื่องจริง โครงการนี้มีชื่อว่า gbos-vm นำ recovery image ของ Googlebook OS จากเครื่องของ Dell มารันใน QEMU โดยตอนนี้ยังจำกัดเฉพาะฮาร์ดแวร์กลุ่ม Apple Silicon เพราะเป็นอิมเมจแบบ Arm (Snapdragon X) รันเครื่องบน Arm (Apple Silicon) และต้องแปลงกราฟิกจาก Vulkan มารันใน Apple Metal ด้วย ไม่ได้เป็นการรันผ่านอีมูเลเตอร์ สถานะการรัน Googlebook OS ในตอนนี้คือยังใช้งานได้เฉพาะ Chrome และยังมีฟังก์ชันบางอย่างใช้งานไม่ได้ แต่อย่างน้อยก็ช่วยให้คนที่สนใจลองรัน Googlebook OS มีช่องทางให้ทดสอบได้ง่ายขึ้นแล้ว ที่มา - gbos-vm , Android Police mk Fri, 09/10/2026 - 22:08",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 09 Oct 2026 15:08:46 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285508+00:00"
-  },
-  {
-    "title": "ความเป็นเจ้าของเกม Ultima จะกลับคืนผู้สร้างเดิม Richard Garriott ในปี 2027",
-    "url": "https://www.blognone.com/node/151866",
-    "summary": "ความเป็นเจ้าของเกม Ultima จะกลับคืนผู้สร้างเดิม Richard Garriott ในปี 2027 Body สิทธิความเป็นเจ้าของเกม RPG ซีรีส์ Ultima กำลังจะกลับมาเป็นของผู้สร้าง Richard Garriott หลังเวลาผ่านมา 35 ปี ที่เขาขายบริษัท Origin Systems ให้กับ EA ในปี 1992 เหตุผลมาจาก มาตรา 203 ในกฎหมายลิขสิทธิ์สหรัฐ US Copyright Act ที่ระบุไว้ว่าเจ้าของสิทธิดั้งเดิมสามารถ \"ยกเลิก\" การโอนถ่ายความเป็นเจ้าของสิทธิได้ หากเวลาผ่านไปแล้ว 35 ปี (ฟังดูแปลกๆ แต่มีเขียนไว้จริงๆ) ตัวของ Garriott เองก็ยอมรับว่ากฎข้อนี้ฟังดูแปลกๆ แต่เขาก็จะใช้สิทธิตามกฎหมายข้อนี้ เงื่อนไขตามกฎหมายระบุว่า Garriott ต้องยื่นขอยกเลิกการโอนถ่ายสิทธิล่วงหน้าเป็นเวลา 1 ปี ซึ่งกรณีของ Garriott ได้ยื่นไปแล้ว และทาง EA ก็ตอบกลับมาแล้วว่ารับทราบ ยินดีปฏิบัติตาม สิ่งที่เหลืออยู่มีเพียงรอเวลาให้ครบ 1 ปี ก่อนที่สิทธิความเป็นเจ้าของ Ultima จะกลับมายัง Garriott ในปีหน้า 2027 Garriott บอกว่าเขามีเวลา 1 ปีในการคิดว่าอยากทำอะไรกับ Ultima บ้าง สิ่งที่เขาทำได้มีทั้งการนำเกมภาคเก่าๆ กลับมาขายใหม่ และออกเกมภาคต่อ เขาบอกว่าได้คุยกับ EA อยู่ตลอดว่ามีโครงการอะไรร่วมกันได้บ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 09 Oct 2026 12:42:06 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285600+00:00"
+    "researched_at": "2026-10-11T08:49:54.691635+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -234,7 +206,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283580+00:00"
+    "researched_at": "2026-10-11T08:49:54.691392+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -248,7 +220,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284190+00:00"
+    "researched_at": "2026-10-11T08:49:54.691946+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -262,7 +234,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283941+00:00"
+    "researched_at": "2026-10-11T08:49:54.691740+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -276,7 +248,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283017+00:00"
+    "researched_at": "2026-10-11T08:49:54.690707+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -290,7 +262,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283174+00:00"
+    "researched_at": "2026-10-11T08:49:54.690884+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -304,7 +276,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283388+00:00"
+    "researched_at": "2026-10-11T08:49:54.691201+00:00"
+  },
+  {
+    "title": "Satya Nadella เสนอแนวทางควบคุม Super Intelligence ต้องแยกโมเดลเป็นส่วน มีปุ่มตัดการทำงาน",
+    "url": "https://www.blognone.com/node/151876",
+    "summary": "Satya Nadella เสนอแนวทางควบคุม Super Intelligence ต้องแยกโมเดลเป็นส่วน มีปุ่มตัดการทำงาน Body Satya Nadella ซีอีโอไมโครซอฟท์ โพสต์เนื้อหาบน X เกี่ยวกับแนวทางการกำกับดูแลโมเดลปัญญาประดิษฐ์อย่างปลอดภัย โดยบอกว่าเราไม่สามารถปฏิบัติกับสิ่งที่เป็น Super Intelligence ในลักษณะของ black box ที่แค่รับคำสั่งเข้า-ให้ผลลัพธ์ออกมาได้อีกต่อไป การออกแบบจำเป็นต้องมีโมเดลแยกส่วนให้สามารถเห็นกระบวนการทำงานแต่ละขั้นตอนได้ ซึ่งรวมทั้งการแยกส่วนควบคุมและส่วนความปลอดภัยออกมาจากโมเดลรวม Nadella บอกว่าปัญหาของ Super Intelligence ตอนนี้คือความก้าวหน้าที่ไปไกลมากกว่าการทำงานของซอฟต์แวร์แบบดั้งเดิม ซึ่งมนุษย์จะตรวจสอบได้ แต่ตอนนี้มันไปไกลกว่าที่มนุษย์จะทำความเข้าใจได้แล้วในหลายกรณี ข้อเสนอของเขาคือการกำหนดให้โมเดลต้องบันทึกทุกการกระทำ-ตัดสินใจ ในรูปแบบที่มนุษย์สามารถอ่านได้ ควบคุมไม่ให้มีการแก้ไขบันทึกนี้ รวมทั้งกำหนดผู้มีสิทธิ์ควบคุมจัดการโมเดล ซึ่งอาจสั่งปิดสวิตช์การทำงานโมเดลได้ทันทีด้วย ข้อเสนอของซีอีโอไมโครซอฟท์ออกมาต่อจากที่ซีอีโอบริษัท AI หลายรายเริ่มเสนอแนวทางควบคุมความปลอดภัย หลังจากเกิดเหตุการณ์โมเดลไม",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 11 Oct 2026 03:33:03 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-11T08:49:54.692627+00:00"
+  },
+  {
+    "title": "Salesforce เปลี่ยนชื่อ AIForce เป็น SIForce สนองนโยบาย Super Intelligence",
+    "url": "https://www.blognone.com/node/151878",
+    "summary": "Salesforce เปลี่ยนชื่อ AIForce เป็น SIForce สนองนโยบาย Super Intelligence Body Marc Benioff ผู้ก่อตั้งและซีอีโอของ Salesforce ประกาศเปลี่ยนชื่อบริการ AIForce เป็น SIForce โดยให้เหตุผลว่าเป็นยุคสมัยของ Super Intelligence ถึงแม้ Benioff ไม่ได้พูดออกมาชัดๆ แต่ทุกคนคงเข้าใจตรงกันว่า ทำตามแนวทางของ Donald Trump ที่เปลี่ยนคำว่า Artificial Intelligence เป็น Super Intelligence นั่นเอง โดย Benioff ไม่ใช่คนแรกที่สนองนโยบายนี้ เพราะ Elon Musk นำหน้าไปก่อนแล้วในการเปลี่ยนชื่อ SpaceXAI เป็น SpaceXSI AIForce เป็นชื่อบริการของ Salesforce ที่เพิ่งเปิดตัวในปี 2026 เป็นการเรียกชื่อฟีเจอร์ AI หลายๆ อย่างรวมกันใต้แบรนด์เดียว The era of Super Intelligence is here. AIForce is officially SIForce. https://t.co/xm1MaSraIX — Marc Benioff (@Benioff) October 9, 2026 mk Sun, 11/10/2026 - 14:44",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 11 Oct 2026 07:44:44 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-11T08:49:54.692540+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -318,7 +318,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283665+00:00"
+    "researched_at": "2026-10-11T08:49:54.691474+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -332,7 +332,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284378+00:00"
+    "researched_at": "2026-10-11T08:49:54.692173+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -346,7 +346,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.283474+00:00"
+    "researched_at": "2026-10-11T08:49:54.691288+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -360,7 +360,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284565+00:00"
+    "researched_at": "2026-10-11T08:49:54.692370+00:00"
   },
   {
     "title": "Microsoft 365 เปลี่ยนแปลงพื้นที่ OneDrive แพ็คเกจ Family, Premium จากได้รวมสูงสุด 6TB เป็นแชร์กัน 2TB",
@@ -374,7 +374,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.284835+00:00"
+    "researched_at": "2026-10-11T08:49:54.692805+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -388,7 +388,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.282673+00:00"
+    "researched_at": "2026-10-11T08:49:54.690147+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -402,7 +402,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284274+00:00"
+    "researched_at": "2026-10-11T08:49:54.692029+00:00"
   },
   {
     "title": "Cloudflare เข้าซื้อ Deno ยุบทีมรวมเข้า Cloudflare Workers ตัว Deno พัฒนาต่ออีกหนึ่งปี",
@@ -416,7 +416,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.284744+00:00"
+    "researched_at": "2026-10-11T08:49:54.692718+00:00"
   },
   {
     "title": "Capcom บอกวางแผนไว้แล้ว Resident Evil ภาคหลักกับ Remake จะเชื่อมกันอย่างไร",
@@ -430,7 +430,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-10T08:29:24.285327+00:00"
+    "researched_at": "2026-10-11T08:49:54.693311+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -444,6 +444,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-10T08:29:24.284482+00:00"
+    "researched_at": "2026-10-11T08:49:54.692282+00:00"
   }
 ]
