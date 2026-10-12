@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "how to",
       "review",
+      "how to",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,24 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691060+00:00"
-  },
-  {
-    "title": "Windows Search เขียนใหม่เป็นเนทีฟ ทำงานเร็วขึ้น, พิมพ์สั่งเปลี่ยนค่า Windows ได้",
-    "url": "https://www.blognone.com/node/151868",
-    "summary": "Windows Search เขียนใหม่เป็นเนทีฟ ทำงานเร็วขึ้น, พิมพ์สั่งเปลี่ยนค่า Windows ได้ Body ไมโครซอฟท์ปรับปรุง Windows Search ระบบค้นหาของ Windows 11 เพิ่มเติม หลัง ปรับเล็ก ถอดโฆษณา เน้นการค้นหาของในเครื่องมากกว่าเว็บ ไปเมื่อเดือนกรกฎาคม การเปลี่ยนแปลงรอบนี้คือ เขียน UI ของ Windows Search ใหม่เป็นเนทีฟด้วย WinUI 3 ช่วยให้ประสิทธิภาพดีขึ้น ตอบสนองรวดเร็วกว่าเดิม กินทรัพยากรน้อยลง หน้าตาของ Windows Search ถูกปรับให้มินิมอลมากขึ้น จากของเดิมแสดงผลการค้นหาเป็น 2 คอลัมน์ซ้ายชื่อไฟล์-ขวาพรีวิว มาเหลือคอลัมน์เดียว โดยแสดงภาพพรีวิวไว้ด้านบนสุด มีทั้งพรีวิวไฟล์ หรือข้อมูลสภาพอากาศ-ราคาหุ้น ของใหม่ที่สำคัญคือ รองรับการพิมพ์คำสั่ง (action) เช่น turn off Bluetooth, dim my screen, mute, minimize all my windows, show desktop แล้วกด enter สั่งได้เลยโดยไม่ต้องเปิดแอพขึ้นมาก่อน ลักษณะเดียวกับ Spotlight ของ macOS หรือ Command Palette ในชุด PowerToys แต่อันนี้ฝังมาใน Windows Search เลย ไมโครซอฟท์ยังบอกว่าจะเพิ่มฟีเจอร์ให้สั่งมือถือได้ผ่านแอพ Phone Link ในเร็วๆ นี้ เราสามารถพิมพ์ข้อความให้ส่ง SMS หาเพื่อนในช่อ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 09 Oct 2026 23:43:49 +0000",
-    "matched_keywords": [
-      "รีวิว",
-      "ราคา"
-    ],
-    "keyword_score": 2,
-    "intent_score": 4,
-    "opportunity_score": 6,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.693405+00:00"
+    "researched_at": "2026-10-12T09:11:48.570776+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,23 +31,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.692454+00:00"
-  },
-  {
-    "title": "เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจ ทำงานเร็วกว่า แม่นยำกว่า Jev",
-    "url": "https://www.blognone.com/node/151870",
-    "summary": "เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจ ทำงานเร็วกว่า แม่นยำกว่า Jev Body ไมโครซอฟท์เปิดตัว Microsoft-Decision-1 โมเดลตัดสินใจแบบเดียวกับ Jev แต่โฆษณาว่าทำงานเร็วกว่า Jev และมีความแม่นยำเฉลี่ย 83.5% สูงกว่าโมเดลตัดสินใจตัวอื่นๆ ทุกตัว รวมถึง OpenAI GPT-6 Luna Decision ที่ทำได้ 79.4% ความน่าสนใจคือ Microsoft-Decision-1 เป็นการดัดแปลงจากโมเดล Qwen3.5-9B (ท่าเดียวกับ Cloudflare Clef ) แต่ก็บอกว่าในอนาคตจะเปลี่ยนไปใช้ฐานโมเดลอื่น ทั้งโมเดลของ Microsoft AI (MAI) เองและโมเดลจาก OpenAI (โมเดลนี้เป็นผลงานของไมโครซอฟท์ทีมหลัก ไม่ได้มาจาก Microsoft AI) วิธีการเทรนออกแบบให้โฟกัสทั้งเรื่องความเร็ว และการทำงานหลากหลาย ทดสอบกับเบนช์มาร์คหลายตัว เพื่อไม่ให้โมเดลเก่งไปแค่ทางเดียว โมเดลนี้ถูกนำไปใช้งานกับทีม Xbox เอาความเห็นในโซเชียลไปแยกแยะ (classification) แล้วพบว่าได้คุณภาพใกล้เคียงกับโมเดลรุ่นใหญ่ GPT-6 Sol แต่ทำงานเร็วกว่า 14 เท่า และต้นทุนการรันถูกกว่า 200 เท่า โมเดล Microsoft-Decision-1 เปิดให้ใช้งานแล้วผ่าน Microsoft Foundry และ OpenRouter ค่ารันอยู่ที่ 0.042 ดอลลาร์ต่อ 1 ล้านโทเคนอินพุต ส่ว",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 10 Oct 2026 02:20:31 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.693213+00:00"
+    "researched_at": "2026-10-12T09:11:48.571738+00:00"
   },
   {
     "title": "ยอดขายพีซีไตรมาส 3/2026 ตกหนัก -20% หรือหายไป 1/5 ของปี 2025",
@@ -80,7 +47,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.692890+00:00"
+    "researched_at": "2026-10-12T09:11:48.572323+00:00"
   },
   {
     "title": "[ไม่ยืนยัน] Apple ลดคำสั่งซื้อชิ้นส่วน iPhone 18 Pro, Pro Max ลง 15-20% บอกความต้องการน้อยกว่าที่ประเมินไว้",
@@ -96,7 +63,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.692972+00:00"
+    "researched_at": "2026-10-12T09:11:48.572384+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -112,23 +79,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.690362+00:00"
-  },
-  {
-    "title": "SpaceX ซื้อคลื่นความถี่ 800MHz เพื่อเสริมบริการอินเทอร์เน็ตมือถือในสหรัฐ ขยายโครงข่ายร่วมกับอินเทอร์เน็ตดาวเทียม",
-    "url": "https://www.blognone.com/node/151871",
-    "summary": "SpaceX ซื้อคลื่นความถี่ 800MHz เพื่อเสริมบริการอินเทอร์เน็ตมือถือในสหรัฐ ขยายโครงข่ายร่วมกับอินเทอร์เน็ตดาวเทียม Body SpaceX ประกาศซื้อสิทธิ์การใช้งานคลื่นความถี่ต่ำช่วง 800MHz ในสหรัฐอเมริกา ครอบคลุมทั่วประเทศ ซึ่ง SpaceX บอกว่าการมีคลื่นความถี่นี้จะทำให้ Starlink Mobile เป็นผู้ให้บริการเครือข่ายโทรศัพท์มือถือรายใหญ่ในสหรัฐอเมริกา คลื่น 800MHz นี้จะนำมาเสริมกับโครงข่ายอินเทอร์เน็ตดาวเทียมของ Starlink ทำให้การเชื่อมต่อจากโทรศัพท์ไปยังดาวเทียมรองรับพื้นที่กว้างขึ้น เพราะคลื่นความถี่ต่ำสามารถผ่านสิ่งกีดขวาง เช่น ผนังอาคาร ที่เดิมเป็นอุปสรรคของอินเทอร์เน็ตดาวเทียม นอกจากนี้ยังสามารถขยายตลาดได้ง่ายเพราะอุปกรณ์โทรศัพท์มือถือในตลาดรองรับอยู่แล้ว นอกจากนี้ SpaceX ยังเพิ่งได้รับการอนุมัติจาก FCC หน่วยงานกำกับดูแลการสื่อสารของสหรัฐ ให้สามารถส่งดาวเทียมของ Starlink ขึ้นสู่วงโคจรได้อีก 15,000 ดวง ซึ่งจะนำมาใช้กับเครือข่ายความถี่ 2GHz ดาวเทียมเป็นรุ่นที่ 2 รองรับแบนด์วิธมากกว่ารุ่นก่อนหน้า 100 เท่า ประกาศนี้ทำให้ราคาหุ้นของผู้ให้บริการโทรศัพท์มือถือรายใหญ่ในสหรัฐทั้ง Verizon, T-Mobile และ AT&amp;T",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 10 Oct 2026 03:23:33 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.693061+00:00"
+    "researched_at": "2026-10-12T09:11:48.570455+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -144,7 +95,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691556+00:00"
+    "researched_at": "2026-10-12T09:11:48.571114+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -160,7 +111,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.690518+00:00"
+    "researched_at": "2026-10-12T09:11:48.570525+00:00"
+  },
+  {
+    "title": "GIGABYTE ระบุอินเทลเตรียมออกซีพียูในซ็อกเก็ต LGA1700 เพิ่ม รองรับแรม DDR4 สู้ยุคแรมแพง",
+    "url": "https://www.blognone.com/node/151881",
+    "summary": "GIGABYTE ระบุอินเทลเตรียมออกซีพียูในซ็อกเก็ต LGA1700 เพิ่ม รองรับแรม DDR4 สู้ยุคแรมแพง Body GIGABYTE ประกาศเตรียมปล่อย BIOS เวอร์ชันใหม่ในเมนบอร์ดกลุ่ม B760 และ H610 เพื่อรองรับซีพียูใหม่จากอินเทลที่กำลังจะเปิดตัวต้นปี 2027 ทำให้ซ็อกเก็ตนี้มีอายุ 5 ปีเต็มและยังทำตลาดต่อไป เดิม LGA1700 ควรถูกแทนด้วย LGA1851 ที่เปิดตัวตั้งแต่ปี 2024 แต่เนื่องจาก LGA1851 รองรับเฉพาะแรม DDR5 ที่มีราคาสูงขึ้นอย่างรวดเร็ว ทำให้หลายคนก็ยังติดกับ LGA1700 อยู่ ทางอินเทลยังไม่เปิดเผยว่าซีพียูที่จะออกใหม่ให้กับ LGA1700 มีคุณสมบัติอย่างไรบ้าง แต่ประกาศของ GIGABYTE ก็ระบุว่าจะทำให้ประสิทธิภาพของระบบ \"สดใหม่\" ในแพลตฟอร์มเดิม ราคาแรมที่สูงขึ้นอย่างรวดเร็วทำให้แม้แต่แรม DDR4 เองก็แพงกว่าช่วงเปิดตัวเสียอีก เช่น โมดูลแรม DDR4 แบบ 16GBx2 เคยอยู่ในช่วง 5,500 บาท และเคยลดต่ำไปถึง 1,600 บาท แต่ตอนนี้ขายกันอยู่ 8,400-9,900 บาทเลยทีเดียว ที่มา - GIGABYTE lew Mon, 12/10/2026 - 09:57",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Mon, 12 Oct 2026 02:57:34 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-12T09:11:48.571887+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -176,7 +143,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691843+00:00"
+    "researched_at": "2026-10-12T09:11:48.571327+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -192,7 +159,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691635+00:00"
+    "researched_at": "2026-10-12T09:11:48.571173+00:00"
+  },
+  {
+    "title": "หน่วยงานไซเบอร์ญี่ปุ่น ระบุสถานการณ์ตอนนี้วิกฤต หลังเกิดเหตุเจาะระบบบริษัทใหญ่กว่า 20 แห่งในประเทศ",
+    "url": "https://www.blognone.com/node/151877",
+    "summary": "หน่วยงานไซเบอร์ญี่ปุ่น ระบุสถานการณ์ตอนนี้วิกฤต หลังเกิดเหตุเจาะระบบบริษัทใหญ่กว่า 20 แห่งในประเทศ Body เมื่อช่วงสัปดาห์ที่ผ่านมา เกิดเหตุการณ์เจาะระบบและมีข้อมูลรั่วไหลในหลายบริษัท-หน่วยงานของประเทศญี่ปุ่น รวมมากกว่า 20 แห่ง โดยในที่ประชุมยุทธศาสตร์ความปลอดภัยไซเบอร์ของญี่ปุ่น Toshiharu Furukawa รัฐมนตรีดิจิทัลของญี่ปุ่นระบุว่าสถานการณ์ตอนนี้อยู่ในระดับวิกฤตอย่างยิ่ง ตัวอย่างหน่วยงานที่รายงานปัญหาการถูกเข้าถึงข้อมูลเช่น ร้านสินค้ามือสอง Bookoff, ระบบจองรถไฟ Ekinet ของ JR East, บริการเช่ารถยนต์ Times Car ซึ่งมีข้อมูลหน้าใบขับขี่ด้วย ผู้เชี่ยวชาญมองว่าความสามารถที่มากขึ้นของ AI มีส่วนให้การเจาะระบบเกิดมากขึ้นในภาพรวม กรณีของญี่ปุ่น AI ยังช่วยลดกำแพงด้านภาษาซึ่งเดิมเป็นอุปสรรคของแฮกเกอร์ด้วย ที่มา: PC Mag และ Japan Today arjin Sun, 11/10/2026 - 18:36",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 11 Oct 2026 11:36:00 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-12T09:11:48.572001+00:00"
+  },
+  {
+    "title": "Yandex Cloud ในรัสเซียถูก UAV โจมตีศูนย์ข้อมูลดับไปทั้งศูนย์ บริการจำนวนมากมีปัญหา",
+    "url": "https://www.blognone.com/node/151880",
+    "summary": "Yandex Cloud ในรัสเซียถูก UAV โจมตีศูนย์ข้อมูลดับไปทั้งศูนย์ บริการจำนวนมากมีปัญหา Body Yandex Cloud บริการคลาวด์ในเครือ Yandex ผู้ให้บริการเว็บค้นหารายใหญ่ในรัสเซียเปิดเผยว่าศูนย์ข้อมูลในเมือง Vladimir ถูกโจมตีด้วย UAV โดยไม่มีผู้เสียชีวิต แต่ศูนย์ข้อมูลดับไปทั้งศูนย์ แม้จะถูกโจมตีในศูนย์ข้อมูลเดียว แต่การโจมตีครั้งนี้ก็ทำให้บริการหลักๆ มีปัญหาจำนวนมาก เช่น ฐานข้อมูลบางระบบเหลืออ่านได้อย่างเดียว, S3 อ่านเขียนช้าลงมาก, บริการหลายตัวหยุดให้บริการใหม่ ทางด้าน Cloudflare พบว่าทราฟิกจาก Yandex ลดลงกว่าปกติ 33% ผลกระทบของการโจมตีครั้งนี้ส่งผลเป็นวงกว้าง แอปต่างๆ ล่มจำนวนมาก, บริการเครื่อง POS ตามร้านค้าล่ม ที่มา - Yandex Status lew Mon, 12/10/2026 - 09:23",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Mon, 12 Oct 2026 02:23:55 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-12T09:11:48.571944+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -206,7 +201,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691392+00:00"
+    "researched_at": "2026-10-12T09:11:48.570990+00:00"
+  },
+  {
+    "title": "Ubuntu ออกอิมเมจเดสก์ท็อปสำหรับ RISC-V แล้ว",
+    "url": "https://www.blognone.com/node/151882",
+    "summary": "Ubuntu ออกอิมเมจเดสก์ท็อปสำหรับ RISC-V แล้ว Body Canonical ประกาศออกอิมเมจของเดสก์ท็อป Ubuntu บนสถาปัตยกรรม RISC-V อย่างเป็นทางการ จากเดิมที่มีเฉพาะอิมเมจของฝั่งเซิร์ฟเวอร์เท่านั้น ก่อนหน้านี้ Canonical เคยจับมือกับ ผู้ผลิตแท็บเล็ต RISC-V แต่ไม่เคยออกอิมเมจอย่างเป็นทางการต่อสาธารณะ มีแต่อิมเมจแบบคัสตอมที่ให้ผู้ผลิตแท็บเล็ตพรีโหลดมากับเครื่องเท่านั้น สิ่งที่เกิดขึ้นคือใน Ubuntu 26.10 (Stonking Stingray) เวอร์ชันหน้า จะมีไฟล์อิมเมจสำหรับสถาปัตยกรรม riscv64 มาให้ใช้งานกัน ทั้งแบบเดสก์ท็อป GNOME สายหลัก และ Xfce (Xubuntu) ที่ขนาดเล็ก รันบนอีมูเลเตอร์ได้เร็วกว่า ฮาร์ดแวร์ที่ทดสอบคือบอร์ด SpacemiT K3 โดยตอนนี้มีแบบอิมเมจทดสอบรายวันให้ลองกันแล้ว ที่มา - Ubuntu , OMG Ubuntu mk Mon, 12/10/2026 - 13:50",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Mon, 12 Oct 2026 06:50:16 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-12T09:11:48.571820+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -220,7 +229,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691946+00:00"
+    "researched_at": "2026-10-12T09:11:48.571403+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -234,7 +243,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691740+00:00"
+    "researched_at": "2026-10-12T09:11:48.571252+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -248,7 +257,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.690707+00:00"
+    "researched_at": "2026-10-12T09:11:48.570606+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -262,7 +271,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.690884+00:00"
+    "researched_at": "2026-10-12T09:11:48.570685+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -276,7 +285,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691201+00:00"
+    "researched_at": "2026-10-12T09:11:48.570851+00:00"
   },
   {
     "title": "Satya Nadella เสนอแนวทางควบคุม Super Intelligence ต้องแยกโมเดลเป็นส่วน มีปุ่มตัดการทำงาน",
@@ -290,7 +299,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.692627+00:00"
+    "researched_at": "2026-10-12T09:11:48.572125+00:00"
   },
   {
     "title": "Salesforce เปลี่ยนชื่อ AIForce เป็น SIForce สนองนโยบาย Super Intelligence",
@@ -304,7 +313,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.692540+00:00"
+    "researched_at": "2026-10-12T09:11:48.572063+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -318,7 +327,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691474+00:00"
+    "researched_at": "2026-10-12T09:11:48.571053+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -332,7 +341,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.692173+00:00"
+    "researched_at": "2026-10-12T09:11:48.571540+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -346,7 +355,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.691288+00:00"
+    "researched_at": "2026-10-12T09:11:48.570913+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -360,7 +369,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.692370+00:00"
+    "researched_at": "2026-10-12T09:11:48.571676+00:00"
   },
   {
     "title": "Microsoft 365 เปลี่ยนแปลงพื้นที่ OneDrive แพ็คเกจ Family, Premium จากได้รวมสูงสุด 6TB เป็นแชร์กัน 2TB",
@@ -374,7 +383,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.692805+00:00"
+    "researched_at": "2026-10-12T09:11:48.572258+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -388,7 +397,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.690147+00:00"
+    "researched_at": "2026-10-12T09:11:48.570357+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -402,7 +411,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.692029+00:00"
+    "researched_at": "2026-10-12T09:11:48.571465+00:00"
   },
   {
     "title": "Cloudflare เข้าซื้อ Deno ยุบทีมรวมเข้า Cloudflare Workers ตัว Deno พัฒนาต่ออีกหนึ่งปี",
@@ -416,21 +425,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.692718+00:00"
-  },
-  {
-    "title": "Capcom บอกวางแผนไว้แล้ว Resident Evil ภาคหลักกับ Remake จะเชื่อมกันอย่างไร",
-    "url": "https://www.blognone.com/node/151869",
-    "summary": "Capcom บอกวางแผนไว้แล้ว Resident Evil ภาคหลักกับ Remake จะเชื่อมกันอย่างไร Body Jun Takeuchi หนึ่งในโปรดิวเซอร์เกมซีรีส์ Resident Evil ให้ข้อมูลผ่านนิตยสารฉบับพิเศษครบ 30 ปีซีรีส์ Resident Evil / Biohazard ว่า Capcom วางแผนไว้แล้วเรื่องการให้เส้นเรื่องของ Resident Evil ภาคหลัก (ปัจจุบันคือ Resident Evil 9 Requiem) กับ Resident Evil Remake ( ภาคถัดไปคือ Code Veronica ) เชื่อมโยงกัน Takeuchi บอกว่าเกม Resident Evil ตอนนี้แบ่งเป็น 2 สาย คือ สาย Remake ที่ให้ผู้เล่นย้อนทวนประสบการณ์เก่าในอดีต และสายเกมภาคหลักที่มองไปในอนาคต เนื้อเรื่องเดินหน้าต่อ แต่สุดท้ายแล้ว สาย Remake จะวิ่งไล่ทันสายหลักเข้าสักวัน ซึ่ง Capcom คิดเรื่องนี้ไว้แล้วว่าจะทำอย่างไร สิ่งที่ Capcom ทำอยู่คือแทรกความเชื่อมโยงระหว่าง 2 สายเข้ามาทีละน้อย เริ่มจากภาค 8 Resident Evil Village ที่นำชื่อคุ้นเคยอย่าง Umbrella กับ Spencer กลับมา หรือในภาค 9 ที่กลับคืนสู่ Raccoon City ก็เป็นหนึ่งในการเตรียมการของการ crossover กันในอนาคต Takeuchi ยังบอกว่าภายใน Capcom เองมองภาค 7 เป็นจุดเปลี่ยนสำคัญของซีรีส์ ตอนแรกบริษัทแทรกชื่อเก่าๆ เข้า",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 10 Oct 2026 02:01:22 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-11T08:49:54.693311+00:00"
+    "researched_at": "2026-10-12T09:11:48.572192+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -444,6 +439,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-11T08:49:54.692282+00:00"
+    "researched_at": "2026-10-12T09:11:48.571616+00:00"
   }
 ]

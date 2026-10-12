@@ -1,15 +1,5 @@
 [
   {
-    "path": "data/content/drafts/windows-search-เขียนใหม่เป็นเนทีฟ-ทำงานเร็วขึ้น-พิมพ์สั่งเปลี่ยนค่า-windows-ได้.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/เปิดตัว-microsoft-decision-1-โมเดลตัดสินใจ-ทำงานเร็วกว่า-แม่นยำกว่า-jev.json",
-    "passed": true,
-    "errors": []
-  },
-  {
     "path": "data/content/drafts/ยอดขายพีซีไตรมาส-3-2026-ตกหนัก-20-หรือหายไป-1-5-ของปี-2025.json",
     "passed": true,
     "errors": []
@@ -20,7 +10,17 @@
     "errors": []
   },
   {
-    "path": "data/content/drafts/spacex-ซื้อคลื่นความถี่-800mhz-เพื่อเสริมบริการอินเทอร์เน็ตมือถือในสหรัฐ-ขยายโคร.json",
+    "path": "data/content/drafts/gigabyte-ระบุอินเทลเตรียมออกซีพียูในซ็อกเก็ต-lga1700-เพิ่ม-รองรับแรม-ddr4-สู้ยุค.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/หน่วยงานไซเบอร์ญี่ปุ่น-ระบุสถานการณ์ตอนนี้วิกฤต-หลังเกิดเหตุเจาะระบบบริษัทใหญ่กว.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/yandex-cloud-ในรัสเซียถูก-uav-โจมตีศูนย์ข้อมูลดับไปทั้งศูนย์-บริการจำนวนมากมีปัญ.json",
     "passed": true,
     "errors": []
   }
