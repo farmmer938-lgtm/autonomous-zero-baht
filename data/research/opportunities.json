@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.258919+00:00"
+    "researched_at": "2026-10-14T07:37:52.720728+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,30 +31,14 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.260177+00:00"
+    "researched_at": "2026-10-14T07:37:52.723582+00:00"
   },
   {
-    "title": "กูเกิลเปิดตัวสายรัดข้อมือสุขภาพ Fitbit Edge รุ่นมีจอภาพ มาแทน Fitbit Charge",
-    "url": "https://www.blognone.com/node/151884",
-    "summary": "กูเกิลเปิดตัวสายรัดข้อมือสุขภาพ Fitbit Edge รุ่นมีจอภาพ มาแทน Fitbit Charge Body กูเกิลเปิดตัวสายรัดข้อมือสุขภาพ Fitbit Edge รุ่นมีจอภาพในตัว จับตลาดคนที่อยากได้หน้าจอชำเลืองดูได้ ซึ่งแตกต่างไปจาก Fitbit Air รุ่นที่ไม่มีหน้าจอ แต่ยังคงอยากได้สายรัดขนาดเล็ก เบา ใส่สะดวกกว่านาฬิกาเต็มขั้นแบบ Pixel Watch (จากสเปกและราคาแล้ว เทียบได้กับ Fitbit Charge 6 ที่ออกในปี 2023 และซีรีส์ Edge จะมาแทนซีรีส์ Charge) หน้าจอของ Fitbit Edge มีขนาด 34mm เป็นหน้าจอแบบ AMOLED ที่กูเกิลคุยว่าใหญ่และสว่างที่สุดในบรรดา Fitbit รุ่นต่างๆ อ่านจอได้ชัดในสภาพแสงจ้า มีพื้นที่แสดงข้อมูลเพิ่มขึ้น 46% แต่ขนาดตัวเครื่องยังบาง 11.5mm และน้ำหนักเฉพาะตัวเรือน 17.7 กรัม เบากว่า Apple Watch Series 12 ถึง 45% ฟีเจอร์อย่างอื่นคือ GPS แม่นขึ้น 40% เทียบกับรุ่นก่อน แบตเตอรี่อยู่ได้นานสูงสุด 7 วันต่อการชาร์จครั้งเดียว กันน้ำลึก 50 เมตร และออกแบบมาให้ซ่อมง่าย เปลี่ยนแบตเตอรี่ได้ง่ายเมื่อหมดอายุขัย ซอฟต์แวร์อิงอยู่บนฐานเดียวกับ Pixel Watch 5 แต่ปรับอินเทอร์เฟซให้เหมาะสมกับจอขนาดเล็กลง ชำเลืองดูข้อมูลสะดวกขึ้น ฟีเจอร์ด้านสุขภาพเหมือ",
+    "title": "XBOX ตั้งทีม XBOX LABS ศึกษาโอกาสที่ AI สามารถสร้างเกมด้วยวิธี reverse-engineer ได้ง่ายขึ้น",
+    "url": "https://www.blognone.com/node/151906",
+    "summary": "XBOX ตั้งทีม XBOX LABS ศึกษาโอกาสที่ AI สามารถสร้างเกมด้วยวิธี reverse-engineer ได้ง่ายขึ้น Body Asha Sharma ซีอีโอ Xbox ประกาศตั้งทีมขนาดเล็กในบริษัทชื่อ XBOX LABS ซึ่งมีทั้งพนักงานฝ่ายออกแบบผลิตเกม, วิศวกร, นักวิทยาศาสตร์ เพื่อทดลองและทดสอบไอเดียใหม่ ๆ ไปยังผู้เล่นเกมและนักพัฒนาเกม ว่าเทคโนโลยีปัจจุบันสามารถทำสิ่งต่าง ๆ แล้วให้ผลลัพธ์อย่างไร Asha บอกว่าในช่วงไม่กี่สัปดาห์ที่ผ่านมา วงการเกมมีเหตุการณ์ที่มีคนสร้างเกมด้วยวิศวกรรมย้อนกลับจำนวนมาก (reverse-engineer) ทำให้เราเห็นเกมที่เดิมมีเฉพาะบน Windows สามารถเล่นบน Apple silicon ได้ หรือเกมที่อาจผลิตบนคอนโซลเฉพาะ ก็สามารถนำไปเล่นผ่านเบราว์เซอร์ได้เป็นต้น ซึ่งปัจจัยหลักคือความก้าวหน้าของ AI ที่ทำให้ไอเดียและข้อจำกัดเดิมไม่มีอีกต่อไป สิ่งนี้ย่อมส่งผลกระทบต่อโครงสร้างธุรกิจของ Xbox และบริษัทเกมรายใหญ่ที่ควบคุมซอฟต์แวร์-ฮาร์ดแวร์เข้าด้วยกัน XBOX มองว่าเทคโนโลยีนี้มีข้อดีหลายอย่าง เกมเก่าที่คนโหยหาก็สามารถพอร์ตมาลงข้ามแพลตฟอร์มได้ง่ายขึ้น คนเล่นเกมก็สามารถเปลี่ยนบทบาทมาเป็นคนสร้างเกมจากไอเดียที่ตนเองอยากได้ง่ายมากขึ้น ทั้งหมดจึงเป็นที่มาของ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 12 Oct 2026 15:04:53 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260862+00:00"
-  },
-  {
-    "title": "[ลือ] Epic เลื่อนเปิดตัวเกมยิง Marvel + Star Wars เพราะจะใช้ AI พัฒนาเกมแทน",
-    "url": "https://www.blognone.com/node/151889",
-    "summary": "[ลือ] Epic เลื่อนเปิดตัวเกมยิง Marvel + Star Wars เพราะจะใช้ AI พัฒนาเกมแทน Body Jason Schreier นักข่าวสายเกมของ Bloomberg รายงานว่า Epic Games เลื่อนการเปิดตัวเกมใหม่ที่ร่วมพัฒนากับ Disney (ลือกันว่าเป็นเกมยิงที่ผสมคาแรกเตอร์จาก Marvel และ Star Wars เข้าด้วยกัน - Disney ลงทุนใน Epic เมื่อปี 2024 ) ออกไปจากกำหนดเดิมเดือนมีนาคม 2027 ตอนนี้ยังไม่มีข้อมูลว่ากำหนดการเปิดตัวใหม่คือเมื่อไร แต่ประเด็นน่าสนใจคือเหตุผลของการเลื่อน เพราะข่าวของ Schreier บอกว่า Epic ตั้งใจให้เกมนี้ถูกพัฒนาด้วย AI ทั้งหมด โดยที่มนุษย์ควบคุมอย่างเดียว ไม่ต้องมีการเขียนโค้ดด้วยมือเลย จึงต้องกลับไปปรับปรุงกระบวนการพัฒนาใหม่ให้ workflow ทำงานด้วย AI มากกว่าเดิม หากข่าวนี้เป็นจริง เกมนี้จะเป็นเกมจากค่ายใหญ่ (ระดับ Epic) เกมแรกที่ถูกสร้างด้วย AI โดยเมื่อต้นปีนี้ [Epic Games เพิ่งปลดพนักงานออก 1,000 คน ด้วยเหตุผลว่ายอดผู้เล่นเกม Fortnite ลดลง จึงอาจไม่น่าแปลกใจนักที่บริษัทจะหันมาใช้วิธีพัฒนาเกมด้วย AI แทน ที่มา - Bloomberg mk Tue, 13/10/2026 - 09:28",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 02:28:16 +0000",
+    "published": "Wed, 14 Oct 2026 01:52:04 +0000",
     "matched_keywords": [
       "วิธี"
     ],
@@ -63,39 +47,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260425+00:00"
-  },
-  {
-    "title": "[Circana] ยอดขายคอนโซลในสหรัฐร่วงหนัก PlayStation ลด 25%, Xbox ลด 33%",
-    "url": "https://www.blognone.com/node/151887",
-    "summary": "[Circana] ยอดขายคอนโซลในสหรัฐร่วงหนัก PlayStation ลด 25%, Xbox ลด 33% Body Mat Piscatella นักวิเคราะห์อุตสาหกรรมเกมจากบริษัทวิจัย Circana ให้ข้อมูลยอดขายเครื่องเกมคอนโซล (เฉพาะในสหรัฐอเมริกา) ปี 2026 ดังนี้ เดือนสิงหาคม 2026 (นับยอดขายตามจำนวนเครื่อง) PlayStation ลดลง 11% (ต่ำสุดของเดือนสิงหาคม นับจากปี 2013) Xbox ลดลง 31% (ต่ำสุดของเดือนสิงหาคม นับจากปี 2020) Nintendo ลดลง 15% มกราคม-สิงหาคม 2026 PlayStation ลดลง 25% Xbox ลดลง 33% Nintendo ไม่ระบุตัวเลข เหตุผลที่ยอดขายคอนโซลลดลง เป็นเพราะผู้ผลิตคอนโซลขึ้นราคาเครื่อง โดยราคาเฉลี่ยของ Xbox ปี 2026 อยู่ที่ 529 ดอลลาร์ เพิ่มขึ้น 26%, ราคาเฉลี่ย PlayStation อยู่ที่ 597 ดอลลาร์ เพิ่มขึ้น 20% จากปีที่แล้ว ถือเป็นราคาเครื่องคอนโซลที่สูงสุดเป็นประวัติการณ์ของสหรัฐอเมริกา Piscatella คาดว่าการมาถึงของ GTA 6 ในเดือนพฤศจิกายน น่าจะช่วยชะลอปัญหายอดขายคอนโซลตกต่ำลงได้บ้าง แต่ภาพรวมตลาดคอนโซลยังต้องเผชิญกับปัญหาราคาแพง และชิ้นส่วนขาดตลาด ทำให้สต๊อกสินค้าลดลง ซึ่งตลาดคอนโซลสหรัฐไม่เคยเจอสภาวะแย่ๆ แบบนี้ นับตั้งแต่ยุคฟองสบู่คอนโซลล่มสลายช่วงต้นทศวรรษ 8",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 02:06:20 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260593+00:00"
-  },
-  {
-    "title": "Z.ai ออกโมเดลเฉพาะทาง GLM-Legal เน้นงาน Agentic ด้านกฎหมายโดยเฉพาะ",
-    "url": "https://www.blognone.com/node/151891",
-    "summary": "Z.ai ออกโมเดลเฉพาะทาง GLM-Legal เน้นงาน Agentic ด้านกฎหมายโดยเฉพาะ Body Z.ai ปล่อยโมเดลเฉพาะทาง GLM-Legal โมเดลปัญญาประดิษฐ์ฝึกความสามารถด้านกฎหมายโดยเฉพาะ ตัวโมเดลสร้างจาก GLM-5.3-Flash แต่เน้นใช้งานเฉพาะ เช่น การตรวจสอบสัญญา, การตรวจสอบพยานหลักฐานในคดีต่างๆ, หรือการตรวจสอบข้อบังคับ กระบวนการพัฒนา ใช้ GLM-5.3-Flash มาฝึกด้วยเอกสารสัญญาคุณภาพสูงจำนวนมากเพื่อให้โมเดลมีแนวคิดทางกฎหมาย จากนั้นมาทำ reinforcement learning เพื่อแก้ปัญหาทางกฎหมายนับหมื่นรายการเพื่อให้เข้าถึงเป้าหมายได้ดีที่สุด ขั้นสุดท้ายคือการนำข้อมูลจริงมาตรวจสอบว่าโมเดลแนะนำได้ถูกต้องจริงหรือไม่ อ้างอิงจากเอกสารที่ให้ไว้เท่านั้น ตอนนี้ GLM-Legal ยังเปิดให้บริการวงปิดเท่านั้น ที่มา - Z.ai lew Tue, 13/10/2026 - 13:53",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 06:53:35 +0000",
-    "matched_keywords": [
-      "แก้ปัญหา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260250+00:00"
+    "researched_at": "2026-10-14T07:37:52.724134+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -111,7 +63,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.258490+00:00"
+    "researched_at": "2026-10-14T07:37:52.719904+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -127,23 +79,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259360+00:00"
-  },
-  {
-    "title": "Microsoft เปิดตัว Maia 300 ชิปเร่งความเร็ว AI รุ่นที่สาม สถาปัตยกรรม Chiplet",
-    "url": "https://www.blognone.com/node/151883",
-    "summary": "Microsoft เปิดตัว Maia 300 ชิปเร่งความเร็ว AI รุ่นที่สาม สถาปัตยกรรม Chiplet Body ไมโครซอฟท์เปิดตัวชิปเร่งการประมวลผลปัญญาประดิษฐ์ Maia รุ่นที่สาม Maia 300 ตามหลัง Maia 100 ที่เปิดตัวปี 2023 และ Maia 200 ที่เปิดตัวต้นปี 2026 ซึ่งตอนนี้ถูกใช้งานระดับโปรดักชันกับบริการหลายๆ ตัว เช่น Copilot แล้ว Maia 300 เป็นการอัพเกรดจาก Maia 200 โดยสร้างโทเคนได้มากกว่ากัน 7 เท่าเทียบกับ Maia 200 และประหยัดพลังงานกว่าเดิม โดยนับเป็นโทเคนต่อเมกะวัตต์ จะดีขึ้น 40% เทียบกับการใช้งานจีพียู ไมโครซอฟท์เรียกสถาปัตยกรรมของ Maia 200 ว่า Software Defined Locally Accessed Dataflow Architecture (SDLA) เริ่มจากการสังเกตวิธีเคลื่อนย้ายข้อมูลในระบบ AI สมัยใหม่ให้มีประสิทธิภาพ แนวทางของ SDLA คือการแยก control path ออกจาก data path แล้วให้ซอฟต์แวร์คอยทำหน้าที่จัดการตำแหน่งของข้อมูลให้มีประสิทธิภาพดีขึ้น Maia 300 พัฒนาสถาปัตยกรรมนี้ไปอีกขั้น เพื่อตอบโจทย์เรื่อง context ขนาดยาว, โมเดลที่เน้นหนักเรื่องการให้เหตุผล และการรันโมเดลที่เน้นการถอดรหัส (decode-heavy) แนวทางของ Maia 300 คือ ใช้ชิปหลายตัวมาต่อกัน (chiplet) ที่มีหน่",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 12 Oct 2026 14:40:32 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260946+00:00"
+    "researched_at": "2026-10-14T07:37:52.721730+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -159,7 +95,39 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.258582+00:00"
+    "researched_at": "2026-10-14T07:37:52.720113+00:00"
+  },
+  {
+    "title": "HomePod mini 2 เพิ่มฟีเจอร์ Sound Glow ปรับแสงสีตามเพลง, ชิป S10 ปรับเสียงเพลงเรียลไทม์",
+    "url": "https://www.blognone.com/node/151900",
+    "summary": "HomePod mini 2 เพิ่มฟีเจอร์ Sound Glow ปรับแสงสีตามเพลง, ชิป S10 ปรับเสียงเพลงเรียลไทม์ Body แอปเปิลอัปเดต HomePod mini 2 อัปเกรดชิปรุ่นใหม่ S10 พร้อมความสามารถระบบเสียงเชิงคำนวณขั้นสูง ทำให้สามารถวิเคราะห์เพลงและปรับช่วงไดนามิก ความดัง และประสิทธิภาพอะคูสติกให้เหมาะสมแบบเรียลไทม์ นอกจากนี้ยังเพิ่มคุณสมบัติที่เรียกว่า Sound Glow ที่ด้านบนของ HomePod mini จะปรับแสง-สี ให้เป็นจังหวะไปพร้อมกับเสียงเพลงนั้น ๆ สร้างประสบการณ์ใช้งานที่เข้าคู่กันได้ดีขึ้น นอกจากนี้ HomePod mini 2 ยังเพิ่มความสามารถ Siri AI ที่สามารถทำงานตามคำสั่งเช่นการส่งข้อความ, ตั้งเวลา, ค้นหาเพลง และอื่น ๆ อย่างไรก็ตามฟีเจอร์นี้ตอนนี้รองรับเฉพาะภาษาอังกฤษและในบางประเทศเท่านั้น ซึ่งยังไม่มีภาษาไทย-ประเทศไทย HomePod mini 2 มีตัวเลือกห้าสี ได้แก่ สีชมพู สีเขียว สีฟ้า สีขาว และสีมิดไนท์ ราคา 5,200 บาท กำหนดจำหน่ายในประเทศไทยเร็ว ๆ นี้ ที่มา: แอปเปิล arjin Tue, 13/10/2026 - 23:32",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 13 Oct 2026 16:32:14 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.725088+00:00"
+  },
+  {
+    "title": "Gemini 4 Argon เปิดให้ใช้งานแล้ว ผ่าน API และผู้ใช้ Google AI Pro/Ultra",
+    "url": "https://www.blognone.com/node/151903",
+    "summary": "Gemini 4 Argon เปิดให้ใช้งานแล้ว ผ่าน API และผู้ใช้ Google AI Pro/Ultra Body กูเกิลเปิดให้ลูกค้าทั่วไปใช้งาน โมเดล Gemini 4 Argon ที่เปิดตัวเมื่อต้นเดือนนี้และเปิดใช้งานแบบจำกัด ตอนนี้ผู้ที่สามารถใช้งาน Gemini 4 Argon ได้แล้วคือ นักพัฒนาและภาคธุรกิจ เรียกผ่าน API ของ AI Studio และ Gemini Platform คนจ่าย Google AI Ultra ใช้ผ่าน Antigravity คนจ่าย Google AI Pro/Ultra ใช้ผ่านแอพ Gemini และ AI Mode ของ Search จุดที่น่าสนใจของการเรียกผ่าน API คือการหั่นราคาเรียกลูกค้ากลับคืน โดยคิดราคาพิเศษลดจากปกติ 50% ที่ 2 ดอลลาร์ต่อ 1 ล้านโทเคนอินพุต และ 10 ดอลลาร์ต่อ 1 ล้านโทเคนเอาท์พุต ซึ่งถูกกว่าโมเดลคู่แข่ง แต่ ราคานี้จะมีผลถึงแค่ 30 พฤศจิกายน หลังจากนั้นจะกลับมาใช้ราคาปกติ กูเกิลเล่าว่าใช้ Gemini 4 Argon เขียนโค้ดภายในบริษัทมาแล้วหลายอย่าง เช่น แยกโค้ดส่วนจัดการหน้าเว็บของ Chrome 6 ล้านบรรทัด ออกมาจากโค้ดทั้งหมด 40 ล้านบรรทัด และ refactor เสร็จในไม่กี่สัปดาห์, เอามาปรับแต่งโมเดล Gemma ให้ทำงานเร็วขึ้น 2.85 เท่า, แก้โค้ด Python ใน Agent Development Kit (ADK) ลดระยะเวลาเริ่มเซสชันลงได้ 40% ที่มา - Go",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 13 Oct 2026 23:39:25 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.724661+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -175,7 +143,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259648+00:00"
+    "researched_at": "2026-10-14T07:37:52.722366+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -191,35 +159,21 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259436+00:00"
+    "researched_at": "2026-10-14T07:37:52.721901+00:00"
   },
   {
-    "title": "เผยจอควบคุมสมาร์ทโฮมของ Apple จะใช้ชื่อ HomeView สั่งการด้วย Siri AI",
-    "url": "https://www.blognone.com/node/151890",
-    "summary": "เผยจอควบคุมสมาร์ทโฮมของ Apple จะใช้ชื่อ HomeView สั่งการด้วย Siri AI Body แอปเปิลเตรียมเปิดตัวสินค้าใหม่ซึ่งคาดว่ามีหลายอย่างในงานแถลงข่าว Welcome home คืนนี้ตามเวลาในไทย โดยสินค้าเด่นที่มีข่าวลือมายาวนานคือหน้าจอสั่งการควบคุมอุปกรณ์สมาร์ทโฮม ที่คล้าย iPad แบบมีฐานตั้ง ล่าสุด Mark Gurman แห่ง Bloomberg คนเดิม อ้างแหล่งข่าวที่เกี่ยวข้องบอกว่าสินค้าตัวนี้จะใช้ชื่อว่า HomeView นอกจากนี้ MacRumors ก็ ยืนยันข้อมูล อีกทางว่าแอปเปิลตั้งบริษัทชื่อ Home Operations Suite ไปไล่จดทะเบียนเครื่องหมายการค้า HomeView ในอเมริกาและอีกหลายประเทศ รวมทั้งจดชื่อ homeOS ที่น่าจะเป็นระบบปฏิบัติการของ HomeView ด้วย สำหรับสเป็กฮาร์ดแวร์ที่ Gurman รายงานล่าสุดนี้บอกว่าอุปกรณ์ใช้ชิป A18 ติดตั้งได้สองแบบคือฐานตั้งคล้าย iMac G4 กับแบบติดผนัง มีตัวเลือกสี่สีคือ สเปซเกรย์, เงิน, สตาร์ไลท์ และชมพู อุปกรณ์ใช้การสั่งงานด้วยเสียงผ่าน Siri AI เป็นหลัก ไม่สามารถติดตั้งแอปเพิ่มเติมได้ตอนนี้จึงยังไม่มี App Store ของตนเอง หรือถ้าทำได้ก็ต้องผ่าน iPhone โดยสินค้าจะเริ่มขายในเดือนพฤศจิกายน ที่มา: Bloomberg arjin Tue, 13/10/2026 ",
+    "title": "[ลือ] รอกันไม่นาน GTA 6 เวอร์ชันพีซี จะวางขายช่วงไตรมาส 1/2027",
+    "url": "https://www.blognone.com/node/151908",
+    "summary": "[ลือ] รอกันไม่นาน GTA 6 เวอร์ชันพีซี จะวางขายช่วงไตรมาส 1/2027 Body เว็บไซต์ GamesBeat อ้างแหล่งข่าวแวดวง Rockstar จำนวน 4 รายที่พูดตรงกันว่าเกม Grand Theft Auto VI เวอร์ชันพีซี จะวางขายในไตรมาส 1 ของปี 2027 ตามหลังจากเวอร์ชันคอนโซลที่มีกำหนดขาย 19 พฤศจิกายน 2026 ไม่กี่เดือน ประวัติของ Rockstar มักวางขายเกมเวอร์ชันคอนโซลก่อนพีซีประมาณ 1 ปีขึ้นไป ตัวอย่างช่วงหลังๆ คือ GTA 5 ทิ้งช่วงห่างกันราว 1.5 ปี หรือ RDR 2 ทิ้งช่วงห่างกัน 1 ปี เหตุผลที่ GTA6 ออกเวอร์ชันพีซีเร็วกว่าที่คาด น่าจะมาจากฐานผู้เล่นฝั่งพีซีที่นิยมสร้างม็อด สร้างคอนเทนต์ต่อยอดเกมต้นฉบับไปอีกไกลมาก กลายเป็นสิ่งดึงดูดผู้เล่นจำนวนมากเข้ามาอีก ซึ่ง Rockstar ก็แสดงให้เห็นว่ามุ่งเป้ามาทางนี้ จาก การซื้อทีม Cfx.re ผู้สร้างม็อด FiveM และ RedM ของเกม GTA 5 และ RDR 2 ในปี 2023 ที่มา - GamesBeat mk Wed, 14/10/2026 - 10:12",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 04:20:52 +0000",
+    "published": "Wed, 14 Oct 2026 03:12:18 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260338+00:00"
-  },
-  {
-    "title": "ระบบตู้เย็นซูเปอร์มาร์เก็ตยุโรปถูกแฮ็ก แฮ็กเกอร์ตั้งอุณหภูมิ 50 องศา ทำอาหารเสียหาย",
-    "url": "https://www.blognone.com/node/151886",
-    "summary": "ระบบตู้เย็นซูเปอร์มาร์เก็ตยุโรปถูกแฮ็ก แฮ็กเกอร์ตั้งอุณหภูมิ 50 องศา ทำอาหารเสียหาย Body เกิดเหตุการ์โจมตีไซเบอร์กับธุรกิจซูเปอร์มาร์เก็ตหลายค่ายในยุโรปหลายประเทศ เช่น ฝรั่งเศส เบลเยียม เนเธอร์แลนด์ มีความน่าสนใจตรงที่ระบบควบคุมความเย็นถูกแฮ็ก และแฮ็กเกอร์บังคับให้ระบบละลายน้ำแข็งทำงานต่อเนื่อง จนอาหารเสียหายจำนวนมาก เหตุการณ์นี้เกิดจากการเจาะระบบซอฟต์แวร์ตู้เย็นยี่ห้อ Danfoss เวอร์ชันเก่า ซึ่งยังถูกใช้งานในซูเปอร์มาร์เก็ตจำนวนมาก ปกติแล้วตู้เย็นหรือตู้แช่แข็งลักษณะนี้มีระบบละลายน้ำแข็ง (defrost) ที่ทำงานวันละ 2 รอบ สิ่งที่แฮ็กเกอร์ทำคือสั่งให้ระบบละลายน้ำแข็งทำงานตลอดเวลาที่อุณหภูมิ 50 องศาเซลเซียส และเมื่อตู้ Danfoss ถูกใช้งานแพร่หลาย ทำให้เกิดผลกระทบเป็นวงกว้าง ซูเปอร์มาร์เก็ตที่ได้รับผลกระทบได้แก่ Intermarché, Coopérative U, Carrefour Market, Monoprix, Leclerc, Super U เบื้องต้นมีรายงานว่าพบซูเปอร์มาร์เก็ตที่เจอปัญหานี้ 250-350 แห่ง แต่สเกลของปัญหาจริงๆ ยังไม่มีข้อมูลชัดเจนนัก ที่มา - Bleeping Computer , Tom's Hardware ‼️ BREAKING: Fires broke out after hackers hacked fridges of hu",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 01:48:47 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260690+00:00"
+    "researched_at": "2026-10-14T07:37:52.723760+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -233,21 +187,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259194+00:00"
-  },
-  {
-    "title": "Ubuntu ออกอิมเมจเดสก์ท็อปสำหรับ RISC-V แล้ว",
-    "url": "https://www.blognone.com/node/151882",
-    "summary": "Ubuntu ออกอิมเมจเดสก์ท็อปสำหรับ RISC-V แล้ว Body Canonical ประกาศออกอิมเมจของเดสก์ท็อป Ubuntu บนสถาปัตยกรรม RISC-V อย่างเป็นทางการ จากเดิมที่มีเฉพาะอิมเมจของฝั่งเซิร์ฟเวอร์เท่านั้น ก่อนหน้านี้ Canonical เคยจับมือกับ ผู้ผลิตแท็บเล็ต RISC-V แต่ไม่เคยออกอิมเมจอย่างเป็นทางการต่อสาธารณะ มีแต่อิมเมจแบบคัสตอมที่ให้ผู้ผลิตแท็บเล็ตพรีโหลดมากับเครื่องเท่านั้น สิ่งที่เกิดขึ้นคือใน Ubuntu 26.10 (Stonking Stingray) เวอร์ชันหน้า จะมีไฟล์อิมเมจสำหรับสถาปัตยกรรม riscv64 มาให้ใช้งานกัน ทั้งแบบเดสก์ท็อป GNOME สายหลัก และ Xfce (Xubuntu) ที่ขนาดเล็ก รันบนอีมูเลเตอร์ได้เร็วกว่า ฮาร์ดแวร์ที่ทดสอบคือบอร์ด SpacemiT K3 โดยตอนนี้มีแบบอิมเมจทดสอบรายวันให้ลองกันแล้ว ที่มา - Ubuntu , OMG Ubuntu mk Mon, 12/10/2026 - 13:50",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 12 Oct 2026 06:50:16 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.261018+00:00"
+    "researched_at": "2026-10-14T07:37:52.721366+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -261,7 +201,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259745+00:00"
+    "researched_at": "2026-10-14T07:37:52.722584+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -275,7 +215,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259537+00:00"
+    "researched_at": "2026-10-14T07:37:52.722150+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -289,7 +229,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.258718+00:00"
+    "researched_at": "2026-10-14T07:37:52.720324+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -303,7 +243,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.258821+00:00"
+    "researched_at": "2026-10-14T07:37:52.720526+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -317,7 +257,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259015+00:00"
+    "researched_at": "2026-10-14T07:37:52.720930+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -331,7 +271,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259276+00:00"
+    "researched_at": "2026-10-14T07:37:52.721556+00:00"
+  },
+  {
+    "title": "No Man's Sky ออกเวอร์ชัน iOS เล่นได้บน iPhone 11 ขึ้นไป",
+    "url": "https://www.blognone.com/node/151905",
+    "summary": "No Man's Sky ออกเวอร์ชัน iOS เล่นได้บน iPhone 11 ขึ้นไป Body เกมอวกาศในตำนาน No Man’s Sky ประกาศออกเวอร์ชัน iOS รองรับการเล่นทั้งบน iPhone และ iPad โดยจะเปิดให้เล่นวันที่ 29 ตุลาคม 2026 สตูดิโอ Hello Games ผู้พัฒนา No Man's Sky บอกว่านี่เป็นเกมเวอร์ชันเต็มแบบเดียวกับแพลตฟอร์มอื่นๆ ไม่ใช่เวอร์ชัน Lite ดังนั้นการพอร์ตมาลงอุปกรณ์ iOS ที่มีทรัพยากรจำกัดกว่าพีซีหรือคอนโซล จึงมีความคล้ายกับการพอร์ตไปยัง Switch 1 ที่บางฟีเจอร์อาจไม่รองรับ แล้วพอมาถึง Switch 2 ค่อยรองรับเพิ่ม กรณีของ No Man's Sky เวอร์ชัน iOS สามารถเล่นได้บนเครื่องที่มีชิป A12 Bionic ขึ้นไป (ตามสเปกคือ iPhone XS ขึ้นไป แต่ทีมงานระบุเจาะจงว่าเล่นได้บน iPhone 11) และระบบปฏิบัติการ iOS 26 ขึ้นไป - App Store แต่ถ้าอยากได้ฟีเจอร์เต็มๆ เช่น การตั้งถิ่นฐานบนดาวเคราะห์ ก็จำเป็นต้องใช้ iPhone 15 Pro ขึ้นไปแทน ส่วนฟีเจอร์มัลติเพลเยอร์ยังไม่รองรับในตอนนี้ ที่มา - No Man's Sky mk Wed, 14/10/2026 - 08:32",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 14 Oct 2026 01:32:43 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.724307+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -345,7 +299,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259921+00:00"
+    "researched_at": "2026-10-14T07:37:52.722973+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -359,7 +313,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259097+00:00"
+    "researched_at": "2026-10-14T07:37:52.721140+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -373,21 +327,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.260095+00:00"
-  },
-  {
-    "title": "Meta เปิดตัวโมเดล Muse Wonder คะแนนเบนช์มาร์คสูงอันดับ 2 ชนะ Fable 5.1",
-    "url": "https://www.blognone.com/node/151885",
-    "summary": "Meta เปิดตัวโมเดล Muse Wonder คะแนนเบนช์มาร์คสูงอันดับ 2 ชนะ Fable 5.1 Body Meta เปิดตัวโมเดลภาษาขนาดใหญ่ Muse Wonder (รุ่นใหญ่กว่า Muse Spark ) ที่พาบริษัทกลับมายืนเกาะกลุ่มนำได้สำเร็จ หลังจากรีเซ็ตกระบวนการพัฒนา AI ใหม่มาเป็นเวลา 14 เดือน โมเดลรุ่นท็อปสุด Muse Wonder Full มีคะแนนเบนช์มาร์ค Artificial Analysis Intelligence Index สูงเป็นอันดับสองที่ 56 คะแนน แพ้เพียง Claude Opus 5.5 (58 คะแนน) แต่เอาชนะโมเดลตัวอื่นๆ ได้ทั้งหมด ไม่ว่าจะเป็น Claude Fable 5.1, GPT-6 Astra, Gemini 4 Argon ส่วน Muse Wonder รุ่นปกติได้คะแนนเบนช์มาร์คไล่เลี่ยกัน ความต่างคือเวอร์ชัน Full จะทำงานที่ไม่คุ้นเคยได้หลากหลายกว่า Meta บอกว่า Muse Wonder ออกแบบมาเพื่องาน agentic (บริษัทเลือกใช้คำว่า Personal Superintelligence) ทั้งการใช้งานส่วนตัวและใช้ทำงาน จึงเน้นฟีเจอร์ 4 ด้าน ดังนี้ Domain Expertise มีความรู้ในงานเฉพาะทางที่ถูกใช้บ่อยๆ เช่น กฎหมาย การเงิน สุขภาพ ซึ่งโมเดลได้คะแนนดีในเบนช์มาร์คกลุ่มนี้ Active Memory ฟีเจอร์ความทรงจำ ที่เก็บข้อมูลสำคัญๆ จากแชทในอดีต มาใช้งานร่วมกับ prompt ในปัจจุบัน Active Focus ฟีเ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 01:08:47 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260777+00:00"
+    "researched_at": "2026-10-14T07:37:52.723399+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -401,21 +341,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.258366+00:00"
-  },
-  {
-    "title": "Googlebook OS เพิ่ม Linux Terminal รันคำสั่งคอมมานด์ไลน์ อนาคตจะรองรับ GUI",
-    "url": "https://www.blognone.com/node/151888",
-    "summary": "Googlebook OS เพิ่ม Linux Terminal รันคำสั่งคอมมานด์ไลน์ อนาคตจะรองรับ GUI Body กูเกิลประกาศออก Linux Terminal ให้ระบบปฏิบัติการ Googlebook OS เพื่อให้นักพัฒนาสามารถเรียกใช้ AI เขียนโค้ด (เช่น Antigravity) ได้สะดวกขึ้น เทอร์มินัลตัวนี้จะถูกรันใน Linux VM ที่เป็น Debian แยกส่วนเพื่อความปลอดภัย (isolated sandbox) เพื่อให้ผู้ใช้มอบสิทธิ sudo หรือ admin ให้กับ AI agent ได้อย่างสบายใจ โดย AI ไม่สามารถเข้าถึง OS หลักและไฟล์ในเครื่องได้จนกว่าจะได้รับอนุญาตจากผู้ใช้ และสามารถกด \"รีเซ็ต\" VM ได้เสมอโดยไม่ต้องกังวลว่าไฟล์จะหายไป กูเกิลบอกว่ามีพนักงานของตัวเองลองใช้ Linux Terminal บน Googlebook OS สามารถคอมไพล์เคอร์เนลลินุกซ์ได้จบในตัวเอง และเตรียมพัฒนาฟีเจอร์อื่นๆ ให้เพิ่มในอนาคต เช่น การรันแอพ Linux GUI, การเชื่อมต่อกับเครือข่ายภายนอกผ่าน ADB (Android Debug Bridge) และการรองรับ GPU/NPU เพื่อเร่งความเร็วการประมวลผล ที่มา - Android Developers Blog mk Tue, 13/10/2026 - 09:19",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 02:19:48 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-13T09:25:08.260509+00:00"
+    "researched_at": "2026-10-14T07:37:52.719675+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -429,7 +355,77 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.259827+00:00"
+    "researched_at": "2026-10-14T07:37:52.722766+00:00"
+  },
+  {
+    "title": "FBI จับกุมพนักงาน OpenAI พบแอบติดตั้งอุปกรณ์บันทึกเสียงในห้องประชุมผู้บริหารระดับสูง",
+    "url": "https://www.blognone.com/node/151904",
+    "summary": "FBI จับกุมพนักงาน OpenAI พบแอบติดตั้งอุปกรณ์บันทึกเสียงในห้องประชุมผู้บริหารระดับสูง Body ข่าวสารวงการ AI ประจำวันนี้มาจาก OpenAI โดยบริษัทเปิดเผยว่าได้ตรวจพบอุปกรณ์บันทึกข้อมูลซุกซ่อนภายในสำนักงานแห่งหนึ่งของ OpenAI จึงได้ใช้โมเดล AI มาวิเคราะห์ตรวจสอบที่มา จนสามารถระบุพนักงานที่นำอุปกรณ์นี้มาติดตั้งได้ บริษัทจึงแจ้งต่อ FBI เพื่อดำเนินการต่อ ซึ่งได้มีการจับกุมและนำตัวผู้กระทำผิดไปสอบสวนแล้ว ทั้งนี้ OpenAI บอกยังไม่มีหลักฐานว่าบุคคลดังกล่าวนำข้อมูลที่บันทึกออกไปแล้วหรือไม่ แต่บริษัทได้ไล่ออกพนักงานคนนี้แล้ว FBI เปิดเผยรายละเอียดการจับกุมในเวลาต่อมาว่าพนักงาน OpenAI คนดังกล่าวมีสัญชาติซาอุดีอาระเบีย ได้นำอุปกรณ์บันทึกข้อมูลพันกระดาษชำระ ซ่อนและเสียบไว้กับ USB ด้านหลังทีวี ที่อยู่ในห้องประชุมผู้บริหารระดับสูงตั้งแต่ปลายเดือนกันยายน ส่วนการจับกุมเกิดขึ้นเมื่อวันศุกร์ที่ผ่านมา โดยส่งขึ้นศาลรัฐบาลเพื่อรับทราบข้อกล่าวหาแล้ว รายงานการสอบสวนพบจากประวัติการใช้งาน AI ของผู้ต้องหา พบว่าเขาได้ค้นหาข้อมูลอาคารในสำนักงาน ตารางเวลาประชุม กำหนดการประชุม เน้นไปที่ผู้บริหารระดับสูงบริษัท ส่วนประวัติการใ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 14 Oct 2026 01:09:50 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.724472+00:00"
+  },
+  {
+    "title": "Character.ai ยื่นล้มละลาย Chapter 11 - ขายเทคโนโลยีให้กับ Disney",
+    "url": "https://www.blognone.com/node/151907",
+    "summary": "Character.ai ยื่นล้มละลาย Chapter 11 - ขายเทคโนโลยีให้กับ Disney Body Character.ai แพลตฟอร์มแชทบอต AI ในรูปแบบตัวแทนเสมือน ประกาศยื่นล้มละลาย Chapter 11 โดยให้เหตุผลว่าตัวแพลตฟอร์มมีต้นทุนที่สูงมากขึ้นในการพัฒนาและสร้างการเติบโตทางธุรกิจ ซึ่งบริษัทก็ได้ดำเนินงานมาแล้วเป็นเวลา 4 ปี นอกเหนือจากการพัฒนาแพลตฟอร์มแชทบอตเพื่อแข่งขันในตลาดแล้ว ช่วงที่ผ่านมา Character.ai ยังประสบปัญหามีคดีฟ้องร้องหลายคดี โดยเฉพาะประเด็นความปลอดภัยในการใช้งานสำหรับเยาวชน ซึ่งเป็นส่วนหนึ่งที่ทำให้ต้นทุนการดำเนินงานของบริษัทสูงขึ้นและกระทบกับกระแสเงินสด Character.ai ได้ทำข้อตกลงขายสินทรัพย์เทคโนโลยีหลักของบริษัทให้กับ Disney มูลค่า 20 ล้านดอลลาร์ รวมทั้งโอนย้ายพนักงานไปอยู่กับ Disney ซึ่งเป็นไปตามคำแนะนำของศาลล้มละลาย ขณะที่ตัวแพลตฟอร์ม Character.ai ตอนนี้ยังให้บริการต่อไปตามเดิม รวมทั้งลูกค้าที่จ่าย subscription ไว้ก็ยังสามารถใช้งานได้ตามปกติ แต่บริษัทก็บอกว่าอนาคตอาจมีการเปลี่ยนแปลงได้ ที่มา: Character.ai และ CNBC arjin Wed, 14/10/2026 - 09:03",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 14 Oct 2026 02:03:49 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.723926+00:00"
+  },
+  {
+    "title": "Apple เปิดตัว HomeView หน้าจออัจฉริยะสำหรับใช้งานในบ้าน รองรับ Siri AI - ในไทยยังไม่มีกำหนดขาย",
+    "url": "https://www.blognone.com/node/151898",
+    "summary": "Apple เปิดตัว HomeView หน้าจออัจฉริยะสำหรับใช้งานในบ้าน รองรับ Siri AI - ในไทยยังไม่มีกำหนดขาย Body แอปเปิลเปิดตัว Apple HomeView อุปกรณ์มีหน้าจอ ที่ให้ทั้งความบันเทิง การเชื่อมต่อ และความสามารถควบคุมอุปกรณ์สมาร์ทโฮม เพื่อใช้งานภายในบ้าน HomeView มีหน้าจอแบบ Liquid Retina ขนาด 7 นิ้ว สามารถใช้งานได้ทั้งแบบตั้งโต๊ะบนฐานสแตนเลสปรับมุมมอง สามารถวางได้ในทุกพื้นที่ในบ้าน มีตัวเลือก 4 สี ได้แก่ สีเงิน, สตาร์ไลท์, ชมพูโรส และสเปซเกรย์ นอกจากนี้ยังมีรุ่นแบบติดตั้งกับผนัง ซึ่งมีตัวเลือก 2 สี คือ สีเงิน และสเปซเกรย์ จุดขายของ HomeView คือการทำงานแบบ \"เฉพาะบุคคล\" อุปกรณ์สามารถจดจำบุคคลได้สูงสุด 6 คน ผ่านกล้องหน้า FaceTime เมื่อกำลังใช้งานหน้าจอ HomeView จะแสดงเนื้อหาที่ปรับแต่งสำหรับบุคคลนั้น จึงยังรักษาความเป็นส่วนตัวในการใช้งานแม้ต้องแชร์อุปกรณ์ร่วมกันภายในบ้าน ข้อมูลถูกเก็บแบบเข้ารหัสด้วยชิป A18 HomeView สามารถรับคำสั่งและทำงานด้วย Siri AI ปรับแต่งหน้าจอได้หลากหลายตามต้องการ มีฟังก์ชันหลักสามส่วนได้แก่ เป็นอุปกรณ์บันเทิง เรียกใช้งาน Apple Music, Apple TV, Apple News, Apple Podcasts ได้ เป็นอุป",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 13 Oct 2026 13:18:26 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.725468+00:00"
+  },
+  {
+    "title": "Apple เปิดตัว Home Collection อุปกรณ์สมาร์ทโฮม ที่พัฒนาร่วมกับ LG และ Schneider Electric",
+    "url": "https://www.blognone.com/node/151902",
+    "summary": "Apple เปิดตัว Home Collection อุปกรณ์สมาร์ทโฮม ที่พัฒนาร่วมกับ LG และ Schneider Electric Body แอปเปิลเปิดตัว Apple Home Collection อุปกรณ์เสริมในบ้าน ที่เป็นความร่วมมือในการพัฒนาผลิตภัณฑ์กับ LG และ Schneider Electric ตาม ข่าวก่อนหน้านี้ ซึ่งแอปเปิลบอกว่าเป็นการต่อยอดจากสินค้าสมาร์ทโฮมหลายพันรายการที่รองรับ Apple Home อยู่แล้ว มาสู่สินค้าชุดใหม่ที่แอปเปิลร่วมออกแบบให้คำนึงถึงความเป็นส่วนตัว, ข้อมูลเข้ารหัสแบบ end-to-end, หน้าตาใช้งานเรียบง่าย และวัสดุที่พรีเมียม การตั้งค่าทำง่ายผ่าน iPhone รองรับการควบคุมอุปกรณ์ผ่าน HomeView ที่เพิ่งตัวไป สินค้าทั้งหมดใน Apple Home Collection จะเริ่มขายตั้งแต่เดือนธันวาคมเป็นต้นไป ส่วนใหญ่เฉพาะในสหรัฐอเมริกา และแคนาดา ซึ่งรายการที่แอปเปิลพูดถึงได้แก่ กล้องความปลอดภัยในบ้าน LG Video Doorbell ติดที่ประตูบ้าน, LG Floodlight Cam ตรวจสอบเปิดแสงเมื่อพบการเคลื่อนไหวภายนอกบ้าน, LG Outdoor Cam สำหรับตรวจสอบภายนอกบ้าน, LG Indoor Cam สำหรับใช้ในบ้าน LG Smart Deadbolt Lock ระบบล็อกประตู ที่ปลดล็อกได้ด้วย iPhone, Apple Watch อุปกรณ์ควบคุมอุณหภูมิ LG Smart Thermostat",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 13 Oct 2026 16:50:03 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.724858+00:00"
+  },
+  {
+    "title": "Apple TV 4K รุ่นใหม่ 4th Gen ชิป A19 ทำงานเร็วขึ้น, มีไมโครโฟนที่กล่องไว้รับคำสั่งเสียง",
+    "url": "https://www.blognone.com/node/151899",
+    "summary": "Apple TV 4K รุ่นใหม่ 4th Gen ชิป A19 ทำงานเร็วขึ้น, มีไมโครโฟนที่กล่องไว้รับคำสั่งเสียง Body แอปเปิลอัปเดต Apple TV 4K รุ่นใหม่ นับได้ว่าเป็นรุ่นที่ 4 มาพร้อมกับชิป A19 ซีพียูทำงานเร็วขึ้น 50%, จีพียูเร็วขึ้น 2 เท่า รองรับการถอดรหัส AV1 ทำให้การเล่นคอนเทนต์สตรีมมิ่งมีคุณภาพดีขึ้น ใช้แบนด์วิธน้อยลง รวมถึงรองรับ Siri AI และการใช้งานแบบปรับแต่งเฉพาะบุคคล ผู้ใช้งานสามารถถาม Siri AI เพื่อให้ค้นหาคอนเทนต์ที่ต้องการ หรือเล่นคอนเทนต์ตามคำสั่งได้ทันที รองรับเฉพาะภาษาและประเทศที่รองรับการใช้งาน Siri AI เท่านั้น Apple TV 4K มีไมโครโฟนระยะไกลอยู่ที่ตัวกล่อง ทำให้สามารถรับคำสั่งเสียงได้ และสามารถตัดเสียงรบกวนต่าง ๆ เพื่อแยกเฉพาะเสียงของผู้ใช้งานเมื่อออกคำสั่ง Hey Siri หรือ Siri ทำให้สามารถส่งคำสั่งได้แม้ขณะเล่นคอนเทนต์อื่นอยู่ ฟีเจอร์ก็จำกัดเฉพาะบางภาษาเท่านั้น โดยยังไม่มีภาษาไทย Siri Remote ของ Apple TV 4K ใหม่ รองรับการค้นหาที่แม่นยำมากขึ้นใน Find My หากทำหล่นก็สามารถหาได้ตรงตำแหน่งดีขึ้น นอกจากนี้รีโมทยังเพิ่มลำโพงขนาดเล็กเข้ามา ทำให้รีโมทส่งเสียงขณะค้นหาได้ด้วย อีกจุดขายใน Apple TV 4K ใหม่นี้คื",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 13 Oct 2026 16:20:38 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-14T07:37:52.725284+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -443,6 +439,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-13T09:25:08.260017+00:00"
+    "researched_at": "2026-10-14T07:37:52.723217+00:00"
   }
 ]
