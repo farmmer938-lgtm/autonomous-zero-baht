@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "how to",
       "review",
+      "how to",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.720728+00:00"
+    "researched_at": "2026-10-15T07:26:13.423296+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,23 +31,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.723582+00:00"
-  },
-  {
-    "title": "XBOX ตั้งทีม XBOX LABS ศึกษาโอกาสที่ AI สามารถสร้างเกมด้วยวิธี reverse-engineer ได้ง่ายขึ้น",
-    "url": "https://www.blognone.com/node/151906",
-    "summary": "XBOX ตั้งทีม XBOX LABS ศึกษาโอกาสที่ AI สามารถสร้างเกมด้วยวิธี reverse-engineer ได้ง่ายขึ้น Body Asha Sharma ซีอีโอ Xbox ประกาศตั้งทีมขนาดเล็กในบริษัทชื่อ XBOX LABS ซึ่งมีทั้งพนักงานฝ่ายออกแบบผลิตเกม, วิศวกร, นักวิทยาศาสตร์ เพื่อทดลองและทดสอบไอเดียใหม่ ๆ ไปยังผู้เล่นเกมและนักพัฒนาเกม ว่าเทคโนโลยีปัจจุบันสามารถทำสิ่งต่าง ๆ แล้วให้ผลลัพธ์อย่างไร Asha บอกว่าในช่วงไม่กี่สัปดาห์ที่ผ่านมา วงการเกมมีเหตุการณ์ที่มีคนสร้างเกมด้วยวิศวกรรมย้อนกลับจำนวนมาก (reverse-engineer) ทำให้เราเห็นเกมที่เดิมมีเฉพาะบน Windows สามารถเล่นบน Apple silicon ได้ หรือเกมที่อาจผลิตบนคอนโซลเฉพาะ ก็สามารถนำไปเล่นผ่านเบราว์เซอร์ได้เป็นต้น ซึ่งปัจจัยหลักคือความก้าวหน้าของ AI ที่ทำให้ไอเดียและข้อจำกัดเดิมไม่มีอีกต่อไป สิ่งนี้ย่อมส่งผลกระทบต่อโครงสร้างธุรกิจของ Xbox และบริษัทเกมรายใหญ่ที่ควบคุมซอฟต์แวร์-ฮาร์ดแวร์เข้าด้วยกัน XBOX มองว่าเทคโนโลยีนี้มีข้อดีหลายอย่าง เกมเก่าที่คนโหยหาก็สามารถพอร์ตมาลงข้ามแพลตฟอร์มได้ง่ายขึ้น คนเล่นเกมก็สามารถเปลี่ยนบทบาทมาเป็นคนสร้างเกมจากไอเดียที่ตนเองอยากได้ง่ายมากขึ้น ทั้งหมดจึงเป็นที่มาของ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 14 Oct 2026 01:52:04 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.724134+00:00"
+    "researched_at": "2026-10-15T07:26:13.424662+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -63,7 +47,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.719904+00:00"
+    "researched_at": "2026-10-15T07:26:13.422851+00:00"
+  },
+  {
+    "title": "SpaceXSI อัปเดต Grok Voice 3.0 โมเดล AI สนทนาเสียง ชูจุดเด่น Latency ต่ำ, ต้นทุนถูกกว่าโมเดลคู่แข่ง",
+    "url": "https://www.blognone.com/node/151911",
+    "summary": "SpaceXSI อัปเดต Grok Voice 3.0 โมเดล AI สนทนาเสียง ชูจุดเด่น Latency ต่ำ, ต้นทุนถูกกว่าโมเดลคู่แข่ง Body SpaceXSI เปิดตัว Grok Voice 3.0 โมเดลปัญญาประดิษฐ์เสียง speech-to-speech มีจุดเด่นเรื่องความหน่วงที่ต่ำน้อยกว่า 1 วินาที และมีต้นทุนใช้งานที่ต่ำกว่าโมเดลชั้นนำ ผลการทดสอบโดย Artificial Analysis ในด้านการตอบสนอง ให้เหตุผล ความต่อเนื่องบทสนทนา พบว่า Grok Voice 3.0 ได้คะแนนรวม 86.9 สูงกว่า GPT-Live-1 และ Gemini 3.8 Live ส่วนการทดสอบ τ-Voice ที่เน้นเรื่องการทำงานด้วยความหลากหลายของสำเนียงที่เป็นอินพุท กับเสียงรบกวนต่าง ๆ แม้ได้คะแนนน้อยกว่า GPT-Live-1 แต่ Grok Voice 3.0 ระบุว่ามีความหน่วงที่ต่ำกว่ามาก Grok Voice 3.0 เริ่มใช้งานกับลูกค้า Tesla ในการสั่งงานด้วยเสียงในรถแล้ว, ใน Grok Bot โหมดสนทนาเสียง และกับศูนย์บริการลูกค้าของ Starlink ราคาใช้งาน API อยู่ที่ 0.08 ดอลลาร์ต่อนาที เท่ากับ Grok Voice 2.0 ที่มา: SpaceXSI arjin Thu, 15/10/2026 - 07:56",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 00:56:08 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-15T07:26:13.425390+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -79,7 +79,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.721730+00:00"
+    "researched_at": "2026-10-15T07:26:13.423752+00:00"
+  },
+  {
+    "title": "Mozilla เปิดตัว Firefox Enterprise เพิ่มระบบควบคุมสำหรับลูกค้าองค์กร",
+    "url": "https://www.blognone.com/node/151915",
+    "summary": "Mozilla เปิดตัว Firefox Enterprise เพิ่มระบบควบคุมสำหรับลูกค้าองค์กร Body Mozilla เปิดตัว Firefox Enterprise เว็บเบราว์เซอร์เวอร์ชันใช้งานในองค์กร โดยเป็น Firefox ที่เพิ่มส่วนบริหารจัดการของทีมไอทีองค์กรเข้ามา ให้ตั้งค่า policy และควบคุมการเข้าถึงข้อมูลต่างๆ เช่น การส่งข้อมูลสถิติ (telemetry) หรือป้องกันข้อมูลรั่วไหล (Data Loss Prevention) ได้ Mozilla บอกว่า Firefox Enterprise สามารถใช้ร่วมกับระบบ Security Information and Event Management (SIEM) และ Mobile Device Management (MDM) ที่องค์กรใช้งานได้อยู่แล้ว แต่เป็นการเพิ่มส่วนจัดการเบราว์เซอร์ที่รันแบบ on-premise ในองค์กรเข้ามาเชื่อมกับระบบเดิม Firefox Enterprise เป็นบริการแบบเสียเงินที่ไม่เปิดเผยราคา และในอนาคตจะมี Thunderbird Enterprise ที่ใช้หน้าจัดการคอนโซลแบบเดียวกันตามมา ที่มา - Mozilla mk Thu, 15/10/2026 - 08:51",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 01:51:20 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-15T07:26:13.425056+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -95,14 +111,14 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.720113+00:00"
+    "researched_at": "2026-10-15T07:26:13.422971+00:00"
   },
   {
-    "title": "HomePod mini 2 เพิ่มฟีเจอร์ Sound Glow ปรับแสงสีตามเพลง, ชิป S10 ปรับเสียงเพลงเรียลไทม์",
-    "url": "https://www.blognone.com/node/151900",
-    "summary": "HomePod mini 2 เพิ่มฟีเจอร์ Sound Glow ปรับแสงสีตามเพลง, ชิป S10 ปรับเสียงเพลงเรียลไทม์ Body แอปเปิลอัปเดต HomePod mini 2 อัปเกรดชิปรุ่นใหม่ S10 พร้อมความสามารถระบบเสียงเชิงคำนวณขั้นสูง ทำให้สามารถวิเคราะห์เพลงและปรับช่วงไดนามิก ความดัง และประสิทธิภาพอะคูสติกให้เหมาะสมแบบเรียลไทม์ นอกจากนี้ยังเพิ่มคุณสมบัติที่เรียกว่า Sound Glow ที่ด้านบนของ HomePod mini จะปรับแสง-สี ให้เป็นจังหวะไปพร้อมกับเสียงเพลงนั้น ๆ สร้างประสบการณ์ใช้งานที่เข้าคู่กันได้ดีขึ้น นอกจากนี้ HomePod mini 2 ยังเพิ่มความสามารถ Siri AI ที่สามารถทำงานตามคำสั่งเช่นการส่งข้อความ, ตั้งเวลา, ค้นหาเพลง และอื่น ๆ อย่างไรก็ตามฟีเจอร์นี้ตอนนี้รองรับเฉพาะภาษาอังกฤษและในบางประเทศเท่านั้น ซึ่งยังไม่มีภาษาไทย-ประเทศไทย HomePod mini 2 มีตัวเลือกห้าสี ได้แก่ สีชมพู สีเขียว สีฟ้า สีขาว และสีมิดไนท์ ราคา 5,200 บาท กำหนดจำหน่ายในประเทศไทยเร็ว ๆ นี้ ที่มา: แอปเปิล arjin Tue, 13/10/2026 - 23:32",
+    "title": "Getty Images เตรียมยื่นขอล้มละลาย ถอนตัวออกจากตลาดหลักทรัพย์",
+    "url": "https://www.blognone.com/node/151916",
+    "summary": "Getty Images เตรียมยื่นขอล้มละลาย ถอนตัวออกจากตลาดหลักทรัพย์ Body Getty Images บริษัทขายภาพเชิงพาณิชย์ชื่อดัง (นอกจากเป็นเจ้าของบริการ Getty Images แล้วยังมี iStock และ Unsplash แถม เคยจะซื้อ Shutterstock แต่สุดท้ายดีลล่ม) เตรียมยื่นขอล้มละลายตามกฎหมาย Chapter 11 ของสหรัฐ การขอล้มละลายครั้งนี้เป็นส่วนหนึ่งของแผนปรับโครงสร้างองค์กรครั้งใหญ่ของ Getty Images ที่ปัจจุบันอยู่ในตลาดหลักทรัพย์ สิ่งที่บริษัท Getty Images จะทำคือยื่นขอล้มละลาย, ออกจากตลาดหลักทรัพย์ และรับเงินลงทุนก้อนใหม่จากกองทุน Koch Equity Development และเงินส่วนตัวจากตระกูล Getty ของผู้ก่อตั้ง Mark Getty เพื่อนำมาใช้หนี้และมีเงินสดให้บริษัทเดินหน้าต่อได้ ปัจจุบัน Getty Images มีหนี้สะสมประมาณ 2.1 พันล้านดอลลาร์ ในขณะที่มูลค่าบริษัทตามราคาหุ้นลดเหลือประมาณ 20 ล้านดอลลาร์เท่านั้น ที่มา - Getty Images , Live Mint , GeekWire mk Thu, 15/10/2026 - 08:58",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 16:32:14 +0000",
+    "published": "Thu, 15 Oct 2026 01:58:11 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -111,23 +127,23 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.725088+00:00"
+    "researched_at": "2026-10-15T07:26:13.424951+00:00"
   },
   {
-    "title": "Gemini 4 Argon เปิดให้ใช้งานแล้ว ผ่าน API และผู้ใช้ Google AI Pro/Ultra",
-    "url": "https://www.blognone.com/node/151903",
-    "summary": "Gemini 4 Argon เปิดให้ใช้งานแล้ว ผ่าน API และผู้ใช้ Google AI Pro/Ultra Body กูเกิลเปิดให้ลูกค้าทั่วไปใช้งาน โมเดล Gemini 4 Argon ที่เปิดตัวเมื่อต้นเดือนนี้และเปิดใช้งานแบบจำกัด ตอนนี้ผู้ที่สามารถใช้งาน Gemini 4 Argon ได้แล้วคือ นักพัฒนาและภาคธุรกิจ เรียกผ่าน API ของ AI Studio และ Gemini Platform คนจ่าย Google AI Ultra ใช้ผ่าน Antigravity คนจ่าย Google AI Pro/Ultra ใช้ผ่านแอพ Gemini และ AI Mode ของ Search จุดที่น่าสนใจของการเรียกผ่าน API คือการหั่นราคาเรียกลูกค้ากลับคืน โดยคิดราคาพิเศษลดจากปกติ 50% ที่ 2 ดอลลาร์ต่อ 1 ล้านโทเคนอินพุต และ 10 ดอลลาร์ต่อ 1 ล้านโทเคนเอาท์พุต ซึ่งถูกกว่าโมเดลคู่แข่ง แต่ ราคานี้จะมีผลถึงแค่ 30 พฤศจิกายน หลังจากนั้นจะกลับมาใช้ราคาปกติ กูเกิลเล่าว่าใช้ Gemini 4 Argon เขียนโค้ดภายในบริษัทมาแล้วหลายอย่าง เช่น แยกโค้ดส่วนจัดการหน้าเว็บของ Chrome 6 ล้านบรรทัด ออกมาจากโค้ดทั้งหมด 40 ล้านบรรทัด และ refactor เสร็จในไม่กี่สัปดาห์, เอามาปรับแต่งโมเดล Gemma ให้ทำงานเร็วขึ้น 2.85 เท่า, แก้โค้ด Python ใน Agent Development Kit (ADK) ลดระยะเวลาเริ่มเซสชันลงได้ 40% ที่มา - Go",
+    "title": "Facebook เพิ่มฟีเจอร์ Your Algorithm ปรับแต่งฟีดตามความสนใจ แบบเดียวกับ Instagram",
+    "url": "https://www.blognone.com/node/151914",
+    "summary": "Facebook เพิ่มฟีเจอร์ Your Algorithm ปรับแต่งฟีดตามความสนใจ แบบเดียวกับ Instagram Body เมื่อเดือนมิถุนายน Meta เพิ่มระบบ Your Algorithm เปิดให้ผู้ใช้ปรับอัลกอริทึมหน้าฟีดได้เอง ให้กับ Instagram ล่าสุดฟีเจอร์นี้กำลังจะเปิดใช้งานบน Facebook แล้ว Your Algorithm เป็นระบบปรับแต่งคอนเทนต์ที่แสดงบน Feed และ Reels ตามความสนใจของเรา วิธีใช้งานคือกดปุ่ม ... บนโพสต์ใดๆ แล้วจะเห็นเมนูย่อยชื่อ Your Algorithm แสดงหมวดหมู่เนื้อหาที่เราสนใจ (และไม่สนใจ) ได้ละเอียดกว่าเดิม นอกจากนี้เวลาเรากดบอกที่โพสต์ใดๆ ว่า Interested หรือ Not Interested เราอาจเห็นคำถามเพิ่มเติมว่า สนใจหรือไม่สนใจหัวข้อใดอีกไหม เพื่อให้การคัดเลือกเนื้อหามาแสดงแม่นยำขึ้น ที่มา - Facebook mk Thu, 15/10/2026 - 08:10",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 23:39:25 +0000",
+    "published": "Thu, 15 Oct 2026 01:10:04 +0000",
     "matched_keywords": [
-      "ราคา"
+      "วิธี"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.724661+00:00"
+    "researched_at": "2026-10-15T07:26:13.425222+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -143,7 +159,39 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.722366+00:00"
+    "researched_at": "2026-10-15T07:26:13.424101+00:00"
+  },
+  {
+    "title": "Apple มีมูลค่ากิจการทะลุ 5 ล้านล้านดอลลาร์แล้ว เป็นบริษัทที่สองต่อจาก NVIDIA",
+    "url": "https://www.blognone.com/node/151913",
+    "summary": "Apple มีมูลค่ากิจการทะลุ 5 ล้านล้านดอลลาร์แล้ว เป็นบริษัทที่สองต่อจาก NVIDIA Body ราคาหุ้นของแอปเปิลเมื่อคืนนี้ปิดการซื้อขายที่ 342.96 ดอลลาร์ต่อหุ้น เพิ่มขึ้น 0.50% ซึ่งทำให้แอปเปิลมีมูลค่ากิจการตามราคาหุ้นหรือ Market Cap. 5.005 ล้านล้านดอลลาร์ เป็นบริษัทที่สองที่มีมูลค่ากิจการสูงในระดับ 5 ล้านล้าน ต่อจาก NVIDIA ทั้งนี้มูลค่ากิจการของแอปเปิลเคยสูงกว่า 5 ล้านล้านดอลลาร์ มาแล้วหลายครั้ง แต่เกิดขึ้นในช่วงการซื้อขายหุ้นระหว่างวัน ครั้งนี้เป็นครั้งแรกที่ราคาปิดตลาดสูงกว่า การเปลี่ยนแปลงที่สำคัญของแอปเปิลในช่วงที่ผ่านมามีตั้งแต่ การเปลี่ยนซีอีโอคนใหม่ John Ternus , การประกาศ ขึ้นราคาสินค้า หลายรายการจากปัญหาแรมแพง ซึ่งนับตั้งแต่ประกาศมา หุ้นของแอปเปิลก็ปรับเพิ่มขึ้นแล้วถึง 25% และ อัปเดตซอฟต์แวร์ รอบล่าสุดที่มีฟีเจอร์สำคัญ Siri AI หลังจากบริษัทเลื่อนเปิดตัวฟีเจอร์นี้มาสองปี ที่มา: The Wall Street Journal arjin Thu, 15/10/2026 - 08:15",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 01:15:30 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-15T07:26:13.425142+00:00"
+  },
+  {
+    "title": "Anthropic สร้างระบบจัดการซอร์สโค้ดใหม่ Scion แก้ปัญหา Git ถึงขีดจำกัดในยุค AI",
+    "url": "https://www.blognone.com/node/151918",
+    "summary": "Anthropic สร้างระบบจัดการซอร์สโค้ดใหม่ Scion แก้ปัญหา Git ถึงขีดจำกัดในยุค AI Body Anthropic เปิดเผยว่าได้เปลี่ยนระบบจัดการซอร์สโค้ดภายในจาก Git มาเป็นระบบใหม่ที่พัฒนาขึ้นเองชื่อว่า Scion (scn) Anthropic เล่าปัญหาว่าระบบ Git ออกแบบมาสำหรับการใช้งานของมนุษย์ สถาปัตยกรรมของมันคือเป็นระบบกระจายศูนย์ (decentralized) โดยโคลน repository ทั้งอันออกมาทำงานเป็นเอกเทศ รันออฟไลน์ได้ แล้วค่อยส่งโค้ดส่วนที่เปลี่ยนแปลงกลับมาภายหลัง ซึ่งเป็นระบบที่ดีเพียงพอสำหรับ repository ทั่วไป ปัญหาของ Anthropic คือใช้ Claude เขียนโค้ดหนักกว่าใครในโลกนี้ (เพราะโทเคนไม่จำกัด!) ปริมาณการใช้งาน Git จึงสูงมาก ลำพังแค่ main branch มีขนาดเกิน 100GB, โคลนที่บีบอัดแล้วมีขนาดเกิน 25GB, มีการ checkout วันละ 25 ล้านครั้ง, ปริมาณข้อมูลเกิน 600 PB ต่อวัน จึงเริ่มเจอขีดจำกัดของสถาปัตยกรรม Git แล้ว Anthropic บอกว่าใช้เทคนิคจัดการ Git กับ repository ขนาดใหญ่มาครบแล้วทุกอย่าง เช่น การทำ Git mirror ที่ภายในบริษัทมีหลายร้อย mirror หรือการทำ repository snapshot แต่เทคนิคทั้งหมดเป็นแค่การซื้อเวลาเท่านั้น ยังไงก็ต้องถึงขีดจำกัดของ Git",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 02:33:23 +0000",
+    "matched_keywords": [
+      "แก้ปัญหา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-15T07:26:13.424755+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -159,21 +207,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.721901+00:00"
+    "researched_at": "2026-10-15T07:26:13.423832+00:00"
   },
   {
-    "title": "[ลือ] รอกันไม่นาน GTA 6 เวอร์ชันพีซี จะวางขายช่วงไตรมาส 1/2027",
-    "url": "https://www.blognone.com/node/151908",
-    "summary": "[ลือ] รอกันไม่นาน GTA 6 เวอร์ชันพีซี จะวางขายช่วงไตรมาส 1/2027 Body เว็บไซต์ GamesBeat อ้างแหล่งข่าวแวดวง Rockstar จำนวน 4 รายที่พูดตรงกันว่าเกม Grand Theft Auto VI เวอร์ชันพีซี จะวางขายในไตรมาส 1 ของปี 2027 ตามหลังจากเวอร์ชันคอนโซลที่มีกำหนดขาย 19 พฤศจิกายน 2026 ไม่กี่เดือน ประวัติของ Rockstar มักวางขายเกมเวอร์ชันคอนโซลก่อนพีซีประมาณ 1 ปีขึ้นไป ตัวอย่างช่วงหลังๆ คือ GTA 5 ทิ้งช่วงห่างกันราว 1.5 ปี หรือ RDR 2 ทิ้งช่วงห่างกัน 1 ปี เหตุผลที่ GTA6 ออกเวอร์ชันพีซีเร็วกว่าที่คาด น่าจะมาจากฐานผู้เล่นฝั่งพีซีที่นิยมสร้างม็อด สร้างคอนเทนต์ต่อยอดเกมต้นฉบับไปอีกไกลมาก กลายเป็นสิ่งดึงดูดผู้เล่นจำนวนมากเข้ามาอีก ซึ่ง Rockstar ก็แสดงให้เห็นว่ามุ่งเป้ามาทางนี้ จาก การซื้อทีม Cfx.re ผู้สร้างม็อด FiveM และ RedM ของเกม GTA 5 และ RDR 2 ในปี 2023 ที่มา - GamesBeat mk Wed, 14/10/2026 - 10:12",
+    "title": "กูเกิลเปิดทางสร้างแอพ Android ใช้เองด้วย Vibe Code แล้วส่งขึ้น Google Play ให้เพื่อน",
+    "url": "https://www.blognone.com/node/151909",
+    "summary": "กูเกิลเปิดทางสร้างแอพ Android ใช้เองด้วย Vibe Code แล้วส่งขึ้น Google Play ให้เพื่อน Body Google Play ปรับตัวเข้าสู่ยุคสมัยที่ใครๆ ก็สร้างแอพเองได้ โดยเปิดให้ผู้ใช้ Android ทั่วไปที่ไม่จำเป็นต้องมีบัญชีนักพัฒนา สามารถสร้างแอพแบบ vibe code ผ่าน Google AI Studio แล้วแจกจ่ายให้เพื่อนผ่าน Google Play Store ได้ กูเกิลบอกว่าแอพที่สร้างแบบ vibe code มักเป็นแอพที่สร้างใช้เองส่วนตัว กูเกิลเปิดทางให้เราสามารถนำแอพขึ้น Google Play แบบใช้ส่วนตัวเท่านั้น ซึ่งตอนนี้ทำได้แล้วในสหรัฐ และในอีกไม่กี่เดือนข้างหน้า จะสามารถแชร์แอพให้กับเพื่อนและครอบครัวแบบ private ได้ด้วย โดยที่กระบวนการส่งแอพขึ้นสโตร์จะต้องผ่านมาตรฐานเดียวกับแอพทั่วไป ที่มา - Google mk Wed, 14/10/2026 - 14:34",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 14 Oct 2026 03:12:18 +0000",
+    "published": "Wed, 14 Oct 2026 07:34:46 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.723760+00:00"
+    "researched_at": "2026-10-15T07:26:13.425544+00:00"
+  },
+  {
+    "title": "YouTube Music แปะป้ายบอกว่าเป็นเพลงที่สร้างด้วย AI แล้ว",
+    "url": "https://www.blognone.com/node/151917",
+    "summary": "YouTube Music แปะป้ายบอกว่าเป็นเพลงที่สร้างด้วย AI แล้ว Body YouTube Music ประกาศขึ้นป้าย label บอกว่าเพลงที่ฟังอยู่มีส่วนที่สร้างด้วย generative AI โดยจะแสดงในหน้า player ตอนเล่นเพลงเลย และกดที่ปุ่ม AI แล้วจะแสดงข้อมูลเพิ่มเติมว่าเพลงนี้สร้างด้วย AI กูเกิลบอกว่ามีระบบตรวจจับเพลงที่สร้างด้วย AI ที่พัฒนาร่วมกับพาร์ทเนอร์ในวงการ และจะขยายป้าย AI ไปยังเพลงบนแอพ YouTube หลักด้วย ที่มา - YouTube mk Thu, 15/10/2026 - 09:27",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 02:27:32 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-15T07:26:13.424822+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -187,7 +249,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.721366+00:00"
+    "researched_at": "2026-10-15T07:26:13.423586+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -201,7 +263,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.722584+00:00"
+    "researched_at": "2026-10-15T07:26:13.424208+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -215,7 +277,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.722150+00:00"
+    "researched_at": "2026-10-15T07:26:13.423991+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -229,7 +291,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.720324+00:00"
+    "researched_at": "2026-10-15T07:26:13.423084+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -243,7 +305,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.720526+00:00"
+    "researched_at": "2026-10-15T07:26:13.423191+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -257,7 +319,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.720930+00:00"
+    "researched_at": "2026-10-15T07:26:13.423399+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -271,21 +333,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.721556+00:00"
+    "researched_at": "2026-10-15T07:26:13.423670+00:00"
   },
   {
-    "title": "No Man's Sky ออกเวอร์ชัน iOS เล่นได้บน iPhone 11 ขึ้นไป",
-    "url": "https://www.blognone.com/node/151905",
-    "summary": "No Man's Sky ออกเวอร์ชัน iOS เล่นได้บน iPhone 11 ขึ้นไป Body เกมอวกาศในตำนาน No Man’s Sky ประกาศออกเวอร์ชัน iOS รองรับการเล่นทั้งบน iPhone และ iPad โดยจะเปิดให้เล่นวันที่ 29 ตุลาคม 2026 สตูดิโอ Hello Games ผู้พัฒนา No Man's Sky บอกว่านี่เป็นเกมเวอร์ชันเต็มแบบเดียวกับแพลตฟอร์มอื่นๆ ไม่ใช่เวอร์ชัน Lite ดังนั้นการพอร์ตมาลงอุปกรณ์ iOS ที่มีทรัพยากรจำกัดกว่าพีซีหรือคอนโซล จึงมีความคล้ายกับการพอร์ตไปยัง Switch 1 ที่บางฟีเจอร์อาจไม่รองรับ แล้วพอมาถึง Switch 2 ค่อยรองรับเพิ่ม กรณีของ No Man's Sky เวอร์ชัน iOS สามารถเล่นได้บนเครื่องที่มีชิป A12 Bionic ขึ้นไป (ตามสเปกคือ iPhone XS ขึ้นไป แต่ทีมงานระบุเจาะจงว่าเล่นได้บน iPhone 11) และระบบปฏิบัติการ iOS 26 ขึ้นไป - App Store แต่ถ้าอยากได้ฟีเจอร์เต็มๆ เช่น การตั้งถิ่นฐานบนดาวเคราะห์ ก็จำเป็นต้องใช้ iPhone 15 Pro ขึ้นไปแทน ส่วนฟีเจอร์มัลติเพลเยอร์ยังไม่รองรับในตอนนี้ ที่มา - No Man's Sky mk Wed, 14/10/2026 - 08:32",
+    "title": "Netflix ปลดพนักงานประมาณ 1,000 ตำแหน่งทั่วโลก มากที่สุดนับตั้งแต่ปี 2022",
+    "url": "https://www.blognone.com/node/151910",
+    "summary": "Netflix ปลดพนักงานประมาณ 1,000 ตำแหน่งทั่วโลก มากที่สุดนับตั้งแต่ปี 2022 Body Netflix ประกาศปลดพนักงาน 6% ของพนักงานทั้งหมดทั่วโลก คิดเป็นจำนวนราว 1,000 ตำแหน่ง ซึ่งเป็นการปลดพนักงานครั้งใหญ่ที่สุดนับตั้งแต่ ปี 2022 พนักงานที่ได้รับผลกระทบมีทั้งฝ่ายผลิตภัณฑ์, เทคโนโลยี, กฎหมาย และฝ่ายบุคคล Greg Peters และ Ted Sarandos ซีอีโอร่วมของ Netflix ส่งอีเมลถึงพนักงานบอกว่าเป้าหมายของบริษัทในการเป็นบริษัทบันเทิงระดับโลก มาพร้อมวินัยในการจัดสรรทรัพยากรซึ่งรวมทั้งบุคลากรด้วย โดยยืนยันว่า Netflix ยังมีพื้นฐานธุรกิจที่แข็งแกร่งและสามารถดำเนินงานได้ตามแผนตลอดปีนี้ ก่อนหน้านี้ Sarandos เคยให้สัมภาษณ์ว่าแม้ธุรกิจของ Netflix ยังเติบโต แต่ไม่เร็วพอตามที่บริษัทต้องการ จึงเป็นความท้าทายที่บริษัทต้องดำเนินงานในสิ่งต่าง ๆ ให้เร็วและได้ผลลัพธ์ที่มากขึ้น ที่มา: Hollywood Reporter arjin Thu, 15/10/2026 - 07:25",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 14 Oct 2026 01:32:43 +0000",
+    "published": "Thu, 15 Oct 2026 00:25:25 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.724307+00:00"
+    "researched_at": "2026-10-15T07:26:13.425469+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -299,7 +361,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.722973+00:00"
+    "researched_at": "2026-10-15T07:26:13.424394+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -313,7 +375,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.721140+00:00"
+    "researched_at": "2026-10-15T07:26:13.423483+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -327,7 +389,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.723399+00:00"
+    "researched_at": "2026-10-15T07:26:13.424578+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -341,7 +403,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.719675+00:00"
+    "researched_at": "2026-10-15T07:26:13.422721+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -355,77 +417,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.722766+00:00"
+    "researched_at": "2026-10-15T07:26:13.424292+00:00"
   },
   {
-    "title": "FBI จับกุมพนักงาน OpenAI พบแอบติดตั้งอุปกรณ์บันทึกเสียงในห้องประชุมผู้บริหารระดับสูง",
-    "url": "https://www.blognone.com/node/151904",
-    "summary": "FBI จับกุมพนักงาน OpenAI พบแอบติดตั้งอุปกรณ์บันทึกเสียงในห้องประชุมผู้บริหารระดับสูง Body ข่าวสารวงการ AI ประจำวันนี้มาจาก OpenAI โดยบริษัทเปิดเผยว่าได้ตรวจพบอุปกรณ์บันทึกข้อมูลซุกซ่อนภายในสำนักงานแห่งหนึ่งของ OpenAI จึงได้ใช้โมเดล AI มาวิเคราะห์ตรวจสอบที่มา จนสามารถระบุพนักงานที่นำอุปกรณ์นี้มาติดตั้งได้ บริษัทจึงแจ้งต่อ FBI เพื่อดำเนินการต่อ ซึ่งได้มีการจับกุมและนำตัวผู้กระทำผิดไปสอบสวนแล้ว ทั้งนี้ OpenAI บอกยังไม่มีหลักฐานว่าบุคคลดังกล่าวนำข้อมูลที่บันทึกออกไปแล้วหรือไม่ แต่บริษัทได้ไล่ออกพนักงานคนนี้แล้ว FBI เปิดเผยรายละเอียดการจับกุมในเวลาต่อมาว่าพนักงาน OpenAI คนดังกล่าวมีสัญชาติซาอุดีอาระเบีย ได้นำอุปกรณ์บันทึกข้อมูลพันกระดาษชำระ ซ่อนและเสียบไว้กับ USB ด้านหลังทีวี ที่อยู่ในห้องประชุมผู้บริหารระดับสูงตั้งแต่ปลายเดือนกันยายน ส่วนการจับกุมเกิดขึ้นเมื่อวันศุกร์ที่ผ่านมา โดยส่งขึ้นศาลรัฐบาลเพื่อรับทราบข้อกล่าวหาแล้ว รายงานการสอบสวนพบจากประวัติการใช้งาน AI ของผู้ต้องหา พบว่าเขาได้ค้นหาข้อมูลอาคารในสำนักงาน ตารางเวลาประชุม กำหนดการประชุม เน้นไปที่ผู้บริหารระดับสูงบริษัท ส่วนประวัติการใ",
+    "title": "Anthropic เปิดเผยรายได้ในไตรมาส 3/2026 เพิ่มขึ้น 45% จากไตรมาส 2 อยู่ที่ 1.68 หมื่นล้านดอลลาร์",
+    "url": "https://www.blognone.com/node/151912",
+    "summary": "Anthropic เปิดเผยรายได้ในไตรมาส 3/2026 เพิ่มขึ้น 45% จากไตรมาส 2 อยู่ที่ 1.68 หมื่นล้านดอลลาร์ Body มีรายงานว่าผู้บริหาร Anthropic ได้จัดการประชุมกับนักลงทุนของบริษัท ซึ่งเปิดเผยรายได้ของบริษัทในไตรมาสที่ 3 ที่ผ่านมา เพิ่มขึ้น 45% เมื่อเทียบกับไตรมาสที่ 2 อยู่ที่ 1.68 หมื่นล้านดอลลาร์ นอกจากนี้บริษัทบอกว่าเมื่อปรับรายการทางบัญชีแล้วบริษัทก็มีกำไรจากการดำเนินงานเป็นบวก โดยกำไรขั้นต้นอยู่ที่ประมาณ 85% Anthropic ยังรายงานแผนการไอพีโอบริษัทเข้าตลาดหุ้น หลังจาก ยื่นเอกสารไฟลิ่ง ไปเมื่อเดือนมิถุนายน โดยยังคงเดินหน้าตามแผนงาน คาดว่าจะไอพีโอได้เร็วที่สุดภายในเดือนหน้า ที่มา: The New York Times arjin Thu, 15/10/2026 - 08:03",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 14 Oct 2026 01:09:50 +0000",
+    "published": "Thu, 15 Oct 2026 01:03:08 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.724472+00:00"
-  },
-  {
-    "title": "Character.ai ยื่นล้มละลาย Chapter 11 - ขายเทคโนโลยีให้กับ Disney",
-    "url": "https://www.blognone.com/node/151907",
-    "summary": "Character.ai ยื่นล้มละลาย Chapter 11 - ขายเทคโนโลยีให้กับ Disney Body Character.ai แพลตฟอร์มแชทบอต AI ในรูปแบบตัวแทนเสมือน ประกาศยื่นล้มละลาย Chapter 11 โดยให้เหตุผลว่าตัวแพลตฟอร์มมีต้นทุนที่สูงมากขึ้นในการพัฒนาและสร้างการเติบโตทางธุรกิจ ซึ่งบริษัทก็ได้ดำเนินงานมาแล้วเป็นเวลา 4 ปี นอกเหนือจากการพัฒนาแพลตฟอร์มแชทบอตเพื่อแข่งขันในตลาดแล้ว ช่วงที่ผ่านมา Character.ai ยังประสบปัญหามีคดีฟ้องร้องหลายคดี โดยเฉพาะประเด็นความปลอดภัยในการใช้งานสำหรับเยาวชน ซึ่งเป็นส่วนหนึ่งที่ทำให้ต้นทุนการดำเนินงานของบริษัทสูงขึ้นและกระทบกับกระแสเงินสด Character.ai ได้ทำข้อตกลงขายสินทรัพย์เทคโนโลยีหลักของบริษัทให้กับ Disney มูลค่า 20 ล้านดอลลาร์ รวมทั้งโอนย้ายพนักงานไปอยู่กับ Disney ซึ่งเป็นไปตามคำแนะนำของศาลล้มละลาย ขณะที่ตัวแพลตฟอร์ม Character.ai ตอนนี้ยังให้บริการต่อไปตามเดิม รวมทั้งลูกค้าที่จ่าย subscription ไว้ก็ยังสามารถใช้งานได้ตามปกติ แต่บริษัทก็บอกว่าอนาคตอาจมีการเปลี่ยนแปลงได้ ที่มา: Character.ai และ CNBC arjin Wed, 14/10/2026 - 09:03",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 14 Oct 2026 02:03:49 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.723926+00:00"
-  },
-  {
-    "title": "Apple เปิดตัว HomeView หน้าจออัจฉริยะสำหรับใช้งานในบ้าน รองรับ Siri AI - ในไทยยังไม่มีกำหนดขาย",
-    "url": "https://www.blognone.com/node/151898",
-    "summary": "Apple เปิดตัว HomeView หน้าจออัจฉริยะสำหรับใช้งานในบ้าน รองรับ Siri AI - ในไทยยังไม่มีกำหนดขาย Body แอปเปิลเปิดตัว Apple HomeView อุปกรณ์มีหน้าจอ ที่ให้ทั้งความบันเทิง การเชื่อมต่อ และความสามารถควบคุมอุปกรณ์สมาร์ทโฮม เพื่อใช้งานภายในบ้าน HomeView มีหน้าจอแบบ Liquid Retina ขนาด 7 นิ้ว สามารถใช้งานได้ทั้งแบบตั้งโต๊ะบนฐานสแตนเลสปรับมุมมอง สามารถวางได้ในทุกพื้นที่ในบ้าน มีตัวเลือก 4 สี ได้แก่ สีเงิน, สตาร์ไลท์, ชมพูโรส และสเปซเกรย์ นอกจากนี้ยังมีรุ่นแบบติดตั้งกับผนัง ซึ่งมีตัวเลือก 2 สี คือ สีเงิน และสเปซเกรย์ จุดขายของ HomeView คือการทำงานแบบ \"เฉพาะบุคคล\" อุปกรณ์สามารถจดจำบุคคลได้สูงสุด 6 คน ผ่านกล้องหน้า FaceTime เมื่อกำลังใช้งานหน้าจอ HomeView จะแสดงเนื้อหาที่ปรับแต่งสำหรับบุคคลนั้น จึงยังรักษาความเป็นส่วนตัวในการใช้งานแม้ต้องแชร์อุปกรณ์ร่วมกันภายในบ้าน ข้อมูลถูกเก็บแบบเข้ารหัสด้วยชิป A18 HomeView สามารถรับคำสั่งและทำงานด้วย Siri AI ปรับแต่งหน้าจอได้หลากหลายตามต้องการ มีฟังก์ชันหลักสามส่วนได้แก่ เป็นอุปกรณ์บันเทิง เรียกใช้งาน Apple Music, Apple TV, Apple News, Apple Podcasts ได้ เป็นอุป",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 13:18:26 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.725468+00:00"
-  },
-  {
-    "title": "Apple เปิดตัว Home Collection อุปกรณ์สมาร์ทโฮม ที่พัฒนาร่วมกับ LG และ Schneider Electric",
-    "url": "https://www.blognone.com/node/151902",
-    "summary": "Apple เปิดตัว Home Collection อุปกรณ์สมาร์ทโฮม ที่พัฒนาร่วมกับ LG และ Schneider Electric Body แอปเปิลเปิดตัว Apple Home Collection อุปกรณ์เสริมในบ้าน ที่เป็นความร่วมมือในการพัฒนาผลิตภัณฑ์กับ LG และ Schneider Electric ตาม ข่าวก่อนหน้านี้ ซึ่งแอปเปิลบอกว่าเป็นการต่อยอดจากสินค้าสมาร์ทโฮมหลายพันรายการที่รองรับ Apple Home อยู่แล้ว มาสู่สินค้าชุดใหม่ที่แอปเปิลร่วมออกแบบให้คำนึงถึงความเป็นส่วนตัว, ข้อมูลเข้ารหัสแบบ end-to-end, หน้าตาใช้งานเรียบง่าย และวัสดุที่พรีเมียม การตั้งค่าทำง่ายผ่าน iPhone รองรับการควบคุมอุปกรณ์ผ่าน HomeView ที่เพิ่งตัวไป สินค้าทั้งหมดใน Apple Home Collection จะเริ่มขายตั้งแต่เดือนธันวาคมเป็นต้นไป ส่วนใหญ่เฉพาะในสหรัฐอเมริกา และแคนาดา ซึ่งรายการที่แอปเปิลพูดถึงได้แก่ กล้องความปลอดภัยในบ้าน LG Video Doorbell ติดที่ประตูบ้าน, LG Floodlight Cam ตรวจสอบเปิดแสงเมื่อพบการเคลื่อนไหวภายนอกบ้าน, LG Outdoor Cam สำหรับตรวจสอบภายนอกบ้าน, LG Indoor Cam สำหรับใช้ในบ้าน LG Smart Deadbolt Lock ระบบล็อกประตู ที่ปลดล็อกได้ด้วย iPhone, Apple Watch อุปกรณ์ควบคุมอุณหภูมิ LG Smart Thermostat",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 16:50:03 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.724858+00:00"
-  },
-  {
-    "title": "Apple TV 4K รุ่นใหม่ 4th Gen ชิป A19 ทำงานเร็วขึ้น, มีไมโครโฟนที่กล่องไว้รับคำสั่งเสียง",
-    "url": "https://www.blognone.com/node/151899",
-    "summary": "Apple TV 4K รุ่นใหม่ 4th Gen ชิป A19 ทำงานเร็วขึ้น, มีไมโครโฟนที่กล่องไว้รับคำสั่งเสียง Body แอปเปิลอัปเดต Apple TV 4K รุ่นใหม่ นับได้ว่าเป็นรุ่นที่ 4 มาพร้อมกับชิป A19 ซีพียูทำงานเร็วขึ้น 50%, จีพียูเร็วขึ้น 2 เท่า รองรับการถอดรหัส AV1 ทำให้การเล่นคอนเทนต์สตรีมมิ่งมีคุณภาพดีขึ้น ใช้แบนด์วิธน้อยลง รวมถึงรองรับ Siri AI และการใช้งานแบบปรับแต่งเฉพาะบุคคล ผู้ใช้งานสามารถถาม Siri AI เพื่อให้ค้นหาคอนเทนต์ที่ต้องการ หรือเล่นคอนเทนต์ตามคำสั่งได้ทันที รองรับเฉพาะภาษาและประเทศที่รองรับการใช้งาน Siri AI เท่านั้น Apple TV 4K มีไมโครโฟนระยะไกลอยู่ที่ตัวกล่อง ทำให้สามารถรับคำสั่งเสียงได้ และสามารถตัดเสียงรบกวนต่าง ๆ เพื่อแยกเฉพาะเสียงของผู้ใช้งานเมื่อออกคำสั่ง Hey Siri หรือ Siri ทำให้สามารถส่งคำสั่งได้แม้ขณะเล่นคอนเทนต์อื่นอยู่ ฟีเจอร์ก็จำกัดเฉพาะบางภาษาเท่านั้น โดยยังไม่มีภาษาไทย Siri Remote ของ Apple TV 4K ใหม่ รองรับการค้นหาที่แม่นยำมากขึ้นใน Find My หากทำหล่นก็สามารถหาได้ตรงตำแหน่งดีขึ้น นอกจากนี้รีโมทยังเพิ่มลำโพงขนาดเล็กเข้ามา ทำให้รีโมทส่งเสียงขณะค้นหาได้ด้วย อีกจุดขายใน Apple TV 4K ใหม่นี้คื",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 13 Oct 2026 16:20:38 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-14T07:37:52.725284+00:00"
+    "researched_at": "2026-10-15T07:26:13.425299+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -439,6 +445,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-14T07:37:52.723217+00:00"
+    "researched_at": "2026-10-15T07:26:13.424497+00:00"
   }
 ]
