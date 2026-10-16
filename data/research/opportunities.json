@@ -15,7 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423296+00:00"
+    "researched_at": "2026-10-16T07:08:51.917535+00:00"
+  },
+  {
+    "title": "Epic Games เปิดตัว Launcher v2 ใช้ AI เขียนใหม่หมด, ทำงานเร็วขึ้น, มีเวอร์ชันลินุกซ์",
+    "url": "https://www.blognone.com/node/151923",
+    "summary": "Epic Games เปิดตัว Launcher v2 ใช้ AI เขียนใหม่หมด, ทำงานเร็วขึ้น, มีเวอร์ชันลินุกซ์ Body Epic Games เปิดตัวซอฟต์แวร์ Epic Games Launcher เวอร์ชันใหม่ (เรียกเป็น v2) ที่หน้าตาคล้ายของเดิม แต่เบื้องหลังคือเขียนใหม่ทั้งหมดด้วยวิธี vibe code ด้วย AI ส่งผลให้ทำงานเร็วขึ้นกว่าเดิมมาก Epic Games Launcher ตัวเก่าถูกวิจารณ์มาตลอดเรื่องฟีเจอร์น้อย (ในช่วงแรก) และทำงานช้า (เมื่อเทียบกับ Steam) ทำให้รอบนี้ Epic เกทับด้วยการบอกว่า Launcher ตัวใหม่เปิดขึ้นมาได้เร็วกว่า Steam ซะอีก (ต้องทำกันขนาดนี้เลย) Epic Games Launcher ตัวใหม่ยังมีสถานะเป็นพรีวิว ฟีเจอร์บางอย่างอาจยังไม่ครบถ้วนเท่ากับเวอร์ชันเดิม แต่จะค่อยๆ เติมเข้ามาในภายหลัง อีกข่าวสำคัญคือ Launcher เวอร์ชันนี้มีเวอร์ชันลินุกซ์ แล้วด้วย และ Epic ประกาศว่าจะออก Fortnite เวอร์ชันลินุกซ์ หลังจากปรับปรุงการทำงานของระบบต้านโกง Easy Anti-Cheat (EAC) ให้ทำงานกับดิสโทรลินุกซ์ต่างๆ ให้ปลอดภัยมากขึ้น ที่มา - Epic Games mk Thu, 15/10/2026 - 22:02",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 15:02:54 +0000",
+    "matched_keywords": [
+      "รีวิว",
+      "วิธี"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.918941+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,7 +48,39 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424662+00:00"
+    "researched_at": "2026-10-16T07:08:51.918545+00:00"
+  },
+  {
+    "title": "ไมโครซอฟท์เปิดตัวจอยไซส์เล็ก Xbox Nano Controller ใส่กระเป๋าแจ็คเก็ตได้",
+    "url": "https://www.blognone.com/node/151919",
+    "summary": "ไมโครซอฟท์เปิดตัวจอยไซส์เล็ก Xbox Nano Controller ใส่กระเป๋าแจ็คเก็ตได้ Body ไมโครซอฟท์เปิดตัวจอยเกม Xbox Nano Controller ขนาดเล็กใส่กระเป๋าแจ็คเก็ตได้ ออกแบบมาสำหรับคนที่อยากพกพา หรือเด็กที่ยังมือเล็ก จับจอยผู้ใหญ่ไม่ถนัด จอยมีขนาดยาวประมาณ 5 นิ้ว หนักประมาณ 100 กรัม (ความต่างสำคัญคือไม่มีกริป) มีปุ่มครบเทียบเท่าจอยรุ่นมาตรฐาน แถมปุ่มตรงกลางใต้ปุ่ม Xbox ที่ปกติเป็นปุ่ม Share ถูกปรับมาเป็นปุ่มพิเศษ action button ตั้งโปรแกรมได้เอง และมีแบตเตอรี่ชาร์จได้ในตัว จอยเริ่มวางขายแล้วในราคา 49.99 ดอลลาร์ ถูกกว่าจอยรุ่นมาตรฐานที่ตอนนี้ขาย 64.99 ดอลลาร์ ที่มา - Xbox mk Thu, 15/10/2026 - 20:30",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 13:30:57 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.919170+00:00"
+  },
+  {
+    "title": "[IDC] ตลาดสมาร์ทโฟนไตรมาส 3/2026 ภาพรวมลดลง 22% และมีแนวโน้มลดลงต่ออีกไตรมาส",
+    "url": "https://www.blognone.com/node/151924",
+    "summary": "[IDC] ตลาดสมาร์ทโฟนไตรมาส 3/2026 ภาพรวมลดลง 22% และมีแนวโน้มลดลงต่ออีกไตรมาส Body บริษัทวิจัยตลาดเทคโนโลยี IDC รายงานข้อมูลภาพรวมธุรกิจสมาร์ทโฟนทั่วโลกของไตรมาสที่ 3 ปี 2026 ซึ่งยังคงได้รับผลกระทบหนักจากชิปหน่วยความจำที่ขาดตลาดและมีราคาสูง โดยจำนวนส่งมอบรวมอยู่ที่ 255.3 ล้านเครื่อง ลดลง 22% เมื่อเทียบกับไตรมาสที่ 3 ปี 2025 เป็นตัวเลขเปอร์เซ็นต์ลดลงมากที่สุดนับตั้งแต่ IDC บันทึกข้อมูล Nabila Popal นักวิจัยอาวุโสของ IDC ให้ความเห็นตัวเลขลดลงนี้เป็นสิ่งที่ผู้ผลิตในอุตสาหกรรมประเมินไว้อยู่แล้ว เนื่องจากมีสัญญาณมาก่อนหน้าระยะหนึ่ง แต่ตัวเลขที่ลดลงนี้ยังสามารถลดลงได้มากกว่านี้อีก เนื่องจากราคาหน่วยความจำเฉพาะปีที่ผ่านมาเพิ่มขึ้น 350% และแนวโน้มจะแพงขึ้นไปอีก กระทบกับอัตรากำไรของผู้ผลิตสมาร์ทโฟน รวมถึงจำนวนส่งมอบให้ลูกค้า ทั้งนี้ IDC ประเมินว่าสถานการณ์ตลาดสมาร์ทโฟนจะยังทรงตัวแบบนี้ตลอดปี 2027 โอกาสมีแนวโน้มดีขึ้นคือปี 2028 อย่างเร็วที่สุด เพราะฝั่งผู้ผลิตอาจเริ่มประเมินแนวทางใหม่ ๆ เช่น การปรับโครงสร้างต้นทุนสินค้า หรือใช้กลยุทธ์การตลาดอื่นมาเสริม ซัมซุงมีส่วนแบ่งตลาดอันดับ 1 ในไตรมาสที่ผ่าน",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 02:16:00 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.918744+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -47,23 +96,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.422851+00:00"
-  },
-  {
-    "title": "SpaceXSI อัปเดต Grok Voice 3.0 โมเดล AI สนทนาเสียง ชูจุดเด่น Latency ต่ำ, ต้นทุนถูกกว่าโมเดลคู่แข่ง",
-    "url": "https://www.blognone.com/node/151911",
-    "summary": "SpaceXSI อัปเดต Grok Voice 3.0 โมเดล AI สนทนาเสียง ชูจุดเด่น Latency ต่ำ, ต้นทุนถูกกว่าโมเดลคู่แข่ง Body SpaceXSI เปิดตัว Grok Voice 3.0 โมเดลปัญญาประดิษฐ์เสียง speech-to-speech มีจุดเด่นเรื่องความหน่วงที่ต่ำน้อยกว่า 1 วินาที และมีต้นทุนใช้งานที่ต่ำกว่าโมเดลชั้นนำ ผลการทดสอบโดย Artificial Analysis ในด้านการตอบสนอง ให้เหตุผล ความต่อเนื่องบทสนทนา พบว่า Grok Voice 3.0 ได้คะแนนรวม 86.9 สูงกว่า GPT-Live-1 และ Gemini 3.8 Live ส่วนการทดสอบ τ-Voice ที่เน้นเรื่องการทำงานด้วยความหลากหลายของสำเนียงที่เป็นอินพุท กับเสียงรบกวนต่าง ๆ แม้ได้คะแนนน้อยกว่า GPT-Live-1 แต่ Grok Voice 3.0 ระบุว่ามีความหน่วงที่ต่ำกว่ามาก Grok Voice 3.0 เริ่มใช้งานกับลูกค้า Tesla ในการสั่งงานด้วยเสียงในรถแล้ว, ใน Grok Bot โหมดสนทนาเสียง และกับศูนย์บริการลูกค้าของ Starlink ราคาใช้งาน API อยู่ที่ 0.08 ดอลลาร์ต่อนาที เท่ากับ Grok Voice 2.0 ที่มา: SpaceXSI arjin Thu, 15/10/2026 - 07:56",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 00:56:08 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425390+00:00"
+    "researched_at": "2026-10-16T07:08:51.917163+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -79,23 +112,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423752+00:00"
-  },
-  {
-    "title": "Mozilla เปิดตัว Firefox Enterprise เพิ่มระบบควบคุมสำหรับลูกค้าองค์กร",
-    "url": "https://www.blognone.com/node/151915",
-    "summary": "Mozilla เปิดตัว Firefox Enterprise เพิ่มระบบควบคุมสำหรับลูกค้าองค์กร Body Mozilla เปิดตัว Firefox Enterprise เว็บเบราว์เซอร์เวอร์ชันใช้งานในองค์กร โดยเป็น Firefox ที่เพิ่มส่วนบริหารจัดการของทีมไอทีองค์กรเข้ามา ให้ตั้งค่า policy และควบคุมการเข้าถึงข้อมูลต่างๆ เช่น การส่งข้อมูลสถิติ (telemetry) หรือป้องกันข้อมูลรั่วไหล (Data Loss Prevention) ได้ Mozilla บอกว่า Firefox Enterprise สามารถใช้ร่วมกับระบบ Security Information and Event Management (SIEM) และ Mobile Device Management (MDM) ที่องค์กรใช้งานได้อยู่แล้ว แต่เป็นการเพิ่มส่วนจัดการเบราว์เซอร์ที่รันแบบ on-premise ในองค์กรเข้ามาเชื่อมกับระบบเดิม Firefox Enterprise เป็นบริการแบบเสียเงินที่ไม่เปิดเผยราคา และในอนาคตจะมี Thunderbird Enterprise ที่ใช้หน้าจัดการคอนโซลแบบเดียวกันตามมา ที่มา - Mozilla mk Thu, 15/10/2026 - 08:51",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 01:51:20 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425056+00:00"
+    "researched_at": "2026-10-16T07:08:51.917881+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -111,39 +128,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.422971+00:00"
-  },
-  {
-    "title": "Getty Images เตรียมยื่นขอล้มละลาย ถอนตัวออกจากตลาดหลักทรัพย์",
-    "url": "https://www.blognone.com/node/151916",
-    "summary": "Getty Images เตรียมยื่นขอล้มละลาย ถอนตัวออกจากตลาดหลักทรัพย์ Body Getty Images บริษัทขายภาพเชิงพาณิชย์ชื่อดัง (นอกจากเป็นเจ้าของบริการ Getty Images แล้วยังมี iStock และ Unsplash แถม เคยจะซื้อ Shutterstock แต่สุดท้ายดีลล่ม) เตรียมยื่นขอล้มละลายตามกฎหมาย Chapter 11 ของสหรัฐ การขอล้มละลายครั้งนี้เป็นส่วนหนึ่งของแผนปรับโครงสร้างองค์กรครั้งใหญ่ของ Getty Images ที่ปัจจุบันอยู่ในตลาดหลักทรัพย์ สิ่งที่บริษัท Getty Images จะทำคือยื่นขอล้มละลาย, ออกจากตลาดหลักทรัพย์ และรับเงินลงทุนก้อนใหม่จากกองทุน Koch Equity Development และเงินส่วนตัวจากตระกูล Getty ของผู้ก่อตั้ง Mark Getty เพื่อนำมาใช้หนี้และมีเงินสดให้บริษัทเดินหน้าต่อได้ ปัจจุบัน Getty Images มีหนี้สะสมประมาณ 2.1 พันล้านดอลลาร์ ในขณะที่มูลค่าบริษัทตามราคาหุ้นลดเหลือประมาณ 20 ล้านดอลลาร์เท่านั้น ที่มา - Getty Images , Live Mint , GeekWire mk Thu, 15/10/2026 - 08:58",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 01:58:11 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.424951+00:00"
-  },
-  {
-    "title": "Facebook เพิ่มฟีเจอร์ Your Algorithm ปรับแต่งฟีดตามความสนใจ แบบเดียวกับ Instagram",
-    "url": "https://www.blognone.com/node/151914",
-    "summary": "Facebook เพิ่มฟีเจอร์ Your Algorithm ปรับแต่งฟีดตามความสนใจ แบบเดียวกับ Instagram Body เมื่อเดือนมิถุนายน Meta เพิ่มระบบ Your Algorithm เปิดให้ผู้ใช้ปรับอัลกอริทึมหน้าฟีดได้เอง ให้กับ Instagram ล่าสุดฟีเจอร์นี้กำลังจะเปิดใช้งานบน Facebook แล้ว Your Algorithm เป็นระบบปรับแต่งคอนเทนต์ที่แสดงบน Feed และ Reels ตามความสนใจของเรา วิธีใช้งานคือกดปุ่ม ... บนโพสต์ใดๆ แล้วจะเห็นเมนูย่อยชื่อ Your Algorithm แสดงหมวดหมู่เนื้อหาที่เราสนใจ (และไม่สนใจ) ได้ละเอียดกว่าเดิม นอกจากนี้เวลาเรากดบอกที่โพสต์ใดๆ ว่า Interested หรือ Not Interested เราอาจเห็นคำถามเพิ่มเติมว่า สนใจหรือไม่สนใจหัวข้อใดอีกไหม เพื่อให้การคัดเลือกเนื้อหามาแสดงแม่นยำขึ้น ที่มา - Facebook mk Thu, 15/10/2026 - 08:10",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 01:10:04 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425222+00:00"
+    "researched_at": "2026-10-16T07:08:51.917285+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -159,14 +144,14 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424101+00:00"
+    "researched_at": "2026-10-16T07:08:51.918104+00:00"
   },
   {
-    "title": "Apple มีมูลค่ากิจการทะลุ 5 ล้านล้านดอลลาร์แล้ว เป็นบริษัทที่สองต่อจาก NVIDIA",
-    "url": "https://www.blognone.com/node/151913",
-    "summary": "Apple มีมูลค่ากิจการทะลุ 5 ล้านล้านดอลลาร์แล้ว เป็นบริษัทที่สองต่อจาก NVIDIA Body ราคาหุ้นของแอปเปิลเมื่อคืนนี้ปิดการซื้อขายที่ 342.96 ดอลลาร์ต่อหุ้น เพิ่มขึ้น 0.50% ซึ่งทำให้แอปเปิลมีมูลค่ากิจการตามราคาหุ้นหรือ Market Cap. 5.005 ล้านล้านดอลลาร์ เป็นบริษัทที่สองที่มีมูลค่ากิจการสูงในระดับ 5 ล้านล้าน ต่อจาก NVIDIA ทั้งนี้มูลค่ากิจการของแอปเปิลเคยสูงกว่า 5 ล้านล้านดอลลาร์ มาแล้วหลายครั้ง แต่เกิดขึ้นในช่วงการซื้อขายหุ้นระหว่างวัน ครั้งนี้เป็นครั้งแรกที่ราคาปิดตลาดสูงกว่า การเปลี่ยนแปลงที่สำคัญของแอปเปิลในช่วงที่ผ่านมามีตั้งแต่ การเปลี่ยนซีอีโอคนใหม่ John Ternus , การประกาศ ขึ้นราคาสินค้า หลายรายการจากปัญหาแรมแพง ซึ่งนับตั้งแต่ประกาศมา หุ้นของแอปเปิลก็ปรับเพิ่มขึ้นแล้วถึง 25% และ อัปเดตซอฟต์แวร์ รอบล่าสุดที่มีฟีเจอร์สำคัญ Siri AI หลังจากบริษัทเลื่อนเปิดตัวฟีเจอร์นี้มาสองปี ที่มา: The Wall Street Journal arjin Thu, 15/10/2026 - 08:15",
+    "title": "Amazon เปิดตัวอุปกรณ์สวมใส่บันทึกข้อมูลเสียงพลัง AI \"Bee\" มีทั้งแบบสายรัดและแผ่นแปะสมาร์ทโฟน",
+    "url": "https://www.blognone.com/node/151925",
+    "summary": "Amazon เปิดตัวอุปกรณ์สวมใส่บันทึกข้อมูลเสียงพลัง AI \"Bee\" มีทั้งแบบสายรัดและแผ่นแปะสมาร์ทโฟน Body Amazon เปิดตัวผลิตภัณฑ์ใหม่ ของอุปกรณ์สวมใส่ข้อมูลอัจฉริยะภายใต้แบรนด์ Bee ที่ ซื้อกิจการ มาเมื่อปีที่แล้ว มีรายละเอียดดังนี้ Bee Frontier อุปกรณ์ผู้ช่วย AI พกพา ที่สามารถใส่ได้ทั้งแบบสายรัดข้อมือ หรือติดคลิปหนีบกับเสื้อ กันน้ำมาตรฐาน IP67 ใช้งานได้นานต่อเนื่องสูงสุด 7 วัน อุปกรณ์มีไมโครโฟนคู่ ที่สามารถกรองเสียงรบกวนเพื่อเก็บข้อมูลเฉพาะที่สำคัญ สามารถบันทึกและสรุปเนื้อหาการสนทนาหรือการประชุมต่าง ๆ ได้ ไปจนถึงการแจ้งเตือนนัดหมายสำคัญ มีไฟสถานะแสดงเมื่ออุปกรณ์กำลังทำงานบันทึกเสียง มีตัวเลือก 3 สี ราคา 75 ดอลลาร์ อีกสินค้าที่เปิดตัวคือ Bee Eclipse อุปกรณ์ผู้ช่วย AI ที่ทำงานแบบเดียวกับ Frontier ที่อยู่ในรูปของแผ่นติดด้านหลังสมาร์ทโฟน รองรับมาตรฐาน Qi2 และ MagSafe มีขนาดกว้างยาวเท่ากับบัตรเครดิต แบตเตอรี่อยู่ได้นาน 21 วัน ราคา 100 ดอลลาร์ ในการใช้งาน Bee ผู้ใช้งานจะได้ฟีเจอร์สรุปเนื้อหาการสนทนา ย้อนหลัง 14 วัน ไม่มีค่าใช้จ่ายเพิ่ม แต่ถ้าสมัคร subscription Bee Pro ราคา 12 ดอลลาร์ต่อเดือน จะสามาร",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 01:15:30 +0000",
+    "published": "Fri, 16 Oct 2026 02:15:00 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -175,23 +160,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425142+00:00"
-  },
-  {
-    "title": "Anthropic สร้างระบบจัดการซอร์สโค้ดใหม่ Scion แก้ปัญหา Git ถึงขีดจำกัดในยุค AI",
-    "url": "https://www.blognone.com/node/151918",
-    "summary": "Anthropic สร้างระบบจัดการซอร์สโค้ดใหม่ Scion แก้ปัญหา Git ถึงขีดจำกัดในยุค AI Body Anthropic เปิดเผยว่าได้เปลี่ยนระบบจัดการซอร์สโค้ดภายในจาก Git มาเป็นระบบใหม่ที่พัฒนาขึ้นเองชื่อว่า Scion (scn) Anthropic เล่าปัญหาว่าระบบ Git ออกแบบมาสำหรับการใช้งานของมนุษย์ สถาปัตยกรรมของมันคือเป็นระบบกระจายศูนย์ (decentralized) โดยโคลน repository ทั้งอันออกมาทำงานเป็นเอกเทศ รันออฟไลน์ได้ แล้วค่อยส่งโค้ดส่วนที่เปลี่ยนแปลงกลับมาภายหลัง ซึ่งเป็นระบบที่ดีเพียงพอสำหรับ repository ทั่วไป ปัญหาของ Anthropic คือใช้ Claude เขียนโค้ดหนักกว่าใครในโลกนี้ (เพราะโทเคนไม่จำกัด!) ปริมาณการใช้งาน Git จึงสูงมาก ลำพังแค่ main branch มีขนาดเกิน 100GB, โคลนที่บีบอัดแล้วมีขนาดเกิน 25GB, มีการ checkout วันละ 25 ล้านครั้ง, ปริมาณข้อมูลเกิน 600 PB ต่อวัน จึงเริ่มเจอขีดจำกัดของสถาปัตยกรรม Git แล้ว Anthropic บอกว่าใช้เทคนิคจัดการ Git กับ repository ขนาดใหญ่มาครบแล้วทุกอย่าง เช่น การทำ Git mirror ที่ภายในบริษัทมีหลายร้อย mirror หรือการทำ repository snapshot แต่เทคนิคทั้งหมดเป็นแค่การซื้อเวลาเท่านั้น ยังไงก็ต้องถึงขีดจำกัดของ Git",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 02:33:23 +0000",
-    "matched_keywords": [
-      "แก้ปัญหา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.424755+00:00"
+    "researched_at": "2026-10-16T07:08:51.918814+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -207,35 +176,49 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423832+00:00"
+    "researched_at": "2026-10-16T07:08:51.917941+00:00"
   },
   {
-    "title": "กูเกิลเปิดทางสร้างแอพ Android ใช้เองด้วย Vibe Code แล้วส่งขึ้น Google Play ให้เพื่อน",
-    "url": "https://www.blognone.com/node/151909",
-    "summary": "กูเกิลเปิดทางสร้างแอพ Android ใช้เองด้วย Vibe Code แล้วส่งขึ้น Google Play ให้เพื่อน Body Google Play ปรับตัวเข้าสู่ยุคสมัยที่ใครๆ ก็สร้างแอพเองได้ โดยเปิดให้ผู้ใช้ Android ทั่วไปที่ไม่จำเป็นต้องมีบัญชีนักพัฒนา สามารถสร้างแอพแบบ vibe code ผ่าน Google AI Studio แล้วแจกจ่ายให้เพื่อนผ่าน Google Play Store ได้ กูเกิลบอกว่าแอพที่สร้างแบบ vibe code มักเป็นแอพที่สร้างใช้เองส่วนตัว กูเกิลเปิดทางให้เราสามารถนำแอพขึ้น Google Play แบบใช้ส่วนตัวเท่านั้น ซึ่งตอนนี้ทำได้แล้วในสหรัฐ และในอีกไม่กี่เดือนข้างหน้า จะสามารถแชร์แอพให้กับเพื่อนและครอบครัวแบบ private ได้ด้วย โดยที่กระบวนการส่งแอพขึ้นสโตร์จะต้องผ่านมาตรฐานเดียวกับแอพทั่วไป ที่มา - Google mk Wed, 14/10/2026 - 14:34",
+    "title": "โซนี่เริ่มบล็อค PS5 เฟิร์มแวร์เก่าที่โดน jailbreak ไม่ให้ต่อเชื่อม PSN แล้ว",
+    "url": "https://www.blognone.com/node/151922",
+    "summary": "โซนี่เริ่มบล็อค PS5 เฟิร์มแวร์เก่าที่โดน jailbreak ไม่ให้ต่อเชื่อม PSN แล้ว Body เมื่อเดือนที่แล้วมีกลุ่มแฮ็กเกอร์สามารถ jailbreak เครื่อง PS5 ได้สำเร็จ ส่งผลให้โซนี่ต้องแก้เกมด้วยการออกเฟิร์มแวร์ใหม่เวอร์ชัน 14.10 ตามมาในวันที่ 1 ตุลาคม และล่าสุดมีรายงานว่าโซนี่บล็อคเครื่องที่ใช้เฟิร์มแวร์เก่า 14.00 ไม่ให้เข้าถึงบริการออนไลน์ PSN แล้ว ทางเลือกของเจ้าของเครื่อง PS5 ที่ตัดสินใจ jailbreak และติดตั้งซอฟต์แวร์กลุ่ม Homebrew จึงต้องเลือกว่าจะเล่นเกมออฟไลน์อย่างเดียวต่อไป หรือจะยอมอัพเดตเฟิร์มแวร์เพื่อกลับเข้าทางสายหลัก แลกกับการได้ซื้อเกมผ่าน PS Store และเล่นเกมออนไลน์ผ่าน PSN ตามปกติ สถานการณ์ยังซับซ้อนเข้าไปอีก เมื่อมีคนไปขุดข้อมูล (data mining) เว็บไซต์ของโซนี่แล้วพบว่า การเล่น GTA 6 ที่จะวางขายในเดือนหน้า จำเป็นต้องใช้เฟิร์มแวร์ 14.10 ขึ้นไปเท่านั้น ที่มา - Reddit via Notebookcheck mk Thu, 15/10/2026 - 21:55",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 14 Oct 2026 07:34:46 +0000",
+    "published": "Thu, 15 Oct 2026 14:55:21 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425544+00:00"
+    "researched_at": "2026-10-16T07:08:51.919057+00:00"
   },
   {
-    "title": "YouTube Music แปะป้ายบอกว่าเป็นเพลงที่สร้างด้วย AI แล้ว",
-    "url": "https://www.blognone.com/node/151917",
-    "summary": "YouTube Music แปะป้ายบอกว่าเป็นเพลงที่สร้างด้วย AI แล้ว Body YouTube Music ประกาศขึ้นป้าย label บอกว่าเพลงที่ฟังอยู่มีส่วนที่สร้างด้วย generative AI โดยจะแสดงในหน้า player ตอนเล่นเพลงเลย และกดที่ปุ่ม AI แล้วจะแสดงข้อมูลเพิ่มเติมว่าเพลงนี้สร้างด้วย AI กูเกิลบอกว่ามีระบบตรวจจับเพลงที่สร้างด้วย AI ที่พัฒนาร่วมกับพาร์ทเนอร์ในวงการ และจะขยายป้าย AI ไปยังเพลงบนแอพ YouTube หลักด้วย ที่มา - YouTube mk Thu, 15/10/2026 - 09:27",
+    "title": "แอปเปิลเชิญสื่อร่วมงานเปิดตัวสินค้าใหม่ 28 ตุลาคมนี้",
+    "url": "https://www.blognone.com/node/151921",
+    "summary": "แอปเปิลเชิญสื่อร่วมงานเปิดตัวสินค้าใหม่ 28 ตุลาคมนี้ Body Mark Gurman แห่ง Bloomberg เปิดเผย ว่าแอปเปิลได้เชิญสื่อบางแห่ง เข้าร่วมงานเปิดตัวผลิตภัณฑ์ใหม่ในวันที่ 28 ตุลาคมนี้ที่ลอสแอนเจลิส แต่ไม่มีข้อมูลแบบทางการว่าแอปเปิลจะเปิดตัวสินค้าใดบ้าง ข้อมูลนี้ตรงกับที่ Gurman เคยให้ข้อมูลเมื่อสัปดาห์ที่แล้วว่าแอปเปิลจะเปิดตัวสินค้าใหม่อีกชุดในช่วงปลายเดือน หลังจาก เปิดตัว HomeView เมื่อต้นสัปดาห์ ซึ่งสินค้าที่คาดว่าจะมาในรอบนี้ ได้แก่ MacBook Pro จอ OLED แบบทัชสกรีน, MacBook Pro ดีไซน์เดิมชิป M6, iPad mini รุ่นใหม่ ที่เป็นจอ OLED และ iMac ชิป M6 ที่มา: Mark Gurman arjin Thu, 15/10/2026 - 22:01",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 02:27:32 +0000",
+    "published": "Thu, 15 Oct 2026 15:01:16 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.424822+00:00"
+    "researched_at": "2026-10-16T07:08:51.918996+00:00"
+  },
+  {
+    "title": "แว่นตา AI จาก Meta จะเริ่มขายในไทย 20 ตุลาคมนี้ มีรุ่น Ray-Ban และ Oakley",
+    "url": "https://www.blognone.com/node/151928",
+    "summary": "แว่นตา AI จาก Meta จะเริ่มขายในไทย 20 ตุลาคมนี้ มีรุ่น Ray-Ban และ Oakley Body Meta ประเทศไทย เปิดตัวแว่นตา AI ซึ่งเป็นความร่วมมือกับ EssilorLuxottica บริษัทผู้ผลิตแว่นตารายใหญ่ แบรนด์ Ray-Ban Meta และ Oakley Meta ซึ่งจะเริ่มจำหน่ายในประเทศไทยตั้งแต่ 20 ตุลาคมนี้ ก่อนหน้านี้ Meta ได้เปิดตัวแว่นตา AI หลายรุ่นพร้อมประกาศขยายตลาดไปอีกหลายประเทศผ่านแบรนด์ Oakley และ Ray-Ban ซึ่งมีประเทศไทยในรายชื่อรอบนี้ด้วย แว่นตา Ray-Ban Meta (Gen 2) มีหลายดีไซน์ให้เลือกสวมใส่ แบตเตอรี่ใช้งานได้นานสูงสุด 8 ชั่วโมง วิดีโอความละเอียด 3K 60 fps ส่วนแว่นตา Oakley Meta เน้นประสิทธิภาพการทำงานที่สูงขึ้น และมีรุ่น Oakley Meta Vanguard สำหรับบันทึกการออกกำลังกายรวมถึงกีฬาแนวเอ็กซ์ตรีม ที่มา: Meta ประเทศไทย arjin Fri, 16/10/2026 - 13:11",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 06:11:21 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.918606+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -249,7 +232,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423586+00:00"
+    "researched_at": "2026-10-16T07:08:51.917754+00:00"
+  },
+  {
+    "title": "TypeSafe AI เปิดตัว Jev 1.14 อ่านภาพและตีกรอบวัตถุในภาพได้",
+    "url": "https://www.blognone.com/node/151920",
+    "summary": "TypeSafe AI เปิดตัว Jev 1.14 อ่านภาพและตีกรอบวัตถุในภาพได้ Body TypeSafe AI ผู้สร้างปัญญาประดิษฐ์ตัดสินใจ Jev ปล่อย Jev 1.14 โมเดลตัดสินใจความเร็วสูงที่เพิ่มความสามารถในการอ่านภาพ รวมถึงฟีเจอร์ box ที่สามารถตีกรอบวัตถุที่ต้องการได้ การอ่านภาพของ Jev สามารถใส่ภาพใน state, คำถาม, หรือตัวเลือกก็ได้ ทำให้สร้างแนวทางการใช้งานได้อิสระ ฟีเจอร์อ่านภาพมาพร้อมกับคำถามแบบ box ที่ตีกรอบบนล่างซ้ายขวาวัตถุที่ต้องการได้ เมื่อเลือกคำถามแบบนี้แล้วก็ไม่ต้องการตัวเลือกอีก แต่จะตอบกลับมาเป็นเลขทศนิยมสี่ตัวพร้อมค่าความมั่นใจ ตอนนี้ตลาดปัญญาประดิษฐ์ตัดสินใจนับเป็นตลาดที่ร้อนแรง มีคนเข้ามาแข่งอย่างรวดเร็ว ทาง TypeSafe เริ่มออกผลทดสอบว่าคุณภาพการตัดสินใจจากชุดทดสอบภายในยังแสดงว่า Jev ให้คุณภาพที่ดีที่สุดอยู่ ตอนนี้ฟีเจอร์อ่านภาพและตีกรอบยังอยู่ในสถานะทดสอบ และจะปิดเป็นค่าเริ่มต้น พร้อมกับเตือนว่าคุณภาพยังไม่ถึงระดับที่ทาง TypeSafe AI ต้องการ ที่มา - @typesafeai lew Thu, 15/10/2026 - 21:46",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 15 Oct 2026 14:46:52 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.919117+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -263,7 +260,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424208+00:00"
+    "researched_at": "2026-10-16T07:08:51.918185+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -277,7 +274,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423991+00:00"
+    "researched_at": "2026-10-16T07:08:51.918024+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -291,7 +288,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423084+00:00"
+    "researched_at": "2026-10-16T07:08:51.917372+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -305,7 +302,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423191+00:00"
+    "researched_at": "2026-10-16T07:08:51.917455+00:00"
+  },
+  {
+    "title": "Tesla โชว์ความสามารถ Tesla Roadster รุ่นที่ 2 ตีโค้งทะยานฟ้า-บินข้ามรถที่ขวางอยู่",
+    "url": "https://www.blognone.com/node/151927",
+    "summary": "Tesla โชว์ความสามารถ Tesla Roadster รุ่นที่ 2 ตีโค้งทะยานฟ้า-บินข้ามรถที่ขวางอยู่ Body Tesla เปิดตัว รถยนต์ไฟฟ้าสมรรถนะสูงสุด Tesla Roadster รุ่นที่ 2 ซึ่งเป็นเวลา 9 ปี หลังจาก เปิดตัวรถคอนเซปต์ในปี 2017 โดยระบุว่า Tesla Roadster ใหม่ได้ผสานการออกแบบและเทคโนโลยีจรวดของ SpaceX ไฮไลท์ของการเปิดตัวคือการนำเสนอความล้ำหน้าทั้งการขับไต่ขึ้นทางลาดโค้ง ก็ทะยานขึ้นฟ้าแล้วกลับตัวลงจอดได้อย่างนุ่มนวล และการบินข้ามรถยนต์ 5 คัน พร้อมกับหมุนกลางอากาศด้วย ทั้งหมดเป็นการขับจริงต่อหน้าคนดูไม่ใช่คลิปที่บันทึกไว้ล่วงหน้า Real life, baby https://t.co/3QEqn18wig — Tesla (@Tesla) October 16, 2026 Do a kickflip! https://t.co/DJ1Bq1yu8m — Tesla (@Tesla) October 16, 2026 Elon Musk ซีอีโอ Tesla บอกว่า Roadster จะเป็นรถยนต์ที่ออกแบบพัฒนาเพื่อให้คนเป็นคนขับขี่ใช้งานเอง ซึ่งต่างไปจากทิศทางของรถยนต์ไฟฟ้ารุ่นอื่นที่ต้องการไปแบบขับเคลื่อนอัตโนมัติ Tesla Roadster เดิมมีกำหนดเริ่มผลิตในปี 2020 แต่ก็เลื่อนมาหลายครั้ง ในครั้งนี้ Musk บอกว่ารถยนต์จะเริ่มส่งมอบให้ลูกค้าได้ในปี 2028 ลูกค้าที่สนใจสามารถต่อคิวจองล่วงหน้าได้โด",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 03:30:50 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.918678+00:00"
+  },
+  {
+    "title": "TSMC รายงานผลประกอบการไตรมาส รายได้โต 51%, สินค้า 2 นาโนเมตรมีส่วนแบ่งเพิ่มขึ้น",
+    "url": "https://www.blognone.com/node/151926",
+    "summary": "TSMC รายงานผลประกอบการไตรมาส รายได้โต 51%, สินค้า 2 นาโนเมตรมีส่วนแบ่งเพิ่มขึ้น Body TSMC รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 หลังจาก รายงาน เฉพาะตัวเลขรายได้ไปเมื่อสัปดาห์ที่แล้ว รายได้รวมอยู่ที่ 1.49 ล้านล้านดอลลาร์ไต้หวัน เพิ่มขึ้น 50.9% จากไตรมาสเดียวกันในปีก่อน กำไรสุทธิอยู่ที่ 7.63 แสนล้านดอลลาร์ไต้หวัน เพิ่มขึ้น 68.7% อัตรากำไรขั้นต้นหรือ Gross Margin 66.4% TSMC บอกว่ารายได้ของสินค้า 2 นาโนเมตร คิดเป็น 8% ของรายได้ทั้งหมด เพิ่มขึ้นจาก ไตรมาสก่อนหน้านี้ ที่คิดเป็น 3% ส่วน 3 นาโนเมตรรายได้คิดเป็น 33%, 5 นาโนเมตร 28% และ 7 นาโนเมตร 10% ทำให้ทั้งหมดที่ TSMC เรียกรวมว่าเป็นสินค้าเทคโนโลยีขั้นสูง คิดเป็น 79% ของรายได้ทั้งหมด TSMC ประเมินรายได้ในไตรมาสปัจจุบัน แปลงเป็นดอลลาร์สหรัฐที่ราว 5.23-5.43 หมื่นล้านดอลลาร์ กำไรขั้นต้นอยู่ที่ 65-67% ที่มา: TSMC arjin Fri, 16/10/2026 - 08:22",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 01:22:06 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-16T07:08:51.918876+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -319,7 +344,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423399+00:00"
+    "researched_at": "2026-10-16T07:08:51.917611+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -333,21 +358,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423670+00:00"
-  },
-  {
-    "title": "Netflix ปลดพนักงานประมาณ 1,000 ตำแหน่งทั่วโลก มากที่สุดนับตั้งแต่ปี 2022",
-    "url": "https://www.blognone.com/node/151910",
-    "summary": "Netflix ปลดพนักงานประมาณ 1,000 ตำแหน่งทั่วโลก มากที่สุดนับตั้งแต่ปี 2022 Body Netflix ประกาศปลดพนักงาน 6% ของพนักงานทั้งหมดทั่วโลก คิดเป็นจำนวนราว 1,000 ตำแหน่ง ซึ่งเป็นการปลดพนักงานครั้งใหญ่ที่สุดนับตั้งแต่ ปี 2022 พนักงานที่ได้รับผลกระทบมีทั้งฝ่ายผลิตภัณฑ์, เทคโนโลยี, กฎหมาย และฝ่ายบุคคล Greg Peters และ Ted Sarandos ซีอีโอร่วมของ Netflix ส่งอีเมลถึงพนักงานบอกว่าเป้าหมายของบริษัทในการเป็นบริษัทบันเทิงระดับโลก มาพร้อมวินัยในการจัดสรรทรัพยากรซึ่งรวมทั้งบุคลากรด้วย โดยยืนยันว่า Netflix ยังมีพื้นฐานธุรกิจที่แข็งแกร่งและสามารถดำเนินงานได้ตามแผนตลอดปีนี้ ก่อนหน้านี้ Sarandos เคยให้สัมภาษณ์ว่าแม้ธุรกิจของ Netflix ยังเติบโต แต่ไม่เร็วพอตามที่บริษัทต้องการ จึงเป็นความท้าทายที่บริษัทต้องดำเนินงานในสิ่งต่าง ๆ ให้เร็วและได้ผลลัพธ์ที่มากขึ้น ที่มา: Hollywood Reporter arjin Thu, 15/10/2026 - 07:25",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 00:25:25 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425469+00:00"
+    "researched_at": "2026-10-16T07:08:51.917818+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -361,7 +372,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424394+00:00"
+    "researched_at": "2026-10-16T07:08:51.918340+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -375,7 +386,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.423483+00:00"
+    "researched_at": "2026-10-16T07:08:51.917676+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -389,7 +400,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424578+00:00"
+    "researched_at": "2026-10-16T07:08:51.918482+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -403,7 +414,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.422721+00:00"
+    "researched_at": "2026-10-16T07:08:51.917016+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -417,21 +428,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424292+00:00"
-  },
-  {
-    "title": "Anthropic เปิดเผยรายได้ในไตรมาส 3/2026 เพิ่มขึ้น 45% จากไตรมาส 2 อยู่ที่ 1.68 หมื่นล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151912",
-    "summary": "Anthropic เปิดเผยรายได้ในไตรมาส 3/2026 เพิ่มขึ้น 45% จากไตรมาส 2 อยู่ที่ 1.68 หมื่นล้านดอลลาร์ Body มีรายงานว่าผู้บริหาร Anthropic ได้จัดการประชุมกับนักลงทุนของบริษัท ซึ่งเปิดเผยรายได้ของบริษัทในไตรมาสที่ 3 ที่ผ่านมา เพิ่มขึ้น 45% เมื่อเทียบกับไตรมาสที่ 2 อยู่ที่ 1.68 หมื่นล้านดอลลาร์ นอกจากนี้บริษัทบอกว่าเมื่อปรับรายการทางบัญชีแล้วบริษัทก็มีกำไรจากการดำเนินงานเป็นบวก โดยกำไรขั้นต้นอยู่ที่ประมาณ 85% Anthropic ยังรายงานแผนการไอพีโอบริษัทเข้าตลาดหุ้น หลังจาก ยื่นเอกสารไฟลิ่ง ไปเมื่อเดือนมิถุนายน โดยยังคงเดินหน้าตามแผนงาน คาดว่าจะไอพีโอได้เร็วที่สุดภายในเดือนหน้า ที่มา: The New York Times arjin Thu, 15/10/2026 - 08:03",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 01:03:08 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-15T07:26:13.425299+00:00"
+    "researched_at": "2026-10-16T07:08:51.918263+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -445,6 +442,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-15T07:26:13.424497+00:00"
+    "researched_at": "2026-10-16T07:08:51.918420+00:00"
   }
 ]
