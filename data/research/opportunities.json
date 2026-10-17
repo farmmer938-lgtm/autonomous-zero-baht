@@ -15,24 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917535+00:00"
+    "researched_at": "2026-10-17T06:57:13.224300+00:00"
   },
   {
-    "title": "Epic Games เปิดตัว Launcher v2 ใช้ AI เขียนใหม่หมด, ทำงานเร็วขึ้น, มีเวอร์ชันลินุกซ์",
-    "url": "https://www.blognone.com/node/151923",
-    "summary": "Epic Games เปิดตัว Launcher v2 ใช้ AI เขียนใหม่หมด, ทำงานเร็วขึ้น, มีเวอร์ชันลินุกซ์ Body Epic Games เปิดตัวซอฟต์แวร์ Epic Games Launcher เวอร์ชันใหม่ (เรียกเป็น v2) ที่หน้าตาคล้ายของเดิม แต่เบื้องหลังคือเขียนใหม่ทั้งหมดด้วยวิธี vibe code ด้วย AI ส่งผลให้ทำงานเร็วขึ้นกว่าเดิมมาก Epic Games Launcher ตัวเก่าถูกวิจารณ์มาตลอดเรื่องฟีเจอร์น้อย (ในช่วงแรก) และทำงานช้า (เมื่อเทียบกับ Steam) ทำให้รอบนี้ Epic เกทับด้วยการบอกว่า Launcher ตัวใหม่เปิดขึ้นมาได้เร็วกว่า Steam ซะอีก (ต้องทำกันขนาดนี้เลย) Epic Games Launcher ตัวใหม่ยังมีสถานะเป็นพรีวิว ฟีเจอร์บางอย่างอาจยังไม่ครบถ้วนเท่ากับเวอร์ชันเดิม แต่จะค่อยๆ เติมเข้ามาในภายหลัง อีกข่าวสำคัญคือ Launcher เวอร์ชันนี้มีเวอร์ชันลินุกซ์ แล้วด้วย และ Epic ประกาศว่าจะออก Fortnite เวอร์ชันลินุกซ์ หลังจากปรับปรุงการทำงานของระบบต้านโกง Easy Anti-Cheat (EAC) ให้ทำงานกับดิสโทรลินุกซ์ต่างๆ ให้ปลอดภัยมากขึ้น ที่มา - Epic Games mk Thu, 15/10/2026 - 22:02",
+    "title": "Apple ปรับปรุงกฎการตรวจสอบแอป ป้องกันปัญหาแอป AI สร้างภาพเปลือย",
+    "url": "https://www.blognone.com/node/151934",
+    "summary": "Apple ปรับปรุงกฎการตรวจสอบแอป ป้องกันปัญหาแอป AI สร้างภาพเปลือย Body แอปเปิลปรับปรุงเนื้อหาแนวทางการตรวจสอบแอป (App Review Guidelines) สำหรับนักพัฒนา โดยการปรับปรุงครั้งนี้มีประเด็นสำคัญเพื่อรับมือกับแอปที่หลอกล่อให้เข้าใจผิด (bait-and-switch) แอปเปิลบอกว่าในช่วงที่ผ่านมา มีแอปที่เปิดให้ผู้ใช้งานสร้างภาพเปลือยหรือภาพที่มีเนื้อหาทางเพศด้วย AI ปรากฏเข้ามา ซึ่งแอปเหล่านี้เจตนาบิดเบือนการให้ข้อมูลในขั้นตอนการตรวจสอบแอป จึงเรียกว่าเป็นแอปที่ bait-and-switch ที่ปรับปรุงแนวทางการตรวจสอบแอปใหม่ในหลายข้อดังนี้ การจัดการเนื้อหา ให้ระบุครอบคลุมถึงการนำภาพส่วนตัวมาสร้างโดยไม่ได้รับความยินยอม ภาพที่สร้างด้วย AI ต้องมีแนวทางในการลบเนื้อหาจากแพลตฟอร์ม หากไม่มีแผนที่เพียงพอ แอปอาจถูกถอดจาก App Store แอปต้องไม่บิดเบือนวัตถุประสงค์การใช้งานในขั้นตอนตรวจสอบ ไม่เปลี่ยนแปลงการทำงานหลังอนุมัติ เช่น เพิ่มฟีเจอร์หรือความสามารถที่ไม่มีในเวอร์ชันตรวจสอบ ระบุแนวทางเพิ่มเติมสำหรับแอปที่ล่วงละเมิดทางเพศเด็ก ว่าแอปจะถูกลบจาก App Store ทันที และปิดกั้นการเผยแพร่ในทุกช่องทาง ที่มา: แอปเปิล arjin Sat, 17/10/2026 - 10:",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 15:02:54 +0000",
+    "published": "Sat, 17 Oct 2026 03:03:25 +0000",
     "matched_keywords": [
-      "รีวิว",
-      "วิธี"
+      "review",
+      "guide"
     ],
     "keyword_score": 2,
     "intent_score": 4,
     "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918941+00:00"
+    "researched_at": "2026-10-17T06:57:13.225800+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,23 +48,23 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918545+00:00"
+    "researched_at": "2026-10-17T06:57:13.225711+00:00"
   },
   {
-    "title": "ไมโครซอฟท์เปิดตัวจอยไซส์เล็ก Xbox Nano Controller ใส่กระเป๋าแจ็คเก็ตได้",
-    "url": "https://www.blognone.com/node/151919",
-    "summary": "ไมโครซอฟท์เปิดตัวจอยไซส์เล็ก Xbox Nano Controller ใส่กระเป๋าแจ็คเก็ตได้ Body ไมโครซอฟท์เปิดตัวจอยเกม Xbox Nano Controller ขนาดเล็กใส่กระเป๋าแจ็คเก็ตได้ ออกแบบมาสำหรับคนที่อยากพกพา หรือเด็กที่ยังมือเล็ก จับจอยผู้ใหญ่ไม่ถนัด จอยมีขนาดยาวประมาณ 5 นิ้ว หนักประมาณ 100 กรัม (ความต่างสำคัญคือไม่มีกริป) มีปุ่มครบเทียบเท่าจอยรุ่นมาตรฐาน แถมปุ่มตรงกลางใต้ปุ่ม Xbox ที่ปกติเป็นปุ่ม Share ถูกปรับมาเป็นปุ่มพิเศษ action button ตั้งโปรแกรมได้เอง และมีแบตเตอรี่ชาร์จได้ในตัว จอยเริ่มวางขายแล้วในราคา 49.99 ดอลลาร์ ถูกกว่าจอยรุ่นมาตรฐานที่ตอนนี้ขาย 64.99 ดอลลาร์ ที่มา - Xbox mk Thu, 15/10/2026 - 20:30",
+    "title": "ผลทดสอบ Surface Laptop Ultra รันโมเดล LLM ได้จริง แต่เครื่องจะร้อน, โมเดลมีน้อย",
+    "url": "https://www.blognone.com/node/151933",
+    "summary": "ผลทดสอบ Surface Laptop Ultra รันโมเดล LLM ได้จริง แต่เครื่องจะร้อน, โมเดลมีน้อย Body พีซีพลัง RTX Spark เริ่มวางขายแล้วในสหรัฐอเมริกา (ถือเป็นการบุกตลาดพีซีของ NVIDIA อีกครั้ง นับจากยุค Tegra/Surface RT โน่นเลย) สื่อต่างประเทศหลายสำนักก็เริ่มเผยแพร่รีวิวของพีซีกลุ่มนี้ ซึ่งมีหลากหลายยี่ห้อ ทั้ง Surface Laptop Ultra ของไมโครซอฟท์เอง และฮาร์ดแวร์จากพาร์ทเนอร์รายอื่นๆ เว็บไซต์ The New Stack ทดสอบ Surface Laptop Ultra ไปที่ประเด็นเดียวคือการรันโมเดล LLM แบบ local ในเครื่อง ซึ่งเป็นจุดขายสำคัญของ RTX Spark โดยใช้เครื่องสเปกแรม 64GB ที่ได้จากไมโครซอฟท์ (ยังไม่ใช่ตัวแพงสุด 128GB) ผลการรันโมเดลต่างๆ (แบบเสียบปลั๊กเครื่อง) เป็นดังนี้ Nemotron 3.5 Bolt ขนาด 9B โมเดลตัวใหม่ของ NVIDIA ที่ออกมาต้อนรับ RTX Spark สำหรับงาน local agent ผลที่ได้คือ 56-60 โทเคนต่อวินาที Qwen 3.8 ขนาด 27B แบบ 8-bit quantization ได้ 8-9 โทเคนต่อวินาที, แบบ 4-bit ได้ 25-28 โทเคนต่อวินาที Gemma 4 26B-A4B แบบ 8-bit quantization ได้ 40 โทเคนต่อวินาที เป็นผลมาจากสถาปัตยกรรม mixture-of-experts (MoE) ทำให้ได้ความเร็วที่มากพอ The",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 13:30:57 +0000",
+    "published": "Sat, 17 Oct 2026 01:16:00 +0000",
     "matched_keywords": [
-      "ราคา"
+      "รีวิว"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.919170+00:00"
+    "researched_at": "2026-10-17T06:57:13.225903+00:00"
   },
   {
     "title": "[IDC] ตลาดสมาร์ทโฟนไตรมาส 3/2026 ภาพรวมลดลง 22% และมีแนวโน้มลดลงต่ออีกไตรมาส",
@@ -80,7 +80,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918744+00:00"
+    "researched_at": "2026-10-17T06:57:13.226519+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -96,7 +96,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917163+00:00"
+    "researched_at": "2026-10-17T06:57:13.223845+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -112,7 +112,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917881+00:00"
+    "researched_at": "2026-10-17T06:57:13.224798+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -128,7 +128,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917285+00:00"
+    "researched_at": "2026-10-17T06:57:13.223961+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -144,7 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918104+00:00"
+    "researched_at": "2026-10-17T06:57:13.225133+00:00"
   },
   {
     "title": "Amazon เปิดตัวอุปกรณ์สวมใส่บันทึกข้อมูลเสียงพลัง AI \"Bee\" มีทั้งแบบสายรัดและแผ่นแปะสมาร์ทโฟน",
@@ -160,7 +160,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918814+00:00"
+    "researched_at": "2026-10-17T06:57:13.226613+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -176,35 +176,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917941+00:00"
-  },
-  {
-    "title": "โซนี่เริ่มบล็อค PS5 เฟิร์มแวร์เก่าที่โดน jailbreak ไม่ให้ต่อเชื่อม PSN แล้ว",
-    "url": "https://www.blognone.com/node/151922",
-    "summary": "โซนี่เริ่มบล็อค PS5 เฟิร์มแวร์เก่าที่โดน jailbreak ไม่ให้ต่อเชื่อม PSN แล้ว Body เมื่อเดือนที่แล้วมีกลุ่มแฮ็กเกอร์สามารถ jailbreak เครื่อง PS5 ได้สำเร็จ ส่งผลให้โซนี่ต้องแก้เกมด้วยการออกเฟิร์มแวร์ใหม่เวอร์ชัน 14.10 ตามมาในวันที่ 1 ตุลาคม และล่าสุดมีรายงานว่าโซนี่บล็อคเครื่องที่ใช้เฟิร์มแวร์เก่า 14.00 ไม่ให้เข้าถึงบริการออนไลน์ PSN แล้ว ทางเลือกของเจ้าของเครื่อง PS5 ที่ตัดสินใจ jailbreak และติดตั้งซอฟต์แวร์กลุ่ม Homebrew จึงต้องเลือกว่าจะเล่นเกมออฟไลน์อย่างเดียวต่อไป หรือจะยอมอัพเดตเฟิร์มแวร์เพื่อกลับเข้าทางสายหลัก แลกกับการได้ซื้อเกมผ่าน PS Store และเล่นเกมออนไลน์ผ่าน PSN ตามปกติ สถานการณ์ยังซับซ้อนเข้าไปอีก เมื่อมีคนไปขุดข้อมูล (data mining) เว็บไซต์ของโซนี่แล้วพบว่า การเล่น GTA 6 ที่จะวางขายในเดือนหน้า จำเป็นต้องใช้เฟิร์มแวร์ 14.10 ขึ้นไปเท่านั้น ที่มา - Reddit via Notebookcheck mk Thu, 15/10/2026 - 21:55",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 14:55:21 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.919057+00:00"
-  },
-  {
-    "title": "แอปเปิลเชิญสื่อร่วมงานเปิดตัวสินค้าใหม่ 28 ตุลาคมนี้",
-    "url": "https://www.blognone.com/node/151921",
-    "summary": "แอปเปิลเชิญสื่อร่วมงานเปิดตัวสินค้าใหม่ 28 ตุลาคมนี้ Body Mark Gurman แห่ง Bloomberg เปิดเผย ว่าแอปเปิลได้เชิญสื่อบางแห่ง เข้าร่วมงานเปิดตัวผลิตภัณฑ์ใหม่ในวันที่ 28 ตุลาคมนี้ที่ลอสแอนเจลิส แต่ไม่มีข้อมูลแบบทางการว่าแอปเปิลจะเปิดตัวสินค้าใดบ้าง ข้อมูลนี้ตรงกับที่ Gurman เคยให้ข้อมูลเมื่อสัปดาห์ที่แล้วว่าแอปเปิลจะเปิดตัวสินค้าใหม่อีกชุดในช่วงปลายเดือน หลังจาก เปิดตัว HomeView เมื่อต้นสัปดาห์ ซึ่งสินค้าที่คาดว่าจะมาในรอบนี้ ได้แก่ MacBook Pro จอ OLED แบบทัชสกรีน, MacBook Pro ดีไซน์เดิมชิป M6, iPad mini รุ่นใหม่ ที่เป็นจอ OLED และ iMac ชิป M6 ที่มา: Mark Gurman arjin Thu, 15/10/2026 - 22:01",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 15:01:16 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918996+00:00"
+    "researched_at": "2026-10-17T06:57:13.224884+00:00"
   },
   {
     "title": "แว่นตา AI จาก Meta จะเริ่มขายในไทย 20 ตุลาคมนี้ มีรุ่น Ray-Ban และ Oakley",
@@ -218,7 +190,35 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918606+00:00"
+    "researched_at": "2026-10-17T06:57:13.226337+00:00"
+  },
+  {
+    "title": "ซัมซุงอัพเดต Bixby รองรับการคุยด้วยเสียงภาษาไทยแล้ว",
+    "url": "https://www.blognone.com/node/151930",
+    "summary": "ซัมซุงอัพเดต Bixby รองรับการคุยด้วยเสียงภาษาไทยแล้ว Body ซัมซุงประกาศอัพเดตความสามารถให้ผู้ช่วยส่วนตัว Bixby รองรับการสนทนาด้วยเสียงภาษาไทยแล้ว โดยเป็นส่วนหนึ่งของอัพเดตรอบที่ปล่อยในวันที่ 14 ตุลาคม พร้อมกับภาษาโปแลนด์และภาษาเวียดนาม ฟีเจอร์กลุ่ม Galaxy AI ตัวอื่นๆ รองรับภาษาไทยไปก่อนหน้าแล้ว เช่น Call Assist, Note Assist, Interpreter และ Transcript Assist ที่มา - Samsung mk Fri, 16/10/2026 - 21:45",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 14:45:46 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-17T06:57:13.226159+00:00"
+  },
+  {
+    "title": "กูเกิลร่วมมือสิงคโปร์ เริ่มเตือนผู้ใช้เมื่อได้รับข้อความจากแก๊งคอลเซ็นเตอร์ ฝึก AI เฉพาะ ควบคุมการฝึกโดยรัฐบาล",
+    "url": "https://www.blognone.com/node/151931",
+    "summary": "กูเกิลร่วมมือสิงคโปร์ เริ่มเตือนผู้ใช้เมื่อได้รับข้อความจากแก๊งคอลเซ็นเตอร์ ฝึก AI เฉพาะ ควบคุมการฝึกโดยรัฐบาล Body กูเกิลประกาศความร่วมมือกับรัฐบาลสิงคโปร์ ผ่าน GovTech หน่วยงานคล้ายสำนักงานพัฒนารัฐบาลดิจิทัล (DGA) ของไทย เปิดให้บริการแจ้งเตือนข้อความหลอกลวง เมื่อผู้ใช้ได้รับข้อความปลอมตัวเป็นหน่วยงานรัฐ, ธนาคาร, หรือแม้แต่คนสำคัญ โมเดลตรวจสอบแบ่งเป็นสองส่วนเพื่อการประหยัดพลังงาน ส่วนแรกเป็นโมเดลขนาดเล็กเฉพาะทางเพื่อตรวจว่าเป็นข้อความหลอกลวงหรือไม่ หลังจากนั้นจะใช้ Gemma ที่ finetune มาโดยเฉพาะเพื่อยืนยันอีกชั้น โดย Gemma สามารถตรวจสอบแชตได้ยาวกว่า โมเดลเหล่านี้ถูก finetune ด้วยข้อมูลของสิงคโปร์เองจากการรวบรวมการแจ้งข้อความหลอกลวงและการเก็บข้อมูลต่างๆ เพื่อให้โมเดลแยกแยะได้ดีขึ้น ความพิเศษคือกระบวนการ finetune ฝึกบนบัญชี Google Cloud ของ GovTech เองเพื่อให้แน่ใจว่าข้อมูลอยู่ในมือรัฐบาลตลอดเวลา หลังจากนี้กูเกิลจะเริ่มเปิดฟีเจอร์นี้ในสิงคโปร์เป็นเฟสและจะขออนุญาตผู้ใช้ก่อนเริ่มทำงาน ที่มา - DeepMind Blog lew Fri, 16/10/2026 - 22:03",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 15:03:42 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-17T06:57:13.226095+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -232,21 +232,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917754+00:00"
-  },
-  {
-    "title": "TypeSafe AI เปิดตัว Jev 1.14 อ่านภาพและตีกรอบวัตถุในภาพได้",
-    "url": "https://www.blognone.com/node/151920",
-    "summary": "TypeSafe AI เปิดตัว Jev 1.14 อ่านภาพและตีกรอบวัตถุในภาพได้ Body TypeSafe AI ผู้สร้างปัญญาประดิษฐ์ตัดสินใจ Jev ปล่อย Jev 1.14 โมเดลตัดสินใจความเร็วสูงที่เพิ่มความสามารถในการอ่านภาพ รวมถึงฟีเจอร์ box ที่สามารถตีกรอบวัตถุที่ต้องการได้ การอ่านภาพของ Jev สามารถใส่ภาพใน state, คำถาม, หรือตัวเลือกก็ได้ ทำให้สร้างแนวทางการใช้งานได้อิสระ ฟีเจอร์อ่านภาพมาพร้อมกับคำถามแบบ box ที่ตีกรอบบนล่างซ้ายขวาวัตถุที่ต้องการได้ เมื่อเลือกคำถามแบบนี้แล้วก็ไม่ต้องการตัวเลือกอีก แต่จะตอบกลับมาเป็นเลขทศนิยมสี่ตัวพร้อมค่าความมั่นใจ ตอนนี้ตลาดปัญญาประดิษฐ์ตัดสินใจนับเป็นตลาดที่ร้อนแรง มีคนเข้ามาแข่งอย่างรวดเร็ว ทาง TypeSafe เริ่มออกผลทดสอบว่าคุณภาพการตัดสินใจจากชุดทดสอบภายในยังแสดงว่า Jev ให้คุณภาพที่ดีที่สุดอยู่ ตอนนี้ฟีเจอร์อ่านภาพและตีกรอบยังอยู่ในสถานะทดสอบ และจะปิดเป็นค่าเริ่มต้น พร้อมกับเตือนว่าคุณภาพยังไม่ถึงระดับที่ทาง TypeSafe AI ต้องการ ที่มา - @typesafeai lew Thu, 15/10/2026 - 21:46",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 15 Oct 2026 14:46:52 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.919117+00:00"
+    "researched_at": "2026-10-17T06:57:13.224597+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -260,7 +246,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918185+00:00"
+    "researched_at": "2026-10-17T06:57:13.225240+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -274,7 +260,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918024+00:00"
+    "researched_at": "2026-10-17T06:57:13.225022+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -288,7 +274,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917372+00:00"
+    "researched_at": "2026-10-17T06:57:13.224080+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -302,7 +288,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917455+00:00"
+    "researched_at": "2026-10-17T06:57:13.224190+00:00"
   },
   {
     "title": "Tesla โชว์ความสามารถ Tesla Roadster รุ่นที่ 2 ตีโค้งทะยานฟ้า-บินข้ามรถที่ขวางอยู่",
@@ -316,21 +302,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918678+00:00"
-  },
-  {
-    "title": "TSMC รายงานผลประกอบการไตรมาส รายได้โต 51%, สินค้า 2 นาโนเมตรมีส่วนแบ่งเพิ่มขึ้น",
-    "url": "https://www.blognone.com/node/151926",
-    "summary": "TSMC รายงานผลประกอบการไตรมาส รายได้โต 51%, สินค้า 2 นาโนเมตรมีส่วนแบ่งเพิ่มขึ้น Body TSMC รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 หลังจาก รายงาน เฉพาะตัวเลขรายได้ไปเมื่อสัปดาห์ที่แล้ว รายได้รวมอยู่ที่ 1.49 ล้านล้านดอลลาร์ไต้หวัน เพิ่มขึ้น 50.9% จากไตรมาสเดียวกันในปีก่อน กำไรสุทธิอยู่ที่ 7.63 แสนล้านดอลลาร์ไต้หวัน เพิ่มขึ้น 68.7% อัตรากำไรขั้นต้นหรือ Gross Margin 66.4% TSMC บอกว่ารายได้ของสินค้า 2 นาโนเมตร คิดเป็น 8% ของรายได้ทั้งหมด เพิ่มขึ้นจาก ไตรมาสก่อนหน้านี้ ที่คิดเป็น 3% ส่วน 3 นาโนเมตรรายได้คิดเป็น 33%, 5 นาโนเมตร 28% และ 7 นาโนเมตร 10% ทำให้ทั้งหมดที่ TSMC เรียกรวมว่าเป็นสินค้าเทคโนโลยีขั้นสูง คิดเป็น 79% ของรายได้ทั้งหมด TSMC ประเมินรายได้ในไตรมาสปัจจุบัน แปลงเป็นดอลลาร์สหรัฐที่ราว 5.23-5.43 หมื่นล้านดอลลาร์ กำไรขั้นต้นอยู่ที่ 65-67% ที่มา: TSMC arjin Fri, 16/10/2026 - 08:22",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 16 Oct 2026 01:22:06 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-16T07:08:51.918876+00:00"
+    "researched_at": "2026-10-17T06:57:13.226429+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -344,7 +316,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917611+00:00"
+    "researched_at": "2026-10-17T06:57:13.224405+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -358,7 +330,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917818+00:00"
+    "researched_at": "2026-10-17T06:57:13.224681+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -372,7 +344,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918340+00:00"
+    "researched_at": "2026-10-17T06:57:13.225437+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -386,7 +358,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917676+00:00"
+    "researched_at": "2026-10-17T06:57:13.224490+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -400,7 +372,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918482+00:00"
+    "researched_at": "2026-10-17T06:57:13.225625+00:00"
+  },
+  {
+    "title": "Meta เปิดตัว Muse Spark Open โมเดลแบบเปิดรุ่นท็อปสุดของฝั่งสหรัฐ",
+    "url": "https://www.blognone.com/node/151929",
+    "summary": "Meta เปิดตัว Muse Spark Open โมเดลแบบเปิดรุ่นท็อปสุดของฝั่งสหรัฐ Body ช่วงนี้ Meta ขยันปล่อยของรัวๆ หลังจากเงียบมาพักใหญ่ วันก่อนเพิ่งเปิดตัว Muse Wonder โมเดลรุ่นท็อปสุดที่ทำคะแนนได้ดี วันนี้ตามมาด้วย Muse Spark Open โมเดลระดับกลางเวอร์ชันเปิดเผยน้ำหนัก (open weight) ซึ่งเคลมว่าเป็นโมเดล open weight ของฝั่งสหรัฐอเมริกาที่ได้คะแนนเบนช์มาร์คสูงสุดแล้ว (The Most Capable US Open‑Weight Model to Date) Muse Spark Open เป็นโมเดลแบบ multimodal ขนาดพารามิเตอร์รวม 816B แต่เปิดใช้จริง 42B ขนาด context window 1 ล้านโทเคน สามารถทำงานเขียนโค้ดที่ซับซ้อน ต้องให้เหตุผลเป็นขั้นเป็นตอน และเป็นงานที่ต้องทำนานๆ ได้ Meta เลือกเทียบเบนช์มาร์ค Muse Spark Open กับโมเดลสายจีนยอดนิยม 3 ตัวคือ Qwen 3.8 , GLM 5.3 , Kimi K3 และสามารถเอาชนะได้ใน 6 เบนช์มาร์ค (โมเดลฝั่งจีนที่ได้คะแนนสูงสุดคือ Kimi K3 ชนะ 4 เบนช์มาร์ค โดยฝั่งเขียนโค้ดยังนำอยู่เล็กน้อย) อีกประเด็นที่น่าสนใจคือ Meta เลือกไปจับมือกับแอปเปิล ปรับแต่งโมเดล Muse Spark Open ให้รันบน Apple Silicon ได้ดี โดยเฉพาะการรันบนเครื่องรุ่นท็อปสุดของแอปเปิลตอนนี้คือ ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 16 Oct 2026 10:42:49 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-17T06:57:13.226253+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -414,7 +400,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.917016+00:00"
+    "researched_at": "2026-10-17T06:57:13.223716+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -428,7 +414,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918263+00:00"
+    "researched_at": "2026-10-17T06:57:13.225332+00:00"
+  },
+  {
+    "title": "Apple บอกการตอบรับ iPhone Duo สูงอย่างไม่น่าเชื่อ ตอนนี้เลื่อนจัดส่งไปมกราคมปีหน้าแล้ว",
+    "url": "https://www.blognone.com/node/151932",
+    "summary": "Apple บอกการตอบรับ iPhone Duo สูงอย่างไม่น่าเชื่อ ตอนนี้เลื่อนจัดส่งไปมกราคมปีหน้าแล้ว Body iPhone Duo สมาร์ทโฟนจอพับตัวแรกของแอปเปิล ได้เปิดให้สั่งจองสินค้าล่วงหน้าไปแล้วเมื่อวานนี้ (16 ตุลาคม) ซึ่งสถานะล่าสุดในเว็บของแอปเปิลบอกว่าหากสั่งจองตอนนี้ จะได้รับ iPhone Duo ประมาณวันที่ 22 มกราคม ปีหน้า เรื่องนี้เลยอาจบอกได้ว่าการตอบรับเกินกว่าที่แอปเปิลคาดไว้ ด้านแอปเปิลก็แถลงว่าความต้องการ iPhone Duo นั้นสูงอย่างไม่น่าเชื่อ บริษัทจะเร่งดำเนินการในทุกทางเพื่อให้มีสินค้าส่งมอบกับลูกค้าโดยเร็วที่สุด ทั้งนี้ มีข่าว มาก่อนแล้วว่า iPhone Duo ช่วงแรกที่เปิดตัวจะมีสินค้าจำนวนจำกัด และอาจต้องรอระดับ 1-3 เดือน แอปเปิลไม่ได้ให้ข้อมูลว่าจะมี iPhone Duo ขายที่ร้าน Apple Store สำหรับลูกค้าวอล์กอินหรือไม่ในวันที่ 23 ตุลาคม แต่หากมี ก็น่าจะเห็นคนตั้งแถวกันยาวแน่นอน ที่มา: MacRumors arjin Sat, 17/10/2026 - 07:27",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 17 Oct 2026 00:27:40 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-17T06:57:13.226007+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -442,6 +442,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-16T07:08:51.918420+00:00"
+    "researched_at": "2026-10-17T06:57:13.225542+00:00"
   }
 ]
