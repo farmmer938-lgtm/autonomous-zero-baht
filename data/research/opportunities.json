@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "how to",
       "review",
+      "how to",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856700+00:00"
+    "researched_at": "2026-10-21T07:39:03.256756+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,23 +31,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857883+00:00"
-  },
-  {
-    "title": "เอเจนต์ Gemini 4 Argon เล่น Minecraft จบใน 27 ชั่วโมง ไม่ต้องใช้มนุษย์ช่วย",
-    "url": "https://www.blognone.com/node/151960",
-    "summary": "เอเจนต์ Gemini 4 Argon เล่น Minecraft จบใน 27 ชั่วโมง ไม่ต้องใช้มนุษย์ช่วย Body Google DeepMind โชว์งานวิจัยการใช้เอเจนต์ 4 ตัวที่รันโมเดล Gemini 4 Argon ท้าทายตัวเองด้วยการมอบโจทย์ข้อเดียวคือให้เล่น Minecraft จนเอาชนะบอสตัวสุดท้าย Ender Dragon ได้ สิ่งที่ DeepMind ทำคือใช้เอเจนต์ Gemini 4 Argon รุ่นมาตรฐาน ตัวเดียวกับที่ใช้เขียนโค้ดทั่วไป ไม่ต้องใช้เอเจนต์รุ่นที่คัสตอมมาเพื่อ Minecraft (แต่เคยอ่านข้อมูล Minecraft มาบ้างในตอนเทรน) อีกทั้งไม่ได้กำหนดบทบาทให้เอเจนต์แต่ละตัวเลย ปล่อยให้สื่อสารกันเองผ่านแชท (แต่มี shared memory ร่วมกัน) ให้วางแผนกันเอง เขียนโค้ดกันเอง ดีบั๊กกันเอง เงื่อนไขอีกข้อคือ เอเจนต์เหล่านี้ไม่สามารถควบคุมเกม Minecraft ได้โดยตรง แต่ใช้วิธีสั่งการ Minecraft ผ่านการเขียนโค้ดแทน (เช่น เดินไปตำแหน่งที่กำหนด แล้วขุดแร่เหล็กทุกอันในรัศมี 16 บล็อค) ผ่านไลบรารีชื่อ Mineflayer ที่เปิดให้โปรแกรมภายนอกอ่านค่าสถานะในเกมได้ ผลคือเอเจนต์ 4 ตัวนี้ลองผิดลองถูกกันอยู่นาน 27 ชั่วโมง เขียนโปรแกรมใช้กันเอง 2,783 โปรแกรม และเอาชนะ Ender Dragon ได้สำเร็จ (สู้ไปคืนชีพไป 69 รอบ) ทีมวิจัยของ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 19 Oct 2026 15:00:48 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858285+00:00"
+    "researched_at": "2026-10-21T07:39:03.258077+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -63,7 +47,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856317+00:00"
+    "researched_at": "2026-10-21T07:39:03.256356+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -79,23 +63,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857123+00:00"
-  },
-  {
-    "title": "MiniMax เปิดตัว MiniMax M3.1 Flash โมเดล AI เน้นความคุ้มค่า ลดราคาจาก M3 เหลือครึ่งเดียว",
-    "url": "https://www.blognone.com/node/151962",
-    "summary": "MiniMax เปิดตัว MiniMax M3.1 Flash โมเดล AI เน้นความคุ้มค่า ลดราคาจาก M3 เหลือครึ่งเดียว Body MiniMax ผู้พัฒนาโมเดลปัญญาประดิษฐ์เปิดตัวโมเดล MiniMax M3.1 Flash ห้าเดือนหลังจาก ปล่อยโมเดล M3 เวอร์ชันใหม่นี้ผลทดสอบใกล้เคียงกับโมเดลที่ออกมาใกล้ๆ กัน เช่น DeepSeek V4.1 Flash 1017 พร้อมกับราคาถูกลงกว่า MiniMax M3 เหลือเพียงครึ่งเดียวเท่านั้น ทาง Artificial Analysis วิเคราะห์ MiniMax M3.1 Flash แล้วพบว่าดีขึ้นและถูกลงจริง โดยเฉพาะฝั่งเอาท์พุตที่พ่นคำตอบน้อยลงมากทำให้ยิ่งประหยัดลงไป แต่เมื่อเทียบความคุ้มค่ารวมแล้วยังไม่สามารถสู้ MiMo-V2.6 Pro ที่ราคาแคชถูกกว่าและความฉลาดเหนือกว่า หรือ Claude Haiku 5.5 ได้ โมเดลเริ่มให้บริการจาก MiniMax เองแล้ววันนี้ และจะปล่อยโมเดลสู่สาธารณะวันที่ 23 ตุลาคมนี้ ค่า API อยู่ที่ 0.16/0.60 ดอลลาร์ต่อล้านโทเค็น ค่าแคช 0.015 ดอลลาร์ต่อล้านโทเค็น ที่มา - MiniMax lew Tue, 20/10/2026 - 09:31",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 20 Oct 2026 02:31:03 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858031+00:00"
+    "researched_at": "2026-10-21T07:39:03.257244+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -111,14 +79,14 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856406+00:00"
+    "researched_at": "2026-10-21T07:39:03.256449+00:00"
   },
   {
-    "title": "Lenovo เริ่มขาย IdeaPad Slim 3x ชิป Snapdragon C, แบต 30 ชม., ราคาประมาณ 22,000 บาท",
-    "url": "https://www.blognone.com/node/151961",
-    "summary": "Lenovo เริ่มขาย IdeaPad Slim 3x ชิป Snapdragon C, แบต 30 ชม., ราคาประมาณ 22,000 บาท Body Lenovo เริ่มวางขาย IdeaPad Slim 3x พีซีราคาถูกที่ใช้ชิป Snapdragon C แต่แบตอยู่ได้ 30 ชั่วโมง ในราคาประมาณ 22,000 บาท IdeaPad Slim 3x มี 2 ขนาดหน้าจอคือ 14\" และ 15\" ใช้ชิป Snapdragon C C11-0100, แรมเริ่มต้น 4GB, สตอเรจเริ่มต้น 128GB UFS 3.1, แบตเตอรี่ขนาด 50 Wh สามารถรันวิดีโอ 1080p ต่อเนื่องได้นาน 33 ชั่วโมง, ระบบปฏิบัติการ Windows 11 Arm64 สเปกที่วางขายในแต่ละประเทศต่างกันเล็กน้อยตรงแรมกับสตอเรจ รุ่นที่ขายในไทย ให้แรม 8GB, สตอเรจ 512GB ราคา 22,386 บาท IdeaPad Slim 3x ถือเป็นหนึ่งในพีซีราคาถูกที่ผู้ผลิตพีซีหลายๆ ค่ายออกสินค้ามาสู้กับ MacBook Neo โดย Lenovo มีสินค้าอีกตัวคือ Lecoo Air ที่ทำตลาดประเทศจีน ส่วนกรณีของ IdeaPad Slim 3x หันมาใช้ชิป Snapdragon C ก็จะได้เปรียบเรื่องแบตเตอรี่ที่ยาวนานกว่า ที่มา - Lenovo Thailand , Notebookcheck mk Tue, 20/10/2026 - 08:26",
+    "title": "Elon เผย ตั้งคณะทำงานศึกษาการควบรวม Tesla กับ SpaceX เข้าด้วยกัน",
+    "url": "https://www.blognone.com/node/151974",
+    "summary": "Elon เผย ตั้งคณะทำงานศึกษาการควบรวม Tesla กับ SpaceX เข้าด้วยกัน Body Elon Musk ตอบคำถามใน งานแถลงผลประกอบการ SpaceX ระบุว่าเขาตั้งคณะทำงานศึกษาการควบรวม Tesla และ SpaceX เข้าด้วยกัน แต่ก็ย้ำว่ายังเป็นแค่การศึกษา ยังไม่มีข้อตกลงอะไรที่เป็นทางการ มูลค่าปัจจุบันของทั้งสองบริษัทคือ Tesla ที่ 1.5 ล้านล้านดอลลาร์ และ SpaceX ที่ 2 ล้านล้านดอลลาร์ ผลจากคำพูดของ Elon ทำให้ราคาหุ้นของทั้งสองบริษัทดีดตัวขึ้นทันที อย่างไรก็ตาม หากจะควบรวมกันจริงๆ ก็จำเป็นต้องได้รับการอนุมัติจากผู้ถือหุ้นรายย่อยของทั้งสองบริษัทด้วย ซึ่ง Elon เองก็ยอมรับว่าค่อนข้างยากที่จะได้เสียงโหวตเกินครึ่ง โดยเฉพาะฝั่ง Tesla ที่มีผู้ถือหุ้นรายย่อยเยอะกว่า นักวิเคราะห์การเงินยังชี้ว่า Elon จะเป็นผู้ได้ประโยชน์สูงสุดจากการควบรวม เพราะเขาจะมีเสียงโหวตในมือเกินครึ่งทันที (ใช้หุ้นจากฝั่ง SpaceX เข้ามาชดเชยเสียงโหวตจากฝั่ง Tesla) ที่มา - BBC mk Wed, 21/10/2026 - 14:13",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 20 Oct 2026 01:26:10 +0000",
+    "published": "Wed, 21 Oct 2026 07:13:18 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -127,23 +95,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858207+00:00"
-  },
-  {
-    "title": "Elon Musk ประกาศแจกหุ้น SpaceX ให้เด็กทุกคนในอเมริกา ปีหน้า 2027",
-    "url": "https://www.blognone.com/node/151963",
-    "summary": "Elon Musk ประกาศแจกหุ้น SpaceX ให้เด็กทุกคนในอเมริกา ปีหน้า 2027 Body Elon Musk โพสต์ข้อความสั้นๆ ว่าเขาจะแจกหุ้นของ SpaceX ให้กับเด็กทุกคนในสหรัฐอเมริกา เริ่มปีหน้า 2027 แต่ยังไม่มีรายละเอียดอื่นใด สื่อต่างประเทศลองคำนวณตัวเลข ว่าสหรัฐอเมริกามีเด็กอายุต่ำกว่า 18 ปี ประมาณ 72 ล้านคน ราคาหุ้นตอนนี้อยู่ที่ 146 ดอลลาร์ต่อหุ้น หากแจกคนละ 1 หุ้นจะคิดเป็นเงินราว 10.5 พันล้านดอลลาร์ หรือประมาณ 3.5 แสนล้านบาท อย่างไรก็ตาม เงินจำนวนนี้ถือว่าน้อยเมื่อเทียบกับหุ้นทั้งหมดที่ Elon มีคือประมาณ 6.4 พันล้านหุ้นใน SpaceX (แจก 72 ล้านหุ้น) ที่มา - CNBC Next year, I will give one of my SpaceX shares to every kid in America. This will be the first of many. — Elon Musk (@elonmusk) October 19, 2026 mk Tue, 20/10/2026 - 09:05",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 20 Oct 2026 02:05:50 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858127+00:00"
+    "researched_at": "2026-10-21T07:39:03.258158+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -159,23 +111,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857385+00:00"
+    "researched_at": "2026-10-21T07:39:03.257522+00:00"
   },
   {
-    "title": "Anthropic บริจาคหุ้น 5% ให้กองทุนเพื่อประโยชน์สาธารณะ ผู้ก่อตั้ง-พนักงาน จะร่วมด้วย",
-    "url": "https://www.blognone.com/node/151959",
-    "summary": "Anthropic บริจาคหุ้น 5% ให้กองทุนเพื่อประโยชน์สาธารณะ ผู้ก่อตั้ง-พนักงาน จะร่วมด้วย Body Anthropic ออกมาสัญญาว่าจะแบ่งหุ้น 5% ของบริษัทให้กองทุนเพื่อสาธารณประโยชน์ Anthropic Public Benefit Fund ที่เพิ่งตั้งใหม่ และจะเพิ่มให้อีกทีละ 2% ทุกครั้งที่มูลค่าของบริษัทเพิ่มขึ้นเกิน 50% ตามมูลค่าพื้นฐาน ตัวบริษัท Anthropic จดทะเบียนเป็นบริษัทเพื่อสาธาณประโยชน์หรือ public benefit corporation ความแตกต่างคือยังต้องแสวงหากำไรอยู่ ในอดีตที่ผ่านมา Anthropic ใช้วิธีแบ่งเงินบางส่วนมาเพื่อสาธารณะ เช่น กันเงินให้ 200 ล้านดอลลาร์วิจัยผลกระทบของ AI ต่อตลาดแรงงาน แต่ยิ่ง AI พัฒนาเร็วขึ้น ก็อาจจำเป็นต้องใช้วิธีการที่ต่างไป ซึ่งก็คือ public benefit fund Anthropic บอกว่าด้วยโครงสร้างหุ้นแบบนี้ ยิ่งตัวบริษัทเติบโตขึ้นเท่าไร หุ้นของบริษัทจะถูกโอนเข้ากองทุนเพื่อสาธารณประโยชน์มากขึ้นเท่านั้น เป็นการเติบโตแบบเดียวกับบริษัทเทคโนโลยีที่ยิ่งโตเยอะ ผู้บริหารยิ่งได้ผลตอบแทนสูง แต่ Anthropic เลือกให้เงินเพื่อประโยชน์สาธารณะแทน Anthropic ยังเปิดเผยว่า กลุ่มผู้ก่อตั้งบริษัทสัญญาว่าจะบริจาคหุ้น 80% ของตัวเอง และพนักงานประมา",
+    "title": "Amazon ออก TorchNeuron คอมไพล์โค้ด PyTorch ไปรันบนชิป Trainium ของตัวเอง",
+    "url": "https://www.blognone.com/node/151967",
+    "summary": "Amazon ออก TorchNeuron คอมไพล์โค้ด PyTorch ไปรันบนชิป Trainium ของตัวเอง Body Amazon มีชิปเทรนปัญญาประดิษฐ์ AWS Trainium ของตัวเอง มานานพอสมควร แต่ปัญหาของชิปรุ่นใหม่ๆ คือซอฟต์แวร์ของวงการ AI มักไม่ได้ปรับแต่งให้ทำงานได้เต็มประสิทธิภาพบนชิปเหล่านี้ ซอฟต์แวร์ยอดนิยมของวงการนี้คือ PyTorch ที่ประสบปัญหาข้างต้น ล่าสุด Amazon จึงแก้ปัญหานี้ด้วยการออก TorchNeuron เป็นเลเยอร์ตรงกลางในการนำโค้ด PyTorch มารันบน Trainium ได้มีประสิทธิภาพมากขึ้น โดยที่นักพัฒนาไม่ต้องแก้โค้ดเดิมของตัวเองเลย ตัว TorchNeuron มีสถานะเป็น backend ของ PyTorch ที่รับโค้ดจาก PyTorch คอมไพล์ให้รันบน Trainium ได้แบบเนทีฟ (ชื่อ Neuron คือชุดคอมไพเลอร์ของ Amazon บน Trainium) ตอนนี้ TorchNeuron เปิดเป็นโอเพนซอร์สบน GitHub และ Amazon ก็บอกว่ากำลังเข้าไปช่วยโครงการ PyTorch ถอดโค้ดที่ผูกกับชิปค่ายใดค่ายหนึ่งแบบเจาะจง (คงไม่ต้องบอกชื่อว่าค่ายไหน) เพื่อให้ PyTorch มีความเป็นกลางทางฮาร์ดแวร์ และเป็นประโยชน์กับวงการนักพัฒนาในภาพรวมด้วย ที่มา - Amazon mk Tue, 20/10/2026 - 21:52",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 19 Oct 2026 14:43:20 +0000",
+    "published": "Tue, 20 Oct 2026 14:52:45 +0000",
     "matched_keywords": [
-      "วิธี"
+      "แก้ปัญหา"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858359+00:00"
+    "researched_at": "2026-10-21T07:39:03.258645+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -191,7 +143,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857194+00:00"
+    "researched_at": "2026-10-21T07:39:03.257321+00:00"
   },
   {
     "title": "พนักงานโรงงาน Micron ในไต้หวันเริ่มหยุดงานประท้วงวันแรก หลังตกลงโบนัสกับบริษัทไม่ได้",
@@ -205,49 +157,21 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.857954+00:00"
+    "researched_at": "2026-10-21T07:39:03.258867+00:00"
   },
   {
-    "title": "จีนร่างข้อบังคับ ห้ามส่งออก AI ความสามารถสูง",
-    "url": "https://www.blognone.com/node/151958",
-    "summary": "จีนร่างข้อบังคับ ห้ามส่งออก AI ความสามารถสูง Body กระทรวงพาณิชย์และกระทรวงวิทยาศาสตร์และเทคโนโลยีออกร่างประกาศร่วม เตรียมจำกัดการส่งออกเทคโนโลยีขั้นสูงหลายรายการ โดยเทคโนโลยีปัญญาประดิษฐ์กลายเป็นเทคโนโลยีกลุ่มใหญ่ที่ถูกสั่งห้าม หรือจำกัดการส่งออกในประกาศนี้ ตัวอย่างรายการที่ถูกสั่งห้ามส่งออก เช่น AI โจมตีระบบ: AI ที่เขียนโค้ดสำหรับโจมตีระบบโดยเฉพาะ มีความสามารถในการเจาะระบบได้มากกว่า 60% ในระบบที่มีการป้องกันหลายชั้น, 85% ในระบบที่มีการป้องกันด้วยซอฟต์แวร์ยอดนิยม ตลอดจนระบบที่มีความสามารถเจาะทะลุ sandbox, หลบเลี่ยงการตรวจจับ AI ที่ฝึกด้วยข้อมูลภายในของจีน AI ทางการทหารหรือความมั่นคง ตัวอย่างรายการที่จำกัดการส่งออก เช่น AI โจมตีระบบที่มีความสามารถรองลงมา: ทำคะแนนเจาะระบบได้เกิน 75% สามารถเชื่อมโยงช่องโหว่เข้าด้วยกัน, หรือสามารถค้นพบช่องโหว่ด้วยตนเอง AI จดจำเสียงความแม่นยำสูง: จับเสียงได้ถูกต้อง 99.1% ขึ้นไป และมีอัตราการผิดพลาดน้อยกว่า 0.01% AI ความสามารถสูง: ใช้ข้อมูลฝึกที่สำคัญสำหรับจีนเอง, มีขนาดใหญ่เกิน 2T, และใช้พลังฝึกเกิน 10 26 FLOPS นอกจากนี้ยังมีเทคโนโลยีอื่นๆ เช่น เทคโนโลยีผลิ",
+    "title": "eMudhra ผู้ออกใบรับรองเข้ารหัสทำกุญแจลับรั่วไหล เบราว์เซอร์และระบบปฏิบัติการทุกรายเตรียมถอดออก",
+    "url": "https://www.blognone.com/node/151969",
+    "summary": "eMudhra ผู้ออกใบรับรองเข้ารหัสทำกุญแจลับรั่วไหล เบราว์เซอร์และระบบปฏิบัติการทุกรายเตรียมถอดออก Body eMudhra ผู้ให้บริการรับรองตัวตนดิจิทัล (certification authority - CA) ทำกุญแจลับรั่วไหล โดยมีผู้รายงานด้วยการส่งข้อความที่ถูกเซ็นโดยกุญแจลับของ eMudhra intermediate CA ได้สำเร็จ ตอนนี้ยังไม่ทราบสาเหตุที่แน่ชัด แต่ Apple, Canonical, Google, Microsoft, Mozilla ล้วนถอดใบรับรองเหล่านี้ออกจาก root store เรียบร้อยแล้ว ทำให้เว็บต่างๆ ที่ใช้ใบรับรองของ eMudhra เชื่อมต่อไม่ได้อีกต่อไป ทีมงาน Chrome Root Program รายงานว่ายังไม่พบใบรับรองปลอมใน Certificate Transparency (CT) แต่อย่างใด ทำให้เป็นไปได้ว่ายังไม่มีการนำกุญแจลับไปใช้งาน หรือแม้จะมีการออกใบรับรองปลอมไปแล้วก็ไม่สามารถใช้งานกับโปรแกรมที่ตรวจสอบ CT ก่อนเชื่อมต่อ เช่น เบราว์เซอร์ต่างๆ ได้ หลังจากนี้ทาง Chrome จะถอด CA ของ eMudhra ออกทั้งหมด eMudhra เป็น CA ภายใต้การกำกับดูแลของรัฐบาลอินเดีย เดิมเป็น CA ที่ได้รับการ cross-sign จาก Sectigo ที่ถูกถอดออกไปก่อนแล้ว ที่มา - dev-security-policy lew Wed, 21/10/2026 - 01:00",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 19 Oct 2026 07:00:37 +0000",
+    "published": "Tue, 20 Oct 2026 18:00:14 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858432+00:00"
-  },
-  {
-    "title": "[ลือ] iPhone Duo เดิมจะขายช่วงแรกเพียง 2 ประเทศ แต่ Apple เลือกขายพร้อมกันกว่า 70 ประเทศ สินค้าจึงหมดอย่างรวดเร็ว",
-    "url": "https://www.blognone.com/node/151955",
-    "summary": "[ลือ] iPhone Duo เดิมจะขายช่วงแรกเพียง 2 ประเทศ แต่ Apple เลือกขายพร้อมกันกว่า 70 ประเทศ สินค้าจึงหมดอย่างรวดเร็ว Body ข่าวสารแอปเปิลประจำสัปดาห์นี้ในจดหมายข่าว Power On ของ Mark Gurman แห่ง Bloomberg คนเดิม คราวนี้เขาพูดถึง iPhone Duo ที่เพิ่งเปิดให้สั่งจองสินค้า ซึ่งในเวลาไม่นาน สินค้าก็ระบุว่าเลื่อนส่งไปถึงปีหน้า Gurman บอกว่า iPhone Duo มีปัญหาซัพพลายเชนในการผลิตค่อนข้างมาก เขาบอกว่าจริง ๆ แอปเปิลควรเลื่อนเปิดจอง iPhone Duo ออกไปอีก เพื่อให้มีสินค้าในสต็อกมากพอความต้องการ แต่แอปเปิลก็เลือกเดินหน้าตามที่ประกาศไว้คือ 16 ตุลาคม เพื่อให้สินค้ามีขายบันทึกเป็นรายได้ภายในไตรมาสปัจจุบัน แม้จะทำให้ลูกค้าจำนวนมากผิดหวังที่ไม่ได้ของภายในปีนี้ เขาบอกว่าแผนงานเดิมในตอนแรก แอปเปิลจะขาย iPhone Duo เฉพาะในสหรัฐอเมริกาและจีน สองประเทศก่อนเท่านั้น แล้วค่อยเพิ่มประเทศ แต่แอปเปิลกลับเลือกเปิดจองทันทีมากกว่า 70 ประเทศ ทำให้ภายใน 30 นาที สินค้าที่มีในสต็อกหมด และต้องเลื่อนส่งมอบออกไปเป็นมกราคมปีหน้า ข่าวสารอื่นเกี่ยวกับ หน้าจอสมาร์ทโฮม HomeView โดยเขายืนยันข้อมูลเดิมว่าแอปเปิลจะออกรุ่นสเป็กสูง หน้าจอ 9 ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 19 Oct 2026 00:47:47 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858562+00:00"
-  },
-  {
-    "title": "YouTrip ล่มในสิงคโปร์และไทย ล็อกอินได้แต่จ่ายเงินไม่ได้",
-    "url": "https://www.blognone.com/node/151956",
-    "summary": "YouTrip ล่มในสิงคโปร์และไทย ล็อกอินได้แต่จ่ายเงินไม่ได้ Body YouTrip บริการบัตรเดบิตแบบหลายสกุลเงินมีปัญหาในสิงคโปร์และไทย ส่งผลให้ไม่สามารถเปิดบัตร, เติมเงิน, ตลอดจนการถอนเงินผ่านตู้เอทีเอ็มล่ม ตอนนี้บริการที่ใช้งานได้เหลือเพียงการล็อกอินเว็บ, การสมัครสมาชิกใหม่, และการดูรายละเอียดบัตรเท่านั้น สำหรับในสิงคโปร์บริการ eSIM ก็ยังทำงานได้อยู่ YouTrip ให้บริการใน 4 ประเทศ ได้แก่ ไทย, สิงคโปร์, ออสเตรเลีย, และมาเลเซีย ตอนนี้มีเพียงมาเลเซียเท่านั้นที่ใช้งานได้ต่อเนื่อง ที่มา - status.you.co lew Mon, 19/10/2026 - 12:11",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 19 Oct 2026 05:11:33 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858486+00:00"
+    "researched_at": "2026-10-21T07:39:03.258481+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -261,7 +185,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856958+00:00"
+    "researched_at": "2026-10-21T07:39:03.257075+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -275,7 +199,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857477+00:00"
+    "researched_at": "2026-10-21T07:39:03.257626+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -289,7 +213,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857293+00:00"
+    "researched_at": "2026-10-21T07:39:03.257424+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -303,7 +227,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856507+00:00"
+    "researched_at": "2026-10-21T07:39:03.256555+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -317,7 +241,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856606+00:00"
+    "researched_at": "2026-10-21T07:39:03.256657+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -331,7 +255,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856790+00:00"
+    "researched_at": "2026-10-21T07:39:03.256852+00:00"
+  },
+  {
+    "title": "Spotify ขยายธุรกิจมาขายซอฟต์แวร์ให้บริษัทอื่นใช้ ภายใต้ชื่อ Spotify Technology",
+    "url": "https://www.blognone.com/node/151968",
+    "summary": "Spotify ขยายธุรกิจมาขายซอฟต์แวร์ให้บริษัทอื่นใช้ ภายใต้ชื่อ Spotify Technology Body Spotify เปิดตัวแบรนด์ลูกชื่อ Spotify Technology ไม่ได้ทำธุรกิจเพลงสตรีมมิ่ง แต่เป็นธุรกิจใหม่เลยคือขายซอฟต์แวร์ของตัวเองให้องค์กรภายนอก ทีมซอฟต์แวร์ของ Spotify สร้างเครื่องมือด้านการพัฒนาซอฟต์แวร์ใช้งานเองหลายตัว เช่น Confidence (product development), Portal (agent management จัดการ context ขององค์กร), Xirp (สลับการรัน agent หลายตัวได้หน้าจอเดียว ใช้ context เดิม) และที่ผ่านมาก็ขายไลเซนส์เครื่องมือเหล่านี้ให้กับลูกค้าองค์กรบางแห่งอยู่แล้ว ด้วยจุดขายว่ามีคุณภาพสูงในระดับ \"วิศวกร Spotify ใช้งานจริงทุกวัน\" (Proven at Spotify, first) Spotify จึงถือโอกาสจัดระเบียบซอฟต์แวร์ที่ขายให้คนนอก มาอยู่ภายใต้แบรนด์เดียวคือ Spotify Technology และจัดระเบียบซอฟต์แวร์ที่ขายให้ทำงานร่วมกันได้ หน้าตาแบบเดียวกัน มีประสบการณ์ใช้งานราบรื่น แถมเป็นการเตรียมความพร้อมสำหรับการขายซอฟต์แวร์ตัวอื่นๆ ในอนาคต ที่มา - Spotify mk Tue, 20/10/2026 - 22:08",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 20 Oct 2026 15:08:38 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-21T07:39:03.258561+00:00"
+  },
+  {
+    "title": "SpaceX ไตรมาส 3/2026 รายได้รวมโต 161% กำไรสุทธิ 4.4 พันล้านดอลลาร์",
+    "url": "https://www.blognone.com/node/151972",
+    "summary": "SpaceX ไตรมาส 3/2026 รายได้รวมโต 161% กำไรสุทธิ 4.4 พันล้านดอลลาร์ Body SpaceX รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 รายได้รวมเพิ่มขึ้น 161% จากช่วงเดียวกันในปีก่อนเป็น 14,575 ล้านดอลลาร์ มีกำไรจากการดำเนินงาน 2,791 ล้านดอลลาร์ ส่วนบรรทัดสุดท้ายกำไรสุทธิอยู่ที่ 4,404 ล้านดอลลาร์ เนื่องจากมีผลตอบแทนดอกเบี้ยและผลประโยชน์ทางภาษีเพิ่มเติมเข้ามา ตัวเลขแยกตามกลุ่มธุรกิจของ SpaceX เป็นดังนี้ Space รายได้ 1,767 ล้านดอลลาร์ มีการปล่อยจรวดนับตั้งแต่ต้นปีรวม 113 ครั้ง Connectivity รายได้ 5,248 ล้านดอลลาร์ มีกำไรเฉพาะกลุ่ม 2,367 ล้านดอลลาร์ โดยจำนวนลูกค้า Starlink เพิ่มเป็น 13.6 ล้านราย S I มีรายได้เพิ่มเกือบสามเท่าเป็น 7,560 ล้านดอลลาร์ กำไรเฉพาะกลุ่ม 431 ล้านดอลลาร์ มีเงินลงทุนเฉพาะกลุ่มนี้ในไตรมาสอีก 16,444 ล้านดอลลาร์ SpaceX บอกว่ากำลังประมวลผลศูนย์ข้อมูลรวมที่มีตอนนี้เพิ่มเป็น 1.7 กิกะวัตต์ รายได้ธุรกิจ SI ที่เติบโตสูงมาจากการรวมกิจการ Cursor และรายได้จากการให้เช่าคลาวด์ที่สูงขึ้น ที่มา: SpaceX (pdf) และ The New York Times arjin Wed, 21/10/2026 - 08:24",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 21 Oct 2026 01:24:24 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-21T07:39:03.258330+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -345,7 +297,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857034+00:00"
+    "researched_at": "2026-10-21T07:39:03.257162+00:00"
+  },
+  {
+    "title": "PHP ประกาศเตรียมออกแพตช์ความปลอดภัยระดับวิกฤตสามทุ่มคืนนี้",
+    "url": "https://www.blognone.com/node/151971",
+    "summary": "PHP ประกาศเตรียมออกแพตช์ความปลอดภัยระดับวิกฤตสามทุ่มคืนนี้ Body โครงการ PHP ประกาศเตรียมปล่อยแพตช์ความปลอดภัย แก้ไขช่องโหว่ระดับวิกฤตสองรายการ ในเวลา 14.00 UTC หรือสามทุ่มตรงตามเวลาประเทศไทย ตอนนี้ยังไม่มีการเปิดเผยรายละเอียดช่องโหว่ แต่ทาง PHP ระบุเพียงว่าช่องโหว่มีคะแนนความร้ายแรงตาม CVSS v4.0 อยู่ที่ 9.2 คะแนน โดยก่อนหน้านี้ มีข่าวลือ ว่าเป็นช่องโหว่รันโค้ดระยะไกลที่กระทบเป็นวงกว้าง มีผลตั้งแต่ PHP 5 ขึ้นมาจนถึงเวอร์ชันล่าสุด แม้ว่าจะประกาศล่วงหน้าไว้หนึ่งวัน แต่ทาง PHP สงวนสิทธิ์ที่จะปล่อยแพตช์ออกมาก่อนหากพบว่ามีการโจมตีหรือมีข่าวรั่ว ที่มา - PHP lew Wed, 21/10/2026 - 07:42",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 21 Oct 2026 00:42:46 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-21T07:39:03.258396+00:00"
+  },
+  {
+    "title": "Netflix ไตรมาส 3/2026 รายได้ยังเติบโต ยืนยัน Engagement บนแพลตฟอร์มยังแข็งแกร่ง",
+    "url": "https://www.blognone.com/node/151970",
+    "summary": "Netflix ไตรมาส 3/2026 รายได้ยังเติบโต ยืนยัน Engagement บนแพลตฟอร์มยังแข็งแกร่ง Body Netflix รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 รายได้รวมเพิ่มขึ้น 11.8% เทียบกับไตรมาสเดียวกันในปีก่อนเป็น 12,874 ล้านดอลลาร์ กำไรสุทธิเพิ่มขึ้นเป็น 3,664 ล้านดอลลาร์ และมีกระแสเงินสดอิสระ 2,884 ล้านดอลลาร์ Netflix บอกว่าบริษัทยังคงโฟกัสที่ 3 หัวข้อหลักคือ เพิ่มคุณค่าความบันเทิง, นำเทคโนโลยีมาปรับปรุงทุกส่วน และขยายไปสู่ธุรกิจใหม่ ซึ่งไตรมาสที่ผ่านมาก็ทำได้ดีแต่ยังมีพื้นที่ให้ทำเพิ่มขึ้นได้อีก บริษัทยังบอกว่านักลงทุนอาจกังวลเรื่องชั่วโมงการรับชม ที่การเติบโตอาจไม่สูงหรือลดลง ซึ่ง Netflix ก็ไม่ได้ให้ข้อมูลตัวเลขนี้ แต่บอกว่าชั่วโมงรับชมนั้นสอดคล้องกับการปรับขึ้นค่าสมาชิก และตัวเลขเป็นไปตามที่บริษัทคาดการณ์ไว้ โดยพิจารณาทั้งปริมาณ คุณภาพเนื้อหา รูปแบบการรับชม ซึ่งทั้งหมดจะดีขึ้นมากกว่านี้ ถ้าโฟกัสที่ 3 หัวข้อหลักข้างต้น ส่วนรายได้จากโฆษณา Netflix ประเมินไว้ที่ 2.7 พันล้านดอลลาร์ สำหรับปี 2026 น้อยกว่าที่บริษัทคาดการณ์ไว้เล็กน้อย แต่ก็มองว่าการเติบโตทำได้ดีเมื่อเทียบกับคู่แข่งในอุตสาหกรรม ที่มา: Netflix ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 21 Oct 2026 01:25:00 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-21T07:39:03.258244+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -359,7 +339,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857642+00:00"
+    "researched_at": "2026-10-21T07:39:03.257805+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -373,7 +353,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856867+00:00"
+    "researched_at": "2026-10-21T07:39:03.256934+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -387,7 +367,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857807+00:00"
+    "researched_at": "2026-10-21T07:39:03.257996+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -401,21 +381,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.856195+00:00"
-  },
-  {
-    "title": "Google Drive เปิดไฟล์ PDF แบบเข้ารหัสในตัว Drive โดยตรงได้แล้ว",
-    "url": "https://www.blognone.com/node/151954",
-    "summary": "Google Drive เปิดไฟล์ PDF แบบเข้ารหัสในตัว Drive โดยตรงได้แล้ว Body Google Drive เพิ่มฟีเจอร์แสดงผลไฟล์ PDF ที่เข้ารหัส หรือเรียกว่า Client-side encryption (CSE) โดยตรงจากตัว PDF Viewer ของ Drive เลย โดยไม่ต้องดาวน์โหลดไฟล์มาไว้ที่เครื่องก่อนเปิดใส่รหัส ฟีเจอร์นี้สามารถใช้ได้กับทั้งไฟล์ PDF และไฟล์รูปภาพที่เข้ารหัสไว้ ไฟล์ที่เข้ารหัสจะมีไอคอนรูปกุญแจตรงมุมซ้ายบน แต่ยังใช้ได้กับบัญชี Google Workspace แบบเสียเงินเท่านั้น ที่มา - Google Workspace mk Mon, 19/10/2026 - 07:31",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 19 Oct 2026 00:31:15 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-20T07:33:09.858618+00:00"
+    "researched_at": "2026-10-21T07:39:03.256232+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -429,7 +395,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857554+00:00"
+    "researched_at": "2026-10-21T07:39:03.257708+00:00"
+  },
+  {
+    "title": "Apple ยืนยันการเปิดตัวสินค้าใหม่ 28 ตุลาคมนี้ ธีมงาน \"Pro and tell\"",
+    "url": "https://www.blognone.com/node/151966",
+    "summary": "Apple ยืนยันการเปิดตัวสินค้าใหม่ 28 ตุลาคมนี้ ธีมงาน \"Pro and tell\" Body แอปเปิลได้เชิญสื่อและเปิดเผยอย่างเป็นทางการเกี่ยวกับ การเปิดตัวสินค้าใหม่ในสัปดาห์หน้า แล้ว โดยกำหนดการตามเวลาในไทยคือเที่ยงคืน ของวันพุธที่ 28 ตุลาคมนี้ (เข้าสู่วันที่ 29) รูปโลโก้แอปเปิลที่ใช้ในบัตรเชิญเป็นแบบสว่างในเงามืด พร้อมคำโปรยว่า \"Pro and tell\" ซึ่งน่าจะหมายถึง MacBook Pro ที่เป็นสินค้าหลักของการเปิดตัวรอบนี้ ตามข่าวก่อนหน้านี้ สินค้าที่แอปเปิลน่าจะเปิดตัวได้แก่ MacBook Pro จอ OLED แบบทัชสกรีน, MacBook Pro 14 นิ้ว อัปเกรดเป็นชิป M6, iMac ชิป M6 และ iPad mini รุ่นใหม่จอ OLED ที่มา: 9to5Mac arjin Tue, 20/10/2026 - 19:16",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 20 Oct 2026 12:16:28 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-21T07:39:03.258716+00:00"
+  },
+  {
+    "title": "Apple ซื้อกิจการ Samplab ผู้พัฒนาแอปแก้ไขไฟล์เสียงด้วย AI",
+    "url": "https://www.blognone.com/node/151965",
+    "summary": "Apple ซื้อกิจการ Samplab ผู้พัฒนาแอปแก้ไขไฟล์เสียงด้วย AI Body เว็บไซต์ของคณะกรรมาธิการสหภาพยุโรป (EC - European Commission) อัปเดตข้อมูลตามกฎหมายดิจิทัล DMA ที่บริษัทขนาดใหญ่ต้องรายงานความเคลื่อนไหวที่เกี่ยวกับสหภาพยุโรป ซึ่งพบว่าแอปเปิลได้ซื้อกิจการ Samplab ไปเมื่อเดือนมิถุนายนที่ผ่านมา โดยไม่ได้เปิดเผยมูลค่าที่ซื้อ แอปเปิลบอกว่าเป็นการซื้อสินทรัพย์บางรายการและโอนย้ายพนักงานบางส่วนมาทำงานที่แอปเปิล Samplab เป็นสตาร์ทอัปพัฒนาแอปเกี่ยวกับไฟล์เสียงด้วย AI มีให้ใช้งานทั้งบนเดสก์ท็อปและปลั๊กอิน มีฟีเจอร์ทั้ง การแปลงไฟล์เสียงเป็น MIDI, การตรวจจับแก้ไขคอร์ด, การแยกส่วนประกอบของเพลง, การแก้ไขโน้ตเพลงแบบ Polyphonic ที่ไม่กระทบกับคุณภาพเพลงโดยรวม จึงคาดว่าแอปเปิลจะนำความสามารถเหล่านี้มาใช้กับซอฟต์แวร์เสียงอย่าง Logic Pro หรือ GarageBand Samplab ได้แจ้งปิดบริการไปตั้งแต่เดือนที่แล้ว ที่มา: MacRumors arjin Tue, 20/10/2026 - 19:13",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 20 Oct 2026 12:13:55 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-21T07:39:03.258790+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -443,6 +437,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-20T07:33:09.857733+00:00"
+    "researched_at": "2026-10-21T07:39:03.257903+00:00"
   }
 ]
