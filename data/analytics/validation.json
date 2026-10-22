@@ -1,26 +1,26 @@
 [
   {
+    "path": "data/content/drafts/football-manager-27-เปิดให้เล่นฟรี-5-วันก่อนวางขาย-หวังกู้ศรัทธาแฟนๆ.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/ไม่ยืนยัน-ข้อมูลไฟลิ่งระบุ-anthropic-บันทึกขาดทุนทางบัญชีครึ่งปีแรก-8-หมื่นล้านด.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/ลือ-เครื่องพกพา-xbox-วางขายปลายปี-2027-คอนโซลขายปลายปี-2028.json",
+    "passed": true,
+    "errors": []
+  },
+  {
     "path": "data/content/drafts/elon-เผย-ตั้งคณะทำงานศึกษาการควบรวม-tesla-กับ-spacex-เข้าด้วยกัน.json",
     "passed": true,
     "errors": []
   },
   {
-    "path": "data/content/drafts/amazon-ออก-torchneuron-คอมไพล์โค้ด-pytorch-ไปรันบนชิป-trainium-ของตัวเอง.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/พนักงานโรงงาน-micron-ในไต้หวันเริ่มหยุดงานประท้วงวันแรก-หลังตกลงโบนัสกับบริษัทไม.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/emudhra-ผู้ออกใบรับรองเข้ารหัสทำกุญแจลับรั่วไหล-เบราว์เซอร์และระบบปฏิบัติการทุกร.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/spotify-ขยายธุรกิจมาขายซอฟต์แวร์ให้บริษัทอื่นใช้-ภายใต้ชื่อ-spotify-technology.json",
+    "path": "data/content/drafts/ea-ปรับโครงสร้างองค์กร-เน้นเกมใหญ่มากขึ้น-ปิดสตูดิโอ-bioware-ยกเลิก-mass-effect.json",
     "passed": true,
     "errors": []
   }
