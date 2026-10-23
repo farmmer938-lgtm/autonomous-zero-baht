@@ -1,0 +1,29 @@
+{
+  "id": "anthropic-เปิดตัว-claude-duet-ผู้ช่วยส่วนตัวทำงานตลอดเวลา-รันใน-vm-แยก",
+  "created_at": "2026-10-23T07:31:26.447550+00:00",
+  "source_title": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก",
+  "source_url": "https://www.blognone.com/node/151989",
+  "source_feed": "https://www.blognone.com/atom.xml",
+  "research_quality": "public_feed",
+  "freshness": "fresh",
+  "research_score": 3,
+  "formats": {
+    "seo_article_outline": {
+      "title": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก",
+      "sections": [
+        "ปัญหาหรือคำถามที่ผู้อ่านต้องการคำตอบ",
+        "ข้อมูลพื้นฐานและข้อเท็จจริงที่ตรวจสอบได้",
+        "ทางเลือกหรือขั้นตอนที่ผู้อ่านนำไปใช้ได้",
+        "ข้อจำกัดและสิ่งที่ควรตรวจสอบเพิ่มเติม",
+        "สรุปและขั้นตอนถัดไป"
+      ],
+      "source_summary_for_editor": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก Body Anthropic บุกเข้าตลาด personal agent ด้วยบริการใหม่ชื่อว่า Duet ลักษณะเดียวกับ Meta Muse และ OpenAI Dots ที่รันอยู่บนคลาวด์ (Duet แต่ละตัวมี VM แยกของตัวเอง มีเบราว์เซอร์ของตัวเองเหมือนกัน) Anthropic เรียก Duet ว่าเป็น proactive agent จะเข้ามาคุยกับเราเมื่อมันคิดว่าจำเป็นต้องได้รับความสนใจจากเรา และทำงานให้ตามที่สั่งค้างไว้ เบื้องหลังของมันเป็นโมเดล Claude Opus 5.5 และใช้ context จากบริการ Claude ตัวหลักเข้ามาช่วยเสริม Duet จะมีแอพแยกของตัวเองบน iOS และ Android, บนพีซีใช้ผ่านเบราว์เซอร์ ตอนนี้ยังมีสถานะเป็น research preview ใช้ได้เฉพาะคนที่จ่ายแพ็กเกจ Pro/Max ในสหรัฐ โดยคิดโควต้ารวมกับ Claude ปกติ ที่มา - Claude mk Fri, 23/10/2026 - 07:31",
+      "source_url": "https://www.blognone.com/node/151989"
+    },
+    "facebook_post": "กำลังรวบรวมข้อมูลเรื่อง: Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก\n\nก่อนตัดสินใจ ควรตรวจสอบแหล่งข้อมูลและเปรียบเทียบทางเลือกให้เหมาะกับความต้องการของตนเอง\n\nแหล่งข้อมูลสำหรับตรวจสอบ: https://www.blognone.com/node/151989",
+    "short_video_script": "Hook: คุณกำลังหาข้อมูลเรื่อง Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก อยู่หรือไม่?\n\nเนื้อหา: เริ่มจากตรวจสอบข้อมูลต้นทาง เปรียบเทียบข้อเท็จจริงและข้อจำกัด อย่าตัดสินใจจากพาดหัวเพียงอย่างเดียว\n\nCTA: อ่านข้อมูลต้นทางและตรวจสอบรายละเอียดเพิ่มเติมได้ที่ https://www.blognone.com/node/151989",
+    "affiliate_disclosure": "Disclosure: หากมีลิงก์ Affiliate ในฉบับเผยแพร่ ผู้จัดทำอาจได้รับค่าคอมมิชชันโดยไม่มีค่าใช้จ่ายเพิ่มสำหรับผู้ซื้อ"
+  },
+  "status": "draft_requires_human_review",
+  "first_hand_experience_claimed": false
+}

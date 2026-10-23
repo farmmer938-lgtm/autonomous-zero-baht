@@ -15,24 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432735+00:00"
+    "researched_at": "2026-10-23T07:31:26.441960+00:00"
   },
   {
-    "title": "Football Manager 27 เปิดให้เล่นฟรี 5 วันก่อนวางขาย หวังกู้ศรัทธาแฟนๆ",
-    "url": "https://www.blognone.com/node/151977",
-    "summary": "Football Manager 27 เปิดให้เล่นฟรี 5 วันก่อนวางขาย หวังกู้ศรัทธาแฟนๆ Body เกม Football Manager เปิดให้เล่นเกมภาคใหม่ล่าสุด Football Manager 27 ฟรีเป็นเวลา 5 วัน ระหว่างวันที่ 29 ตุลาคม ถึง 3 พฤศจิกายน 2026 สตูดิโอ Sports Interactive ผู้สร้างเกม FM27 เลือกใช้คำว่า Launch Preview คือเป็นการเปิดให้ลองเล่นฟรีก่อนเกมวางขายจริง 10 พฤศจิกายน (full launch) และเซฟเกมสามารถนำไปใช้ต่อกับเกมเวอร์ชันขายจริงได้ด้วย เกมซีรีส์ Football Manager ประสบปัญหาอย่างมากในช่วงหลัง จาก การยกเลิกขาย FM25 ที่เปลี่ยนมาใช้เอนจิน Unity ส่วนภาคถัดมา FM26 ก็คุณภาพไม่สมบูรณ์ เต็มไปด้วยบั๊กมากมาย คะแนนรีวิวใน Steam เป็น Mostly Negative ก็ต้องรอดูกันว่าภาค FM27 จะแก้ตัวได้สำเร็จหรือไม่ การเปิดให้เล่นฟรีครั้งนี้ก็คงหวังเรียกศรัทธาของแฟนๆ กลับคืน ให้ลองกลับมาเล่นกันก่อนตัดสินใจซื้อนั่นเอง ที่มา - Football Manager Play #FM27 for free 🤩 From 29th October to 3rd November, experience five free days of Football Manager 27 across Steam, Epic, Microsoft Store, Xbox Game Pass and PC Game Pass. Wishlist now to be ready for our Laun",
+    "title": "Epic เขียนระบบต้านโกง Easy Anti-Cheat บนลินุกซ์ใหม่ แกร่งกว่าเดิม, เตรียมนำ Fortnite ลงลินุกซ์",
+    "url": "https://www.blognone.com/node/151995",
+    "summary": "Epic เขียนระบบต้านโกง Easy Anti-Cheat บนลินุกซ์ใหม่ แกร่งกว่าเดิม, เตรียมนำ Fortnite ลงลินุกซ์ Body Epic Games เล่าว่าได้เขียนระบบต้านโกง Easy Anti-Cheat (EAC) บนลินุกซ์ใหม่ นับเป็น v2 ที่แข็งแกร่งกว่าเดิม เพื่อเตรียมความพร้อมสู่ Fortnite เวอร์ชันลินุกซ์ ระบบต้านโกง Easy Anti-Cheat (EAC) มีบนลินุกซ์มาตั้งแต่ปี 2014 แต่ยังมีข้อจำกัดหลายอย่าง เพราะการป้องกันไม่แข็งแรงเท่ากับฝั่ง Windows ด้วยเหตุผลว่าลินุกซ์มีข้อจำกัดทาง OS ไม่เอื้อต่อการแยกส่วนข้อมูล (data isolation) เท่ากับ Windows Epic บอกว่าเป้าหมายสูงสุดของระบบต้านโกงเกม คือ OS ต้องหาวิธี (1) ป้องกันไม่ให้ไฟล์เกมโดนปรับเปลี่ยนแก้ไขโดยคนโกง (tampered) ในขณะเดียวกันต้อง (2) การันตีว่าระบบต้านโกงและบริษัทเกมจะเข้าไม่ถึงข้อมูลอื่นของเจ้าของเครื่อง ในระหว่างที่ลินุกซ์ยังไม่มีฟีเจอร์เหล่านี้ทัดเทียมกับ Windows ในเร็ววัน ทาง Epic จึงแก้ปัญหาระยะสั้นด้วยการเขียน EAC Linux v2 ใหม่โดยใช้ฟีเจอร์ของลินุกซ์เท่าที่มีอยู่ ผลคือ EAC Linux v2 ป้องกันการโกงได้เข้มแข็งขึ้น แต่ก็ต้องแลกมาด้วยเครื่องที่เปิดใช้งานต้องมีฟีเจอร์ทางฮาร์ดแวร์และซอฟต์แวร์ตามที",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 14:03:22 +0000",
+    "published": "Fri, 23 Oct 2026 05:11:47 +0000",
     "matched_keywords": [
-      "review",
-      "รีวิว"
+      "แก้ปัญหา",
+      "วิธี"
     ],
     "keyword_score": 2,
     "intent_score": 4,
     "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.434042+00:00"
+    "researched_at": "2026-10-23T07:31:26.443432+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,30 +48,30 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433703+00:00"
+    "researched_at": "2026-10-23T07:31:26.443336+00:00"
   },
   {
-    "title": "[ไม่ยืนยัน] ข้อมูลไฟลิ่งระบุ Anthropic บันทึกขาดทุนทางบัญชีครึ่งปีแรก 8 หมื่นล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151976",
-    "summary": "[ไม่ยืนยัน] ข้อมูลไฟลิ่งระบุ Anthropic บันทึกขาดทุนทางบัญชีครึ่งปีแรก 8 หมื่นล้านดอลลาร์ Body The Wall Street Journal อ้างข้อมูลเอกสารไฟลิ่ง S-1 ฉบับร่าง ของ Anthropic ที่ใช้ประกอบการไอพีโอเข้าตลาดหุ้น ซึ่งยังไม่ได้เปิดเผยต่อสาธารณะ มีข้อมูลใหม่น่าสนใจหลายอย่างดังนี้ ครึ่งปีแรกของปีนี้ 2026 คาดว่าขาดทุนมากกว่า 8 หมื่นล้านดอลลาร์ เป็นผลจากการปรับวิธีบันทึกรายรับ-รายจ่ายทางบัญชี รายได้ที่บันทึกครึ่งปีนี้อยู่ที่ 1.63 หมื่นล้านดอลลาร์ และ 1 ใน 5 ของรายได้ มาจากลูกค้ารายใหญ่เพียงสองราย ค่าใช้จ่ายทรัพยากรประมวลผลช่วงครึ่งปีประมาณ 9 พันล้านดอลลาร์ ในเอกสารยังพูดถึงความต้องการทรัพยากรประมวลผลว่ายังมีอีกมาก คาดว่าต้องใช้เงินถึง 7.5 แสนล้านดอลลาร์ ภายใน 7-10 ปีข้างหน้า ซึ่งมีทั้งการเช่าใช้งานคลาวด์จากทุกค่ายใหญ่ Google Cloud, AWS และ Microsoft ไปจนถึงการเช่าชิป NVIDIA จากผู้ให้บริการด้านศูนย์ข้อมูล AI อย่าง Nscale หรือ Lambda บริษัทยังบอกว่าหากสามารถจัดหาจีพียูจากผู้ให้บริการอื่นได้ในอนาคตก็เปิดกว้างเช่นกัน สุดท้ายเป็นความเสี่ยงของ Anthropic ที่ต้องระบุในการเอกสารไฟลิ่งด้วย บริษัทมองว่าการที่โมเ",
+    "title": "รีวิว iPhone Duo จากสื่อต่างประเทศ: วัสดุพรีเมียม, Touch ID ทำงานช้า, หลายแอปยังไม่รองรับ",
+    "url": "https://www.blognone.com/node/151988",
+    "summary": "รีวิว iPhone Duo จากสื่อต่างประเทศ: วัสดุพรีเมียม, Touch ID ทำงานช้า, หลายแอปยังไม่รองรับ Body iPhone Duo สมาร์ทโฟนหน้าจอพับรุ่นแรกของแอปเปิล เริ่มส่งมอบให้กับลูกค้าแล้วตั้งแต่วันนี้ ซึ่งก่อนหน้านี้ก็มีรีวิวจากสื่อที่ได้ทดสอบก่อนออกมาเช่นกัน ภาพรวมของรีวิวนั้นชี้ข้อจำกัดของ iPhone Duo หลายอย่างเพราะเป็นโทรศัพท์จอพับ ซึ่งอาจทำให้คนใช้ iPhone แบบเดิมพบความไม่สะดวก Marques Brownlee หรือ MKBHD ยูทูบเบอร์ที่รีวิว iPhone มายาวนาน ให้ข้อสังเกต ว่า Touch ID ระบบปลดล็อกด้วยลายนิ้วมือของ iPhone Duo มีความหน่วง (delay) เวลาปลดล็อก โดยจะค้างหน้าจอล็อกก่อนสักครู่ ผู้ใช้งานต้องวางนิ้วค้างไว้ยาวจึงเข้าหน้า Home ได้ เขามองว่าจังหวะการใช้งานนี้ต่างจาก Face ID มาก และน่าจะเป็นประเด็นใหญ่ที่ทำให้คนย้ายมา iPhone Duo ไม่ชอบ เรื่องนี้ PetaPixel บอกว่าจากการทดสอบปลดล็อกเสริมโดยใช้ Apple Watch ที่จับคู่พบว่าทำงานได้เร็วขึ้น แต่นั่นคงไม่ใช่คำแนะนำทั่วไปสำหรับการใช้งานแน่นอน PetaPixel มองว่าวัสดุและสัมผัสใช้งานดีกว่าสมาร์ทโฟนจอพับค่ายอื่นมาก โดยเฉพาะการนำแม่เหล็กมาใช้ในการพับจอ ทำให้ประสบการณ์ใช้งานออกมาดี ส่วน",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 13:33:04 +0000",
+    "published": "Fri, 23 Oct 2026 00:34:30 +0000",
     "matched_keywords": [
-      "วิธี"
+      "รีวิว"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.434107+00:00"
+    "researched_at": "2026-10-23T07:31:26.443959+00:00"
   },
   {
-    "title": "[ลือ] เครื่องพกพา Xbox วางขายปลายปี 2027, คอนโซลขายปลายปี 2028",
-    "url": "https://www.blognone.com/node/151975",
-    "summary": "[ลือ] เครื่องพกพา Xbox วางขายปลายปี 2027, คอนโซลขายปลายปี 2028 Body Fortune อ้างแหล่งข่าวใกล้ชิดทีม Xbox ระบุแผนการยกเครื่อง Xbox ของ Asha Sharma ซีอีโอคนใหม่วัย 38 ปี ดังนี้ Game Pass เวอร์ชันใหม่ ปรับแต่งได้ละเอียดขึ้น เช่น เลือกแพ็กเกจเฉพาะคอนโซล, มัลติเพลเยอร์, คลาวด์ ไม่ใช่การเหมาจ่ายแบบบุฟเฟต์ ปรับแพ็กเกจราคาเป็นหลายระดับ เครื่องเล่นเกม Xbox พกพา วางขายปลายปี 2027 เครื่องเกมคอนโซล Xbox รุ่นใหม่ วางขายปลายปี 2028 เครื่องคอนโซลรุ่นหน้าของไมโครซอฟท์มีโค้ดเนมว่า Project Helix ซึ่งก่อนหน้านี้มีข่าวลือว่ามันประกอบด้วยฮาร์ดแวร์หลายตัว (A Family of Devices) และไมโครซอฟท์เคยประกาศไว้เองว่ามันจะเล่นได้ทั้งเกมพีซีและคอนโซล Xbox ที่มา - Fortune mk Wed, 21/10/2026 - 15:54",
+    "title": "Xbox Cloud Gaming เปิดให้เช่าเวลาเล่นบนคลาวด์ โดยไม่ต้องเป็นสมาชิก Game Pass",
+    "url": "https://www.blognone.com/node/151990",
+    "summary": "Xbox Cloud Gaming เปิดให้เช่าเวลาเล่นบนคลาวด์ โดยไม่ต้องเป็นสมาชิก Game Pass Body ไมโครซอฟท์เปิดทางเลือกให้เล่น Xbox Cloud Gaming แบบเช่าชั่วโมงใช้งาน โดยไม่จำเป็นต้องจ่ายสมาชิก Game Pass เหมือนเคย ตามที่เคยประกาศไว้ ก่อนหน้านี้ Xbox Cloud Gaming ถือเป็นสิทธิประโยชน์ที่ถูกมัดรวมในแพ็กเกจ Game Pass โดยเราสามารถเล่นได้ทั้งเกมของตัวเอง และเกมที่อยู่ในสิทธิของ Game Pass ซึ่งหมุนเวียนไปเรื่อยๆ มีโควต้าชั่วโมงแบบเหมาจ่าย แต่คราวนี้ ไมโครซอฟท์ตัดเฉพาะส่วนเช่าคลาวด์เล่นเกมออกมา โดยไม่มีสิทธิการเล่นเกมใน Game Pass ติดมาด้วย เพื่อให้ราคาถูกลง 10 ชั่วโมง $3.99 25 ชั่วโมง $7.99 50 ชั่วโมง $11.99 แพ็กเกจเช่าคลาวด์ตอนนี้ยังจำกัดเฉพาะกลุ่ม Xbox Insiders และจะขยายไปยังลูกค้าทั่วไปในเดือนพฤศจิกายน ที่มา - Xbox mk Fri, 23/10/2026 - 07:46",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 08:54:53 +0000",
+    "published": "Fri, 23 Oct 2026 00:46:56 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -80,7 +80,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.434164+00:00"
+    "researched_at": "2026-10-23T07:31:26.443870+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -96,7 +96,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432416+00:00"
+    "researched_at": "2026-10-23T07:31:26.441536+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -112,7 +112,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433070+00:00"
+    "researched_at": "2026-10-23T07:31:26.442464+00:00"
+  },
+  {
+    "title": "PostgreSQL ออกบางฟีเจอร์ออกจากเวอร์ชัน 19 เพราะ LLM ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ",
+    "url": "https://www.blognone.com/node/151994",
+    "summary": "PostgreSQL ออกบางฟีเจอร์ออกจากเวอร์ชัน 19 เพราะ LLM ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ Body PostgreSQL ประกาศเลื่อนการออก PostgreSQL เวอร์ชัน 19 ที่เดิมจะออกต้นเดือนตุลาคม ไปเป็นวันที่ 19 พฤศจิกายน พร้อมเลื่อนฟีเจอร์สำคัญหลายตัวไปออกพร้อม PostgreSQL 20 เวอร์ชันหน้าแทน ด้วยเหตุผลว่าใช้โมเดล LLM ตรวจสอบคุณภาพของโค้ดแล้วพบว่าไม่ดีพอ Peter Eisentraut หัวหน้าคณะกรรมการพัฒนา PostgreSQL เขียนบล็อกเล่าว่า PostgreSQL จำเป็นต้องถอดฟีเจอร์ใหญ่ๆ 8-10 อย่างออกจากเวอร์ชัน 19 แม้ทดสอบแบบ Beta มานานพอสมควรแล้ว เหตุผลเป็นเพราะเมื่อรีวิวโค้ดด้วย LLM แล้วพบว่าคุณภาพของโค้ดยังไม่ดีพอ แถมเป็นปัญหาเชิงสถาปัตยกรรมของโค้ด (significant architectural defects) จึงไม่สามารถแก้แบบเร็วๆ ได้ในระยะเวลาที่เหลืออยู่ (โค้ดส่วนนี้เขียนด้วยมือ ไม่ได้ vibe code ด้วย) ทีมพัฒนา PostgreSQL จึงตัดสินใจ revert คือถอนฟีเจอร์เหล่านี้ออกจากเวอร์ชัน 19 เพื่อไม่ให้เกิดปัญหาตามมาในภายหลัง และเลื่อนฟีเจอร์ไปอยู่ใน PostgreSQL 20 แทน ที่มา - Peter Eisentraut via The Register mk Fri, 23/10/2026 - 10:32",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 03:32:02 +0000",
+    "matched_keywords": [
+      "รีวิว"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.443522+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -128,55 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432504+00:00"
-  },
-  {
-    "title": "Elon เผย ตั้งคณะทำงานศึกษาการควบรวม Tesla กับ SpaceX เข้าด้วยกัน",
-    "url": "https://www.blognone.com/node/151974",
-    "summary": "Elon เผย ตั้งคณะทำงานศึกษาการควบรวม Tesla กับ SpaceX เข้าด้วยกัน Body Elon Musk ตอบคำถามใน งานแถลงผลประกอบการ SpaceX ระบุว่าเขาตั้งคณะทำงานศึกษาการควบรวม Tesla และ SpaceX เข้าด้วยกัน แต่ก็ย้ำว่ายังเป็นแค่การศึกษา ยังไม่มีข้อตกลงอะไรที่เป็นทางการ มูลค่าปัจจุบันของทั้งสองบริษัทคือ Tesla ที่ 1.5 ล้านล้านดอลลาร์ และ SpaceX ที่ 2 ล้านล้านดอลลาร์ ผลจากคำพูดของ Elon ทำให้ราคาหุ้นของทั้งสองบริษัทดีดตัวขึ้นทันที อย่างไรก็ตาม หากจะควบรวมกันจริงๆ ก็จำเป็นต้องได้รับการอนุมัติจากผู้ถือหุ้นรายย่อยของทั้งสองบริษัทด้วย ซึ่ง Elon เองก็ยอมรับว่าค่อนข้างยากที่จะได้เสียงโหวตเกินครึ่ง โดยเฉพาะฝั่ง Tesla ที่มีผู้ถือหุ้นรายย่อยเยอะกว่า นักวิเคราะห์การเงินยังชี้ว่า Elon จะเป็นผู้ได้ประโยชน์สูงสุดจากการควบรวม เพราะเขาจะมีเสียงโหวตในมือเกินครึ่งทันที (ใช้หุ้นจากฝั่ง SpaceX เข้ามาชดเชยเสียงโหวตจากฝั่ง Tesla) ที่มา - BBC mk Wed, 21/10/2026 - 14:13",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 07:13:18 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.434223+00:00"
-  },
-  {
-    "title": "EA ปรับโครงสร้างองค์กร เน้นเกมใหญ่มากขึ้น, ปิดสตูดิโอ BioWare ยกเลิก Mass Effect",
-    "url": "https://www.blognone.com/node/151979",
-    "summary": "EA ปรับโครงสร้างองค์กร เน้นเกมใหญ่มากขึ้น, ปิดสตูดิโอ BioWare ยกเลิก Mass Effect Body EA ประกาศปรับโครงสร้างองค์กร หลังเปลี่ยนเจ้าของเป็นกองทุนจากซาอุดิอาระเบียเมื่อปี 2025 ประเด็นสำคัญคือการปิดสตูดิโอในตำนานอย่าง BioWare และ ยกเลิกโครงการ Mass Effect ภาค 5 ที่กำลังพัฒนาอยู่ พนักงานของ BioWare จะได้รับโอกาสให้ย้ายไปยังทีมอื่นๆ ใน EA แต่ก็จะมีบางส่วนโดนปลดออก แนวทางใหม่ของ EA มึ 3 ข้อ คือ Deepen Our Core โฟกัสแฟรนไชส์หลักที่ทำเงิน, Expand Our Reach ขยายฐานผู้เล่นจากแฟรนไชส์เหล่านี้ โดยระบุชัดเจนว่าจะเจาะตลาดเอเชียมากขึ้น, Transform Our Business ปรับวิธีการทำธุรกิจใหม่โดยเฉพาะฝั่งกีฬา ที่เน้นความสัมพันธ์กับแฟนกีฬามากขึ้น ส่วนเกมที่ EA จะเลือกโฟกัสมี 4 กลุ่มคือ เกมยิง Shooter ต่อยอดความสำเร็จของ Battlefield 6 ไปสู่ Battlefield ภาคใหม่ๆ และจะนำสตูดิโอ Respawn กับ DICE มาทำงานร่วมกันในเกมใหม่ด้วย, Apex Legends ได้ไปต่อและจะได้เงินลงทุนมากขึ้นอีก เกมแอคชั่น-ผจญภัย Action-adventure EA ยอมรับว่าตลาดนี้แข่งขันสูง มีเกมใหญ่รออยู่ในคิว 2 เกมคือ Marvel's Iron Man ของสตูดิโอ Motive และ Star Wars Je",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 23:20:03 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.433900+00:00"
-  },
-  {
-    "title": "Cloudflare ช่วยป้องกันช่องโหว่ PHP2Shell ผ่าน WAF, เปิดให้ทุกคนใช้ฟรี",
-    "url": "https://www.blognone.com/node/151981",
-    "summary": "Cloudflare ช่วยป้องกันช่องโหว่ PHP2Shell ผ่าน WAF, เปิดให้ทุกคนใช้ฟรี Body Cloudflare ประกาศช่วยป้องกัน ช่องโหว่ PHP2Shell ช่องโหว่ร้ายแรงของ PHP ที่เพิ่งค้นพบใหม่ ผ่าน web application firewall (WAF) ให้ฟรี ไม่จำเป็นต้องจ่ายเงินให้ Cloudflare ก็ได้รับความคุ้มครองนี้ Cloudflare บอกว่ารับทราบข้อมูลช่องโหว่นี้มาล่วงหน้า จึงเริ่มพัฒนามาตรการป้องกันผ่าน WAF มาตั้งแต่ต้นเดือนตุลาคม และปล่อยมาตรการนี้ผ่าน WAF ก่อนประกาศข่าวช่องโหว่เป็นเวลา 9 ชั่วโมง วิธีการป้องกันช่องโหว่นี้ผ่าน WAF ค่อนข้างซับซ้อน เพราะตัวช่องโหว่เองก็ซับซ้อน จึงไม่สามารถป้องกันด้วยวิธีเขียน rules เพื่อเช็คจาก request อย่างเดียวได้ และถึงขั้น Cloudflare ต้องพัฒนาฟีเจอร์ใหม่ของ WAF ที่ตรวจเช็คจากสัญญาณหลายๆ ทางร่วมกันขึ้นมาใหม่ Cloudflare เตือนว่าวิธีป้องกันผ่าน WAF เป็นแค่มาตรการเสริมเท่านั้น และแนะนำให้ผู้ใช้งานแพตช์ PHP โดยด่วนเพื่อการป้องกันที่ถาวรกว่า ที่มา - Cloudflare mk Thu, 22/10/2026 - 11:49",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 22 Oct 2026 04:49:42 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.433765+00:00"
+    "researched_at": "2026-10-23T07:31:26.441633+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -192,7 +160,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433280+00:00"
+    "researched_at": "2026-10-23T07:31:26.442756+00:00"
+  },
+  {
+    "title": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก",
+    "url": "https://www.blognone.com/node/151989",
+    "summary": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก Body Anthropic บุกเข้าตลาด personal agent ด้วยบริการใหม่ชื่อว่า Duet ลักษณะเดียวกับ Meta Muse และ OpenAI Dots ที่รันอยู่บนคลาวด์ (Duet แต่ละตัวมี VM แยกของตัวเอง มีเบราว์เซอร์ของตัวเองเหมือนกัน) Anthropic เรียก Duet ว่าเป็น proactive agent จะเข้ามาคุยกับเราเมื่อมันคิดว่าจำเป็นต้องได้รับความสนใจจากเรา และทำงานให้ตามที่สั่งค้างไว้ เบื้องหลังของมันเป็นโมเดล Claude Opus 5.5 และใช้ context จากบริการ Claude ตัวหลักเข้ามาช่วยเสริม Duet จะมีแอพแยกของตัวเองบน iOS และ Android, บนพีซีใช้ผ่านเบราว์เซอร์ ตอนนี้ยังมีสถานะเป็น research preview ใช้ได้เฉพาะคนที่จ่ายแพ็กเกจ Pro/Max ในสหรัฐ โดยคิดโควต้ารวมกับ Claude ปกติ ที่มา - Claude mk Fri, 23/10/2026 - 07:31",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 00:31:01 +0000",
+    "matched_keywords": [
+      "review"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.444039+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -208,7 +192,49 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433130+00:00"
+    "researched_at": "2026-10-23T07:31:26.442548+00:00"
+  },
+  {
+    "title": "โลกเปลี่ยนไปแล้ว OpenAI เปิดโมเดลให้เช่าใช้งานบน Google Cloud",
+    "url": "https://www.blognone.com/node/151992",
+    "summary": "โลกเปลี่ยนไปแล้ว OpenAI เปิดโมเดลให้เช่าใช้งานบน Google Cloud Body OpenAI ก่อตั้งในปี 2015 ด้วยเหตุผลว่า Elon Musk และผองเพื่อนอย่าง Sam Altman (ณ เวลานั้น) เกรงว่ากูเกิลจะ \"กินรวบ\" วงการ AI ในอนาคต จึงเปิดบริษัทใหม่ขึ้นมาทำ AI แบบเปิดกว้างเพื่อมวลมนุษยชาติ (แม้เปลี่ยนแนวทางในภายหลัง) ในช่วงที่ OpenAI แรงขึ้นมา เราจึงไม่เคยเห็นโมเดลของ OpenAI ถูกนำมาใช้งานกับฝั่งกูเกิลเลย แม้สัญญาเอ็กซ์คลูซีฟกับไมโครซอฟท์ถูกปรับแก้ และ นำโมเดลไปให้เช่าใช้งานบน AWS มาก่อนแล้วเมื่อต้นปี 2026 เวลาผ่านมา 11 ปี และแล้วในที่สุด OpenAI ก็ประกาศความร่วมมือนำโมเดลของตัวเองไปให้เช่าใช้บน Google Cloud โดยเป็นโมเดลรุ่นล่าสุดมากันครบทั้ง GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna OpenAI ยังประกาศว่าในระยะถัดไปจะนำโมเดลไปใช้บน Google Antigravity และ Gemini Agent บริการ agent สำหรับลูกค้าองค์กร (ที่ตอนนี้มีโมเดลฝั่ง Claude ให้เลือกแล้ว) OpenAI ระบุว่าไมโครซอฟท์ยังถือเป็นพาร์ทเนอร์คลาวด์หลัก (primary cloud partner) ของบริษัทต่อไป แม้นำโมเดลไปขายบน AWS และ Google Cloud แล้วก็ตาม ที่มา - OpenAI , Google Cloud mk Fri, 23/10/20",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 02:51:59 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.443705+00:00"
+  },
+  {
+    "title": "เบทาโกรเข้าถือหุ้นใหญ่ Freshket แพลตฟอร์มขายอาหารสด-วัตถุดิบ",
+    "url": "https://www.blognone.com/node/151986",
+    "summary": "เบทาโกรเข้าถือหุ้นใหญ่ Freshket แพลตฟอร์มขายอาหารสด-วัตถุดิบ Body บริษัท เบทาโกร จำกัด (มหาชน) บริษัทด้านเกษตรอุตสาหกรรมรายใหญ่ ประกาศเข้าซื้อหุ้นของ บริษัท โพลาร์ แบร์ มิชชั่น จำกัด จำนวน 59.18% ทำให้เบทาโกรเป็นผู้ถือหุ้นรายใหญ่ของบริษัท โดยไม่ได้เปิดเผยมูลค่าของธุรกรรมดังกล่าว โพลาร์ แบร์ มิชชั่น เป็นเจ้าของแพลตฟอร์ม Freshket แพลตฟอร์มจัดจำหน่ายอาหารสดและวัตถุดิบออนไลน์ เน้นกลุ่มลูกค้าธุรกิจโรงแรม ร้านอาหาร และการจัดเลี้ยง (HORECA) ตลอดจนลูกค้าทั่วไป เบทาโกรบอกว่าการลงทุนนี้เป็นการต่อยอดธุรกิจบริษัทสู่ FoodTech และขยายช่องทางจำหน่ายสินค้าให้ครอบคลุมมากขึ้น ที่มา: ตลาดหลักทรัพย์ฯ และ เบทาโกร arjin Thu, 22/10/2026 - 20:50",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 22 Oct 2026 13:50:48 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.444190+00:00"
+  },
+  {
+    "title": "กูเกิลเปิดตัว TorchTPU รันโค้ด PyTorch บนชิป TPU แบบเนทีฟ",
+    "url": "https://www.blognone.com/node/151987",
+    "summary": "กูเกิลเปิดตัว TorchTPU รันโค้ด PyTorch บนชิป TPU แบบเนทีฟ Body กูเกิลเปิดตัว TorchTPU แบ็คเอนด์ของไลบรารี PyTorch เพื่อรันบน TPU แบบเนทีฟได้เต็มประสิทธิภาพ แบบเดียวกับ Amazon ออก TorchNeuron คอมไพล์โค้ด PyTorch ไปรันบนชิป Trainium TorchTPU เป็นการร่วมพัฒนาระหว่างกูเกิลกับทีม PyTorch ของ Meta เพื่อขยายการใช้งาน PyTorch ไปยังชิปใหม่ๆ นอกเหนือจาก CPU และ GPU แบบดั้งเดิม กูเกิลยังจับมือกับ Hugging Face ทดสอบการรันโมเดลแบบเปิดหลายๆ ตัวบน TorchTPU ว่าได้ประสิทธิภาพดีจริง รวมถึงร่วมกับไลบรารีดังๆ อย่าง vLLM, SGLang, llm-d, TorchTitan, VeRL, Ray, LiteRT เพื่อทดสอบการใช้งานบน TPU ด้วย กูเกิลเริ่มพัฒนา TorchTPU มาตั้งแต่ปี 2025 และเปิดตัวเป็นโอเพนซอร์สเต็มรูปแบบบน GitHub ในงาน PyTorch Conference 2026 สัปดาห์นี้ ที่มา - Google Cloud , PyTorch mk Fri, 23/10/2026 - 07:06",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 00:06:58 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.444120+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -222,7 +248,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432945+00:00"
+    "researched_at": "2026-10-23T07:31:26.442247+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -236,7 +262,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433355+00:00"
+    "researched_at": "2026-10-23T07:31:26.442858+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -250,7 +276,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433206+00:00"
+    "researched_at": "2026-10-23T07:31:26.442655+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -264,7 +290,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432584+00:00"
+    "researched_at": "2026-10-23T07:31:26.441743+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -278,7 +304,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432661+00:00"
+    "researched_at": "2026-10-23T07:31:26.441849+00:00"
+  },
+  {
+    "title": "Tesla ไตรมาส 3/2026 รายได้จากธุรกิจรถยนต์ลดลงเล็กน้อย - หลายประเทศทำสถิติยอดขายสูงสุด",
+    "url": "https://www.blognone.com/node/151991",
+    "summary": "Tesla ไตรมาส 3/2026 รายได้จากธุรกิจรถยนต์ลดลงเล็กน้อย - หลายประเทศทำสถิติยอดขายสูงสุด Body Tesla รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 มีรายได้รวม 28,046 ล้านดอลลาร์ ใกล้เคียงกับไตรมาสเดียวกันในปีก่อน เฉพาะรายได้ธุรกิจรถยนต์ 20,560 ล้านดอลลาร์ ลดลง 3% โดยมีรายได้กลุ่ม Services มาชดเชย มีกำไรสุทธิตามบัญชี GAAP 1,697 ล้านดอลลาร์ ในไตรมาสที่ผ่านมา Tesla ผลิตรถยนต์ได้ 464,391 คัน เพิ่มขึ้น 4% แต่ส่งมอบให้ลูกค้าได้ลดลง 2% เป็น 486,532 คัน มีลูกค้าที่สมัครใช้งาน FSD 1.74 ล้านราย Tesla บอกว่าการส่งมอบทำสถิติใหม่สูงสุดในหลายประเทศ เช่น แคนาดา, ออสเตรเลีย, ญี่ปุ่น ด้านการผลิต Tesla Semi ที่เป็นรถบรรทุกก็เริ่มการผลิตหลักแล้ว บริษัทยังมองว่า FSD จะเป็นปัจจัยสำคัญที่ทำให้คนซื้อ Tesla มากขึ้น หากประเทศนั้น ๆ หน่วยงานกำกับดูแลอนุมัติการใช้งาน Elon Musk ซีอีโอ Tesla พูดถึงประเด็นการควบรวมกิจการกับ SpaceX บอกว่าเขา ตอบทุกอย่าง ไปแล้วในแถลงผลประกอบการ SpaceX จึงไม่มีอะไรจะเล่าเพิ่มเติม ที่มา: Tesla และ CNBC arjin Fri, 23/10/2026 - 08:18",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 01:18:40 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.443793+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -292,35 +332,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432809+00:00"
-  },
-  {
-    "title": "SpaceX ไตรมาส 3/2026 รายได้รวมโต 161% กำไรสุทธิ 4.4 พันล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151972",
-    "summary": "SpaceX ไตรมาส 3/2026 รายได้รวมโต 161% กำไรสุทธิ 4.4 พันล้านดอลลาร์ Body SpaceX รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 รายได้รวมเพิ่มขึ้น 161% จากช่วงเดียวกันในปีก่อนเป็น 14,575 ล้านดอลลาร์ มีกำไรจากการดำเนินงาน 2,791 ล้านดอลลาร์ ส่วนบรรทัดสุดท้ายกำไรสุทธิอยู่ที่ 4,404 ล้านดอลลาร์ เนื่องจากมีผลตอบแทนดอกเบี้ยและผลประโยชน์ทางภาษีเพิ่มเติมเข้ามา ตัวเลขแยกตามกลุ่มธุรกิจของ SpaceX เป็นดังนี้ Space รายได้ 1,767 ล้านดอลลาร์ มีการปล่อยจรวดนับตั้งแต่ต้นปีรวม 113 ครั้ง Connectivity รายได้ 5,248 ล้านดอลลาร์ มีกำไรเฉพาะกลุ่ม 2,367 ล้านดอลลาร์ โดยจำนวนลูกค้า Starlink เพิ่มเป็น 13.6 ล้านราย S I มีรายได้เพิ่มเกือบสามเท่าเป็น 7,560 ล้านดอลลาร์ กำไรเฉพาะกลุ่ม 431 ล้านดอลลาร์ มีเงินลงทุนเฉพาะกลุ่มนี้ในไตรมาสอีก 16,444 ล้านดอลลาร์ SpaceX บอกว่ากำลังประมวลผลศูนย์ข้อมูลรวมที่มีตอนนี้เพิ่มเป็น 1.7 กิกะวัตต์ รายได้ธุรกิจ SI ที่เติบโตสูงมาจากการรวมกิจการ Cursor และรายได้จากการให้เช่าคลาวด์ที่สูงขึ้น ที่มา: SpaceX (pdf) และ The New York Times arjin Wed, 21/10/2026 - 08:24",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 01:24:24 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.434350+00:00"
-  },
-  {
-    "title": "Salesforce ซื้อกิจการ Braze แพลตฟอร์มบริหาร Customer Engagement มูลค่าดีล 5.66 พันล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/151980",
-    "summary": "Salesforce ซื้อกิจการ Braze แพลตฟอร์มบริหาร Customer Engagement มูลค่าดีล 5.66 พันล้านดอลลาร์ Body Salesforce ประกาศซื้อกิจการ Braze แพลตฟอร์มสำหรับบริหารการมีส่วนร่วมของลูกค้า (Customer Engagement Platform - CEP) มูลค่าที่เข้าซื้อ 5.66 พันล้านดอลลาร์ ดีลนี้จะจ่ายเป็นเงินสดให้ผู้ถือหุ้นปัจจุบันของ Braze Braze เป็นแพลตฟอร์ม AI สำหรับนักการตลาดในการสร้างระบบความสัมพันธ์กับลูกค้าได้ระดับเรียลไทม์ ผ่านช่องทางต่าง ๆ ทั้งแอปสมาร์ทโฟน, เว็บไซต์, อีเมล, ระบบส่งข้อความ ทำงานบนคลาวด์ รองรับธุรกรรมจำนวนมาก และรองรับถึงการขายกับลูกค้าบุคคล B2C ได้แบบปรับแต่งเฉพาะแต่ละราย Salesforce มองว่าการติดต่อกับลูกค้าในแต่ละครั้งคือโอกาสสำคัญในการสร้างความตื่นตาตื่นใจ ซึ่งต้องการความเข้าใจลูกค้าแต่ละรายอย่างเฉพาะเจาะจง รวมถึงต้องการการตอบสนองแบบทันที ซึ่งเครื่องมือของ Braze สามารถนำมาผสานร่วมกับ Salesforce Marketing Cloud, ระบบ CRM และ Data 360 เพื่อพัฒนาความสัมพันธ์กับลูกค้าได้ดียิ่งขึ้น ที่มา: Salesforce arjin Thu, 22/10/2026 - 07:33",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 22 Oct 2026 00:33:52 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.433830+00:00"
+    "researched_at": "2026-10-23T07:31:26.442061+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -334,35 +346,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433008+00:00"
-  },
-  {
-    "title": "PHP ปล่อยแพตช์อุดช่องโหว่ระดับวิกฤติ PHP2Shell ระบุ Apache + mod_php ความเสี่ยงสูงสุด",
-    "url": "https://www.blognone.com/node/151978",
-    "summary": "PHP ปล่อยแพตช์อุดช่องโหว่ระดับวิกฤติ PHP2Shell ระบุ Apache + mod_php ความเสี่ยงสูงสุด Body PHP ปล่อยแพตช์เวอร์ชั่น 8.5.12, 8.4.27, 8.3.36, และ 8.2.35 ตามที่ประกาศไว้ก่อนหน้านี้ แก้ไขช่องโหว่รันโค้ดระยะไกลโดยไม่ต้องล็อกอิน ช่องโหว่นี้กระทบการใช้งานแทบทุกรูปแบบ แต่ความเสี่ยงในแบบ Apache + mod_php มีความเสี่ยงสูงสุด ช่องโหว่นี้ถูกเรียกชื่อสั้นๆ ว่า PHP2Shell โดยจริงๆ มีสองรายการ ได้แก่ CVE-2026-109618: อาศัยการยิงให้แรมหมด และ PHP มองข้อมูลที่พังกลายเป็นข้อมูลที่ใช้งานได้ จนนำไปสู่การรันโค้ด CVE-2026-109619: ช่องโหว่การอ่านค่าภายในของ PHP แต่เมื่อ PHP คืนหน่วยความจำไปแล้วกลับขออ่านซ้ำได้ใหม่ สำหรับผู้ที่ผู้ที่ยังอัพเกรดไม่ได้ ให้ตั้งค่า memory_limit=-1 เพื่อให้ PHP สามารถดึงหน่วยความจำได้มากๆ และตั้ง post_max_size ให้ต่ำๆ เช่น 8-32MB พร้อมกับตั้ง session.upload_progress.enabled=0 และ fatal_error_backtraces=0 และอย่าลืมรีสตาร์ต PHP worker ทั้งหมด ตอนนี้ลินุกซ์ต่างๆ ได้แพตช์ไปล่วงหน้าแล้วทำให้น่าจะปล่อยอัพเดตเร็วๆ นี้ ส่วน Docker ต้องรออีกไม่กี่นาที ที่มา - PHP lew Wed, 21/10/2026 - 21:16",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 14:16:01 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.433965+00:00"
-  },
-  {
-    "title": "Netflix ไตรมาส 3/2026 รายได้ยังเติบโต ยืนยัน Engagement บนแพลตฟอร์มยังแข็งแกร่ง",
-    "url": "https://www.blognone.com/node/151970",
-    "summary": "Netflix ไตรมาส 3/2026 รายได้ยังเติบโต ยืนยัน Engagement บนแพลตฟอร์มยังแข็งแกร่ง Body Netflix รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 รายได้รวมเพิ่มขึ้น 11.8% เทียบกับไตรมาสเดียวกันในปีก่อนเป็น 12,874 ล้านดอลลาร์ กำไรสุทธิเพิ่มขึ้นเป็น 3,664 ล้านดอลลาร์ และมีกระแสเงินสดอิสระ 2,884 ล้านดอลลาร์ Netflix บอกว่าบริษัทยังคงโฟกัสที่ 3 หัวข้อหลักคือ เพิ่มคุณค่าความบันเทิง, นำเทคโนโลยีมาปรับปรุงทุกส่วน และขยายไปสู่ธุรกิจใหม่ ซึ่งไตรมาสที่ผ่านมาก็ทำได้ดีแต่ยังมีพื้นที่ให้ทำเพิ่มขึ้นได้อีก บริษัทยังบอกว่านักลงทุนอาจกังวลเรื่องชั่วโมงการรับชม ที่การเติบโตอาจไม่สูงหรือลดลง ซึ่ง Netflix ก็ไม่ได้ให้ข้อมูลตัวเลขนี้ แต่บอกว่าชั่วโมงรับชมนั้นสอดคล้องกับการปรับขึ้นค่าสมาชิก และตัวเลขเป็นไปตามที่บริษัทคาดการณ์ไว้ โดยพิจารณาทั้งปริมาณ คุณภาพเนื้อหา รูปแบบการรับชม ซึ่งทั้งหมดจะดีขึ้นมากกว่านี้ ถ้าโฟกัสที่ 3 หัวข้อหลักข้างต้น ส่วนรายได้จากโฆษณา Netflix ประเมินไว้ที่ 2.7 พันล้านดอลลาร์ สำหรับปี 2026 น้อยกว่าที่บริษัทคาดการณ์ไว้เล็กน้อย แต่ก็มองว่าการเติบโตทำได้ดีเมื่อเทียบกับคู่แข่งในอุตสาหกรรม ที่มา: Netflix ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 21 Oct 2026 01:25:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-22T07:34:49.434285+00:00"
+    "researched_at": "2026-10-23T07:31:26.442376+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -376,7 +360,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433506+00:00"
+    "researched_at": "2026-10-23T07:31:26.443040+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -390,7 +374,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432871+00:00"
+    "researched_at": "2026-10-23T07:31:26.442144+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -404,7 +388,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433640+00:00"
+    "researched_at": "2026-10-23T07:31:26.443229+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -418,7 +402,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.432319+00:00"
+    "researched_at": "2026-10-23T07:31:26.441404+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -432,7 +416,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433417+00:00"
+    "researched_at": "2026-10-23T07:31:26.442940+00:00"
+  },
+  {
+    "title": "Canva เปิดตัวโมเดลสร้างรูปภาพ Craft ได้คะแนนเป็นรองแค่ GPT Image ตัวเดียว",
+    "url": "https://www.blognone.com/node/151993",
+    "summary": "Canva เปิดตัวโมเดลสร้างรูปภาพ Craft ได้คะแนนเป็นรองแค่ GPT Image ตัวเดียว Body Canva เปิดตัวโมเดลสร้างภาพตัวแรกของบริษัท ชื่อว่า Canva Craft สร้างและเทรนโดยทีมภายใน Canva Research ซึ่งเปิดใช้งานแล้วกับผู้ใช้ Canva ทั่วโลก Canva บอกว่า Craft เป็นโมเดลที่ได้คะแนนระดับสูง เทียบคะแนนเบนช์มาร์ค DesignArena แล้วอยู่อันดับ 4 (อันดับ 1-3 คือ GPT Image 2/2.5 ทั้งหมด) สามารถเอาชนะโมเดลตัวอื่นๆ ในตลาด เช่น Reve, MAI-Image, Grok Imagine, Nano Banana ได้หมดแล้ว ถ้าเจาะคุณสมบัติตามหมวด Craft เป็นอันดับหนึ่งในการสร้างภาพบุคคลและทิวทัศน์ และอันดับสองในหมวดภาพแอบสแทรกและแพทเทิร์น ส่วนหมวดที่คะแนนต่ำหน่อยคือการ์ตูน อยู่อันดับ 17 Craft ใช้สถาปัตยกรรมแยกส่วนการวางแผนสร้างภาพ (compositional planning) กับการเรนเดอร์ภาพ แยกจากกัน ช่วยให้กระบวนการคิดแบบมีเหตุมีผล วางแผนสร้างภาพแม่นยำมากขึ้น ส่วนขั้นตอนการเรนเดอร์ภาพ สามารถสร้างภาพได้ความละเอียดสูงสุด 2K เลือกสัดส่วนภาพได้มากกว่า 30 แบบ นอกจากนี้ Craft ยังทำงานได้เร็ว เพราะจะนำมาใช้งานกับผู้ใช้ Canva จำนวน 250 ล้านคน ที่สั่งเจ็นภาพรวมกัน 400 ภาพต่อวินาที จึงมี",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 03:16:38 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-23T07:31:26.443616+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -446,6 +444,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-22T07:34:49.433580+00:00"
+    "researched_at": "2026-10-23T07:31:26.443141+00:00"
   }
 ]
