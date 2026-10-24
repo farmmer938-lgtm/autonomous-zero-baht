@@ -1,26 +1,26 @@
 [
   {
+    "path": "data/content/drafts/microsoft-teams-บนพีซีเพิ่ม-efficiency-mode-สำหรับเครื่องสเปกต่ำ-ปรับปรุงประสิทธ.json",
+    "passed": true,
+    "errors": []
+  },
+  {
     "path": "data/content/drafts/epic-เขียนระบบต้านโกง-easy-anti-cheat-บนลินุกซ์ใหม่-แกร่งกว่าเดิม-เตรียมนำ-fortn.json",
     "passed": true,
     "errors": []
   },
   {
-    "path": "data/content/drafts/รีวิว-iphone-duo-จากสื่อต่างประเทศ-วัสดุพรีเมียม-touch-id-ทำงานช้า-หลายแอปยังไม่.json",
+    "path": "data/content/drafts/postgresql-ถอดบางฟีเจอร์ออกจากเวอร์ชัน-19-เพราะ-llm-ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ.json",
     "passed": true,
     "errors": []
   },
   {
-    "path": "data/content/drafts/xbox-cloud-gaming-เปิดให้เช่าเวลาเล่นบนคลาวด์-โดยไม่ต้องเป็นสมาชิก-game-pass.json",
+    "path": "data/content/drafts/moonshot-ai-เปิดตัว-kimi-k3-1-pro-ผลทดสอบใกล้เคียง-opus-5-5-ราคาถูกกว่า-k3-30.json",
     "passed": true,
     "errors": []
   },
   {
-    "path": "data/content/drafts/postgresql-ออกบางฟีเจอร์ออกจากเวอร์ชัน-19-เพราะ-llm-ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/anthropic-เปิดตัว-claude-duet-ผู้ช่วยส่วนตัวทำงานตลอดเวลา-รันใน-vm-แยก.json",
+    "path": "data/content/drafts/ไต้หวันไม่อนุมัติดีล-grab-ซื้อกิจการ-foodpanda-ในไต้หวัน-หลังยื่นข้อเสนอ-600-ล้า.json",
     "passed": true,
     "errors": []
   }

@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.441960+00:00"
+    "researched_at": "2026-10-24T07:17:09.481107+00:00"
+  },
+  {
+    "title": "Microsoft Teams บนพีซีเพิ่ม Efficiency Mode สำหรับเครื่องสเปกต่ำ, ปรับปรุงประสิทธิภาพบน Android",
+    "url": "https://www.blognone.com/node/152001",
+    "summary": "Microsoft Teams บนพีซีเพิ่ม Efficiency Mode สำหรับเครื่องสเปกต่ำ, ปรับปรุงประสิทธิภาพบน Android Body ทีมพัฒนา Microsoft Teams ออกมาเล่าเบื้องหลังการปรับปรุง Teams ให้ทำงานเร็วขึ้น กินทรัพยากรน้อยลง บนแพลตฟอร์มต่างๆ ดังนี้ พีซี (Windows &amp; macOS) เพิ่ม Efficiency Mode สำหรับเครื่องทรัพยากรต่ำ ซีพียูรุ่นเก่า แรม 8GB หรือต่ำกว่า ปรับปรุงให้โหมดนี้ทำงานตอบสนองดีขึ้น 20% บนเครื่องทรัพยากรต่ำ, มีฟีเจอร์ปรับความละเอียดของวิดีโอลงอัตโนมัติเพื่อลดพลังซีพียู และรักษาการประมวลผลเสียงไม่ให้กระตุก Android สร้างชุดทดสอบ App Responsiveness Index (ARI) ตรวจสอบจากวิดีโอการใช้งานแอพว่ากระตุกตรงไหน เพื่อค้นหาสาเหตุของปัญหา และพบว่าส่วนใหญ่ 60–65% เกิดจากหน่วยความจำ หลังจากนั้นไมโครซอฟท์ลงมือแก้ปัญหาหน่วยความจำหลายอย่าง จนแก้ปัญหาเรื่องเฟรมทำงานช้าลงได้ 40% จากปีก่อน, ลดปัญหา garbage-collection ทำงานจนแอพกระตุกลงได้ 23% แก้ปัญหาเรื่องภาพ thumbnail ในแชทโผล่ไม่ทันการเลื่อนจอ โดยปรับปรุงให้โหลดเร็วขึ้น 17% บล็อกต้นทางอธิบายวิธีการตรวจสอบปัญหา การวัดผล และการหาวิธีแก้ไข แนะนำสำหรับคนทำงานสาย product/engin",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 24 Oct 2026 06:57:44 +0000",
+    "matched_keywords": [
+      "แก้ปัญหา",
+      "วิธี"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-24T07:17:09.482168+00:00"
   },
   {
     "title": "Epic เขียนระบบต้านโกง Easy Anti-Cheat บนลินุกซ์ใหม่ แกร่งกว่าเดิม, เตรียมนำ Fortnite ลงลินุกซ์",
@@ -32,7 +49,7 @@
     "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443432+00:00"
+    "researched_at": "2026-10-24T07:17:09.482500+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,39 +65,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.443336+00:00"
-  },
-  {
-    "title": "รีวิว iPhone Duo จากสื่อต่างประเทศ: วัสดุพรีเมียม, Touch ID ทำงานช้า, หลายแอปยังไม่รองรับ",
-    "url": "https://www.blognone.com/node/151988",
-    "summary": "รีวิว iPhone Duo จากสื่อต่างประเทศ: วัสดุพรีเมียม, Touch ID ทำงานช้า, หลายแอปยังไม่รองรับ Body iPhone Duo สมาร์ทโฟนหน้าจอพับรุ่นแรกของแอปเปิล เริ่มส่งมอบให้กับลูกค้าแล้วตั้งแต่วันนี้ ซึ่งก่อนหน้านี้ก็มีรีวิวจากสื่อที่ได้ทดสอบก่อนออกมาเช่นกัน ภาพรวมของรีวิวนั้นชี้ข้อจำกัดของ iPhone Duo หลายอย่างเพราะเป็นโทรศัพท์จอพับ ซึ่งอาจทำให้คนใช้ iPhone แบบเดิมพบความไม่สะดวก Marques Brownlee หรือ MKBHD ยูทูบเบอร์ที่รีวิว iPhone มายาวนาน ให้ข้อสังเกต ว่า Touch ID ระบบปลดล็อกด้วยลายนิ้วมือของ iPhone Duo มีความหน่วง (delay) เวลาปลดล็อก โดยจะค้างหน้าจอล็อกก่อนสักครู่ ผู้ใช้งานต้องวางนิ้วค้างไว้ยาวจึงเข้าหน้า Home ได้ เขามองว่าจังหวะการใช้งานนี้ต่างจาก Face ID มาก และน่าจะเป็นประเด็นใหญ่ที่ทำให้คนย้ายมา iPhone Duo ไม่ชอบ เรื่องนี้ PetaPixel บอกว่าจากการทดสอบปลดล็อกเสริมโดยใช้ Apple Watch ที่จับคู่พบว่าทำงานได้เร็วขึ้น แต่นั่นคงไม่ใช่คำแนะนำทั่วไปสำหรับการใช้งานแน่นอน PetaPixel มองว่าวัสดุและสัมผัสใช้งานดีกว่าสมาร์ทโฟนจอพับค่ายอื่นมาก โดยเฉพาะการนำแม่เหล็กมาใช้ในการพับจอ ทำให้ประสบการณ์ใช้งานออกมาดี ส่วน",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 23 Oct 2026 00:34:30 +0000",
-    "matched_keywords": [
-      "รีวิว"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443959+00:00"
-  },
-  {
-    "title": "Xbox Cloud Gaming เปิดให้เช่าเวลาเล่นบนคลาวด์ โดยไม่ต้องเป็นสมาชิก Game Pass",
-    "url": "https://www.blognone.com/node/151990",
-    "summary": "Xbox Cloud Gaming เปิดให้เช่าเวลาเล่นบนคลาวด์ โดยไม่ต้องเป็นสมาชิก Game Pass Body ไมโครซอฟท์เปิดทางเลือกให้เล่น Xbox Cloud Gaming แบบเช่าชั่วโมงใช้งาน โดยไม่จำเป็นต้องจ่ายสมาชิก Game Pass เหมือนเคย ตามที่เคยประกาศไว้ ก่อนหน้านี้ Xbox Cloud Gaming ถือเป็นสิทธิประโยชน์ที่ถูกมัดรวมในแพ็กเกจ Game Pass โดยเราสามารถเล่นได้ทั้งเกมของตัวเอง และเกมที่อยู่ในสิทธิของ Game Pass ซึ่งหมุนเวียนไปเรื่อยๆ มีโควต้าชั่วโมงแบบเหมาจ่าย แต่คราวนี้ ไมโครซอฟท์ตัดเฉพาะส่วนเช่าคลาวด์เล่นเกมออกมา โดยไม่มีสิทธิการเล่นเกมใน Game Pass ติดมาด้วย เพื่อให้ราคาถูกลง 10 ชั่วโมง $3.99 25 ชั่วโมง $7.99 50 ชั่วโมง $11.99 แพ็กเกจเช่าคลาวด์ตอนนี้ยังจำกัดเฉพาะกลุ่ม Xbox Insiders และจะขยายไปยังลูกค้าทั่วไปในเดือนพฤศจิกายน ที่มา - Xbox mk Fri, 23/10/2026 - 07:46",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 23 Oct 2026 00:46:56 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443870+00:00"
+    "researched_at": "2026-10-24T07:17:09.482098+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -96,7 +81,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.441536+00:00"
+    "researched_at": "2026-10-24T07:17:09.480725+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -112,12 +97,12 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442464+00:00"
+    "researched_at": "2026-10-24T07:17:09.481467+00:00"
   },
   {
-    "title": "PostgreSQL ออกบางฟีเจอร์ออกจากเวอร์ชัน 19 เพราะ LLM ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ",
+    "title": "PostgreSQL ถอดบางฟีเจอร์ออกจากเวอร์ชัน 19 เพราะ LLM ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ",
     "url": "https://www.blognone.com/node/151994",
-    "summary": "PostgreSQL ออกบางฟีเจอร์ออกจากเวอร์ชัน 19 เพราะ LLM ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ Body PostgreSQL ประกาศเลื่อนการออก PostgreSQL เวอร์ชัน 19 ที่เดิมจะออกต้นเดือนตุลาคม ไปเป็นวันที่ 19 พฤศจิกายน พร้อมเลื่อนฟีเจอร์สำคัญหลายตัวไปออกพร้อม PostgreSQL 20 เวอร์ชันหน้าแทน ด้วยเหตุผลว่าใช้โมเดล LLM ตรวจสอบคุณภาพของโค้ดแล้วพบว่าไม่ดีพอ Peter Eisentraut หัวหน้าคณะกรรมการพัฒนา PostgreSQL เขียนบล็อกเล่าว่า PostgreSQL จำเป็นต้องถอดฟีเจอร์ใหญ่ๆ 8-10 อย่างออกจากเวอร์ชัน 19 แม้ทดสอบแบบ Beta มานานพอสมควรแล้ว เหตุผลเป็นเพราะเมื่อรีวิวโค้ดด้วย LLM แล้วพบว่าคุณภาพของโค้ดยังไม่ดีพอ แถมเป็นปัญหาเชิงสถาปัตยกรรมของโค้ด (significant architectural defects) จึงไม่สามารถแก้แบบเร็วๆ ได้ในระยะเวลาที่เหลืออยู่ (โค้ดส่วนนี้เขียนด้วยมือ ไม่ได้ vibe code ด้วย) ทีมพัฒนา PostgreSQL จึงตัดสินใจ revert คือถอนฟีเจอร์เหล่านี้ออกจากเวอร์ชัน 19 เพื่อไม่ให้เกิดปัญหาตามมาในภายหลัง และเลื่อนฟีเจอร์ไปอยู่ใน PostgreSQL 20 แทน ที่มา - Peter Eisentraut via The Register mk Fri, 23/10/2026 - 10:32",
+    "summary": "PostgreSQL ถอดบางฟีเจอร์ออกจากเวอร์ชัน 19 เพราะ LLM ตรวจคุณภาพโค้ดแล้วยังไม่ดีพอ Body PostgreSQL ประกาศเลื่อนการออก PostgreSQL เวอร์ชัน 19 ที่เดิมจะออกต้นเดือนตุลาคม ไปเป็นวันที่ 19 พฤศจิกายน พร้อมเลื่อนฟีเจอร์สำคัญหลายตัวไปออกพร้อม PostgreSQL 20 เวอร์ชันหน้าแทน ด้วยเหตุผลว่าใช้โมเดล LLM ตรวจสอบคุณภาพของโค้ดแล้วพบว่าไม่ดีพอ Peter Eisentraut หัวหน้าคณะกรรมการพัฒนา PostgreSQL เขียนบล็อกเล่าว่า PostgreSQL จำเป็นต้องถอดฟีเจอร์ใหญ่ๆ 8-10 อย่างออกจากเวอร์ชัน 19 แม้ทดสอบแบบ Beta มานานพอสมควรแล้ว เหตุผลเป็นเพราะเมื่อรีวิวโค้ดด้วย LLM แล้วพบว่าคุณภาพของโค้ดยังไม่ดีพอ แถมเป็นปัญหาเชิงสถาปัตยกรรมของโค้ด (significant architectural defects) จึงไม่สามารถแก้แบบเร็วๆ ได้ในระยะเวลาที่เหลืออยู่ (โค้ดส่วนนี้เขียนด้วยมือ ไม่ได้ vibe code ด้วย) ทีมพัฒนา PostgreSQL จึงตัดสินใจ revert คือถอนฟีเจอร์เหล่านี้ออกจากเวอร์ชัน 19 เพื่อไม่ให้เกิดปัญหาตามมาในภายหลัง และเลื่อนฟีเจอร์ไปอยู่ใน PostgreSQL 20 แทน ที่มา - Peter Eisentraut via The Register mk Fri, 23/10/2026 - 10:32",
     "source": "https://www.blognone.com/atom.xml",
     "published": "Fri, 23 Oct 2026 03:32:02 +0000",
     "matched_keywords": [
@@ -128,7 +113,23 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443522+00:00"
+    "researched_at": "2026-10-24T07:17:09.482568+00:00"
+  },
+  {
+    "title": "Moonshot AI เปิดตัว Kimi K3.1 Pro ผลทดสอบใกล้เคียง Opus 5.5 ราคาถูกกว่า K3 30%",
+    "url": "https://www.blognone.com/node/152000",
+    "summary": "Moonshot AI เปิดตัว Kimi K3.1 Pro ผลทดสอบใกล้เคียง Opus 5.5 ราคาถูกกว่า K3 30% Body Moonshot AI ผู้สร้างโมเดลปัญญาประดิษฐ์ในตระกูล Kimi เปิดตัว Kimi K3.1 Pro โดยผลทดสอบหลายชุดแสดงให้เห็นว่าความสามารถของโมเดลใหม่นี้ใกล้เคียงหรือเอาชนะ Claude Opus 5.5 ได้เลยทีเดียว ขณะที่ต้นทุนการทำงานรวมถูกกว่ามาก ทาง Moonshot จะปล่อยค่า weights ของ Kimi K3.1 Pro ในวันที่ 4 พฤศจิกายนนี้ โดยตอนนี้ระบุเพียงว่าโมเดลมีขนาดรวม 3T โดยโมเดลรุ่นที่ปล่อยนี้จะไม่ได้ฝึกความสามารถการโจมตีไซเบอร์เอาไว้ ทำให้ความสามารถลดลงกว่าที่ทีมงานสามารถฝึกโมเดลได้จริง แต่ยังสามารถใช้งานฝั่งการป้องกันภัยไซเบอร์ได้ โมเดลเริ่มปล่อยให้ใช้งานบนเว็บ Kimi.ai แล้ววันนี้ ค่า API อยู่ที่ 2/10 ดอลลาร์ต่อล้านโทเค็น ถูกกว่า Claude Opus 5.5 ประมาณครึ่งหนึ่ง และยังมีรุ่น Highspeed ที่ความเร็วเพิ่มขึ้น 2-3 เท่าตัว แต่ราคาแพงขึ้น 2 เท่าให้เลือก ที่มา - Kimi.ai lew Sat, 24/10/2026 - 11:29",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 24 Oct 2026 04:29:56 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-24T07:17:09.482243+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -144,7 +145,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.441633+00:00"
+    "researched_at": "2026-10-24T07:17:09.480835+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -160,23 +161,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442756+00:00"
-  },
-  {
-    "title": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก",
-    "url": "https://www.blognone.com/node/151989",
-    "summary": "Anthropic เปิดตัว Claude Duet ผู้ช่วยส่วนตัวทำงานตลอดเวลา รันใน VM แยก Body Anthropic บุกเข้าตลาด personal agent ด้วยบริการใหม่ชื่อว่า Duet ลักษณะเดียวกับ Meta Muse และ OpenAI Dots ที่รันอยู่บนคลาวด์ (Duet แต่ละตัวมี VM แยกของตัวเอง มีเบราว์เซอร์ของตัวเองเหมือนกัน) Anthropic เรียก Duet ว่าเป็น proactive agent จะเข้ามาคุยกับเราเมื่อมันคิดว่าจำเป็นต้องได้รับความสนใจจากเรา และทำงานให้ตามที่สั่งค้างไว้ เบื้องหลังของมันเป็นโมเดล Claude Opus 5.5 และใช้ context จากบริการ Claude ตัวหลักเข้ามาช่วยเสริม Duet จะมีแอพแยกของตัวเองบน iOS และ Android, บนพีซีใช้ผ่านเบราว์เซอร์ ตอนนี้ยังมีสถานะเป็น research preview ใช้ได้เฉพาะคนที่จ่ายแพ็กเกจ Pro/Max ในสหรัฐ โดยคิดโควต้ารวมกับ Claude ปกติ ที่มา - Claude mk Fri, 23/10/2026 - 07:31",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 23 Oct 2026 00:31:01 +0000",
-    "matched_keywords": [
-      "review"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.444039+00:00"
+    "researched_at": "2026-10-24T07:17:09.481684+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -192,7 +177,21 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442548+00:00"
+    "researched_at": "2026-10-24T07:17:09.481528+00:00"
+  },
+  {
+    "title": "ไต้หวันไม่อนุมัติดีล Grab ซื้อกิจการ Foodpanda ในไต้หวัน หลังยื่นข้อเสนอ 600 ล้านดอลลาร์ ในเดือนมีนาคม",
+    "url": "https://www.blognone.com/node/151999",
+    "summary": "ไต้หวันไม่อนุมัติดีล Grab ซื้อกิจการ Foodpanda ในไต้หวัน หลังยื่นข้อเสนอ 600 ล้านดอลลาร์ ในเดือนมีนาคม Body คณะกรรมการการค้าของไต้หวันออกคำสั่งขัดขวางไม่ให้ Grab ซื้อกิจการ Foodpanda ในไต้หวัน โดยให้เหตุผลเกี่ยวกับการแข่งขันในตลาด หลังจาก Grab ประกาศแผนซื้อกิจการเมื่อเดือนมีนาคม ด้วยมูลค่า 600 ล้านดอลลาร์ คณะกรรมการฯ ให้เหตุผลว่าผลกระทบด้านการแข่งขันในตลาดหากดีลนี้เกิดขึ้น จะส่งผลเสียมากกว่าประโยชน์สำหรับภาพรวมของตลาด เรื่องนี้ต้อง ย้อนไปในปี 2024 ที่ Uber เคยประกาศซื้อกิจการ Foodpanda ในไต้หวันเหมือนกัน และถูกคณะกรรมการฯ ออกคำสั่งขัดขวาง แต่กรณี Uber นั้นให้บริการในไต้หวันอยู่แล้ว หากรวมกิจการกันจะทำให้มีส่วนแบ่งตลาดมากกว่า 90% จึงมองเป็นเรื่องผูกขาดได้ ขณะที่ Grab ไม่ได้ให้บริการในไต้หวันมาก่อน Grab ออกแถลงการณ์แสดงความผิดหวังต่อการตัดสินดังกล่าว โดยบอกว่าธุรกิจหลักของบริษัทอยู่ในภูมิภาคเอเชียตะวันออกเฉียงใต้ โดยยังคงโฟกัสตลาดนี้ต่อไป ส่วน Delivery Hero ที่เป็นเจ้าของ Foodpanda บอกว่าถึงแม้ดีลจะไม่เกิดขึ้น บริษัทก็จะได้รับเงินตามข้อตกลงในส่วนที่เกี่ยวกับการซื้อขายกิจการไม่สำเร็จ (bre",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 13:50:55 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-24T07:17:09.482311+00:00"
   },
   {
     "title": "โลกเปลี่ยนไปแล้ว OpenAI เปิดโมเดลให้เช่าใช้งานบน Google Cloud",
@@ -206,35 +205,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443705+00:00"
-  },
-  {
-    "title": "เบทาโกรเข้าถือหุ้นใหญ่ Freshket แพลตฟอร์มขายอาหารสด-วัตถุดิบ",
-    "url": "https://www.blognone.com/node/151986",
-    "summary": "เบทาโกรเข้าถือหุ้นใหญ่ Freshket แพลตฟอร์มขายอาหารสด-วัตถุดิบ Body บริษัท เบทาโกร จำกัด (มหาชน) บริษัทด้านเกษตรอุตสาหกรรมรายใหญ่ ประกาศเข้าซื้อหุ้นของ บริษัท โพลาร์ แบร์ มิชชั่น จำกัด จำนวน 59.18% ทำให้เบทาโกรเป็นผู้ถือหุ้นรายใหญ่ของบริษัท โดยไม่ได้เปิดเผยมูลค่าของธุรกรรมดังกล่าว โพลาร์ แบร์ มิชชั่น เป็นเจ้าของแพลตฟอร์ม Freshket แพลตฟอร์มจัดจำหน่ายอาหารสดและวัตถุดิบออนไลน์ เน้นกลุ่มลูกค้าธุรกิจโรงแรม ร้านอาหาร และการจัดเลี้ยง (HORECA) ตลอดจนลูกค้าทั่วไป เบทาโกรบอกว่าการลงทุนนี้เป็นการต่อยอดธุรกิจบริษัทสู่ FoodTech และขยายช่องทางจำหน่ายสินค้าให้ครอบคลุมมากขึ้น ที่มา: ตลาดหลักทรัพย์ฯ และ เบทาโกร arjin Thu, 22/10/2026 - 20:50",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 22 Oct 2026 13:50:48 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.444190+00:00"
-  },
-  {
-    "title": "กูเกิลเปิดตัว TorchTPU รันโค้ด PyTorch บนชิป TPU แบบเนทีฟ",
-    "url": "https://www.blognone.com/node/151987",
-    "summary": "กูเกิลเปิดตัว TorchTPU รันโค้ด PyTorch บนชิป TPU แบบเนทีฟ Body กูเกิลเปิดตัว TorchTPU แบ็คเอนด์ของไลบรารี PyTorch เพื่อรันบน TPU แบบเนทีฟได้เต็มประสิทธิภาพ แบบเดียวกับ Amazon ออก TorchNeuron คอมไพล์โค้ด PyTorch ไปรันบนชิป Trainium TorchTPU เป็นการร่วมพัฒนาระหว่างกูเกิลกับทีม PyTorch ของ Meta เพื่อขยายการใช้งาน PyTorch ไปยังชิปใหม่ๆ นอกเหนือจาก CPU และ GPU แบบดั้งเดิม กูเกิลยังจับมือกับ Hugging Face ทดสอบการรันโมเดลแบบเปิดหลายๆ ตัวบน TorchTPU ว่าได้ประสิทธิภาพดีจริง รวมถึงร่วมกับไลบรารีดังๆ อย่าง vLLM, SGLang, llm-d, TorchTitan, VeRL, Ray, LiteRT เพื่อทดสอบการใช้งานบน TPU ด้วย กูเกิลเริ่มพัฒนา TorchTPU มาตั้งแต่ปี 2025 และเปิดตัวเป็นโอเพนซอร์สเต็มรูปแบบบน GitHub ในงาน PyTorch Conference 2026 สัปดาห์นี้ ที่มา - Google Cloud , PyTorch mk Fri, 23/10/2026 - 07:06",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 23 Oct 2026 00:06:58 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.444120+00:00"
+    "researched_at": "2026-10-24T07:17:09.482703+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -248,7 +219,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442247+00:00"
+    "researched_at": "2026-10-24T07:17:09.481339+00:00"
+  },
+  {
+    "title": "Ubuntu ปล่อยแพตช์ php2shell ย้อนไปถึง PHP 5 สำหรับลูกค้าจ่ายเงิน",
+    "url": "https://www.blognone.com/node/151997",
+    "summary": "Ubuntu ปล่อยแพตช์ php2shell ย้อนไปถึง PHP 5 สำหรับลูกค้าจ่ายเงิน Body Ubuntu ประกาศปล่อยแพตช์ช่องโหว่ความปลอดภัย โดยพอร์ตแพตช์จาก PHP Foundation ย้อนกลับไปยัง Ubuntu ทุกเวอร์ชันที่ยังซัพพอร์ตอยู่ เนื่องจากตอนนี้ Ubuntu เวอร์ชันสุดท้ายที่ยังซัพพอร์ตอยู่คือ 14.04 ที่มาพร้อมกับ PHP 5.5 ทำให้ได้รับแพตช์ไปด้วย ต่อจากนั้น 16.04 มาพร้อม PHP 7.0, 18.04 มาพร้อม PHP 7.2, 20.04 มาพร้อม PHP 7.4, 22.04 มาพร้อม PHP 8.1 ซึ่งเวอร์ชัน PHP เหล่านี้ทาง PHP Foundation ไม่ได้ปล่อยแพตช์ให้อีกแล้ว การใช้เวอร์ชันจาก Ubuntu จึงเป็นทางออกอีกทางหนึ่ง สำหรับผู้ใช้ปกติ จะได้แพตช์ย้อนไปถึง Ubuntu 22.04 / PHP 8.1 เท่านั้น แต่สามารถใช้บัญชี Ubuntu Pro ได้ ย้อนไปถึง Ubuntu 18.04 ส่วนเวอร์ชันเก่ากว่านั้นต้องซื้อส่วนขยาย Legacy Add-on จึงจะได้แพตช์ Ubuntu 14.04 ที่มา - Ubuntu lew Fri, 23/10/2026 - 18:13",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 11:13:06 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-24T07:17:09.482374+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -262,7 +247,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442858+00:00"
+    "researched_at": "2026-10-24T07:17:09.481761+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -276,7 +261,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442655+00:00"
+    "researched_at": "2026-10-24T07:17:09.481608+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -290,7 +275,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.441743+00:00"
+    "researched_at": "2026-10-24T07:17:09.480946+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -304,7 +289,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.441849+00:00"
+    "researched_at": "2026-10-24T07:17:09.481029+00:00"
   },
   {
     "title": "Tesla ไตรมาส 3/2026 รายได้จากธุรกิจรถยนต์ลดลงเล็กน้อย - หลายประเทศทำสถิติยอดขายสูงสุด",
@@ -318,7 +303,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443793+00:00"
+    "researched_at": "2026-10-24T07:17:09.482768+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -332,7 +317,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442061+00:00"
+    "researched_at": "2026-10-24T07:17:09.481182+00:00"
+  },
+  {
+    "title": "Spotify ไตรมาส 3/2026 รายได้รวมโต 16% ผู้ใช้งานเพิ่มเป็น 788 ล้านบัญชี",
+    "url": "https://www.blognone.com/node/151996",
+    "summary": "Spotify ไตรมาส 3/2026 รายได้รวมโต 16% ผู้ใช้งานเพิ่มเป็น 788 ล้านบัญชี Body Spotify รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 ยังคงเติบโตโดยมีผู้ใช้งานเพิ่มเป็น 788 ล้านบัญชี เพิ่มขึ้น 11% เทียบกับไตรมาสเดียวกันในปีก่อน และเป็นลูกค้าพรีเมียม 306 ล้านบัญชี (+9%) รายได้รวมของ Spotify อยู่ที่ 4,969 ล้านยูโร เพิ่มขึ้น 16% เป็นรายได้จากค่าสมาชิก 4,487 ล้านยูโร ที่เหลือมาจากโฆษณา มีกำไรจากการดำเนินงาน 672 ล้านยูโร และมีกำไรสุทธิ 518 ล้านยูโร Alex Norström ซีอีโอร่วมของ Spotify กล่าวว่าธุรกิจของบริษัทยังคงแข็งแกร่งมากขึ้นเรื่อย ๆ Spotify ขยายการลงทุนในส่วนต่าง ๆ เพื่อการเติบโตบนต้นทุนที่เหมาะสม ทำให้การใช้งานมีทั้ง เพลง พอดคาสต์ หนังสือเสียง เข้าถึงผู้ใช้งานทั่วโลก ที่มา: Spotify arjin Fri, 23/10/2026 - 17:10",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 23 Oct 2026 10:10:59 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-10-24T07:17:09.482433+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -346,7 +345,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442376+00:00"
+    "researched_at": "2026-10-24T07:17:09.481404+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -360,7 +359,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.443040+00:00"
+    "researched_at": "2026-10-24T07:17:09.481898+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -374,7 +373,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442144+00:00"
+    "researched_at": "2026-10-24T07:17:09.481258+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -388,7 +387,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.443229+00:00"
+    "researched_at": "2026-10-24T07:17:09.482035+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -402,7 +401,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.441404+00:00"
+    "researched_at": "2026-10-24T07:17:09.480577+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -416,7 +415,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.442940+00:00"
+    "researched_at": "2026-10-24T07:17:09.481824+00:00"
   },
   {
     "title": "Canva เปิดตัวโมเดลสร้างรูปภาพ Craft ได้คะแนนเป็นรองแค่ GPT Image ตัวเดียว",
@@ -430,7 +429,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-23T07:31:26.443616+00:00"
+    "researched_at": "2026-10-24T07:17:09.482635+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -444,6 +443,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-23T07:31:26.443141+00:00"
+    "researched_at": "2026-10-24T07:17:09.481974+00:00"
   }
 ]
