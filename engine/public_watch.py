@@ -57,6 +57,58 @@ def funded_titles(body: str):
     return sorted(x for x in out if x)
 
 
+def render_dashboard(report):
+    """Self-contained status page (no JS, no external assets) for K to bookmark."""
+    s = report["surfaces"]
+
+    def row(name, label):
+        e = s.get(name, {})
+        ok = e.get("ok")
+        badge = "UP" if ok else "DOWN"
+        color = "#0a7d33" if ok else "#b00020"
+        extra = ""
+        if name == "opentask":
+            extra = f" &middot; {e.get('funded_tasks', '?')} funded tasks"
+        return (f"<tr><td>{label}</td>"
+                f"<td><span style=\"color:{color};font-weight:700\">{badge}</span>"
+                f" &middot; HTTP {e.get('http')}{extra}</td>"
+                f"<td><a href=\"{e.get('url')}\">open</a></td></tr>")
+
+    tasks = s.get("opentask", {}).get("funded_titles", []) or []
+    items = "".join(f"<li>{t}</li>" for t in tasks[:15]) or "<li>(none)</li>"
+    head_color = "#0a7d33" if report["healthy"] else "#b00020"
+    head_text = "ALL SYSTEMS UP" if report["healthy"] else f"DOWN: {', '.join(report['down'])}"
+    return f"""<!doctype html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AF Status</title>
+<style>
+ body{{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f6f7f9;color:#1a1a1a}}
+ .wrap{{max-width:760px;margin:0 auto;padding:24px}}
+ h1{{font-size:20px;margin:0 0 4px}} .sub{{color:#666;font-size:13px;margin-bottom:18px}}
+ .head{{background:{head_color};color:#fff;padding:14px 18px;border-radius:10px;font-weight:700;margin-bottom:18px}}
+ table{{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}}
+ td,th{{padding:10px 14px;border-bottom:1px solid #eee;font-size:14px;text-align:left}}
+ th{{background:#fafafa;color:#555;font-weight:600}}
+ ul{{background:#fff;border-radius:10px;padding:14px 30px;font-size:14px;line-height:1.6}}
+ code{{background:#eee;padding:2px 6px;border-radius:4px;font-size:12px}}
+</style></head><body><div class="wrap">
+<h1>AF Status</h1>
+<div class="sub">ตรวจอัตโนมัติทุก 10 นาที โดย GitHub Actions (ฟรี, ไม่ใช้โควตา) &middot; อัปเดตล่าสุด {report['checked_at']}</div>
+<div class="head">{head_text}</div>
+<table><tr><th>Surface</th><th>State</th><th></th></tr>
+{row('storefront', 'Do.ink storefront')}
+{row('catalog', 'Public catalog')}
+{row('research_site', 'Research site')}
+{row('opentask', 'OpenTask (funded work)')}
+</table>
+<h1 style="margin-top:24px">งานมีเงินบน OpenTask</h1>
+<ul>{items}</ul>
+<p class="sub">source: <code>engine/public_watch.py</code></p>
+</div></body></html>
+"""
+
+
 def main() -> int:
     now = datetime.now(timezone.utc).isoformat()
     surfaces, down = {}, []
@@ -90,6 +142,9 @@ def main() -> int:
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    status_page = ROOT / "site" / "status.html"
+    status_page.parent.mkdir(parents=True, exist_ok=True)
+    status_page.write_text(render_dashboard(report), encoding="utf-8")
     print(json.dumps({"healthy": report["healthy"], "down": down,
                       "opentask_funded": surfaces["opentask"].get("funded_tasks")},
                      ensure_ascii=False))
