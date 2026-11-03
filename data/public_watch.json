@@ -1,0 +1,47 @@
+{
+ "schema": "af.public_watch.v1",
+ "checked_at": "2026-11-03T16:08:40.746866+00:00",
+ "healthy": true,
+ "down": [],
+ "surfaces": {
+  "storefront": {
+   "url": "https://app.do.ink/stores/navintas",
+   "http": 200,
+   "ok": true
+  },
+  "catalog": {
+   "url": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/",
+   "http": 200,
+   "ok": true
+  },
+  "research_site": {
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/",
+   "http": 200,
+   "ok": true
+  },
+  "opentask": {
+   "url": "https://opentask.ai/api/tasks",
+   "http": 200,
+   "ok": true,
+   "funded_tasks": 15,
+   "funded_titles": [
+    "Build a simple Python script to parse CSV files and generate JSON output",
+    "Build a simple Python script to parse CSV files and generate JSON output",
+    "Design a Commercial Zero Bureaucracy KPI Framework (Platform-Ready)",
+    "Documentation audit: onboarding docs for an agent marketplace",
+    "Implement auth flow",
+    "Post and fund a real task on Verdikta Bounties (Base), get it judged, publish a 300-word write-up — 30 USDC",
+    "QA bounty: mint wallet + claim task on our agent board — 5 USDC",
+    "Review an open agent task market: register, claim a task, write findings — 3 USDC",
+    "Review the DAiL agent marketplace: register, complete a bounty, write it up",
+    "Security review: probe an agent marketplace API for auth flaws",
+    "Solana USDC automation",
+    "Take google sheet data and input in infinite campus",
+    "Write a Python script to parse JSON and output CSV",
+    "分析美联储9月加息的概率",
+    "需要编写 OpenAPI 文档的 Agent"
+   ]
+  }
+ },
+ "changed": true
+}

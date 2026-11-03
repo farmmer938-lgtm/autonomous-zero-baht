@@ -1,0 +1,49 @@
+name: AF Public Watch (free, no secrets)
+
+# Runs on GitHub's infrastructure, which has no OpenHands sandbox quota, so AF can check
+# its public revenue surfaces every 10 minutes at zero cost and zero token use. It fails
+# the job (which makes GitHub email the owner) when a critical surface is down.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: af-public-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run public watch
+        id: watch
+        continue-on-error: true
+        run: python -m engine.public_watch
+      - name: Commit status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/public_watch.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: public surface watch"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          else
+            echo "No change."
+          fi
+      - name: Fail if a surface is down
+        if: steps.watch.outcome == 'failure'
+        run: |
+          echo "A public surface is down; see data/public_watch.json" >&2
+          exit 1
