@@ -4,16 +4,23 @@
   "channels": [
     {
       "id": "store",
-      "label": "ร้าน AF Studio (เสื้อยืด/โพสต์อาร์ต พิมพ์ตามสั่ง)",
+      "label": "ร้าน AF Studio (กระเป๋าผ้าแคนวาสพิมพ์ลาย พิมพ์ตามสั่ง)",
       "url": "https://app.do.ink/stores/navintas",
       "kind": "storefront",
       "owned_by": "K"
     },
     {
       "id": "catalog",
-      "label": "แคตตาล็อกดีไซน์ทั้งหมด",
+      "label": "แคตตาล็อกดีไซน์ทั้งหมด (55 ดีไซน์)",
       "url": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/",
       "kind": "catalog",
+      "owned_by": "K"
+    },
+    {
+      "id": "sharekit",
+      "label": "ชุดข้อความพร้อมโพสต์ (คัดลอกได้)",
+      "url": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/share.html",
+      "kind": "share_kit",
       "owned_by": "K"
     }
   ]
