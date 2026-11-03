@@ -37,6 +37,7 @@ jobs:
           git add data/ site/
           if ! git diff --cached --quiet; then
             git commit -m "chore: update research, drafts, and decision logs"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
             git push
           else
             echo "No generated data changes to commit."
