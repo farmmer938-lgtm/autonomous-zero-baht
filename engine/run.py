@@ -9,6 +9,7 @@ from .measure import record_measurement
 from .learn import record_learning
 from .optimize import optimize
 from .economic_loop import build_loop_state, load_runtime_gates, build_activation_readiness, build_human_gate_checklist
+from .site_builder import build_site
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -25,6 +26,7 @@ def main():
         raise
     drafts = generate_drafts(opportunities, int(config.get("max_drafts_per_run", 5))) if opportunities else []
     validations = validate_drafts(drafts)
+    site = build_site([v["path"] for v in validations if v.get("passed")]) if validations else {"pages_built": 0}
     decision = record_decision(len(opportunities), len(drafts), validations)
     measurement = record_measurement(len(opportunities), len(drafts), validations, decision)
     learning = record_learning()
@@ -42,7 +44,7 @@ def main():
         validation_failures=int(measurement.get("validation_failures", 0)),
     )
     log_event("economic_loop_state", **loop_state)
-    log_event("run_completed", research_count=len(opportunities), draft_count=len(drafts), next_action=decision["recommended_action"], optimization_action=optimization["action"])
+    log_event("run_completed", research_count=len(opportunities), draft_count=len(drafts), pages_built=site.get("pages_built", 0), next_action=decision["recommended_action"], optimization_action=optimization["action"])
 
 if __name__ == "__main__":
     main()

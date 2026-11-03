@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,25 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306463+00:00"
+    "researched_at": "2026-11-03T00:30:53.147560+00:00"
+  },
+  {
+    "title": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง",
+    "url": "https://www.blognone.com/node/152084",
+    "summary": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง Body เว็บไซต์ The New Stack ทดสอบคำโม้ของ OpenAI ที่บอกว่าโมเดลใหม่ GPT-6.1 Terra ให้ประสิทธิภาพของคำตอบด้อยกว่าคู่แข่ง Claude Opus 5.5 เล็กน้อย (ต่างกัน 5%) แต่ประหยัดโทเคนกว่า 3 เท่า และค่าใช้งานถูกกว่า 1/4 เท่า (ราคารวมต่อการรันถูกว่า 1/9 เท่า) วิธีการทดสอบของ The New Stack มีทั้งหมด 3 ชุด ใช้การรันโมเดลแบบ max effort ทั้งหมด สร้างซอฟต์แวร์หน้าตาคล้ายๆ GitHub ขึ้นมา เป็นซอฟต์แวร์ที่พัฒนาไม่สำเร็จ แล้วให้โมเดลทั้งสองค่ายลองแก้ไขซอฟต์แวร์ตัวนี้ โดยให้ใช้งานผ่านเบราว์เซอร์แล้วดูภาพหน้าจอ สร้างคลิปวิดีโอการแบ่งเซลล์ 72 เฟรม เหมือนถ่ายจากกล้องจุลทรรศน์ที่ภาพไม่ชัด โมเดลต้องเขียนสคริปต์ Python เพื่อติดตามแต่ละเซลล์ว่าแบ่งมาจากไหน เพื่อตามหาเซลล์ต้นทาง สร้างผลทดสอบการรัน CI ของซอฟต์แวร์ ความยาว 1,200 แถว มีแถวซ้ำ มีข้อมูลเพี้ยน โมเดลจะต้องตอบคำถาม 50 ข้อว่าเกิดอะไรขึ้น โดยไม่มีเครื่องมือภายนอกช่วย ผลการทดสอบ โมเดลทั้งสองตัวแก้ปัญหา 6 จุดได้ครบ แต่ Terra คลิกเว็บน้อยกว่า 5 เท่า สร้างเอาต์พุตน้อยกว่า 5 เท่า ต้นทุนรวม T",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Mon, 02 Nov 2026 04:18:28 +0000",
+    "matched_keywords": [
+      "แก้ปัญหา",
+      "วิธี",
+      "ราคา"
+    ],
+    "keyword_score": 3,
+    "intent_score": 6,
+    "opportunity_score": 9,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T00:30:53.148863+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,39 +49,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307868+00:00"
-  },
-  {
-    "title": "[ลือ] Instacart กำลังเจรจาขายกิจการ ผู้สนใจมีทั้ง Uber และ DoorDash",
-    "url": "https://www.blognone.com/node/152006",
-    "summary": "[ลือ] Instacart กำลังเจรจาขายกิจการ ผู้สนใจมีทั้ง Uber และ DoorDash Body มีรายงานจาก The Information อ้างแหล่งข่าวที่เกี่ยวข้องบอกว่า Instacart แพลตฟอร์มเดลิเวอรี่สินค้าซูเปอร์มาร์เก็ตในสหรัฐอเมริกาและแคนาดา กำลังศึกษาแนวทางขายกิจการและเริ่มเจรจาเบื้องต้นกับผู้ที่สนใจแล้ว โดยสองบริษัทที่ระบุชื่อคือ Uber และ DoorDash ที่ต่างมีบริการเดลิเวอรี่อยู่แล้ว ปัจจุบันมูลค่ากิจการของ Instacart ตามราคาหุ้นอยู่ที่ 1.2 หมื่นล้านดอลลาร์ นั่นหมายความว่าหากมีการซื้อกิจการเกิดขึ้นมูลค่าของดีลก็น่าจะสูงกว่าตัวเลขนี้ ทั้ง Instacart, Uber, DoorDash ปฏิเสธที่จะแสดงความเห็นต่อข่าวลือนี้ ที่มา: Reuters arjin Sat, 24/10/2026 - 17:59",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 24 Oct 2026 10:59:00 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308602+00:00"
-  },
-  {
-    "title": "Windows 11 เพิ่มตัววัดความเร็วเน็ต Internet Speed Test มาในตัว OS",
-    "url": "https://www.blognone.com/node/152009",
-    "summary": "Windows 11 เพิ่มตัววัดความเร็วเน็ต Internet Speed Test มาในตัว OS Body Windows 11 รุ่นทดสอบ Insider Experimental Preview Build 26340.9767 เพิ่มฟีเจอร์เล็กๆ แต่น่าสนใจคือ Internet Speed Test ที่เรียกได้จาก Quick Settings ที่มุมขวาล่างของหน้าจอ Internet Speed Test มีฟีเจอร์พื้นฐานคือแสดงค่าความเร็วฝั่งดาวน์โหลด อัพโหลด และค่า ping ข้อดีคือสะดวก เรียกได้จาก Quick Settings เลย รองรับทั้งเน็ตแบบมีสาย, Wi-Fi หรือต่อผ่าน cellular ของใหม่อีกอย่างใน Build นี้คือ สามารถตั้งค่าเปิดเสียง ปิดเสียง สั่น ของสมาร์ทโฟนที่เชื่อมต่อกับ Windows ได้ผ่าน Quick Settings เช่นกัน ที่มา - Microsoft via Neowin mk Sun, 25/10/2026 - 10:53",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 25 Oct 2026 03:53:39 +0000",
-    "matched_keywords": [
-      "review"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308213+00:00"
+    "researched_at": "2026-11-03T00:30:53.148638+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -79,7 +65,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306040+00:00"
+    "researched_at": "2026-11-03T00:30:53.147182+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -95,7 +81,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306984+00:00"
+    "researched_at": "2026-11-03T00:30:53.147929+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -111,30 +97,30 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306135+00:00"
+    "researched_at": "2026-11-03T00:30:53.147259+00:00"
   },
   {
-    "title": "Google Docs เพิ่มฟีเจอร์ Docs Live เขียนเอกสารซับซ้อนด้วยเสียงพูด 100%",
-    "url": "https://www.blognone.com/node/152010",
-    "summary": "Google Docs เพิ่มฟีเจอร์ Docs Live เขียนเอกสารซับซ้อนด้วยเสียงพูด 100% Body กูเกิลเริ่มปล่อยฟีเจอร์ Docs Live สร้างเอกสารที่ซับซ้อนด้วยเสียงพูดล้วนๆ ที่เปิดตัวในเดือนกันยายน ให้ลูกค้า Google Workspace ใช้งาน วิธีการใช้ฟีเจอร์นี้คือเปิดแอพ Google Docs บนมือถือ กดปุ่มไมโครโฟน แล้วพูดสั่งสิ่งที่ต้องการให้มีในเอกสารได้เลย หลังจากนั้นโมเดล AI จะสร้างเอกสารตามที่เราสั่งมานำเสนอ ใส่ตารางหรือหัวข้อให้เสร็จสรรพ พร้อมดึงข้อมูลจากอีเมลหรือเอกสารอื่นๆ ของเรามาประกอบให้ด้วย กูเกิลแนะนำตัวอย่างการใช้งาน Docs Live คือหลังประชุมเสร็จ มีไอเดียในหัวเต็มไปหมด ก็สามารถกดปุ่มไมโครโฟนแล้วพูดไอเดียต่างๆ ให้พรั่งพรูออกมาจากสมอง เพื่อให้ Docs Live นำไปสร้างเป็นเอกสารจริงจังให้ ถ้าถามว่าฟีเจอร์นี้ต่างจากการสั่งให้ Gemini ร่างเอกสารแล้วนำไปใส่ใน Google Docs อย่างไร ก็คงต่างกันที่วิธีการสั่งงานที่อยู่ในแอพ Google Docs โดยตรง (ฟีเจอร์ชุดนี้ยังมี Gmail Live และ Keep Live) ฟีเจอร์นี้ใช้ได้กับลูกค้า Google Workspace แบบเสียเงิน และลูกค้าทั่วไปที่ซื้อแพ็กเกจ Google AI Pro ขึ้นไป ที่มา - Google mk Sun, 25/10/2026 - 10:",
+    "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
+    "url": "https://www.blognone.com/node/152032",
+    "summary": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม Body Google เปิดตัว Gemini 4 Argon โมเดล AI ระดับแนวหน้ารุ่นล่าสุดอย่างเป็นทางการ โดยพร้อมให้ใช้งานทั่วไป (GA) ใน Gemini Enterprise แล้ว โดย Gemini 4 Argon ถูกสร้างมาเพื่อการใช้เหตุผลเชิงลึก สามารถแก้ปัญหาที่ยากและซับซ้อนเหมาะกับการใช้งานระดับองค์กรทั้งด้านวิศวกรรมซอฟต์แวร์ การวิจัยทางการเงิน การร่างเอกสารทางกฎหมาย และการป้องกันภัยไซเบอร์ Gemini 4 Argon มีจุดเด่นหลักๆ ได้แก่ เอาต์พุตสูงสุด 1 ล้านโทเคน: ขยายขีดจำกัดเอาต์พุตจาก 64,000 เป็น 1,000,000 โทเคน ช่วยให้ใช้เหตุผลเชิงลึกและทำงานขนาดใหญ่ได้จบในรอบเดียวโดยไม่สะดุด มาตรฐานวัดผลด้านวิศวกรรมซอฟต์แวร์: ทำคะแนนสูงสุดใหม่ที่ 77.9% บน DeepSWE v1.1 และจัดการการย้ายระบบ codebase ขนาดใหญ่กว่า 800,000 บรรทัดได้ การป้องกันและความปลอดภัยไซเบอร์แบบอัตโนมัติ: ครองอันดับ 1 ร่วมบน CWE-Bench v1 (คะแนนการแก้ไขช่องโหว่ 68%) พร้อมการป้องกัน Indirect Prompt Injection ที่ดีที่สุดในอุตสาหกรรม โดยลดอัตราการโจมตีสำเร็จเหลือ 0.7% Gemini 4 Argon พร้อมให้ใช้งานได้แล้ววันนี้ สำห",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 25 Oct 2026 03:59:59 +0000",
+    "published": "Wed, 28 Oct 2026 10:00:00 +0000",
     "matched_keywords": [
-      "วิธี"
+      "แก้ปัญหา"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308133+00:00"
+    "researched_at": "2026-11-03T00:30:53.148713+00:00"
   },
   {
-    "title": "Google Cloud จะเปิดบริการเครื่อง A5X ใช้ชิป Vera Rubin ในเดือนพฤศจิกายน 2026",
-    "url": "https://www.blognone.com/node/152008",
-    "summary": "Google Cloud จะเปิดบริการเครื่อง A5X ใช้ชิป Vera Rubin ในเดือนพฤศจิกายน 2026 Body Google Cloud เป็นผู้ให้บริการคลาวด์กลุ่มแรกๆ ที่เตรียมนำชิป NVIDIA Vera Rubin (ตัวต่อจาก Grace Blackwell) มาให้บริการในเดือนหน้า (พฤศจิกายน 2026) Google Cloud จะออก instance ชนิดใหม่ชื่อ A5X (นับเลขต่อจาก A4 ที่เป็น Blackwell B200) มาให้เช่าใช้งานกัน (ตอนนี้ยังไม่ประกาศราคา) เบื้องหลังของมันเป็นเครื่อง Vera Rubin NVL72 ที่ประกอบด้วยซีพียู Vera 36 ตัว กับจีพียู Rubin 72 ตัว กูเกิลระบุว่าวางแผนจะจัดซื้อ Rubin รวม 960,000 ตัวกระจายตามจุดต่างๆ ทั่วโลก (ศูนย์ข้อมูลหนึ่งแห่งมีได้สูงสุด 80,000 ตัว) แล้วเชื่อมกันด้วยระบบเครือข่าย Virgo Network ที่กูเกิลออกแบบเอง ที่มา - Google , NVIDIA mk Sat, 24/10/2026 - 20:57",
+    "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
+    "url": "https://www.blognone.com/node/152043",
+    "summary": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน Body GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน ในยุคที่ เกมระดับ AAA กินสเปกโหดขึ้นเรื่อยๆ การต้องอัปเกรดคอมพิวเตอร์หรือวิ่งตามราคาการ์ดจอที่พุ่งสูงขึ้นกลายเป็นอุปสรรคที่ขวางกั้นความสนุกของเกมเมอร์หลายคน แต่ปัญหานี้กำลังจะหมดไปด้วย GeForce NOW powered by bro.game บริการ Cloud Gaming จาก NVIDIA ที่ให้บริการโดย bro.game ซึ่งเป็น Alliance Partner อย่างเป็นทางการ รายแรกและรายเดียวในไทย มาพร้อมกับคอนเซปต์ เล่นได้ทุกที่ มันส์ได้ทุกจอ เซิร์ฟเวอร์อยู่กรุงเทพฯ ปิงหลักหน่วย สัมผัสพลัง RTX 4080 โดยไม่ต้องประกอบคอมใหม่ อุปสรรคหนึ่งของเกมเมอร์คือ ต้องอัปเกรดคอมตามเกมใหม่ที่ออกมา แต่ GeForce NOW จัดการเรื่องนี้ โดยยกเอาฮาร์ดแวร์ระดับท็อปไปไว้บนคลาวด์ โดยมีแพ็กเกจให้ผู้ที่สนใจได้ใช้งาน ซึ่งสำหรับแพ็ก Ultimate จะได้เข้าถึงพลังการประมวลผลที่เทียบเท่าการ์ดจอ GeForce RTX 4080 รองรับการเปิ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 24 Oct 2026 13:57:04 +0000",
+    "published": "Wed, 28 Oct 2026 09:30:26 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -143,7 +129,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308384+00:00"
+    "researched_at": "2026-11-03T00:30:53.148789+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -159,7 +145,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307276+00:00"
+    "researched_at": "2026-11-03T00:30:53.148165+00:00"
+  },
+  {
+    "title": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play",
+    "url": "https://www.blognone.com/node/152082",
+    "summary": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play Body BOOX แบรนด์เครื่องอ่านอีบุ๊กจากประเทศจีน เปิดตัวฮาร์ดแวร์ใหม่ของปี 2026 ดังนี้ BOOX Palma 3 เครื่องอ่านขนาดพกพารุ่นต่อจาก Palma 2 ในปี 2024 ใช้จอ ePaper ขนาด 6.13 นิ้ว ไซส์เท่ามือถือ (แต่โทรไม่ได้) รัน Android 16 มี Google Play Store ในตัว, แรม 6GB, สตอเรจ 128GB + microSD, รองรับปากกา InkSense Plus ใช้เขียนบันทึกได้, ราคา 319.99 ดอลลาร์ BOOX Note Mini C เครื่องอ่านหน้าจอ ePaper แบบสี ขนาด 8.52 นิ้ว, รัน Android 16 มี Google Play Store ในตัว, แรม 6GB, สตอเรจ 64GB + microSD, รองรับปากกา InkSense Plus ใช้เขียนบันทึกได้, ราคา 549.99 ดอลลาร์ BOOX Note Air6 C เครื่องอ่านหน้าจอ ePaper แบบสี ขนาด 10.3 นิ้ว, รัน Android 16 มี Google Play Store ในตัว, แรม 6GB, สตอเรจ 64GB + microSD, รองรับปากกา Pen3 ใช้เขียนบันทึกได้, ราคา 579.99 ดอลลาร์ mk Sun, 01/11/2026 - 21:23",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 01 Nov 2026 14:23:29 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T00:30:53.149009+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -175,35 +177,49 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307064+00:00"
+    "researched_at": "2026-11-03T00:30:53.147993+00:00"
   },
   {
-    "title": "รายงานเศรษฐกิจดิจิทัลเอเชียตะวันออกเฉียงใต้ 2026: AI เข้ามามีบทบาทในทุกส่วนของ คนเชื่อมั่นในการใช้งานมากกว่าปีก่อน",
-    "url": "https://www.blognone.com/node/152005",
-    "summary": "รายงานเศรษฐกิจดิจิทัลเอเชียตะวันออกเฉียงใต้ 2026: AI เข้ามามีบทบาทในทุกส่วนของ คนเชื่อมั่นในการใช้งานมากกว่าปีก่อน Body รายงานประจำปีเกี่ยวกับเศรษฐกิจดิจิทัลภูมิภาคเอเชียตะวันออกเฉียงใต้ e-Conomy SEA ประจำปี 2026 โดย Google, Temasek และ Bain &amp; Company ได้เผยแพร่ออกมาแล้ว ประเด็นสำคัญในรายงานของปีนี้คือตลาดของ Generative AI ที่เข้ามามีบทบาทในเศรษฐกิจดิจิทัลทุกส่วนของภูมิภาคนี้ ซึ่งการจัดทำก็เพิ่มเติมถึงเศรษฐกิจที่เกี่ยวข้องกับ AI ด้วย มูลค่าสินค้ารวมหรือ GMV แบบคิดรวมทั้ง 10 ประเทศในอาเซียน ปีนี้คาดตัวเลขที่ 3.68 แสนล้านดอลลาร์ เพิ่มขึ้น 17% จาก ปี 2025 รายงานยังประเมินแนวโน้มการเติบโตหากอยู่ในระดับ 13% ต่อปี มูลค่ารวมจะไปสู่ระดับ 1 ล้านล้านดอลลาร์ ภายในปี 2035 รายงานพูดถึง AI ที่ส่งผลกระทบต่อเศรษฐกิจดิจิทัลในทุกกลุ่มให้มีการเติบโตสูงต่อเนื่อง อีคอมเมิร์ซ (+18%) นำ AI มาช่วยในระบบค้นหา-ค้นพบสินค้า, บริการท่องเที่ยว (+10%) GenAI เป็นเครื่องมือยอดนิยมในการวางแผนท่องเที่ยว จากเดิมไปค้นหาในโซเชียล, สื่อออนไลน์ (+22%) AI ช่วยให้คอนเทนต์ปรับแต่งเฉพาะผู้ใช้งานตรงจุดขึ้น Engagement เพิ่มระด",
+    "title": "ไมโครซอฟท์บอกตั้งใจให้ Taskbar ลากเพื่อย้ายตำแหน่งไม่ได้ ป้องกันบังเอิญย้าย",
+    "url": "https://www.blognone.com/node/152079",
+    "summary": "ไมโครซอฟท์บอกตั้งใจให้ Taskbar ลากเพื่อย้ายตำแหน่งไม่ได้ ป้องกันบังเอิญย้าย Body Diego Baca หัวหน้าฝ่ายดีไซน์ของ Windows ตอบโพสต์ของเว็บไซต์ Windows Central ในประเด็น \"ลาก Taskbar เพื่อย้ายตำแหน่งไม่ได้\" หลังจาก Windows 11 เปิดให้ย้ายตำแหน่งของ Taskbar ได้แล้ว Baca อธิบายว่าไมโครซอฟท์ \"ตั้งใจ\" ให้ลาก Taskbar ไม่ได้เพื่อป้องกันการเผลอกดที่ Taskbar แล้วลากไปโดยบังเอิญ และนี่เป็นเหตุผลว่าใน Windows เวอร์ชันก่อนๆ มีตัวเลือก \"Lock the Taskbar\" เอาไว้ให้ ทีมของ Baca พบว่าผู้ใช้ Windows ไม่ได้เปลี่ยนตำแหน่งของ Taskbar กันบ่อยขนาดนั้น จึงคิดว่าการให้คลิกขวาที่ Taskbar แล้วเลือก Settings เพื่อย้ายตำแหน่งน่าจะเหมาะสมกว่าสำหรับคนที่ตั้งใจย้ายตำแหน่ง แถมยังคาดเดาพฤติกรรมได้ง่ายกว่า สรุปแล้วมันคือความตั้งใจให้เป็นอย่างนี้ ไม่ใช่ตัวเลือกขาดหายไป ที่มา - Windows Central I find headlines like these unnecessarily negative. Instead of saying “you still need” a third-party app, why not say “you can also use” one? It communicates the same information without framing everything as a shortcoming. From our r",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 24 Oct 2026 13:10:00 +0000",
+    "published": "Sun, 01 Nov 2026 13:11:14 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308475+00:00"
+    "researched_at": "2026-11-03T00:30:53.149228+00:00"
   },
   {
-    "title": "คุยกับคุณณัชพล เด่นดำรงทรัพย์ หนึ่งในทีมงาน LlamaIndex ผู้ให้บริการรวบรวมเอกสารในองค์กรเพื่อใช้กับ AI",
-    "url": "https://www.blognone.com/node/152012",
-    "summary": "คุยกับคุณณัชพล เด่นดำรงทรัพย์ หนึ่งในทีมงาน LlamaIndex ผู้ให้บริการรวบรวมเอกสารในองค์กรเพื่อใช้กับ AI Body แนวทางการใช้งาน AI ในกลุ่ม LLM ในช่วงหลัง นอกจากการใช้แบบ agentic ช่วยเขียนโค้ดหรือทำงานแทน อีกด้านหนึ่งคือการนำเอกสารภายในองค์กรที่เป็นความรู้เฉพาะมาให้ AI อ่านและตีความเพื่อให้ AI สามารถทำงานเฉพาะทาง เช่น กระบวนการเฉพาะของบริษัท ตลอดจนข้อมูลในองค์กรที่เดิมอาจจะเก็บในรูปแบบที่สืบค้นได้ยากและมักเป็นไฟล์รูปภาพหรือ PDF ที่แปลงเป็นข้อความโดยตรงไม่ได้ ข้อจำกัดเหล่านี้ทำให้ความนิยมในการแปลงเอกสารเป็นข้อความสูงขึ้นมาก เนื่องจากที่ผ่านมา AI มักอ่านข้อความเป็นหลัก การเก็บเอกสารเป็นข้อความทำให้เราสามารถค้นหาที่มาของความรู้ต่างๆ ได้โดยง่าย ในโลก AI เราเห็นโครงการจำนวนมากพยายามนำเสนอแนวทางการแปลงภาพเป็นข้อความ เช่น Docling ของ IBM , LlamaIndex , Unstructured ตัว LlamaIndex ที่เป็นหนึ่งในโครงการที่ได้รับความนิยมอย่างสูง แม้ในช่วงหลังบริษัทจะหันไปเน้นบริการ LlamaParse ที่เป็นคลาวด์ แต่ก็ยังคงพัฒนาตัวเฟรมเวิร์ค LlamaIndex พร้อมกับโอเพนซอร์สโครงการ LiteParse ออกมาและพัฒนาต่อเนื่อง ผมได้มีโอกาสพู",
+    "title": "บริษัทจีพียูคลาวด์แนว Neocloud เริ่มประสบปัญหาระดมทุนสร้างศูนย์ข้อมูลยากขึ้น",
+    "url": "https://www.blognone.com/node/152083",
+    "summary": "บริษัทจีพียูคลาวด์แนว Neocloud เริ่มประสบปัญหาระดมทุนสร้างศูนย์ข้อมูลยากขึ้น Body Wall Street Journal รายงานข่าวจากแวดวงการเงินว่า ผู้ให้บริการคลาวด์ยุคใหม่ที่เรียกรวมๆ ว่า neocloud (ซึ่งเริ่มมาจากธุรกิจให้เช่าจีพียู หลายรายเป็นบริษัทขุดเหมืองคริปโตมาก่อน เช่น CoreWeave ) เริ่มประสบปัญหาระดมทุนยากขึ้น ทั้งรูปแบบกู้เงิน (ผ่านการออกหุ้นกู้) และการขายหุ้น IPO เข้าตลาดหลักทรัพย์ ตัวอย่างบริษัทกลุ่ม neocloud ได้แก่ CoreWeave, IREN, Nscale, Nebius, Lambda ซึ่งมีโมเดลธุรกิจคล้ายๆ กันคือระดมทุนซื้อจีพียูจำนวนมากๆ แล้วนำมาปล่อยให้บริษัทเทคโนโลยีเช่าต่ออีกที ในช่วงก่อนหน้านี้ที่วงการ AI เริ่มบูม ส่งผลให้ธุรกิจ neocloud ได้รับความสนใจอย่างมาก แต่หลังจากเวลาผ่านมา 2-3 ปี มูลค่าการระดมทุนเพิ่มสูงขึ้นเรื่อยๆ (ตัวเลขปี 2025-2026 รวมกันเกิน 1 ล้านล้านดอลลาร์) จนทำให้ตลาดทุนตั้งคำถามว่า บริษัทเหล่านี้จะมีรายได้เพียงพอในการกลับมาจ่ายหนี้จำนวนมหาศาลหรือไม่ Lambda ปรับลดเป้าหมายการระดมทุนขายหุ้นรอบล่าสุด (รอบสุดท้ายก่อน IPO) จากเดิมตั้งเป้ามูลค่าบริษัท 14.5 พันล้านดอลลาร์ เหลือ 13 พันล้านดอลลาร์ Nscale จา",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 25 Oct 2026 06:24:37 +0000",
+    "published": "Mon, 02 Nov 2026 01:56:20 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.307961+00:00"
+    "researched_at": "2026-11-03T00:30:53.148933+00:00"
+  },
+  {
+    "title": "ดาวเทียม Suncatcher ของกูเกิลทำงานแล้ว สั่ง TPU แต่งกลอนไฮกุจากอวกาศ",
+    "url": "https://www.blognone.com/node/152081",
+    "summary": "ดาวเทียม Suncatcher ของกูเกิลทำงานแล้ว สั่ง TPU แต่งกลอนไฮกุจากอวกาศ Body กูเกิลอัพเดตความคืบหน้าของ Project Suncatcher ส่งดาวเทียมฝัง TPU ขึ้นไปทดสอบบนอวกาศ หลังจากยิงดาวเทียมขึ้นไปเมื่อวันที่ 1 ตุลาคม ก็ใช้เวลาช่วงที่ผ่านมาตรวจสอบสถานะว่า TPU ทำงานได้หรือไม่ เริ่มตั้งแต่การเปิดเครื่องและทดสอบระบบต่างๆ ในสัปดาห์ที่ผ่านมา กูเกิลเริ่มทดสอบการทำงานจริง (แบบเดียวกับ Hello World) นั่นคือสั่งให้ โมเดล Gemma 4 ที่รันใน TPU บนอวกาศประมวลผลคำตอบ ซึ่ง prompt แรกคือการบอกให้โมเดลแต่งกวีไฮกุเกี่ยวกับการอยู่ในอวกาศ กวีบทแรกที่แต่งโดย AI บนอวกาศคือ Blue marble below Data streams in silent grace Starlight feeds my core. ✨ หลังจากนั้น กูเกิลยังทดสอบข้อมูลทางเทคนิคต่างๆ และบอกว่ามีแผนทดสอบประสิทธิภาพ TPU ให้หนักขึ้นเรื่อยๆ เพื่อหาลิมิตว่า TPU สามารถทำงานในสภาพแวดล้อมที่จำกัดเรื่องความร้อนและการโดนรังสีได้แค่ไหน แล้วจะนำข้อมูลนี้ไปทดสอบกับดาวเทียมคู่ 2 ดวงสื่อสารกันในปี 2027 ต่อไป ที่มา - Google mk Sun, 01/11/2026 - 20:46",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 01 Nov 2026 13:46:06 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T00:30:53.149077+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -217,7 +233,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306814+00:00"
+    "researched_at": "2026-11-03T00:30:53.147794+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -231,7 +247,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307381+00:00"
+    "researched_at": "2026-11-03T00:30:53.148252+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -245,7 +261,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307172+00:00"
+    "researched_at": "2026-11-03T00:30:53.148082+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -259,7 +275,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306247+00:00"
+    "researched_at": "2026-11-03T00:30:53.147347+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -273,7 +289,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306357+00:00"
+    "researched_at": "2026-11-03T00:30:53.147470+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -287,7 +303,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306616+00:00"
+    "researched_at": "2026-11-03T00:30:53.147643+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -301,21 +317,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306899+00:00"
-  },
-  {
-    "title": "Muse ผู้ช่วย AI ของ Meta เริ่มให้บริการในญี่ปุ่นแล้ว รองรับทั้ง Mercari และ Ticket PIA",
-    "url": "https://www.blognone.com/node/152007",
-    "summary": "Muse ผู้ช่วย AI ของ Meta เริ่มให้บริการในญี่ปุ่นแล้ว รองรับทั้ง Mercari และ Ticket PIA Body Meta ประกาศเริ่มให้บริการ ผู้ช่วย AI Muse ในประเทศญี่ปุ่นแล้ว เป็นประเทศแรกนอกทวีปอเมริกาเหนือ (ตอนนี้มีแค่สหรัฐอเมริกา กับแคนาดา) โดย Muse สามารถทำงานและจัดการสิ่งต่าง ๆ ตามคำสั่ง เช่น ส่งอีเมล กำหนดนัดหมาย โพสต์ขายสินค้า จองทริปเดินทาง ฯลฯ ผ่านแอปสมาร์ทโฟนและผ่านเว็บไซต์ meta.ai Meta บอกว่า Muse สำหรับผู้ใช้งานในญี่ปุ่น นอกจากรองรับบริการต่าง ๆ อย่าง Gmail, Google Calendar, Instagram, Stripe, Shopify, Trip.com, Agoda, Klook แล้ว ยังรองรับบริการออนไลน์ของประเทศญี่ปุ่นอย่าง Mercari (แพลตฟอร์มสินค้ามือสอง), Money Forward ME (บริการการเงิน), Ticket PIA (บริการซื้อบัตรกิจกรรม) โดยจะเพิ่มบริการในประเทศอีกในอนาคต Muse สามารถใช้งานได้ฟรี และสามารถจ่ายเงิน subscription เพื่อให้ได้ฟีเจอร์อื่นเพิ่มเติม ที่มา: Meta arjin Sat, 24/10/2026 - 23:57",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 24 Oct 2026 16:57:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308300+00:00"
+    "researched_at": "2026-11-03T00:30:53.147862+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -329,7 +331,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307593+00:00"
+    "researched_at": "2026-11-03T00:30:53.148414+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -343,7 +345,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.306708+00:00"
+    "researched_at": "2026-11-03T00:30:53.147711+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -357,7 +359,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307781+00:00"
+    "researched_at": "2026-11-03T00:30:53.148568+00:00"
+  },
+  {
+    "title": "Meta ออกแอป Style Sketch แนะนำสไตล์แต่งตัวด้วย AI ตอนนี้ทดสอบบางประเทศ​ มีไทยด้วย",
+    "url": "https://www.blognone.com/node/152078",
+    "summary": "Meta ออกแอป Style Sketch แนะนำสไตล์แต่งตัวด้วย AI ตอนนี้ทดสอบบางประเทศ​ มีไทยด้วย Body Meta ออกแอปทดลองตลาดเกี่ยวกับ AI เพิ่มเติมอีก 2 แอป ได้แก่ Style Sketch และ Waddle World เพิ่มเติมจาก Pocket แอปสร้างเกมด้วย AI และ Vibes แอปรวมวิดีโอที่สร้างด้วย AI โดยเฉพาะ Style Sketch ทำงานโดยเชื่อมต่อกับ Instagram ของผู้ใช้งาน เพื่อจดจำลักษณะของเรา และเสื้อผ้าที่สวมใส่ ผู้ใช้งานยังสามารถอัปโหลดรูปเพิ่มเติมได้ จากนั้นแอปจะแนะนำการแต่งตัวจากชุดที่มี หรืออ้างอิงจากชุดและผู้สวมใส่ที่มีลักษณะรูปร่างคล้ายกันให้ แอป Style Sketch ตอนนี้ทดสอบเฉพาะในบางประเทศ​ ซึ่งมีประเทศไทยเป็นหนึ่งในนั้นด้วย มีให้ดาวน์โหลดทั้งบน iOS และ Android อีกหนึ่งแอปคือ Waddle World เป็นแอปสร้างสัตว์เลี้ยงเสมือน ผ่านการเลี้ยงดูด้วยการแชทแบบ AI ตอนนี้ทดสอบเฉพาะในฟิลิปปินส์ประเทศเดียว ที่มา: TechCrunch arjin Sun, 01/11/2026 - 15:22",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 01 Nov 2026 08:22:43 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T00:30:53.149293+00:00"
+  },
+  {
+    "title": "Krafton ประกาศทำซีรีส์ PUBG ฉบับคนแสดงกับ Netflix, ได้ Donald Glover แสดงนำ",
+    "url": "https://www.blognone.com/node/152077",
+    "summary": "Krafton ประกาศทำซีรีส์ PUBG ฉบับคนแสดงกับ Netflix, ได้ Donald Glover แสดงนำ Body Krafton ประกาศข่าวการสร้างซีรีส์คนแสดงจากเกม PUBG ร่วมกับ Netflix โดยจะได้ดาราดังอย่าง Donald Glover มาแสดงเองและกำกับเองด้วย ทีมงานของ Donald Glover ยังมี Stephen Glover น้องชายของเขาที่จะมาเขียนบทและควบคุมการผลิตร่วมกัน (ทั้งสองคนมีผลงานร่วมกันมาแล้วในซีรีส์ Atlanta) นอกจากนี้ ในทีมโปรดิวเซอร์ยังมี Michael Schaefer (Neon TV), Fam Udeorji (Gilga) กับ Taeseok Jang และ Sujin Lee จาก LV3H บริษัทด้านโปรดักชันในเครือ Krafton ร่วมด้วย ความน่าสนใจของโครงการนี้คือ เอาจริงๆ แล้วเกม PUBG ไม่ได้มีพล็อตอะไรเป็นชิ้นเป็นอัน นอกจากคน 100 คนกระโดดร่มลงมาสู้กันบนเกาะ ซึ่ง Krafton เองก็พยายามสร้างเนื้อเรื่องของ PUBG โดยใช้ชื่อว่า PUBG Universe ซึ่งมีทั้งเหตุการณ์ในอดีตปี 1965, เหตุการณ์ปัจจุบัน (เกมภาคหลักคือ Battleground) และภาคอนาคต ศตวรรษที่ 22 ต้องรอดูกันว่า PUBG ฉบับซีรีส์จะเลือกเล่าเรื่องอย่างไร ที่มา - Eurogamer , Variety mk Sun, 01/11/2026 - 11:36",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sun, 01 Nov 2026 04:36:15 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T00:30:53.149397+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -371,21 +401,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.305908+00:00"
-  },
-  {
-    "title": "Google อัปเดตนโยบายความเป็นส่วนตัว อาจใช้ข้อมูลใน Drive, Photos มาปรับแต่งโฆษณา หากเชื่อมต่อกับ Personal Intelligence ไว้",
-    "url": "https://www.blognone.com/node/152004",
-    "summary": "Google อัปเดตนโยบายความเป็นส่วนตัว อาจใช้ข้อมูลใน Drive, Photos มาปรับแต่งโฆษณา หากเชื่อมต่อกับ Personal Intelligence ไว้ Body กูเกิลปรับปรุงนโยบายความเป็นส่วนตัว (Privacy Policy) โดยเน้นไปที่ Personal Intelligence ฟีเจอร์ที่ทำให้ Gemini เชื่อมต่อกับแอปต่าง ๆ ของกูเกิลของผู้ใช้งาน เช่น Drive, Photos, Gmail ทำให้คำตอบตรงกับความสนใจของผู้ใช้งานมากขึ้น ซึ่งกูเกิลใช้คำว่า \"อาจ\" ใช้ข้อมูลนี้แชร์ให้กับบริการอื่นของกูเกิลสำหรับการแสดงผลโฆษณาแบบปรับแต่งเฉพาะบุคคล ขึ้นอยู่กับสิทธิที่เปิดให้เข้าถึง กูเกิลอธิบายรายละเอียดเพิ่มเติมว่าไม่ได้แปลว่ามีการสแกนอีเมลหรือรูปภาพที่เก็บไว้แบบอัตโนมัติเพื่อใช้แสดงโฆษณา (ซึ่งที่ผ่านมากูเกิลก็บอกไม่ได้ทำ) แต่หากมีการแชร์ข้อมูลนี้กับบริการอื่นของกูเกิลที่เข้าเงื่อนไขนำไปแสดงโฆษณา ข้อมูลส่วนนี้ก็อาจถูกนำไปใช้งานได้ โดยกูเกิลบอกว่าผู้ลงโฆษณาและกูเกิลจะไม่เข้าถึงข้อมูลที่ระบุตัวบุคคลได้ ผู้ใช้งานสามารถปิดการเข้าถึงนี้ได้หากเปิดการเชื่อมต่อไว้ โดยไปที่บัญชี Google ดูที่ส่วน Data &amp; privacy &gt; Personalization settings &gt; Manage Personalized Recommendations in",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 24 Oct 2026 09:13:03 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308696+00:00"
+    "researched_at": "2026-11-03T00:30:53.147075+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -399,35 +415,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307465+00:00"
+    "researched_at": "2026-11-03T00:30:53.148319+00:00"
   },
   {
-    "title": "Gemini เปิดใช้ฟีเจอร์ Personal Intelligence กับการใช้งานในรถยนต์แล้ว",
-    "url": "https://www.blognone.com/node/152003",
-    "summary": "Gemini เปิดใช้ฟีเจอร์ Personal Intelligence กับการใช้งานในรถยนต์แล้ว Body กูเกิลเริ่มปล่อย ฟีเจอร์ Personal Intelligence (ที่เปิดทางให้ Gemini รู้ข้อมูลส่วนบุคคลของเราจากบัญชี Google Account) ให้กับการใช้งานในรถยนต์ ทั้ง Android Auto และ Cars with Google built-in (Android Automotive) หากผู้ใช้เปิดใช้งาน Personal Intelligence ก็จะสามารถถามข้อมูลจาก Gemini ในรถยนต์ได้เลย เช่น ขับรถไปสนามบินก็ถามได้ว่าเที่ยวบินไหน ประตูหมายเลขเท่าไร, หาร้านอาหารตามสไตล์ที่เราชอบ บนเส้นทางขับรถ, ค้นหาข้อมูลจาก Gmail หรือ Google Calendar ได้ เป็นต้น ฟีเจอร์นี้เปิดใช้งานกับ Android Auto แล้ว ส่วน Cars with Google built-in ต้องรออีกหลายเดือน ที่มา - Google mk Sat, 24/10/2026 - 15:05",
+    "title": "FBI ระบุ กลุ่มแฮ็กเกอร์เกาหลีเหนือเป็นผู้แฮ็ก Binance",
+    "url": "https://www.blognone.com/node/152080",
+    "summary": "FBI ระบุ กลุ่มแฮ็กเกอร์เกาหลีเหนือเป็นผู้แฮ็ก Binance Body FBI ออกรายงานสืบสวน กรณี Binance ถูกแฮ็กครั้งใหญ่ 6 พันล้านดอลลาร์ ว่าต้นตอมาจากกลุ่มแฮ็กเกอร์เกาหลีเหนือ ที่ถูกตั้งชื่อโดย FBI ว่า TraderTraitor FBI บอกว่า TraderTraitor กำลังพยายามแปลงสินทรัพย์ดิจิทัลที่ขโมยมาเป็น Ethereum (ETH) เพื่อนำไปฟอกเงินผ่านระบบการเงินแบบ DeFi ต่อไป จึงเปิดเผยที่อยู่ของกลุ่ม TraderTraitor เพื่อให้ภาคเอกชนช่วยกันเฝ้าระวังว่ามีความเคลื่อนไหวใดๆ หรือไม่ ความเคลื่อนไหวของฝั่ง Binance คือ สามารถชดเชยเหรียญให้กับลูกค้าได้แล้ว 90% ของความเสียหายทั้งหมด เหลือเฉพาะเหรียญที่ไม่ค่อยได้รับความนิยมเท่านั้น The FBI is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange, Binance, on or about October 29, 2026. The FBI refers to this specific North Korean malicious cyber activity as \"TraderTraitor.\" The FBI, together with partners at the USSS and IRS-CI, has observed TraderTraitor",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 24 Oct 2026 08:05:37 +0000",
+    "published": "Sun, 01 Nov 2026 13:24:17 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308775+00:00"
-  },
-  {
-    "title": "Bose ซื้อกิจการบริษัทหูฟังไลฟ์สไตล์ Skullcandy",
-    "url": "https://www.blognone.com/node/152011",
-    "summary": "Bose ซื้อกิจการบริษัทหูฟังไลฟ์สไตล์ Skullcandy Body Bose บริษัทเครื่องเสียงชื่อดัง ประกาศซื้อกิจการ Skullcandy ผู้ผลิตหูฟังสายไลฟ์สไตล์-เกมมิ่ง จากเจ้าของรายเดิมคือกองทุนของ Mill Road Capital Management โดยไม่เปิดเผยมูลค่า Skullcandy ก่อตั้งในปี 2003 ที่เมือง Park City ในรัฐ Utah เติบโตจนเข้าตลาดหลักทรัพย์ในปี 2011 แล้วออกจากตลาดหลักทรัพย์หลังโดน Mill Road Capital Management ซื้อกิจการในปี 2016 ทั้งสองบริษัทเคยมีผลงานร่วมกันเป็น หูฟัง Skullcandy with Sound by Bose ที่นำเทคโนโลยีเสียงของ Bose ไปใช้งาน จนกระทั่งนำมาสู่การซื้อกิจการในครั้งนี้ หลังจากการซื้อกิจการแล้ว Skullcandy จะยังมีสถานะเป็นแบรนด์แยกของตัวเองต่อไป ที่มา - Bose mk Sun, 25/10/2026 - 11:49",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 25 Oct 2026 04:49:24 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-10-25T07:34:58.308039+00:00"
+    "researched_at": "2026-11-03T00:30:53.149153+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -441,6 +443,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-10-25T07:34:58.307698+00:00"
+    "researched_at": "2026-11-03T00:30:53.148502+00:00"
   }
 ]

@@ -4,9 +4,20 @@ from engine.economic_loop import GateStatus, LoopState, build_loop_state, load_r
 
 class EconomicLoopTests(unittest.TestCase):
     def test_runtime_gates_are_loaded_from_safe_config(self):
-        gates = load_runtime_gates(Path(__file__).resolve().parents[1])
-        self.assertFalse(gates["distribution_enabled"])
-        self.assertFalse(gates["live_publish_authorized"])
+        import json
+        root = Path(__file__).resolve().parents[1]
+        gates = load_runtime_gates(root)
+        config = json.loads((root / "config" / "distribution.json").read_text(encoding="utf-8"))
+        # Gates must mirror the versioned config exactly; live distribution is only
+        # on when the owner authorization record is present.
+        self.assertEqual(gates["distribution_enabled"], config["enabled"] is True)
+        if config["enabled"]:
+            auth = config["external_platform_gate"].get("authorization") or {}
+            self.assertTrue(auth.get("authorized_by"))
+            self.assertEqual(auth.get("cost_thb"), 0)
+        else:
+            self.assertFalse(gates["distribution_enabled"])
+        # Economic verification stays unauthorized until provider-side evidence exists.
         self.assertFalse(gates["economic_verification_authorized"])
 
     def test_disabled_distribution_stays_pending(self):

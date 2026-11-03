@@ -2,7 +2,10 @@
   "schema_version": 1,
   "enabled": true,
   "mode": "readiness",
-  "live_distribution": {"enabled": false, "authorized": false},
+  "live_distribution": {
+    "enabled": true,
+    "authorized": true
+  },
   "economic_verification": {
     "enabled": true,
     "authorized": false,

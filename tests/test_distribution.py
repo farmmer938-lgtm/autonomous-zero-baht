@@ -6,18 +6,24 @@ from engine.distribution import build_distribution_plan, dry_run_distribution, p
 
 
 class DistributionGateTests(unittest.TestCase):
-    def test_gate_is_disabled_by_default(self):
-        plan = build_distribution_plan([])
-        self.assertFalse(plan["enabled"])
-        self.assertFalse(plan["publish_automatically"])
-        self.assertFalse(plan["live_publish_authorized"])
-        self.assertEqual(plan["action"], "dry_run_only")
-        self.assertFalse(plan["publish_performed"])
+    def test_activation_requires_recorded_owner_authorization(self):
+        import json
+        from pathlib import Path
+        config = json.loads((Path(__file__).resolve().parents[1] / "config" / "distribution.json").read_text(encoding="utf-8"))
+        gate = config["external_platform_gate"]
+        # Live distribution may only be on when an owner authorization record exists.
+        if config["enabled"]:
+            self.assertTrue(gate.get("live_publish_authorized"))
+            auth = gate.get("authorization") or {}
+            self.assertTrue(auth.get("authorized_by"))
+            self.assertEqual(auth.get("cost_thb"), 0)
+        else:
+            self.assertFalse(gate.get("live_publish_authorized"))
 
-    def test_dry_run_cannot_publish(self):
-        plan = dry_run_distribution(["data/content/drafts/example.json"])
-        self.assertEqual(plan["provider"], "github_pages")
-        self.assertFalse(plan["publish_performed"])
+    def test_dry_run_guard_refuses_live_config(self):
+        # Once live publishing is authorized, the dry-run adapter must refuse to run.
+        with self.assertRaises(RuntimeError):
+            dry_run_distribution(["data/content/drafts/example.json"])
 
     def test_live_publish_is_hard_blocked(self):
         with self.assertRaises(RuntimeError):

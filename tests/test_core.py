@@ -118,7 +118,7 @@ class CoreTests(unittest.TestCase):
                 "url": "https://example.com/guide",
                 "summary": "how to guide",
                 "source": args[0],
-                "published": "2026-10-01T00:00:00+00:00",
+                "published": datetime.now(timezone.utc).isoformat(),
             }]
 
         research._fetch_feed = flaky_fetch
