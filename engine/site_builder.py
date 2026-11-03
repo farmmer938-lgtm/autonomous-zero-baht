@@ -26,6 +26,28 @@ def _esc(value) -> str:
     return html.escape(str(value or ""), quote=True)
 
 
+def _load_channels():
+    path = ROOT / "config" / "channels.json"
+    if not path.exists():
+        return []
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("channels", [])
+    except Exception:
+        return []
+
+
+def _channel_html():
+    channels = _load_channels()
+    if not channels:
+        return ""
+    cards = "".join(
+        f'<div class="card"><a href="{_esc(c["url"])}" rel="noopener"><strong>{_esc(c["label"])}</strong></a>'
+        f'<div class="mut">{_esc(c["url"])}</div></div>'
+        for c in channels
+    )
+    return "<h2>ของเรา</h2>" + cards
+
+
 def _load_drafts(draft_paths):
     drafts = []
     for relative in draft_paths:
@@ -102,7 +124,7 @@ def build_site(draft_paths):
     )
     home = [f"<h1>Zero-Baht Research</h1>",
             f'<p class="mut">สรุปข่าวเทคโนโลยีและเรื่องที่ควรตรวจสอบ · อัปเดตอัตโนมัติ · {_esc(now)}</p>',
-            f'<p class="mut">ทั้งหมด {len(index)} เรื่อง</p>', cards or "<p>ยังไม่มีเนื้อหา</p>",
+            f'<p class="mut">ทั้งหมด {len(index)} เรื่อง</p>', _channel_html(), cards or "<p>ยังไม่มีเนื้อหา</p>",
             "<div class='foot mut'>ระบบวิจัย-ร่าง-ตรวจ-เผยแพร่ อัตโนมัติ ต้นทุน ฿0 · "
             "ไม่มีการกล่าวอ้างรายได้หรือยอดผู้เข้าชมที่ยังไม่ได้รับการยืนยันจากแหล่งภายนอก</div>"]
     (SITE_DIR / "index.html").write_text(_page_shell("Zero-Baht Research", "".join(home)), encoding="utf-8")

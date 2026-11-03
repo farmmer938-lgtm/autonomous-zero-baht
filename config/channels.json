@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "note": "K-owned distribution channels. Listed so every generated page funnels readers to a real destination. No third-party account automation, no paid placement.",
+  "channels": [
+    {
+      "id": "store",
+      "label": "ร้าน AF Studio (เสื้อยืด/โพสต์อาร์ต พิมพ์ตามสั่ง)",
+      "url": "https://app.do.ink/stores/navintas",
+      "kind": "storefront",
+      "owned_by": "K"
+    },
+    {
+      "id": "catalog",
+      "label": "แคตตาล็อกดีไซน์ทั้งหมด",
+      "url": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/",
+      "kind": "catalog",
+      "owned_by": "K"
+    }
+  ]
+}
