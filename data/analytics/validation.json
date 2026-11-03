@@ -5,6 +5,11 @@
     "errors": []
   },
   {
+    "path": "data/content/drafts/marvell-ซื้อบริษัทผลิตชิปแสง-lumentum-ในราคาสูงถึง-1-15-แสนล้านดอลลาร์.json",
+    "passed": true,
+    "errors": []
+  },
+  {
     "path": "data/content/drafts/google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุดในอุตสาหก.json",
     "passed": true,
     "errors": []
@@ -16,11 +21,6 @@
   },
   {
     "path": "data/content/drafts/boox-เปิดตัว-palma-3-เครื่องอ่านอีุบุ๊กขนาดมือถือ-มีปากกาจด-มี-google-play.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/ไมโครซอฟท์บอกตั้งใจให้-taskbar-ลากเพื่อย้ายตำแหน่งไม่ได้-ป้องกันบังเอิญย้าย.json",
     "passed": true,
     "errors": []
   }

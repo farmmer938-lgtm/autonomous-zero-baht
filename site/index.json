@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:33:40.310849+00:00",
+  "generated_at": "2026-11-03T09:36:40.130231+00:00",
   "count": 5,
   "items": [
     {
@@ -7,6 +7,12 @@
       "title": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง",
       "source_url": "https://www.blognone.com/node/152084",
       "score": 9
+    },
+    {
+      "id": "marvell-ซื้อบริษัทผลิตชิปแสง-lumentum-ในราคาสูงถึง-1-15-แสนล้านดอลลาร์",
+      "title": "Marvell ซื้อบริษัทผลิตชิปแสง Lumentum ในราคาสูงถึง 1.15 แสนล้านดอลลาร์",
+      "source_url": "https://www.blognone.com/node/152087",
+      "score": 6
     },
     {
       "id": "google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุ",
@@ -25,12 +31,6 @@
       "title": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play",
       "source_url": "https://www.blognone.com/node/152082",
       "score": 3
-    },
-    {
-      "id": "ไมโครซอฟท์บอกตั้งใจให้-taskbar-ลากเพื่อย้ายตำแหน่งไม่ได้-ป้องกันบังเอิ",
-      "title": "ไมโครซอฟท์บอกตั้งใจให้ Taskbar ลากเพื่อย้ายตำแหน่งไม่ได้ ป้องกันบังเอิญย้าย",
-      "source_url": "https://www.blognone.com/node/152079",
-      "score": 0
     }
   ]
 }

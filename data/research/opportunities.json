@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "how to",
       "review",
+      "how to",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305276+00:00"
+    "researched_at": "2026-11-03T09:36:40.125679+00:00"
   },
   {
     "title": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง",
@@ -25,15 +25,32 @@
     "published": "Mon, 02 Nov 2026 04:18:28 +0000",
     "matched_keywords": [
       "แก้ปัญหา",
-      "วิธี",
-      "ราคา"
+      "ราคา",
+      "วิธี"
     ],
     "keyword_score": 3,
     "intent_score": 6,
     "opportunity_score": 9,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306616+00:00"
+    "researched_at": "2026-11-03T09:36:40.126716+00:00"
+  },
+  {
+    "title": "Marvell ซื้อบริษัทผลิตชิปแสง Lumentum ในราคาสูงถึง 1.15 แสนล้านดอลลาร์",
+    "url": "https://www.blognone.com/node/152087",
+    "summary": "Marvell ซื้อบริษัทผลิตชิปแสง Lumentum ในราคาสูงถึง 1.15 แสนล้านดอลลาร์ Body Marvell Technology ประกาศซื้อกิจการ Lumentum ผู้ผลิตชิปสื่อสารด้วยแสง ในราคาสูงถึง 1.15 แสนล้านดอลลาร์ (3.9 ล้านล้านบาท) ถือเป็นดีลซื้อกิจการขนาดใหญ่อันดับต้นๆ ของวงการเทคโนโลยี เนื่องจากทั้งสองบริษัทอยู่ในตลาดหลักทรัพย์ทั้งคู่ Marvell จึงเลือกใช้วิธีจ่ายเงินด้วยการแลกหุ้นทั้งหมด ในอัตรา 1 หุ้น Lumentum ต่อ 4.5 หุ้น Marvell หรือตีเป็นมูลค่าหุ้น Lumentum ละ 1,132 ดอลลาร์ (แพงกว่าราคาตลาด 23.9%) โครงสร้างบริษัทใหม่หลังควบกิจการแล้ว จะเป็นผู้ถือหุ้น Marvell เดิม 67% และผู้ถือหุ้น Lumentum เดิม 33% Marvell อธิบายเหตุผลของการซื้อกิจการครั้งนี้ว่า เป็นการรวมพลังกันเพื่อรองรับการขยายตัวของตลาด AI infrastructure โดย Marvell เข้มแข็งเรื่องชิปประมวลผล (XPU), สวิตช์เครือข่าย, การเชื่อมต่อทั้งผ่านไฟฟ้าและแสง ส่วน Lumentum เก่งเรื่องเลเซอร์ประสิทธิภาพสูง ตัวรับสัญญาณแสง (optical transceivers) และสวิตช์วงจรแสง (optical circuit switching หรือ OCS) Matt Murphy ประธานบอร์ดและซีอีโอของ Marvell บอกว่าตลาด AI infrastructure กำลังข",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 03 Nov 2026 02:39:22 +0000",
+    "matched_keywords": [
+      "ราคา",
+      "วิธี"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T09:36:40.126569+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -49,7 +66,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.306383+00:00"
+    "researched_at": "2026-11-03T09:36:40.126416+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -65,7 +82,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.304934+00:00"
+    "researched_at": "2026-11-03T09:36:40.125450+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -81,7 +98,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305674+00:00"
+    "researched_at": "2026-11-03T09:36:40.125951+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -97,7 +114,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305010+00:00"
+    "researched_at": "2026-11-03T09:36:40.125506+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -113,7 +130,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306459+00:00"
+    "researched_at": "2026-11-03T09:36:40.126467+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -129,7 +146,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306541+00:00"
+    "researched_at": "2026-11-03T09:36:40.126519+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -145,7 +162,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305912+00:00"
+    "researched_at": "2026-11-03T09:36:40.126109+00:00"
   },
   {
     "title": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play",
@@ -161,7 +178,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306769+00:00"
+    "researched_at": "2026-11-03T09:36:40.126815+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -177,21 +194,21 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305738+00:00"
+    "researched_at": "2026-11-03T09:36:40.125996+00:00"
   },
   {
-    "title": "ไมโครซอฟท์บอกตั้งใจให้ Taskbar ลากเพื่อย้ายตำแหน่งไม่ได้ ป้องกันบังเอิญย้าย",
-    "url": "https://www.blognone.com/node/152079",
-    "summary": "ไมโครซอฟท์บอกตั้งใจให้ Taskbar ลากเพื่อย้ายตำแหน่งไม่ได้ ป้องกันบังเอิญย้าย Body Diego Baca หัวหน้าฝ่ายดีไซน์ของ Windows ตอบโพสต์ของเว็บไซต์ Windows Central ในประเด็น \"ลาก Taskbar เพื่อย้ายตำแหน่งไม่ได้\" หลังจาก Windows 11 เปิดให้ย้ายตำแหน่งของ Taskbar ได้แล้ว Baca อธิบายว่าไมโครซอฟท์ \"ตั้งใจ\" ให้ลาก Taskbar ไม่ได้เพื่อป้องกันการเผลอกดที่ Taskbar แล้วลากไปโดยบังเอิญ และนี่เป็นเหตุผลว่าใน Windows เวอร์ชันก่อนๆ มีตัวเลือก \"Lock the Taskbar\" เอาไว้ให้ ทีมของ Baca พบว่าผู้ใช้ Windows ไม่ได้เปลี่ยนตำแหน่งของ Taskbar กันบ่อยขนาดนั้น จึงคิดว่าการให้คลิกขวาที่ Taskbar แล้วเลือก Settings เพื่อย้ายตำแหน่งน่าจะเหมาะสมกว่าสำหรับคนที่ตั้งใจย้ายตำแหน่ง แถมยังคาดเดาพฤติกรรมได้ง่ายกว่า สรุปแล้วมันคือความตั้งใจให้เป็นอย่างนี้ ไม่ใช่ตัวเลือกขาดหายไป ที่มา - Windows Central I find headlines like these unnecessarily negative. Instead of saying “you still need” a third-party app, why not say “you can also use” one? It communicates the same information without framing everything as a shortcoming. From our r",
+    "title": "ผู้ใช้โวย Canonical แพตช์ช่องโหว่ TCP ใน Ubuntu ล่าช้ากว่าสองสัปดาห์",
+    "url": "https://www.blognone.com/node/152085",
+    "summary": "ผู้ใช้โวย Canonical แพตช์ช่องโหว่ TCP ใน Ubuntu ล่าช้ากว่าสองสัปดาห์ Body กลุ่มผู้ใช้ลินุกซ์จำนวนหนึ่งเริ่มแสดงความไม่พอใจที่ Ubuntu ไม่ยอมปล่อยแพตช์ CVE-2026-98432 ที่เป็นช่องโหว่รันโค้ดระยะไกล ผ่านทางการโจมตี INET option ในโปรโตคอล TCP ซึ่งทำให้เซิร์ฟเวอร์ที่เชื่อมต่ออินเทอร์เน็ตโดยตรงมีความเสี่ยง ความแปลกของเหตุการณ์ครั้งนี้คือลินุกซ์ค่ายอื่นๆ ล้วนปล่อยแพตช์ช่องโหว่นี้ไปแล้ว เช่น Debian ที่เป็นโครงการต้นน้ำของ Ubuntu ก็ ปล่อยแพตช์ตั้งแต่วันแรกๆ ที่ช่องโหว่เปิดเผยออกมา แต่ทาง Ubuntu กลับมองว่าช่องโหว่นี้มีความสำคัญระดับสูง (high) ไม่ใช่ระดับวิกฤติ (critical) ข้อถกเถียงหนึ่งคือช่องโหว่นี้นำไปสู่การรันโค้ดระยะไกลได้จริงเพียงใด เนื่องจากเซิร์ฟเวอร์จำนวนมากรันในคลาวด์ที่มักบล็อกแพ็กเก็ตที่ตั้ง INET option อยู่แล้ว รวมถึงบริการจำนวนมากก็ตั้งอยู่หลัง WAF หรือ CDN ทำให้ความเสี่ยงยิ่งต่ำลง อีกทั้งกระบวนการแฮกจนรันคำสั่งได้จริงก็ดูจะซับซ้อนเนื่องจากเคอร์เนลในช่วงหลังเปิดฟีเจอร์ป้องกัน เช่น KASLR เอาไว้กันหมดแล้ว ช่องโหว่นี้ค้นพบโดย Claude รุ่นที่ยังไม่ปล่อยออกมา โดยการแฮกจริงต้องแยกสองขั้นตอน",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 01 Nov 2026 13:11:14 +0000",
+    "published": "Tue, 03 Nov 2026 00:32:43 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306993+00:00"
+    "researched_at": "2026-11-03T09:36:40.126665+00:00"
   },
   {
     "title": "บริษัทจีพียูคลาวด์แนว Neocloud เริ่มประสบปัญหาระดมทุนสร้างศูนย์ข้อมูลยากขึ้น",
@@ -205,7 +222,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306688+00:00"
+    "researched_at": "2026-11-03T09:36:40.126764+00:00"
   },
   {
     "title": "ดาวเทียม Suncatcher ของกูเกิลทำงานแล้ว สั่ง TPU แต่งกลอนไฮกุจากอวกาศ",
@@ -219,7 +236,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306843+00:00"
+    "researched_at": "2026-11-03T09:36:40.126870+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -233,7 +250,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305538+00:00"
+    "researched_at": "2026-11-03T09:36:40.125836+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -247,7 +264,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305998+00:00"
+    "researched_at": "2026-11-03T09:36:40.126164+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -261,7 +278,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305828+00:00"
+    "researched_at": "2026-11-03T09:36:40.126054+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -275,7 +292,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305102+00:00"
+    "researched_at": "2026-11-03T09:36:40.125565+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -289,7 +306,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305191+00:00"
+    "researched_at": "2026-11-03T09:36:40.125623+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -303,7 +320,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305360+00:00"
+    "researched_at": "2026-11-03T09:36:40.125734+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -317,7 +334,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305607+00:00"
+    "researched_at": "2026-11-03T09:36:40.125904+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -331,7 +348,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.306152+00:00"
+    "researched_at": "2026-11-03T09:36:40.126266+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -345,7 +362,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.305446+00:00"
+    "researched_at": "2026-11-03T09:36:40.125781+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -359,35 +376,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.306303+00:00"
-  },
-  {
-    "title": "Meta ออกแอป Style Sketch แนะนำสไตล์แต่งตัวด้วย AI ตอนนี้ทดสอบบางประเทศ​ มีไทยด้วย",
-    "url": "https://www.blognone.com/node/152078",
-    "summary": "Meta ออกแอป Style Sketch แนะนำสไตล์แต่งตัวด้วย AI ตอนนี้ทดสอบบางประเทศ​ มีไทยด้วย Body Meta ออกแอปทดลองตลาดเกี่ยวกับ AI เพิ่มเติมอีก 2 แอป ได้แก่ Style Sketch และ Waddle World เพิ่มเติมจาก Pocket แอปสร้างเกมด้วย AI และ Vibes แอปรวมวิดีโอที่สร้างด้วย AI โดยเฉพาะ Style Sketch ทำงานโดยเชื่อมต่อกับ Instagram ของผู้ใช้งาน เพื่อจดจำลักษณะของเรา และเสื้อผ้าที่สวมใส่ ผู้ใช้งานยังสามารถอัปโหลดรูปเพิ่มเติมได้ จากนั้นแอปจะแนะนำการแต่งตัวจากชุดที่มี หรืออ้างอิงจากชุดและผู้สวมใส่ที่มีลักษณะรูปร่างคล้ายกันให้ แอป Style Sketch ตอนนี้ทดสอบเฉพาะในบางประเทศ​ ซึ่งมีประเทศไทยเป็นหนึ่งในนั้นด้วย มีให้ดาวน์โหลดทั้งบน iOS และ Android อีกหนึ่งแอปคือ Waddle World เป็นแอปสร้างสัตว์เลี้ยงเสมือน ผ่านการเลี้ยงดูด้วยการแชทแบบ AI ตอนนี้ทดสอบเฉพาะในฟิลิปปินส์ประเทศเดียว ที่มา: TechCrunch arjin Sun, 01/11/2026 - 15:22",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 01 Nov 2026 08:22:43 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.307058+00:00"
-  },
-  {
-    "title": "Krafton ประกาศทำซีรีส์ PUBG ฉบับคนแสดงกับ Netflix, ได้ Donald Glover แสดงนำ",
-    "url": "https://www.blognone.com/node/152077",
-    "summary": "Krafton ประกาศทำซีรีส์ PUBG ฉบับคนแสดงกับ Netflix, ได้ Donald Glover แสดงนำ Body Krafton ประกาศข่าวการสร้างซีรีส์คนแสดงจากเกม PUBG ร่วมกับ Netflix โดยจะได้ดาราดังอย่าง Donald Glover มาแสดงเองและกำกับเองด้วย ทีมงานของ Donald Glover ยังมี Stephen Glover น้องชายของเขาที่จะมาเขียนบทและควบคุมการผลิตร่วมกัน (ทั้งสองคนมีผลงานร่วมกันมาแล้วในซีรีส์ Atlanta) นอกจากนี้ ในทีมโปรดิวเซอร์ยังมี Michael Schaefer (Neon TV), Fam Udeorji (Gilga) กับ Taeseok Jang และ Sujin Lee จาก LV3H บริษัทด้านโปรดักชันในเครือ Krafton ร่วมด้วย ความน่าสนใจของโครงการนี้คือ เอาจริงๆ แล้วเกม PUBG ไม่ได้มีพล็อตอะไรเป็นชิ้นเป็นอัน นอกจากคน 100 คนกระโดดร่มลงมาสู้กันบนเกาะ ซึ่ง Krafton เองก็พยายามสร้างเนื้อเรื่องของ PUBG โดยใช้ชื่อว่า PUBG Universe ซึ่งมีทั้งเหตุการณ์ในอดีตปี 1965, เหตุการณ์ปัจจุบัน (เกมภาคหลักคือ Battleground) และภาคอนาคต ศตวรรษที่ 22 ต้องรอดูกันว่า PUBG ฉบับซีรีส์จะเลือกเล่าเรื่องอย่างไร ที่มา - Eurogamer , Variety mk Sun, 01/11/2026 - 11:36",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 01 Nov 2026 04:36:15 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.307130+00:00"
+    "researched_at": "2026-11-03T09:36:40.126368+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -401,7 +390,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.304824+00:00"
+    "researched_at": "2026-11-03T09:36:40.125375+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -415,7 +404,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.306066+00:00"
+    "researched_at": "2026-11-03T09:36:40.126212+00:00"
   },
   {
     "title": "FBI ระบุ กลุ่มแฮ็กเกอร์เกาหลีเหนือเป็นผู้แฮ็ก Binance",
@@ -429,7 +418,21 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T00:33:40.306919+00:00"
+    "researched_at": "2026-11-03T09:36:40.126921+00:00"
+  },
+  {
+    "title": "Anthropic ใส่มาตรการป้องกันการสั่ง Claude Code โคลนเกมของคนอื่น",
+    "url": "https://www.blognone.com/node/152086",
+    "summary": "Anthropic ใส่มาตรการป้องกันการสั่ง Claude Code โคลนเกมของคนอื่น Body ก่อนหน้านี้มีผู้ใช้ Claude บางรายค้นพบว่า Anthropic ฝังคำสั่งไว้ใน Claude เพื่อป้องกันไม่ให้โมเดลโคลนเกมของคนอื่น ดังที่เกิดปัญหาขึ้นกับวงการเกมในขณะนี้ สิ่งที่ค้นพบคือมีคอนฟิกชื่อ \"tengu_heron_brook\" แทรกเข้ามาในไบนารีของ Claude Code เขียนเข้ามาดังนี้ \"Do build original games, games in a genre, and games from the user's own designs and assets. Don't build a recreation of a specific existing game, even if it is renamed or called original.\" นอกจากนี้ เว็บไซต์ XDA ยังค้นพบคอนฟิกชื่อ original_games_guidance และ opus_5_5_prompt_bundle Addy Osmani ทีมพัฒนา Claude Code ไปตอบโพสต์เรื่องนี้ ยืนยันว่าเป็นมาตรการป้องกันไม่ให้ไปขโมยทรัพย์สินทางปัญญาของผู้อื่น แต่ Claude Code จะยังสามารถสร้างเกมจากไอเดียของเราเองได้เช่นเดิม ที่มา - XDA , Tom's Hardware We added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game because using Claude to infringe IP is against our usage po",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 03 Nov 2026 02:25:26 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-03T09:36:40.126620+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -443,6 +446,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T00:33:40.306238+00:00"
+    "researched_at": "2026-11-03T09:36:40.126322+00:00"
   }
 ]
