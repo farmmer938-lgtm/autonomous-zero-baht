@@ -27,6 +27,9 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Run zero-cost workflow
         run: python -m engine.run
+      - name: Capture GitHub traffic evidence
+        run: python -m engine.traffic_evidence
+        continue-on-error: true
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
