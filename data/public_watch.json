@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-04T23:22:23.255952+00:00",
+ "checked_at": "2026-11-04T23:38:23.339239+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -94,5 +94,5 @@
   }
  ],
  "new_items": [],
- "changed": true
+ "changed": false
 }
