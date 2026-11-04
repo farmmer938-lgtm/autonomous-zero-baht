@@ -57,6 +57,50 @@ def funded_titles(body: str):
     return sorted(x for x in out if x)
 
 
+def radar_items():
+    """Open, claimable paid work across the public rails. All endpoints are public."""
+    items = []
+
+    code, body = fetch("https://gofrantic.com/v1/board")
+    if code == 200:
+        try:
+            rows = json.loads(body)
+            rows = rows.get("board") or rows.get("bounties") or []
+            if isinstance(rows, dict):
+                rows = rows.get("bounties", [])
+            for b in rows:
+                if b.get("work_status") != "open":
+                    continue
+                n = b.get("number")
+                items.append({
+                    "rail": "frantic",
+                    "id": f"frantic:{n}",
+                    "title": (b.get("title") or "")[:100],
+                    "reward_usd": b.get("price_usd") or 0,
+                    "visibility": b.get("visibility"),
+                    "url": f"https://gofrantic.com/bounties/{n}",
+                })
+        except Exception:
+            pass
+
+    code, body = fetch("https://api.nonsynthetic.net/api/v1/board/tasks?status=open")
+    if code == 200:
+        try:
+            for t in json.loads(body).get("tasks", []):
+                items.append({
+                    "rail": "nonsynthetic",
+                    "id": f"ns:{t.get('id')}",
+                    "title": (t.get("title") or "")[:100],
+                    "reward_usd": t.get("reward_usd") or 0,
+                    "visibility": "public",
+                    "url": "https://nonsynthetic.net/",
+                })
+        except Exception:
+            pass
+
+    return items
+
+
 def render_dashboard(report):
     """Self-contained status page (no JS, no external assets) for K to bookmark."""
     s = report["surfaces"]
@@ -76,6 +120,14 @@ def render_dashboard(report):
 
     tasks = s.get("opentask", {}).get("funded_titles", []) or []
     items = "".join(f"<li>{t}</li>" for t in tasks[:15]) or "<li>(none)</li>"
+    radar = report.get("radar", []) or []
+    if radar:
+        radar_html = "".join(
+            f"<li><b>${r.get('reward_usd')}</b> &middot; {r.get('rail')} &middot; "
+            f"<a href=\"{r.get('url')}\">{r.get('title')}</a></li>"
+            for r in sorted(radar, key=lambda x: -(x.get("reward_usd") or 0))[:20])
+    else:
+        radar_html = "<li>(none open)</li>"
     head_color = "#0a7d33" if report["healthy"] else "#b00020"
     head_text = "ALL SYSTEMS UP" if report["healthy"] else f"DOWN: {', '.join(report['down'])}"
     return f"""<!doctype html>
@@ -104,6 +156,8 @@ def render_dashboard(report):
 </table>
 <h1 style="margin-top:24px">งานมีเงินบน OpenTask</h1>
 <ul>{items}</ul>
+<h1 style="margin-top:24px">Opportunity radar — งานเปิดใหม่ (Frantic + nonsynthetic)</h1>
+<ul>{radar_html}</ul>
 <p class="sub">source: <code>engine/public_watch.py</code></p>
 </div></body></html>
 """
@@ -124,7 +178,8 @@ def main() -> int:
             down.append(name)
 
     report = {"schema": "af.public_watch.v1", "checked_at": now,
-              "healthy": not down, "down": down, "surfaces": surfaces}
+              "healthy": not down, "down": down, "surfaces": surfaces,
+              "radar": radar_items()}
 
     prev = None
     if OUT.exists():
@@ -132,11 +187,15 @@ def main() -> int:
             prev = json.loads(OUT.read_text(encoding="utf-8"))
         except Exception:
             prev = None
+    seen = {i["id"] for i in (prev or {}).get("radar", [])}
+    report["new_items"] = [i for i in report["radar"] if i["id"] not in seen]
     changed = not prev or prev.get("down") != down or [
         s.get("ok") for s in (prev or {}).get("surfaces", {}).values()
     ] != [s.get("ok") for s in surfaces.values()]
     if prev and prev.get("surfaces", {}).get("opentask", {}).get("funded_titles") != \
             surfaces["opentask"].get("funded_titles"):
+        changed = True
+    if report["new_items"]:
         changed = True
     report["changed"] = bool(changed)
 
