@@ -1,18 +1,24 @@
 {
-  "generated_at": "2026-11-03T09:36:40.130231+00:00",
+  "generated_at": "2026-11-04T09:19:18.197694+00:00",
   "count": 5,
   "items": [
     {
-      "id": "ผลทดสอบ-gpt-6-1-terra-ทำงานเร็วกว่า-ต้นทุนถูกกว่า-claude-opus-5-5-ได้จ",
-      "title": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง",
-      "source_url": "https://www.blognone.com/node/152084",
-      "score": 9
+      "id": "tencent-เปิดตัว-hy4-โมเดลราคาประหยัด-ความสามารถใกล้-kimi-k3-1-pro-แม้ร",
+      "title": "Tencent เปิดตัว Hy4 โมเดลราคาประหยัด ความสามารถใกล้ Kimi K3.1 Pro แม้ราคาถูกกว่ามาก",
+      "source_url": "https://www.blognone.com/node/152094",
+      "score": 6
     },
     {
       "id": "marvell-ซื้อบริษัทผลิตชิปแสง-lumentum-ในราคาสูงถึง-1-15-แสนล้านดอลลาร์",
       "title": "Marvell ซื้อบริษัทผลิตชิปแสง Lumentum ในราคาสูงถึง 1.15 แสนล้านดอลลาร์",
       "source_url": "https://www.blognone.com/node/152087",
       "score": 6
+    },
+    {
+      "id": "ตัดก่อนตาย-aws-เพิ่มฟีเจอร์-spend-limits-ล็อกบัญชีเมื่อใช้บริการเกินกำ",
+      "title": "ตัดก่อนตาย AWS เพิ่มฟีเจอร์ Spend Limits ล็อกบัญชีเมื่อใช้บริการเกินกำหนด",
+      "source_url": "https://www.blognone.com/node/152092",
+      "score": 3
     },
     {
       "id": "google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุ",
@@ -24,12 +30,6 @@
       "id": "geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่",
       "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
       "source_url": "https://www.blognone.com/node/152043",
-      "score": 3
-    },
-    {
-      "id": "boox-เปิดตัว-palma-3-เครื่องอ่านอีุบุ๊กขนาดมือถือ-มีปากกาจด-มี-google-",
-      "title": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play",
-      "source_url": "https://www.blognone.com/node/152082",
       "score": 3
     }
   ]

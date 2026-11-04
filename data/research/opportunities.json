@@ -15,25 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125679+00:00"
+    "researched_at": "2026-11-04T09:19:18.193049+00:00"
   },
   {
-    "title": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง",
-    "url": "https://www.blognone.com/node/152084",
-    "summary": "ผลทดสอบ GPT-6.1 Terra ทำงานเร็วกว่า ต้นทุนถูกกว่า Claude Opus 5.5 ได้จริง Body เว็บไซต์ The New Stack ทดสอบคำโม้ของ OpenAI ที่บอกว่าโมเดลใหม่ GPT-6.1 Terra ให้ประสิทธิภาพของคำตอบด้อยกว่าคู่แข่ง Claude Opus 5.5 เล็กน้อย (ต่างกัน 5%) แต่ประหยัดโทเคนกว่า 3 เท่า และค่าใช้งานถูกกว่า 1/4 เท่า (ราคารวมต่อการรันถูกว่า 1/9 เท่า) วิธีการทดสอบของ The New Stack มีทั้งหมด 3 ชุด ใช้การรันโมเดลแบบ max effort ทั้งหมด สร้างซอฟต์แวร์หน้าตาคล้ายๆ GitHub ขึ้นมา เป็นซอฟต์แวร์ที่พัฒนาไม่สำเร็จ แล้วให้โมเดลทั้งสองค่ายลองแก้ไขซอฟต์แวร์ตัวนี้ โดยให้ใช้งานผ่านเบราว์เซอร์แล้วดูภาพหน้าจอ สร้างคลิปวิดีโอการแบ่งเซลล์ 72 เฟรม เหมือนถ่ายจากกล้องจุลทรรศน์ที่ภาพไม่ชัด โมเดลต้องเขียนสคริปต์ Python เพื่อติดตามแต่ละเซลล์ว่าแบ่งมาจากไหน เพื่อตามหาเซลล์ต้นทาง สร้างผลทดสอบการรัน CI ของซอฟต์แวร์ ความยาว 1,200 แถว มีแถวซ้ำ มีข้อมูลเพี้ยน โมเดลจะต้องตอบคำถาม 50 ข้อว่าเกิดอะไรขึ้น โดยไม่มีเครื่องมือภายนอกช่วย ผลการทดสอบ โมเดลทั้งสองตัวแก้ปัญหา 6 จุดได้ครบ แต่ Terra คลิกเว็บน้อยกว่า 5 เท่า สร้างเอาต์พุตน้อยกว่า 5 เท่า ต้นทุนรวม T",
+    "title": "Tencent เปิดตัว Hy4 โมเดลราคาประหยัด ความสามารถใกล้ Kimi K3.1 Pro แม้ราคาถูกกว่ามาก",
+    "url": "https://www.blognone.com/node/152094",
+    "summary": "Tencent เปิดตัว Hy4 โมเดลราคาประหยัด ความสามารถใกล้ Kimi K3.1 Pro แม้ราคาถูกกว่ามาก Body ทีมวิจัย Tencent Hy เปิดตัวโมเดล Hy4 หลังจาก ปล่อยรุ่นพรีวิวมาแล้วหลายเดือน โดยความสามารถเพิ่มขึ้นจนผลทดสอบหลายชุดนำหน้าแม้แต่ โมเดลชั้นนำอย่าง Kimi K3.1 Pro ขนาด 3T และค่าโทเค็นถูกกว่าหลายเท่าตัว ผลทดสอบหลายตัวพัฒนาขึ้นจากรุ่นพรีวิวชัดเจน เช่น ProgramBench, 3DArena, Terminal Bench 4.0 โดยทีมงานระบุว่าความสามารถในการดูภาพพัฒนาขึ้นมาก จากการฝึกเฉพาะทางเพิ่มเติม เช่น การใช้งานโปรแกรมสามมิติอย่าง Blender หรือ CAD ตลอดจนการทำเว็บและเกม ทาง Tencent ระบุว่าจงใจจำกัดการฝึกด้านความปลอดภัยไซเบอร์ลง โดยเฉพาะความสามารถด้านการเจาะระบบ, การทำวิศวกรรมย้อนกลับ นอกจากนี้ยังทำให้ความสามารถด้านชีวภาพลดลงต่ำกว่าที่กำหนด แต่อีกทางหนึ่งทีมงานยอมรับว่าผลทดสอบบางส่วนยังทำได้ไม่ดี เช่น ความสามารถด้านคณิตศาสตร์, การเขียนโค้ดแบบทำงานต่อเนื่องยาวนาน, การพัฒนาโมเดลปัญญาประดิษฐ์, และการอ่านภาพซับซ้อนสูง โดยเป็นเป้าหมายการพัฒนาต่อไป ค่า API ของ Hy4 อยู่ที่ 0.834/2.5 ดอลลาร์ต่อล้านโทเค็น และช่วงนี้จะลด 50% หลังจากนี้ทีมงานกำลังพ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 02 Nov 2026 04:18:28 +0000",
+    "published": "Wed, 04 Nov 2026 07:02:45 +0000",
     "matched_keywords": [
-      "แก้ปัญหา",
-      "ราคา",
-      "วิธี"
+      "รีวิว",
+      "ราคา"
     ],
-    "keyword_score": 3,
-    "intent_score": 6,
-    "opportunity_score": 9,
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126716+00:00"
+    "researched_at": "2026-11-04T09:19:18.193976+00:00"
   },
   {
     "title": "Marvell ซื้อบริษัทผลิตชิปแสง Lumentum ในราคาสูงถึง 1.15 แสนล้านดอลลาร์",
@@ -42,15 +41,15 @@
     "source": "https://www.blognone.com/atom.xml",
     "published": "Tue, 03 Nov 2026 02:39:22 +0000",
     "matched_keywords": [
-      "ราคา",
-      "วิธี"
+      "วิธี",
+      "ราคา"
     ],
     "keyword_score": 2,
     "intent_score": 4,
     "opportunity_score": 6,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126569+00:00"
+    "researched_at": "2026-11-04T09:19:18.194264+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -66,7 +65,23 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126416+00:00"
+    "researched_at": "2026-11-04T09:19:18.193817+00:00"
+  },
+  {
+    "title": "ตัดก่อนตาย AWS เพิ่มฟีเจอร์ Spend Limits ล็อกบัญชีเมื่อใช้บริการเกินกำหนด",
+    "url": "https://www.blognone.com/node/152092",
+    "summary": "ตัดก่อนตาย AWS เพิ่มฟีเจอร์ Spend Limits ล็อกบัญชีเมื่อใช้บริการเกินกำหนด Body ปัญหาอย่างหนึ่งที่หลายคนได้ยินบ่อยๆ คือ ค่าบริการคลาวด์ทะลุสูงกว่าที่คาดคิด ไม่ว่าจะเกิดจากการถูกแฮกหรือลืมปิดบริการต่างๆ จนค่าบริการพุ่งไปอย่างไม่รู้ตัว เดือนที่ผ่านมาทาง AWS ก็เปิดฟีเจอร์ Spend Limits จากเดิมที่การกำหนดงบประมาณจะทำได้เพียงให้ AWS แจ้งเตือนเท่านั้น ผู้ใช้สามารถกำหนดเพดานค่าบริการได้ต่ำที่สุด 20 ดอลลาร์ และเมื่อเปิดใช้งานแล้ว ระบบจะเริ่มทำงานต่อเนื่อง หากระบบคาดว่าค่าบริการจะเกินเพดานใน 7 วันก็จะเริ่มล็อกไม่ให้เปิดบริการใหม่ แต่ปล่อยให้บริการเดิมที่เปิดใช้งานแล้วรันต่อไปได้, จากนั้นเมื่อกำลังเกินใน 5 วันจะเริ่มหยุดบริการที่ไม่ถูกใช้งานในช่วง 14 วันที่ผ่านมา, 4 วันก่อนหน้าจะเริ่มหยุดบริการที่ใช้งานอยู่ไล่จากบริการราคาแพง, จนกระทั่งค่าบริการเกินเพดานก็จะหยุดทั้งโปรเจค โดยสามารถกู้คืนข้อมูลได้ภายใน 90 วัน ฟีเจอร์นี้เน้นสำหรับนักพัฒนาที่เปิดโครงการใช้งานส่วนตัวเป็นหลัก ต้องกำหนดทีละโปรเจค โดยไม่สามารถกำหนดทั้งบัญชีได้ และค่าบริการเป็นค่าบริการก่อนคิดภาษี ที่มา - AWS Builder lew Wed, 04/11/2026 -",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 04 Nov 2026 00:34:02 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-04T09:19:18.194066+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -82,7 +97,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125450+00:00"
+    "researched_at": "2026-11-04T09:19:18.192809+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -98,7 +113,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125951+00:00"
+    "researched_at": "2026-11-04T09:19:18.193314+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -114,7 +129,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125506+00:00"
+    "researched_at": "2026-11-04T09:19:18.192867+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -130,7 +145,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126467+00:00"
+    "researched_at": "2026-11-04T09:19:18.193872+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -146,7 +161,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126519+00:00"
+    "researched_at": "2026-11-04T09:19:18.193926+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -162,23 +177,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126109+00:00"
-  },
-  {
-    "title": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play",
-    "url": "https://www.blognone.com/node/152082",
-    "summary": "BOOX เปิดตัว Palma 3 เครื่องอ่านอีุบุ๊กขนาดมือถือ มีปากกาจด มี Google Play Body BOOX แบรนด์เครื่องอ่านอีบุ๊กจากประเทศจีน เปิดตัวฮาร์ดแวร์ใหม่ของปี 2026 ดังนี้ BOOX Palma 3 เครื่องอ่านขนาดพกพารุ่นต่อจาก Palma 2 ในปี 2024 ใช้จอ ePaper ขนาด 6.13 นิ้ว ไซส์เท่ามือถือ (แต่โทรไม่ได้) รัน Android 16 มี Google Play Store ในตัว, แรม 6GB, สตอเรจ 128GB + microSD, รองรับปากกา InkSense Plus ใช้เขียนบันทึกได้, ราคา 319.99 ดอลลาร์ BOOX Note Mini C เครื่องอ่านหน้าจอ ePaper แบบสี ขนาด 8.52 นิ้ว, รัน Android 16 มี Google Play Store ในตัว, แรม 6GB, สตอเรจ 64GB + microSD, รองรับปากกา InkSense Plus ใช้เขียนบันทึกได้, ราคา 549.99 ดอลลาร์ BOOX Note Air6 C เครื่องอ่านหน้าจอ ePaper แบบสี ขนาด 10.3 นิ้ว, รัน Android 16 มี Google Play Store ในตัว, แรม 6GB, สตอเรจ 64GB + microSD, รองรับปากกา Pen3 ใช้เขียนบันทึกได้, ราคา 579.99 ดอลลาร์ mk Sun, 01/11/2026 - 21:23",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 01 Nov 2026 14:23:29 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126815+00:00"
+    "researched_at": "2026-11-04T09:19:18.193498+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -194,49 +193,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125996+00:00"
-  },
-  {
-    "title": "ผู้ใช้โวย Canonical แพตช์ช่องโหว่ TCP ใน Ubuntu ล่าช้ากว่าสองสัปดาห์",
-    "url": "https://www.blognone.com/node/152085",
-    "summary": "ผู้ใช้โวย Canonical แพตช์ช่องโหว่ TCP ใน Ubuntu ล่าช้ากว่าสองสัปดาห์ Body กลุ่มผู้ใช้ลินุกซ์จำนวนหนึ่งเริ่มแสดงความไม่พอใจที่ Ubuntu ไม่ยอมปล่อยแพตช์ CVE-2026-98432 ที่เป็นช่องโหว่รันโค้ดระยะไกล ผ่านทางการโจมตี INET option ในโปรโตคอล TCP ซึ่งทำให้เซิร์ฟเวอร์ที่เชื่อมต่ออินเทอร์เน็ตโดยตรงมีความเสี่ยง ความแปลกของเหตุการณ์ครั้งนี้คือลินุกซ์ค่ายอื่นๆ ล้วนปล่อยแพตช์ช่องโหว่นี้ไปแล้ว เช่น Debian ที่เป็นโครงการต้นน้ำของ Ubuntu ก็ ปล่อยแพตช์ตั้งแต่วันแรกๆ ที่ช่องโหว่เปิดเผยออกมา แต่ทาง Ubuntu กลับมองว่าช่องโหว่นี้มีความสำคัญระดับสูง (high) ไม่ใช่ระดับวิกฤติ (critical) ข้อถกเถียงหนึ่งคือช่องโหว่นี้นำไปสู่การรันโค้ดระยะไกลได้จริงเพียงใด เนื่องจากเซิร์ฟเวอร์จำนวนมากรันในคลาวด์ที่มักบล็อกแพ็กเก็ตที่ตั้ง INET option อยู่แล้ว รวมถึงบริการจำนวนมากก็ตั้งอยู่หลัง WAF หรือ CDN ทำให้ความเสี่ยงยิ่งต่ำลง อีกทั้งกระบวนการแฮกจนรันคำสั่งได้จริงก็ดูจะซับซ้อนเนื่องจากเคอร์เนลในช่วงหลังเปิดฟีเจอร์ป้องกัน เช่น KASLR เอาไว้กันหมดแล้ว ช่องโหว่นี้ค้นพบโดย Claude รุ่นที่ยังไม่ปล่อยออกมา โดยการแฮกจริงต้องแยกสองขั้นตอน",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 03 Nov 2026 00:32:43 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126665+00:00"
-  },
-  {
-    "title": "บริษัทจีพียูคลาวด์แนว Neocloud เริ่มประสบปัญหาระดมทุนสร้างศูนย์ข้อมูลยากขึ้น",
-    "url": "https://www.blognone.com/node/152083",
-    "summary": "บริษัทจีพียูคลาวด์แนว Neocloud เริ่มประสบปัญหาระดมทุนสร้างศูนย์ข้อมูลยากขึ้น Body Wall Street Journal รายงานข่าวจากแวดวงการเงินว่า ผู้ให้บริการคลาวด์ยุคใหม่ที่เรียกรวมๆ ว่า neocloud (ซึ่งเริ่มมาจากธุรกิจให้เช่าจีพียู หลายรายเป็นบริษัทขุดเหมืองคริปโตมาก่อน เช่น CoreWeave ) เริ่มประสบปัญหาระดมทุนยากขึ้น ทั้งรูปแบบกู้เงิน (ผ่านการออกหุ้นกู้) และการขายหุ้น IPO เข้าตลาดหลักทรัพย์ ตัวอย่างบริษัทกลุ่ม neocloud ได้แก่ CoreWeave, IREN, Nscale, Nebius, Lambda ซึ่งมีโมเดลธุรกิจคล้ายๆ กันคือระดมทุนซื้อจีพียูจำนวนมากๆ แล้วนำมาปล่อยให้บริษัทเทคโนโลยีเช่าต่ออีกที ในช่วงก่อนหน้านี้ที่วงการ AI เริ่มบูม ส่งผลให้ธุรกิจ neocloud ได้รับความสนใจอย่างมาก แต่หลังจากเวลาผ่านมา 2-3 ปี มูลค่าการระดมทุนเพิ่มสูงขึ้นเรื่อยๆ (ตัวเลขปี 2025-2026 รวมกันเกิน 1 ล้านล้านดอลลาร์) จนทำให้ตลาดทุนตั้งคำถามว่า บริษัทเหล่านี้จะมีรายได้เพียงพอในการกลับมาจ่ายหนี้จำนวนมหาศาลหรือไม่ Lambda ปรับลดเป้าหมายการระดมทุนขายหุ้นรอบล่าสุด (รอบสุดท้ายก่อน IPO) จากเดิมตั้งเป้ามูลค่าบริษัท 14.5 พันล้านดอลลาร์ เหลือ 13 พันล้านดอลลาร์ Nscale จา",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 02 Nov 2026 01:56:20 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126764+00:00"
-  },
-  {
-    "title": "ดาวเทียม Suncatcher ของกูเกิลทำงานแล้ว สั่ง TPU แต่งกลอนไฮกุจากอวกาศ",
-    "url": "https://www.blognone.com/node/152081",
-    "summary": "ดาวเทียม Suncatcher ของกูเกิลทำงานแล้ว สั่ง TPU แต่งกลอนไฮกุจากอวกาศ Body กูเกิลอัพเดตความคืบหน้าของ Project Suncatcher ส่งดาวเทียมฝัง TPU ขึ้นไปทดสอบบนอวกาศ หลังจากยิงดาวเทียมขึ้นไปเมื่อวันที่ 1 ตุลาคม ก็ใช้เวลาช่วงที่ผ่านมาตรวจสอบสถานะว่า TPU ทำงานได้หรือไม่ เริ่มตั้งแต่การเปิดเครื่องและทดสอบระบบต่างๆ ในสัปดาห์ที่ผ่านมา กูเกิลเริ่มทดสอบการทำงานจริง (แบบเดียวกับ Hello World) นั่นคือสั่งให้ โมเดล Gemma 4 ที่รันใน TPU บนอวกาศประมวลผลคำตอบ ซึ่ง prompt แรกคือการบอกให้โมเดลแต่งกวีไฮกุเกี่ยวกับการอยู่ในอวกาศ กวีบทแรกที่แต่งโดย AI บนอวกาศคือ Blue marble below Data streams in silent grace Starlight feeds my core. ✨ หลังจากนั้น กูเกิลยังทดสอบข้อมูลทางเทคนิคต่างๆ และบอกว่ามีแผนทดสอบประสิทธิภาพ TPU ให้หนักขึ้นเรื่อยๆ เพื่อหาลิมิตว่า TPU สามารถทำงานในสภาพแวดล้อมที่จำกัดเรื่องความร้อนและการโดนรังสีได้แค่ไหน แล้วจะนำข้อมูลนี้ไปทดสอบกับดาวเทียมคู่ 2 ดวงสื่อสารกันในปี 2027 ต่อไป ที่มา - Google mk Sun, 01/11/2026 - 20:46",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 01 Nov 2026 13:46:06 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126870+00:00"
+    "researched_at": "2026-11-04T09:19:18.193380+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -250,7 +207,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125836+00:00"
+    "researched_at": "2026-11-04T09:19:18.193215+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -264,7 +221,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126164+00:00"
+    "researched_at": "2026-11-04T09:19:18.193556+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -278,7 +235,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126054+00:00"
+    "researched_at": "2026-11-04T09:19:18.193440+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -292,7 +249,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125565+00:00"
+    "researched_at": "2026-11-04T09:19:18.192929+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -306,7 +263,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125623+00:00"
+    "researched_at": "2026-11-04T09:19:18.192991+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -320,7 +277,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125734+00:00"
+    "researched_at": "2026-11-04T09:19:18.193108+00:00"
+  },
+  {
+    "title": "Salesforce ซื้อกิจการ Cresta แพลตฟอร์ม Voice Agent สำหรับงานบริการลูกค้า",
+    "url": "https://www.blognone.com/node/152089",
+    "summary": "Salesforce ซื้อกิจการ Cresta แพลตฟอร์ม Voice Agent สำหรับงานบริการลูกค้า Body Salesforce ประกาศบรรลุข้อตกลงเพื่อซื้อกิจการ Cresta แพลตฟอร์มสำหรับงานให้บริการลูกค้าที่ทำงานด้วยเสียงเป็นหลัก (voice-first) มูลค่าดีลไม่มีการเปิดเผยอย่างเป็นทางการ แต่มีตัวเลขว่าอยู่ที่ราว 2.7 พันล้านดอลลาร์ Cresta เป็นผู้พัฒนาแพลตฟอร์มสำหรับงานบริการลูกค้า ด้วยจุดเด่นเรื่องความสามารถในการแก้ไขปัญหาให้ลูกค้าได้แบบจบที่ระดับ Agent แม้เป็นคำถามที่ซับซ้อน มีระบบทบทวนและถามกลับลูกค้าเพื่อให้วิเคราะห์สิ่งที่เกิดขึ้นได้แม่นยำขึ้น มีลูกค้ารายใหญ่เช่น Marriott, Comcast และ Alaska Airlines Salesforce มีแผนนำความสามารถของระบบบริการลูกค้าด้วยเสียงมาใช้งานกับ Agentforce และ Service Cloud โดยบอกว่าระบบให้บริการด้วยเสียงเป็นส่วนยากที่สุดในการทำงานให้ถูกต้อง ทั้งที่เป็นส่วนสำคัญมากสำหรับลูกค้า ซึ่งความสามารถของ Cresta จะเข้ามาเสริมการทำงานนั่นเอง ที่มา: Salesforce และ RunTimeWire arjin Tue, 03/11/2026 - 18:24",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 03 Nov 2026 11:24:35 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-04T09:19:18.194163+00:00"
+  },
+  {
+    "title": "Safari เริ่มทดสอบฟีเจอร์บังคับเว็บเป็น Dark Mode",
+    "url": "https://www.blognone.com/node/152093",
+    "summary": "Safari เริ่มทดสอบฟีเจอร์บังคับเว็บเป็น Dark Mode Body Safari เริ่มทดสอบฟีเจอร์ Adaptive Dark Mode บังคับเว็บที่ไม่รองรับ dark mode ในตัวให้แสดงผลแบบมืดได้เอง โดยเริ่มรองรับใน Safari 27.3 beta ระบบนี้จะวิเคราะห์สีในเว็บ และกลับข้างความสว่างหรือมืดให้เอง โดยยังคงโทนสี (hue) เอาไว้ รวมถึงเข้าไปวิเคราะห์ภาพ SVG หรือภาพ bitmap อื่นๆ ให้ด้วย และกลับสีให้หากภาพเรียบง่ายเพียงพอ ทีมงานระบุว่าเว็บส่วนใหญ่ที่ทำตามมาตรฐานที่ดีควรใช้งานได้ทันที อย่างไรก็ดี ทีมงานแนะนำให้นักพัฒนาทำ dark mode ด้วยตัวเองเพื่อให้ควบคุมได้ สำหรับผู้ใช้ Safari beta และเปิดระบบปฏิบัติการให้แสดงผลแบบ dark mode เบราว์เซอร์จะถามว่าต้องการทดลองฟีเจอร์นี้หรือไม่และกดเปิดให้ทันที ที่มา - WebKit.org lew Wed, 04/11/2026 - 10:04",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 04 Nov 2026 03:04:31 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-04T09:19:18.194018+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -334,7 +319,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125904+00:00"
+    "researched_at": "2026-11-04T09:19:18.193265+00:00"
+  },
+  {
+    "title": "Palantir ไตรมาส 3/2026 รายได้จากภาคเอกชนสหรัฐสูงกว่าหน่วยงานรัฐเป็นครั้งแรก",
+    "url": "https://www.blognone.com/node/152090",
+    "summary": "Palantir ไตรมาส 3/2026 รายได้จากภาคเอกชนสหรัฐสูงกว่าหน่วยงานรัฐเป็นครั้งแรก Body Palantir Technologies รายงานผลประกอบการของไตรมาสที่ 3 ปี 2026 รายได้รวม 2.313 พันล้านดอลลาร์ เพิ่มขึ้น 96% หากเทียบกับปีก่อน และเพิ่มขึ้น 20% เมื่อเทียบกับไตรมาสก่อนหน้านี้ โดยแบ่งเป็นรายได้จากในสหรัฐอเมริกา 1.937 พันล้านดอลลาร์ เพิ่มขึ้น 119% เทียบกับปีก่อน ซึ่ง Palantir บอกว่าประเด็นน่าสนใจคือรายได้จากภาคเอกชนสหรัฐแซงรายได้จากหน่วยงานรัฐแล้ว โดยภาคเอกชนอยู่ที่ 984 ล้านดอลลาร์ และภาครัฐ 953 ล้านดอลลาร์ ส่วนกำไรสุทธิในไตรมาสอยู่ที่ 1.128 พันล้านดอลลาร์ ในไตรมาสที่ผ่านมา Palantir ปิดสัญญาโครงการระดับ 1 ล้านดอลลาร์ ได้ 212 สัญญา, 5 ล้านดอลลาร์ 107 สัญญา และ 10 ล้านดอลลาร์ 64 สัญญา มูลค่าสัญญารวม 2.918 พันล้านดอลลาร์ เฉพาะที่เป็นภาคเอกชนสหรัฐ 1.463 พันล้านดอลลาร์ Alex Karp ซีอีโอ Palantir ให้ความเห็นว่าการพัฒนาอย่างต่อเนื่องของ AI ทำให้ความแตกต่างระหว่างคนที่มีและคนที่ไม่มีกว้างมากกว่าเดิม ในระดับที่เขาไม่เคยเห็นมาก่อนตลอด 30 ปีในโลกธุรกิจ ไม่ว่าจะเป็นหน่วยงานรัฐหรือเอกชน ก็จะถูกบังคับให้ต้องเปลี่ยนแปลงอย่างร",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 03 Nov 2026 12:02:05 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-04T09:19:18.194116+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -348,7 +347,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126266+00:00"
+    "researched_at": "2026-11-04T09:19:18.193662+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -362,7 +361,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125781+00:00"
+    "researched_at": "2026-11-04T09:19:18.193157+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -376,7 +375,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126368+00:00"
+    "researched_at": "2026-11-04T09:19:18.193768+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -390,7 +389,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.125375+00:00"
+    "researched_at": "2026-11-04T09:19:18.192730+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -404,21 +403,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126212+00:00"
+    "researched_at": "2026-11-04T09:19:18.193605+00:00"
   },
   {
-    "title": "FBI ระบุ กลุ่มแฮ็กเกอร์เกาหลีเหนือเป็นผู้แฮ็ก Binance",
-    "url": "https://www.blognone.com/node/152080",
-    "summary": "FBI ระบุ กลุ่มแฮ็กเกอร์เกาหลีเหนือเป็นผู้แฮ็ก Binance Body FBI ออกรายงานสืบสวน กรณี Binance ถูกแฮ็กครั้งใหญ่ 6 พันล้านดอลลาร์ ว่าต้นตอมาจากกลุ่มแฮ็กเกอร์เกาหลีเหนือ ที่ถูกตั้งชื่อโดย FBI ว่า TraderTraitor FBI บอกว่า TraderTraitor กำลังพยายามแปลงสินทรัพย์ดิจิทัลที่ขโมยมาเป็น Ethereum (ETH) เพื่อนำไปฟอกเงินผ่านระบบการเงินแบบ DeFi ต่อไป จึงเปิดเผยที่อยู่ของกลุ่ม TraderTraitor เพื่อให้ภาคเอกชนช่วยกันเฝ้าระวังว่ามีความเคลื่อนไหวใดๆ หรือไม่ ความเคลื่อนไหวของฝั่ง Binance คือ สามารถชดเชยเหรียญให้กับลูกค้าได้แล้ว 90% ของความเสียหายทั้งหมด เหลือเฉพาะเหรียญที่ไม่ค่อยได้รับความนิยมเท่านั้น The FBI is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange, Binance, on or about October 29, 2026. The FBI refers to this specific North Korean malicious cyber activity as \"TraderTraitor.\" The FBI, together with partners at the USSS and IRS-CI, has observed TraderTraitor",
+    "title": "Apple รายงานผลประกอบการ รายได้โต 12% ยอมรับ iPhone Duo ผลิตไม่ทันความต้องการ และไม่รู้จะเป็นปกติเมื่อใด",
+    "url": "https://www.blognone.com/node/152088",
+    "summary": "Apple รายงานผลประกอบการ รายได้โต 12% ยอมรับ iPhone Duo ผลิตไม่ทันความต้องการ และไม่รู้จะเป็นปกติเมื่อใด Body แอปเปิลรายงานผลประกอบการประจำไตรมาสเดือนกันยายน 2026 ซึ่งเป็นไตรมาสแรกภายใต้ ซีอีโอ John Ternus (รับตำแหน่ง 1 กันยายน) รายได้รวม 1.15 แสนล้านดอลลาร์ เพิ่มขึ้น 12% จากไตรมาสเดียวกันในปีก่อน ส่วนกำไรสุทธิอยู่ที่ 3.07 หมื่นล้านดอลลาร์ รายได้จาก iPhone เพิ่มขึ้น 17% เป็น 5.76 หมื่นล้านดอลลาร์, Mac เพิ่มขึ้น 24% เป็น 1.08 หมื่นล้านดอลลาร์, Services เพิ่มขึ้น 10% เป็น 3.16 หมื่นล้านดอลลาร์ ส่วน iPad และกลุ่ม Wearable รายได้ลดลง ซีอีโอ John Ternus ให้ข้อมูลเพิ่มเติมหลังแถลงผลประกอบการ มีประเด็นน่าสนใจดังนี้ iPhone Duo ตอนนี้แอปเปิลไม่สามารถผลิตได้ ทันความต้องการ และยังบอกไม่ได้ว่าจะเริ่มสมดุลเมื่อใด เขายอมรับปัญหาจอ iPhone Duo ที่มีรายงานออกมา และตอบเหมือน แถลงก่อนหน้านี้ ว่าพบเพียงส่วนน้อย ประเด็นเก็บเงินใช้งาน Siri AI และฟีเจอร์ AI อื่นเพิ่มเติม บอกว่าตอนนี้ยังเร็วเกินไปที่จะให้ข้อมูล ต้องดูปริมาณการที่ใช้ระดับเซิร์ฟเวอร์อีกระยะหนึ่งว่ามีมากน้อยแค่ไหน ยืนยันว่าจุดขายสำคัญของ Siri AI ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 01 Nov 2026 13:24:17 +0000",
+    "published": "Tue, 03 Nov 2026 11:21:40 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126921+00:00"
+    "researched_at": "2026-11-04T09:19:18.194214+00:00"
   },
   {
     "title": "Anthropic ใส่มาตรการป้องกันการสั่ง Claude Code โคลนเกมของคนอื่น",
@@ -432,7 +431,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-03T09:36:40.126620+00:00"
+    "researched_at": "2026-11-04T09:19:18.194317+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -446,6 +445,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-03T09:36:40.126322+00:00"
+    "researched_at": "2026-11-04T09:19:18.193720+00:00"
   }
 ]

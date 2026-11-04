@@ -1,11 +1,16 @@
 [
   {
-    "path": "data/content/drafts/ผลทดสอบ-gpt-6-1-terra-ทำงานเร็วกว่า-ต้นทุนถูกกว่า-claude-opus-5-5-ได้จริง.json",
+    "path": "data/content/drafts/tencent-เปิดตัว-hy4-โมเดลราคาประหยัด-ความสามารถใกล้-kimi-k3-1-pro-แม้ราคาถูกกว่า.json",
     "passed": true,
     "errors": []
   },
   {
     "path": "data/content/drafts/marvell-ซื้อบริษัทผลิตชิปแสง-lumentum-ในราคาสูงถึง-1-15-แสนล้านดอลลาร์.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/ตัดก่อนตาย-aws-เพิ่มฟีเจอร์-spend-limits-ล็อกบัญชีเมื่อใช้บริการเกินกำหนด.json",
     "passed": true,
     "errors": []
   },
@@ -16,11 +21,6 @@
   },
   {
     "path": "data/content/drafts/geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่นเกม-pc-ระ.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/boox-เปิดตัว-palma-3-เครื่องอ่านอีุบุ๊กขนาดมือถือ-มีปากกาจด-มี-google-play.json",
     "passed": true,
     "errors": []
   }
