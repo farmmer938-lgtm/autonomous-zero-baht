@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-04T21:58:46.442477+00:00",
+ "checked_at": "2026-11-04T23:22:23.255952+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -43,5 +43,56 @@
    ]
   }
  },
- "changed": false
+ "radar": [
+  {
+   "rail": "frantic",
+   "id": "frantic:146",
+   "title": "Make a v0 email template your own and send it through an MCP server",
+   "reward_usd": 2,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/146"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:145",
+   "title": "Install NitroMTA and send one real email to proof@nitromta.com",
+   "reward_usd": 2,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/145"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:142",
+   "title": "Approve or decline an agent's held campaign after checking its MAP description",
+   "reward_usd": 3,
+   "visibility": "sealed",
+   "url": "https://gofrantic.com/bounties/142"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:130",
+   "title": "Answer live Reddit threads with a dated fact from an open registry",
+   "reward_usd": 3,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/130"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:129",
+   "title": "Earn a citation on an external page that already ranks for a relevant query",
+   "reward_usd": 16,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/129"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:97",
+   "title": "Your first bounty is on the house ($10 back when it clears, first five)",
+   "reward_usd": 10,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/97"
+  }
+ ],
+ "new_items": [],
+ "changed": true
 }
