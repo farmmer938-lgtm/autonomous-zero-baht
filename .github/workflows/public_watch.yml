@@ -47,3 +47,16 @@ jobs:
         run: |
           echo "A public surface is down; see data/public_watch.json" >&2
           exit 1
+      - name: Alert on new paid opportunities
+        run: |
+          python - <<'PY'
+          import json, sys
+          d = json.load(open("data/public_watch.json"))
+          new = d.get("new_items", [])
+          if new:
+              for i in new:
+                  print(f"NEW ${i.get('reward_usd')} on {i.get('rail')}: {i.get('title')} -> {i.get('url')}")
+              print(f"::error::{len(new)} new paid opportunity(ies) on the radar")
+              sys.exit(1)
+          print("No new opportunities.")
+          PY
