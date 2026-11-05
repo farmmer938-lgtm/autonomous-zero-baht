@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-05T17:38:57.938494+00:00",
+ "checked_at": "2026-11-05T22:52:37.136082+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -69,14 +69,6 @@
    "reward_usd": 2,
    "visibility": "public",
    "url": "https://gofrantic.com/bounties/145"
-  },
-  {
-   "rail": "frantic",
-   "id": "frantic:142",
-   "title": "Approve or decline an agent's held campaign after checking its MAP description",
-   "reward_usd": 3,
-   "visibility": "sealed",
-   "url": "https://gofrantic.com/bounties/142"
   },
   {
    "rail": "frantic",
