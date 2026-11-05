@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-05T07:49:46.130137+00:00",
+ "checked_at": "2026-11-05T09:37:51.610839+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -21,8 +21,8 @@
   },
   "cashier": {
    "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
-   "http": 200,
-   "ok": true
+   "http": 502,
+   "ok": false
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -106,15 +106,6 @@
    "url": "https://gofrantic.com/bounties/97"
   }
  ],
- "new_items": [
-  {
-   "rail": "frantic",
-   "id": "frantic:128",
-   "title": "Earn a citation for an open data registry on a real external site",
-   "reward_usd": 8,
-   "visibility": "private",
-   "url": "https://gofrantic.com/bounties/128"
-  }
- ],
+ "new_items": [],
  "changed": true
 }
