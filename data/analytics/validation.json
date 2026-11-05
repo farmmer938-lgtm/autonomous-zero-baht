@@ -5,11 +5,6 @@
     "errors": []
   },
   {
-    "path": "data/content/drafts/marvell-ซื้อบริษัทผลิตชิปแสง-lumentum-ในราคาสูงถึง-1-15-แสนล้านดอลลาร์.json",
-    "passed": true,
-    "errors": []
-  },
-  {
     "path": "data/content/drafts/ตัดก่อนตาย-aws-เพิ่มฟีเจอร์-spend-limits-ล็อกบัญชีเมื่อใช้บริการเกินกำหนด.json",
     "passed": true,
     "errors": []
@@ -21,6 +16,11 @@
   },
   {
     "path": "data/content/drafts/geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่นเกม-pc-ระ.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/canva-ปลดพนักงาน-22-ยอมรับบริษัทเติบโตช้าลง-จากผลกระทบของ-ai.json",
     "passed": true,
     "errors": []
   }
