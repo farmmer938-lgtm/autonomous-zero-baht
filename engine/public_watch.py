@@ -31,6 +31,10 @@ SURFACES = {
 
 UA = {"User-Agent": "af-public-watch/1.0"}
 
+# A watched surface (one expected to blip across sandbox restarts) only counts as
+# down after this many consecutive failed checks, so one 10-minute blip is not an email.
+SUSTAINED_DOWN = 3
+
 
 def fetch(url: str, timeout: int = 20):
     req = urllib.request.Request(url, headers=UA)
@@ -167,21 +171,6 @@ def render_dashboard(report):
 
 def main() -> int:
     now = datetime.now(timezone.utc).isoformat()
-    surfaces, down = {}, []
-    for name, (url, critical) in SURFACES.items():
-        code, body = fetch(url)
-        entry = {"url": url, "http": code, "ok": code == 200}
-        if name == "opentask":
-            titles = funded_titles(body)
-            entry["funded_tasks"] = len(titles)
-            entry["funded_titles"] = titles
-        surfaces[name] = entry
-        if critical and code != 200:
-            down.append(name)
-
-    report = {"schema": "af.public_watch.v1", "checked_at": now,
-              "healthy": not down, "down": down, "surfaces": surfaces,
-              "radar": radar_items()}
 
     prev = None
     if OUT.exists():
@@ -189,6 +178,26 @@ def main() -> int:
             prev = json.loads(OUT.read_text(encoding="utf-8"))
         except Exception:
             prev = None
+    prev_surfaces = (prev or {}).get("surfaces", {})
+
+    surfaces, down = {}, []
+    for name, (url, critical) in SURFACES.items():
+        code, body = fetch(url)
+        ok = code == 200
+        entry = {"url": url, "http": code, "ok": ok}
+        if name == "opentask":
+            titles = funded_titles(body)
+            entry["funded_tasks"] = len(titles)
+            entry["funded_titles"] = titles
+        prev_down = int(prev_surfaces.get(name, {}).get("consecutive_down", 0) or 0)
+        entry["consecutive_down"] = 0 if ok else prev_down + 1
+        surfaces[name] = entry
+        if not ok and (critical or entry["consecutive_down"] >= SUSTAINED_DOWN):
+            down.append(name)
+
+    report = {"schema": "af.public_watch.v1", "checked_at": now,
+              "healthy": not down, "down": down, "surfaces": surfaces,
+              "radar": radar_items()}
     seen = {i["id"] for i in (prev or {}).get("radar", [])}
     report["new_items"] = [i for i in report["radar"] if i["id"] not in seen]
     changed = not prev or prev.get("down") != down or [
