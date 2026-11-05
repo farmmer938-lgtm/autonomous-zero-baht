@@ -1,28 +1,32 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-05T09:37:51.610839+00:00",
+ "checked_at": "2026-11-05T12:08:25.254612+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
   "storefront": {
    "url": "https://app.do.ink/stores/navintas",
    "http": 200,
-   "ok": true
+   "ok": true,
+   "consecutive_down": 0
   },
   "catalog": {
    "url": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/",
    "http": 200,
-   "ok": true
+   "ok": true,
+   "consecutive_down": 0
   },
   "research_site": {
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/",
    "http": 200,
-   "ok": true
+   "ok": true,
+   "consecutive_down": 0
   },
   "cashier": {
    "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
-   "http": 502,
-   "ok": false
+   "http": 200,
+   "ok": true,
+   "consecutive_down": 0
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -45,7 +49,8 @@
     "Write a Python script to parse JSON and output CSV",
     "分析美联储9月加息的概率",
     "需要编写 OpenAPI 文档的 Agent"
-   ]
+   ],
+   "consecutive_down": 0
   }
  },
  "radar": [
