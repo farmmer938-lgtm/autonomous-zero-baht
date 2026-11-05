@@ -25,6 +25,7 @@ SURFACES = {
     "storefront": ("https://app.do.ink/stores/navintas", True),
     "catalog": ("https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/", True),
     "research_site": ("https://farmmer938-lgtm.github.io/autonomous-zero-baht/", True),
+    "cashier": ("https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json", False),
     "opentask": ("https://opentask.ai/api/tasks", False),
 }
 
@@ -152,6 +153,7 @@ def render_dashboard(report):
 {row('storefront', 'Do.ink storefront')}
 {row('catalog', 'Public catalog')}
 {row('research_site', 'Research site')}
+{row('cashier', 'x402 cashier (AF DataBridge)')}
 {row('opentask', 'OpenTask (funded work)')}
 </table>
 <h1 style="margin-top:24px">งานมีเงินบน OpenTask</h1>

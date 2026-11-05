@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-05T02:13:28.427550+00:00",
+ "checked_at": "2026-11-05T07:49:46.130137+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -16,6 +16,11 @@
   },
   "research_site": {
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/",
+   "http": 200,
+   "ok": true
+  },
+  "cashier": {
+   "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
    "http": 200,
    "ok": true
   },
@@ -86,6 +91,14 @@
   },
   {
    "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
+  },
+  {
+   "rail": "frantic",
    "id": "frantic:97",
    "title": "Your first bounty is on the house ($10 back when it clears, first five)",
    "reward_usd": 10,
@@ -93,6 +106,15 @@
    "url": "https://gofrantic.com/bounties/97"
   }
  ],
- "new_items": [],
- "changed": false
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
+  }
+ ],
+ "changed": true
 }
