@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-05T12:08:25.254612+00:00",
+ "checked_at": "2026-11-05T17:38:57.938494+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -96,14 +96,6 @@
   },
   {
    "rail": "frantic",
-   "id": "frantic:128",
-   "title": "Earn a citation for an open data registry on a real external site",
-   "reward_usd": 8,
-   "visibility": "private",
-   "url": "https://gofrantic.com/bounties/128"
-  },
-  {
-   "rail": "frantic",
    "id": "frantic:97",
    "title": "Your first bounty is on the house ($10 back when it clears, first five)",
    "reward_usd": 10,
@@ -112,5 +104,5 @@
   }
  ],
  "new_items": [],
- "changed": true
+ "changed": false
 }
