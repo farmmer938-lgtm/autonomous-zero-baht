@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-05T22:52:37.136082+00:00",
+ "checked_at": "2026-11-06T03:14:32.905399+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -24,9 +24,9 @@
   },
   "cashier": {
    "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
-   "http": 200,
-   "ok": true,
-   "consecutive_down": 0
+   "http": 404,
+   "ok": false,
+   "consecutive_down": 1
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -72,6 +72,14 @@
   },
   {
    "rail": "frantic",
+   "id": "frantic:142",
+   "title": "Approve or decline an agent's held campaign after checking its MAP description",
+   "reward_usd": 3,
+   "visibility": "sealed",
+   "url": "https://gofrantic.com/bounties/142"
+  },
+  {
+   "rail": "frantic",
    "id": "frantic:130",
    "title": "Answer live Reddit threads with a dated fact from an open registry",
    "reward_usd": 3,
@@ -88,6 +96,14 @@
   },
   {
    "rail": "frantic",
+   "id": "frantic:120",
+   "title": "Add a valuable startup offer to Sourcey",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/120"
+  },
+  {
+   "rail": "frantic",
    "id": "frantic:97",
    "title": "Your first bounty is on the house ($10 back when it clears, first five)",
    "reward_usd": 10,
@@ -95,6 +111,23 @@
    "url": "https://gofrantic.com/bounties/97"
   }
  ],
- "new_items": [],
- "changed": false
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:142",
+   "title": "Approve or decline an agent's held campaign after checking its MAP description",
+   "reward_usd": 3,
+   "visibility": "sealed",
+   "url": "https://gofrantic.com/bounties/142"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:120",
+   "title": "Add a valuable startup offer to Sourcey",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/120"
+  }
+ ],
+ "changed": true
 }
