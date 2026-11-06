@@ -15,24 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661644+00:00"
-  },
-  {
-    "title": "Tencent เปิดตัว Hy4 โมเดลราคาประหยัด ความสามารถใกล้ Kimi K3.1 Pro แม้ราคาถูกกว่ามาก",
-    "url": "https://www.blognone.com/node/152094",
-    "summary": "Tencent เปิดตัว Hy4 โมเดลราคาประหยัด ความสามารถใกล้ Kimi K3.1 Pro แม้ราคาถูกกว่ามาก Body ทีมวิจัย Tencent Hy เปิดตัวโมเดล Hy4 หลังจาก ปล่อยรุ่นพรีวิวมาแล้วหลายเดือน โดยความสามารถเพิ่มขึ้นจนผลทดสอบหลายชุดนำหน้าแม้แต่ โมเดลชั้นนำอย่าง Kimi K3.1 Pro ขนาด 3T และค่าโทเค็นถูกกว่าหลายเท่าตัว ผลทดสอบหลายตัวพัฒนาขึ้นจากรุ่นพรีวิวชัดเจน เช่น ProgramBench, 3DArena, Terminal Bench 4.0 โดยทีมงานระบุว่าความสามารถในการดูภาพพัฒนาขึ้นมาก จากการฝึกเฉพาะทางเพิ่มเติม เช่น การใช้งานโปรแกรมสามมิติอย่าง Blender หรือ CAD ตลอดจนการทำเว็บและเกม ทาง Tencent ระบุว่าจงใจจำกัดการฝึกด้านความปลอดภัยไซเบอร์ลง โดยเฉพาะความสามารถด้านการเจาะระบบ, การทำวิศวกรรมย้อนกลับ นอกจากนี้ยังทำให้ความสามารถด้านชีวภาพลดลงต่ำกว่าที่กำหนด แต่อีกทางหนึ่งทีมงานยอมรับว่าผลทดสอบบางส่วนยังทำได้ไม่ดี เช่น ความสามารถด้านคณิตศาสตร์, การเขียนโค้ดแบบทำงานต่อเนื่องยาวนาน, การพัฒนาโมเดลปัญญาประดิษฐ์, และการอ่านภาพซับซ้อนสูง โดยเป็นเป้าหมายการพัฒนาต่อไป ค่า API ของ Hy4 อยู่ที่ 0.834/2.5 ดอลลาร์ต่อล้านโทเค็น และช่วงนี้จะลด 50% หลังจากนี้ทีมงานกำลังพ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 04 Nov 2026 07:02:45 +0000",
-    "matched_keywords": [
-      "รีวิว",
-      "ราคา"
-    ],
-    "keyword_score": 2,
-    "intent_score": 4,
-    "opportunity_score": 6,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662780+00:00"
+    "researched_at": "2026-11-06T09:27:01.666496+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,14 +31,30 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662391+00:00"
+    "researched_at": "2026-11-06T09:27:01.667483+00:00"
   },
   {
-    "title": "ตัดก่อนตาย AWS เพิ่มฟีเจอร์ Spend Limits ล็อกบัญชีเมื่อใช้บริการเกินกำหนด",
-    "url": "https://www.blognone.com/node/152092",
-    "summary": "ตัดก่อนตาย AWS เพิ่มฟีเจอร์ Spend Limits ล็อกบัญชีเมื่อใช้บริการเกินกำหนด Body ปัญหาอย่างหนึ่งที่หลายคนได้ยินบ่อยๆ คือ ค่าบริการคลาวด์ทะลุสูงกว่าที่คาดคิด ไม่ว่าจะเกิดจากการถูกแฮกหรือลืมปิดบริการต่างๆ จนค่าบริการพุ่งไปอย่างไม่รู้ตัว เดือนที่ผ่านมาทาง AWS ก็เปิดฟีเจอร์ Spend Limits จากเดิมที่การกำหนดงบประมาณจะทำได้เพียงให้ AWS แจ้งเตือนเท่านั้น ผู้ใช้สามารถกำหนดเพดานค่าบริการได้ต่ำที่สุด 20 ดอลลาร์ และเมื่อเปิดใช้งานแล้ว ระบบจะเริ่มทำงานต่อเนื่อง หากระบบคาดว่าค่าบริการจะเกินเพดานใน 7 วันก็จะเริ่มล็อกไม่ให้เปิดบริการใหม่ แต่ปล่อยให้บริการเดิมที่เปิดใช้งานแล้วรันต่อไปได้, จากนั้นเมื่อกำลังเกินใน 5 วันจะเริ่มหยุดบริการที่ไม่ถูกใช้งานในช่วง 14 วันที่ผ่านมา, 4 วันก่อนหน้าจะเริ่มหยุดบริการที่ใช้งานอยู่ไล่จากบริการราคาแพง, จนกระทั่งค่าบริการเกินเพดานก็จะหยุดทั้งโปรเจค โดยสามารถกู้คืนข้อมูลได้ภายใน 90 วัน ฟีเจอร์นี้เน้นสำหรับนักพัฒนาที่เปิดโครงการใช้งานส่วนตัวเป็นหลัก ต้องกำหนดทีละโปรเจค โดยไม่สามารถกำหนดทั้งบัญชีได้ และค่าบริการเป็นค่าบริการก่อนคิดภาษี ที่มา - AWS Builder lew Wed, 04/11/2026 -",
+    "title": "ไมโครซอฟท์บอก Windows 11 ใช้แรมน้อยลง ตอบสนองเร็วขึ้น 40% บนพีซีแรม 8GB",
+    "url": "https://www.blognone.com/node/152113",
+    "summary": "ไมโครซอฟท์บอก Windows 11 ใช้แรมน้อยลง ตอบสนองเร็วขึ้น 40% บนพีซีแรม 8GB Body ไมโครซอฟท์ออกคลิปโปรโมทพัฒนาการของ Windows 11 ว่าทำงานบนพีซีแรมน้อย 8GB ได้เร็วขึ้นสูงสุด 40% ซึ่ง เพิ่มจากตัวเลขก่อนหน้า 20% เมื่อกลางเดือนนี้ วิธีการวัดของไมโครซอฟท์บอกว่าเทียบจาก Windows build ล่าสุด 26300.9550 คิดเทียบกับ build 26200.7628 ที่ออกเมื่อเดือนมกราคม 2026 โดยวัดค่าการทำงานของ Search, Start, Settings, Snipping Tool, File Explorer บนพีซีแรม 8GB แนวทางของไมโครซอฟท์คือให้แอพพลิเคชันต่างๆ ใช้แรมน้อยลงด้วยเทคนิคการรีดประสิทธิภาพต่างๆ เช่น ให้ Edge ปรับค่าแท็บให้หลับหลังไม่ใช้งาน 15 นาที เทียบกับของเดิม 2 ชั่วโมง ผลคือ Teams ใช้แรมน้อยลง 375MB หรือถ้าวัดรวม 6 ตัวคือ Teams, Edge, Word, Excel, PowerPoint, Outlook ใช้แรมลดลง 900MB ที่มา - ExtremeTech mk Fri, 06/11/2026 - 09:08",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 04 Nov 2026 00:34:02 +0000",
+    "published": "Fri, 06 Nov 2026 02:08:25 +0000",
+    "matched_keywords": [
+      "วิธี"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-06T09:27:01.667814+00:00"
+  },
+  {
+    "title": "โมเดลสร้างวิดีโอ Gemini Omni 1.2 Flash สร้างคลิปยาวขึ้นเป็น 15 วินาที, ราคาถูกลง 30%",
+    "url": "https://www.blognone.com/node/152112",
+    "summary": "โมเดลสร้างวิดีโอ Gemini Omni 1.2 Flash สร้างคลิปยาวขึ้นเป็น 15 วินาที, ราคาถูกลง 30% Body ข่าวโมเดลใหม่ประจำวันนี้ขอเสนอ Gemini Omni 1.2 Flash โมเดลสร้างวิดีโอ เวอร์ชันอัพเกรดจาก Gemini Omni 1.1 Flash ที่เพิ่งออกช่วงปลายเดือนสิงหาคม ของใหม่ที่สำคัญใน Gemini Omni 1.2 Flash คือสร้างวิดีโอได้ยากขึ้นจากเดิม 10 วินาทีเป็น 15 วินาที และสามารถสั่งกำหนดความยาวได้ในช่วง 3-15 วินาที (ขยับเพิ่มทีละ 1 วินาที) ช่วยให้ผู้สร้างคลิปมีความยืดหยุ่นมากขึ้นในการสร้างคลิปต่อเนื่องกัน อีกประเด็นสำคัญคือ Gemini Omni 1.2 Flash ลดราคาลงอีก 30% จากเวอร์ชัน 1.1 ส่งผลให้ราคาตอนนี้อยู่ที่ 0.07 ดอลลาร์ต่อวินาที ที่วิดีโอความละเอียด 720p โดยสามารถสร้างคลิป 360p/720p มาลองดูก่อน แก้ไขจนพอใจ แล้วค่อยอัพสเกลเป็น 1080p/4K ภายหลังได้ กูเกิลยังบอกว่า Gemini Omni 1.2 Flash จะปฏิบัติตามคำสั่งของเรา เช่น สไตล์ตัวละคร สไตล์ภาพ อย่างสม่ำเสมอตลอดคลิปมากขึ้น ไม่ว่าจะหมุนมุมกล้องอย่างไร ใบหน้า เสื้อผ้า ตัวอักษร สีของแบรนด์ จะเหมือนเดิมตลอดทั้งคลิป ตอนนี้ Gemini Omni 1.2 Flash เปิดใช้งานแล้วผ่าน API และผลิตภัณฑ์ต่างๆ ของกูเกิล เช่",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 06 Nov 2026 01:57:39 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -64,7 +63,23 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662867+00:00"
+    "researched_at": "2026-11-06T09:27:01.667880+00:00"
+  },
+  {
+    "title": "หุ้น Tech สหรัฐร่วงแรงเมื่อคืนนี้ จากความกังวลนโยบาย Data Center ในประเทศ",
+    "url": "https://www.blognone.com/node/152114",
+    "summary": "หุ้น Tech สหรัฐร่วงแรงเมื่อคืนนี้ จากความกังวลนโยบาย Data Center ในประเทศ Body เมื่อคืนนี้หุ้นสหรัฐจำนวนมากปรับตัวลงแรง โดยเฉพาะหุ้นของบริษัทเทคโนโลยีที่เกี่ยวกับ AI โดยในภาพรวมดัชนี Nasdaq ปรับลดลงถึง 5.82% มากที่สุด นับตั้งแต่ 4 เมษายน 2025 ส่วนหุ้น 7 นางฟ้า (Magnificent Seven) มูลค่ากิจการรวมกันหายไปมากกว่า 1 ล้านล้านดอลลาร์ เฉพาะ NVIDIA ลดลง 4.4 แสนล้านดอลลาร์ และทำให้ผลตอบแทนจากราคาหุ้น NVIDIA นับตั้งแต่ต้นปีกลับมาขาดทุน ก่อนหน้านี้ตลาดหุ้นสหรัฐมีความกังวลในหุ้นกลุ่มเทคโนโลยีที่เกี่ยวข้องกับ AI อยู่แล้ว จากประเด็นหนี้สินของบริษัทรายใหญ่ที่เพิ่มสูงมากเช่น Amazon หรือ Alphabet ที่กระแสเงินสดอิสระติดลบอีกไตรมาส เมื่อผลการเลือกตั้งกลางเทอมของสหรัฐออกมาว่าพรรคเดโมแครตได้เสียงข้างมากทั้งวุฒิสภาและสภาผู้แทนราษฎร จึงทำให้เกิดความกังวลว่าจะมีนโยบายควบคุมการขยายศูนย์ข้อมูล (Data Center) ซึ่งเป็นหนึ่งในหัวข้อที่ทำให้พรรคเดโมแครตชนะการเลือกตั้ง การปรับลดลงนี้ยังส่งผลต่อตลาดหุ้นในทวีปเอเชียวันศุกร์ โดยเฉพาะหุ้นที่ได้ประโยชน์จาก AI ในช่วงที่ผ่านมาทั้ง SK Hynix ลบ 8%, Samsung Electronics ลบ 7%, ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 06 Nov 2026 08:42:38 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-06T09:27:01.667755+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -80,7 +95,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661385+00:00"
+    "researched_at": "2026-11-06T09:27:01.666189+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -96,7 +111,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661908+00:00"
+    "researched_at": "2026-11-06T09:27:01.666840+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -112,7 +127,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661441+00:00"
+    "researched_at": "2026-11-06T09:27:01.666260+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -128,7 +143,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662494+00:00"
+    "researched_at": "2026-11-06T09:27:01.667618+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -144,23 +159,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662545+00:00"
-  },
-  {
-    "title": "Canva ปลดพนักงาน 22% ยอมรับบริษัทเติบโตช้าลง จากผลกระทบของ AI",
-    "url": "https://www.blognone.com/node/152097",
-    "summary": "Canva ปลดพนักงาน 22% ยอมรับบริษัทเติบโตช้าลง จากผลกระทบของ AI Body Canva ประกาศแผนปลดพนักงาน 1,271 คน ซึ่งคิดเป็น 22% ของพนักงานทั้งหมด โดย Melanie Perkins ซีอีโอ Canva ให้เหตุผลว่าเพื่อรองรับการเปลี่ยนแปลงที่จำเป็นในบทถัดไปของบริษัท Perkins ยอมรับว่าตลอด 13 ปี ที่ Canva ให้บริการกับผู้คนหลายร้อยล้านคนทั่วโลก บริษัทมีการเติบโตที่ดีมาตลอด โดยเพิ่งมีปีนี้ที่การเติบโตถดถอยลงเป็นครั้งแรก ทำให้บริษัทจำเป็นต้องปรับโครงสร้างครั้งใหญ่ ลดขนาดองค์กร เพื่อให้การตัดสินใจต่าง ๆ รวดเร็วมากขึ้น รวมทั้งพนักงานแต่ละคนอาจต้องรับผิดชอบงานที่มากขึ้น รวมถึงเปลี่ยนวิธีทำงานเป็นไฮบริด ต้องเข้าสำนักงานอย่างน้อย 2 วันต่อสัปดาห์ ในช่วงปีที่ผ่านมา Canva ได้รับผลกระทบมากจากคู่แข่งคือบรรดาแชทบอต AI ที่สามารถสร้าง-แก้ไขรูปภาพ ตลอดจนเนื้อหาต่าง ๆ ได้ ซึ่ง Canva เอง ก็พัฒนาเครื่องมือรองรับ AI ด้วยเช่นกัน ที่มา: TechCrunch arjin Wed, 04/11/2026 - 19:25",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 04 Nov 2026 12:25:04 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662682+00:00"
+    "researched_at": "2026-11-06T09:27:01.667687+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -176,7 +175,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662072+00:00"
+    "researched_at": "2026-11-06T09:27:01.667064+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -192,7 +191,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661955+00:00"
+    "researched_at": "2026-11-06T09:27:01.666899+00:00"
+  },
+  {
+    "title": "ธนาคาร Revolut โฮสต์โมเดลเขียนโค้ดเองแทน Claude Code ต้นทุนถูกลง 90%",
+    "url": "https://www.blognone.com/node/152110",
+    "summary": "ธนาคาร Revolut โฮสต์โมเดลเขียนโค้ดเองแทน Claude Code ต้นทุนถูกลง 90% Body David Abitbol วิศวกรของธนาคาร Revolut จากอังกฤษ (แต่มีธุรกิจในหลายประเทศ) เปิดเผยบนเวทีงานสัมมนา AI Engineer ว่าย้ายระบบจาก Claude Code มาเป็นการรันโมเดลบนเครื่อง B200 ของตัวเอง (self-hosted) ช่วยลดรายจ่ายลงได้ 90% Revolut เคยลองใช้โมเดลช่วยเขียนโค้ดมาแล้วหลายท่า เริ่มจาก Gemini ช่วงต้นปี 2025 แล้วย้ายมาใช้ Claude Code ช่วงต้นปี 2026 แต่พบว่าต้นทุนแพงเกินไป บางครั้งอาจทะลุไปเดือนละ 10,000 ดอลลาร์ต่อคน โดยที่ได้ประโยชน์กลับมาไม่เยอะนัก (วิศวกรมี 2,000 คน) แนวทางล่าสุดของ Revolut คือใช้โมเดลแบบโฮสต์เองบนการ์ด NVIDIA B200 จำนวน 56 ตัว ตอนแรกใช้โมเดล GLM-5.1 ล่าสุดอัพเกรดมาเป็น GLM-5.3 พบว่าต้นทุนอยู่ที่ 0.30 ดอลลาร์ต่อ 1 ล้านโทเคน หรือประมาณ 1/10 ของการใช้ Claude Code หรือ Codex และนอกจากต้นทุนที่ลดลง Revolut ยังเห็นการเปลี่ยนแปลงว่าเวลาที่ใช้เขียนโค้ดลดลง 60% Abitbol บอกว่าเมื่อค่าโทเคนถูกลงในระดับที่ไม่ต้องกังวลกับการใช้งาน วิศวกรก็ใช้งานได้เต็มที่มากขึ้น เทียบกับแนวทางเดิมที่ต้องจำกัดปริมาณการใช้โทเคนต่อเดือน เปิ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 05 Nov 2026 23:28:54 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-06T09:27:01.668001+00:00"
+  },
+  {
+    "title": "Windows 11 เพิ่มฟีเจอร์ Accelerated App Launches เปิดแอพที่รันอยู่แล้วได้เร็วขึ้น",
+    "url": "https://www.blognone.com/node/152109",
+    "summary": "Windows 11 เพิ่มฟีเจอร์ Accelerated App Launches เปิดแอพที่รันอยู่แล้วได้เร็วขึ้น Body ไมโครซอฟท์พัฒนาฟีเจอร์ใหม่ของ Windows 11 ชื่อ accelerated app launches ช่วยให้เรียกแอพได้เร็วขึ้น โดยเริ่มใช้งานกับ Microsoft Edge เป็นรายแรก เดิมทีการกดเรียกแอพจาก Taskbar หรือการคลิกลิงก์จากแอพอื่นเพื่อเปิดเบราว์เซอร์ กระบวนการเบื้องหลังคือ Windows ไม่รู้ว่ามีแอพตัวนั้นรันอยู่ก่อนหน้าหรือไม่ และจะต้องเรียกโพรเซสตัวหนึ่งขึ้นมาเพื่อตรวจเช็คสถานะของเบราว์เซอร์ก่อน หากพบว่าเบราว์เซอร์รันอยู่ (ซึ่งการใช้งานในยุคปัจจุบัน เบราวเซอร์มักรันอยู่แล้ว) ค่อยส่งลิงก์ต่อไปเปิดตัวโพรเซสของเบราว์เซอร์นั้น กระบวนการนี้เสียเวลาไปพอสมควร ท่าใหม่ของไมโครซอฟท์จึงเป็นการทำ register กลางขึ้นมาว่าเก็บข้อมูลมีแอพใดรันอยู่บ้าง เมื่อเปิด Edge ขึ้นมาครั้งแรก โพรเซสของ Edge จะส่งข้อมูลไปบอก register ว่าทำงานอยู่ เมื่อเราคลิกลิงก์จากแอพอื่น Windows จะรู้ข้อมูลแล้วว่า Edge รันอยู่ที่โพรเซสไหน แล้วส่งลิงก์ไปเปิดในโพรเซสนั้นได้ทันที ไมโครซอฟท์บอกว่าท่า accelerated app launches ช่วยให้เรียก Edge ได้เร็วขึ้น 15% ในกรณีทั่วไป หรือ 33%",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 05 Nov 2026 23:05:33 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-06T09:27:01.668083+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -206,7 +233,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661809+00:00"
+    "researched_at": "2026-11-06T09:27:01.666715+00:00"
+  },
+  {
+    "title": "True ไตรมาส 3/2569 ธุรกิจหลักรายได้เติบโต พร้อมกับการรักษากำไรต่อเนื่องเป็นไตรมาสที่ 7",
+    "url": "https://www.blognone.com/node/152108",
+    "summary": "True ไตรมาส 3/2569 ธุรกิจหลักรายได้เติบโต พร้อมกับการรักษากำไรต่อเนื่องเป็นไตรมาสที่ 7 Body กลุ่มบริษัท ทรู คอร์ปอเรชั่น รายงานผลประกอบการของไตรมาสที่ 3 ปี 2569 รายได้รวม 46,847 ลดลง 0.8% เมื่อเทียบกับไตรมาสเดียวกันในปีก่อน ปัจจัยหลักจากรายได้ค่าเช่าโครงข่ายที่ลดลงตามการสิ้นสุดสัญญาการจัดการคลื่นความถี่กับ NT ถ้าดูเฉพาะรายได้จากการบริการหลักเพิ่มขึ้น 0.9% เป็น 41,631 ล้านบาท จากการเติบโตของธุรกิจโทรศัพท์เคลื่อนที่และธุรกิจออนไลน์ กำไรสุทธิในไตรมาสอยู่ที่ 6,670 ล้านบาท โดยมีผลกระทบพิเศษเฉพาะไตรมาสคือการตัดจำหน่ายสินทรัพย์ไม่ได้ใช้งาน-บันทึกด้อยค่าใยแก้วนำแสง 294 ล้านบาท ถ้าไม่มีรายการนี้ กำไรสุทธิจะอยู่ที่ 6,964 ล้านบาท จำนวนผู้ใช้งานโทรศัพท์เคลื่อนที่มี 48.752 ล้านราย เพิ่มขึ้น 142,000 ราย จากไตรมาสก่อนหน้านี้, ธุรกิจออนไลน์มีลูกค้า 3.35 ล้านราย และธุรกิจโทรทัศน์บอกรับสมาชิกมีผู้ใช้บริการ 9.45 แสนราย ทรูคงเป้าหมายทางการเงินใหม่สำหรับปี 2569 เหมือนที่เคยประกาศไว้ โดยรายได้จากการให้บริการเพิ่มขึ้น 1-2% จากปีก่อน และมีเงินลงทุนที่ 2.5-2.7 หมื่นล้านบาท ที่มา: ทรู (pdf) arjin Fri, 06/11/202",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 05 Nov 2026 20:26:48 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-06T09:27:01.668146+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -220,7 +261,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662130+00:00"
+    "researched_at": "2026-11-06T09:27:01.667140+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -234,7 +275,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662015+00:00"
+    "researched_at": "2026-11-06T09:27:01.666977+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -248,7 +289,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661504+00:00"
+    "researched_at": "2026-11-06T09:27:01.666340+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -262,7 +303,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661565+00:00"
+    "researched_at": "2026-11-06T09:27:01.666420+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -276,21 +317,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661702+00:00"
-  },
-  {
-    "title": "Safari เริ่มทดสอบฟีเจอร์บังคับเว็บเป็น Dark Mode",
-    "url": "https://www.blognone.com/node/152093",
-    "summary": "Safari เริ่มทดสอบฟีเจอร์บังคับเว็บเป็น Dark Mode Body Safari เริ่มทดสอบฟีเจอร์ Adaptive Dark Mode บังคับเว็บที่ไม่รองรับ dark mode ในตัวให้แสดงผลแบบมืดได้เอง โดยเริ่มรองรับใน Safari 27.3 beta ระบบนี้จะวิเคราะห์สีในเว็บ และกลับข้างความสว่างหรือมืดให้เอง โดยยังคงโทนสี (hue) เอาไว้ รวมถึงเข้าไปวิเคราะห์ภาพ SVG หรือภาพ bitmap อื่นๆ ให้ด้วย และกลับสีให้หากภาพเรียบง่ายเพียงพอ ทีมงานระบุว่าเว็บส่วนใหญ่ที่ทำตามมาตรฐานที่ดีควรใช้งานได้ทันที อย่างไรก็ดี ทีมงานแนะนำให้นักพัฒนาทำ dark mode ด้วยตัวเองเพื่อให้ควบคุมได้ สำหรับผู้ใช้ Safari beta และเปิดระบบปฏิบัติการให้แสดงผลแบบ dark mode เบราว์เซอร์จะถามว่าต้องการทดลองฟีเจอร์นี้หรือไม่และกดเปิดให้ทันที ที่มา - WebKit.org lew Wed, 04/11/2026 - 10:04",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 04 Nov 2026 03:04:31 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662821+00:00"
+    "researched_at": "2026-11-06T09:27:01.666572+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -304,35 +331,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661860+00:00"
-  },
-  {
-    "title": "OpenAI ซื้อกิจการ Pierre ผู้พัฒนาระบบ Git Code Storage",
-    "url": "https://www.blognone.com/node/152099",
-    "summary": "OpenAI ซื้อกิจการ Pierre ผู้พัฒนาระบบ Git Code Storage Body OpenAI ประกาศแผนเข้าซื้อกิจการ Pierre Computer ผู้พัฒนาระบบบริหารจัดการโค้ด Code Storage และเครื่องมืออื่นสำหรับนักพัฒนาแบบโอเพนซอร์ส โดยดีลนี้ไม่มีการเปิดเผยมูลค่าที่เข้าซื้อ OpenAI บอกว่าเครื่องมือบางอย่างของ Pierre ถูกนำมาใช้งานอยู่แล้วใน Codex เช่นไลบรารี่ Trees หรือ Diffs ซึ่งมีจุดเด่นเรื่องระบบ Git ที่ออกแบบใหม่ให้เข้ากับโค้ดในยุคสมัย AI ที่มีปริมาณใหญ่ขึ้นกว่าเดิมมาก OpenAI จะนำเครื่องมือทั้งหมดจาก Pierre มารวมเข้ากับบริการ Codex ขณะที่โครงการของ Pierre ที่เป็นโอเพนซอร์สอยู่แล้ว จะยังสามารถใช้งานได้ต่อไปฟรีตามข้อกำหนด ส่วนบริการอื่นที่มีลูกค้าจ่ายเงิน บริษัทจะมีแผนโอนย้ายมาอยู่บน Codex ต่อไป ที่มา: OpenAI arjin Thu, 05/11/2026 - 08:00",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 05 Nov 2026 01:00:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662596+00:00"
-  },
-  {
-    "title": "NodeJS แจ้งเตือนกำลังออกแพตช์อุดช่องโหว่ร้ายแรงสูง วันที่ 11 นี้",
-    "url": "https://www.blognone.com/node/152098",
-    "summary": "NodeJS แจ้งเตือนกำลังออกแพตช์อุดช่องโหว่ร้ายแรงสูง วันที่ 11 นี้ Body NodeJS แจ้งเตือนผู้ใช้ว่ากำลังจะปล่อยแพตช์ระดับร้ายแรงสูง ซึ่งเป็นระดับสูงสุดของโครงการในวันที่ 11 พฤศจิกายนนี้ โดยเวอร์ชันที่ยังซัพพอร์ตอยู่ ได้แก่ 22, 24, 26 จะได้รับแพตช์พร้อมกัน เวอร์ชันเก่าที่หมดซัพพอร์ตไปแล้วก็ได้รับผลกระทบเช่นกัน ทาง NodeJS แนะนำให้อัพเกรดมายังเวอร์ชันที่ยังซัพพอร์ตอยู่ หรืออีกทางเลือกคือการซื้อซัพพอร์ตจากพาร์ตเนอร์ใน OpenJS Foundation Ecosystem Sustainability Program ที่มีสามรายได้แก่ HeroDevs, NodeSource, และ TuxCare เมื่อเดือนตุลาคมที่ผ่านมา NodeJS เพิ่ง ปล่อยแพตช์ช่องโหว่ร้ายแรงสูงไปเช่นกัน แต่ไม่มีการประกาศล่วงหน้าเช่นนี้ แสดงให้เห็นว่าช่องโหว่นี้อาจจะโจมตีได้ง่าย จนต้องเตือนให้แพตช์โดยเร็ว ที่มา - NodeJS lew Thu, 05/11/2026 - 00:59",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 04 Nov 2026 17:59:45 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662637+00:00"
+    "researched_at": "2026-11-06T09:27:01.666778+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -346,7 +345,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662236+00:00"
+    "researched_at": "2026-11-06T09:27:01.667279+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -360,7 +359,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661751+00:00"
+    "researched_at": "2026-11-06T09:27:01.666638+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -374,7 +373,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662342+00:00"
+    "researched_at": "2026-11-06T09:27:01.667420+00:00"
+  },
+  {
+    "title": "Microsoft Authenticator บน Android จะเปลี่ยนมาแบ็กอัปผ่าน Google One แทน Microsoft Account",
+    "url": "https://www.blognone.com/node/152111",
+    "summary": "Microsoft Authenticator บน Android จะเปลี่ยนมาแบ็กอัปผ่าน Google One แทน Microsoft Account Body มีการเปลี่ยนแปลงเล็ก ๆ แต่สำคัญ สำหรับคนที่ใช้แอปรหัสผ่านครั้งเดียว (One Time Password) Microsoft Authenticator ของไมโครซอฟท์ บนระบบปฏิบัติการ Android โดยการสำรองข้อมูลของแอปนี้ จะเปลี่ยนจากการใช้ Microsoft Account มาเป็น Google One ตามค่าพื้นฐานของระบบปฏิบัติการ Android มีผลตั้งแต่ มกราคม 2027 เป็นต้นไป สำหรับระบบปฏิบัติการ iOS ไมโครซอฟท์ใช้การสำรองข้อมูล Microsoft Authenticator ผ่าน iCloud อยู่ก่อนหน้าแล้ว ไมโครซอฟท์ บอกว่า ผู้ใช้งานต้องเปิดอนุญาตให้สำรองข้อมูลแอปนี้ผ่าน Settings ด้วย ที่มา: 9to5Google arjin Fri, 06/11/2026 - 08:02",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 06 Nov 2026 01:02:01 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-06T09:27:01.667936+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -388,7 +401,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662443+00:00"
+    "researched_at": "2026-11-06T09:27:01.667551+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -402,7 +415,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.661305+00:00"
+    "researched_at": "2026-11-06T09:27:01.666090+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -416,21 +429,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662179+00:00"
-  },
-  {
-    "title": "AMD ไตรมาส 3/2026 ทำสถิติสูงสุดอีกไตรมาส มองปีหน้ากลุ่มเซิร์ฟเวอร์ AI ยังโตได้อีกเท่าตัว",
-    "url": "https://www.blognone.com/node/152096",
-    "summary": "AMD ไตรมาส 3/2026 ทำสถิติสูงสุดอีกไตรมาส มองปีหน้ากลุ่มเซิร์ฟเวอร์ AI ยังโตได้อีกเท่าตัว Body AMD รายงานผลประกอบการประจำไตรมาสที่ 3 ปี 2026 ทำสถิติใหม่สูงสุดอีกครั้ง รายได้ 13,377 ล้านดอลลาร์ เพิ่มขึ้น 45% จากไตรมาสเดียวกันในปีก่อน อัตรากำไรขั้นต้น 54% และมีกำไรสุทธิตามบัญชี GAAP เพิ่มขึ้น 95% เป็น 2,428 ล้านดอลลาร์ กลุ่มธุรกิจ Data Center มีรายได้เพิ่มขึ้นถึง 97% เป็น 8,546 ล้านดอลลาร์ จากความต้องการสินค้ากลุ่ม EPYC รวมทั้งจีพียูรุ่นใหม่ MI450 ส่วนกลุ่ม Client และ Gaming รายได้ลดลง 8% เป็น 3,722 ล้านดอลลาร์ ซึ่งเมื่อลงรายละเอียด Client มีรายได้เพิ่มขึ้น 7% แต่กลุ่ม Gaming ลดลงถึง 40% เนื่องจากคำสั่งซื้อชิปคัสตอมของลูกค้าที่ลดลง ขณะที่กลุ่มธุรกิจ Embedded มีรายได้เพิ่มขึ้น 29% เป็น 1,109 ล้านดอลลาร์ ซึ่ง AMD บอกว่ามีคำสั่งซื้อมากขึ้นจากกลุ่มธุรกิจทั้ง อวกาศ, กองทัพ, ยานยนต์, โทรคมนาคม Dr. Lisa Su ซีอีโอ AMD ให้ข้อมูลช่วงแถลงผลประกอบการว่ารายได้กลุ่มเซิร์ฟเวอร์น่าจะเติบโตอีกเท่าตัวในปีหน้า 2027 นอกจากนี้บริษัทพบว่าความต้องการที่เกี่ยวกับ AI เติบโตด้วยอัตราที่เร็วมาก มากกว่าที่บริษัทเคยป",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 04 Nov 2026 11:52:36 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-05T09:31:36.662732+00:00"
+    "researched_at": "2026-11-06T09:27:01.667204+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -444,6 +443,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-05T09:31:36.662294+00:00"
+    "researched_at": "2026-11-06T09:27:01.667358+00:00"
   }
 ]

@@ -1,17 +1,23 @@
 {
-  "generated_at": "2026-11-05T09:31:36.666144+00:00",
+  "generated_at": "2026-11-06T09:27:01.672808+00:00",
   "count": 5,
   "items": [
     {
-      "id": "tencent-เปิดตัว-hy4-โมเดลราคาประหยัด-ความสามารถใกล้-kimi-k3-1-pro-แม้ร",
-      "title": "Tencent เปิดตัว Hy4 โมเดลราคาประหยัด ความสามารถใกล้ Kimi K3.1 Pro แม้ราคาถูกกว่ามาก",
-      "source_url": "https://www.blognone.com/node/152094",
-      "score": 6
+      "id": "ไมโครซอฟท์บอก-windows-11-ใช้แรมน้อยลง-ตอบสนองเร็วขึ้น-40-บนพีซีแรม-8gb",
+      "title": "ไมโครซอฟท์บอก Windows 11 ใช้แรมน้อยลง ตอบสนองเร็วขึ้น 40% บนพีซีแรม 8GB",
+      "source_url": "https://www.blognone.com/node/152113",
+      "score": 3
     },
     {
-      "id": "ตัดก่อนตาย-aws-เพิ่มฟีเจอร์-spend-limits-ล็อกบัญชีเมื่อใช้บริการเกินกำ",
-      "title": "ตัดก่อนตาย AWS เพิ่มฟีเจอร์ Spend Limits ล็อกบัญชีเมื่อใช้บริการเกินกำหนด",
-      "source_url": "https://www.blognone.com/node/152092",
+      "id": "โมเดลสร้างวิดีโอ-gemini-omni-1-2-flash-สร้างคลิปยาวขึ้นเป็น-15-วินาที-",
+      "title": "โมเดลสร้างวิดีโอ Gemini Omni 1.2 Flash สร้างคลิปยาวขึ้นเป็น 15 วินาที, ราคาถูกลง 30%",
+      "source_url": "https://www.blognone.com/node/152112",
+      "score": 3
+    },
+    {
+      "id": "หุ้น-tech-สหรัฐร่วงแรงเมื่อคืนนี้-จากความกังวลนโยบาย-data-center-ในประ",
+      "title": "หุ้น Tech สหรัฐร่วงแรงเมื่อคืนนี้ จากความกังวลนโยบาย Data Center ในประเทศ",
+      "source_url": "https://www.blognone.com/node/152114",
       "score": 3
     },
     {
@@ -24,12 +30,6 @@
       "id": "geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่",
       "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
       "source_url": "https://www.blognone.com/node/152043",
-      "score": 3
-    },
-    {
-      "id": "canva-ปลดพนักงาน-22-ยอมรับบริษัทเติบโตช้าลง-จากผลกระทบของ-ai",
-      "title": "Canva ปลดพนักงาน 22% ยอมรับบริษัทเติบโตช้าลง จากผลกระทบของ AI",
-      "source_url": "https://www.blognone.com/node/152097",
       "score": 3
     }
   ]
