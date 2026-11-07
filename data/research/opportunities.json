@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666496+00:00"
+    "researched_at": "2026-11-07T08:50:05.466515+00:00"
+  },
+  {
+    "title": "Zelda: Ocarina of Time ฉบับรีเมค ได้คะแนนรีวิวเฉลี่ย 96/100 ใกล้เคียงกับต้นฉบับ",
+    "url": "https://www.blognone.com/node/152120",
+    "summary": "Zelda: Ocarina of Time ฉบับรีเมค ได้คะแนนรีวิวเฉลี่ย 96/100 ใกล้เคียงกับต้นฉบับ Body The Legend of Zelda: Ocarina of Time ฉบับรีเมคปี 2026 ทำคะแนนรีวิวออกมายอดเยี่ยมสมศักดิ์ศรี โดยได้คะแนนรีวิวเฉลี่ย 96/100 บน Metacritic และ 95/100 บน OpenCritic เกม The Legend of Zelda: Ocarina of Time ภาคต้นฉบับปี 1998 ได้คะแนนรีวิวเฉลี่ย 99/100 ถือเป็นเกมที่ได้คะแนนเฉลี่ยสูงสุดเป็นประวัติการณ์ ความกดดันจึงมาอยู่กับทีมรีเมคอย่างหลีกเลี่ยงไม่ได้ สิ่งที่นินเทนโดทำคือ นำเนื้อเรื่องและโลกในเกมต้นฉบับที่ยอดเยี่ยมอยู่แล้ว มาปรับเข้ากับรูปแบบเกมเพลย์และการนำเสนอของเกมยุคใหม่ (Link กระโดดได้แล้ว!) บวกกับแสนยานุภาพของกราฟิกที่อลังการ เพิ่มคัทซีน เสียงพากย์ จึงไม่น่าแปลกใจที่สื่อจำนวนมากให้คะแนนระดับ 9 หรือ 10 กันถ้วนหน้า The Best-Reviewed Games of All-Time: https://t.co/E7kc55UnbU #28 - The Legend of Zelda: Ocarina of Time (2026) [*96*] https://t.co/k0jBfoy3xn — metacritic (@metacritic) November 5, 2026 mk Sat, 07/11/2026 - 10:21",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 07 Nov 2026 03:21:09 +0000",
+    "matched_keywords": [
+      "review",
+      "รีวิว"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-07T08:50:05.468585+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,55 +48,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667483+00:00"
-  },
-  {
-    "title": "ไมโครซอฟท์บอก Windows 11 ใช้แรมน้อยลง ตอบสนองเร็วขึ้น 40% บนพีซีแรม 8GB",
-    "url": "https://www.blognone.com/node/152113",
-    "summary": "ไมโครซอฟท์บอก Windows 11 ใช้แรมน้อยลง ตอบสนองเร็วขึ้น 40% บนพีซีแรม 8GB Body ไมโครซอฟท์ออกคลิปโปรโมทพัฒนาการของ Windows 11 ว่าทำงานบนพีซีแรมน้อย 8GB ได้เร็วขึ้นสูงสุด 40% ซึ่ง เพิ่มจากตัวเลขก่อนหน้า 20% เมื่อกลางเดือนนี้ วิธีการวัดของไมโครซอฟท์บอกว่าเทียบจาก Windows build ล่าสุด 26300.9550 คิดเทียบกับ build 26200.7628 ที่ออกเมื่อเดือนมกราคม 2026 โดยวัดค่าการทำงานของ Search, Start, Settings, Snipping Tool, File Explorer บนพีซีแรม 8GB แนวทางของไมโครซอฟท์คือให้แอพพลิเคชันต่างๆ ใช้แรมน้อยลงด้วยเทคนิคการรีดประสิทธิภาพต่างๆ เช่น ให้ Edge ปรับค่าแท็บให้หลับหลังไม่ใช้งาน 15 นาที เทียบกับของเดิม 2 ชั่วโมง ผลคือ Teams ใช้แรมน้อยลง 375MB หรือถ้าวัดรวม 6 ตัวคือ Teams, Edge, Word, Excel, PowerPoint, Outlook ใช้แรมลดลง 900MB ที่มา - ExtremeTech mk Fri, 06/11/2026 - 09:08",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 06 Nov 2026 02:08:25 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667814+00:00"
-  },
-  {
-    "title": "โมเดลสร้างวิดีโอ Gemini Omni 1.2 Flash สร้างคลิปยาวขึ้นเป็น 15 วินาที, ราคาถูกลง 30%",
-    "url": "https://www.blognone.com/node/152112",
-    "summary": "โมเดลสร้างวิดีโอ Gemini Omni 1.2 Flash สร้างคลิปยาวขึ้นเป็น 15 วินาที, ราคาถูกลง 30% Body ข่าวโมเดลใหม่ประจำวันนี้ขอเสนอ Gemini Omni 1.2 Flash โมเดลสร้างวิดีโอ เวอร์ชันอัพเกรดจาก Gemini Omni 1.1 Flash ที่เพิ่งออกช่วงปลายเดือนสิงหาคม ของใหม่ที่สำคัญใน Gemini Omni 1.2 Flash คือสร้างวิดีโอได้ยากขึ้นจากเดิม 10 วินาทีเป็น 15 วินาที และสามารถสั่งกำหนดความยาวได้ในช่วง 3-15 วินาที (ขยับเพิ่มทีละ 1 วินาที) ช่วยให้ผู้สร้างคลิปมีความยืดหยุ่นมากขึ้นในการสร้างคลิปต่อเนื่องกัน อีกประเด็นสำคัญคือ Gemini Omni 1.2 Flash ลดราคาลงอีก 30% จากเวอร์ชัน 1.1 ส่งผลให้ราคาตอนนี้อยู่ที่ 0.07 ดอลลาร์ต่อวินาที ที่วิดีโอความละเอียด 720p โดยสามารถสร้างคลิป 360p/720p มาลองดูก่อน แก้ไขจนพอใจ แล้วค่อยอัพสเกลเป็น 1080p/4K ภายหลังได้ กูเกิลยังบอกว่า Gemini Omni 1.2 Flash จะปฏิบัติตามคำสั่งของเรา เช่น สไตล์ตัวละคร สไตล์ภาพ อย่างสม่ำเสมอตลอดคลิปมากขึ้น ไม่ว่าจะหมุนมุมกล้องอย่างไร ใบหน้า เสื้อผ้า ตัวอักษร สีของแบรนด์ จะเหมือนเดิมตลอดทั้งคลิป ตอนนี้ Gemini Omni 1.2 Flash เปิดใช้งานแล้วผ่าน API และผลิตภัณฑ์ต่างๆ ของกูเกิล เช่",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 06 Nov 2026 01:57:39 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667880+00:00"
-  },
-  {
-    "title": "หุ้น Tech สหรัฐร่วงแรงเมื่อคืนนี้ จากความกังวลนโยบาย Data Center ในประเทศ",
-    "url": "https://www.blognone.com/node/152114",
-    "summary": "หุ้น Tech สหรัฐร่วงแรงเมื่อคืนนี้ จากความกังวลนโยบาย Data Center ในประเทศ Body เมื่อคืนนี้หุ้นสหรัฐจำนวนมากปรับตัวลงแรง โดยเฉพาะหุ้นของบริษัทเทคโนโลยีที่เกี่ยวกับ AI โดยในภาพรวมดัชนี Nasdaq ปรับลดลงถึง 5.82% มากที่สุด นับตั้งแต่ 4 เมษายน 2025 ส่วนหุ้น 7 นางฟ้า (Magnificent Seven) มูลค่ากิจการรวมกันหายไปมากกว่า 1 ล้านล้านดอลลาร์ เฉพาะ NVIDIA ลดลง 4.4 แสนล้านดอลลาร์ และทำให้ผลตอบแทนจากราคาหุ้น NVIDIA นับตั้งแต่ต้นปีกลับมาขาดทุน ก่อนหน้านี้ตลาดหุ้นสหรัฐมีความกังวลในหุ้นกลุ่มเทคโนโลยีที่เกี่ยวข้องกับ AI อยู่แล้ว จากประเด็นหนี้สินของบริษัทรายใหญ่ที่เพิ่มสูงมากเช่น Amazon หรือ Alphabet ที่กระแสเงินสดอิสระติดลบอีกไตรมาส เมื่อผลการเลือกตั้งกลางเทอมของสหรัฐออกมาว่าพรรคเดโมแครตได้เสียงข้างมากทั้งวุฒิสภาและสภาผู้แทนราษฎร จึงทำให้เกิดความกังวลว่าจะมีนโยบายควบคุมการขยายศูนย์ข้อมูล (Data Center) ซึ่งเป็นหนึ่งในหัวข้อที่ทำให้พรรคเดโมแครตชนะการเลือกตั้ง การปรับลดลงนี้ยังส่งผลต่อตลาดหุ้นในทวีปเอเชียวันศุกร์ โดยเฉพาะหุ้นที่ได้ประโยชน์จาก AI ในช่วงที่ผ่านมาทั้ง SK Hynix ลบ 8%, Samsung Electronics ลบ 7%, ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 06 Nov 2026 08:42:38 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667755+00:00"
+    "researched_at": "2026-11-07T08:50:05.467848+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -95,7 +64,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666189+00:00"
+    "researched_at": "2026-11-07T08:50:05.466050+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -111,7 +80,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666840+00:00"
+    "researched_at": "2026-11-07T08:50:05.466973+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -127,7 +96,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666260+00:00"
+    "researched_at": "2026-11-07T08:50:05.466191+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -143,7 +112,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667618+00:00"
+    "researched_at": "2026-11-07T08:50:05.468029+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -159,7 +128,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667687+00:00"
+    "researched_at": "2026-11-07T08:50:05.468154+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -175,7 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667064+00:00"
+    "researched_at": "2026-11-07T08:50:05.467287+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -191,35 +160,63 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666899+00:00"
+    "researched_at": "2026-11-07T08:50:05.467054+00:00"
   },
   {
-    "title": "ธนาคาร Revolut โฮสต์โมเดลเขียนโค้ดเองแทน Claude Code ต้นทุนถูกลง 90%",
-    "url": "https://www.blognone.com/node/152110",
-    "summary": "ธนาคาร Revolut โฮสต์โมเดลเขียนโค้ดเองแทน Claude Code ต้นทุนถูกลง 90% Body David Abitbol วิศวกรของธนาคาร Revolut จากอังกฤษ (แต่มีธุรกิจในหลายประเทศ) เปิดเผยบนเวทีงานสัมมนา AI Engineer ว่าย้ายระบบจาก Claude Code มาเป็นการรันโมเดลบนเครื่อง B200 ของตัวเอง (self-hosted) ช่วยลดรายจ่ายลงได้ 90% Revolut เคยลองใช้โมเดลช่วยเขียนโค้ดมาแล้วหลายท่า เริ่มจาก Gemini ช่วงต้นปี 2025 แล้วย้ายมาใช้ Claude Code ช่วงต้นปี 2026 แต่พบว่าต้นทุนแพงเกินไป บางครั้งอาจทะลุไปเดือนละ 10,000 ดอลลาร์ต่อคน โดยที่ได้ประโยชน์กลับมาไม่เยอะนัก (วิศวกรมี 2,000 คน) แนวทางล่าสุดของ Revolut คือใช้โมเดลแบบโฮสต์เองบนการ์ด NVIDIA B200 จำนวน 56 ตัว ตอนแรกใช้โมเดล GLM-5.1 ล่าสุดอัพเกรดมาเป็น GLM-5.3 พบว่าต้นทุนอยู่ที่ 0.30 ดอลลาร์ต่อ 1 ล้านโทเคน หรือประมาณ 1/10 ของการใช้ Claude Code หรือ Codex และนอกจากต้นทุนที่ลดลง Revolut ยังเห็นการเปลี่ยนแปลงว่าเวลาที่ใช้เขียนโค้ดลดลง 60% Abitbol บอกว่าเมื่อค่าโทเคนถูกลงในระดับที่ไม่ต้องกังวลกับการใช้งาน วิศวกรก็ใช้งานได้เต็มที่มากขึ้น เทียบกับแนวทางเดิมที่ต้องจำกัดปริมาณการใช้โทเคนต่อเดือน เปิ",
+    "title": "แอพ Xbox PC ปรับหน้าตาใหม่ ประสิทธิภาพดีขึ้น เรียกทำงานเร็วขึ้น 60%",
+    "url": "https://www.blognone.com/node/152117",
+    "summary": "แอพ Xbox PC ปรับหน้าตาใหม่ ประสิทธิภาพดีขึ้น เรียกทำงานเร็วขึ้น 60% Body ไมโครซอฟท์ออกอัพเดตแอพ Xbox PC เวอร์ชันใหม่ที่เรียกให้ทำงานเร็วขึ้น 60%, เรียกหน้าเพจต่างๆ เร็วขึ้น 50% และเปิดหน้าต่างภายในแอพเร็วขึ้น 65% แอพ Xbox PC เวอร์ชันนี้ยังปรับดีไซน์ใหม่ เพิ่มรายชื่อเพื่อนไว้ใน sidebar ด้านข้าง เห็นทันทีว่าเพื่อนเล่นเกมอะไรอยู่ คลิกไปแชทกับเพื่อนได้ทันที, หน้า Library คลังเกม ปรับให้เรียบง่ายขึ้น เพิ่มฟิลเตอร์คัดกรองเกมตามเงื่อนไขที่ต้องการ, ปรับปรุงระบบ search ให้รองรับทั้งเกมที่ติดตั้งในเครื่องและส่วนเสริม (add-ons) แอพ Xbox PC เวอร์ชันนี้เปิดใช้งานแล้วกับกลุ่ม Xbox Insiders และจะขยายหน้าตาแบบนี้ไปยังอินเทอร์เฟซเวอร์ชันเว็บ play.xbox.com สำหรับการเล่นเกมผ่านคลาวด์ด้วย ที่มา - Xbox mk Fri, 06/11/2026 - 21:45",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 05 Nov 2026 23:28:54 +0000",
+    "published": "Fri, 06 Nov 2026 14:45:12 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.668001+00:00"
+    "researched_at": "2026-11-07T08:50:05.468751+00:00"
   },
   {
-    "title": "Windows 11 เพิ่มฟีเจอร์ Accelerated App Launches เปิดแอพที่รันอยู่แล้วได้เร็วขึ้น",
-    "url": "https://www.blognone.com/node/152109",
-    "summary": "Windows 11 เพิ่มฟีเจอร์ Accelerated App Launches เปิดแอพที่รันอยู่แล้วได้เร็วขึ้น Body ไมโครซอฟท์พัฒนาฟีเจอร์ใหม่ของ Windows 11 ชื่อ accelerated app launches ช่วยให้เรียกแอพได้เร็วขึ้น โดยเริ่มใช้งานกับ Microsoft Edge เป็นรายแรก เดิมทีการกดเรียกแอพจาก Taskbar หรือการคลิกลิงก์จากแอพอื่นเพื่อเปิดเบราว์เซอร์ กระบวนการเบื้องหลังคือ Windows ไม่รู้ว่ามีแอพตัวนั้นรันอยู่ก่อนหน้าหรือไม่ และจะต้องเรียกโพรเซสตัวหนึ่งขึ้นมาเพื่อตรวจเช็คสถานะของเบราว์เซอร์ก่อน หากพบว่าเบราว์เซอร์รันอยู่ (ซึ่งการใช้งานในยุคปัจจุบัน เบราวเซอร์มักรันอยู่แล้ว) ค่อยส่งลิงก์ต่อไปเปิดตัวโพรเซสของเบราว์เซอร์นั้น กระบวนการนี้เสียเวลาไปพอสมควร ท่าใหม่ของไมโครซอฟท์จึงเป็นการทำ register กลางขึ้นมาว่าเก็บข้อมูลมีแอพใดรันอยู่บ้าง เมื่อเปิด Edge ขึ้นมาครั้งแรก โพรเซสของ Edge จะส่งข้อมูลไปบอก register ว่าทำงานอยู่ เมื่อเราคลิกลิงก์จากแอพอื่น Windows จะรู้ข้อมูลแล้วว่า Edge รันอยู่ที่โพรเซสไหน แล้วส่งลิงก์ไปเปิดในโพรเซสนั้นได้ทันที ไมโครซอฟท์บอกว่าท่า accelerated app launches ช่วยให้เรียก Edge ได้เร็วขึ้น 15% ในกรณีทั่วไป หรือ 33%",
+    "title": "สหรัฐเรียก Jensen Huang ชี้แจง หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล้ชิดกับเขา อาจเป็นสายลับจีน",
+    "url": "https://www.blognone.com/node/152125",
+    "summary": "สหรัฐเรียก Jensen Huang ชี้แจง หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล้ชิดกับเขา อาจเป็นสายลับจีน Body มีรายงานว่าคณะกรรมาธิการในสภาผู้แทนฯ สหรัฐ ได้ทำบันทึกถึง Jensen Huang ซีอีโอ NVIDIA ให้มาชี้แจง หลังจากมีข้อมูลข่าวกรองว่า Alice Huang นักธุรกิจหญิงชาวจีนซึ่งมีความสัมพันธ์ใกล้ชิดกับ Jensen อาจเป็นสายลับของรัฐบาลจีน The New York Times อ้างข้อมูลว่าหน่วยข่าวกรองของสหรัฐ ได้จับตาดู Alice มาประมาณ 1 ปีแล้ว แต่ยังไม่ทราบวัตถุประสงค์ที่แน่ชัดว่าต้องการข้อมูลใดจาก Jensen กันแน่ จึงไม่มีการดำเนินการหรือคำสั่งใดออกมาจนกระทั่งรายงานล่าสุดนี้ ข้อมูลที่เปิดเผยของ Alice Huang ระบุว่าเป็นเจ้าของบริษัท Megaspeed ซึ่งสั่งซื้อชิปประมวลผล AI จำนวนมากรวมทั้งของ NVIDIA เพื่อใช้งานในศูนย์ข้อมูล ทำให้หน่วยงานสหรัฐมองว่าเป็นช่องทางหนึ่งที่ทำให้บริษัทจีนเข้าถึงชิป NVIDIA รุ่นใหม่ได้ ภาพจาก NetThunder ตัวแทนของ NVIDIA ชี้แจงข่าวนี้ว่า Jensen รู้จักกับ Alice ในฐานะการพบปะระหว่างผู้บริหารตามปกติ ซึ่งเป็นงานของซีอีโออยู่แล้ว ไม่มีความสนิทสนมมากกว่าปกติ Jensen เองก็พบปะผู้บริหารระดับสูงของหน่วยงานต่าง ๆ หลายพัน",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 05 Nov 2026 23:05:33 +0000",
+    "published": "Sat, 07 Nov 2026 07:58:50 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.668083+00:00"
+    "researched_at": "2026-11-07T08:50:05.468331+00:00"
+  },
+  {
+    "title": "[ไม่ยืนยัน] OpenAI รับเงินลงทุนเพิ่ม 1.1 หมื่นล้านดอลลาร์ ที่มูลค่ากิจการ 1.25 ล้านล้านดอลลาร์",
+    "url": "https://www.blognone.com/node/152119",
+    "summary": "[ไม่ยืนยัน] OpenAI รับเงินลงทุนเพิ่ม 1.1 หมื่นล้านดอลลาร์ ที่มูลค่ากิจการ 1.25 ล้านล้านดอลลาร์ Body Bloomberg อ้างแหล่งข่าวที่เกี่ยวข้องว่า OpenAI ได้ปิดดีลรับเงินลงทุนเพิ่มเติมอีก 11,000 ล้านดอลลาร์ ซึ่งเงินลงทุนนี้เป็นส่วนหนึ่งของแผนการเพิ่มทุนรอบใหม่ที่ยังครบทั้งหมดตามแผน โดยรอบนี้ OpenAI คาดจะได้เงินลงทุนใหม่รวมประมาณ 2 หมื่นล้านดอลลาร์ ตัวเลขนี้ปรับลดลงจากเป้าหมายเดิมในเดือนกันยายนที่ OpenAI ต้องการเงินลงทุนเพิ่มประมาณ 3 หมื่นล้านดอลลาร์ โดยมูลค่ากิจการที่คาดหวังอยู่ที่ราว 1.25 ล้านล้านดอลลาร์ ประเด็นการรับเงินลงทุนของทั้ง OpenAI และ Anthropic ซึ่งต่างยังไม่ไอพีโอเข้าตลาดหุ้นทั้งคู่ กลายเป็นหัวข้อสำคัญในช่วงนี้เนื่องจากตลาดหุ้นปรับลดลงมากในสัปดาห์ที่ผ่านมา จากความกังวลเรื่องการลงทุน AI และนโยบายรัฐบาลสหรัฐ ที่อาจกระทบต่อการเพิ่มทุนของบริษัท AI ที่มา: Bloomberg arjin Sat, 07/11/2026 - 10:23",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 07 Nov 2026 03:23:41 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-07T08:50:05.468495+00:00"
+  },
+  {
+    "title": "[Omdia] ตลาดแท็บเล็ตไตรมาส 3/2026 ลดลง 23% - Apple ยังครองส่วนแบ่งมากที่สุด แต่ก็ลดลงถึง 27%",
+    "url": "https://www.blognone.com/node/152126",
+    "summary": "[Omdia] ตลาดแท็บเล็ตไตรมาส 3/2026 ลดลง 23% - Apple ยังครองส่วนแบ่งมากที่สุด แต่ก็ลดลงถึง 27% Body บริษัทวิจัยตลาดเทคโนโลยี Omdia รายงานภาพรวมตลาดแท็บเล็ตทั่วโลก ประจำไตรมาสที่ 3 ปี 2026 จำนวนส่งมอบลดลง 23% เมื่อเทียบกับไตรมาสเดียวกันในปีก่อนเป็น 32 ล้านเครื่อง ต่ำที่สุดในรอบเกือบสามปี โดยภูมิภาคที่จำนวนส่งมอบลดลงมากคือตะวันออกกลาง, จีน และยุโรปตะวันตก Himani Mukka หัวหน้าฝ่ายวิจัยของ Omdia ให้ความเห็นว่าการลดลงนี้ต่อเนื่องจากไตรมาสก่อนหน้านี้ จากปัญหาซัพพลายเชนที่ตึงตัว แท็บเล็ตกลายเป็นตัวเลือกที่ผู้ผลิตให้ความสำคัญลำดับท้าย ๆ สินค้าเลยผลิตออกมาไม่มาก และปัญหานี้น่าจะลากไปถึงปี 2027 แล้วดีขึ้นเร็วที่สุดในปี 2028 แอปเปิลยังครองส่วนแบ่งตลาดมากที่สุด 36.0% จำนวน 11.6 ล้านเครื่อง ลดลง 27.5%, ซัมซุงเป็นอันดับที่สอง 16.9% จำนวน 5.4 ล้านเครื่อง ลดลง 21.7% และ Lenovo อันดับที่สาม 12.7% จำนวน 4.1 ล้านเครื่อง เพิ่มขึ้น 11.9% เป็นเพียงรายเดียวมีจำนวนเครื่องเพิ่มขึ้น ที่มา: Omdia arjin Sat, 07/11/2026 - 15:12",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 07 Nov 2026 08:12:47 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-07T08:50:05.468244+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -233,21 +230,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666715+00:00"
-  },
-  {
-    "title": "True ไตรมาส 3/2569 ธุรกิจหลักรายได้เติบโต พร้อมกับการรักษากำไรต่อเนื่องเป็นไตรมาสที่ 7",
-    "url": "https://www.blognone.com/node/152108",
-    "summary": "True ไตรมาส 3/2569 ธุรกิจหลักรายได้เติบโต พร้อมกับการรักษากำไรต่อเนื่องเป็นไตรมาสที่ 7 Body กลุ่มบริษัท ทรู คอร์ปอเรชั่น รายงานผลประกอบการของไตรมาสที่ 3 ปี 2569 รายได้รวม 46,847 ลดลง 0.8% เมื่อเทียบกับไตรมาสเดียวกันในปีก่อน ปัจจัยหลักจากรายได้ค่าเช่าโครงข่ายที่ลดลงตามการสิ้นสุดสัญญาการจัดการคลื่นความถี่กับ NT ถ้าดูเฉพาะรายได้จากการบริการหลักเพิ่มขึ้น 0.9% เป็น 41,631 ล้านบาท จากการเติบโตของธุรกิจโทรศัพท์เคลื่อนที่และธุรกิจออนไลน์ กำไรสุทธิในไตรมาสอยู่ที่ 6,670 ล้านบาท โดยมีผลกระทบพิเศษเฉพาะไตรมาสคือการตัดจำหน่ายสินทรัพย์ไม่ได้ใช้งาน-บันทึกด้อยค่าใยแก้วนำแสง 294 ล้านบาท ถ้าไม่มีรายการนี้ กำไรสุทธิจะอยู่ที่ 6,964 ล้านบาท จำนวนผู้ใช้งานโทรศัพท์เคลื่อนที่มี 48.752 ล้านราย เพิ่มขึ้น 142,000 ราย จากไตรมาสก่อนหน้านี้, ธุรกิจออนไลน์มีลูกค้า 3.35 ล้านราย และธุรกิจโทรทัศน์บอกรับสมาชิกมีผู้ใช้บริการ 9.45 แสนราย ทรูคงเป้าหมายทางการเงินใหม่สำหรับปี 2569 เหมือนที่เคยประกาศไว้ โดยรายได้จากการให้บริการเพิ่มขึ้น 1-2% จากปีก่อน และมีเงินลงทุนที่ 2.5-2.7 หมื่นล้านบาท ที่มา: ทรู (pdf) arjin Fri, 06/11/202",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 05 Nov 2026 20:26:48 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.668146+00:00"
+    "researched_at": "2026-11-07T08:50:05.466803+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -261,7 +244,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667140+00:00"
+    "researched_at": "2026-11-07T08:50:05.467389+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -275,7 +258,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666977+00:00"
+    "researched_at": "2026-11-07T08:50:05.467183+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -289,7 +272,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666340+00:00"
+    "researched_at": "2026-11-07T08:50:05.466304+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -303,7 +286,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666420+00:00"
+    "researched_at": "2026-11-07T08:50:05.466411+00:00"
+  },
+  {
+    "title": "The Elder Scrolls VI ประกาศชื่อภาคว่า Sentinel แต่ยังไม่ประกาศวันขาย",
+    "url": "https://www.blognone.com/node/152121",
+    "summary": "The Elder Scrolls VI ประกาศชื่อภาคว่า Sentinel แต่ยังไม่ประกาศวันขาย Body Todd Howard หัวหน้าสตูดิโอ Bethesda เผยข้อมูลของเกม The Elder Scrolls VI ในคลิปฉลองครบรอบ 40 ปีของสตูดิโอ ว่าเกมภาคนี้จะใช้ชื่อภาคว่า Sentinel โดยยังไม่มีข้อมูลอื่นใด ทั้งเรื่องวันวางขายและแพลตฟอร์ม (ที่มีโอกาสสูงว่าจะเป็นเอ็กซ์คลูซีฟ Xbox เพราะในคลิปก็โชว์การทำเกมของ Bethesda บนเครื่อง Xbox รุ่นแรกและ Xbox 360) The Elder Scrolls VI เปิดตัวครั้งแรกในปี 2018 ตอนนี้เวลาผ่านมาแล้ว 8 ปี ความคืบหน้าล่าสุดคือมีชื่อภาคเพิ่มเข้ามาแล้ว และหากเกมวางขายได้จริงในปีหน้า 2027 ก็จะทิ้งช่วงห่างจากภาค V: Skyrim (2011) เป็นเวลานาน 16 ปี เหตุผลที่ The Elder Scrolls VI ใช้เวลานานขนาดนี้ เป็นเพราะตอนแรก Bethesda ตั้งใจว่าจะทำ Starfield ให้เสร็จก่อนแล้วค่อยมาทำ TES6 แต่เมื่อ Starfield ล่าช้าไปกว่าแผนเดิมมาก ทำให้กว่า TES6 จะเริ่มเข้าสู่กระบวนการโปรดักชันจริงๆ ก็ต้องรอหลัง Starfield วางขายในปี 2023 ก่อน mk Sat, 07/11/2026 - 10:57",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 07 Nov 2026 03:57:44 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-07T08:50:05.468415+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -317,7 +314,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666572+00:00"
+    "researched_at": "2026-11-07T08:50:05.466616+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -331,7 +328,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666778+00:00"
+    "researched_at": "2026-11-07T08:50:05.466889+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -345,7 +342,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667279+00:00"
+    "researched_at": "2026-11-07T08:50:05.467573+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -359,7 +356,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666638+00:00"
+    "researched_at": "2026-11-07T08:50:05.466701+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -373,21 +370,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667420+00:00"
-  },
-  {
-    "title": "Microsoft Authenticator บน Android จะเปลี่ยนมาแบ็กอัปผ่าน Google One แทน Microsoft Account",
-    "url": "https://www.blognone.com/node/152111",
-    "summary": "Microsoft Authenticator บน Android จะเปลี่ยนมาแบ็กอัปผ่าน Google One แทน Microsoft Account Body มีการเปลี่ยนแปลงเล็ก ๆ แต่สำคัญ สำหรับคนที่ใช้แอปรหัสผ่านครั้งเดียว (One Time Password) Microsoft Authenticator ของไมโครซอฟท์ บนระบบปฏิบัติการ Android โดยการสำรองข้อมูลของแอปนี้ จะเปลี่ยนจากการใช้ Microsoft Account มาเป็น Google One ตามค่าพื้นฐานของระบบปฏิบัติการ Android มีผลตั้งแต่ มกราคม 2027 เป็นต้นไป สำหรับระบบปฏิบัติการ iOS ไมโครซอฟท์ใช้การสำรองข้อมูล Microsoft Authenticator ผ่าน iCloud อยู่ก่อนหน้าแล้ว ไมโครซอฟท์ บอกว่า ผู้ใช้งานต้องเปิดอนุญาตให้สำรองข้อมูลแอปนี้ผ่าน Settings ด้วย ที่มา: 9to5Google arjin Fri, 06/11/2026 - 08:02",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 06 Nov 2026 01:02:01 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667936+00:00"
+    "researched_at": "2026-11-07T08:50:05.467761+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -401,7 +384,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-06T09:27:01.667551+00:00"
+    "researched_at": "2026-11-07T08:50:05.467938+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -415,7 +398,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.666090+00:00"
+    "researched_at": "2026-11-07T08:50:05.465920+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -429,7 +412,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667204+00:00"
+    "researched_at": "2026-11-07T08:50:05.467473+00:00"
+  },
+  {
+    "title": "Discord เขียนไคลเอนต์ใหม่ด้วย Rust แทน Electron กินแรมเพียง 290MB",
+    "url": "https://www.blognone.com/node/152118",
+    "summary": "Discord เขียนไคลเอนต์ใหม่ด้วย Rust แทน Electron กินแรมเพียง 290MB Body Stanislav Vishnevskiy ผู้ร่วมก่อตั้งและซีทีโอของ Discord โชว์ไคลเอนต์ Discord for PC เวอร์ชันใหม่ โค้ดเนม Discord Phoenix เขียนใหม่ด้วย Rust และ เฟรมเวิร์ค GPUI สำหรับสร้าง UI ความน่าตกตะลึงคือใช้แรมเพียง 290MB ไคลเอนต์ Discord for PC เวอร์ชันปัจจุบันเขียนอยู่บน Electron ที่แปลว่ากินแรมมหาศาล เพราะอยู่บนเทคโนโลยีเว็บ ปกติแล้วกินแรมประมาณ 1-2GB หรือบางครั้งอาจพุ่งขึ้นไปถึง 4GB เลยก็เคยเกิดขึ้นมาแล้ว Vishnevskiy โพสต์ว่า Discord เริ่มใช้ Rust มาตั้งแต่ปี 2018 แต่ที่ผ่านมาใช้กับงานฝั่งหลังบ้านเป็นหลัก ตอนนี้ขยับมาใช้ Rust กับฝั่งไคลเอนต์แล้ว และนอกจากมาแทนแอพเดสก์ท็อปเดิมที่ใช้ Electron ก็จะมาแทนแอพมือถือที่เขียนด้วย React Native ด้วย ที่มา - Windows Latest The new Discord client using less RAM is just part of the story. Clicking around feels instant, I can't go back. Check out the boot time. https://t.co/x7ayyWBVQJ — Stanislav (@svishnevskiy) November 5, 2026 We didn't forget about mobile, especially Android. Inspired",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Sat, 07 Nov 2026 00:32:55 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-07T08:50:05.468677+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -443,6 +440,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-06T09:27:01.667358+00:00"
+    "researched_at": "2026-11-07T08:50:05.467676+00:00"
   }
 ]

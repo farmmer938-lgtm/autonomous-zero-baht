@@ -1,16 +1,6 @@
 [
   {
-    "path": "data/content/drafts/ไมโครซอฟท์บอก-windows-11-ใช้แรมน้อยลง-ตอบสนองเร็วขึ้น-40-บนพีซีแรม-8gb.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/โมเดลสร้างวิดีโอ-gemini-omni-1-2-flash-สร้างคลิปยาวขึ้นเป็น-15-วินาที-ราคาถูกลง-.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/หุ้น-tech-สหรัฐร่วงแรงเมื่อคืนนี้-จากความกังวลนโยบาย-data-center-ในประเทศ.json",
+    "path": "data/content/drafts/zelda-ocarina-of-time-ฉบับรีเมค-ได้คะแนนรีวิวเฉลี่ย-96-100-ใกล้เคียงกับต้นฉบับ.json",
     "passed": true,
     "errors": []
   },
@@ -21,6 +11,16 @@
   },
   {
     "path": "data/content/drafts/geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่นเกม-pc-ระ.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/แอพ-xbox-pc-ปรับหน้าตาใหม่-ประสิทธิภาพดีขึ้น-เรียกทำงานเร็วขึ้น-60.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/สหรัฐเรียก-jensen-huang-ชี้แจง-หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล้ชิดกับเขา.json",
     "passed": true,
     "errors": []
   }
