@@ -22,17 +22,21 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "public_watch.json"
 
 SURFACES = {
-    "storefront": ("https://app.do.ink/stores/navintas", True),
-    "catalog": ("https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/", True),
-    "research_site": ("https://farmmer938-lgtm.github.io/autonomous-zero-baht/", True),
-    "cashier": ("https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json", False),
-    "opentask": ("https://opentask.ai/api/tasks", False),
+    "storefront": ("https://app.do.ink/stores/navintas", "critical"),
+    "catalog": ("https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/", "critical"),
+    "research_site": ("https://farmmer938-lgtm.github.io/autonomous-zero-baht/", "critical"),
+    # AF's x402 cashier runs inside the OpenHands sandbox, so its public URL is ephemeral:
+    # it drops on every container restart and returns on the next boot. That is expected,
+    # not a fault, so it is informational only and can never email the owner.
+    "cashier": ("https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json", "info"),
+    # Third-party rail: AF cannot repair it, so an outage is informational only.
+    "opentask": ("https://opentask.ai/api/tasks", "info"),
 }
 
 UA = {"User-Agent": "af-public-watch/1.0"}
 
-# A watched surface (one expected to blip across sandbox restarts) only counts as
-# down after this many consecutive failed checks, so one 10-minute blip is not an email.
+# A critical surface that blips across sandbox restarts only emails the owner after this
+# many consecutive failed checks, so one 10-minute blip is never an email.
 SUSTAINED_DOWN = 3
 
 
@@ -113,12 +117,14 @@ def render_dashboard(report):
     def row(name, label):
         e = s.get(name, {})
         ok = e.get("ok")
-        badge = "UP" if ok else "DOWN"
-        color = "#0a7d33" if ok else "#b00020"
+        tier = e.get("tier")
+        badge = "UP" if ok else ("DOWN" if tier == "critical" else "OFFLINE")
+        color = "#0a7d33" if ok else ("#b00020" if tier == "critical" else "#8a6d00")
         extra = ""
         if name == "opentask":
             extra = f" &middot; {e.get('funded_tasks', '?')} funded tasks"
-        return (f"<tr><td>{label}</td>"
+        note = "" if tier == "critical" else " <span style=\"color:#888;font-size:12px\">(informational)</span>"
+        return (f"<tr><td>{label}{note}</td>"
                 f"<td><span style=\"color:{color};font-weight:700\">{badge}</span>"
                 f" &middot; HTTP {e.get('http')}{extra}</td>"
                 f"<td><a href=\"{e.get('url')}\">open</a></td></tr>")
@@ -181,10 +187,10 @@ def main() -> int:
     prev_surfaces = (prev or {}).get("surfaces", {})
 
     surfaces, down = {}, []
-    for name, (url, critical) in SURFACES.items():
+    for name, (url, tier) in SURFACES.items():
         code, body = fetch(url)
         ok = code == 200
-        entry = {"url": url, "http": code, "ok": ok}
+        entry = {"url": url, "http": code, "ok": ok, "tier": tier}
         if name == "opentask":
             titles = funded_titles(body)
             entry["funded_tasks"] = len(titles)
@@ -192,7 +198,9 @@ def main() -> int:
         prev_down = int(prev_surfaces.get(name, {}).get("consecutive_down", 0) or 0)
         entry["consecutive_down"] = 0 if ok else prev_down + 1
         surfaces[name] = entry
-        if not ok and (critical or entry["consecutive_down"] >= SUSTAINED_DOWN):
+        # Only a critical surface that stays down for several checks emails the owner.
+        # Informational surfaces (the ephemeral sandbox cashier, third-party rails) never do.
+        if not ok and tier == "critical" and entry["consecutive_down"] >= SUSTAINED_DOWN:
             down.append(name)
 
     report = {"schema": "af.public_watch.v1", "checked_at": now,
