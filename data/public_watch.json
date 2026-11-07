@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-07T15:08:14.397763+00:00",
+ "checked_at": "2026-11-07T15:44:40.912001+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -82,22 +82,6 @@
    "reward_usd": 10,
    "visibility": "public",
    "url": "https://gofrantic.com/bounties/97"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_afb50a3edce52da05e",
-   "title": "SPEND-ROUTED — buy /api/v1/market/demand-index ($0.02), name the hottest lane",
-   "reward_usd": 1.5,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_15dfea3ba6e1187bd5",
-   "title": "MARKET DESK: x402 receipt replayability — 60 words",
-   "reward_usd": 1,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
@@ -482,8 +466,41 @@
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0054425eec9539317f",
+   "title": "[agentbounties] Reject duplicate verifier identities in quorum helper",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5342b87f87d47043ad",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid verifier reliability child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
   }
  ],
- "new_items": [],
- "changed": false
+ "new_items": [
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0054425eec9539317f",
+   "title": "[agentbounties] Reject duplicate verifier identities in quorum helper",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5342b87f87d47043ad",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid verifier reliability child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  }
+ ],
+ "changed": true
 }
