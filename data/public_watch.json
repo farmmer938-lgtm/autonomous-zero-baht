@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-07T02:34:15.603463+00:00",
+ "checked_at": "2026-11-07T09:14:07.146477+00:00",
  "healthy": false,
  "down": [
   "cashier"
@@ -28,7 +28,7 @@
    "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
    "http": 404,
    "ok": false,
-   "consecutive_down": 5
+   "consecutive_down": 6
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -66,6 +66,14 @@
   },
   {
    "rail": "frantic",
+   "id": "frantic:145",
+   "title": "Install NitroMTA and send one real email to proof@nitromta.com",
+   "reward_usd": 2,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/145"
+  },
+  {
+   "rail": "frantic",
    "id": "frantic:130",
    "title": "Answer live Reddit threads with a dated fact from an open registry",
    "reward_usd": 3,
@@ -79,14 +87,6 @@
    "reward_usd": 16,
    "visibility": "private",
    "url": "https://gofrantic.com/bounties/129"
-  },
-  {
-   "rail": "frantic",
-   "id": "frantic:128",
-   "title": "Earn a citation for an open data registry on a real external site",
-   "reward_usd": 8,
-   "visibility": "private",
-   "url": "https://gofrantic.com/bounties/128"
   },
   {
    "rail": "frantic",
@@ -499,52 +499,12 @@
  ],
  "new_items": [
   {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_f6722f8016843f20cb",
-   "title": "[agentbounties] Seed a paid API child bounty",
-   "reward_usd": 0,
+   "rail": "frantic",
+   "id": "frantic:145",
+   "title": "Install NitroMTA and send one real email to proof@nitromta.com",
+   "reward_usd": 2,
    "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_c27860635a6928a139",
-   "title": "[agentbounties] Seed a paid MCP child bounty",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_2ca2fc3d93f03b38a8",
-   "title": "[agentbounties] Seed a paid wallet UX child bounty",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_6df2eef97bda20baba",
-   "title": "[agentbounties] Seed a paid distribution-tooling child bounty",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_0054425eec9539317f",
-   "title": "[agentbounties] Reject duplicate verifier identities in quorum helper",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_5342b87f87d47043ad",
-   "title": "[agentbounties] Earn 1 USDC profit by creating a paid verifier reliability child bounty",
-   "reward_usd": 1,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
+   "url": "https://gofrantic.com/bounties/145"
   }
  ],
  "changed": true
