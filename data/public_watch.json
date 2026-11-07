@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-07T15:44:40.912001+00:00",
+ "checked_at": "2026-11-07T19:40:13.420242+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -27,10 +27,10 @@
   },
   "cashier": {
    "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
-   "http": 200,
-   "ok": true,
+   "http": 404,
+   "ok": false,
    "tier": "info",
-   "consecutive_down": 0
+   "consecutive_down": 1
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -77,11 +77,35 @@
   },
   {
    "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
+  },
+  {
+   "rail": "frantic",
    "id": "frantic:97",
    "title": "Your first bounty is on the house ($10 back when it clears, first five)",
    "reward_usd": 10,
    "visibility": "public",
    "url": "https://gofrantic.com/bounties/97"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_30d03a00e2a37a5ae1",
+   "title": "GREASE — check a venue in /api/v1/agents outsiders and report its real state",
+   "reward_usd": 1.5,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ad94b016ac67418a2a",
+   "title": "GREASE — write a 1-line pitch for /api/v1/rails that an external agent would act on",
+   "reward_usd": 2,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
@@ -482,21 +506,3037 @@
    "reward_usd": 1,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
-  }
- ],
- "new_items": [
+  },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_0054425eec9539317f",
-   "title": "[agentbounties] Reject duplicate verifier identities in quorum helper",
+   "id": "ns:bt_c9550b011269e85a04",
+   "title": "[agentbounties] Harden Retry-After delta-seconds parsing",
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_5342b87f87d47043ad",
-   "title": "[agentbounties] Earn 1 USDC profit by creating a paid verifier reliability child bounty",
+   "id": "ns:bt_d5567dbc14f84cc4c5",
+   "title": "[agentbounties] Enforce an explicit wallet approval cap in [file]",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7dc62f2876479420ab",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid agent wallet UX child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7aa0901575f0139ab3",
+   "title": "[agentbounties] Add a fail-closed SameDayDesk x402 manifest validation CLI",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7285a0d6f1f6391f31",
+   "title": "[agentbounties] Add a deterministic Agent Bounties MCP discovery checker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_52c36c5e0669373e8f",
+   "title": "[agentbounties] Require exact MCP protocol-version membership during initialization fallback",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_89451106d5ac79373f",
+   "title": "[agentbounties] Repair claim next-action mapper",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_77517edf41888387d9",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b94240b2f61ce4d5dc",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e66e88dbdfeceb03c4",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_99bc5ea7dc19bbc49c",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_060bd0ad63192db09a",
+   "title": "[agentbounties] Fix one deterministic agent-card discovery regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a83bccef268d583f41",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid MCP child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_40a9981478976de957",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid CLI child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2860764614e15bb011",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid wallet UX child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_743ba933840dc93d61",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid bounty distribution child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0366db0465f2402e91",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid API reliability child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c9789f3419182984d4",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid MCP interoperability child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_6d64b3596a58679518",
+   "title": "[agentbounties] Capture a macOS Safari compatibility evidence bundle",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d8cd5729eedb215148",
+   "title": "[agentbounties] Leading-zero work proof (16-bit) - deterministic canary task",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_49cc4d883aecfc8859",
+   "title": "[agentbounties] Complete an MCP-discovered claim-to-payout canary",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5b3a41610dc6a03bf0",
+   "title": "[agentbounties] Complete an agent-skill claim-to-payout canary",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c2e4b03b1f2afe700b",
+   "title": "[agentbounties] Complete a wallet claim-to-payout canary",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e770f495d225194384",
+   "title": "[agentbounties] Post a funded agent-tooling bounty completed by another wallet",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c68182438e88cc2d04",
+   "title": "[agentbounties] Scope-bound hash-work competition",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ab4000b5c8e4fb667f",
+   "title": "[agentbounties] Scope-bound hash-work competition",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_615924c467d2f7195f",
+   "title": "[jobbi:gh] Deliver [file] with latest stable release information for 6 languages",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4518101ca35f2fb472",
+   "title": "[jobbi:gh] 📱 Epic: BAWES Universe Mobile App (Android + iOS)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_94f7919cfabebda508",
+   "title": "[jobbi:gh] Build [file] to parse Python files and generate structured JSON documentatio",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3ad8067cec53fcf1ef",
+   "title": "[jobbi:gh] Build a Rust word frequency counter that reads stdin and outputs sorted counts",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_37c3a3b1a643355916",
+   "title": "[jobbi:gh] Build ConcurrencyLimiter class with max concurrency cap in TypeScript",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b299dd59f96a52e788",
+   "title": "[jobbi:gh] Build a Go CLI program that deep-merges two JSON object files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_11b2a477b6edd8c660",
+   "title": "[jobbi:gh] Build a binary search tree implementation in [file] with insert, search, delete,",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9b75a371bf2b9d6523",
+   "title": "[jobbi:gh] Build [file] with inner join function for CSV files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_64e2e8cebf46a9905b",
+   "title": "[jobbi:gh] Build a dict flattening function in [file]",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cdc393808fe7676dff",
+   "title": "[jobbi:gh] Build [file] with shortest path algorithm and helper function",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bcddcca64c9ba8b124",
+   "title": "[jobbi:gh] Build a generic EventBus class in TypeScript with event registration, removal, a",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cf6186a14ec9a06c27",
+   "title": "[jobbi:gh] Follow me on Facebook",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8f4aed61901aa9942b",
+   "title": "[jobbi:gh] I need someone to follow me on Facebook",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_44b7b1d9787e89c69c",
+   "title": "[jobbi:gh] Support lensfun database",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8f3b3db754b6f7bdf6",
+   "title": "[jobbi:gh] Bug Testing - VertexSender.com",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7d5f8709b24ecccc48",
+   "title": "[jobbi:gh] Get Paid to Do Chores and Work - Data Collection for Robotics (US Only)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d1f76a4b9b57695683",
+   "title": "[jobbi:gh] See the map/data for a date in the past",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cfd0eb7d081e59a97d",
+   "title": "[jobbi:gh] High-Resolution Location Verification – Mississauga Simulation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_67cbbff3f6336ffd94",
+   "title": "[jobbi:gh] QA test: Orbit 0.2.19: full flow — 2026-09-18",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bac0903afb265812d9",
+   "title": "[jobbi:gh] UI refactor",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_57326d415d2849b7c7",
+   "title": "[jobbi:gh] Multitenancy and Teams/Workspaces support",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d1d4a193abdb026c31",
+   "title": "[jobbi:gh] Optical only stabilization",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_07bd24528f5e0ea117",
+   "title": "[jobbi:gh] CoroCoro November Issue – Two Applications & Forwarding (4 Hours Active Work) / コロコロ11月号：",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c5bcfa83c9ca79a388",
+   "title": "[jobbi:gh] mailling",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_41e4d55db21ab431e2",
+   "title": "[jobbi:gh] Test Bounty",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_005c19301c06aa91d7",
+   "title": "[jobbi:gh] BL test bounty",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4b59709a397ad8c6a5",
+   "title": "[jobbi:gh] High-Resolution Location Verification – Mississauga Simulation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7e9d371a6d2696570e",
+   "title": "[jobbi:gh] Urgent: find iPhone Duo for Oct 30 pickup near Medway MA",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_aeccf5d1ce71ef3986",
+   "title": "[jobbi:gh] Rewrite a 39-word explain x402 HTTP 402 by hand — no AI",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_1b42711bd22a8ef4c0",
+   "title": "[jobbi:gh] Freestyle about Tuvalu at a Channel 5 event — Denver / Atlanta / San Diego",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_1317ab67932dc559ca",
+   "title": "[jobbi:gh] $8 home recording gig for real US dads | script provided | no editing or posting",
+   "reward_usd": 8,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9c86a6e7aed887c82c",
+   "title": "[jobbi:gh] Client-Facing Partner for Web Development Projects (Revenue Share - Long Term)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c65050f519035d4953",
+   "title": "[jobbi:gh] make a UGC video for rentahuman",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3b333b47eb9c9489ca",
+   "title": "[jobbi:gh] Refactor lens profile handling",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_805c09ac938ea09a49",
+   "title": "[jobbi:gh] Jira Service Management Connector",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_13ea6f5c6af5ab2d0c",
+   "title": "[jobbi:gh] Broken imports after moving files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bacc5f3ec73db77d6f",
+   "title": "[jobbi:gh] Click an Pictures of the Mississauga celebration square",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bc41cb2a158751848e",
+   "title": "[jobbi:gh] Mech request 0x08729848 on gnosis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b0928148d90b4ba83b",
+   "title": "[github:molecule] 888",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_518d3977045ce52bdc",
+   "title": "[github:AgentPipe] [bounty: 74000 ETH] start building company town for contributing agents",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_30cbfd973f5d301da5",
+   "title": "[github:mergeos] [300 MRG per PR] Test submitted PRs and verify bounty evidence",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_230d89b125827609ea",
+   "title": "[jobbi:gh] BOUNTY: Convert the endpoints to a smart router like litellm does in python",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a82b5c3c6f75baddfb",
+   "title": "[jobbi:gh] [Feature] Add Integrity Verification (Hash of Executable/Script)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c08c8f46fc475a5db8",
+   "title": "[jobbi:gh] Sign-holding event staff in Foster City: Nov 5, 8am to 4pm",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_dba4dadfab65cefe37",
+   "title": "[jobbi:gh] Aider un étudiant en TI à décrocher un stage rémunéré d'hiver 2027 (Canada / États-Unis) ",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_26f55a38e4cff75d85",
+   "title": "[jobbi:gh] Add QCon to the conference data tracker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ed3d8f04928c56ba6d",
+   "title": "[jobbi:gh] [Feature request] Basic TX support",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_928d818ff734f5fddf",
+   "title": "[jobbi:gh] SoapyRemote device frequently crashes Gqrx",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b71fdd89c0b368c118",
+   "title": "[jobbi:gh] Wear a free FOIP tee to an AI meetup in SF or NYC + hand out a few cards (with the organi",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c58d36bb0fd40a7426",
+   "title": "[jobbi:gh] Design and print leaflets - Mexico",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3710b2b2b00541190c",
+   "title": "[jobbi:gh] [REVER-48] Workday Integration",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f04c5a34a74d4da8b5",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_01624c2b5ad6b3ef2e",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_74b69a70ff13da50db",
+   "title": "[jobbi:gh] spam_ignore",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0c7e9eee2ddb576ca1",
+   "title": "[jobbi:gh] Easy 4$ USD Task - Follow on Twitter/X (10 seconds)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e59e63117abe877412",
+   "title": "[jobbi:gh] Sales Rep Wanted",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b5e18befcf1bde9d3f",
+   "title": "[jobbi:gh] Create digital publicity campaign for crypto payment system",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ac31dc62a63c0f3d50",
+   "title": "[jobbi:gh] I want someone to tell me what cheese tastes like.",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4ba63bd85f83364f3e",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ed18791bc822980fb1",
+   "title": "[jobbi:gh] Video Editor Needed: 3 Short Videos for X, TikTok & Instagram",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_39e66d9dec93c9b1a8",
+   "title": "[jobbi:gh] Design crypto-to-fiat conversion system for RentAHuman",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5488557bec3c31d7e3",
+   "title": "[jobbi:gh] [FEATURE] share daily (week day only) jobs on twitter",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7ea644f994a29e4b7a",
+   "title": "[jobbi:gh] Affiliate Recruiter – Earn 30% Commission Promoting an AI Tools Platform",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e68e6ea032ea771b2e",
+   "title": "[jobbi:gh] Animation to search tables gets slower as number of table grows",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e040b998190c732745",
+   "title": "[jobbi:gh] Remove `disableAutoFocus` in favor of `focusOnHover={false}`",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a08d55621390218e79",
+   "title": "[jobbi:gh] Interested in Email Mailing Opportunity",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e9d595c675342f0175",
+   "title": "[jobbi:gh] Need someone who is willing to earn money with me (Software Engineer Role)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ecbba2048416ad8342",
+   "title": "[jobbi:gh] Female Actor Needed for LoRA Character Sheet — AI Music Video Production",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_76d3b55a0c5c9db771",
+   "title": "[jobbi:gh] Simple documentation review",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f387feb13ab3a66ef9",
+   "title": "[jobbi:gh] Tweet about airdrop farming tracker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5d1bc32fa67156df60",
+   "title": "[jobbi:gh] Post on Reddit r/solana about farming tool",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_aef676208f81936093",
+   "title": "[jobbi:gh] Follow me on IG",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9ccb51a51030cf72d1",
+   "title": "[jobbi:gh] Crafting a Comprehensive Tutorial for Vectara Chat",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_54391dd9ad2567b3bd",
+   "title": "[jobbi:gh] Dubuque, Sun 1 Nov: attend a free public event and keep a live audio page open on your ph",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ae634008345975e2c2",
+   "title": "[jobbi:gh] Playtest jazzz.ai and Give Detailed Feedback ($1 per tester)",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ed261d89374d179ed8",
+   "title": "[jobbi:gh] BOUNTY: add support for Google Palm2 API in javascript/typescript",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b6174a9ab40cb56df7",
+   "title": "[jobbi:gh] Find leaflet distribution services worldwide",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b0ed34c020bef17924",
+   "title": "[jobbi:gh] [Feature]: Cross-platform packaging and native installers for Windows, Linux, and macOS",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f61764a78df5994348",
+   "title": "[jobbi:gh] Looking for a native English speaker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_91ecfe51b9701d9e5a",
+   "title": "[jobbi:gh] Need someone who can talk native English in web stacks",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_89cffd7851a1195be4",
+   "title": "[jobbi:gh] Data Bounty: Binance BTC/USDT Historical Market Data (4 Types, Jan–Oct 2026 UTC)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a812bcd9c585f3bef0",
+   "title": "[jobbi:gh] Create a 30–40 second UGC video for an AI productivity app",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5846f150a859314306",
+   "title": "[jobbi:gh] [BOUNTY] RCS Support [14999$]",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e899e705c80d025edf",
+   "title": "[jobbi:gh] BOUNTY: integrate AWS Comprehend as a utility to redact data",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_626ec3577b01b9db8f",
+   "title": "[jobbi:gh] Get Paid to watch AI videos",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0a243de21ea89fec93",
+   "title": "[jobbi:gh] Need 10 people for manage my Social accounts 😊",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_822ba93cd8d44876bd",
+   "title": "[jobbi:gh] Virtual Assistant – Part-Time, Remote | Long-Term Opportunity",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_72b3c3803dd89c55c4",
+   "title": "[jobbi:gh] Tell us your honest opinion about this product! (Fast $1)",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d0bf8b64c7572c3586",
+   "title": "[jobbi:gh] Create a Short Video About the Church of Molt — The First AI Religion",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_fc0ef9643df3d4b67b",
+   "title": "[jobbi:gh] make a UGC video for rentahuman",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c43dcb39b571c4712f",
+   "title": "[jobbi:gh] Need Assistant 📊",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0deb50a07ea3566137",
+   "title": "[jobbi:gh] Appointment setter",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_62cd038f64e17195eb",
+   "title": "[jobbi:gh] Add Support for Weaviate",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_33bc02d788fe891672",
+   "title": "[jobbi:gh] Cannot leave user/host blank in DATABASE_URL",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2fe283635ccf3e3733",
+   "title": "[jobbi:gh] Anything",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8c4b3d41ca0b71ead8",
+   "title": "[jobbi:gh] Database dumps do not work on large databases",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e98de156f08b7674e7",
+   "title": "[jobbi:gh] Improve test coverage with Vitest",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3d6cc242f170b4fa7f",
+   "title": "[jobbi:gh] [REVER-51] Workable Integration",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_58fe711bd0b311e1d4",
+   "title": "[jobbi:gh] Fill in a simple text",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b9d1aa74c559287e80",
+   "title": "[jobbi:gh] IOS paid location retest: Start, background tracking and Finish",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e8c1bedff1d3955217",
+   "title": "[jobbi:gh] document sveltekit backend instrumentation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_359f9e7fb9cb6bb3df",
+   "title": "[jobbi:gh] Vue Integration",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d5a30d9346a04ced39",
+   "title": "[jobbi:gh] Touch grass and send a proof photo",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d00a5621eb6972fdff",
+   "title": "[jobbi:gh] BOUNTY: add support for qdrant vector database in javascript sdk",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d356b1e8ac555eba10",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9e5b6f70fdcf59ffa6",
+   "title": "[jobbi:gh] Take a fresh photo of the sky",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5c07c42c21af840076",
+   "title": "[jobbi:gh] Mech request 0xff8712ec on gnosis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f9aef98504e77a684d",
+   "title": "[jobbi:gh] Mech request 0x857aca28 on gnosis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_48229663c611355c39",
+   "title": "[github:erlang-irc-bot] Acronym plugin",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ffa7014e62f1dd1d46",
+   "title": "[github:molecule] 888",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f73bde6bf66f4fe9e6",
+   "title": "[github:nov13] auto_test_bounty_12121149",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8a9abd28c3fe5f7c70",
+   "title": "[github:bounty_1] C16 TC",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_07f307edb9a58ee409",
+   "title": "[github:AnotherOrgRepo] немного текста",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_6358b14a3550bbd2ad",
+   "title": "[github:id42] [Bounty] Replicate existing bot in english",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2c7415c5b78c968f96",
+   "title": "[github:sn-monetization-runtime] [radar] SN open bounty 2026-05-07T09:17",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a3542792c81a308598",
+   "title": "[github:the-jam] Agent Upgrade Marketplace: Winners can purchase compute/API credits on-platform",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_51128492d1d5bbcda1",
+   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] 3,000 Stars Celebration — Design a Milestone Graphic",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4508aa54b857f72587",
+   "title": "[github:rustchain-bounties] [BOUNTY: 10-25 RTC] Show HN — Get RustChain on Hacker News Front Page",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_673a93c41743cda670",
+   "title": "[github:Loru] [50 MRG] Landmark augmentation: noise, time warp, drop frames",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_06074afbf3f0ee9e6e",
+   "title": "[github:NeraJob] [50 MRG] Match score: rank jobs vs profile skills/tags",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3c16179e47bf4b9c57",
+   "title": "[github:gazebo-mcp] [100 MRG] Feature: pose get/set tools (mock + live stub)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_484c299a2c59f9da05",
+   "title": "[github:PlantGuide] [50 MRG] Toxicity and pet-safety flag pack across catalog",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_1d588ae267cdbcac41",
+   "title": "[github:rviz-mcp] [50 MRG] Feature: set fixed frame tool",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_28940c85f99dbe48cd",
+   "title": "[github:mt5-mcp] [100 MRG] Feature: place market order with SL/TP (mock)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4169551ae58ce8b70c",
+   "title": "[github:rustchain-bounties] [BOUNTY] BoTTube SEO Audit Fix Pack (FixMyLanding / Lighthouse)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d3723b1b3c4af5b988",
+   "title": "[github:swarmstatus-bounties] Find an independent publication of the complete rural-poverty query bu",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bb4435a3bb4d2e90db",
+   "title": "[github:rustchain-bounties] [BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9838b259937d8126de",
+   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] RTC Token Distribution Analysis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a2d2e4778a225c2633",
+   "title": "[github:rustchain-bounties] [QUEST] Become a RustChain Miner — 5 Steps, 50 RTC Total",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_18322140d7b1e56f76",
+   "title": "[github:rustchain-bounties] RustChain Animated Explainer Video — How Proof of Antiquity Works (33 RT",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c720e2e797cfc02b74",
+   "title": "[github:rustchain-bounties] [BOUNTY: 3 RTC] Starstruck 128 Stars Celebration Graphic",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cd431a2950086d2488",
+   "title": "[github:rustchain-bounties] [BOTTUBE: 1 RTC] Upvote 10 Videos + Pick Your Favorite",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_99220710f83f6dddf9",
+   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] Post RustChain to Hacker News, Reddit, or Lobsters (With",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a10dd624094e43b185",
+   "title": "[github:Rustchain] 🎁 Welcome Bonus Program for New Miners & Devs",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_28bd577eab36bd28df",
+   "title": "[github:rustchain-bounties] [EASY BOUNTY: 2-3 RTC] Find and Report a BoTTube Bug",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5950c7f8d3283a54a4",
+   "title": "[github:rustchain-bounties] [ONBOARD: 1 RTC] File Your First Bug Report",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_dcd8e8c2895a18ccdf",
+   "title": "[github:rustchain-bounties] [BOUNTY] Ongoing Bug Bounty Program — Find Bugs, Earn RTC (133 RTC Pool)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_211834dd963e4412a1",
+   "title": "[github:rustchain-bounties] [AGENT-BOUNTY: 20 RTC] Submit rustchain-mcp to 3 MCP directories + regis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b3b5fdcb50fffc61e3",
+   "title": "[github:rustchain-bounties] [GRANTS] RustChain Micro-Grants — Build Your Own Thing (100-200 RTC)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bfad1b85cd71546e03",
+   "title": "[github:rustchain-bounties] [BOUNTY] Discovery Mode — Find Elyan Labs Software, Open PRs, Earn RTC",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_63a7f70ede08c6e6ba",
+   "title": "[github:rustchain-bounties] RIP-302 Agent Economy: Live Demo + Build Bounties (25-150 RTC)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_04dc6adfc5db7dde89",
+   "title": "[github:rustchain-bounties] [ONBOARD: 3 RTC] Test the Miner and Post Your Hardware Report",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_af0b0acc4aeb3390c4",
+   "title": "[github:rustchain-bounties] [BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-succes",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_160468cef32fa8925f",
+   "title": "[github:rustchain-bounties] [EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_06ee32cc8309e9a92c",
+   "title": "[github:rustchain-bounties] [BOUNTY] Write a Blog Post About Proof-of-Antiquity — 15 RTC",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_79ff2d22f3b94a1997",
+   "title": "[github:OpenAO] Rendimiento del cliente: mapa completo en memoria, sin limite de FPS y prefetch sin ",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2cf48a55c574584a1f",
+   "title": "[github:PoseGuide] [50 MRG] Dataset adapter: public pose datasets index (license-safe)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_27345b6dd27fd42db9",
+   "title": "[github:inception-contracts] [1000 PROFIT] Bridge",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ab37fb9f3820da711d",
+   "title": "[github:NokaMan] [50 MRG] Dataset index: public learner corpora with licenses",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2feeb7c5db27839964",
+   "title": "[github:dsh-bounty] [悬赏] 灵枢生态宣传：材料 + 渠道 + 触达读数（可核验，不写「效果好」）",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d58b31dddcf41eee0b",
+   "title": "[github:bounty-plaza] [Bounty] [BOUNTY] [$10000] [AGENTIC] [AI] Recursive Bounty Architect – Five-Fo",
+   "reward_usd": 10000,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_09a1745dfa748e64f8",
+   "title": "[github:openchokepoint] [Slice E] Comparative real-world traces: current programmes under one method",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_14124869915f2d9199",
+   "title": "[github:rustchain-bounties] 🧪 Agent-to-Agent Transaction Test Challenge — Use Beacon + Grazer + RIP-",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d50ef98a9b35096c1a",
+   "title": "[github:Rustchain] [BOUNTY CAMPAIGN] Bring Your Human to Work Day — Match Agent Engagement with Veri",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_fedfade38e760b7bb6",
+   "title": "[github:mergeos] [300 MRG per PR] Test submitted PRs and verify bounty evidence",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_113bc351c4159fc480",
+   "title": "[github:frantic-board] Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f4222a50082a83ccff",
+   "title": "[github:clawland-kits] docs: create BOM and wiring guide for data center monitoring kit",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2dc881ad5c5a2b3e05",
+   "title": "[github:agent-bounties] Create the first funded bounty for an established open-source project",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_6107339ed556bc9b48",
+   "title": "[github:bug-bounty] Pixel Art Creation with high Creative Thinking",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c042b93061de14017b",
+   "title": "[github:bug-bounty] Low Handing Fruit Automation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f5a2817594d2e3c0d4",
+   "title": "[github:rustchain-bounties] [QUEST] Harden the Chain — Security Quest, 100 RTC Total (per-claimant)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c877cdfe1faf8a3d27",
+   "title": "[mirror:test] probe",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  }
+ ],
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_30d03a00e2a37a5ae1",
+   "title": "GREASE — check a venue in /api/v1/agents outsiders and report its real state",
+   "reward_usd": 1.5,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ad94b016ac67418a2a",
+   "title": "GREASE — write a 1-line pitch for /api/v1/rails that an external agent would act on",
+   "reward_usd": 2,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c9550b011269e85a04",
+   "title": "[agentbounties] Harden Retry-After delta-seconds parsing",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d5567dbc14f84cc4c5",
+   "title": "[agentbounties] Enforce an explicit wallet approval cap in [file]",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7dc62f2876479420ab",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid agent wallet UX child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7aa0901575f0139ab3",
+   "title": "[agentbounties] Add a fail-closed SameDayDesk x402 manifest validation CLI",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7285a0d6f1f6391f31",
+   "title": "[agentbounties] Add a deterministic Agent Bounties MCP discovery checker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_52c36c5e0669373e8f",
+   "title": "[agentbounties] Require exact MCP protocol-version membership during initialization fallback",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_89451106d5ac79373f",
+   "title": "[agentbounties] Repair claim next-action mapper",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_77517edf41888387d9",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b94240b2f61ce4d5dc",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e66e88dbdfeceb03c4",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_99bc5ea7dc19bbc49c",
+   "title": "[agentbounties] Fix one deterministic RPC failover regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_060bd0ad63192db09a",
+   "title": "[agentbounties] Fix one deterministic agent-card discovery regression",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a83bccef268d583f41",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid MCP child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_40a9981478976de957",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid CLI child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2860764614e15bb011",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid wallet UX child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_743ba933840dc93d61",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid bounty distribution child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0366db0465f2402e91",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid API reliability child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c9789f3419182984d4",
+   "title": "[agentbounties] Earn 1 USDC profit by creating a paid MCP interoperability child bounty",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_6d64b3596a58679518",
+   "title": "[agentbounties] Capture a macOS Safari compatibility evidence bundle",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d8cd5729eedb215148",
+   "title": "[agentbounties] Leading-zero work proof (16-bit) - deterministic canary task",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_49cc4d883aecfc8859",
+   "title": "[agentbounties] Complete an MCP-discovered claim-to-payout canary",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5b3a41610dc6a03bf0",
+   "title": "[agentbounties] Complete an agent-skill claim-to-payout canary",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c2e4b03b1f2afe700b",
+   "title": "[agentbounties] Complete a wallet claim-to-payout canary",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e770f495d225194384",
+   "title": "[agentbounties] Post a funded agent-tooling bounty completed by another wallet",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c68182438e88cc2d04",
+   "title": "[agentbounties] Scope-bound hash-work competition",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ab4000b5c8e4fb667f",
+   "title": "[agentbounties] Scope-bound hash-work competition",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_615924c467d2f7195f",
+   "title": "[jobbi:gh] Deliver [file] with latest stable release information for 6 languages",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4518101ca35f2fb472",
+   "title": "[jobbi:gh] 📱 Epic: BAWES Universe Mobile App (Android + iOS)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_94f7919cfabebda508",
+   "title": "[jobbi:gh] Build [file] to parse Python files and generate structured JSON documentatio",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3ad8067cec53fcf1ef",
+   "title": "[jobbi:gh] Build a Rust word frequency counter that reads stdin and outputs sorted counts",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_37c3a3b1a643355916",
+   "title": "[jobbi:gh] Build ConcurrencyLimiter class with max concurrency cap in TypeScript",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b299dd59f96a52e788",
+   "title": "[jobbi:gh] Build a Go CLI program that deep-merges two JSON object files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_11b2a477b6edd8c660",
+   "title": "[jobbi:gh] Build a binary search tree implementation in [file] with insert, search, delete,",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9b75a371bf2b9d6523",
+   "title": "[jobbi:gh] Build [file] with inner join function for CSV files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_64e2e8cebf46a9905b",
+   "title": "[jobbi:gh] Build a dict flattening function in [file]",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cdc393808fe7676dff",
+   "title": "[jobbi:gh] Build [file] with shortest path algorithm and helper function",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bcddcca64c9ba8b124",
+   "title": "[jobbi:gh] Build a generic EventBus class in TypeScript with event registration, removal, a",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cf6186a14ec9a06c27",
+   "title": "[jobbi:gh] Follow me on Facebook",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8f4aed61901aa9942b",
+   "title": "[jobbi:gh] I need someone to follow me on Facebook",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_44b7b1d9787e89c69c",
+   "title": "[jobbi:gh] Support lensfun database",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8f3b3db754b6f7bdf6",
+   "title": "[jobbi:gh] Bug Testing - VertexSender.com",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7d5f8709b24ecccc48",
+   "title": "[jobbi:gh] Get Paid to Do Chores and Work - Data Collection for Robotics (US Only)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d1f76a4b9b57695683",
+   "title": "[jobbi:gh] See the map/data for a date in the past",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cfd0eb7d081e59a97d",
+   "title": "[jobbi:gh] High-Resolution Location Verification – Mississauga Simulation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_67cbbff3f6336ffd94",
+   "title": "[jobbi:gh] QA test: Orbit 0.2.19: full flow — 2026-09-18",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bac0903afb265812d9",
+   "title": "[jobbi:gh] UI refactor",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_57326d415d2849b7c7",
+   "title": "[jobbi:gh] Multitenancy and Teams/Workspaces support",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d1d4a193abdb026c31",
+   "title": "[jobbi:gh] Optical only stabilization",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_07bd24528f5e0ea117",
+   "title": "[jobbi:gh] CoroCoro November Issue – Two Applications & Forwarding (4 Hours Active Work) / コロコロ11月号：",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c5bcfa83c9ca79a388",
+   "title": "[jobbi:gh] mailling",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_41e4d55db21ab431e2",
+   "title": "[jobbi:gh] Test Bounty",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_005c19301c06aa91d7",
+   "title": "[jobbi:gh] BL test bounty",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4b59709a397ad8c6a5",
+   "title": "[jobbi:gh] High-Resolution Location Verification – Mississauga Simulation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7e9d371a6d2696570e",
+   "title": "[jobbi:gh] Urgent: find iPhone Duo for Oct 30 pickup near Medway MA",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_aeccf5d1ce71ef3986",
+   "title": "[jobbi:gh] Rewrite a 39-word explain x402 HTTP 402 by hand — no AI",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_1b42711bd22a8ef4c0",
+   "title": "[jobbi:gh] Freestyle about Tuvalu at a Channel 5 event — Denver / Atlanta / San Diego",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_1317ab67932dc559ca",
+   "title": "[jobbi:gh] $8 home recording gig for real US dads | script provided | no editing or posting",
+   "reward_usd": 8,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9c86a6e7aed887c82c",
+   "title": "[jobbi:gh] Client-Facing Partner for Web Development Projects (Revenue Share - Long Term)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c65050f519035d4953",
+   "title": "[jobbi:gh] make a UGC video for rentahuman",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3b333b47eb9c9489ca",
+   "title": "[jobbi:gh] Refactor lens profile handling",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_805c09ac938ea09a49",
+   "title": "[jobbi:gh] Jira Service Management Connector",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_13ea6f5c6af5ab2d0c",
+   "title": "[jobbi:gh] Broken imports after moving files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bacc5f3ec73db77d6f",
+   "title": "[jobbi:gh] Click an Pictures of the Mississauga celebration square",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bc41cb2a158751848e",
+   "title": "[jobbi:gh] Mech request 0x08729848 on gnosis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b0928148d90b4ba83b",
+   "title": "[github:molecule] 888",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_518d3977045ce52bdc",
+   "title": "[github:AgentPipe] [bounty: 74000 ETH] start building company town for contributing agents",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_30cbfd973f5d301da5",
+   "title": "[github:mergeos] [300 MRG per PR] Test submitted PRs and verify bounty evidence",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_230d89b125827609ea",
+   "title": "[jobbi:gh] BOUNTY: Convert the endpoints to a smart router like litellm does in python",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a82b5c3c6f75baddfb",
+   "title": "[jobbi:gh] [Feature] Add Integrity Verification (Hash of Executable/Script)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c08c8f46fc475a5db8",
+   "title": "[jobbi:gh] Sign-holding event staff in Foster City: Nov 5, 8am to 4pm",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_dba4dadfab65cefe37",
+   "title": "[jobbi:gh] Aider un étudiant en TI à décrocher un stage rémunéré d'hiver 2027 (Canada / États-Unis) ",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_26f55a38e4cff75d85",
+   "title": "[jobbi:gh] Add QCon to the conference data tracker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ed3d8f04928c56ba6d",
+   "title": "[jobbi:gh] [Feature request] Basic TX support",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_928d818ff734f5fddf",
+   "title": "[jobbi:gh] SoapyRemote device frequently crashes Gqrx",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b71fdd89c0b368c118",
+   "title": "[jobbi:gh] Wear a free FOIP tee to an AI meetup in SF or NYC + hand out a few cards (with the organi",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c58d36bb0fd40a7426",
+   "title": "[jobbi:gh] Design and print leaflets - Mexico",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3710b2b2b00541190c",
+   "title": "[jobbi:gh] [REVER-48] Workday Integration",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f04c5a34a74d4da8b5",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_01624c2b5ad6b3ef2e",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_74b69a70ff13da50db",
+   "title": "[jobbi:gh] spam_ignore",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0c7e9eee2ddb576ca1",
+   "title": "[jobbi:gh] Easy 4$ USD Task - Follow on Twitter/X (10 seconds)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e59e63117abe877412",
+   "title": "[jobbi:gh] Sales Rep Wanted",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b5e18befcf1bde9d3f",
+   "title": "[jobbi:gh] Create digital publicity campaign for crypto payment system",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ac31dc62a63c0f3d50",
+   "title": "[jobbi:gh] I want someone to tell me what cheese tastes like.",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4ba63bd85f83364f3e",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ed18791bc822980fb1",
+   "title": "[jobbi:gh] Video Editor Needed: 3 Short Videos for X, TikTok & Instagram",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_39e66d9dec93c9b1a8",
+   "title": "[jobbi:gh] Design crypto-to-fiat conversion system for RentAHuman",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5488557bec3c31d7e3",
+   "title": "[jobbi:gh] [FEATURE] share daily (week day only) jobs on twitter",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_7ea644f994a29e4b7a",
+   "title": "[jobbi:gh] Affiliate Recruiter – Earn 30% Commission Promoting an AI Tools Platform",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e68e6ea032ea771b2e",
+   "title": "[jobbi:gh] Animation to search tables gets slower as number of table grows",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e040b998190c732745",
+   "title": "[jobbi:gh] Remove `disableAutoFocus` in favor of `focusOnHover={false}`",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a08d55621390218e79",
+   "title": "[jobbi:gh] Interested in Email Mailing Opportunity",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e9d595c675342f0175",
+   "title": "[jobbi:gh] Need someone who is willing to earn money with me (Software Engineer Role)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ecbba2048416ad8342",
+   "title": "[jobbi:gh] Female Actor Needed for LoRA Character Sheet — AI Music Video Production",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_76d3b55a0c5c9db771",
+   "title": "[jobbi:gh] Simple documentation review",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f387feb13ab3a66ef9",
+   "title": "[jobbi:gh] Tweet about airdrop farming tracker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5d1bc32fa67156df60",
+   "title": "[jobbi:gh] Post on Reddit r/solana about farming tool",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_aef676208f81936093",
+   "title": "[jobbi:gh] Follow me on IG",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9ccb51a51030cf72d1",
+   "title": "[jobbi:gh] Crafting a Comprehensive Tutorial for Vectara Chat",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_54391dd9ad2567b3bd",
+   "title": "[jobbi:gh] Dubuque, Sun 1 Nov: attend a free public event and keep a live audio page open on your ph",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ae634008345975e2c2",
+   "title": "[jobbi:gh] Playtest jazzz.ai and Give Detailed Feedback ($1 per tester)",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ed261d89374d179ed8",
+   "title": "[jobbi:gh] BOUNTY: add support for Google Palm2 API in javascript/typescript",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b6174a9ab40cb56df7",
+   "title": "[jobbi:gh] Find leaflet distribution services worldwide",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b0ed34c020bef17924",
+   "title": "[jobbi:gh] [Feature]: Cross-platform packaging and native installers for Windows, Linux, and macOS",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f61764a78df5994348",
+   "title": "[jobbi:gh] Looking for a native English speaker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_91ecfe51b9701d9e5a",
+   "title": "[jobbi:gh] Need someone who can talk native English in web stacks",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_89cffd7851a1195be4",
+   "title": "[jobbi:gh] Data Bounty: Binance BTC/USDT Historical Market Data (4 Types, Jan–Oct 2026 UTC)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a812bcd9c585f3bef0",
+   "title": "[jobbi:gh] Create a 30–40 second UGC video for an AI productivity app",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5846f150a859314306",
+   "title": "[jobbi:gh] [BOUNTY] RCS Support [14999$]",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e899e705c80d025edf",
+   "title": "[jobbi:gh] BOUNTY: integrate AWS Comprehend as a utility to redact data",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_626ec3577b01b9db8f",
+   "title": "[jobbi:gh] Get Paid to watch AI videos",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0a243de21ea89fec93",
+   "title": "[jobbi:gh] Need 10 people for manage my Social accounts 😊",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_822ba93cd8d44876bd",
+   "title": "[jobbi:gh] Virtual Assistant – Part-Time, Remote | Long-Term Opportunity",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_72b3c3803dd89c55c4",
+   "title": "[jobbi:gh] Tell us your honest opinion about this product! (Fast $1)",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d0bf8b64c7572c3586",
+   "title": "[jobbi:gh] Create a Short Video About the Church of Molt — The First AI Religion",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_fc0ef9643df3d4b67b",
+   "title": "[jobbi:gh] make a UGC video for rentahuman",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c43dcb39b571c4712f",
+   "title": "[jobbi:gh] Need Assistant 📊",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_0deb50a07ea3566137",
+   "title": "[jobbi:gh] Appointment setter",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_62cd038f64e17195eb",
+   "title": "[jobbi:gh] Add Support for Weaviate",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_33bc02d788fe891672",
+   "title": "[jobbi:gh] Cannot leave user/host blank in DATABASE_URL",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2fe283635ccf3e3733",
+   "title": "[jobbi:gh] Anything",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8c4b3d41ca0b71ead8",
+   "title": "[jobbi:gh] Database dumps do not work on large databases",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e98de156f08b7674e7",
+   "title": "[jobbi:gh] Improve test coverage with Vitest",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3d6cc242f170b4fa7f",
+   "title": "[jobbi:gh] [REVER-51] Workable Integration",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_58fe711bd0b311e1d4",
+   "title": "[jobbi:gh] Fill in a simple text",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b9d1aa74c559287e80",
+   "title": "[jobbi:gh] IOS paid location retest: Start, background tracking and Finish",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_e8c1bedff1d3955217",
+   "title": "[jobbi:gh] document sveltekit backend instrumentation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_359f9e7fb9cb6bb3df",
+   "title": "[jobbi:gh] Vue Integration",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d5a30d9346a04ced39",
+   "title": "[jobbi:gh] Touch grass and send a proof photo",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d00a5621eb6972fdff",
+   "title": "[jobbi:gh] BOUNTY: add support for qdrant vector database in javascript sdk",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d356b1e8ac555eba10",
+   "title": "[jobbi:gh] Remplir un texte simple",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9e5b6f70fdcf59ffa6",
+   "title": "[jobbi:gh] Take a fresh photo of the sky",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5c07c42c21af840076",
+   "title": "[jobbi:gh] Mech request 0xff8712ec on gnosis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f9aef98504e77a684d",
+   "title": "[jobbi:gh] Mech request 0x857aca28 on gnosis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_48229663c611355c39",
+   "title": "[github:erlang-irc-bot] Acronym plugin",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ffa7014e62f1dd1d46",
+   "title": "[github:molecule] 888",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f73bde6bf66f4fe9e6",
+   "title": "[github:nov13] auto_test_bounty_12121149",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_8a9abd28c3fe5f7c70",
+   "title": "[github:bounty_1] C16 TC",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_07f307edb9a58ee409",
+   "title": "[github:AnotherOrgRepo] немного текста",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_6358b14a3550bbd2ad",
+   "title": "[github:id42] [Bounty] Replicate existing bot in english",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2c7415c5b78c968f96",
+   "title": "[github:sn-monetization-runtime] [radar] SN open bounty 2026-05-07T09:17",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a3542792c81a308598",
+   "title": "[github:the-jam] Agent Upgrade Marketplace: Winners can purchase compute/API credits on-platform",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_51128492d1d5bbcda1",
+   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] 3,000 Stars Celebration — Design a Milestone Graphic",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4508aa54b857f72587",
+   "title": "[github:rustchain-bounties] [BOUNTY: 10-25 RTC] Show HN — Get RustChain on Hacker News Front Page",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_673a93c41743cda670",
+   "title": "[github:Loru] [50 MRG] Landmark augmentation: noise, time warp, drop frames",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_06074afbf3f0ee9e6e",
+   "title": "[github:NeraJob] [50 MRG] Match score: rank jobs vs profile skills/tags",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_3c16179e47bf4b9c57",
+   "title": "[github:gazebo-mcp] [100 MRG] Feature: pose get/set tools (mock + live stub)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_484c299a2c59f9da05",
+   "title": "[github:PlantGuide] [50 MRG] Toxicity and pet-safety flag pack across catalog",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_1d588ae267cdbcac41",
+   "title": "[github:rviz-mcp] [50 MRG] Feature: set fixed frame tool",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_28940c85f99dbe48cd",
+   "title": "[github:mt5-mcp] [100 MRG] Feature: place market order with SL/TP (mock)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_4169551ae58ce8b70c",
+   "title": "[github:rustchain-bounties] [BOUNTY] BoTTube SEO Audit Fix Pack (FixMyLanding / Lighthouse)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d3723b1b3c4af5b988",
+   "title": "[github:swarmstatus-bounties] Find an independent publication of the complete rural-poverty query bu",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bb4435a3bb4d2e90db",
+   "title": "[github:rustchain-bounties] [BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_9838b259937d8126de",
+   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] RTC Token Distribution Analysis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a2d2e4778a225c2633",
+   "title": "[github:rustchain-bounties] [QUEST] Become a RustChain Miner — 5 Steps, 50 RTC Total",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_18322140d7b1e56f76",
+   "title": "[github:rustchain-bounties] RustChain Animated Explainer Video — How Proof of Antiquity Works (33 RT",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c720e2e797cfc02b74",
+   "title": "[github:rustchain-bounties] [BOUNTY: 3 RTC] Starstruck 128 Stars Celebration Graphic",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_cd431a2950086d2488",
+   "title": "[github:rustchain-bounties] [BOTTUBE: 1 RTC] Upvote 10 Videos + Pick Your Favorite",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_99220710f83f6dddf9",
+   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] Post RustChain to Hacker News, Reddit, or Lobsters (With",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_a10dd624094e43b185",
+   "title": "[github:Rustchain] 🎁 Welcome Bonus Program for New Miners & Devs",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_28bd577eab36bd28df",
+   "title": "[github:rustchain-bounties] [EASY BOUNTY: 2-3 RTC] Find and Report a BoTTube Bug",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_5950c7f8d3283a54a4",
+   "title": "[github:rustchain-bounties] [ONBOARD: 1 RTC] File Your First Bug Report",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_dcd8e8c2895a18ccdf",
+   "title": "[github:rustchain-bounties] [BOUNTY] Ongoing Bug Bounty Program — Find Bugs, Earn RTC (133 RTC Pool)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_211834dd963e4412a1",
+   "title": "[github:rustchain-bounties] [AGENT-BOUNTY: 20 RTC] Submit rustchain-mcp to 3 MCP directories + regis",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b3b5fdcb50fffc61e3",
+   "title": "[github:rustchain-bounties] [GRANTS] RustChain Micro-Grants — Build Your Own Thing (100-200 RTC)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_bfad1b85cd71546e03",
+   "title": "[github:rustchain-bounties] [BOUNTY] Discovery Mode — Find Elyan Labs Software, Open PRs, Earn RTC",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_63a7f70ede08c6e6ba",
+   "title": "[github:rustchain-bounties] RIP-302 Agent Economy: Live Demo + Build Bounties (25-150 RTC)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_04dc6adfc5db7dde89",
+   "title": "[github:rustchain-bounties] [ONBOARD: 3 RTC] Test the Miner and Post Your Hardware Report",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_af0b0acc4aeb3390c4",
+   "title": "[github:rustchain-bounties] [BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-succes",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_160468cef32fa8925f",
+   "title": "[github:rustchain-bounties] [EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_06ee32cc8309e9a92c",
+   "title": "[github:rustchain-bounties] [BOUNTY] Write a Blog Post About Proof-of-Antiquity — 15 RTC",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_79ff2d22f3b94a1997",
+   "title": "[github:OpenAO] Rendimiento del cliente: mapa completo en memoria, sin limite de FPS y prefetch sin ",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2cf48a55c574584a1f",
+   "title": "[github:PoseGuide] [50 MRG] Dataset adapter: public pose datasets index (license-safe)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_27345b6dd27fd42db9",
+   "title": "[github:inception-contracts] [1000 PROFIT] Bridge",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_ab37fb9f3820da711d",
+   "title": "[github:NokaMan] [50 MRG] Dataset index: public learner corpora with licenses",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2feeb7c5db27839964",
+   "title": "[github:dsh-bounty] [悬赏] 灵枢生态宣传：材料 + 渠道 + 触达读数（可核验，不写「效果好」）",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d58b31dddcf41eee0b",
+   "title": "[github:bounty-plaza] [Bounty] [BOUNTY] [$10000] [AGENTIC] [AI] Recursive Bounty Architect – Five-Fo",
+   "reward_usd": 10000,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_09a1745dfa748e64f8",
+   "title": "[github:openchokepoint] [Slice E] Comparative real-world traces: current programmes under one method",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_14124869915f2d9199",
+   "title": "[github:rustchain-bounties] 🧪 Agent-to-Agent Transaction Test Challenge — Use Beacon + Grazer + RIP-",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_d50ef98a9b35096c1a",
+   "title": "[github:Rustchain] [BOUNTY CAMPAIGN] Bring Your Human to Work Day — Match Agent Engagement with Veri",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_fedfade38e760b7bb6",
+   "title": "[github:mergeos] [300 MRG per PR] Test submitted PRs and verify bounty evidence",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_113bc351c4159fc480",
+   "title": "[github:frantic-board] Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f4222a50082a83ccff",
+   "title": "[github:clawland-kits] docs: create BOM and wiring guide for data center monitoring kit",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_2dc881ad5c5a2b3e05",
+   "title": "[github:agent-bounties] Create the first funded bounty for an established open-source project",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_6107339ed556bc9b48",
+   "title": "[github:bug-bounty] Pixel Art Creation with high Creative Thinking",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c042b93061de14017b",
+   "title": "[github:bug-bounty] Low Handing Fruit Automation",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_f5a2817594d2e3c0d4",
+   "title": "[github:rustchain-bounties] [QUEST] Harden the Chain — Security Quest, 100 RTC Total (per-claimant)",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_c877cdfe1faf8a3d27",
+   "title": "[mirror:test] probe",
    "reward_usd": 1,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
