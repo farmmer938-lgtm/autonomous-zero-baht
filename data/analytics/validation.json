@@ -1,10 +1,5 @@
 [
   {
-    "path": "data/content/drafts/zelda-ocarina-of-time-ฉบับรีเมค-ได้คะแนนรีวิวเฉลี่ย-96-100-ใกล้เคียงกับต้นฉบับ.json",
-    "passed": true,
-    "errors": []
-  },
-  {
     "path": "data/content/drafts/google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุดในอุตสาหก.json",
     "passed": true,
     "errors": []
@@ -15,12 +10,17 @@
     "errors": []
   },
   {
-    "path": "data/content/drafts/แอพ-xbox-pc-ปรับหน้าตาใหม่-ประสิทธิภาพดีขึ้น-เรียกทำงานเร็วขึ้น-60.json",
+    "path": "data/content/drafts/เปิดตัว-personal-finance-in-claude-เครื่องมือเช็กข้อมูลการเงินส่วนบุคคลพลัง-ai.json",
     "passed": true,
     "errors": []
   },
   {
     "path": "data/content/drafts/สหรัฐเรียก-jensen-huang-ชี้แจง-หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล้ชิดกับเขา.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/ไม่ยืนยัน-microsoft-ยกเลิกสัญญาเช่าคลาวด์ของ-oracle-บางส่วน-เหตุเป็นจีพียูรุ่นเก.json",
     "passed": true,
     "errors": []
   }
