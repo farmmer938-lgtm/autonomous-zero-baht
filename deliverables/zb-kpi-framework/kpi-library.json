@@ -1,0 +1,427 @@
+{
+  "schema": "zero-bureaucracy-kpi-framework/v1",
+  "name": "Zero Bureaucracy KPI Framework",
+  "version": "1.0.0",
+  "purpose": "Convert 'bureaucracy elimination' into standardized, measurable, configurable KPIs a B2B platform can embed as scoring logic and dashboards.",
+  "design_principles": [
+    "Every KPI is computable from events a platform already logs (no new data collection).",
+    "Every KPI is direction-aware and normalized to a 0-100 sub-score so heterogeneous units compose.",
+    "Every KPI is configurable per client via benchmark bands and weights, so one library serves every industry."
+  ],
+  "dimensions": [
+    {
+      "id": "speed",
+      "name": "Speed",
+      "question": "How long does an outcome take?"
+    },
+    {
+      "id": "effort",
+      "name": "Effort",
+      "question": "How much human work does it cost?"
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "question": "How much runs without a human?"
+    },
+    {
+      "id": "duplication",
+      "name": "Duplication",
+      "question": "How often is work or data repeated?"
+    },
+    {
+      "id": "friction",
+      "name": "Friction",
+      "question": "How much resistance does the process impose?"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "CT",
+      "name": "Cycle Time",
+      "dimension": "speed",
+      "definition": "Elapsed wall-clock time from request intake to final outcome.",
+      "formula": "CT = median(outcome_ts - intake_ts)",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 4,
+        "median": 24,
+        "poor": 120
+      },
+      "data_source": "case.intake_ts, case.outcome_ts",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "AL",
+      "name": "Approval Latency",
+      "dimension": "speed",
+      "definition": "Median time a case waits specifically on a human approval step.",
+      "formula": "AL = median(approval_decision_ts - approval_request_ts)",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 1,
+        "median": 8,
+        "poor": 48
+      },
+      "data_source": "approval.request_ts, approval.decision_ts",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "HD",
+      "name": "Handoff Delay",
+      "dimension": "speed",
+      "definition": "Time lost between consecutive process steps beyond active processing.",
+      "formula": "HD = sum(step_start[i+1] - step_end[i])",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 0.5,
+        "median": 6,
+        "poor": 36
+      },
+      "data_source": "step.start_ts, step.end_ts",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "TT",
+      "name": "Touch Time",
+      "dimension": "effort",
+      "definition": "Total human labour minutes spent on one case across all actors.",
+      "formula": "TT = sum(actor.active_minutes per case)",
+      "unit": "minutes",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 5,
+        "median": 30,
+        "poor": 180
+      },
+      "data_source": "activity.actor_id, activity.duration",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "FB",
+      "name": "Form Burden",
+      "dimension": "effort",
+      "definition": "Number of fields a requester must supply to start a case.",
+      "formula": "FB = count(required_fields)",
+      "unit": "fields",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 6,
+        "median": 18,
+        "poor": 45
+      },
+      "data_source": "form.required_fields",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "RR",
+      "name": "Rework Rate",
+      "dimension": "effort",
+      "definition": "Share of cases returned for correction at least once.",
+      "formula": "RR = returned_cases / total_cases",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 0.02,
+        "median": 0.12,
+        "poor": 0.35
+      },
+      "data_source": "case.revision_count",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "AC",
+      "name": "Automation Coverage",
+      "dimension": "automation",
+      "definition": "Share of process steps executed without any human action.",
+      "formula": "AC = automated_steps / total_steps",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "benchmark": {
+        "good": 0.85,
+        "median": 0.5,
+        "poor": 0.15
+      },
+      "data_source": "step.executor_type",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "STP",
+      "name": "Straight-Through Processing",
+      "dimension": "automation",
+      "definition": "Share of cases completed end to end with zero manual intervention.",
+      "formula": "STP = zero_touch_cases / total_cases",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "benchmark": {
+        "good": 0.8,
+        "median": 0.4,
+        "poor": 0.1
+      },
+      "data_source": "case.human_action_count",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "DIS",
+      "name": "Digital Intake Share",
+      "dimension": "automation",
+      "definition": "Share of requests arriving through structured digital channels rather than email/paper.",
+      "formula": "DIS = digital_intake_cases / total_cases",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "benchmark": {
+        "good": 0.9,
+        "median": 0.6,
+        "poor": 0.25
+      },
+      "data_source": "case.channel",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "DRR",
+      "name": "Data Re-entry Rate",
+      "dimension": "duplication",
+      "definition": "Share of fields the user or staff must enter more than once across systems.",
+      "formula": "DRR = reentered_fields / total_fields",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 0.0,
+        "median": 0.2,
+        "poor": 0.5
+      },
+      "data_source": "field.entry_events grouped by field_key",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "DAC",
+      "name": "Duplicate Approval Count",
+      "dimension": "duplication",
+      "definition": "Number of distinct approvals required for a single decision.",
+      "formula": "DAC = count(distinct approval steps per decision)",
+      "unit": "count",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 1,
+        "median": 3,
+        "poor": 7
+      },
+      "data_source": "decision.approvals",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    },
+    {
+      "id": "CFI",
+      "name": "Compliance Friction Index",
+      "dimension": "friction",
+      "definition": "Control steps enforced per unit of value delivered.",
+      "formula": "CFI = control_steps / outcome_value_units",
+      "unit": "controls_per_unit",
+      "direction": "lower_is_better",
+      "benchmark": {
+        "good": 0.05,
+        "median": 0.3,
+        "poor": 0.8
+      },
+      "data_source": "case.control_steps, case.value_units",
+      "scoring": "linear_clamp",
+      "config": {
+        "good": "number",
+        "poor": "number",
+        "weight": "number"
+      }
+    }
+  ],
+  "scoring_logic": {
+    "sub_score": "linear_clamp(value, good, poor) honoring each KPI's direction",
+    "dimension_score": "weighted mean of the dimension's KPI sub-scores",
+    "composite_index": "ZB-Index = weighted mean of dimension scores (0-100, higher = less bureaucracy)",
+    "grade_bands": [
+      {
+        "min": 85,
+        "grade": "A",
+        "label": "Frictionless"
+      },
+      {
+        "min": 70,
+        "grade": "B",
+        "label": "Lean"
+      },
+      {
+        "min": 55,
+        "grade": "C",
+        "label": "Mixed"
+      },
+      {
+        "min": 40,
+        "grade": "D",
+        "label": "Bureaucratic"
+      },
+      {
+        "min": 0,
+        "grade": "E",
+        "label": "Gridlocked"
+      }
+    ],
+    "client_config": {
+      "benchmark_overrides": "per-KPI good/poor values for the client's industry",
+      "weights": "per-KPI and per-dimension weights summing to 1",
+      "excluded_kpis": "KPIs the client cannot instrument yet (removed and re-normalized)"
+    }
+  },
+  "dashboard_spec": {
+    "widgets": [
+      {
+        "type": "gauge",
+        "metric": "ZB-Index",
+        "bands": "grade_bands"
+      },
+      {
+        "type": "radar",
+        "metrics": "dimension_scores",
+        "axes": [
+          "Speed",
+          "Effort",
+          "Automation",
+          "Duplication",
+          "Friction"
+        ]
+      },
+      {
+        "type": "bar",
+        "metric": "kpi_sub_scores",
+        "sort": "ascending",
+        "purpose": "show worst KPIs first"
+      },
+      {
+        "type": "timeseries",
+        "metric": "ZB-Index",
+        "granularity": "weekly",
+        "purpose": "improvement trend"
+      },
+      {
+        "type": "table",
+        "metric": "kpi_values",
+        "columns": [
+          "KPI",
+          "Value",
+          "Benchmark",
+          "Sub-score",
+          "Trend"
+        ]
+      }
+    ],
+    "refresh": "nightly batch; near-real-time if the platform emits events",
+    "audience": [
+      "process owner",
+      "client success",
+      "product"
+    ]
+  },
+  "monetization": {
+    "model": "product asset embedded in the platform (not a consulting deliverable)",
+    "tiers": [
+      {
+        "tier": "Starter",
+        "price_usd_month": 49,
+        "scope": "ZB-Index + 5 KPIs + default benchmarks"
+      },
+      {
+        "tier": "Pro",
+        "price_usd_month": 199,
+        "scope": "all 12 KPIs + configurable benchmarks/weights + dashboard + trend"
+      },
+      {
+        "tier": "Enterprise",
+        "price_usd_month": 999,
+        "scope": "Pro + per-industry benchmark packs + API access + white-label"
+      }
+    ],
+    "usage_api": {
+      "price_usd_per_1000_calls": 5,
+      "endpoint": "POST /score"
+    },
+    "expansion": "benchmark packs per industry sold as add-ons; scoring logic licensed to partners"
+  },
+  "acceptance": {
+    "kpi_count": 12,
+    "kpi_count_in_range": "10-12",
+    "dimensions": [
+      "Speed",
+      "Effort",
+      "Automation",
+      "Duplication",
+      "Friction"
+    ],
+    "per_kpi_fields": [
+      "definition",
+      "formula",
+      "unit",
+      "benchmark",
+      "data_source",
+      "scoring",
+      "config"
+    ],
+    "configurable_per_client": true,
+    "dashboard_ready": true,
+    "scoring_logic": true,
+    "monetization_ready": true
+  }
+}

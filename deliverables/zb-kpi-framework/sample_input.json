@@ -1,0 +1,4 @@
+{
+  "observations": {"CT": 30, "AL": 12, "HD": 8, "TT": 45, "FB": 20, "RR": 0.15, "AC": 0.4, "STP": 0.3, "DIS": 0.55, "DRR": 0.25, "DAC": 4, "CFI": 0.35},
+  "weights": {"CT": 2, "STP": 2}
+}
