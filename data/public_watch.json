@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-08T02:26:17.926884+00:00",
+ "checked_at": "2026-11-08T09:23:23.597512+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -27,10 +27,10 @@
   },
   "cashier": {
    "url": "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json",
-   "http": 200,
-   "ok": true,
+   "http": 404,
+   "ok": false,
    "tier": "info",
-   "consecutive_down": 0
+   "consecutive_down": 1
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -69,19 +69,19 @@
   },
   {
    "rail": "frantic",
-   "id": "frantic:145",
-   "title": "Install NitroMTA and send one real email to proof@nitromta.com",
-   "reward_usd": 2,
-   "visibility": "public",
-   "url": "https://gofrantic.com/bounties/145"
-  },
-  {
-   "rail": "frantic",
    "id": "frantic:130",
    "title": "Answer live Reddit threads with a dated fact from an open registry",
    "reward_usd": 3,
    "visibility": "private",
    "url": "https://gofrantic.com/bounties/130"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
   },
   {
    "rail": "frantic",
@@ -492,6 +492,15 @@
    "url": "https://nonsynthetic.net/"
   }
  ],
- "new_items": [],
- "changed": false
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
+  }
+ ],
+ "changed": true
 }
