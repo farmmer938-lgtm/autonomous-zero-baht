@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-08T16:11:30.490308+00:00",
+ "checked_at": "2026-11-08T20:35:44.836745+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 2
+   "consecutive_down": 3
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -66,8 +66,25 @@
    "reward_usd": 2,
    "visibility": "private",
    "url": "https://gofrantic.com/bounties/146"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:97",
+   "title": "Your first bounty is on the house ($10 back when it clears, first five)",
+   "reward_usd": 10,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/97"
   }
  ],
- "new_items": [],
- "changed": false
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:97",
+   "title": "Your first bounty is on the house ($10 back when it clears, first five)",
+   "reward_usd": 10,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/97"
+  }
+ ],
+ "changed": true
 }
