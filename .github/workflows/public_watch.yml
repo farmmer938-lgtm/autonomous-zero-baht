@@ -1,8 +1,11 @@
 name: AF Public Watch (free, no secrets)
 
 # Runs on GitHub's infrastructure, which has no OpenHands sandbox quota, so AF can check
-# its public revenue surfaces every 10 minutes at zero cost and zero token use. It fails
-# the job (which makes GitHub email the owner) when a critical surface is down.
+# its public revenue surfaces every 10 minutes at zero cost and zero token use.
+#
+# K is OUT of the loop: this job NEVER fails on purpose, so GitHub never emails K.
+# Instead it opens/updates a GitHub Issue labelled "af-alert"; AF reads that issue itself
+# over the API. When everything is clear the issue is closed automatically.
 on:
   workflow_dispatch:
   schedule:
@@ -10,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: af-public-watch
@@ -42,21 +46,44 @@ jobs:
           else
             echo "No change."
           fi
-      - name: Fail if a surface is down
-        if: steps.watch.outcome == 'failure'
-        run: |
-          echo "A public surface is down; see data/public_watch.json" >&2
-          exit 1
-      - name: Alert on new paid opportunities
+      - name: Report to AF via issue (never email K)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python - <<'PY'
-          import json, sys
-          d = json.load(open("data/public_watch.json"))
+          import json, subprocess, pathlib
+
+          def gh(*a):
+              return subprocess.run(["gh", *a], capture_output=True, text=True).stdout.strip()
+
+          d = json.loads(pathlib.Path("data/public_watch.json").read_text())
+          down = d.get("down", [])
           new = d.get("new_items", [])
+          problem = bool(down or new)
+
+          open_no = gh("issue", "list", "--label", "af-alert", "--state", "open",
+                       "--json", "number", "--jq", ".[0].number")
+
+          if not problem:
+              if open_no:
+                  gh("issue", "close", open_no, "--comment",
+                     "All surfaces healthy and no new paid work (checked_at %s). Auto-closed by AF." % d.get("checked_at"))
+              print("clear")
+              raise SystemExit(0)
+
+          lines = []
+          if down:
+              lines.append("**Surfaces down:** " + ", ".join(down))
           if new:
+              lines.append("**New paid opportunities:**")
               for i in new:
-                  print(f"NEW ${i.get('reward_usd')} on {i.get('rail')}: {i.get('title')} -> {i.get('url')}")
-              print(f"::error::{len(new)} new paid opportunity(ies) on the radar")
-              sys.exit(1)
-          print("No new opportunities.")
+                  lines.append("- $%s on %s: %s -> %s" % (i.get("reward_usd"), i.get("rail"), i.get("title"), i.get("url")))
+          body = ("AF self-check found work/attention needed (checked_at %s):\n\n%s\n\n"
+                  "_Automated by AF; K is not in the loop._") % (d.get("checked_at"), "\n".join(lines))
+          title = "AF alert: " + (", ".join(down) if down else "%d new paid opportunity(ies)" % len(new))
+          if open_no:
+              gh("issue", "comment", open_no, "--body", body)
+          else:
+              gh("issue", "create", "--title", title, "--label", "af-alert", "--body", body)
+          print("alerted:", title)
           PY
