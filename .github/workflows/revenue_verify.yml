@@ -1,0 +1,82 @@
+name: AF Revenue Verify (free, no secrets)
+
+# K rule (2026-11-08): income that keeps arriving counts as VERIFIED.
+# This job reads AF's own Base wallet straight from chain logs every 6h, keeps a
+# ledger of distinct inbound USDC transfers, and opens/updates a GitHub Issue
+# labelled "af-alert" when NEW money arrives. It NEVER fails on purpose, so GitHub
+# never emails K; AF reads the issue itself over the API. K stays out of the loop.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 */6 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: af-revenue-verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify revenue from chain
+        run: python -m tools.af_revenue_verify --write --json data/revenue_verify.json || true
+      - name: Commit ledger and verdict
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/revenue_ledger.json data/revenue_verify.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: revenue verify ledger"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          else
+            echo "No change."
+          fi
+      - name: Alert AF on new money (never email K)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, pathlib, subprocess
+
+          def gh(*a):
+              return subprocess.run(["gh", *a], capture_output=True, text=True).stdout.strip()
+
+          try:
+              d = json.loads(pathlib.Path("data/revenue_verify.json").read_text())
+          except Exception:
+              raise SystemExit(0)
+
+          new = d.get("new_tx", [])
+          verdict = d.get("verdict", "UNKNOWN")
+          if not new:
+              print("no new money; verdict=%s" % verdict)
+              raise SystemExit(0)
+
+          total = sum(float(x.get("usdc", 0)) for x in new)
+          body = ["**New inbound USDC to AF wallet** (verdict now %s):" % verdict]
+          for x in new:
+              body.append("- $%s from %s at %s (tx %s)" % (x.get("usdc"), x.get("from"), x.get("at"), x.get("tx")))
+          body.append("\nTotal new: **$%s**" % round(total, 6))
+          body.append("\nAuto-detected by AF revenue verify. AF reads this issue; K need not act.")
+
+          open_no = gh("issue", "list", "--label", "af-alert", "--state", "open",
+                       "--json", "number", "--jq", ".[0].number")
+          if open_no:
+              gh("issue", "comment", open_no, "--body", "\n".join(body))
+          else:
+              gh("issue", "create", "--title", "AF revenue: new inbound $%s" % round(total, 4),
+                 "--label", "af-alert", "--body", "\n".join(body))
+          print("alerted")
+          PY
