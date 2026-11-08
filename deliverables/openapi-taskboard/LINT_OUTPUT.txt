@@ -1,0 +1,3 @@
+VALID OpenAPI 3.0.3
+openapi.yaml: validated in 69ms
+You have 5 warnings.
