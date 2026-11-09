@@ -21,6 +21,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "public_watch.json"
 
+# The cashier URL is ephemeral (host embeds the container RUNTIME_ID). Resolve it from the
+# live endpoint AF publishes on each bring-up; fall back to the last known host only if the
+# manifest is unreadable, so a transient fetch error never turns into a false outage.
+LIVE_ENDPOINT = ("https://raw.githubusercontent.com/farmmer938-lgtm/"
+                 "autonomous-zero-baht/main/data/live_endpoint.json")
+CASHIER_FALLBACK = "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json"
+
 SURFACES = {
     "storefront": ("https://app.do.ink/stores/navintas", "critical"),
     "catalog": ("https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/", "critical"),
@@ -33,13 +40,6 @@ SURFACES = {
     # Third-party rail: AF cannot repair it, so an outage is informational only.
     "opentask": ("https://opentask.ai/api/tasks", "info"),
 }
-
-# The cashier URL is ephemeral (host embeds the container RUNTIME_ID). Resolve it from the
-# live endpoint AF publishes on each bring-up; fall back to the last known host only if the
-# manifest is unreadable, so a transient fetch error never turns into a false outage.
-LIVE_ENDPOINT = ("https://raw.githubusercontent.com/farmmer938-lgtm/"
-                 "autonomous-zero-baht/main/data/live_endpoint.json")
-CASHIER_FALLBACK = "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json"
 
 UA = {"User-Agent": "af-public-watch/1.0"}
 
