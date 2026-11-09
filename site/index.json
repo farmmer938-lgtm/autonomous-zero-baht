@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-08T09:02:20.255882+00:00",
+  "generated_at": "2026-11-09T09:51:29.058282+00:00",
   "count": 5,
   "items": [
+    {
+      "id": "อดีตบอส-playstation-บอก-ps6-ไม่ต้องเน้นสเปกแรง-นวัตกรรมยุคนี้คือทำราคา",
+      "title": "อดีตบอส PlayStation บอก PS6 ไม่ต้องเน้นสเปกแรง นวัตกรรมยุคนี้คือทำราคาให้ถูกลง",
+      "source_url": "https://www.blognone.com/node/152135",
+      "score": 3
+    },
+    {
+      "id": "sony-ออกหูฟังมีสายเรโทร-mdr-3r-ที่ออกแบบตามหูฟังต้นฉบับปี-1979",
+      "title": "Sony ออกหูฟังมีสายเรโทร MDR-3R ที่ออกแบบตามหูฟังต้นฉบับปี 1979",
+      "source_url": "https://www.blognone.com/node/152132",
+      "score": 3
+    },
+    {
+      "id": "nintendo-ขาย-switch-2-ในไตรมาสที่ผ่านมาได้-2-67-ล้านเครื่อง-ลดลงถึง-41",
+      "title": "Nintendo ขาย Switch 2 ในไตรมาสที่ผ่านมาได้ 2.67 ล้านเครื่อง ลดลงถึง 41%",
+      "source_url": "https://www.blognone.com/node/152131",
+      "score": 3
+    },
     {
       "id": "google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุ",
       "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -13,24 +31,6 @@
       "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
       "source_url": "https://www.blognone.com/node/152043",
       "score": 3
-    },
-    {
-      "id": "เปิดตัว-personal-finance-in-claude-เครื่องมือเช็กข้อมูลการเงินส่วนบุคค",
-      "title": "เปิดตัว Personal Finance in Claude เครื่องมือเช็กข้อมูลการเงินส่วนบุคคลพลัง AI",
-      "source_url": "https://www.blognone.com/node/152124",
-      "score": 0
-    },
-    {
-      "id": "สหรัฐเรียก-jensen-huang-ชี้แจง-หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล",
-      "title": "สหรัฐเรียก Jensen Huang ชี้แจง หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล้ชิดกับเขา อาจเป็นสายลับจีน",
-      "source_url": "https://www.blognone.com/node/152125",
-      "score": 0
-    },
-    {
-      "id": "ไม่ยืนยัน-microsoft-ยกเลิกสัญญาเช่าคลาวด์ของ-oracle-บางส่วน-เหตุเป็นจี",
-      "title": "[ไม่ยืนยัน] Microsoft ยกเลิกสัญญาเช่าคลาวด์ของ Oracle บางส่วน เหตุเป็นจีพียูรุ่นเก่า",
-      "source_url": "https://www.blognone.com/node/152122",
-      "score": 0
     }
   ]
 }

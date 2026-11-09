@@ -1,26 +1,26 @@
 [
   {
+    "path": "data/content/drafts/อดีตบอส-playstation-บอก-ps6-ไม่ต้องเน้นสเปกแรง-นวัตกรรมยุคนี้คือทำราคาให้ถูกลง.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/sony-ออกหูฟังมีสายเรโทร-mdr-3r-ที่ออกแบบตามหูฟังต้นฉบับปี-1979.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/nintendo-ขาย-switch-2-ในไตรมาสที่ผ่านมาได้-2-67-ล้านเครื่อง-ลดลงถึง-41.json",
+    "passed": true,
+    "errors": []
+  },
+  {
     "path": "data/content/drafts/google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุดในอุตสาหก.json",
     "passed": true,
     "errors": []
   },
   {
     "path": "data/content/drafts/geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่นเกม-pc-ระ.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/เปิดตัว-personal-finance-in-claude-เครื่องมือเช็กข้อมูลการเงินส่วนบุคคลพลัง-ai.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/สหรัฐเรียก-jensen-huang-ชี้แจง-หลังพบนักธุรกิจหญิงที่มีความสัมพันธ์ใกล้ชิดกับเขา.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/ไม่ยืนยัน-microsoft-ยกเลิกสัญญาเช่าคลาวด์ของ-oracle-บางส่วน-เหตุเป็นจีพียูรุ่นเก.json",
     "passed": true,
     "errors": []
   }
