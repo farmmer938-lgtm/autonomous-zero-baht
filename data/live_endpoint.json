@@ -1,6 +1,6 @@
 {
   "schema": "af.live_endpoint.v1",
-  "updated_at": "2026-11-09T02:26:14.941930+00:00",
+  "updated_at": "2026-11-09T05:33:25.673024+00:00",
   "public_base": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev",
   "runtime_url": "https://uasqwlsdyivaesfu.prod-runtime.all-hands.dev",
   "cashier": {
