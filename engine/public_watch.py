@@ -25,13 +25,21 @@ SURFACES = {
     "storefront": ("https://app.do.ink/stores/navintas", "critical"),
     "catalog": ("https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/", "critical"),
     "research_site": ("https://farmmer938-lgtm.github.io/autonomous-zero-baht/", "critical"),
-    # AF's x402 cashier runs inside the OpenHands sandbox, so its public URL is ephemeral:
-    # it drops on every container restart and returns on the next boot. That is expected,
-    # not a fault, so it is informational only and can never email the owner.
-    "cashier": ("https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json", "info"),
+    # AF's x402 cashier runs inside the OpenHands sandbox, so its public host embeds the
+    # container RUNTIME_ID and changes on every restart. The live URL is resolved at run
+    # time from data/live_endpoint.json (published at each bring-up by AF), never hardcoded,
+    # so this check follows the cashier instead of probing a stale host. Informational only.
+    "cashier": (CASHIER_FALLBACK, "info"),
     # Third-party rail: AF cannot repair it, so an outage is informational only.
     "opentask": ("https://opentask.ai/api/tasks", "info"),
 }
+
+# The cashier URL is ephemeral (host embeds the container RUNTIME_ID). Resolve it from the
+# live endpoint AF publishes on each bring-up; fall back to the last known host only if the
+# manifest is unreadable, so a transient fetch error never turns into a false outage.
+LIVE_ENDPOINT = ("https://raw.githubusercontent.com/farmmer938-lgtm/"
+                 "autonomous-zero-baht/main/data/live_endpoint.json")
+CASHIER_FALLBACK = "https://work-1-mbagwhmoyaqtbyvu.prod-runtime.all-hands.dev/openapi.json"
 
 UA = {"User-Agent": "af-public-watch/1.0"}
 
@@ -49,6 +57,19 @@ def fetch(url: str, timeout: int = 20):
         return e.code, ""
     except Exception as e:
         return 0, f"{type(e).__name__}: {e}"
+
+
+def cashier_url() -> str:
+    """Resolve the cashier's current public discovery URL from AF's published manifest."""
+    code, body = fetch(LIVE_ENDPOINT, timeout=15)
+    if code == 200:
+        try:
+            url = (json.loads(body).get("cashier") or {}).get("openapi")
+            if url:
+                return url
+        except Exception:
+            pass
+    return CASHIER_FALLBACK
 
 
 def funded_titles(body: str):
@@ -186,8 +207,10 @@ def main() -> int:
             prev = None
     prev_surfaces = (prev or {}).get("surfaces", {})
 
+    surfaces_cfg = dict(SURFACES)
+    surfaces_cfg["cashier"] = (cashier_url(), "info")
     surfaces, down = {}, []
-    for name, (url, tier) in SURFACES.items():
+    for name, (url, tier) in surfaces_cfg.items():
         code, body = fetch(url)
         ok = code == 200
         entry = {"url": url, "http": code, "ok": ok, "tier": tier}
