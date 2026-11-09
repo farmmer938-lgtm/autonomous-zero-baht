@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-08T20:35:44.836745+00:00",
+ "checked_at": "2026-11-09T00:00:02.213359+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 3
+   "consecutive_down": 4
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -61,11 +61,19 @@
  "radar": [
   {
    "rail": "frantic",
-   "id": "frantic:146",
-   "title": "Make a v0 email template your own and send it through an MCP server",
-   "reward_usd": 2,
+   "id": "frantic:130",
+   "title": "Answer live Reddit threads with a dated fact from an open registry",
+   "reward_usd": 3,
    "visibility": "private",
-   "url": "https://gofrantic.com/bounties/146"
+   "url": "https://gofrantic.com/bounties/130"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:129",
+   "title": "Earn a citation on an external page that already ranks for a relevant query",
+   "reward_usd": 16,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/129"
   },
   {
    "rail": "frantic",
@@ -79,11 +87,19 @@
  "new_items": [
   {
    "rail": "frantic",
-   "id": "frantic:97",
-   "title": "Your first bounty is on the house ($10 back when it clears, first five)",
-   "reward_usd": 10,
-   "visibility": "public",
-   "url": "https://gofrantic.com/bounties/97"
+   "id": "frantic:130",
+   "title": "Answer live Reddit threads with a dated fact from an open registry",
+   "reward_usd": 3,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/130"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:129",
+   "title": "Earn a citation on an external page that already ranks for a relevant query",
+   "reward_usd": 16,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/129"
   }
  ],
  "changed": true
