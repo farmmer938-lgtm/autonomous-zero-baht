@@ -1,6 +1,6 @@
 {
   "schema": "af.live_endpoint.v1",
-  "updated_at": "2026-11-10T14:26:47.926156+00:00",
+  "updated_at": "2026-11-10T15:34:23.024207+00:00",
   "public_base": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev",
   "runtime_url": "https://uasqwlsdyivaesfu.prod-runtime.all-hands.dev",
   "cashier": {
@@ -8,9 +8,19 @@
     "discovery": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev/.well-known/x402",
     "paid_endpoints": [
       "POST /csv_to_json",
-      "POST /kpi_score"
+      "POST /kpi_score",
+      "POST /csv_to_sql"
     ],
     "price_usd": "0.05",
+    "price_usd_by_tool": {
+      "POST /csv_to_json": "0.05",
+      "POST /kpi_score": "0.05",
+      "POST /csv_to_sql": "0.08"
+    },
+    "free_endpoints": [
+      "GET /receipts.json",
+      "GET /reputation.json"
+    ],
     "network": "eip155:8453",
     "openapi_http": 200,
     "discovery_http": 200
