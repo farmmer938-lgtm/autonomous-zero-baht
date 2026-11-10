@@ -102,6 +102,18 @@ Bob,45,false,Chiang Mai</textarea>
         <button class="run" onclick="runKpi()">Score</button>
         <pre id="kpiOut">(output appears here)</pre>
       </div>
+      <div class="card">
+        <h3>CSV → runnable SQL</h3>
+        <div class="price">POST /csv_to_sql · $0.08</div>
+        <label>CSV input</label>
+        <textarea id="sql">name,age,active
+Ann,31,true
+Bob,45,false</textarea>
+        <label>Dialect</label>
+        <select id="dialect"><option>postgres</option><option>mysql</option><option>sqlite</option></select>
+        <button class="run" onclick="runSql()">Generate SQL</button>
+        <pre id="sqlOut">(output appears here)</pre>
+      </div>
     </div>
   </div>
 </section>
@@ -222,7 +234,38 @@ function runKpi(){
   try{ el.textContent=JSON.stringify(score(JSON.parse(document.getElementById('kpi').value)),null,2); }
   catch(e){ el.textContent='error: '+e.message; }
 }
-runCsv(); runKpi();
+function colType(vals){
+  const p=vals.filter(v=>v!==''&&v!==null&&v!==undefined);
+  if(!p.length) return 'text';
+  if(p.every(v=>typeof v==='number'&&Number.isInteger(v))) return 'int';
+  if(p.every(v=>typeof v==='number')) return 'float';
+  if(p.every(v=>typeof v==='boolean')) return 'bool';
+  return 'text';
+}
+const SQLT={postgres:{int:'bigint',float:'double precision',bool:'boolean',text:'text'},
+ mysql:{int:'BIGINT',float:'DOUBLE',bool:'BOOLEAN',text:'TEXT'},
+ sqlite:{int:'INTEGER',float:'REAL',bool:'INTEGER',text:'TEXT'}};
+function sqlIdent(n,d){const c=String(n).replace(/[^A-Za-z0-9_]/g,'_')||'col';return d==='mysql'?'`'+c+'`':'"'+c+'"';}
+function sqlLit(v,t,d){if(v===''||v===null||v===undefined)return 'NULL';if(t==='int'||t==='float')return String(v);
+  if(t==='bool')return d==='sqlite'?(v?'1':'0'):(v?'TRUE':'FALSE');
+  return "'"+String(v).replace(/'/g,"''")+"'";}
+function csvToSql(text,dialect){
+  const rows=csvToJson(text); const t=SQLT[dialect];
+  if(!rows.length) return {ddl:'',dml:''};
+  const h=Object.keys(rows[0]); const types=h.map(x=>colType(rows.map(r=>r[x])));
+  const cols=h.map((x,i)=>sqlIdent(x,dialect)+' '+t[types[i]]);
+  const ddl='CREATE TABLE '+sqlIdent('data',dialect)+' (\n  '+cols.join(',\n  ')+'\n);';
+  const vals=rows.map(r=>'  ('+h.map((x,i)=>sqlLit(r[x],types[i],dialect)).join(', ')+')');
+  const dml='INSERT INTO '+sqlIdent('data',dialect)+' ('+h.map(x=>sqlIdent(x,dialect)).join(', ')+') VALUES\n'+vals.join(',\n')+';';
+  return {ddl,dml};
+}
+function runSql(){
+  const el=document.getElementById('sqlOut');
+  try{ const r=csvToSql(document.getElementById('sql').value, document.getElementById('dialect').value);
+    el.textContent=r.ddl+'\n\n'+r.dml; }
+  catch(e){ el.textContent='error: '+e.message; }
+}
+runCsv(); runKpi(); runSql();
 
 /* Point at the CURRENT paid host, republished at every bring-up. */
 fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
