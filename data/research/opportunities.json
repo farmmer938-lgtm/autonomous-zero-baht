@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "how to",
       "review",
+      "how to",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.045403+00:00"
+    "researched_at": "2026-11-10T09:54:33.814526+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,14 +31,30 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.048411+00:00"
+    "researched_at": "2026-11-10T09:54:33.815512+00:00"
   },
   {
-    "title": "อดีตบอส PlayStation บอก PS6 ไม่ต้องเน้นสเปกแรง นวัตกรรมยุคนี้คือทำราคาให้ถูกลง",
-    "url": "https://www.blognone.com/node/152135",
-    "summary": "อดีตบอส PlayStation บอก PS6 ไม่ต้องเน้นสเปกแรง นวัตกรรมยุคนี้คือทำราคาให้ถูกลง Body รวมสองข่าวใกล้เคียงกันที่เกี่ยวกับ \"มุมมอง\" ต่อการออกเครื่อง PS6 ของโซนี่ ข่าวแรกมาจาก Shawn Layden เจ้าเก่า อดีตซีอีโอของ Sony Interactive Entertainment America ระหว่างปี 2014-2018 ให้สัมภาษณ์กับช่อง The Trophy Room ว่าโซนี่ไม่ควรสนใจเรื่องสมรรถนะของ PS6 เป็นเรื่องหลัก และควรสนใจเรื่องราคาเครื่องคอนโซลให้ถูกลง จับต้องได้มากกว่า Layden บอกว่าในอดีต การเปลี่ยนผ่านยุคของคอนโซลเป็นเรื่องที่ก้าวกระโดดมาก จากยุค PS1 เป็น PS2, จากยุค CD เป็น DVD, หรือแม้แต่ PS4 ก็เป็นการเข้าสู่ยุคออนไลน์อย่างแท้จริง ทั้งหมดนี้โซนี่สามารถตั้งราคาเครื่องที่ 399 ดอลลาร์ได้เสมอ แต่ถ้าของใหม่ใน PS6 คือการอัพสเปก เพิ่มตัวเลข teraflops หรือ ray tracing มันอาจดูดีเฉพาะแค่คนสนใจสเปกเท่านั้น มันแทบไม่ต่างอะไรกับ PS5 เลยในสายตาของเกมเมอร์ทั่วไป ซึ่ง Layden ชี้ว่าคอนโซลในปัจจุบันมีสมรรถนะเพียงพอแล้ว นวัตกรรมในยุคนี้ไม่ใช่การสร้าง PS6 สเปกแรงแล้วขาย 1,200 ดอลลาร์ แต่เป็นการสร้าง PS5 ในราคา 300 ดอลลาร์ต่างหาก ข่าวที่สองเป็นความเห็นของนักวิ",
+    "title": "กูเกิลเพิ่มรุ่นชิป TPU รุ่นที่ 8 เพิ่มรุ่น Max อัดแรมและ HBM ขึ้นสูงสุด 384GB พร้อม SRAM 768MB",
+    "url": "https://www.blognone.com/node/152138",
+    "summary": "กูเกิลเพิ่มรุ่นชิป TPU รุ่นที่ 8 เพิ่มรุ่น Max อัดแรมและ HBM ขึ้นสูงสุด 384GB พร้อม SRAM 768MB Body กูเกิลเปิดตัว TPU รุ่นที่ 8 ที่เดิม เปิดตัวมาสองรุ่นตั้งแต่งาน Google I/O ได้แก่ TPU 8t และ TPU 8i มาอีกสองรุ่น ได้แก่ TPU 8tx และ TPU 8i Max ที่ตอบสนองตลาดเฉพาะทางกว่าเดิม TPU 8tx เป็นชิปที่ใช้เทคโนโลยีเข้ารหัสแรมของ AMD โดยในตัวชิปเป็น AMD EPYC รุ่นที่ 5 การเพิ่มความสามารถเข้ารหัสแรมทำให้ลูกค้าองค์กรที่ต้องการความมั่นใจว่าข้อมูลไม่หลุดออกไปภายนอกสามารถนำข้อมูลมาฝึกบนคลาวด์ได้สะดวกขึ้น TPU 8i Max เป็นรุ่นแก้ปัญหา memory bandwidth ที่เป็นคอขวดของการผลิตโทเค็นใน LLM โดยอาศัยการเพิ่ม SRAM บนตัวชิป เป็น 768MB และเพิ่มแรม HBM เป็น 384GB ที่แบนวิดท์ 17.2TB/s กูเกิลระบุว่าชิปรุ่นใหม่นี้อาศัย AlphaChip ปัญญาประดิษฐ์ออกแบบชิปมาช่วยลดเวลาทำงานลง งานบางส่วนที่ต้องใช้เวลานับสัปดาห์ลดเหลือเพียงไม่กี่ชั่วโมง และคาดว่าในอนาคตก็จะใช้ AI มาพัฒนา AI มากขึ้นเรื่อยๆ ที่มา - Google lew Mon, 09/11/2026 - 22:08",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 09 Nov 2026 05:26:10 +0000",
+    "published": "Mon, 09 Nov 2026 15:08:17 +0000",
+    "matched_keywords": [
+      "แก้ปัญหา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-10T09:54:33.816137+00:00"
+  },
+  {
+    "title": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน",
+    "url": "https://www.blognone.com/node/152142",
+    "summary": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน Body หลังจากเปิดฟีเจอร์ Galaxy AI ให้ใช้ฟรีมาสักพักใหญ่ๆ ล่าสุดมีข่าวว่า ซัมซุงกำลังทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงินแล้ว เว็บข่าวสายซัมซุง 2 ราย ยังให้ข้อมูลระดับราคาแพ็กเกจที่ไม่ตรงกัน โดย SamMobile บอกว่าแพ็กเกจ Galaxy AI Premium มี 3 ระดับ (tier) คือ Starter, Plus, Pro ส่วน Sammy Guru บอกว่ามี 2 ระดับคือ Standard, Max จึงเป็นไปได้ว่าซัมซุงกำลังทดสอบแพ็กเกจราคาที่ต่างกันอยู่ ตามข่าวบอกว่าแพ็กเกจราคาเริ่มต้นเดือนละ 4.99 ดอลลาร์ หรือปีละ 47.99 ดอลลาร์ โดยฟีเจอร์ที่ยังให้ทุกคนใช้ฟรีอยู่เหมือนเดิม ได้แก่ Browsing Assist, Creative Studio, Memory, Now Brief, Photo Studio, Smart capture, Samsung Keyboard แต่จำกัดโควต้าการใช้งาน ส่วนลูกค้าที่จ่ายเงินจะได้โควต้าเพิ่ม และได้ฟีเจอร์เพิ่มดังนี้ Bixby Action เปลี่ยน Bixby เป็น agent ตามสั่ง ต้องจ่าย tier บนสุด (Pro) Daily Briefing คล้ายๆ กับ Now Brief อยู่ใน tier ระดับ Plus Gen Video แปลงรูปภาพเป็นคลิป Galaxy Claw ทำงานประจำวันให้อัตโนมัติ ที่มา - SamMobile , Sammy Guru mk Tue,",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 10 Nov 2026 01:46:48 +0000",
     "matched_keywords": [
       "ราคา"
     ],
@@ -47,7 +63,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.049456+00:00"
+    "researched_at": "2026-11-10T09:54:33.815938+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -63,23 +79,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.044501+00:00"
-  },
-  {
-    "title": "Sony ออกหูฟังมีสายเรโทร MDR-3R ที่ออกแบบตามหูฟังต้นฉบับปี 1979",
-    "url": "https://www.blognone.com/node/152132",
-    "summary": "Sony ออกหูฟังมีสายเรโทร MDR-3R ที่ออกแบบตามหูฟังต้นฉบับปี 1979 Body Sony เปิดตัวหูฟัง MDR-3R ที่นำหูฟังคลาสสิกซีรีส์ MDR-3 กลับมาอีกครั้งตามสไตล์สินค้าเรโทร ซึ่งหูฟัง MDR-3L2 ที่เป็นรุ่นต้นแบบนั้น Sony ผลิตออกมาในปี 1979 พร้อมกับการขายเครื่องฟังเพลงพกพา Walkman ในตอนนั้น การออกแบบของหูฟังเป็นการโลหะคาดศีรษะ หูฟังเป็นแบบ on-ear ซึ่งแตกต่างจากหูฟังที่นิยมในปัจจุบัน MDR-3R ยังคงรูปแบบเป็นหูฟังแบบมีสาย แต่เป็น USB-C ใช้ไดรเวอร์เสียงแบบเดียวกับตระกูล MDR-3 เพื่อให้ได้เสียงที่เหมือนกับรุ่นต้นแบบ นอกจากนี้ยังเพิ่มรีโมทควบคุมในสายสำหรับควบคุมการเล่นเพลง และเป็นไมโครโฟนสำหรับการคุยเสียง หูฟัง MDR-3R มีทั้งรุ่นต้นแบบ และรุ่นพิเศษ Stranger Things ราคาขายในสหรัฐเริ่มต้น 60 ดอลลาร์ ส่วนราคาไทยยังไม่ประกาศ ที่มา: Ars Technica arjin Sun, 08/11/2026 - 20:17",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 08 Nov 2026 13:17:00 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.050273+00:00"
+    "researched_at": "2026-11-10T09:54:33.814131+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -95,23 +95,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.046449+00:00"
+    "researched_at": "2026-11-10T09:54:33.814885+00:00"
   },
   {
-    "title": "Nintendo ขาย Switch 2 ในไตรมาสที่ผ่านมาได้ 2.67 ล้านเครื่อง ลดลงถึง 41%",
-    "url": "https://www.blognone.com/node/152131",
-    "summary": "Nintendo ขาย Switch 2 ในไตรมาสที่ผ่านมาได้ 2.67 ล้านเครื่อง ลดลงถึง 41% Body นินเทนโดรายงานผลประกอบการประจำไตรมาสเดือนกันยายน ยอดขายลดลง 12% จากช่วงเดียวกันในปีก่อนเป็น 9.66 แสนล้านเยน กำไรสุทธิอยู่ที่ 2.21 แสนล้านเยน ซึ่งปัจจัยหลักที่ทำให้รายได้ลดลงคือ Switch 2 ขายได้ 2.67 ล้านเครื่อง ลดลงถึง 41% ส่วนเกมขายได้ 15.03 ล้านชุด เพิ่มขึ้น 26% เกมเด่นในไตรมาสคือ Tomodachi Life: Living the Dream Switch 2 มียอดขายสะสมนับตั้งแต่เปิดตัว 26.35 ล้านเครื่อง ซึ่งคอนโซลใกล้เคียงกันที่น่าจะแซงได้ในลำดับถัดไปคือ Nintendo 64 (32.93 ล้านเครื่อง) เกมเด่นของนินเทนโดในไตรมาสปัจจุบัน ที่คาดว่าจะทำยอดขายสูงและอาจช่วยยอดขาย Switch 2 ได้ ก็คือรีเมกของ The Legend of Zelda: Ocarina of Time ที่ได้ คะแนนรีวิวสูงมาก ที่มา: นินเทนโด (pdf) arjin Sun, 08/11/2026 - 22:46",
+    "title": "Meta เปิดตัว Muse Ember, AI ตัวเล็กราคาถูก ขายผ่าน Google Cloud, Oracle",
+    "url": "https://www.blognone.com/node/152141",
+    "summary": "Meta เปิดตัว Muse Ember, AI ตัวเล็กราคาถูก ขายผ่าน Google Cloud, Oracle Body Meta เปิดตัว Muse Ember โมเดลปัญญาประดิษฐ์ขนาดเล็กที่เน้นความคุ้มค่า มีความสามารถในการอ่านได้ทั้งข้อความ, ภาพ, เสียง, และวิดีโอ ผลทดสอบของ Muse Ember เทียบกับคู่แข่งราคาระดับเดียวกัน อย่าง GPT-6 Luna และ Claude Haiku 5.5 นั้นแซงได้แทบทุกชุดทดสอบ โดยเฉพาะความสามารถด้านการเขียนโค้ด ทำให้ตอนนี้มันกลายเป็นโมเดลในกลุ่มราคาถูกที่แซงหน้าโมเดลอื่นๆ ค่าใช้ API อยู่ที่ 0.1/0.5 ดอลลาร์ต่อล้านโทเค็น และค่าแคชถูกเพียง 0.004 ดอลลาร์ต่อล้านโทเค็น โดยรองรับอินพุต 1M และเอาท์พุต 512K การเปิดตัวครั้งนี้ยังเป็นครั้งแรกที่ Meta ขาย API ผ่าน Google Cloud และ Oracle Cloud โดยขายทั้ง Muse Ember, Muse Spark, และ Muse Wonder ที่มา - Meta lew Tue, 10/11/2026 - 07:47",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 08 Nov 2026 15:46:00 +0000",
+    "published": "Tue, 10 Nov 2026 00:47:06 +0000",
     "matched_keywords": [
-      "รีวิว"
+      "ราคา"
     ],
     "keyword_score": 1,
     "intent_score": 2,
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.049790+00:00"
+    "researched_at": "2026-11-10T09:54:33.816000+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -127,7 +127,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.044707+00:00"
+    "researched_at": "2026-11-10T09:54:33.814243+00:00"
+  },
+  {
+    "title": "Huawei เปิดตัวพีซี HarmonyOS Desktop ชิ้นส่วน 100% ผลิตในจีน",
+    "url": "https://www.blognone.com/node/152139",
+    "summary": "Huawei เปิดตัวพีซี HarmonyOS Desktop ชิ้นส่วน 100% ผลิตในจีน Body Huawei เปิดตัวคอมพิวเตอร์เดสก์ท็อปที่ระบุว่าใช้ชิ้นส่วนผลิตในจีน 100% และใช้ระบบปฏิบัติการ HarmonyOS ของตัวเอง พีซีรุ่นนี้ชื่อว่า Qingyun HM650 เน้นตลาดองค์กรและหน่วยงานภาครัฐ ใช้ซีพียู Kirin X90 ที่ใช้กับโน้ตบุ๊ก MateBook Pro รุ่นของปีที่แล้ว แรม LPDDR5 16GB, สตอเรจ 512GB, ระบบปฏิบัติการใช้ HarmonyOS V1.0 Enterprise Edition ที่มีผู้ช่วย AI ชื่อ Xiaoyi รองรับการรัน local AI ภายในเครื่อง ราคาขายเครื่องละ 7,199 หยวน หรือประมาณ 36,000 บาท จุดต่างสำคัญของ Qingyun HM650 กับพีซีโน้ตบุ๊ก HarmonyOS ก่อนหน้านี้คือ Qingyun HM650 ได้ใบรับรองว่าผลิตทุกอย่างในจีน 100% จาก Zhejiang Kezheng Electronic Information Product Inspection ทั้งตัวชิป ซอฟต์แวร์ และกระบวนการผลิต (แม้ Huawei ไม่ได้ผลิตเองทั้งหมด แต่ก็ผลิตในจีนทั้งหมด) ก็น่าสนใจว่าพีซีลักษณะนี้จะมีบทบาทอย่างไรในยุคสงครามเทคโนโลยีระหว่างจีนกับสหรัฐที่เข้มข้น ที่มา - Huawei , Huawei Central , Tom's Hardware mk Mon, 09/11/2026 - 22:00",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Mon, 09 Nov 2026 15:00:38 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-10T09:54:33.816201+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -143,7 +159,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.048824+00:00"
+    "researched_at": "2026-11-10T09:54:33.815647+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -159,7 +175,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.049041+00:00"
+    "researched_at": "2026-11-10T09:54:33.815715+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -175,7 +191,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.047082+00:00"
+    "researched_at": "2026-11-10T09:54:33.815099+00:00"
+  },
+  {
+    "title": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง",
+    "url": "https://www.blognone.com/node/152143",
+    "summary": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง Body Anthropic อัพเกรดโมเดลระดับเรือธง Claude Fable 5.2 และ Claude Mythos 5.2 ขยับเลขเวอร์ชันเพิ่มอีก 0.1 (ยังไม่ขยับเลขเป็น 5.5 เหมือนกับ Opus) ด้วยเหตุผลว่ายังใช้โมเดลฐานตัวเดิม แต่ปรับแต่งให้ประสิทธิภาพดีขึ้น ความแตกต่างของ Fable 5.2 กับ Mythos 5.2 ยังเหมือนเดิม นั่นคือ Fable เป็นโมเดลสำหรับคนทั่วไป มีระบบป้องกันการนำไปใช้ด้านความปลอดภัยไซเบอร์และการวิจัยด้านชีวภาพ ป้องกันการนำไปใช้ทางที่ผิด ส่วน Mythos สามารถทำงาน 2 อย่างนี้ได้มากกว่า และต้องสมัครเข้าร่วมโครงการคัดกรองพิเศษถึงจะมีสิทธิได้ใช้งาน ตัวเลขเบนช์มาร์คของ Fable 5.2 สามารถเอาชนะคู่แข่ง Gemini 4 Carbon และ GPT-6 Astra ได้ในหลายการทดสอบ นอกจากนี้ยังใช้โทเคนน้อยลง และตอบเร็วขึ้นกว่า Fable 5.1 ถึง 30% ความโดดเด่นอีกประการของ Fable 5.2 คือ Anthropic ลดราคาลงจากเดิม เหลือ 8 ดอลลาร์ต่อล้านโทเคน (อินพุต) และ 40 ดอลลาร์ต่อล้านโทเคน (เอาต์พุต) นอกจากนี้ยังมี fast mode ที่เร่งความเร็วโทเคนอีก 2.5 เท่า แต่ก็ขึ้นราคาเพิ่มเท่าตัวเป็น 8 และ 80 ดอลลาร์ ตามลำดับ Anth",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 10 Nov 2026 02:14:55 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-10T09:54:33.815844+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -191,7 +223,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.046625+00:00"
+    "researched_at": "2026-11-10T09:54:33.814946+00:00"
+  },
+  {
+    "title": "สถิติ CPU-Z เผย พีซีที่ใช้แรม 32GB และ 64GB มีสัดส่วนลดลง จากปัญหาแรมแพง",
+    "url": "https://www.blognone.com/node/152140",
+    "summary": "สถิติ CPU-Z เผย พีซีที่ใช้แรม 32GB และ 64GB มีสัดส่วนลดลง จากปัญหาแรมแพง Body CPU-Z แอพวัดประสิทธิภาพซีพียูและชิ้นส่วนพีซีชื่อดัง เผยสถิติว่าสัดส่วนพีซีที่มีแรมเยอะระดับ 32GB และ 64GB ลดลง สะท้อนปัญหา \"แรมแพง\" ที่ส่งผลสะเทือนวงการอยู่ในขณะนี้ พีซีที่มีแรม 32GB มีสัดส่วนลดลง 2.5% และพีซีแรม 64GB สัดส่วนลดลงถึง 18% ในขณะที่พีซีแรม 16GB โตสวนทางที่ 12.9% กับพีซีแรม 8GB ก็เพิ่มขึ้นเช่นกันที่ 5.5% ถ้าดูภาพรวม พีซีแรม 32GB ยังมีสัดส่วนสูงเป็นอันดับหนึ่งที่ 37.2% แต่พีซีแรม 16GB ก็ไล่กวดมาติดๆ ที่ 33% ตามด้วยอันดับสาม พีซีแรม 8GB ที่ 11% และอันดับสี่ พีซีแรม 64GB ที่ 7.3% ที่มา - CPU-Z via Tom's Hardware Fresh stats from CPU-Z! 🔎 For the first time ever, RAM capacity on PCs has declined year-over-year : -2.5% for 32 GB and -18% for 64 GB! https://t.co/ya0soA55bR — Doc TB (@d0cTB) November 6, 2026 mk Mon, 09/11/2026 - 22:13",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Mon, 09 Nov 2026 15:13:37 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-10T09:54:33.816070+00:00"
+  },
+  {
+    "title": "[ลือ] ซีอีโอ Apple ตั้งเป้าเร่งพัฒนา Siri AI ให้มีความสามารถผู้ช่วยที่มากขึ้น คาดเห็นความก้าวหน้าใน iOS 28",
+    "url": "https://www.blognone.com/node/152144",
+    "summary": "[ลือ] ซีอีโอ Apple ตั้งเป้าเร่งพัฒนา Siri AI ให้มีความสามารถผู้ช่วยที่มากขึ้น คาดเห็นความก้าวหน้าใน iOS 28 Body ข่าวสารแอปเปิลประจำสัปดาห์นี้จากจดหมายข่าว Power On โดย Mark Gurman แห่ง Bloomberg พูดถึงแผนการพัฒนา Siri AI ผู้ช่วยอัจฉริยะซึ่งเริ่มมีใน iOS 27 โดยเขาบอกว่า John Ternus ซีอีโอแอปเปิล ได้ให้ความสำคัญกับ Siri AI มากตอนนี้ มีการประชุมแบบจริงจังกับ Craig Federighi หัวหน้าฝ่ายวิศวกรรมซอฟต์แวร์ ตั้งเป้าหมายให้ Siri AI เป็นผู้ช่วย AI ที่ทำงานเชิงรุกกับผู้ใช้งานในแบบเดียวกับ Dots, Muse หรือ Grok Bot ซึ่ง Ternus ต้องการเห็นความก้าวหน้าเร็วที่สุดเท่าที่ทำได้ จึงอาจได้เห็น Siri AI ที่มีความสามารถมากกว่าเดิมใน iOS 28 ปีหน้าเลย นอกจากนี้แอปเปิลยังปรับแผนการพัฒนาฟีเจอร์และฮาร์ดแวร์ เพื่อให้วิศวกรฮาร์ดแวร์-ซอฟต์แวร์สามารถสร้างสิ่งใหม่ได้มากขึ้น โดยเพิ่มเวลา จากเดิมที่แบ่งรอบเป็น 2x4 สัปดาห์ (โค้ด+รวมฟีเจอร์) ตอนนี้ได้ปรับใหม่เป็น 6+2 สัปดาห์แทน เพิ่มเวลาในการพัฒนาและเขียนโค้ดมากขึ้น ที่มา: Bloomberg arjin Tue, 10/11/2026 - 10:58",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 10 Nov 2026 03:58:56 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-10T09:54:33.815778+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -205,7 +265,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.046032+00:00"
+    "researched_at": "2026-11-10T09:54:33.814737+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -219,7 +279,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.047299+00:00"
+    "researched_at": "2026-11-10T09:54:33.815173+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -233,7 +293,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.046848+00:00"
+    "researched_at": "2026-11-10T09:54:33.815025+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -247,7 +307,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.044929+00:00"
+    "researched_at": "2026-11-10T09:54:33.814370+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -261,7 +321,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.045145+00:00"
+    "researched_at": "2026-11-10T09:54:33.814450+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -275,21 +335,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.045634+00:00"
-  },
-  {
-    "title": "Sony รายงานผลประกอบการไตรมาส - PS6 มีความคืบหน้าตามแผนงาน แต่ไม่ได้บอกว่าจะมาปีไหน",
-    "url": "https://www.blognone.com/node/152130",
-    "summary": "Sony รายงานผลประกอบการไตรมาส - PS6 มีความคืบหน้าตามแผนงาน แต่ไม่ได้บอกว่าจะมาปีไหน Body Sony รายงานผลประกอบการประจำเดือนกันยายน 2026 ยอดขายรวม 3.43 ล้านล้านเยน เพิ่มขึ้น 10% จากช่วงเดียวกันในปีก่อน และมีกำไรสุทธิ 4.50 แสนล้านเยน เพิ่มขึ้น 44% กลุ่มธุรกิจที่มีรายได้เติบโตโดดเด่นไตรมาสนี้คือภาพยนตร์ เพิ่มขึ้นถึง 48% เป็น 5.14 แสนล้านเยน ซึ่งมาจากภาพยนตร์ Spider-Man: Brand New Day ที่ทำรายได้ทั่วโลกมากกว่า 2.5 พันล้านดอลลาร์ ส่วนเกมที่เป็นธุรกิจหลักของบริษัท รายได้ 1.21 ล้านล้านเยน เพิ่มขึ้น 9% จากยอดขายเกมทั้ง First Party และ Third Party ที่เพิ่มขึ้น PS5 ขายได้เพิ่มขึ้นอีก 2.6 ล้านเครื่อง ทำให้ยอดขายรวมนับตั้งแต่เปิดตัวอยู่ที่ 97.9 ล้านเครื่อง Lin Tao ซีเอฟโอ Sony ให้ข้อมูลเพิ่มเติมในช่วงแถลงผลประกอบการเกี่ยวกับ PS6 บริษัทยังมีความคืบหน้าในการพัฒนาแพลตฟอร์มคอนโซลรุ่นใหม่ เพื่อรองรับ PS5 ที่มียอดขายลดลงซึ่งเป็นไปตามวัฏจักรของคอนโซลแต่ละรุ่น โดยเขาให้ข้อมูลว่าบริษัทได้สั่งซื้อชิปหน่วยความจำในปริมาณที่เพียงพอสำหรับการผลิตคอนโซลในปีการเงินถัดไปแล้ว ทั้งนี้ Sony เคยมีข่าวว่า PS6 อาจต้อง เลื่อ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 08 Nov 2026 15:33:00 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.050118+00:00"
+    "researched_at": "2026-11-10T09:54:33.814599+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -303,21 +349,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.046223+00:00"
-  },
-  {
-    "title": "NVIDIA ประกาศสอบสวน Jensen Huang ประเด็นคบหากับคนที่อาจเป็นสายลับ - Jensen ขอโทษต่อเรื่องที่เกิดขึ้น",
-    "url": "https://www.blognone.com/node/152134",
-    "summary": "NVIDIA ประกาศสอบสวน Jensen Huang ประเด็นคบหากับคนที่อาจเป็นสายลับ - Jensen ขอโทษต่อเรื่องที่เกิดขึ้น Body บอร์ด NVIDIA ออกแถลงการณ์ว่าบริษัทได้เริ่มดำเนินการสอบสวนผ่านคณะกรรมการอิสระ หลังจากมีข่าวว่า Jensen Huang ซีอีโอและผู้ก่อตั้งบริษัทอาจเป็น เป้าหมายติดตามโดยสายลับต่างชาติ บอร์ด NVIDIA บอกว่าการสอบสวนนี้มีขึ้นเนื่องจากบริษัทให้ความสำคัญกับความมั่นคงของสหรัฐ ซึ่งถือเป็นประโยชน์สูงสุดต่อทุกฝ่าย ทั้งนี้ข้อมูลที่บอร์ดมีปัจจุุบันยังไม่มีการบ่งชี้ว่าข้อมูลความมั่นคง หรือความลับของ NVIDIA มีความเสียหายหรือรั่วไหล แต่กระบวนการสอบสวนจะทำให้ครอบคลุมมากที่สุด และ Jensen Huang ก็พร้อมให้ความร่วมมือในการตรวจสอบ โดยบอร์ดบอกว่าพวกเขายังเชื่อมั่นในตัว Jensen ตลอดจนทีมผู้บริหารทั้งหมด หลังจากบอร์ดออกแถลงการณ์ Jensen Huang ก็ส่งอีเมลถึงพนักงาน NVIDIA ยอมรับว่าเขาได้นอกใจภรรยาจริง ขอโทษต่อสิ่งที่เกิดขึ้นโดยไม่มีข้อแก้ตัวใด ๆ และขอรับผิดชอบต่อเรื่องที่เกิดขึ้นทั้งหมดแต่เพียงผู้เดียว ครอบครัวไม่มีส่วนเกี่ยวข้องทั้งสิ้น เขายืนยันว่าจะทำงานอย่างเต็มที่เพื่อเรียกความเชื่อมั่นจากทุกฝ่ายที่เกี่ยวข้องกลับคืน",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 09 Nov 2026 00:24:43 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.049620+00:00"
+    "researched_at": "2026-11-10T09:54:33.814801+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -331,7 +363,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.047752+00:00"
+    "researched_at": "2026-11-10T09:54:33.815310+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -345,7 +377,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.045820+00:00"
+    "researched_at": "2026-11-10T09:54:33.814662+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -359,21 +391,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.048177+00:00"
-  },
-  {
-    "title": "Macronix ผู้ผลิต ROM สำหรับตลับเกม Nintendo Switch แจ้งลดการผลิตสินค้ากลุ่มนี้ลง",
-    "url": "https://www.blognone.com/node/152133",
-    "summary": "Macronix ผู้ผลิต ROM สำหรับตลับเกม Nintendo Switch แจ้งลดการผลิตสินค้ากลุ่มนี้ลง Body เรื่องนี้เป็นการวิเคราะห์ล้วน ๆ โดยเริ่มจากบริษัทผู้ผลิตหน่วยความจำ Macronix ซึ่งผลิตหน่วยความจำแบบ ROM ที่ใช้กับตลับเกมของ Nintendo Switch ด้วย รายงานผลประกอบการไตรมาสล่าสุด โดยบอกว่าตอนนี้สินค้ากลุ่ม ROM ทำเงินน้อยกว่า 5% ของรายได้ทั้งหมด ลดลงถึง 39% โดยบริษัทจะหยุดการรายงานตัวเลขของ ROM ตั้งแต่ไตรมาสถัดไป และจะเน้นสินค้า NOR และ eMMC มากขึ้น David Gibson ที่เป็นนักวิเคราะห์ให้ความเห็นว่าเรื่องนี้อาจส่งสัญญาณว่านินเทนโดจะต้องหาผู้ผลิต ROM รายอื่นมาทดแทน ซึ่งบริษัทน่าจะมีอยู่แล้ว แต่สถานการณ์นี้ก็อาจทำให้นินเทนโดต้องพิจารณาเรื่องการขายเกมแบบตลับด้วยเช่นกัน ซึ่งนินเทนโดก็ทำตลับเกมไม่มีเกม game-key ออกมารออยู่แล้วด้วย ที่มา: Nintendo Life arjin Sun, 08/11/2026 - 22:33",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 08 Nov 2026 15:33:10 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.049943+00:00"
+    "researched_at": "2026-11-10T09:54:33.815448+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -387,7 +405,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.048615+00:00"
+    "researched_at": "2026-11-10T09:54:33.815579+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -401,7 +419,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.044232+00:00"
+    "researched_at": "2026-11-10T09:54:33.813982+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -415,21 +433,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.047512+00:00"
-  },
-  {
-    "title": "Capcom เผยเหตุผลที่รีเมค Resident Evil 2 แต่ไม่ได้รีเมคภาค 1 เพราะอยากเริ่มที่ Raccoon City",
-    "url": "https://www.blognone.com/node/152136",
-    "summary": "Capcom เผยเหตุผลที่รีเมค Resident Evil 2 แต่ไม่ได้รีเมคภาค 1 เพราะอยากเริ่มที่ Raccoon City Body Jun Takeuchi โปรดิวเซอร์ซีรีส์ Resident Evil ของ Capcom อธิบายเหตุผลที่เลือก รีเมคเกมภาค 2 แต่ไม่ได้รีเมคภาค 1 ไว้ในนิตยสาร Biohazard 30th Special magazine book ว่าเป็นเพราะภาค 1 นั้นโฟกัสไปที่เกมเพลย์แบบสยองขวัญหนักมาก อีกทั้งเกมค่อนข้างดิบและมินิมัลเกินไป (ต้นฉบับใช้คำว่า ストイック หรือ sutoikku) จึงอาจไม่เหมาะกับความสนใจของเกมเมอร์ยุคใหม่ นอกจากนี้ เหตุการณ์ในภาค 2 ที่เมือง Raccoon City ถือเป็นจุดเริ่มต้นของเนื้อเรื่องที่ต่อเนื่องมายังเกมภาคต่อๆ มา ทีมงานจึงตัดสินใจรีเมคภาค 2 ที่มองว่าเป็นต้นกำเนิดของซีรีส์แทน หมายเหตุ: Resident Evil 1 เคยถูกรีเมคมาแล้วรอบหนึ่งคือ ฉบับรีเมคลง GameCube ในปี 2002 และภายหลังได้พอร์ตมายังเครื่องคอนโซลอื่นๆ ด้วย ปัจจุบันยังสามารถซื้อได้จาก Steam ที่มา - Biohazard 30th Special via Nintendo Everything mk Mon, 09/11/2026 - 12:45",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 09 Nov 2026 05:45:45 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-09T09:51:29.049239+00:00"
+    "researched_at": "2026-11-10T09:54:33.815237+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -443,6 +447,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-09T09:51:29.047988+00:00"
+    "researched_at": "2026-11-10T09:54:33.815386+00:00"
   }
 ]
