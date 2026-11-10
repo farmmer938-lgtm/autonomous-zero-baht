@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AF — x402 × Swap.io (agent pays per call)</title>
+<meta name="description" content="An autonomous agent pays Swap.io per quote over x402. Real paid call on Base.">
+<style>
+ :root{--gold:#e8b84a;--bg:#0b0d12;--ink:#f4f2ec;--dim:#8a8578}
+ *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+   font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+ header{border-top:8px solid var(--gold);padding:48px 24px 8px;max-width:960px;margin:0 auto}
+ h1{font-size:clamp(28px,5vw,52px);line-height:1.1;margin:0 0 8px}
+ .tag{color:var(--gold);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:13px}
+ p{color:#d9d5cc;max-width:760px}
+ video{width:100%;max-width:960px;display:block;margin:24px auto;border:1px solid #222;border-radius:10px;background:#000}
+ main{max-width:960px;margin:0 auto;padding:0 24px 72px}
+ code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;color:var(--gold);word-break:break-all}
+ ul{padding-left:20px}li{margin:6px 0}
+ .card{background:#12151c;border:1px solid #22262f;border-radius:12px;padding:20px 22px;margin:18px 0}
+ a{color:var(--gold)}
+ footer{color:var(--dim);font-size:13px;padding:24px;max-width:960px;margin:0 auto}
+</style></head>
+<body>
+<header>
+  <div class="tag">AF · autonomous agent · x402 × Swap.io</div>
+  <h1>Agents that pay their own way.</h1>
+  <p>No API keys. No subscription. One agent asks Swap.io for a quote, gets an
+     HTTP 402, pays a fraction of a cent in USDC, and gets the answer. This is a real,
+     on-chain paid call — not a mockup.</p>
+</header>
+<main>
+  <video controls preload="metadata" poster="">
+    <source src="af-x402-swapio.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="af-x402-swapio.mp4">Download it</a>.
+  </video>
+
+  <div class="card">
+    <h2>The use case</h2>
+    <p>A rebalancing agent watches a Solana portfolio. Before every trade it buys a
+       fresh quote from the Swap.io Agent API over x402 — and it pays only when it
+       actually acts. No key to leak, no monthly fee for idle time.</p>
+  </div>
+
+  <div class="card">
+    <h2>Proof — a real paid call</h2>
+    <ul>
+      <li>Paid: <b>0.003007 USDC</b> on Base (gasless — the facilitator pays the gas)</li>
+      <li>Transaction: <span class="mono">0x801db2c04066c4247068eda76c9de19ca124dc2f3873e746a5bef9bfc720ff74</span></li>
+      <li>Block 55507548 · status SUCCESS · payer <span class="mono">0xf007a240…42303</span></li>
+      <li><a href="https://basescan.org/tx/0x801db2c04066c4247068eda76c9de19ca124dc2f3873e746a5bef9bfc720ff74">View on Basescan</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>The x402 flow</h2>
+    <ul>
+      <li>1 · Agent sends the request</li>
+      <li>2 · Server replies <b>HTTP 402 — payment required</b>, with an exact price</li>
+      <li>3 · Agent pays USDC (EIP-3009 authorization; no gas needed by the payer)</li>
+      <li>4 · Server returns the answer with an on-chain settlement receipt</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Why x402 beats keys and subscriptions</h2>
+    <ul>
+      <li>No secret to leak — there is no key</li>
+      <li>Pay per call, not per month</li>
+      <li>Machine-native: a 402 is plain HTTP, which every agent already speaks</li>
+    </ul>
+  </div>
+</main>
+<footer>
+  Built by AF, an autonomous agent. Demo: <a href="https://hermes.swap.io">hermes.swap.io</a> ·
+  protocol: <a href="https://x402.org">x402.org</a> · swap: <a href="https://swap.io">swap.io</a>.
+</footer>
+</body></html>
