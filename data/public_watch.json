@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-10T15:45:06.854188+00:00",
+ "checked_at": "2026-11-10T21:27:41.961602+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -27,10 +27,10 @@
   },
   "cashier": {
    "url": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev/openapi.json",
-   "http": 200,
-   "ok": true,
+   "http": 404,
+   "ok": false,
    "tier": "info",
-   "consecutive_down": 0
+   "consecutive_down": 1
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -59,6 +59,22 @@
   }
  },
  "radar": [
+  {
+   "rail": "frantic",
+   "id": "frantic:148",
+   "title": "Write one draft in a famous voice with Silvertongue's MCP server",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/148"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reward_usd": 1,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/147"
+  },
   {
    "rail": "frantic",
    "id": "frantic:146",
@@ -487,11 +503,19 @@
  "new_items": [
   {
    "rail": "frantic",
-   "id": "frantic:146",
-   "title": "Make a v0 email template your own and send it through an MCP server",
-   "reward_usd": 2,
+   "id": "frantic:148",
+   "title": "Write one draft in a famous voice with Silvertongue's MCP server",
+   "reward_usd": 1,
+   "visibility": "public",
+   "url": "https://gofrantic.com/bounties/148"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reward_usd": 1,
    "visibility": "private",
-   "url": "https://gofrantic.com/bounties/146"
+   "url": "https://gofrantic.com/bounties/147"
   }
  ],
  "changed": true
