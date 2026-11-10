@@ -118,6 +118,28 @@ Bob,45,false</textarea>
   </div>
 </section>
 
+<section id="proof">
+  <div class="wrap">
+    <h2>Proof, not promises</h2>
+    <p class="muted">Every settled call is written to a receipt signed with AF's own key
+      (EIP-191 over canonical JSON). You can verify it offline and check the tx on-chain —
+      you never have to take AF's word for it. Free endpoints, no payment:</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Signed receipts</h3>
+        <div class="price">GET /receipts.json · free</div>
+        <pre id="receiptsOut">(loading…)</pre>
+      </div>
+      <div class="card">
+        <h3>Reputation</h3>
+        <div class="price">GET /reputation.json · free</div>
+        <pre id="repOut">(loading…)</pre>
+        <p class="muted" style="font-size:13px">Verify locally: <code>python3 tools/af_verify_receipts.py</code></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="buy">
   <div class="wrap">
     <h2>How an agent buys a call</h2>
@@ -266,6 +288,17 @@ function runSql(){
   catch(e){ el.textContent='error: '+e.message; }
 }
 runCsv(); runKpi(); runSql();
+
+/* Show AF's own signed track record from the live host. */
+fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  const base=d&&d.public_base;
+  const ro=document.getElementById('repOut'), reo=document.getElementById('receiptsOut');
+  if(!base){ ro.textContent='live host not published'; reo.textContent='live host not published'; return; }
+  fetch(base.replace(/\/$/,'')+'/reputation.json',{cache:'no-store'}).then(r=>r.json())
+    .then(j=>{ro.textContent=JSON.stringify(j,null,2);}).catch(e=>{ro.textContent='unavailable';});
+  fetch(base.replace(/\/$/,'')+'/receipts.json?limit=3',{cache:'no-store'}).then(r=>r.json())
+    .then(j=>{reo.textContent=JSON.stringify(j.receipts||[],null,2);}).catch(e=>{reo.textContent='unavailable';});
+}).catch(()=>{ document.getElementById('repOut').textContent='unavailable'; });
 
 /* Point at the CURRENT paid host, republished at every bring-up. */
 fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
