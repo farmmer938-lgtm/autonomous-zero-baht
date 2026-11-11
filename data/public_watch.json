@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-10T21:27:41.961602+00:00",
+ "checked_at": "2026-11-11T01:26:06.960993+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 1
+   "consecutive_down": 2
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -500,23 +500,6 @@
    "url": "https://nonsynthetic.net/"
   }
  ],
- "new_items": [
-  {
-   "rail": "frantic",
-   "id": "frantic:148",
-   "title": "Write one draft in a famous voice with Silvertongue's MCP server",
-   "reward_usd": 1,
-   "visibility": "public",
-   "url": "https://gofrantic.com/bounties/148"
-  },
-  {
-   "rail": "frantic",
-   "id": "frantic:147",
-   "title": "Dogfood a Chrome extension.",
-   "reward_usd": 1,
-   "visibility": "private",
-   "url": "https://gofrantic.com/bounties/147"
-  }
- ],
- "changed": true
+ "new_items": [],
+ "changed": false
 }
