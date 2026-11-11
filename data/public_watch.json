@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-11T01:26:06.960993+00:00",
+ "checked_at": "2026-11-11T08:09:01.033751+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 2
+   "consecutive_down": 3
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
