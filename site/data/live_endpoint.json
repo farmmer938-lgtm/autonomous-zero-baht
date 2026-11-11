@@ -1,11 +1,11 @@
 {
   "schema": "af.live_endpoint.v1",
-  "updated_at": "2026-11-11T00:31:52.458149+00:00",
-  "public_base": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev",
-  "runtime_url": "https://uasqwlsdyivaesfu.prod-runtime.all-hands.dev",
+  "updated_at": "2026-11-11T14:45:12.067326+00:00",
+  "public_base": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev",
+  "runtime_url": "https://amndacagqsfvyuhr.prod-runtime.all-hands.dev",
   "cashier": {
-    "openapi": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev/openapi.json",
-    "discovery": "https://work-1-uasqwlsdyivaesfu.prod-runtime.all-hands.dev/.well-known/x402",
+    "openapi": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev/openapi.json",
+    "discovery": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev/.well-known/x402",
     "paid_endpoints": [
       "POST /csv_to_json",
       "POST /kpi_score",
