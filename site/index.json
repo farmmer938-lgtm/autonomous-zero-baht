@@ -1,13 +1,7 @@
 {
-  "generated_at": "2026-11-10T09:54:33.821099+00:00",
+  "generated_at": "2026-11-11T09:29:16.213997+00:00",
   "count": 5,
   "items": [
-    {
-      "id": "กูเกิลเพิ่มรุ่นชิป-tpu-รุ่นที่-8-เพิ่มรุ่น-max-อัดแรมและ-hbm-ขึ้นสูงสุ",
-      "title": "กูเกิลเพิ่มรุ่นชิป TPU รุ่นที่ 8 เพิ่มรุ่น Max อัดแรมและ HBM ขึ้นสูงสุด 384GB พร้อม SRAM 768MB",
-      "source_url": "https://www.blognone.com/node/152138",
-      "score": 3
-    },
     {
       "id": "ลือ-ซัมซุงเริ่มทดสอบแพ็กเกจ-galaxy-ai-premium-แบบเสียเงิน",
       "title": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน",
@@ -15,21 +9,27 @@
       "score": 3
     },
     {
-      "id": "meta-เปิดตัว-muse-ember-ai-ตัวเล็กราคาถูก-ขายผ่าน-google-cloud-oracle",
-      "title": "Meta เปิดตัว Muse Ember, AI ตัวเล็กราคาถูก ขายผ่าน Google Cloud, Oracle",
-      "source_url": "https://www.blognone.com/node/152141",
-      "score": 3
-    },
-    {
-      "id": "huawei-เปิดตัวพีซี-harmonyos-desktop-ชิ้นส่วน-100-ผลิตในจีน",
-      "title": "Huawei เปิดตัวพีซี HarmonyOS Desktop ชิ้นส่วน 100% ผลิตในจีน",
-      "source_url": "https://www.blognone.com/node/152139",
-      "score": 3
-    },
-    {
       "id": "google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุ",
       "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
       "source_url": "https://www.blognone.com/node/152032",
+      "score": 3
+    },
+    {
+      "id": "geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่",
+      "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
+      "source_url": "https://www.blognone.com/node/152043",
+      "score": 3
+    },
+    {
+      "id": "anthropic-เปิดตัว-claude-fable-5-2-ทวงแชมป์คืนสำเร็จ-ตอบเร็วขึ้น-ราคาถ",
+      "title": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง",
+      "source_url": "https://www.blognone.com/node/152143",
+      "score": 3
+    },
+    {
+      "id": "anthropic-เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว-มูลค่ากิจการสูงสุดอยู่รา",
+      "title": "Anthropic เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว มูลค่ากิจการสูงสุดอยู่ราว 1.4 ล้านล้านดอลลาร์",
+      "source_url": "https://www.blognone.com/node/152145",
       "score": 3
     }
   ]

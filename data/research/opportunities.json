@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814526+00:00"
+    "researched_at": "2026-11-11T09:29:16.205383+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,23 +31,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815512+00:00"
-  },
-  {
-    "title": "กูเกิลเพิ่มรุ่นชิป TPU รุ่นที่ 8 เพิ่มรุ่น Max อัดแรมและ HBM ขึ้นสูงสุด 384GB พร้อม SRAM 768MB",
-    "url": "https://www.blognone.com/node/152138",
-    "summary": "กูเกิลเพิ่มรุ่นชิป TPU รุ่นที่ 8 เพิ่มรุ่น Max อัดแรมและ HBM ขึ้นสูงสุด 384GB พร้อม SRAM 768MB Body กูเกิลเปิดตัว TPU รุ่นที่ 8 ที่เดิม เปิดตัวมาสองรุ่นตั้งแต่งาน Google I/O ได้แก่ TPU 8t และ TPU 8i มาอีกสองรุ่น ได้แก่ TPU 8tx และ TPU 8i Max ที่ตอบสนองตลาดเฉพาะทางกว่าเดิม TPU 8tx เป็นชิปที่ใช้เทคโนโลยีเข้ารหัสแรมของ AMD โดยในตัวชิปเป็น AMD EPYC รุ่นที่ 5 การเพิ่มความสามารถเข้ารหัสแรมทำให้ลูกค้าองค์กรที่ต้องการความมั่นใจว่าข้อมูลไม่หลุดออกไปภายนอกสามารถนำข้อมูลมาฝึกบนคลาวด์ได้สะดวกขึ้น TPU 8i Max เป็นรุ่นแก้ปัญหา memory bandwidth ที่เป็นคอขวดของการผลิตโทเค็นใน LLM โดยอาศัยการเพิ่ม SRAM บนตัวชิป เป็น 768MB และเพิ่มแรม HBM เป็น 384GB ที่แบนวิดท์ 17.2TB/s กูเกิลระบุว่าชิปรุ่นใหม่นี้อาศัย AlphaChip ปัญญาประดิษฐ์ออกแบบชิปมาช่วยลดเวลาทำงานลง งานบางส่วนที่ต้องใช้เวลานับสัปดาห์ลดเหลือเพียงไม่กี่ชั่วโมง และคาดว่าในอนาคตก็จะใช้ AI มาพัฒนา AI มากขึ้นเรื่อยๆ ที่มา - Google lew Mon, 09/11/2026 - 22:08",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 09 Nov 2026 15:08:17 +0000",
-    "matched_keywords": [
-      "แก้ปัญหา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.816137+00:00"
+    "researched_at": "2026-11-11T09:29:16.206772+00:00"
   },
   {
     "title": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน",
@@ -63,7 +47,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.815938+00:00"
+    "researched_at": "2026-11-11T09:29:16.207716+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -79,7 +63,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814131+00:00"
+    "researched_at": "2026-11-11T09:29:16.204883+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -95,23 +79,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814885+00:00"
-  },
-  {
-    "title": "Meta เปิดตัว Muse Ember, AI ตัวเล็กราคาถูก ขายผ่าน Google Cloud, Oracle",
-    "url": "https://www.blognone.com/node/152141",
-    "summary": "Meta เปิดตัว Muse Ember, AI ตัวเล็กราคาถูก ขายผ่าน Google Cloud, Oracle Body Meta เปิดตัว Muse Ember โมเดลปัญญาประดิษฐ์ขนาดเล็กที่เน้นความคุ้มค่า มีความสามารถในการอ่านได้ทั้งข้อความ, ภาพ, เสียง, และวิดีโอ ผลทดสอบของ Muse Ember เทียบกับคู่แข่งราคาระดับเดียวกัน อย่าง GPT-6 Luna และ Claude Haiku 5.5 นั้นแซงได้แทบทุกชุดทดสอบ โดยเฉพาะความสามารถด้านการเขียนโค้ด ทำให้ตอนนี้มันกลายเป็นโมเดลในกลุ่มราคาถูกที่แซงหน้าโมเดลอื่นๆ ค่าใช้ API อยู่ที่ 0.1/0.5 ดอลลาร์ต่อล้านโทเค็น และค่าแคชถูกเพียง 0.004 ดอลลาร์ต่อล้านโทเค็น โดยรองรับอินพุต 1M และเอาท์พุต 512K การเปิดตัวครั้งนี้ยังเป็นครั้งแรกที่ Meta ขาย API ผ่าน Google Cloud และ Oracle Cloud โดยขายทั้ง Muse Ember, Muse Spark, และ Muse Wonder ที่มา - Meta lew Tue, 10/11/2026 - 07:47",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 10 Nov 2026 00:47:06 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.816000+00:00"
+    "researched_at": "2026-11-11T09:29:16.205863+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -127,23 +95,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814243+00:00"
-  },
-  {
-    "title": "Huawei เปิดตัวพีซี HarmonyOS Desktop ชิ้นส่วน 100% ผลิตในจีน",
-    "url": "https://www.blognone.com/node/152139",
-    "summary": "Huawei เปิดตัวพีซี HarmonyOS Desktop ชิ้นส่วน 100% ผลิตในจีน Body Huawei เปิดตัวคอมพิวเตอร์เดสก์ท็อปที่ระบุว่าใช้ชิ้นส่วนผลิตในจีน 100% และใช้ระบบปฏิบัติการ HarmonyOS ของตัวเอง พีซีรุ่นนี้ชื่อว่า Qingyun HM650 เน้นตลาดองค์กรและหน่วยงานภาครัฐ ใช้ซีพียู Kirin X90 ที่ใช้กับโน้ตบุ๊ก MateBook Pro รุ่นของปีที่แล้ว แรม LPDDR5 16GB, สตอเรจ 512GB, ระบบปฏิบัติการใช้ HarmonyOS V1.0 Enterprise Edition ที่มีผู้ช่วย AI ชื่อ Xiaoyi รองรับการรัน local AI ภายในเครื่อง ราคาขายเครื่องละ 7,199 หยวน หรือประมาณ 36,000 บาท จุดต่างสำคัญของ Qingyun HM650 กับพีซีโน้ตบุ๊ก HarmonyOS ก่อนหน้านี้คือ Qingyun HM650 ได้ใบรับรองว่าผลิตทุกอย่างในจีน 100% จาก Zhejiang Kezheng Electronic Information Product Inspection ทั้งตัวชิป ซอฟต์แวร์ และกระบวนการผลิต (แม้ Huawei ไม่ได้ผลิตเองทั้งหมด แต่ก็ผลิตในจีนทั้งหมด) ก็น่าสนใจว่าพีซีลักษณะนี้จะมีบทบาทอย่างไรในยุคสงครามเทคโนโลยีระหว่างจีนกับสหรัฐที่เข้มข้น ที่มา - Huawei , Huawei Central , Tom's Hardware mk Mon, 09/11/2026 - 22:00",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 09 Nov 2026 15:00:38 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.816201+00:00"
+    "researched_at": "2026-11-11T09:29:16.205006+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -159,7 +111,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.815647+00:00"
+    "researched_at": "2026-11-11T09:29:16.206957+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -175,7 +127,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.815715+00:00"
+    "researched_at": "2026-11-11T09:29:16.207053+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -191,7 +143,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815099+00:00"
+    "researched_at": "2026-11-11T09:29:16.206162+00:00"
   },
   {
     "title": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง",
@@ -207,7 +159,23 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.815844+00:00"
+    "researched_at": "2026-11-11T09:29:16.207622+00:00"
+  },
+  {
+    "title": "Anthropic เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว มูลค่ากิจการสูงสุดอยู่ราว 1.4 ล้านล้านดอลลาร์",
+    "url": "https://www.blognone.com/node/152145",
+    "summary": "Anthropic เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว มูลค่ากิจการสูงสุดอยู่ราว 1.4 ล้านล้านดอลลาร์ Body Anthropic เข้าสู่ขั้นตอนสุดท้ายของการไอพีโอนำบริษัทเข้าตลาดหุ้นสหรัฐแล้ว หลังจาก ยื่นเอกสารไฟลิ่ง ไปเมื่อปลายเดือนที่แล้ว โดยตอนนี้อยู่ขั้นตอนนำเสนอข้อมูลต่อผู้สนใจซื้อหุ้นไอพีโอ (Roadshow) จากนั้นจะเป็นการกำหนดราคาขายต่อหุ้นสุดท้าย และวันที่เริ่มซื้อขายวันแรกต่อไป Anthropic จะขายหุ้นสามัญไอพีโอคลาส A จำนวน 825 ล้านหุ้น เป็นหุ้นที่ออกใหม่ 801,351,354 หุ้น และหุ้นจากผู้ถือหุ้นปัจจุบัน 23,648,646 หุ้น ช่วงราคาที่เสนอขายคือ 70-78 ดอลลาร์ต่อหุ้น เข้าตลาดหุ้นแนสแดค ใช้ตัวย่อในการซื้อขาย ANT มูลค่ากิจการสูงสุดหากสามารถขายหุ้นไอพีโอได้ที่ 78 ดอลลาร์ จะอยู่ที่ 1.405 ล้านล้านดอลลาร์ ได้เงินจากการขายหุ้นไอพีโอ 6.4 หมื่นล้านดอลลาร์ ทั้งนี้ Anthropic จะขายหุ้นสามัญแบบเจาะจงโดยไม่รวมในไอพีโอส่วนนี้ ที่ราคาเท่ากัน ให้กับผู้ลงทุนรายใหญ่ปัจจุบันได้แก่ Braodcom, Google, Micron, Microsoft, NVIDIA และ TSMC มูลค่ารวมประมาณ 2.6 หมื่นล้านดอลลาร์ โดยเป็นหุ้นคลาส N ที่มา: CNBC และ Anthropic arjin Wed, 11/11/2026 -",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 11 Nov 2026 00:48:47 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-11T09:29:16.207437+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -223,21 +191,37 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814946+00:00"
+    "researched_at": "2026-11-11T09:29:16.205947+00:00"
   },
   {
-    "title": "สถิติ CPU-Z เผย พีซีที่ใช้แรม 32GB และ 64GB มีสัดส่วนลดลง จากปัญหาแรมแพง",
-    "url": "https://www.blognone.com/node/152140",
-    "summary": "สถิติ CPU-Z เผย พีซีที่ใช้แรม 32GB และ 64GB มีสัดส่วนลดลง จากปัญหาแรมแพง Body CPU-Z แอพวัดประสิทธิภาพซีพียูและชิ้นส่วนพีซีชื่อดัง เผยสถิติว่าสัดส่วนพีซีที่มีแรมเยอะระดับ 32GB และ 64GB ลดลง สะท้อนปัญหา \"แรมแพง\" ที่ส่งผลสะเทือนวงการอยู่ในขณะนี้ พีซีที่มีแรม 32GB มีสัดส่วนลดลง 2.5% และพีซีแรม 64GB สัดส่วนลดลงถึง 18% ในขณะที่พีซีแรม 16GB โตสวนทางที่ 12.9% กับพีซีแรม 8GB ก็เพิ่มขึ้นเช่นกันที่ 5.5% ถ้าดูภาพรวม พีซีแรม 32GB ยังมีสัดส่วนสูงเป็นอันดับหนึ่งที่ 37.2% แต่พีซีแรม 16GB ก็ไล่กวดมาติดๆ ที่ 33% ตามด้วยอันดับสาม พีซีแรม 8GB ที่ 11% และอันดับสี่ พีซีแรม 64GB ที่ 7.3% ที่มา - CPU-Z via Tom's Hardware Fresh stats from CPU-Z! 🔎 For the first time ever, RAM capacity on PCs has declined year-over-year : -2.5% for 32 GB and -18% for 64 GB! https://t.co/ya0soA55bR — Doc TB (@d0cTB) November 6, 2026 mk Mon, 09/11/2026 - 22:13",
+    "title": "AMD เปิดตัวซีพียู EPYC รุ่นที่ 6 อัด 256 คอร์ 512 เธรด แคช 1GB ชิปละห้าแสน",
+    "url": "https://www.blognone.com/node/152146",
+    "summary": "AMD เปิดตัวซีพียู EPYC รุ่นที่ 6 อัด 256 คอร์ 512 เธรด แคช 1GB ชิปละห้าแสน Body AMD เปิดตัวซีพียู EPYC สำหรับเซิร์ฟเวอร์ เป็นรุ่นที่ 6 โดยเริ่มส่งมอบให้ Meta, Azure, และ Oracle Cloud พร้อมกับเริ่มเปิดรับคำสั่งจากผู้ผลิตเซิร์ฟเวอร์ ภายในชิปเป็นสถาปัตยกรรม Zen 6 ชิปรุ่นสูงสุด คือ AMD EPYC 9996 มีซีพียู 256 คอร์ 512 เธรด ภายในเป็นแคช L3 ขนาด 1024MB อัตราการปล่อยความร้อน 600W สามารถใส่ซีพียูได้ 2 ซ็อกเก็ต (รวม 1024 เธรด) การเชื่อมต่อเป็น PCIe 6.0 96 เลน หน่วยความจำ DDR5 สูงสุด 12800MT/s แบนวิดท์สูงสุด 1638GB/s สถาปัตยกรรมภายในเป็น Zen 6 เป็นรุ่นแรกที่รันคำสั่งต่อสัญญาณนาฬิกาได้สูงขึ้น 20-31% แล้วแต่ชนิดของงาน ราคาต่อ 1,000 ชิปอยู่ที่ 14,904 ดอลลาร์หรือประมาณ 500,000 บาท ด้วยปริมาณคอร์จำนวนมาก ทำให้สามารถอัดจำนวนคอร์ในตู้เซิร์ฟเวอร์ AMD Helion ได้ถึง 73,728 เธรด เมื่อใส่ซีพียูอย่างเดียว แต่ตอนคอนฟิกจริงก็สามารถเลือกได้ว่าจะใส่ GPU ผสมไปด้วยมากน้อยเพียงใด จุดน่าสนใจคือ AMD เลือกเทียบกับซีพียู NVIDIA Vera ไปพร้อมๆ กับ Intel Xeon โดยระบุว่าประสิทธิภาพต่อวัตต์ของ EPYC รุ่นที่ 6 นี้ดีกว่า Vera ถ",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Mon, 09 Nov 2026 15:13:37 +0000",
+    "published": "Wed, 11 Nov 2026 03:19:03 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-11T09:29:16.207342+00:00"
+  },
+  {
+    "title": "โซนี่ปิดแอพ PlayStation Plus บนพีซี เลิกบริการคลาวด์เกมมิ่งบนพีซี",
+    "url": "https://www.blognone.com/node/152148",
+    "summary": "โซนี่ปิดแอพ PlayStation Plus บนพีซี เลิกบริการคลาวด์เกมมิ่งบนพีซี Body โซนี่ประกาศปิดแอพ PlayStation Plus บนพีซี ด้วยเหตุผลว่ามีผู้ใช้งานน้อย เพียง 0.4% ของสมาชิก PlayStation Plus ทั้งหมด แอพ PlayStation Plus บนพีซี มีไว้เล่นเกม PlayStation ผ่านคลาวด์บนเครื่องพีซี โดยใช้ได้เฉพาะสมาชิก PlayStation Plus แพ็กเกจสูงสุด Premium เท่านั้น การปิดแอพครั้งนี้จะทำให้การเล่นเกม PlayStation ผ่านคลาวด์บนพีซีต้องปิดตามไปด้วย (เพราะมีเกมเมอร์เล่นได้แค่กลุ่มนี้กลุ่มเดียว) ส่วนสิทธิการใช้งานเล่นเกมผ่านคลาวด์บนเครื่อง PS5/PS4 ยังเหมือนเดิม ข่าวนี้สอดคล้องกับ ทิศทางของโซนี่ในช่วงหลังที่ เริ่มถอนเกียร์ออกจากการพอร์ตเกมไปยังพีซี และกลับไปโฟกัสที่ตลาดคอนโซลเหมือนเดิม ที่มา - PlayStation , IGN mk Wed, 11/11/2026 - 11:49",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 11 Nov 2026 04:49:33 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.816070+00:00"
+    "researched_at": "2026-11-11T09:29:16.207130+00:00"
   },
   {
     "title": "[ลือ] ซีอีโอ Apple ตั้งเป้าเร่งพัฒนา Siri AI ให้มีความสามารถผู้ช่วยที่มากขึ้น คาดเห็นความก้าวหน้าใน iOS 28",
@@ -251,7 +235,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.815778+00:00"
+    "researched_at": "2026-11-11T09:29:16.207528+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -265,7 +249,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814737+00:00"
+    "researched_at": "2026-11-11T09:29:16.205687+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -279,7 +263,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815173+00:00"
+    "researched_at": "2026-11-11T09:29:16.206267+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -293,7 +277,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815025+00:00"
+    "researched_at": "2026-11-11T09:29:16.206056+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -307,7 +291,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814370+00:00"
+    "researched_at": "2026-11-11T09:29:16.205119+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -321,7 +305,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814450+00:00"
+    "researched_at": "2026-11-11T09:29:16.205229+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -335,7 +319,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814599+00:00"
+    "researched_at": "2026-11-11T09:29:16.205493+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -349,7 +333,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814801+00:00"
+    "researched_at": "2026-11-11T09:29:16.205776+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -363,7 +347,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815310+00:00"
+    "researched_at": "2026-11-11T09:29:16.206491+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -377,7 +361,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.814662+00:00"
+    "researched_at": "2026-11-11T09:29:16.205582+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -391,7 +375,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815448+00:00"
+    "researched_at": "2026-11-11T09:29:16.206683+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -405,7 +389,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-10T09:54:33.815579+00:00"
+    "researched_at": "2026-11-11T09:29:16.206864+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -419,7 +403,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.813982+00:00"
+    "researched_at": "2026-11-11T09:29:16.204670+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -433,7 +417,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815237+00:00"
+    "researched_at": "2026-11-11T09:29:16.206384+00:00"
+  },
+  {
+    "title": "GTA 6 เปิดให้พรีโหลดไฟล์แล้ว, จำกัดเฟรมเรต 30 FPS บนคอนโซล, เล่นผ่าน Xbox Cloud Gaming ได้",
+    "url": "https://www.blognone.com/node/152147",
+    "summary": "GTA 6 เปิดให้พรีโหลดไฟล์แล้ว, จำกัดเฟรมเรต 30 FPS บนคอนโซล, เล่นผ่าน Xbox Cloud Gaming ได้ Body สัปดาห์สุดท้ายก่อน GTA 6 เปิดให้เล่นอย่างเป็นทางการในวันที่ 19 พฤศจิกายน มีความเคลื่อนไหวต่างๆ ดังนี้ เกมเปิดให้พรีโหลดไฟล์ลงเครื่องไว้รอแล้ว สำหรับคนที่พรีออเดอร์ ถือว่าเปิดพรีโหลดก่อนเกมวางขายถึง 9 วัน เพื่อให้เกมเมอร์มีเวลาเตรียมตัวกันเนิ่นๆ ไม่ต้องไปรอแย่งโหลดไฟล์กันวันจริง โซนี่ยืนยันว่า GTA 6 เป็นเกมที่มีคนพรีออเดอร์สูงที่สุดเป็นประวัติการณ์ของ PlayStation Store แต่ไม่ได้เปิดเผยตัวเลข Rockstar ยืนยันว่าจำกัดเฟรมเรตไว้ที่ 30 FPS บนคอนโซลทั้งสองค่ายคือ PS5 และ Xbox ใครที่เคยฝันว่าอาจได้ 60 FPS สรุปคือไม่เป็นจริงตามนั้น ฝั่งค่าย PS5 ได้ฟีเจอร์เอ็กซ์คลูซีฟของแพลตฟอร์ม เช่น รองรับ PlayStation Spectral Super Resolution (PSSR) บน PS5 Pro, รองรับ adaptive trigger ของจอย Dual Sense, รองรับระบบเสียง spatial audio ของ Tempest 3D Audio ฝั่งค่าย Xbox ได้ดีลการเล่น GTA 6 ผ่าน Xbox Cloud Gaming แต่ยังจำกัดการเล่นเฉพาะบนเครื่องคอนโซล Xbox Series X|S และ Xbox One เท่านั้น (เท่ากับว่า Xbox One ได้เล่น G",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 11 Nov 2026 04:09:54 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-11T09:29:16.207224+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -447,6 +445,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-10T09:54:33.815386+00:00"
+    "researched_at": "2026-11-11T09:29:16.206596+00:00"
   }
 ]

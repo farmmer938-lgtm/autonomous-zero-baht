@@ -1,26 +1,26 @@
 [
   {
-    "path": "data/content/drafts/กูเกิลเพิ่มรุ่นชิป-tpu-รุ่นที่-8-เพิ่มรุ่น-max-อัดแรมและ-hbm-ขึ้นสูงสุด-384gb-พร.json",
-    "passed": true,
-    "errors": []
-  },
-  {
     "path": "data/content/drafts/ลือ-ซัมซุงเริ่มทดสอบแพ็กเกจ-galaxy-ai-premium-แบบเสียเงิน.json",
     "passed": true,
     "errors": []
   },
   {
-    "path": "data/content/drafts/meta-เปิดตัว-muse-ember-ai-ตัวเล็กราคาถูก-ขายผ่าน-google-cloud-oracle.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/huawei-เปิดตัวพีซี-harmonyos-desktop-ชิ้นส่วน-100-ผลิตในจีน.json",
-    "passed": true,
-    "errors": []
-  },
-  {
     "path": "data/content/drafts/google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุดในอุตสาหก.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่นเกม-pc-ระ.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/anthropic-เปิดตัว-claude-fable-5-2-ทวงแชมป์คืนสำเร็จ-ตอบเร็วขึ้น-ราคาถูกลง.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/anthropic-เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว-มูลค่ากิจการสูงสุดอยู่ราว-1-4-ล้าน.json",
     "passed": true,
     "errors": []
   }
