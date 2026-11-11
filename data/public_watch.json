@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-11T16:10:06.869371+00:00",
+ "checked_at": "2026-11-11T22:47:40.387779+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -27,10 +27,10 @@
   },
   "cashier": {
    "url": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev/openapi.json",
-   "http": 404,
+   "http": 502,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 4
+   "consecutive_down": 5
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -61,19 +61,19 @@
  "radar": [
   {
    "rail": "frantic",
-   "id": "frantic:148",
-   "title": "Write one draft in a famous voice with Silvertongue's MCP server",
-   "reward_usd": 1,
-   "visibility": "public",
-   "url": "https://gofrantic.com/bounties/148"
+   "id": "frantic:149",
+   "title": "Dogfood a browser extension",
+   "reward_usd": 3,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/149"
   },
   {
    "rail": "frantic",
-   "id": "frantic:129",
-   "title": "Earn a citation on an external page that already ranks for a relevant query",
-   "reward_usd": 16,
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reward_usd": 1,
    "visibility": "private",
-   "url": "https://gofrantic.com/bounties/129"
+   "url": "https://gofrantic.com/bounties/147"
   },
   {
    "rail": "frantic",
@@ -84,6 +84,23 @@
    "url": "https://gofrantic.com/bounties/97"
   }
  ],
- "new_items": [],
- "changed": false
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:149",
+   "title": "Dogfood a browser extension",
+   "reward_usd": 3,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/149"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reward_usd": 1,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/147"
+  }
+ ],
+ "changed": true
 }
