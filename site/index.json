@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T09:29:16.213997+00:00",
+  "generated_at": "2026-11-12T09:52:36.578837+00:00",
   "count": 5,
   "items": [
     {
-      "id": "ลือ-ซัมซุงเริ่มทดสอบแพ็กเกจ-galaxy-ai-premium-แบบเสียเงิน",
-      "title": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน",
-      "source_url": "https://www.blognone.com/node/152142",
-      "score": 3
+      "id": "ลือ-บอร์ด-nvidia-เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว",
+      "title": "[ลือ] บอร์ด NVIDIA เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว",
+      "source_url": "https://www.blognone.com/node/152156",
+      "score": 6
     },
     {
       "id": "google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุ",
@@ -21,16 +21,16 @@
       "score": 3
     },
     {
-      "id": "anthropic-เปิดตัว-claude-fable-5-2-ทวงแชมป์คืนสำเร็จ-ตอบเร็วขึ้น-ราคาถ",
-      "title": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง",
-      "source_url": "https://www.blognone.com/node/152143",
-      "score": 3
+      "id": "กูเกิลเปิดตัว-gemini-decision-1-โมเดลตัดสินใจ-ตอบแม่นกว่า-jev",
+      "title": "กูเกิลเปิดตัว Gemini Decision 1 โมเดลตัดสินใจ ตอบแม่นกว่า Jev",
+      "source_url": "https://www.blognone.com/node/152155",
+      "score": 0
     },
     {
-      "id": "anthropic-เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว-มูลค่ากิจการสูงสุดอยู่รา",
-      "title": "Anthropic เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว มูลค่ากิจการสูงสุดอยู่ราว 1.4 ล้านล้านดอลลาร์",
-      "source_url": "https://www.blognone.com/node/152145",
-      "score": 3
+      "id": "windows-11-ปรับแต่งเมนูคลิกขวา-context-menu-ได้ละเอียดแล้ว-ปิดเมนู-cop",
+      "title": "Windows 11 ปรับแต่งเมนูคลิกขวา (Context Menu) ได้ละเอียดแล้ว ปิดเมนู Copilot ได้",
+      "source_url": "https://www.blognone.com/node/152152",
+      "score": 0
     }
   ]
 }

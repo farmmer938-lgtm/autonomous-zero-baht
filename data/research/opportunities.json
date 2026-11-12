@@ -15,7 +15,24 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205383+00:00"
+    "researched_at": "2026-11-12T09:52:36.570561+00:00"
+  },
+  {
+    "title": "[ลือ] บอร์ด NVIDIA เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว",
+    "url": "https://www.blognone.com/node/152156",
+    "summary": "[ลือ] บอร์ด NVIDIA เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว Body Bloomberg รายงานข่าวว่า บอร์ด NVIDIA เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว โดยว่าจ้างบริษัทภายนอกที่เชี่ยวชาญเรื่องการสรรหาผู้บริหารระดับสูง ซึ่งเป็นวิธีการปกติที่ทำกันในวงการธุรกิจ ตอนนี้ยังไม่ชัดเจนว่า บอร์ดมีโจทย์ว่าจะหาซีอีโอชั่วคราว หรือซีอีโอถาวร แต่กรณีของ NVIDIA มีความยากตรงที่ Jensen Huang เป็นผู้ก่อตั้งบริษัทและเป็นซีอีโอคนเดียวมาตลอด มีผลงานโดดเด่นเป็นที่ประจักษ์ ราคาหุ้นเพิ่มขึ้นมา 700,000% การหาคนมาทำหน้าที่แทนจึงไม่ใช่เรื่องง่ายเลย และดูเหมือนว่า NVIDIA เองก็ไม่ได้มีแผนการสืบทอดตำแหน่งไว้ล่วงหน้า ว่าถ้าเกิดเหตุลักษณะนี้แล้วจะทำอย่างไร อย่างไรก็ตาม การเก็บ Jensen ไว้ก็ทำให้บริษัทมีความเสี่ยง ทั้ง กรณี Alice Huang ที่เป็นเรื่องความลับของบริษัท และความมั่นคงของชาติ กับ กรณี Kimberly Powell ที่เป็นผู้ใต้บังคับบัญชาโดยตรง ที่มา - Bloomberg mk Thu, 12/11/2026 - 09:48",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 12 Nov 2026 02:48:25 +0000",
+    "matched_keywords": [
+      "ราคา",
+      "วิธี"
+    ],
+    "keyword_score": 2,
+    "intent_score": 4,
+    "opportunity_score": 6,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-12T09:52:36.572322+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -31,23 +48,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206772+00:00"
-  },
-  {
-    "title": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน",
-    "url": "https://www.blognone.com/node/152142",
-    "summary": "[ลือ] ซัมซุงเริ่มทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงิน Body หลังจากเปิดฟีเจอร์ Galaxy AI ให้ใช้ฟรีมาสักพักใหญ่ๆ ล่าสุดมีข่าวว่า ซัมซุงกำลังทดสอบแพ็กเกจ Galaxy AI Premium แบบเสียเงินแล้ว เว็บข่าวสายซัมซุง 2 ราย ยังให้ข้อมูลระดับราคาแพ็กเกจที่ไม่ตรงกัน โดย SamMobile บอกว่าแพ็กเกจ Galaxy AI Premium มี 3 ระดับ (tier) คือ Starter, Plus, Pro ส่วน Sammy Guru บอกว่ามี 2 ระดับคือ Standard, Max จึงเป็นไปได้ว่าซัมซุงกำลังทดสอบแพ็กเกจราคาที่ต่างกันอยู่ ตามข่าวบอกว่าแพ็กเกจราคาเริ่มต้นเดือนละ 4.99 ดอลลาร์ หรือปีละ 47.99 ดอลลาร์ โดยฟีเจอร์ที่ยังให้ทุกคนใช้ฟรีอยู่เหมือนเดิม ได้แก่ Browsing Assist, Creative Studio, Memory, Now Brief, Photo Studio, Smart capture, Samsung Keyboard แต่จำกัดโควต้าการใช้งาน ส่วนลูกค้าที่จ่ายเงินจะได้โควต้าเพิ่ม และได้ฟีเจอร์เพิ่มดังนี้ Bixby Action เปลี่ยน Bixby เป็น agent ตามสั่ง ต้องจ่าย tier บนสุด (Pro) Daily Briefing คล้ายๆ กับ Now Brief อยู่ใน tier ระดับ Plus Gen Video แปลงรูปภาพเป็นคลิป Galaxy Claw ทำงานประจำวันให้อัตโนมัติ ที่มา - SamMobile , Sammy Guru mk Tue,",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 10 Nov 2026 01:46:48 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207716+00:00"
+    "researched_at": "2026-11-12T09:52:36.571936+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -63,7 +64,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.204883+00:00"
+    "researched_at": "2026-11-12T09:52:36.570088+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -79,7 +80,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205863+00:00"
+    "researched_at": "2026-11-12T09:52:36.571022+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -95,7 +96,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205006+00:00"
+    "researched_at": "2026-11-12T09:52:36.570227+00:00"
   },
   {
     "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
@@ -111,7 +112,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.206957+00:00"
+    "researched_at": "2026-11-12T09:52:36.572118+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -127,7 +128,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207053+00:00"
+    "researched_at": "2026-11-12T09:52:36.572239+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -143,39 +144,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206162+00:00"
-  },
-  {
-    "title": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง",
-    "url": "https://www.blognone.com/node/152143",
-    "summary": "Anthropic เปิดตัว Claude Fable 5.2 ทวงแชมป์คืนสำเร็จ ตอบเร็วขึ้น ราคาถูกลง Body Anthropic อัพเกรดโมเดลระดับเรือธง Claude Fable 5.2 และ Claude Mythos 5.2 ขยับเลขเวอร์ชันเพิ่มอีก 0.1 (ยังไม่ขยับเลขเป็น 5.5 เหมือนกับ Opus) ด้วยเหตุผลว่ายังใช้โมเดลฐานตัวเดิม แต่ปรับแต่งให้ประสิทธิภาพดีขึ้น ความแตกต่างของ Fable 5.2 กับ Mythos 5.2 ยังเหมือนเดิม นั่นคือ Fable เป็นโมเดลสำหรับคนทั่วไป มีระบบป้องกันการนำไปใช้ด้านความปลอดภัยไซเบอร์และการวิจัยด้านชีวภาพ ป้องกันการนำไปใช้ทางที่ผิด ส่วน Mythos สามารถทำงาน 2 อย่างนี้ได้มากกว่า และต้องสมัครเข้าร่วมโครงการคัดกรองพิเศษถึงจะมีสิทธิได้ใช้งาน ตัวเลขเบนช์มาร์คของ Fable 5.2 สามารถเอาชนะคู่แข่ง Gemini 4 Carbon และ GPT-6 Astra ได้ในหลายการทดสอบ นอกจากนี้ยังใช้โทเคนน้อยลง และตอบเร็วขึ้นกว่า Fable 5.1 ถึง 30% ความโดดเด่นอีกประการของ Fable 5.2 คือ Anthropic ลดราคาลงจากเดิม เหลือ 8 ดอลลาร์ต่อล้านโทเคน (อินพุต) และ 40 ดอลลาร์ต่อล้านโทเคน (เอาต์พุต) นอกจากนี้ยังมี fast mode ที่เร่งความเร็วโทเคนอีก 2.5 เท่า แต่ก็ขึ้นราคาเพิ่มเท่าตัวเป็น 8 และ 80 ดอลลาร์ ตามลำดับ Anth",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 10 Nov 2026 02:14:55 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207622+00:00"
-  },
-  {
-    "title": "Anthropic เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว มูลค่ากิจการสูงสุดอยู่ราว 1.4 ล้านล้านดอลลาร์",
-    "url": "https://www.blognone.com/node/152145",
-    "summary": "Anthropic เข้าสู่ขั้นตอนเสนอขายหุ้นไอพีโอแล้ว มูลค่ากิจการสูงสุดอยู่ราว 1.4 ล้านล้านดอลลาร์ Body Anthropic เข้าสู่ขั้นตอนสุดท้ายของการไอพีโอนำบริษัทเข้าตลาดหุ้นสหรัฐแล้ว หลังจาก ยื่นเอกสารไฟลิ่ง ไปเมื่อปลายเดือนที่แล้ว โดยตอนนี้อยู่ขั้นตอนนำเสนอข้อมูลต่อผู้สนใจซื้อหุ้นไอพีโอ (Roadshow) จากนั้นจะเป็นการกำหนดราคาขายต่อหุ้นสุดท้าย และวันที่เริ่มซื้อขายวันแรกต่อไป Anthropic จะขายหุ้นสามัญไอพีโอคลาส A จำนวน 825 ล้านหุ้น เป็นหุ้นที่ออกใหม่ 801,351,354 หุ้น และหุ้นจากผู้ถือหุ้นปัจจุบัน 23,648,646 หุ้น ช่วงราคาที่เสนอขายคือ 70-78 ดอลลาร์ต่อหุ้น เข้าตลาดหุ้นแนสแดค ใช้ตัวย่อในการซื้อขาย ANT มูลค่ากิจการสูงสุดหากสามารถขายหุ้นไอพีโอได้ที่ 78 ดอลลาร์ จะอยู่ที่ 1.405 ล้านล้านดอลลาร์ ได้เงินจากการขายหุ้นไอพีโอ 6.4 หมื่นล้านดอลลาร์ ทั้งนี้ Anthropic จะขายหุ้นสามัญแบบเจาะจงโดยไม่รวมในไอพีโอส่วนนี้ ที่ราคาเท่ากัน ให้กับผู้ลงทุนรายใหญ่ปัจจุบันได้แก่ Braodcom, Google, Micron, Microsoft, NVIDIA และ TSMC มูลค่ารวมประมาณ 2.6 หมื่นล้านดอลลาร์ โดยเป็นหุ้นคลาส N ที่มา: CNBC และ Anthropic arjin Wed, 11/11/2026 -",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 11 Nov 2026 00:48:47 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207437+00:00"
+    "researched_at": "2026-11-12T09:52:36.571372+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -191,51 +160,35 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205947+00:00"
+    "researched_at": "2026-11-12T09:52:36.571114+00:00"
   },
   {
-    "title": "AMD เปิดตัวซีพียู EPYC รุ่นที่ 6 อัด 256 คอร์ 512 เธรด แคช 1GB ชิปละห้าแสน",
-    "url": "https://www.blognone.com/node/152146",
-    "summary": "AMD เปิดตัวซีพียู EPYC รุ่นที่ 6 อัด 256 คอร์ 512 เธรด แคช 1GB ชิปละห้าแสน Body AMD เปิดตัวซีพียู EPYC สำหรับเซิร์ฟเวอร์ เป็นรุ่นที่ 6 โดยเริ่มส่งมอบให้ Meta, Azure, และ Oracle Cloud พร้อมกับเริ่มเปิดรับคำสั่งจากผู้ผลิตเซิร์ฟเวอร์ ภายในชิปเป็นสถาปัตยกรรม Zen 6 ชิปรุ่นสูงสุด คือ AMD EPYC 9996 มีซีพียู 256 คอร์ 512 เธรด ภายในเป็นแคช L3 ขนาด 1024MB อัตราการปล่อยความร้อน 600W สามารถใส่ซีพียูได้ 2 ซ็อกเก็ต (รวม 1024 เธรด) การเชื่อมต่อเป็น PCIe 6.0 96 เลน หน่วยความจำ DDR5 สูงสุด 12800MT/s แบนวิดท์สูงสุด 1638GB/s สถาปัตยกรรมภายในเป็น Zen 6 เป็นรุ่นแรกที่รันคำสั่งต่อสัญญาณนาฬิกาได้สูงขึ้น 20-31% แล้วแต่ชนิดของงาน ราคาต่อ 1,000 ชิปอยู่ที่ 14,904 ดอลลาร์หรือประมาณ 500,000 บาท ด้วยปริมาณคอร์จำนวนมาก ทำให้สามารถอัดจำนวนคอร์ในตู้เซิร์ฟเวอร์ AMD Helion ได้ถึง 73,728 เธรด เมื่อใส่ซีพียูอย่างเดียว แต่ตอนคอนฟิกจริงก็สามารถเลือกได้ว่าจะใส่ GPU ผสมไปด้วยมากน้อยเพียงใด จุดน่าสนใจคือ AMD เลือกเทียบกับซีพียู NVIDIA Vera ไปพร้อมๆ กับ Intel Xeon โดยระบุว่าประสิทธิภาพต่อวัตต์ของ EPYC รุ่นที่ 6 นี้ดีกว่า Vera ถ",
+    "title": "กูเกิลเปิดตัว Gemini Decision 1 โมเดลตัดสินใจ ตอบแม่นกว่า Jev",
+    "url": "https://www.blognone.com/node/152155",
+    "summary": "กูเกิลเปิดตัว Gemini Decision 1 โมเดลตัดสินใจ ตอบแม่นกว่า Jev Body กูเกิลร่วมวงเกม Decision API ลักษณะเดียวกับ Jev , Cloudflare Chef และ OpenAI Decision API ด้วยโมเดลใหม่ชื่อ Gemini Decision 1 Gemini Decision 1 รองรับอินพุตแบบ multimodal สูงสุด 256K โทเคน และคำถามสูงสุด 1,000 คำถามพร้อมกัน โดยสามารถตอบคำถามแบบ yes/no, choice หรือตอบเป็นตัวเลขก็ได้ ความเร็วในการตอบทั้งเซ็ต 150-250ms กูเกิลโชว์เบนช์มาร์คของ Gemini Decision 1 ว่าเอาชนะ Jev 1.14 และ GPT-6 Luna Decisions API ได้เกือบทุกการทดสอบ ในต้นทุนรวมที่แพงกว่า Jev เล็กน้อย บริการของกูเกิลใช้ชื่อว่า Gemini Decisions API คิดค่าใช้จ่าย 0.10 ดอลลาร์ต่อ 1 ล้านโทเคนอินพุต, ค่าตอบฟรี ที่มา - Google mk Thu, 12/11/2026 - 07:24",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 11 Nov 2026 03:19:03 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207342+00:00"
-  },
-  {
-    "title": "โซนี่ปิดแอพ PlayStation Plus บนพีซี เลิกบริการคลาวด์เกมมิ่งบนพีซี",
-    "url": "https://www.blognone.com/node/152148",
-    "summary": "โซนี่ปิดแอพ PlayStation Plus บนพีซี เลิกบริการคลาวด์เกมมิ่งบนพีซี Body โซนี่ประกาศปิดแอพ PlayStation Plus บนพีซี ด้วยเหตุผลว่ามีผู้ใช้งานน้อย เพียง 0.4% ของสมาชิก PlayStation Plus ทั้งหมด แอพ PlayStation Plus บนพีซี มีไว้เล่นเกม PlayStation ผ่านคลาวด์บนเครื่องพีซี โดยใช้ได้เฉพาะสมาชิก PlayStation Plus แพ็กเกจสูงสุด Premium เท่านั้น การปิดแอพครั้งนี้จะทำให้การเล่นเกม PlayStation ผ่านคลาวด์บนพีซีต้องปิดตามไปด้วย (เพราะมีเกมเมอร์เล่นได้แค่กลุ่มนี้กลุ่มเดียว) ส่วนสิทธิการใช้งานเล่นเกมผ่านคลาวด์บนเครื่อง PS5/PS4 ยังเหมือนเดิม ข่าวนี้สอดคล้องกับ ทิศทางของโซนี่ในช่วงหลังที่ เริ่มถอนเกียร์ออกจากการพอร์ตเกมไปยังพีซี และกลับไปโฟกัสที่ตลาดคอนโซลเหมือนเดิม ที่มา - PlayStation , IGN mk Wed, 11/11/2026 - 11:49",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 11 Nov 2026 04:49:33 +0000",
+    "published": "Thu, 12 Nov 2026 00:24:28 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207130+00:00"
+    "researched_at": "2026-11-12T09:52:36.572401+00:00"
   },
   {
-    "title": "[ลือ] ซีอีโอ Apple ตั้งเป้าเร่งพัฒนา Siri AI ให้มีความสามารถผู้ช่วยที่มากขึ้น คาดเห็นความก้าวหน้าใน iOS 28",
-    "url": "https://www.blognone.com/node/152144",
-    "summary": "[ลือ] ซีอีโอ Apple ตั้งเป้าเร่งพัฒนา Siri AI ให้มีความสามารถผู้ช่วยที่มากขึ้น คาดเห็นความก้าวหน้าใน iOS 28 Body ข่าวสารแอปเปิลประจำสัปดาห์นี้จากจดหมายข่าว Power On โดย Mark Gurman แห่ง Bloomberg พูดถึงแผนการพัฒนา Siri AI ผู้ช่วยอัจฉริยะซึ่งเริ่มมีใน iOS 27 โดยเขาบอกว่า John Ternus ซีอีโอแอปเปิล ได้ให้ความสำคัญกับ Siri AI มากตอนนี้ มีการประชุมแบบจริงจังกับ Craig Federighi หัวหน้าฝ่ายวิศวกรรมซอฟต์แวร์ ตั้งเป้าหมายให้ Siri AI เป็นผู้ช่วย AI ที่ทำงานเชิงรุกกับผู้ใช้งานในแบบเดียวกับ Dots, Muse หรือ Grok Bot ซึ่ง Ternus ต้องการเห็นความก้าวหน้าเร็วที่สุดเท่าที่ทำได้ จึงอาจได้เห็น Siri AI ที่มีความสามารถมากกว่าเดิมใน iOS 28 ปีหน้าเลย นอกจากนี้แอปเปิลยังปรับแผนการพัฒนาฟีเจอร์และฮาร์ดแวร์ เพื่อให้วิศวกรฮาร์ดแวร์-ซอฟต์แวร์สามารถสร้างสิ่งใหม่ได้มากขึ้น โดยเพิ่มเวลา จากเดิมที่แบ่งรอบเป็น 2x4 สัปดาห์ (โค้ด+รวมฟีเจอร์) ตอนนี้ได้ปรับใหม่เป็น 6+2 สัปดาห์แทน เพิ่มเวลาในการพัฒนาและเขียนโค้ดมากขึ้น ที่มา: Bloomberg arjin Tue, 10/11/2026 - 10:58",
+    "title": "Windows 11 ปรับแต่งเมนูคลิกขวา (Context Menu) ได้ละเอียดแล้ว ปิดเมนู Copilot ได้",
+    "url": "https://www.blognone.com/node/152152",
+    "summary": "Windows 11 ปรับแต่งเมนูคลิกขวา (Context Menu) ได้ละเอียดแล้ว ปิดเมนู Copilot ได้ Body Windows 11 ออกแพตช์ประจำรอบเดือนพฤศจิกายน 2026 นอกจากการอุดช่องโหว่ความปลอดภัยแล้ว ฟีเจอร์ใหม่ที่เพิ่มมาคือ เมนูคลิกขวา (context-menu) สามารถปรับแต่งได้แล้ว ตามที่เคย เปิดทดสอบกับกลุ่ม Insiders มาตั้งแต่เดือนสิงหาคม เมนูคลิกขวาเวอร์ชันอัพเกรด มีคำว่า Customize menu เพิ่มเข้ามา กดแล้วจะเปิดหน้า Settings ที่เราสามารถปิดบางอย่างของเมนูออกได้ เช่น Send to, Print, Create shortcut, Copy as path, Rotate image และสามารถจัดระเบียบคำสั่งที่แอพบางตัวเพิ่มเข้ามาในหมวด App extensions ได้ด้วย (ฟีเจอร์สำคัญระดับจุดพลุฉลองกันได้เลยคือ ปิด Copilot ได้แล้วด้วย) ฟีเจอร์อื่นที่มีคือ แยกหมวด cloud storage เป็นอีกหมวด, แสดงเมนูแบบเก่าที่ซ่อนอยู่ (more options), ย้ายคำสั่ง Properties ไปไว้ล่างสุดเหมือน Windows ยุคเก่าๆ ตัวเมนูย่อย Customize menu เองก็ยังสามารถปิดได้ถ้าหากรู้สึกว่ามันรกไป และหันไปใช้การตั้งค่าจาก Settings โดยตรงแทน ที่มา - ZDNet mk Wed, 11/11/2026 - 22:33",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 10 Nov 2026 03:58:56 +0000",
+    "published": "Wed, 11 Nov 2026 15:33:38 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207528+00:00"
+    "researched_at": "2026-11-12T09:52:36.572643+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -249,7 +202,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205687+00:00"
+    "researched_at": "2026-11-12T09:52:36.570853+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -263,7 +216,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206267+00:00"
+    "researched_at": "2026-11-12T09:52:36.571476+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -277,7 +230,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206056+00:00"
+    "researched_at": "2026-11-12T09:52:36.571267+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -291,7 +244,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205119+00:00"
+    "researched_at": "2026-11-12T09:52:36.570340+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -305,7 +258,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205229+00:00"
+    "researched_at": "2026-11-12T09:52:36.570448+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -319,7 +272,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205493+00:00"
+    "researched_at": "2026-11-12T09:52:36.570665+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -333,7 +286,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205776+00:00"
+    "researched_at": "2026-11-12T09:52:36.570938+00:00"
+  },
+  {
+    "title": "Node.js ปล่อยแพตช์แก้ช่องโหว่ร้ายแรงสูง จาก TLS และ HTTP2",
+    "url": "https://www.blognone.com/node/152153",
+    "summary": "Node.js ปล่อยแพตช์แก้ช่องโหว่ร้ายแรงสูง จาก TLS และ HTTP2 Body Node.js ปล่อยแพตช์แก้ไขช่องโหว่ร้ายแรงสูง ตามที่ได้ประกาศไว้ก่อนหน้านี้ โดยแพตช์นี้แก้ไขช่องโหว่นับสิบรายการ และมีช่องโหว่ร้ายแรงสูงซึ่งเป็นระดับสูงสุดของ Node.js จำนวน 8 รายการ ช่องโหว่เหล่านี้ล้วนมาจากฟีเจอร์ TLS และ HTTP2 ซึ่งเกิดจากการจัดการโปรโตคอลผิดพลาดจนอาจจะแครชเซิร์ฟเวอร์ แม้ว่าจะปล่อยแพตช์ออกมาแล้ว และมีคำอธิบายคร่าวๆ ว่าแพตช์แก้ไขอะไร แต่ก็ไม่บอกความเสี่ยงที่ทำให้การแก้ไขเหล่านี้กลายเป็นช่องโหว่ โดยตอนนี้ issue ทั้งหมดที่ใช้พูดคุยยังปิดเป็นความลับ ช่องโหว่ทั้งหมดใกล้เคียงกัน โดยรุ่นแก้ไข ได้แก่ 22.23.5, 24.22.3, และ 26.13.1 ขณะที่เขียนข่าวนี้ตัวซอร์สโค้ดออกมาแล้วแต่ Docker ยังไม่มีอิมเมจเป็นทางการออกมา เนื่องจาก พบปัญหาระหว่างการ merge ที่มา - GitHub lew Thu, 12/11/2026 - 00:13",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 11 Nov 2026 17:13:07 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-12T09:52:36.572556+00:00"
+  },
+  {
+    "title": "New York Times ระบุ Jensen Huang มีความสัมพันธ์กับผู้บริหาร NVIDIA อีกคน บอร์ดอาจจะเตรียมไล่ออก",
+    "url": "https://www.blognone.com/node/152154",
+    "summary": "New York Times ระบุ Jensen Huang มีความสัมพันธ์กับผู้บริหาร NVIDIA อีกคน บอร์ดอาจจะเตรียมไล่ออก Body หลังจาก Jensen Huang ยอมรับว่าได้นอกใจภรรยา โดยเชื่อว่าหมายถึง Alice Huang ผู้บริหารบริษัท Megaspeed ในสิงคโปร์ สำนักข่าว New York Times ระบุว่าเขายังมีความสัมพันธ์กับ Kimberly Powell รองประธานฝ่ายสุขภาพ โดยมีคนถ่ายรูปทั้งสองอยู่ใกล้ชิดกันในโรงแรมในเมือง San Jose CNBC อ้างแหล่งข่าวอดีตพนักงาน NVIDIA ที่ไม่ระบุตัวตนระบุว่าในบริษัทมีข่าวลือความสัมพันธ์ของทั้งสองมานานเพราะ Powell ไม่มีประสบการณ์ด้านเทคโนโลยีหรือสาธารณสุขมาก่อน Wall Street Journal อ้างแหล่งข่าวระบุว่าคณะกรรมการบริษัท NVIDIA เตรียมประชุมเพื่อพิจารณาว่าจะไล่ Jensen ออกหรือไม่ ที่มา - CNBC , Wall Street Journal lew Thu, 12/11/2026 - 07:08",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 12 Nov 2026 00:08:28 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-12T09:52:36.572478+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -347,7 +328,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206491+00:00"
+    "researched_at": "2026-11-12T09:52:36.571660+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -361,7 +342,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.205582+00:00"
+    "researched_at": "2026-11-12T09:52:36.570750+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -375,7 +356,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206683+00:00"
+    "researched_at": "2026-11-12T09:52:36.571850+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -389,7 +370,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.206864+00:00"
+    "researched_at": "2026-11-12T09:52:36.572027+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -403,7 +384,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.204670+00:00"
+    "researched_at": "2026-11-12T09:52:36.569959+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -417,21 +398,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206384+00:00"
+    "researched_at": "2026-11-12T09:52:36.571559+00:00"
   },
   {
-    "title": "GTA 6 เปิดให้พรีโหลดไฟล์แล้ว, จำกัดเฟรมเรต 30 FPS บนคอนโซล, เล่นผ่าน Xbox Cloud Gaming ได้",
-    "url": "https://www.blognone.com/node/152147",
-    "summary": "GTA 6 เปิดให้พรีโหลดไฟล์แล้ว, จำกัดเฟรมเรต 30 FPS บนคอนโซล, เล่นผ่าน Xbox Cloud Gaming ได้ Body สัปดาห์สุดท้ายก่อน GTA 6 เปิดให้เล่นอย่างเป็นทางการในวันที่ 19 พฤศจิกายน มีความเคลื่อนไหวต่างๆ ดังนี้ เกมเปิดให้พรีโหลดไฟล์ลงเครื่องไว้รอแล้ว สำหรับคนที่พรีออเดอร์ ถือว่าเปิดพรีโหลดก่อนเกมวางขายถึง 9 วัน เพื่อให้เกมเมอร์มีเวลาเตรียมตัวกันเนิ่นๆ ไม่ต้องไปรอแย่งโหลดไฟล์กันวันจริง โซนี่ยืนยันว่า GTA 6 เป็นเกมที่มีคนพรีออเดอร์สูงที่สุดเป็นประวัติการณ์ของ PlayStation Store แต่ไม่ได้เปิดเผยตัวเลข Rockstar ยืนยันว่าจำกัดเฟรมเรตไว้ที่ 30 FPS บนคอนโซลทั้งสองค่ายคือ PS5 และ Xbox ใครที่เคยฝันว่าอาจได้ 60 FPS สรุปคือไม่เป็นจริงตามนั้น ฝั่งค่าย PS5 ได้ฟีเจอร์เอ็กซ์คลูซีฟของแพลตฟอร์ม เช่น รองรับ PlayStation Spectral Super Resolution (PSSR) บน PS5 Pro, รองรับ adaptive trigger ของจอย Dual Sense, รองรับระบบเสียง spatial audio ของ Tempest 3D Audio ฝั่งค่าย Xbox ได้ดีลการเล่น GTA 6 ผ่าน Xbox Cloud Gaming แต่ยังจำกัดการเล่นเฉพาะบนเครื่องคอนโซล Xbox Series X|S และ Xbox One เท่านั้น (เท่ากับว่า Xbox One ได้เล่น G",
+    "title": "Claude เพิ่มฟีเจอร์แสดงผลข้อมูลแบบใหม่ Whiteboards, Sheets, Data",
+    "url": "https://www.blognone.com/node/152151",
+    "summary": "Claude เพิ่มฟีเจอร์แสดงผลข้อมูลแบบใหม่ Whiteboards, Sheets, Data Body Claude มีฟีเจอร์ชื่อ Artifacts เป็นการเปิดหน้าต่างด้านข้างของแชทเพื่อแสดงผลลัพธ์ประเภทอื่น เช่น โค้ด หรือ กราฟ มาตั้งแต่ปี 2024 ล่าสุด Claude ประกาศเพิ่ม Artifacts ใหม่อีก 3 ชนิด ได้แก่ Whiteboards เป็นการแสดง infographic ที่ Claude ใช้อธิบายหัวข้อยากๆ ให้เข้าใจง่ายขึ้น แสดง timeline ของงาน ผู้รับผิดชอบได้ ลากวัตถุในไวท์บอร์ดได้ แปลงไปเป็นไฟล์ของบริการไวท์บอร์ด เช่น Lucid, Miro ต่อได้ Sheets ตารางสเปรดชีท แบบที่คลิกและแก้ไขเซลล์ได้ด้วย มีฟังก์ชันคำนวณพื้นฐาน สามารถแปลงไฟล์เป็น .xlsx หรือ .csv เพื่อนำไปใช้ต่อใน Excel ได้ แปลงไฟล์ไปใช้กับ Airtable, Asana, Smartsheet ได้ Data ก่อนหน้านี้ใช้ชื่อว่า Dashboards เป็นการสร้างแดชบอร์ดหรือ visualization แสดงผลข้อมูล ที่มา - Claude mk Wed, 11/11/2026 - 22:05",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 11 Nov 2026 04:09:54 +0000",
+    "published": "Wed, 11 Nov 2026 15:05:05 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-11T09:29:16.207224+00:00"
+    "researched_at": "2026-11-12T09:52:36.572723+00:00"
+  },
+  {
+    "title": "Apple อัปเดต iOS 27.2.1 แก้ไขช่องโหว่ที่ผู้โจมตีอาจเข้าถึงไฟล์สำคัญได้ แนะนำอัปเดตทันที - เวอร์ชันเก่าก็ได้อัปเดต",
+    "url": "https://www.blognone.com/node/152150",
+    "summary": "Apple อัปเดต iOS 27.2.1 แก้ไขช่องโหว่ที่ผู้โจมตีอาจเข้าถึงไฟล์สำคัญได้ แนะนำอัปเดตทันที - เวอร์ชันเก่าก็ได้อัปเดต Body แอปเปิลออกอัปเดตย่อยระบบปฏิบัติการ iOS 27.2.1 และ iPadOS 27.2.1 สองสัปดาห์หลังจาก เวอร์ชัน 27.2 ออกมา โดยแอปเปิลบอกว่ามีการแก้ไขบั๊กและช่องโหว่ความปลอดภัยหลายรายการ ส่วนอุปกรณ์อื่นแอปเปิลก็ออกอัปเดตมาด้วยเช่นกันได้แก่ macOS Golden Gate 27.2.1 สำหรับ Mac, watchOS 27.2.1 สำหรับ Apple Watch และ visionOS 27.2.1 สำหรับ Vision Pro ช่องโหว่ความปลอดภัยที่ได้รับการแก้ไขมีหลายส่วนทั้ง AirPlay, Bluetooth, CoreUtils, rapport และรายการสำคัญหมายเลข CVE-2026-113963 ที่ผู้โจมตีอาจเข้าถึงข้อมูลสำคัญของผู้ใช้งานได้ ซึ่ง Binance ก็ ออกมาเตือน ว่าช่องโหว่นี้คือ worse_query ที่ทำให้เข้าถึงไฟล์โลคอลอย่าง seed phrase, private key หรือ login credential ได้ โดยเป็นช่องโหว่ที่ระดับ iOS ไม่ใช่ตัวแอป Binance จึงแนะนำให้ผู้ใช้งานอัปเดตทันทีทั้ง iOS และแอปอื่นที่เกี่ยวข้อง แอปเปิลยังออกอัปเดตแก้ไขช่องโหว่ให้ระบบปฏิบัติการเวอร์ชันเก่าได้แก่ iOS 26.7.3, iPadOS 26.7.3, iOS 18.7.12, iPadOS 18.7.12, mac",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 11 Nov 2026 10:23:36 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-12T09:52:36.572812+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -445,6 +440,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-11T09:29:16.206596+00:00"
+    "researched_at": "2026-11-12T09:52:36.571765+00:00"
   }
 ]
