@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>An agent that pays its own way: x402 × Swap.io</title>
+<style>
+body{max-width:720px;margin:40px auto;padding:0 20px;font:17px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#222}
+h1{font-size:1.9em;line-height:1.25}h2{margin-top:1.6em;font-size:1.3em}
+.sub{color:#666;font-style:italic}a{color:#1a8917}
+video{width:100%;border-radius:10px;margin:1em 0;background:#000}
+code{background:#f4f4f4;padding:.12em .35em;border-radius:4px;font-size:.92em}
+.tx{word-break:break-all}
+</style></head><body>
+<h1>An agent that pays its own way: x402 × Swap.io</h1>
+<p class="sub">Submitted to the Superteam × Swap.io bounty — “Make a video about our x402 Feature”.</p>
+
+<h2>The idea</h2>
+<p>Most AI agents pay for APIs the human way: an API key, a subscription, or prepaid credits. All three need a signup, a secret to guard, and a bill that runs whether or not the agent does anything useful.</p>
+<p><strong>x402 removes all of that.</strong> The agent sends a normal HTTP request. The server answers <strong>402 Payment Required</strong>, with an exact price. The agent pays in USDC. The server returns the answer. No key. No signup. Pay only for the calls you make.</p>
+
+<h2>One concrete scenario: the rebalancing agent</h2>
+<p>A rebalancing agent watches a Solana portfolio and only acts when the allocation drifts. Before every trade it asks the <strong>Swap.io Agent API</strong> for a fresh quote — and it pays a fraction of a cent for that quote over x402. It pays when it trades, not for a month of idle subscription.</p>
+<p>The Swap.io Agent API returns ranked quotes from several Solana routers (Jupiter, DFlow, OKX DEX and others), builds unsigned transactions, and can broadcast them. Every paid call costs about <strong>$0.003–0.005</strong>, and each paid 200 carries an on-chain settlement receipt in the <code>X-PAYMENT-RESPONSE</code> header.</p>
+
+<h2>The x402 flow</h2>
+<ol>
+<li>The agent sends the request.</li>
+<li>The server replies <strong>HTTP 402</strong>, listing the exact price and the <code>payTo</code> address.</li>
+<li>The agent pays in USDC (EIP-3009 authorization — the payer needs no gas; the facilitator submits the transfer and covers the network fee).</li>
+<li>The server returns the answer, with the settlement receipt attached.</li>
+</ol>
+
+<h2>Proof — it ran for real</h2>
+<p>This is not a mockup. An autonomous agent (AF) made a real paid call to <code>hermes.swap.io/v1/swap/quote</code> and settled it on <strong>Base</strong>:</p>
+<ul>
+<li>Paid: <strong>0.003007 USDC</strong></li>
+<li>Transaction: <span class="tx"><code>0x801db2c04066c4247068eda76c9de19ca124dc2f3873e746a5bef9bfc720ff74</code></span></li>
+<li>Block 55507548 · status <strong>SUCCESS</strong> · gasless for the payer</li>
+<li><a href="https://basescan.org/tx/0x801db2c04066c4247068eda76c9de19ca124dc2f3873e746a5bef9bfc720ff74">Basescan</a></li>
+</ul>
+
+<h2>Why x402 beats keys and subscriptions</h2>
+<ul>
+<li><strong>No secret to leak.</strong> There is no API key to rotate, scope, or accidentally commit.</li>
+<li><strong>Pay per call, not per month.</strong> Idle time is free; usage is metered to the call.</li>
+<li><strong>Machine-native.</strong> A 402 is plain HTTP — every agent already speaks it.</li>
+</ul>
+
+<h2>Watch</h2>
+<video controls playsinline poster="https://farmmer938-lgtm.github.io/autonomous-zero-baht/x402/af-x402-swapio.mp4">
+<source src="https://farmmer938-lgtm.github.io/autonomous-zero-baht/x402/af-x402-swapio.mp4" type="video/mp4">
+</video>
+<p>105-second video: <a href="https://farmmer938-lgtm.github.io/autonomous-zero-baht/x402/">farmmer938-lgtm.github.io/autonomous-zero-baht/x402/</a></p>
+<p>Protocol: <a href="https://x402.org">x402.org</a> · API: <a href="https://hermes.swap.io">hermes.swap.io</a> · Swap: <a href="https://swap.io">swap.io</a></p>
+</body></html>
