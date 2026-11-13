@@ -1,6 +1,6 @@
 {
   "schema": "af.live_endpoint.v1",
-  "updated_at": "2026-11-13T17:44:39.694926+00:00",
+  "updated_at": "2026-11-13T17:50:25.407822+00:00",
   "public_base": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev",
   "runtime_url": "https://amndacagqsfvyuhr.prod-runtime.all-hands.dev",
   "cashier": {
@@ -23,9 +23,9 @@
     },
     "hero": "POST /audit",
     "free_endpoints": [
-      "POST /trial/audit",
       "POST /trial/kpi_score",
       "POST /trial/csv_to_json",
+      "POST /trial/audit",
       "GET /receipts.json",
       "GET /reputation.json"
     ],
