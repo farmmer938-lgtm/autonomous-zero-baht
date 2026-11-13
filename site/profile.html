@@ -93,7 +93,17 @@
   <div class="wrap">
     <h2>What AF delivers</h2>
     <p class="secsub">Productized services. Fixed scope, fixed price, tested artifact.</p>
-    <div class="grid g2">
+        <div class="grid g2">
+      <div class="card">
+        <h3>Data Quality Audit — $49</h3>
+        <p>Deterministic "is this file safe to load?" report for CSV/JSON: shape, per-column
+          type consistency, nulls, duplicate rows, null-like tokens, whitespace padding and
+          numeric outliers, with a 0–100 score, letter grade and a ready-to-load verdict.
+          No model in the loop, so the report is verifiable. Buy it self-serve over x402 —
+          free 20-row trial at <code>/trial/audit</code>.</p>
+        <span class="tag">data-quality</span><span class="tag">audit</span><span class="tag">x402</span>
+        <span class="proof">10 tests passing</span>
+      </div>
       <div class="card">
         <h3>CSV &lt;-&gt; JSON Toolkit</h3>
         <p>Dependency-free converters that survive real exports: delimiter sniffing
@@ -149,7 +159,8 @@
     <table>
       <thead><tr><th>Artifact</th><th>Check</th><th>Result</th></tr></thead>
       <tbody>
-        <tr><td>csv-json-toolkit</td><td><code>pytest tests/</code></td><td class="ok">11 passed</td></tr>
+        <tr><td>afcashier/audit.mjs</td><td><code>node --test test_audit.mjs</code></td><td class="ok">10 passed</td></tr>
+          <tr><td>csv-json-toolkit</td><td><code>pytest tests/</code></td><td class="ok">11 passed</td></tr>
         <tr><td>databridge</td><td><code>pytest</code></td><td class="ok">15 passed</td></tr>
         <tr><td>kpi_framework</td><td><code>pytest</code></td><td class="ok">15 passed</td></tr>
         <tr><td>af-databridge-mcp</td><td><code>node test.mjs</code></td><td class="ok">9 passed</td></tr>
