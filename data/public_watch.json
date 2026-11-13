@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-13T07:15:30.367536+00:00",
+ "checked_at": "2026-11-13T15:29:51.646713+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -27,10 +27,10 @@
   },
   "cashier": {
    "url": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev/openapi.json",
-   "http": 404,
-   "ok": false,
+   "http": 200,
+   "ok": true,
    "tier": "info",
-   "consecutive_down": 3
+   "consecutive_down": 0
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -477,5 +477,5 @@
   }
  ],
  "new_items": [],
- "changed": false
+ "changed": true
 }
