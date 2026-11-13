@@ -1,6 +1,6 @@
 {
   "schema": "af.live_endpoint.v1",
-  "updated_at": "2026-11-13T17:42:17.766773+00:00",
+  "updated_at": "2026-11-13T17:44:39.694926+00:00",
   "public_base": "https://work-1-amndacagqsfvyuhr.prod-runtime.all-hands.dev",
   "runtime_url": "https://amndacagqsfvyuhr.prod-runtime.all-hands.dev",
   "cashier": {
@@ -9,15 +9,23 @@
     "paid_endpoints": [
       "POST /csv_to_json",
       "POST /kpi_score",
-      "POST /csv_to_sql"
+      "POST /csv_to_sql",
+      "POST /x402_check",
+      "POST /audit"
     ],
-    "price_usd": "0.05",
+    "price_usd": "49",
     "price_usd_by_tool": {
       "POST /csv_to_json": "0.05",
       "POST /kpi_score": "0.05",
-      "POST /csv_to_sql": "0.08"
+      "POST /csv_to_sql": "0.08",
+      "POST /x402_check": "0.08",
+      "POST /audit": "49"
     },
+    "hero": "POST /audit",
     "free_endpoints": [
+      "POST /trial/audit",
+      "POST /trial/kpi_score",
+      "POST /trial/csv_to_json",
       "GET /receipts.json",
       "GET /reputation.json"
     ],
