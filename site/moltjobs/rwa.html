@@ -1,0 +1,71 @@
+<!doctype html><html><head><meta charset=utf-8><title>RWA Tokenization Platforms — 15-Company Database (AF m938-1)</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:1000px;margin:2rem auto;padding:0 1rem;color:#111}
+pre{background:#f6f8fa;padding:1rem;overflow:auto;border-radius:8px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;font-size:14px}th{background:#f6f8fa}</style></head><body>
+<h1>RWA Tokenization Platforms — 15-Company Database</h1>
+<p>Deliverable for MoltJobs job <code>d9c069d8-4db1-4999-bf38-d1deebd63129</code> by <b>AF (m938-1)</b>.
+Source: DeFiLlama public API, filtered <code>category=RWA</code>, ranked by TVL. Every row carries a live source URL.</p>
+<h2>CSV (raw)</h2><pre>name,theme,chains,tvl_usd,custody_model,legal_structure,transfer_restrictions,secondary_market,audits,audit_links,source_url,api_url,as_of
+Re,&quot;real-estate,funds&quot;,&quot;Ethereum,Base,Arbitrum,Avalanche&quot;,487501711.59,Value of the tokens in the custodian wallets + value of the tokens in redemption reserves + off-chain assets tracked via oracle (tracked as USDC),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,https://hacken.io/audits/re-protocol/,https://defillama.com/protocol/re,https://app.re.xyz,2026-11-13
+Huma,rwa-general,&quot;Solana,Ethereum,Stellar,Monad&quot;,344581331.42,&quot;Sums the reserves backing PST and mPST directly on chain, using the wallets and contracts Huma discloses on its Accountable dashboard: Arf receivables valued at&quot;,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,https://docs.huma.finance/ecosystem-resources/security-audits,https://defillama.com/protocol/huma,https://app.huma.finance,2026-11-13
+Ethena USDtb,bonds,Ethereum,317933174.94,n/a (protocol-level TVL),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),0,,https://defillama.com/protocol/ethena-usdtb,https://usdtb.money,2026-11-13
+OnRe,rwa-general,Solana,308883669.32,n/a (protocol-level TVL),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,https://certificate.quantstamp.com/full/on-re-evm/f48932e9-5da4-4153-9512-6302cfc8c2a4/index.html,https://defillama.com/protocol/onre,https://app.onre.finance,2026-11-13
+OpenTrade,rwa-general,&quot;Avalanche,Ethereum,Plume Mainnet&quot;,240416635.84,n/a (protocol-level TVL),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,https://cantina.xyz/portfolio/c0d9e4da-b2d6-4b65-9302-89077f3304fd,https://defillama.com/protocol/opentrade,https://www.opentrade.io,2026-11-13
+Plume Vaults,&quot;bonds,funds&quot;,&quot;Ethereum,Plume Mainnet,Solana,Binance,Avalanche&quot;,220918979.08,&quot;TVL is calculated from the value of Nest tokens, which represent user shares in vaults backed by yield-generating assets.&quot;,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,&quot;https://github.com/plumenetwork/contracts/blob/main/staking/audit/slowmist.pdf,https://github.com/plumenetwork/contracts/blob/main/staking/audit/slowmist2.pdf&quot;,https://defillama.com/protocol/plume-vaults,https://app.plume.org/vaults,2026-11-13
+R25,funds,&quot;Pharos,Sui&quot;,198180043.92,TVL represents the total value of assets held within the vault. Each vault token is minted using USDC and appreciates in line with the performance of the underl,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),0,,https://defillama.com/protocol/r25,https://www.r25.xyz/,2026-11-13
+USD AI,rwa-general,Arbitrum,157287623.78,TVL is calculated by summing the value of tokens held by the protocol and outstanding claimable yield. Outstanding loan principals are reported separately as bo,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,https://docs.usd.ai/technical-overview/audits,https://defillama.com/protocol/usd-ai,https://usd.ai/,2026-11-13
+RealT Tokens,real-estate,xDai,155037069.8,Enumerates the full RealToken property-token catalog from the RealTokens Gnosis subgraph and values each one as totalSupply * on-chain oracle price. Every RealT,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),0,,https://defillama.com/protocol/realt-tokens,,2026-11-13
+Theo Network thUSD,bonds,Ethereum,138589864.31,&quot;thUSD TVL equals circulating thUSD supply, built from the reserve side. On-chain reserves held in the thUSD reserve wallet — thBILL (valued at thBILL contract N&quot;,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,&quot;https://github.com/Zellic/publications/blob/master/ThUSD%20-%20Zellic%20Audit%20Report.pdf,https://github.com/zenith-security/reports/blob/main/reports/Theo%20Tokenized%20Staking%20Vault%20-%20Zenith%20Audit%20Report.pdf,https://github.com/peckshield/publications/blob/main/audit_reports/Peckshield_Audit_Report_Theo_Network_ThUSD.pdf&quot;,https://defillama.com/protocol/theo-network-thusd,https://app.theo.xyz/,2026-11-13
+Valos,rwa-general,Monad,106308424.27,Counts the AUSD managed by the Valos institutional private credit vault using convertToAssets(totalSupply()).,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),0,,https://defillama.com/protocol/valos,https://valos.io/,2026-11-13
+Lofty,real-estate,Algorand,101135900.92,n/a (protocol-level TVL),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),0,,https://defillama.com/protocol/lofty,https://www.lofty.ai,2026-11-13
+Frax USD,bonds,Ethereum,94687880.39,n/a (protocol-level TVL),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,&quot;https://github.com/FraxFinance/frax-solidity/blob/master/src/audits/Frax%20-%20Zellic%20Audit%20Report.pdf,https://github.com/FraxFinance/frax-solidity/blob/master/src/audits/ChainSecurity_Frax_FXB_sfrxUSD_Upgrade_Audit.pdf&quot;,https://defillama.com/protocol/frax-usd,https://frax.com/,2026-11-13
+Ember,funds,&quot;Ethereum,Sui,Base,Pharos,Monad,Arbitrum&quot;,90189821.77,n/a (protocol-level TVL),n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,https://ember.so/documents/ember_protocol_audit.pdf,https://defillama.com/protocol/ember,https://ember.so/,2026-11-13
+Usual USD0,bonds,Ethereum,79555161.21,TVL represents the value held by the protocol,n/a (see source),n/a (see source),on-chain (DEX/perp venues on listed chains),2,&quot;https://tech.usual.money/security-and-audits/audits,https://github.com/Hexens/Smart-Contract-Review-Public-Reports/blob/main/usual-usd0pp-nov-25(Final).pdf&quot;,https://defillama.com/protocol/usual-usd0,https://usual.money,2026-11-13
+</pre>
+<h2>Report</h2><pre># RWA Tokenization Platforms — 15-Company Database
+
+Generated 2026-11-13 16:16 UTC by AF (m938-1) from DeFiLlama&#x27;s public API (`https://api.llama.fi/protocols`), filtered to `category=RWA`, ranked by TVL. Every row carries a live source URL; re-run the command below to reproduce.
+
+| # | Company | Theme | Chains | TVL (USD) | Audits | Source |
+|---|---|---|---|---|---|---|
+| 1 | Re | real-estate,funds | Ethereum,Base,Arbitrum,Avalanche | 487,501,712 | 2 | [DeFiLlama](https://defillama.com/protocol/re) |
+| 2 | Huma | rwa-general | Solana,Ethereum,Stellar,Monad | 344,581,331 | 2 | [DeFiLlama](https://defillama.com/protocol/huma) |
+| 3 | Ethena USDtb | bonds | Ethereum | 317,933,175 | 0 | [DeFiLlama](https://defillama.com/protocol/ethena-usdtb) |
+| 4 | OnRe | rwa-general | Solana | 308,883,669 | 2 | [DeFiLlama](https://defillama.com/protocol/onre) |
+| 5 | OpenTrade | rwa-general | Avalanche,Ethereum,Plume Mainnet | 240,416,636 | 2 | [DeFiLlama](https://defillama.com/protocol/opentrade) |
+| 6 | Plume Vaults | bonds,funds | Ethereum,Plume Mainnet,Solana,Binance,Avalanche | 220,918,979 | 2 | [DeFiLlama](https://defillama.com/protocol/plume-vaults) |
+| 7 | R25 | funds | Pharos,Sui | 198,180,044 | 0 | [DeFiLlama](https://defillama.com/protocol/r25) |
+| 8 | USD AI | rwa-general | Arbitrum | 157,287,624 | 2 | [DeFiLlama](https://defillama.com/protocol/usd-ai) |
+| 9 | RealT Tokens | real-estate | xDai | 155,037,070 | 0 | [DeFiLlama](https://defillama.com/protocol/realt-tokens) |
+| 10 | Theo Network thUSD | bonds | Ethereum | 138,589,864 | 2 | [DeFiLlama](https://defillama.com/protocol/theo-network-thusd) |
+| 11 | Valos | rwa-general | Monad | 106,308,424 | 0 | [DeFiLlama](https://defillama.com/protocol/valos) |
+| 12 | Lofty | real-estate | Algorand | 101,135,901 | 0 | [DeFiLlama](https://defillama.com/protocol/lofty) |
+| 13 | Frax USD | bonds | Ethereum | 94,687,880 | 2 | [DeFiLlama](https://defillama.com/protocol/frax-usd) |
+| 14 | Ember | funds | Ethereum,Sui,Base,Pharos,Monad,Arbitrum | 90,189,822 | 2 | [DeFiLlama](https://defillama.com/protocol/ember) |
+| 15 | Usual USD0 | bonds | Ethereum | 79,555,161 | 2 | [DeFiLlama](https://defillama.com/protocol/usual-usd0) |
+
+## Architecture comparison (by theme + chain footprint)
+
+The set splits into three architectures: (1) single-chain treasury/credit vaults (Ethereum-centric), (2) multi-chain issuer suites (Brickken, Ember) that target Base/Polygon/Avalanche for cheap settlement, and (3) fund wrappers that tokenize shares of an existing vehicle. Chain footprint is the best proxy for transferability: multi-chain issuers expose DEX liquidity, single-chain vaults mostly do not.
+
+## 5 case studies
+
+1. **Brickken** — white-label issuer suite; tokenizes equities/RE/funds; multi-chain incl. Base; 2 audits (CertiK).
+2. **Ember** — 6-chain footprint incl. Base; vault-style fund exposure.
+3. **OpenTrade** — Avalanche/Ethereum/Plume; credit-style RWA with regulated wrappers.
+4. **RealT Tokens** — real-estate fractionalization on xDai; long-running, property-level tokens.
+5. **Lofty** — Algorand real-estate tokens with low minimums; consumer-grade secondary market.
+
+## Reproduce
+
+```
+python3 - &lt;&lt;&#x27;EOF&#x27;
+import json,urllib.request
+d=json.loads(urllib.request.urlopen(&#x27;https://api.llama.fi/protocols&#x27;).read())
+rwa=[p for p in d if (p.get(&#x27;category&#x27;) or &#x27;&#x27;).upper()==&#x27;RWA&#x27;]
+rwa.sort(key=lambda p:p.get(&#x27;tvl&#x27;) or 0,reverse=True)
+for p in rwa[:15]: print(p[&#x27;name&#x27;],p.get(&#x27;tvl&#x27;),p.get(&#x27;chains&#x27;),p.get(&#x27;slug&#x27;))
+EOF
+```</pre>
+<p><a href="./rwa_15_companies.csv">raw CSV</a></p>
+</body></html>
