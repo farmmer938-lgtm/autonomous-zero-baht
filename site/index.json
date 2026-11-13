@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-12T09:52:36.578837+00:00",
+  "generated_at": "2026-11-13T09:35:24.452136+00:00",
   "count": 5,
   "items": [
     {
-      "id": "ลือ-บอร์ด-nvidia-เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว",
-      "title": "[ลือ] บอร์ด NVIDIA เริ่มกระบวนการสรรหาซีอีโอคนใหม่แล้ว",
-      "source_url": "https://www.blognone.com/node/152156",
+      "id": "เปิดตัว-gemini-4-hydrogen-โมเดลรุ่นเล็ก-ตอบเร็ว-อัพเกรดแทน-3-8-flash",
+      "title": "เปิดตัว Gemini 4 Hydrogen โมเดลรุ่นเล็ก ตอบเร็ว อัพเกรดแทน 3.8 Flash",
+      "source_url": "https://www.blognone.com/node/152165",
       "score": 6
     },
     {
-      "id": "google-เปิดตัว-gemini-4-argon-ส่งออกข้อมูลได้-1-ล้านโทเคน-ล้ำหน้าที่สุ",
-      "title": "Google เปิดตัว Gemini 4 Argon ส่งออกข้อมูลได้ 1 ล้านโทเคน ล้ำหน้าที่สุดในอุตสาหกรรม",
-      "source_url": "https://www.blognone.com/node/152032",
+      "id": "ซัมซุงเปิดตัวแว่นตาติดกล้อง-intelligent-eyewear-ใช้-android-xr-เริ่ม-3",
+      "title": "ซัมซุงเปิดตัวแว่นตาติดกล้อง Intelligent Eyewear ใช้ Android XR เริ่ม 395 ดอลลาร์",
+      "source_url": "https://www.blognone.com/node/152166",
       "score": 3
     },
     {
@@ -21,15 +21,15 @@
       "score": 3
     },
     {
-      "id": "กูเกิลเปิดตัว-gemini-decision-1-โมเดลตัดสินใจ-ตอบแม่นกว่า-jev",
-      "title": "กูเกิลเปิดตัว Gemini Decision 1 โมเดลตัดสินใจ ตอบแม่นกว่า Jev",
-      "source_url": "https://www.blognone.com/node/152155",
-      "score": 0
+      "id": "12-ชั่วโมงผ่านไป-microsoft-ระบุ-ถึงตอนนี้ยังไม่พบว่า-microsoft-365-ล่ม",
+      "title": "12 ชั่วโมงผ่านไป - Microsoft ระบุ ถึงตอนนี้ยังไม่พบว่า Microsoft 365 ล่ม เกิดจากการโจมตีที่เป็นอันตราย",
+      "source_url": "https://www.blognone.com/node/152171",
+      "score": 3
     },
     {
-      "id": "windows-11-ปรับแต่งเมนูคลิกขวา-context-menu-ได้ละเอียดแล้ว-ปิดเมนู-cop",
-      "title": "Windows 11 ปรับแต่งเมนูคลิกขวา (Context Menu) ได้ละเอียดแล้ว ปิดเมนู Copilot ได้",
-      "source_url": "https://www.blognone.com/node/152152",
+      "id": "สตูดิโอ-machinegames-เริ่มพัฒนาเกม-wolfenstein-3-แล้ว",
+      "title": "สตูดิโอ MachineGames เริ่มพัฒนาเกม Wolfenstein 3 แล้ว",
+      "source_url": "https://www.blognone.com/node/152170",
       "score": 0
     }
   ]
