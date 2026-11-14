@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-11-13T09:35:24.452136+00:00",
+  "generated_at": "2026-11-14T09:00:12.947738+00:00",
   "count": 5,
   "items": [
-    {
-      "id": "เปิดตัว-gemini-4-hydrogen-โมเดลรุ่นเล็ก-ตอบเร็ว-อัพเกรดแทน-3-8-flash",
-      "title": "เปิดตัว Gemini 4 Hydrogen โมเดลรุ่นเล็ก ตอบเร็ว อัพเกรดแทน 3.8 Flash",
-      "source_url": "https://www.blognone.com/node/152165",
-      "score": 6
-    },
-    {
-      "id": "ซัมซุงเปิดตัวแว่นตาติดกล้อง-intelligent-eyewear-ใช้-android-xr-เริ่ม-3",
-      "title": "ซัมซุงเปิดตัวแว่นตาติดกล้อง Intelligent Eyewear ใช้ Android XR เริ่ม 395 ดอลลาร์",
-      "source_url": "https://www.blognone.com/node/152166",
-      "score": 3
-    },
     {
       "id": "geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่",
       "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -30,6 +18,18 @@
       "id": "สตูดิโอ-machinegames-เริ่มพัฒนาเกม-wolfenstein-3-แล้ว",
       "title": "สตูดิโอ MachineGames เริ่มพัฒนาเกม Wolfenstein 3 แล้ว",
       "source_url": "https://www.blognone.com/node/152170",
+      "score": 0
+    },
+    {
+      "id": "ฉันจะเป็น-ig-ให้ได้-x-twitter-ขยายลิมิต-อัปรูปใน-1-โพสต์-สูงสุด-20-รูป",
+      "title": "ฉันจะเป็น IG ให้ได้! X/Twitter ขยายลิมิต อัปรูปใน 1 โพสต์ สูงสุด 20 รูป",
+      "source_url": "https://www.blognone.com/node/152168",
+      "score": 0
+    },
+    {
+      "id": "จากเขียนโค้ดด้วย-ai-สู่การสร้าง-agent-native-architecture-เจาะลึกเนื้อ",
+      "title": "จากเขียนโค้ดด้วย AI สู่การสร้าง Agent-Native Architecture เจาะลึกเนื้อหา Deep Tech จากงาน LINE THAILAND DEVELOPER CONFERENCE 2026",
+      "source_url": "https://www.blognone.com/node/152161",
       "score": 0
     }
   ]

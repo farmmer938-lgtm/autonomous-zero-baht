@@ -6,8 +6,8 @@
     "source": "https://feeds.feedburner.com/TechCrunch/",
     "published": "Sat, 10 Sep 2022 08:57:00 +0000",
     "matched_keywords": [
-      "review",
       "how to",
+      "review",
       "guide"
     ],
     "keyword_score": 4,
@@ -15,24 +15,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442804+00:00"
-  },
-  {
-    "title": "เปิดตัว Gemini 4 Hydrogen โมเดลรุ่นเล็ก ตอบเร็ว อัพเกรดแทน 3.8 Flash",
-    "url": "https://www.blognone.com/node/152165",
-    "summary": "เปิดตัว Gemini 4 Hydrogen โมเดลรุ่นเล็ก ตอบเร็ว อัพเกรดแทน 3.8 Flash Body กูเกิลออก Gemini 4 Hydrogen โมเดลรุ่นเล็กในซีรีส์ Gemini 4 ซึ่งวางตัวไว้ต่ำกว่า Carbon และ Argon โดยกูเกิลเปรียบเทียบ Hydrogen กับ Claude Sonnet 5.5 และ GPT-6.1 Terra กูเกิลอธิบายว่ากลุ่มเป้าหมายของ Gemini 4 Hydrogen คือเน้นตอบเร็ว รองรับงานหลากหลายในชีวิตประจำวันทั่วไป ที่ไม่ต้องการความซับซ้อนระดับ Carbon/Argon โดยเป้าหมายคือการอัพเกรดมาแทน Gemini 3.8 Flash ด้วยเหตุผลเรื่องการตอบเร็วกว่า 2.5 เท่า และประหยัดจำนวนโทเคนลง 12-23% หลังจากเปิดตัวโมเดลในซีรีส์ Gemini 4 มาครบ 3 ตัว กูเกิลยังออก Orchestrator ใน Antigravity สำหรับสลับโมเดลให้อัตโนมัติตามความเหมาะสมของงาน ซึ่งกูเกิลบอกว่าช่วยลดปริมาณโทเคนที่ใช้ลงได้ 24% และตอบเร็วขึ้น 19% ราคาของ Gemini 4 Hydrogen คือ 1.50 ดอลลาร์ต่อ 1 ล้านโทเคนอินพุต และ 7.50 ดอลลาร์ต่อ 1 ล้านโทเคนเอาต์พุต ตอนนี้เปิดใหใ้ช้งานแล้วผ่าน API, แอพ Gemini, Google Search และ Antigravity ที่มา - Google Gemini 4 Hydrogen is here, bringing cutting-edge intelligence to everyone for fast, everyday he",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 12 Nov 2026 23:51:26 +0000",
-    "matched_keywords": [
-      "เปรียบเทียบ",
-      "ราคา"
-    ],
-    "keyword_score": 2,
-    "intent_score": 4,
-    "opportunity_score": 6,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445788+00:00"
+    "researched_at": "2026-11-14T09:00:12.942797+00:00"
   },
   {
     "title": "7 Free Websites Every Content Creator Needs to Know",
@@ -48,23 +31,7 @@
     "opportunity_score": 4,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.444707+00:00"
-  },
-  {
-    "title": "ซัมซุงเปิดตัวแว่นตาติดกล้อง Intelligent Eyewear ใช้ Android XR เริ่ม 395 ดอลลาร์",
-    "url": "https://www.blognone.com/node/152166",
-    "summary": "ซัมซุงเปิดตัวแว่นตาติดกล้อง Intelligent Eyewear ใช้ Android XR เริ่ม 395 ดอลลาร์ Body ซัมซุงประกาศวางขายแว่นตา Android XR ที่ร่วมพัฒนากับกูเกิล และแบรนด์แว่นตา Gentle Monster และ Warby Parker ในวันที่ 10 ธันวาคม 2026 เริ่มจากสหรัฐอเมริกาและเกาหลีใต้ แว่นตาเซ็ตนี้มีชื่อเรียกว่า Intelligent Eyewear เป็นแว่นกระจกใส-แว่นกันแดดที่ไม่มีหน้าจอ ตัวแว่นมีกล้อง 12MP ลำโพง และไมโครโฟน ให้เราสั่งงานด้วยเสียงผ่าน Gemini, ใช้ชิป Snapdragon AR1 Gen 1, แว่นหนักประมาณ 41 กรัม, แบตเตอรี่ใช้งานได้สูงสุด 9 ชั่วโมง มีเคสสำหรับชาร์จแว่นมาให้ รวมกันได้ 72 ชั่วโมง ที่ต้องเรียกว่า \"เซ็ต\" เพราะแว่นไม่ได้มีรุ่นเดียว แต่มีทั้งหมด 9 รุ่นย่อย 9 ดีไซน์ แบ่งเป็น Gentle Monster จับตลาดบน ราคาเริ่มต้น 449 ดอลลาร์ และ Warby Parker ที่ราคาถูกลงมาเหลือ 395 ดอลลาร์ ความน่าสนใจอีกประการคือ แว่น Intelligent Eyewear สามารถใช้ร่วมกับ iPhone ได้ด้วย และหนึ่งในพันธมิตรแอพฟังเพลงที่รองรับแว่นตาเซ็ตนี้คือ Apple Music นอกเหนือไปจาก YouTube Music และ Spotify ก่อนหน้านี้ไม่นาน กูเกิลเพิ่งจับมือ XREAL ประกาศขายแว่นตา Aura แบบมีจอ ในรา",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 13 Nov 2026 02:26:29 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445672+00:00"
+    "researched_at": "2026-11-14T09:00:12.943704+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -80,7 +47,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442210+00:00"
+    "researched_at": "2026-11-14T09:00:12.942471+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -96,7 +63,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443433+00:00"
+    "researched_at": "2026-11-14T09:00:12.943108+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -112,7 +79,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442340+00:00"
+    "researched_at": "2026-11-14T09:00:12.942570+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -128,7 +95,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445112+00:00"
+    "researched_at": "2026-11-14T09:00:12.943889+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -144,7 +111,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443877+00:00"
+    "researched_at": "2026-11-14T09:00:12.943320+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -160,7 +127,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443576+00:00"
+    "researched_at": "2026-11-14T09:00:12.943162+00:00"
   },
   {
     "title": "12 ชั่วโมงผ่านไป - Microsoft ระบุ ถึงตอนนี้ยังไม่พบว่า Microsoft 365 ล่ม เกิดจากการโจมตีที่เป็นอันตราย",
@@ -176,7 +143,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445238+00:00"
+    "researched_at": "2026-11-14T09:00:12.944157+00:00"
   },
   {
     "title": "สตูดิโอ MachineGames เริ่มพัฒนาเกม Wolfenstein 3 แล้ว",
@@ -190,7 +157,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445350+00:00"
+    "researched_at": "2026-11-14T09:00:12.944215+00:00"
   },
   {
     "title": "ฉันจะเป็น IG ให้ได้! X/Twitter ขยายลิมิต อัปรูปใน 1 โพสต์ สูงสุด 20 รูป",
@@ -204,7 +171,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445457+00:00"
+    "researched_at": "2026-11-14T09:00:12.944279+00:00"
   },
   {
     "title": "จากเขียนโค้ดด้วย AI สู่การสร้าง Agent-Native Architecture เจาะลึกเนื้อหา Deep Tech จากงาน LINE THAILAND DEVELOPER CONFERENCE 2026",
@@ -218,21 +185,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.444836+00:00"
-  },
-  {
-    "title": "[ลือ] Jensen Huang มีสัมพันธ์กับผู้หญิงคนที่ 3 เป็นพนักงาน NVIDIA อีกคน",
-    "url": "https://www.blognone.com/node/152167",
-    "summary": "[ลือ] Jensen Huang มีสัมพันธ์กับผู้หญิงคนที่ 3 เป็นพนักงาน NVIDIA อีกคน Body สำนักข่าว Reuters อ้างแหล่งข่าวว่า Jensen Huang มีความสัมพันธ์กับผู้หญิง \"คนที่ 3\" ซึ่งเป็นพนักงานของ NVIDIA อีกคน ที่ไม่ใช่ Kimberly Powell รองประธานฝ่ายสุขภาพ ที่เคยเป็นข่าวก่อนหน้านี้ ตอนนี้ยังไม่มีข้อมูลอื่นใดของผู้หญิงคนนี้ ที่มา - Reuters mk Fri, 13/11/2026 - 09:43",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 13 Nov 2026 02:43:58 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445556+00:00"
+    "researched_at": "2026-11-14T09:00:12.943767+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -246,7 +199,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443192+00:00"
+    "researched_at": "2026-11-14T09:00:12.942991+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -260,7 +213,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.444023+00:00"
+    "researched_at": "2026-11-14T09:00:12.943389+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -274,7 +227,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443734+00:00"
+    "researched_at": "2026-11-14T09:00:12.943251+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -288,7 +241,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442488+00:00"
+    "researched_at": "2026-11-14T09:00:12.942654+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -302,7 +255,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442658+00:00"
+    "researched_at": "2026-11-14T09:00:12.942726+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -316,7 +269,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442941+00:00"
+    "researched_at": "2026-11-14T09:00:12.942864+00:00"
+  },
+  {
+    "title": "Samsung Gallery รองรับการซิงก์รูปภาพขึ้น Google Account แล้ว",
+    "url": "https://www.blognone.com/node/152175",
+    "summary": "Samsung Gallery รองรับการซิงก์รูปภาพขึ้น Google Account แล้ว Body ซัมซุงประกาศข่าวว่าแอพ Samsung Gallery บนอุปกรณ์ตระกูล Galaxy รองรับการซิงก์ไฟล์ไปเก็บบน Google Account แล้ว ฟังดูอาจไม่น่าเชื่อ เพราะซัมซุงเป็นพันธมิตรกับกูเกิลบน Android มายาวนาน แต่จริงๆ แล้วเกิดจากนโยบายของซัมซุงเอง ที่เปลี่ยนระบบซิงก์คลาวด์มาแล้ว 3 รอบ ได้แก่ เลิกใช้ Samsung Cloud ไปใช้ OneDrive ในปี 2020 และ เลิกใช้ OneDrive เมื่อ 30 กันยายน 2026 ที่ผ่านมา ระบบแบ็คอัพที่สามจึงกลายมาเป็น Google นั่นเอง ฟีเจอร์ซิงก์รูปภาพใช้พื้นที่สตอเรจเดียวกับ Google Account ของเราเอง (ให้ฟรี 15GB) และมีฟีเจอร์ Free up space ช่วยลบภาพในเครื่องที่แบ็คอัพขึ้นคลาวด์ไปแล้วได้ด้วย ที่มา - Samsung mk Fri, 13/11/2026 - 19:35",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 13 Nov 2026 12:35:42 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-14T09:00:12.944049+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -330,21 +297,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443310+00:00"
-  },
-  {
-    "title": "Outlook, Teams, Copilot ล่ม ตั้งแต่ตีหนึ่ง กระทบทั่วโลก",
-    "url": "https://www.blognone.com/node/152164",
-    "summary": "Outlook, Teams, Copilot ล่ม ตั้งแต่ตีหนึ่ง กระทบทั่วโลก Body ไมโครซอฟท์ยืนยันปัญหาบริการ Microsoft 365 หลายตัวไม่สามารถใช้งานได้ซึ่งรวมทั้ง Outlook, Teams และ Copilot กระทบกับผู้ใช้งานทั่วโลก โดยระบุว่าผู้ใช้งานไม่สามารถเชื่อมต่อได้ ข้อมูลจาก Downdetector พบว่าปัญหาเริ่มกระทบผู้ใช้งานในวงกว้างตั้งแต่ 1:00น. ตามเวลาในไทย สถานการณ์ตอนนี้เริ่มกลับมาใช้งานได้บางส่วน ไมโครซอฟท์ อัปเดต สถานะล่าสุด พบว่าเซิร์ฟเวอร์ในบางโซนมีโหลดที่มากกว่าปกติจนไม่สามารถใช้งานได้ ตอนนี้คาดสาเหตุมาจากระบบตรวจสอบสถานะทำงานผิดพลาด และกำลังแก้ไขปัญหาอยู่ ที่มา: Bleeping Computer arjin Fri, 13/11/2026 - 04:41",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Thu, 12 Nov 2026 21:41:35 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.445876+00:00"
+    "researched_at": "2026-11-14T09:00:12.943050+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -358,7 +311,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.444294+00:00"
+    "researched_at": "2026-11-14T09:00:12.943520+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -372,7 +325,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.443057+00:00"
+    "researched_at": "2026-11-14T09:00:12.942923+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -386,7 +339,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.444586+00:00"
+    "researched_at": "2026-11-14T09:00:12.943646+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -400,7 +353,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-13T09:35:24.444974+00:00"
+    "researched_at": "2026-11-14T09:00:12.943827+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -414,7 +367,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.442042+00:00"
+    "researched_at": "2026-11-14T09:00:12.942347+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -428,7 +381,49 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.444148+00:00"
+    "researched_at": "2026-11-14T09:00:12.943452+00:00"
+  },
+  {
+    "title": "Facebook จะปิดการทำงานระบบ Profile แยก ในล็อกอินเดียวกัน มีผล 14 ธันวาคมนี้",
+    "url": "https://www.blognone.com/node/152176",
+    "summary": "Facebook จะปิดการทำงานระบบ Profile แยก ในล็อกอินเดียวกัน มีผล 14 ธันวาคมนี้ Body Meta ประกาศว่าฟีเจอร์สร้างโปรไฟล์แยกใน Facebook ที่ทำให้ผู้ใช้งานสามารถสลับโปรไฟล์ไปมาได้โดยไม่ต้องแยกล็อกอินกัน จะปิดการทำงานมีผลตั้งแต่วันที่ 14 ธันวาคม 2026 เป็นต้นไป โดยโปรไฟล์ที่สร้างแยกขึ้นมาของบัญชีจะถูกลบออกอย่างถาวร เหลือเฉพาะโปรไฟล์หลัก และเพจที่ผูกกับบัญชีเท่านั้น ทั้งนี้ Facebook ได้ส่งอีเมลแจ้งการเปลี่ยนแปลงนี้สำหรับผู้ใช้งานที่จะได้รับผลกระทบแล้ว Facebook มี ฟีเจอร์สร้างโปรไฟล์แยกตั้งแต่ปี 2023 โดยตอนนั้นให้เหตุผลว่าเพื่อให้ผู้ใช้งานสะดวกในการสร้างโปรไฟล์สำหรับแต่ละสถานการณ์ เช่น บางคนอาจแยกบัญชีสำหรับรับเพื่อนที่ทำงานกับเรื่องส่วน หรือเพื่อใช้ในความสนใจเฉพาะ เป็นต้น ทั้งนี้ Facebook ไม่ได้บอกเหตุผลที่ยกเลิกระบบโปรไฟล์แยกนี้แต่อย่างใด ที่มา: Facebook arjin Fri, 13/11/2026 - 19:45",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 13 Nov 2026 12:45:04 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-14T09:00:12.943999+00:00"
+  },
+  {
+    "title": "FAA สั่งเที่ยวบินสหรัฐหยุดบินทั่วประเทศ ไม่ใช่ก่อการร้าย แต่ซอฟต์แวร์ขัดข้อง",
+    "url": "https://www.blognone.com/node/152177",
+    "summary": "FAA สั่งเที่ยวบินสหรัฐหยุดบินทั่วประเทศ ไม่ใช่ก่อการร้าย แต่ซอฟต์แวร์ขัดข้อง Body Federal Aviation Administration (FAA) หน่วยงานควบคุมการบินของรัฐบาลสหรัฐอเมริกา สั่งให้เที่ยวบินทั่วประเทศจอดรอที่สนามบิน ไม่ให้บินขึ้น ด้วยเหตุผลเรื่องซอฟต์แวร์การสื่อสารระหว่างศูนย์ควบคุมการบิน (Air Route Traffic Control Centers) ขัดข้อง FAA ยืนยันว่านี่ไม่เกี่ยวข้องกับเหตุการณ์ก่อการร้ายใดๆ แต่ตอนนี้ยังไม่มีรายละเอียดว่าซอฟต์แวร์ขัดข้องอย่างไร ในประกาศของ FAA ใช้คำว่า temporary telecommunications outage เว็บไซต์ Ars Technica ให้ข้อมูลว่า FAA เพิ่งเปิดระบบ AI ช่วยจัดการเส้นทางบินตัวใหม่ชื่อ SMART ไปเมื่อวันที่ 10 พฤศจิกายน ซึ่งอาจเป็นเหตุผลของซอฟต์แวร์ขัดข้องครั้งนี้ ที่มา - Ars Technica , TechCrunch ภาพแผนที่เครื่องบินจาก FlightRadar24 เป็นสนามบินย่าน San Francisco Bay Area สามแห่ง เวลาไทยประมาณ 6:40 น. ของวันที่ 14 พย. There has been a temporary telecommunications outage - out of an abundance of caution all flights have been halted. Every flight has been accounted for and international flights will be",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 13 Nov 2026 23:44:03 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-14T09:00:12.943950+00:00"
+  },
+  {
+    "title": "Adobe Creative Cloud รองรับ MCP Server สั่งงานได้จาก Agent ภายนอก",
+    "url": "https://www.blognone.com/node/152174",
+    "summary": "Adobe Creative Cloud รองรับ MCP Server สั่งงานได้จาก Agent ภายนอก Body Adobe ประกาศข่าวว่าแอพในชุด Creative Cloud จะมี local MCP server ในตัว เพื่อให้ใช้ AI agent ภายนอกสั่งทำงานใน Photoshop, Illustrator, Premiere, After Effects ได้เลย ตัวอย่างที่ Adobe นำมาโชว์คือการใช้ ChatGPT และ Claude พิมพ์สั่งทำสิ่งต่างๆ กับ Photo แอพในกลุ่ม Creative Cloud มีฟีเจอร์ AI Assistants ที่เป็น AI agent ฝังมาในตัวแอพเลย ส่วนความสามารถดูได้จากวิดีโอด้านล่าง ที่มา - Adobe mk Fri, 13/11/2026 - 19:19",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Fri, 13 Nov 2026 12:19:26 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-14T09:00:12.944096+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -442,6 +437,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-13T09:35:24.444445+00:00"
+    "researched_at": "2026-11-14T09:00:12.943589+00:00"
   }
 ]

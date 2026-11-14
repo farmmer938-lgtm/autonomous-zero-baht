@@ -1,15 +1,5 @@
 [
   {
-    "path": "data/content/drafts/เปิดตัว-gemini-4-hydrogen-โมเดลรุ่นเล็ก-ตอบเร็ว-อัพเกรดแทน-3-8-flash.json",
-    "passed": true,
-    "errors": []
-  },
-  {
-    "path": "data/content/drafts/ซัมซุงเปิดตัวแว่นตาติดกล้อง-intelligent-eyewear-ใช้-android-xr-เริ่ม-395-ดอลลาร์.json",
-    "passed": true,
-    "errors": []
-  },
-  {
     "path": "data/content/drafts/geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่นเกม-pc-ระ.json",
     "passed": true,
     "errors": []
@@ -21,6 +11,16 @@
   },
   {
     "path": "data/content/drafts/สตูดิโอ-machinegames-เริ่มพัฒนาเกม-wolfenstein-3-แล้ว.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/ฉันจะเป็น-ig-ให้ได้-x-twitter-ขยายลิมิต-อัปรูปใน-1-โพสต์-สูงสุด-20-รูป.json",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "path": "data/content/drafts/จากเขียนโค้ดด้วย-ai-สู่การสร้าง-agent-native-architecture-เจาะลึกเนื้อหา-deep-te.json",
     "passed": true,
     "errors": []
   }
