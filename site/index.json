@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-14T09:00:12.947738+00:00",
+  "generated_at": "2026-11-15T09:30:10.048291+00:00",
   "count": 5,
   "items": [
+    {
+      "id": "rea-the-open-source-ai-tool-that-can-reverse-engineer-almost-anything-",
+      "title": "REA: The Open-Source AI Tool That Can Reverse Engineer Almost Anything (2026 Guide)",
+      "source_url": "https://techncruncher.blogspot.com/2026/11/rea-open-source-ai-tool-that-can.html",
+      "score": 10
+    },
     {
       "id": "geforce-now-powered-by-bro-game-บริการ-cloud-gaming-เซิร์ฟเวอร์ไทย-เล่",
       "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -9,27 +15,21 @@
       "score": 3
     },
     {
-      "id": "12-ชั่วโมงผ่านไป-microsoft-ระบุ-ถึงตอนนี้ยังไม่พบว่า-microsoft-365-ล่ม",
-      "title": "12 ชั่วโมงผ่านไป - Microsoft ระบุ ถึงตอนนี้ยังไม่พบว่า Microsoft 365 ล่ม เกิดจากการโจมตีที่เป็นอันตราย",
-      "source_url": "https://www.blognone.com/node/152171",
-      "score": 3
-    },
-    {
-      "id": "สตูดิโอ-machinegames-เริ่มพัฒนาเกม-wolfenstein-3-แล้ว",
-      "title": "สตูดิโอ MachineGames เริ่มพัฒนาเกม Wolfenstein 3 แล้ว",
-      "source_url": "https://www.blognone.com/node/152170",
+      "id": "เผย-jensen-huang-โกหกหัวหน้าฝ่ายกฎหมาย-nvidia-ว่าไม่มีความสัมพันธ์กับ-",
+      "title": "เผย Jensen Huang โกหกหัวหน้าฝ่ายกฎหมาย NVIDIA ว่าไม่มีความสัมพันธ์กับ Alice Huang",
+      "source_url": "https://www.blognone.com/node/152182",
       "score": 0
     },
     {
-      "id": "ฉันจะเป็น-ig-ให้ได้-x-twitter-ขยายลิมิต-อัปรูปใน-1-โพสต์-สูงสุด-20-รูป",
-      "title": "ฉันจะเป็น IG ให้ได้! X/Twitter ขยายลิมิต อัปรูปใน 1 โพสต์ สูงสุด 20 รูป",
-      "source_url": "https://www.blognone.com/node/152168",
+      "id": "เบื้องหลังระบบสื่อสารการบิน-faa-ล่ม-เกิดจากอัพเดตเราเตอร์เก่าผิดพลาด",
+      "title": "เบื้องหลังระบบสื่อสารการบิน FAA ล่ม เกิดจากอัพเดตเราเตอร์เก่าผิดพลาด",
+      "source_url": "https://www.blognone.com/node/152179",
       "score": 0
     },
     {
-      "id": "จากเขียนโค้ดด้วย-ai-สู่การสร้าง-agent-native-architecture-เจาะลึกเนื้อ",
-      "title": "จากเขียนโค้ดด้วย AI สู่การสร้าง Agent-Native Architecture เจาะลึกเนื้อหา Deep Tech จากงาน LINE THAILAND DEVELOPER CONFERENCE 2026",
-      "source_url": "https://www.blognone.com/node/152161",
+      "id": "วันหยุดจบแล้ว-ไมโครซอฟท์กู้ระบบทั้งหมดเสร็จสิ้น-ยืนยันไม่ใช่การโจมตีไซ",
+      "title": "วันหยุดจบแล้ว ไมโครซอฟท์กู้ระบบทั้งหมดเสร็จสิ้น ยืนยันไม่ใช่การโจมตีไซเบอร์",
+      "source_url": "https://www.blognone.com/node/152180",
       "score": 0
     }
   ]
