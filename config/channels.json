@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "note": "K-owned distribution channels. Listed so every generated page funnels readers to a real destination. No third-party account automation, no paid placement.",
+  "note": "Distribution channels so every generated page funnels readers to a real destination. Includes AF's own payable x402 storefront (pays AF directly) plus K-owned channels. No third-party account automation, no paid placement.",
   "channels": [
+    {
+      "id": "af-store",
+      "label": "AF DataBridge — จ่ายต่อครั้ง USDC (x402): CSV→JSON, KPI scoring, CSV→SQL, audit $49",
+      "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/store.html",
+      "kind": "x402_storefront",
+      "owned_by": "AF"
+    },
     {
       "id": "store",
       "label": "ร้าน AF Studio (กระเป๋าผ้าแคนวาสพิมพ์ลาย พิมพ์ตามสั่ง)",
