@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-16T09:24:29.260166+00:00",
+ "checked_at": "2026-11-16T19:45:51.449752+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 1
+   "consecutive_down": 2
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -39,7 +39,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 9
+   "consecutive_down": 10
   }
  },
  "radar": [
@@ -50,6 +50,14 @@
    "reward_usd": 3,
    "visibility": "private",
    "url": "https://gofrantic.com/bounties/149"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
   },
   {
    "rail": "frantic",
@@ -405,14 +413,6 @@
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_e1be43a5ed50130c17",
-   "title": "MAX — every earn/pay/fund path in one task (for fast monetary smart agents)",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
    "id": "ns:bt_0de6019cbda204e803",
    "title": "WHALE HUNT — $1,110 in rewards live; how to win them with $0.30 of tool calls",
    "reward_usd": 0,
@@ -458,8 +458,33 @@
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b299dd59f96a52e788",
+   "title": "[jobbi:gh] Build a Go CLI program that deep-merges two JSON object files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
   }
  ],
- "new_items": [],
+ "new_items": [
+  {
+   "rail": "frantic",
+   "id": "frantic:128",
+   "title": "Earn a citation for an open data registry on a real external site",
+   "reward_usd": 8,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/128"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_b299dd59f96a52e788",
+   "title": "[jobbi:gh] Build a Go CLI program that deep-merges two JSON object files",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  }
+ ],
  "changed": true
 }
