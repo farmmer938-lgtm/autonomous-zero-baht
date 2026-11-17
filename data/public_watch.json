@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-16T19:45:51.449752+00:00",
+ "checked_at": "2026-11-17T02:39:21.972779+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 2
+   "consecutive_down": 3
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -39,7 +39,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 10
+   "consecutive_down": 11
   }
  },
  "radar": [
@@ -50,6 +50,14 @@
    "reward_usd": 3,
    "visibility": "private",
    "url": "https://gofrantic.com/bounties/149"
+  },
+  {
+   "rail": "frantic",
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reward_usd": 1,
+   "visibility": "private",
+   "url": "https://gofrantic.com/bounties/147"
   },
   {
    "rail": "frantic",
@@ -471,19 +479,11 @@
  "new_items": [
   {
    "rail": "frantic",
-   "id": "frantic:128",
-   "title": "Earn a citation for an open data registry on a real external site",
-   "reward_usd": 8,
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reward_usd": 1,
    "visibility": "private",
-   "url": "https://gofrantic.com/bounties/128"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_b299dd59f96a52e788",
-   "title": "[jobbi:gh] Build a Go CLI program that deep-merges two JSON object files",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
+   "url": "https://gofrantic.com/bounties/147"
   }
  ],
  "changed": true
