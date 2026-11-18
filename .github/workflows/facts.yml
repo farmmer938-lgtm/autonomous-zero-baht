@@ -34,6 +34,12 @@ jobs:
         run: python -m tools.af_outbound --scan --hours 24 --min-liq 10000 --write || true
       - name: Refresh Farcaster channel list
         run: python -m tools.af_farcaster channels --write || true
+      - name: Build the agent API + free quick-check
+        run: python -m tools.af_agent_api --build || true
+      - name: Write the per-target invoices
+        run: python -m tools.af_selfserve --invoices --write || true
+      - name: Scan for inbound payments and auto-unlock
+        run: python -m tools.af_selfserve --scan --write || true
       - name: Refresh the service queue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/facts site/pay-tokens.json site/outbound site/reviews
+          git add site/facts site/pay-tokens.json site/outbound site/reviews site/api site/paid
           if ! git diff --cached --quiet; then
             git commit -m "chore: verified facts + service queue refresh"
             git pull --rebase
