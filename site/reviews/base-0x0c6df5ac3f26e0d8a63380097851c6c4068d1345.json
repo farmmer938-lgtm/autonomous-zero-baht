@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0c6df5ac3f26e0d8a63380097851c6c4068d1345",
+ "generatedAt": "2026-11-18T17:26:00.089709+00:00",
+ "reads": {
+  "name": "UDTF",
+  "symbol": "UDTF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0xe8e674c1ecc8cad5f3b9966a117dda9e5881856b",
+  "bytecodeScannedAddress": "0x0c6df5ac3f26e0d8a63380097851c6c4068d1345",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0x0c6df5ac\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59161923,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 101574.7477,
+ "poolCreatedAt": "2026-11-18T17:16:10Z",
+ "poolName": "UDTF / WETH",
+ "outreach": {
+  "symbol": "UDTF",
+  "name": "UDTF",
+  "priceUsd": "0.000001096",
+  "fdv": 109617,
+  "liquidityUsd": 102119.83,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x777798c80c8cf2dba1c2c6a69b4428cf5ffe7f38f2f4ea171592764256181f06",
+  "pairUrl": "https://dexscreener.com/base/0x777798c80c8cf2dba1c2c6a69b4428cf5ffe7f38f2f4ea171592764256181f06"
+ }
+}

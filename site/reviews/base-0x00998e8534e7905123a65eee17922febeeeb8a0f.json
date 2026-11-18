@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x00998e8534e7905123a65eee17922febeeeb8a0f",
+ "generatedAt": "2026-11-18T17:25:53.903595+00:00",
+ "reads": {
+  "name": "DacityCoin",
+  "symbol": "DCTY",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x00998e8534e7905123a65eee17922febeeeb8a0f",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x00998e85\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59161892,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 21047.1015,
+ "poolCreatedAt": "2026-11-18T17:18:02Z",
+ "poolName": "DCTY / WETH 0.01%",
+ "outreach": {
+  "symbol": "DCTY",
+  "name": "DacityCoin",
+  "priceUsd": "0.00003345",
+  "fdv": 33460,
+  "liquidityUsd": 24698.02,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xbb7942235120035d5e9e4ebeb6753609a36e7724c7421603db7de9d536d7ce9d",
+  "pairUrl": "https://dexscreener.com/base/0xbb7942235120035d5e9e4ebeb6753609a36e7724c7421603db7de9d536d7ce9d"
+ }
+}

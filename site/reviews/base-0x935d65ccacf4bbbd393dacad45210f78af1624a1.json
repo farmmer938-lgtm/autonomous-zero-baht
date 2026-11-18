@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x935d65ccacf4bbbd393dacad45210f78af1624a1",
+ "generatedAt": "2026-11-18T17:26:20.198090+00:00",
+ "reads": {
+  "name": "GTA 666",
+  "symbol": "GTA 666",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0x5b3f19f655dec219135bd6906d5fa480b918f44f",
+  "bytecodeScannedAddress": "0x935d65ccacf4bbbd393dacad45210f78af1624a1",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0x935d65cc\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59162023,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 101665.5339,
+ "poolCreatedAt": "2026-11-18T17:11:50Z",
+ "poolName": "GTA 666 / WETH",
+ "outreach": {
+  "symbol": "GTA 666",
+  "name": "GTA 666",
+  "priceUsd": "0.000001097",
+  "fdv": 109796,
+  "liquidityUsd": 102281.83,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xf010e3d0a96b3ff9cdd27196553acaefd410dd20f19e9cd1ead4325f3bd2715f",
+  "pairUrl": "https://dexscreener.com/base/0xf010e3d0a96b3ff9cdd27196553acaefd410dd20f19e9cd1ead4325f3bd2715f"
+ }
+}

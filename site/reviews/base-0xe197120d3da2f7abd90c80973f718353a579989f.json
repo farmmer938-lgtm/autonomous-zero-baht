@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xe197120d3da2f7abd90c80973f718353a579989f",
+ "generatedAt": "2026-11-18T17:26:10.500090+00:00",
+ "reads": {
+  "name": "United Dividend Trust Fund",
+  "symbol": "UDTF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0x0ee426be94e2e28bf69011dcaceaac921a80317a",
+  "bytecodeScannedAddress": "0xe197120d3da2f7abd90c80973f718353a579989f",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0xe197120d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59161975,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 74786.4555,
+ "poolCreatedAt": "2026-11-18T17:14:19Z",
+ "poolName": "UDTF / WETH",
+ "outreach": {
+  "symbol": "UDTF",
+  "name": "United Dividend Trust Fund",
+  "priceUsd": "0.0000001729",
+  "fdv": 17290,
+  "liquidityUsd": 17290.33,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x108fd8b97d131883cc27667c2ad256bd1798235313e95616868a9f0e8eb18784",
+  "pairUrl": "https://dexscreener.com/base/0x108fd8b97d131883cc27667c2ad256bd1798235313e95616868a9f0e8eb18784"
+ }
+}

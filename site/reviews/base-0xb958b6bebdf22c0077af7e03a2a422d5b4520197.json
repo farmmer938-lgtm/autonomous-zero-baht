@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xb958b6bebdf22c0077af7e03a2a422d5b4520197",
+ "generatedAt": "2026-11-18T17:26:27.333069+00:00",
+ "reads": {
+  "name": "Institutional Oil Fund",
+  "symbol": "IOF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0x624a1d278a2578efba7fb9a2b9fd9174c0a3ba2d",
+  "bytecodeScannedAddress": "0xb958b6bebdf22c0077af7e03a2a422d5b4520197",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0xb958b6be\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59162059,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 101615.9624,
+ "poolCreatedAt": "2026-11-18T17:10:12Z",
+ "poolName": "IOF / WETH",
+ "outreach": {
+  "symbol": "IOF",
+  "name": "Institutional Oil Fund",
+  "priceUsd": "0.000001096",
+  "fdv": 109679,
+  "liquidityUsd": 102172.82,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x8fb275919968a11c11aa9346c9df2e813d7a4dcd35b5e891aae39abf5e4073de",
+  "pairUrl": "https://dexscreener.com/base/0x8fb275919968a11c11aa9346c9df2e813d7a4dcd35b5e891aae39abf5e4073de"
+ }
+}
