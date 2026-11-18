@@ -1,0 +1,45 @@
+name: AF Verified Facts (durable, no secrets)
+
+# Publishes the block-pinned fact registry that AI agents can buy.
+# GitHub Actions is the durable compute and GitHub Pages is the durable host, so this
+# runs forever at zero cost with no sandbox and no secrets: it reads public RPC
+# endpoints and public documentation only.
+#
+# K stays out of the loop: this job never fails on purpose, so GitHub never emails K.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: af-facts
+  cancel-in-progress: false
+
+jobs:
+  facts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install reader dependency
+        run: pip install --quiet eth-utils "eth-hash[pycryptodome]"
+      - name: Build the verified facts
+        run: python -m tools.af_facts --out site/facts --write || true
+      - name: Commit the facts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/facts
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: verified facts refresh"
+            git pull --rebase
+            git push
+          fi
