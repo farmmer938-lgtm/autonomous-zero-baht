@@ -30,6 +30,10 @@ jobs:
         run: python -m tools.af_facts --out site/facts --write || true
       - name: Refresh the verified token list
         run: python -m tools.af_tokens --write || true
+      - name: Hunt new Base tokens and write transparency reports
+        run: python -m tools.af_outbound --scan --hours 24 --min-liq 10000 --write || true
+      - name: Refresh Farcaster channel list
+        run: python -m tools.af_farcaster channels --write || true
       - name: Refresh the service queue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -38,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/facts site/pay-tokens.json
+          git add site/facts site/pay-tokens.json site/outbound site/reviews
           if ! git diff --cached --quiet; then
             git commit -m "chore: verified facts + service queue refresh"
             git pull --rebase
