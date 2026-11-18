@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x7bb69b0596e5a4464102f05d5eee6f83e8df1915",
+ "generatedAt": "2026-11-18T17:40:44.417262+00:00",
+ "reads": {
+  "name": "United Statees Global Oil Supply",
+  "symbol": "USGOS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x7bb69b0596e5a4464102f05d5eee6f83e8df1915",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x7bb69b05\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59166344,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 78504.9119,
+ "poolCreatedAt": "2026-11-18T17:37:15Z",
+ "poolName": "USGOS / WETH",
+ "outreach": {
+  "symbol": "USGOS",
+  "name": "United Statees Global Oil Supply",
+  "priceUsd": "0.00007871",
+  "fdv": 78713,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x8078e7c38bc943de3a6d28ccaa794c4b688d035ef6347cffdde3fc9114c636b0",
+  "pairUrl": "https://dexscreener.com/base/0x8078e7c38bc943de3a6d28ccaa794c4b688d035ef6347cffdde3fc9114c636b0"
+ }
+}

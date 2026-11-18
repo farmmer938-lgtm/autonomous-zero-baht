@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x4f728b55bb3256cd87bbea57e023aa6c338e168b",
+ "generatedAt": "2026-11-18T17:40:50.258202+00:00",
+ "reads": {
+  "name": "USAPR\ud83d\udca5",
+  "symbol": "USAPR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x4f728b55bb3256cd87bbea57e023aa6c338e168b",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x4f728b55\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59166373,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 89600.6747,
+ "poolCreatedAt": "2026-11-18T17:36:21Z",
+ "poolName": "USAPR / ZORA",
+ "outreach": {
+  "symbol": "USAPR",
+  "name": "USAPR\ud83d\udca5",
+  "priceUsd": "0.00008959",
+  "fdv": 89598,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x8f2cead77c5d4f3ebfb266521151bea1d5b5d12e9cd2d1af94f21abf0d7f1e9d",
+  "pairUrl": "https://dexscreener.com/base/0x8f2cead77c5d4f3ebfb266521151bea1d5b5d12e9cd2d1af94f21abf0d7f1e9d"
+ }
+}

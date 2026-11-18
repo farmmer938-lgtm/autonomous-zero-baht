@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x6855a20dec3339672045a37765b6c49fb75b8aa5",
+ "generatedAt": "2026-11-18T17:40:56.143837+00:00",
+ "reads": {
+  "name": "LAPTOP",
+  "symbol": "LAPTOP",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x6855a20dec3339672045a37765b6c49fb75b8aa5",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x6855a20d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59166403,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 11393.1712,
+ "poolCreatedAt": "2026-11-18T17:35:31Z",
+ "poolName": "LAPTOP / WETH",
+ "outreach": {
+  "symbol": "LAPTOP",
+  "name": "LAPTOP",
+  "priceUsd": "0.000001136",
+  "fdv": 6363,
+  "liquidityUsd": 11478.35,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x616Cf6296512aD7a99e42159D09eC297F23572C8",
+  "pairUrl": "https://dexscreener.com/base/0x616cf6296512ad7a99e42159d09ec297f23572c8"
+ }
+}
