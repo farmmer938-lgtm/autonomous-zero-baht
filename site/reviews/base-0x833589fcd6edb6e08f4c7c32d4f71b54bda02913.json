@@ -1,0 +1,24 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+ "generatedAt": "2026-11-18T14:43:49.296523+00:00",
+ "reads": {
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "decimals": 6,
+  "totalSupply": 4286230701458233,
+  "totalSupplyTokens": 4286230701.458233,
+  "owner": "0x3abd6f64a422225e61e435bae41db12096106df7",
+  "proxyAdmin": "0x4fc7850364958d97b4d3f5a08f79db2493f8ca44",
+  "masterMinter": "0x2230393edad0299b7e7b59f20aa856cd1bed52e1"
+ },
+ "flags": [
+  "owner is a single EOA \u2014 one key controls this token",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "masterMinter() exists \u2014 a separate key can grant mint rights"
+ ],
+ "errors": [],
+ "blockNumber": 59113269,
+ "verdict": "single-key owner"
+}
