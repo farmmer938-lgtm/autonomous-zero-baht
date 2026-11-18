@@ -1,0 +1,25 @@
+{
+ "id": "aave-v3-pool-proxy-ethereum",
+ "subject": "Aave V3 Pool \u2014 upgradeable proxy (Ethereum)",
+ "claim": "The implementation behind the Aave V3 Pool proxy on Ethereum, read from the EIP-1967 slot.",
+ "chain": "ethereum",
+ "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+ "kind": "proxy_admin",
+ "value": {
+  "implementation": "0x4295fe69b3e978eb511e4558b4407ad871612fcb",
+  "admin": null
+ },
+ "blockNumber": 26442136,
+ "blockHash": "0xd5385087ebef5681ad0f53ad8516a83097a37c3da24d08174e736c0054e7cd85",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": "https://aave.com/docs",
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T13:06:58.114493+00:00",
+ "contentHash": "sha256:01eb5c886bf59445c358980a360f1d1bcac26f4856b56e99854701f4a0adf7a4"
+}
