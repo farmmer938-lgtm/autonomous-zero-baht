@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x553c84e634e3fc5c9a467677719726017a3af464",
+ "generatedAt": "2026-11-18T16:36:46.857286+00:00",
+ "reads": {
+  "name": "Momentum Network (MMT)",
+  "symbol": "MMT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59147156,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 110485.4059,
+ "poolCreatedAt": "2026-11-18T15:57:57Z",
+ "poolName": "MMT / WETH",
+ "outreach": {
+  "symbol": "MMT",
+  "name": "Momentum Network (MMT)",
+  "priceUsd": "0.0001119",
+  "fdv": 111906,
+  "liquidityUsd": 110786.48,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xfc80bb686798c51aa02e7d983f1466999d9139f1443607909a7218a661fb2024",
+  "pairUrl": "https://dexscreener.com/base/0xfc80bb686798c51aa02e7d983f1466999d9139f1443607909a7218a661fb2024"
+ }
+}
