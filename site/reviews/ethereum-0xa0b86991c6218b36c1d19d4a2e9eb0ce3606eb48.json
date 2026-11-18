@@ -1,0 +1,20 @@
+{
+ "chain": "ethereum",
+ "chainId": 1,
+ "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+ "generatedAt": "2026-11-18T14:43:50.576641+00:00",
+ "reads": {
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "decimals": 6,
+  "totalSupply": 44850898508073312,
+  "totalSupplyTokens": 44850898508.07331,
+  "owner": "0xfcb19e6a322b27c06842a71e8c725399f049ae3a"
+ },
+ "flags": [
+  "owner is a single EOA \u2014 one key controls this token"
+ ],
+ "errors": [],
+ "blockNumber": 26442621,
+ "verdict": "single-key owner"
+}
