@@ -30,7 +30,29 @@
    "date": "2026-11-18",
    "gas": 25592,
    "costWei": "256423599376"
+  },
+  {
+   "token": "0xf94d1179b07deffd38bc33afebc691256f7e0692",
+   "symbol": "USAR",
+   "deployer": "0xb743a42dca2af5bc6eb4dd27f31d3a8f5d6f6784",
+   "txHash": "0xe3543fa7a54b6d8b54eac9da41ff513a0f27d073c9a7cb50845955917cfc36a0",
+   "at": "2026-11-18T17:09:01.337767+00:00",
+   "date": "2026-11-18",
+   "gas": 29208,
+   "costWei": "20292756866192",
+   "tipWei": "20000000000000"
+  },
+  {
+   "token": "0xbb7ef2075672883be24717b064fc1f828819cccc",
+   "symbol": "DRSV",
+   "deployer": "0x912e27da631e3166689d13e4234fa7e2361c55d3",
+   "txHash": "0x27a886614e4f8347ca64326868138fd74efddd1d500617f8d4d3c45ec44ccb7c",
+   "at": "2026-11-18T17:09:01.783504+00:00",
+   "date": "2026-11-18",
+   "gas": 29208,
+   "costWei": "20292756866192",
+   "tipWei": "20000000000000"
   }
  ],
- "note": "On-chain memos AF sent to token deployers. Each is a 0-value Base tx whose input data is the note."
+ "note": "On-chain memos AF sent to token deployers. Each carries a small ETH value so the deployer's wallet raises an incoming-funds notification instead of filing the tx as dust."
 }
