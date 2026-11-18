@@ -1,0 +1,24 @@
+{
+ "id": "azuki-owner",
+ "subject": "Azuki \u2014 owner",
+ "claim": "The address that owns the Azuki contract.",
+ "chain": "ethereum",
+ "address": "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0x2ae6b0630ebb4d155c6e04fcb16840ffa77760aa"
+ },
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:07.844018+00:00",
+ "contentHash": "sha256:a1cf6e1107d57f58b2b0594145223bd86125b47de45b65d9b2bf1899a49eb085"
+}
