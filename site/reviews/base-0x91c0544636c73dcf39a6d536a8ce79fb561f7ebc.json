@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc",
+ "generatedAt": "2026-11-18T16:36:56.738065+00:00",
+ "reads": {
+  "name": "AudaCity",
+  "symbol": "DacityCoin",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA"
+ ],
+ "errors": [],
+ "blockNumber": 59147206,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 268901.5442,
+ "poolCreatedAt": "2026-11-18T15:56:09Z",
+ "poolName": "DacityCoin / WETH 0.3%",
+ "outreach": {
+  "symbol": "DacityCoin",
+  "name": "AudaCity",
+  "priceUsd": "0.5176",
+  "fdv": 4981022757,
+  "liquidityUsd": 268834.77,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x82e54ae22648cd77454269a5b6d158d85971dd7aa8c6a4ec6683ec9a65c39436",
+  "pairUrl": "https://dexscreener.com/base/0x82e54ae22648cd77454269a5b6d158d85971dd7aa8c6a4ec6683ec9a65c39436"
+ }
+}
