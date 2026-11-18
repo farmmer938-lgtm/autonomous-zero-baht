@@ -1,0 +1,24 @@
+{
+ "id": "doodles-owner",
+ "subject": "Doodles \u2014 owner",
+ "claim": "The address that owns the Doodles contract.",
+ "chain": "ethereum",
+ "address": "0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0x9d863ed039d61b9313fdc06a9e5ab4b6c2f63ba8"
+ },
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:09.439845+00:00",
+ "contentHash": "sha256:c58977e25722f711e44ccf0ca5f78e6ceec3551c1b2db4e6c3d991da4cc839ae"
+}
