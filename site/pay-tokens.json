@@ -1,0 +1,515 @@
+{
+ "schema": "af.pay.tokens.v1",
+ "generatedAt": "2026-11-18T14:18:56.578798+00:00",
+ "payout_address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+ "note": "Every token below was read from its contract on that chain (symbol/decimals). Anything that did not answer was dropped, not guessed.",
+ "chains": [
+  "arbitrum",
+  "avalanche",
+  "base",
+  "bsc",
+  "celo",
+  "ethereum",
+  "gnosis",
+  "linea",
+  "mantle",
+  "optimism",
+  "polygon",
+  "scroll",
+  "zksync"
+ ],
+ "native": [
+  {
+   "chain": "ethereum",
+   "chainId": 1,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.000484944698055091,
+   "ok": true
+  },
+  {
+   "chain": "arbitrum",
+   "chainId": 42161,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "optimism",
+   "chainId": 10,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "polygon",
+   "chainId": 137,
+   "token": "POL",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "bsc",
+   "chainId": 56,
+   "token": "BNB",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "gnosis",
+   "chainId": 100,
+   "token": "xDAI",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "avalanche",
+   "chainId": 43114,
+   "token": "AVAX",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "scroll",
+   "chainId": 534352,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "linea",
+   "chainId": 59144,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "zksync",
+   "chainId": 324,
+   "token": "ETH",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "celo",
+   "chainId": 42220,
+   "token": "CELO",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  },
+  {
+   "chain": "mantle",
+   "chainId": 5000,
+   "token": "MNT",
+   "native": true,
+   "afBalance": 0.0,
+   "ok": true
+  }
+ ],
+ "tokens": [
+  {
+   "chain": "ethereum",
+   "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+   "chainId": 1,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "ethereum",
+   "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+   "chainId": 1,
+   "symbol": "USDT",
+   "name": "Tether USD",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "ethereum",
+   "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+   "chainId": 1,
+   "symbol": "DAI",
+   "name": "Dai Stablecoin",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "DAI"
+  },
+  {
+   "chain": "ethereum",
+   "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+   "chainId": 1,
+   "symbol": "WETH",
+   "name": "Wrapped Ether",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "WETH"
+  },
+  {
+   "chain": "ethereum",
+   "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+   "chainId": 1,
+   "symbol": "WBTC",
+   "name": "Wrapped BTC",
+   "decimals": 8,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "WBTC"
+  },
+  {
+   "chain": "base",
+   "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "chainId": 8453,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 1.002685,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "base",
+   "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+   "chainId": 8453,
+   "symbol": "DAI",
+   "name": "Dai Stablecoin",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "DAI"
+  },
+  {
+   "chain": "base",
+   "address": "0x4200000000000000000000000000000000000006",
+   "chainId": 8453,
+   "symbol": "WETH",
+   "name": "Wrapped Ether",
+   "decimals": 18,
+   "afBalance": 1.0981325755608e-05,
+   "ok": true,
+   "label": "WETH"
+  },
+  {
+   "chain": "base",
+   "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "chainId": 8453,
+   "symbol": "cbBTC",
+   "name": "Coinbase Wrapped BTC",
+   "decimals": 8,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "cbBTC"
+  },
+  {
+   "chain": "arbitrum",
+   "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+   "chainId": 42161,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "arbitrum",
+   "address": "0xFd086bC7CD5C481DCC9C85ebE478A1c0b69FCbb9",
+   "chainId": 42161,
+   "symbol": "USD\u20ae0",
+   "name": "USD\u20ae0",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "arbitrum",
+   "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+   "chainId": 42161,
+   "symbol": "DAI",
+   "name": "Dai Stablecoin",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "DAI"
+  },
+  {
+   "chain": "arbitrum",
+   "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+   "chainId": 42161,
+   "symbol": "WETH",
+   "name": "Wrapped Ether",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "WETH"
+  },
+  {
+   "chain": "optimism",
+   "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+   "chainId": 10,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "optimism",
+   "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+   "chainId": 10,
+   "symbol": "USDT",
+   "name": "Tether USD",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "optimism",
+   "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+   "chainId": 10,
+   "symbol": "DAI",
+   "name": "Dai Stablecoin",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "DAI"
+  },
+  {
+   "chain": "polygon",
+   "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+   "chainId": 137,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "polygon",
+   "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+   "chainId": 137,
+   "symbol": "USDC",
+   "name": "USD Coin (PoS)",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC.e"
+  },
+  {
+   "chain": "polygon",
+   "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+   "chainId": 137,
+   "symbol": "USDT0",
+   "name": "USDT0",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "polygon",
+   "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+   "chainId": 137,
+   "symbol": "DAI",
+   "name": "(PoS) Dai Stablecoin",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "DAI"
+  },
+  {
+   "chain": "polygon",
+   "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+   "chainId": 137,
+   "symbol": "WETH",
+   "name": "Wrapped Ether",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "WETH"
+  },
+  {
+   "chain": "bsc",
+   "address": "0x55d398326f99059fF775485246999027B3197955",
+   "chainId": 56,
+   "symbol": "USDT",
+   "name": "Tether USD",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "bsc",
+   "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+   "chainId": 56,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "bsc",
+   "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+   "chainId": 56,
+   "symbol": "DAI",
+   "name": "Dai Token",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "DAI"
+  },
+  {
+   "chain": "gnosis",
+   "address": "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83",
+   "chainId": 100,
+   "symbol": "USDC",
+   "name": "USD//C on xDai",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "gnosis",
+   "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+   "chainId": 100,
+   "symbol": "USDT",
+   "name": "Tether USD on xDai",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "gnosis",
+   "address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d",
+   "chainId": 100,
+   "symbol": "WXDAI",
+   "name": "Wrapped XDAI",
+   "decimals": 18,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "WXDAI"
+  },
+  {
+   "chain": "avalanche",
+   "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+   "chainId": 43114,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "avalanche",
+   "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+   "chainId": 43114,
+   "symbol": "USDt",
+   "name": "TetherToken",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "scroll",
+   "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+   "chainId": 534352,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "linea",
+   "address": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+   "chainId": 59144,
+   "symbol": "USDC",
+   "name": "USDC",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "zksync",
+   "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+   "chainId": 324,
+   "symbol": "USDC",
+   "name": "USDC",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "celo",
+   "address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+   "chainId": 42220,
+   "symbol": "USDC",
+   "name": "USDC",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  },
+  {
+   "chain": "celo",
+   "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+   "chainId": 42220,
+   "symbol": "USD\u20ae",
+   "name": "Tether USD",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDT"
+  },
+  {
+   "chain": "mantle",
+   "address": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+   "chainId": 5000,
+   "symbol": "USDC",
+   "name": "USD Coin",
+   "decimals": 6,
+   "afBalance": 0.0,
+   "ok": true,
+   "label": "USDC"
+  }
+ ],
+ "dropped": []
+}
