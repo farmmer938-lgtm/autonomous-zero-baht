@@ -1,0 +1,20 @@
+{
+ "chain": "ethereum",
+ "chainId": 1,
+ "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+ "generatedAt": "2026-11-18T14:43:52.416921+00:00",
+ "reads": {
+  "name": "Dai Stablecoin",
+  "symbol": "DAI",
+  "decimals": 18,
+  "totalSupply": 4426477631927893071898687620,
+  "totalSupplyTokens": 4426477631.927893,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 26442621,
+ "verdict": "no owner() surface found"
+}
