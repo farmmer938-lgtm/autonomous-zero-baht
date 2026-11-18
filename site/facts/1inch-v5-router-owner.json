@@ -1,0 +1,24 @@
+{
+ "id": "1inch-v5-router-owner",
+ "subject": "1inch Aggregation Router V5 \u2014 owner",
+ "claim": "The address that owns the 1inch V5 router.",
+ "chain": "ethereum",
+ "address": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0x5e89f8d81c74e311458277ea1be3d3247c7cd7d1"
+ },
+ "blockNumber": 26442568,
+ "blockHash": "0x3db37fe3f1c186eabd2047438f4fa05747f0fae4ecfd5d7c7eb3488f2ce23f30",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:15.091266+00:00",
+ "contentHash": "sha256:dd0fc88dd5773ea8c07c4f090a07cc28706d9b07b459e9e47d40ddf4389244ec"
+}
