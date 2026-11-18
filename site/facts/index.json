@@ -1,6 +1,6 @@
 {
  "schema": "af.facts.index.v1",
- "generatedAt": "2026-11-18T13:46:00.486576+00:00",
+ "generatedAt": "2026-11-18T13:47:44.980689+00:00",
  "count": 9,
  "facts": [
   {
@@ -9,7 +9,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "mismatch",
-   "contentHash": "sha256:301294d8240e9adec87fa9efc3532699e5da98d974136c673e3d8e9a368c6efe",
+   "contentHash": "sha256:fff103ef08dc9215fbc4c2173323fd0800cec288bb9912c940d5c5e488c19bef",
    "path": "facts/exactly-protocol-owner-ethereum-quorum.json"
   },
   {
@@ -18,7 +18,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "consistent",
-   "contentHash": "sha256:7833f2181583ce8f8d211ba778e848391db8b318bc065740295a251af39c142b",
+   "contentHash": "sha256:dd47b291e9358e85fc8acf3d07860e626907d93160f69f014e75f5f828951ce0",
    "path": "facts/kpk-security-council-ethereum-quorum.json"
   },
   {
@@ -27,7 +27,7 @@
    "chain": "ethereum",
    "kind": "proxy_admin",
    "verdict": null,
-   "contentHash": "sha256:663c50c5779f5677f7bf1322971d7298f2317b1881f227cfeb4aa71c2e6ded23",
+   "contentHash": "sha256:6346158d22f3df62a435770fb876f412fc669ce6ea482f6f64ddb1642c959909",
    "path": "facts/aave-v3-pool-proxy-ethereum.json"
   },
   {
@@ -36,7 +36,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": null,
-   "contentHash": "sha256:fcec4065d67695c745371e38787eab53018b520727353c218e43058396e3766f",
+   "contentHash": "sha256:4ad9d8df5ab809ecfa62d8b6afcbdbeeb250fc4725766422b998267b1b978c12",
    "path": "facts/gnosisdao-treasury-safe-quorum.json"
   },
   {
@@ -45,7 +45,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:79ca8934ade60393e2a33202b37b7b9a3def049c52804d74bba52d710cef4ce1",
+   "contentHash": "sha256:28d77b519d493f45b83c1f26fed630e2780e1656d3faf1be03c2b629e9ae349e",
    "path": "facts/aave-addresses-provider-owner.json"
   },
   {
@@ -54,7 +54,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:8931836da2922c270c03f260a66f12823e960c90a26de70741eaf8f9fb6272b5",
+   "contentHash": "sha256:65dd38248a88fba78f9f4ab17dad077de07a3c2213461d62d3272db57c4c57af",
    "path": "facts/uniswap-v3-factory-owner.json"
   },
   {
@@ -63,7 +63,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:74843afd9b16cc99a20ebdfdd9d65507073e6b4ed05e7d28744f4705602318bf",
+   "contentHash": "sha256:9941460a6522fa413bd782cd8229fc680d42f0bf3fe7c953b52efd2c6a61f699",
    "path": "facts/maker-pause-proxy-owner.json"
   },
   {
@@ -72,7 +72,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:9e74256a97d3df4bb7d22499d6d8fcd2472ce34078ac34335be213a18cea0e6b",
+   "contentHash": "sha256:0e4cb8bae0b48745a36dee869e414fb987ece30ba92f0ff91ee0fa33c1858d16",
    "path": "facts/1inch-v6-router-owner.json"
   },
   {
@@ -81,7 +81,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:f9c9058faedb6961567446914994e970244dd26c191d80491e6eb2ac6233f256",
+   "contentHash": "sha256:d83997b6e9597fa2112120ea453c4df2a26ebffa23223b1ddd0f80c53c67f34d",
    "path": "facts/eigenlayer-strategy-manager-owner.json"
   }
  ],
