@@ -31,9 +31,25 @@ RPCS = {
 CHAIN_ID = {"ethereum": 1, "base": 8453, "arbitrum": 42161, "optimism": 10, "polygon": 137, "bsc": 56}
 ZERO = "0x" + "0" * 40
 SLOT_IMPL = "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc"
+# USDC on Base is a proxy too, but it uses the older ZeppelinOS slot, not EIP-1967. Reading only
+# the EIP-1967 slot returned zero and made the bytecode scan report "no mint" for USDC — a false
+# negative. Check both slots and the implementation() accessor.
+SLOT_IMPL_ZEPS = "0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3"
 SEL = {"name": "0x06fdde03", "symbol": "0x95d89b41", "decimals": "0x313ce567",
        "totalSupply": "0x18160ddd", "owner": "0x8da5cb5b", "threshold": "0xe75235b8",
-       "owners": "0xa0e67e2b", "getCode": None}
+       "owners": "0xa0e67e2b", "getCode": None,
+       # The three questions a deployer is most anxious about (Gemini advice 2026-11-18):
+       # can the supply still be inflated, is liquidity locked, is a transfer tax skimming buyers.
+       "mint": "0x40c10f19",          # mint(address,uint256) - present => supply can grow
+       "isMinter": "0xaa271e1a",      # isMinter(address)
+       "paused": "0x5c975abb",        # paused()
+       "getReserves": "0x0902f1ac",   # getReserves() on a Uniswap-V2 pair
+       "token0": "0x0dfe1681",
+       "token1": "0xd21220a7",
+       "totalSupplyPair": "0x18160ddd",
+       "balanceOf": "0x70a08231",
+       "dead": "0x000000000000000000000000000000000000dEaD",
+       "lockerHints": None}
 
 
 def _rpc(host, method, params):
@@ -117,11 +133,16 @@ def review(chain: str, address: str) -> dict:
                         pass
                 else:
                     out["flags"].append("owner is a single EOA — one key controls this token")
-            # upgradeable proxy?
+            # upgradeable proxy? EIP-1967 first, then the older ZeppelinOS slot USDC uses.
             try:
-                impl = _rpc(host, "eth_getStorageAt", [address, SLOT_IMPL, blk])
-                if impl and int(impl, 16) != 0:
-                    r["proxyImplementation"] = _addr(impl[2:])
+                impl = None
+                for slot in (SLOT_IMPL, SLOT_IMPL_ZEPS):
+                    v = _rpc(host, "eth_getStorageAt", [address, slot, blk])
+                    if v and int(v, 16) != 0:
+                        impl = _addr(v[2:])
+                        break
+                if impl:
+                    r["proxyImplementation"] = impl
                     out["flags"].append("UPGRADEABLE PROXY — the implementation can be replaced by whoever controls the admin")
             except Exception:
                 pass
@@ -137,6 +158,40 @@ def review(chain: str, address: str) -> dict:
                     out["flags"].append("masterMinter() exists — a separate key can grant mint rights")
             except Exception:
                 pass
+            # Can the supply still grow? Scan the deployed bytecode for the mint(address,uint256)
+            # selector. This is a static read, not a guess: if the selector is absent the function
+            # cannot be called. Presence means the function exists; whether a given caller is
+            # allowed is a separate, access-controlled question, and the flag says so.
+            #
+            # CRITICAL: a proxy delegates to an implementation. Scanning the proxy address finds
+            # nothing and would wrongly report "no mint" for a token like USDC whose implementation
+            # has mint AND burn. So scan the implementation when one is known.
+            try:
+                target = r.get("proxyImplementation") or address
+                code = _rpc(host, "eth_getCode", [target, blk]) or "0x"
+                body = code[2:].lower()
+                for name, sel in (("mint", SEL["mint"]), ("isMinter", SEL["isMinter"]),
+                                  ("paused", SEL["paused"])):
+                    if sel[2:] in body:
+                        r.setdefault("bytecodeSelectors", {})[name] = True
+                scanned = target
+                r["bytecodeScannedAddress"] = scanned
+                if r.get("bytecodeSelectors", {}).get("mint"):
+                    out["flags"].append("mint(address,uint256) IS present in the bytecode — supply can "
+                                        "still be increased by whoever holds mint rights (not necessarily "
+                                        "the owner; access control is a separate question)")
+                else:
+                    out["flags"].append(f"no mint(address,uint256) selector in the bytecode of "
+                                        f"{scanned[:10]}… — supply cannot be inflated through the standard "
+                                        f"mint entry point")
+                if r.get("bytecodeSelectors", {}).get("paused"):
+                    out["flags"].append("paused() is present — transfers can be frozen by whoever controls it")
+            except Exception as e:
+                out["errors"].append(f"bytecode scan: {str(e)[:80]}")
+            out["reads"]["notChecked"] = [
+                "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+                "liquidity lock: needs the LP token holder list, which this reader does not fetch",
+            ]
             return out
         except Exception as e:
             out["errors"].append(f"{host}: {str(e)[:80]}")
@@ -148,14 +203,20 @@ def verdict(rep: dict) -> str:
     """A short, defensible summary. Never a buy/sell recommendation."""
     f = rep.get("flags", [])
     if any("RENOUNCED" in x for x in f) and not any("UPGRADEABLE" in x for x in f):
-        return "ownership renounced, not upgradeable"
-    if any("UPGRADEABLE" in x for x in f) and any("single EOA" in x for x in f):
-        return "upgradeable AND controlled by one key — highest control risk"
-    if any("ownerSafe" in rep.get("reads", {}) for _ in [0]) or any("CONTRACT" in x for x in f):
-        return "owner is a contract (multisig/governance)"
-    if any("single EOA" in x for x in f):
-        return "single-key owner"
-    return "no owner() surface found"
+        base = "ownership renounced, not upgradeable"
+    elif any("UPGRADEABLE" in x for x in f) and any("single EOA" in x for x in f):
+        base = "upgradeable AND controlled by one key — highest control risk"
+    elif any("ownerSafe" in rep.get("reads", {}) for _ in [0]) or any("CONTRACT" in x for x in f):
+        base = "owner is a contract (multisig/governance)"
+    elif any("single EOA" in x for x in f):
+        base = "single-key owner"
+    else:
+        base = "no owner() surface found"
+    if any("mint(address,uint256) IS present" in x for x in f):
+        base += " · mint still present"
+    if any("paused() is present" in x for x in f):
+        base += " · can be paused"
+    return base
 
 
 def main() -> int:
