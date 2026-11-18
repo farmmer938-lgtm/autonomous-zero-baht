@@ -48,6 +48,11 @@ DAILY_CAP = int(os.environ.get("AF_OUTREACH_DAILY_CAP", "5"))
 # AF's whole wallet is ~0.000485 ETH. A memo costs ~2.6e-7 ETH, so the cap is about discipline,
 # not cost. The reserve keeps a real buffer for the trading book (~1000 memos of headroom).
 GAS_RESERVE_WEI = int(os.environ.get("AF_OUTREACH_GAS_RESERVE_WEI", str(2 * 10 ** 14)))  # keep 0.0002 ETH back
+# Gemini advice 2026-11-18 (stuck consult): a 0-value tx reads as dust/spam and gets ignored; a
+# transfer carrying real value makes the deployer's wallet raise an incoming-funds notification,
+# which is what gets the note read. AF follows this, but sizes the amount to its actual capital:
+# 0.5 USDC per deployer would drain AF in two sends, so the tip is a small ETH value by default.
+TIP_WEI = int(os.environ.get("AF_OUTREACH_TIP_WEI", str(2 * 10 ** 13)))  # 0.00002 ETH ~ $0.06
 
 
 def rpc(method, params):
@@ -196,11 +201,13 @@ def main() -> int:
         data = encode_data(memo_for(sym, t.get("reportUrl", SITE), token,
                                     flags=t.get("flags"), eip681=eip681))
         gas = gas_for(data)
-        cost = gas * base_fee * 2
+        # value carried with the note, so the deployer's wallet raises an incoming-funds
+        # notification instead of filing the tx as dust (Gemini advice 2026-11-18)
+        cost = gas * base_fee * 2 + TIP_WEI
         plan.append({"token": token, "symbol": sym, "deployer": d["deployer"], "block": d["block"],
-                     "data": data, "gas": gas, "costWei": cost, "reportUrl": t.get("reportUrl"),
-                     "invoiceUsdc": amt})
-        print(f"  {sym:12s} deployer {d['deployer']} gas={gas} cost={cost/1e18:.8f} ETH")
+                     "data": data, "gas": gas, "costWei": cost, "tipWei": TIP_WEI,
+                     "reportUrl": t.get("reportUrl"), "invoiceUsdc": amt})
+        print(f"  {sym:12s} deployer {d['deployer']} gas={gas} cost={cost/1e18:.8f} ETH (tip {TIP_WEI/1e18:.6f})")
 
     if not plan:
         print("nothing to send")
@@ -225,11 +232,11 @@ def main() -> int:
         to = to_checksum_address(p["deployer"])
         # ask the node for the real intrinsic gas; my own estimate was rejected once as too low
         try:
-            est = int(rpc("eth_estimateGas", [{"from": addr, "to": to, "value": "0x0", "data": p["data"]}]), 16)
+            est = int(rpc("eth_estimateGas", [{"from": addr, "to": to, "value": hex(TIP_WEI), "data": p["data"]}]), 16)
         except Exception:
             est = p["gas"]
         gas = max(int(est * 1.25), p["gas"] + 5000)
-        tx = {"to": to, "value": 0, "data": p["data"], "gas": gas,
+        tx = {"to": to, "value": TIP_WEI, "data": p["data"], "gas": gas,
               "maxFeePerGas": base_fee * 2 + max_priority, "maxPriorityFeePerGas": max_priority,
               "nonce": nonce, "chainId": CHAIN_ID, "type": 2}
         signed = Account.sign_transaction(tx, key)
@@ -240,7 +247,7 @@ def main() -> int:
         print(f"  sent {p['symbol']:12s} -> {p['deployer']} tx {h}")
         ledger["sent"].append({"token": p["token"], "symbol": p["symbol"], "deployer": p["deployer"],
                                "txHash": h, "at": datetime.now(timezone.utc).isoformat(), "date": today,
-                               "gas": p["gas"], "costWei": str(p["costWei"])})
+                               "gas": p["gas"], "costWei": str(p["costWei"]), "tipWei": str(p["tipWei"])})
         nonce += 1
     os.makedirs(os.path.dirname(LEDGER), exist_ok=True)
     with open(LEDGER, "w") as fh:
