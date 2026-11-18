@@ -1,0 +1,37 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x427e892e70feecdbedc13b0c01561c502de5932a",
+ "generatedAt": "2026-11-18T16:36:25.557694+00:00",
+ "reads": {
+  "name": "GODF",
+  "symbol": "GODF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0xac3c6fb47dd06aeab4bbddfc8a726e458fb982c8"
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades"
+ ],
+ "errors": [],
+ "blockNumber": 59147050,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 204598.735,
+ "poolCreatedAt": "2026-11-18T16:27:12Z",
+ "poolName": "GODF / WETH",
+ "outreach": {
+  "symbol": "GODF",
+  "name": "GODF",
+  "priceUsd": "0.000001101",
+  "fdv": 110104,
+  "liquidityUsd": 102451.14,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xc33e18376beb3087b133545fae3968eb41c818c348809ad5ccdf351e42cd08ab",
+  "pairUrl": "https://dexscreener.com/base/0xc33e18376beb3087b133545fae3968eb41c818c348809ad5ccdf351e42cd08ab"
+ }
+}
