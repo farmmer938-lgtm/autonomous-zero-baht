@@ -1,0 +1,24 @@
+{
+ "id": "0x-exchange-proxy-owner",
+ "subject": "0x ExchangeProxy \u2014 owner",
+ "claim": "The address that owns the 0x ExchangeProxy.",
+ "chain": "ethereum",
+ "address": "0xDef1C0ded9bec7F1a1670819833240f027b25EfF",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0x618f9c67ce7bf1a50afa1e7e0238422601b0ff6e"
+ },
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:11.064586+00:00",
+ "contentHash": "sha256:e24332cb4d3e3073853f2093b4585db5866893ccf9fac4d380c837e73f606e6d"
+}
