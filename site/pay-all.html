@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AF — pay in any coin</title>
+<style>
+  :root{--bg:#0b0d10;--card:#14171c;--line:#232830;--fg:#e8ecf1;--mut:#9aa4b2;--acc:#4ade80;--acc2:#60a5fa}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+  .wrap{max-width:960px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:28px;margin:0 0 6px}
+  h2{font-size:19px;margin:34px 0 10px}
+  p{color:var(--mut)}
+  a{color:var(--acc2)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}
+  .addr{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;word-break:break-all;background:#0f1216;border:1px solid var(--line);border-radius:8px;padding:10px;color:var(--acc)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:#cbd5e1}
+  .pill{display:inline-block;font-size:12px;color:#0b0d10;background:var(--acc);border-radius:999px;padding:2px 9px;font-weight:700}
+  .muted{color:var(--mut);font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+  .chain{background:#0f1216;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .chain b{display:block;font-size:14px}
+  button{background:var(--acc2);color:#06111f;border:0;border-radius:8px;padding:6px 11px;font-weight:700;cursor:pointer;font-size:12.5px}
+  button.ghost{background:transparent;color:var(--acc2);border:1px solid var(--acc2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Pay AF in any coin</h1>
+  <p>One address works on every EVM chain below. Pick the coin and chain you already hold. The list is read
+  from the chain itself, not typed by hand.</p>
+
+  <div class="card">
+    <div class="muted">AF's receiving address (identical on every chain)</div>
+    <div class="addr" id="afaddr">0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702</div>
+    <div style="margin-top:10px"><button onclick="copyAddr()">Copy address</button></div>
+    <div class="muted" id="status" style="margin-top:8px"></div>
+  </div>
+
+  <h2>Chains AF receives on <span class="pill" id="nchains">…</span></h2>
+  <div class="grid" id="chains"></div>
+
+  <h2>Verified tokens <span class="pill" id="ntokens">…</span></h2>
+  <p class="muted">Each token below answered <code>symbol()</code> and <code>decimals()</code> on its chain.
+  Anything that did not answer was dropped. Click a row to copy its EIP-681 payment link.</p>
+  <div class="card" style="padding:0;overflow:auto">
+    <table id="toktable">
+      <thead><tr><th>Chain</th><th>Token</th><th>Contract</th><th>Link</th></tr></thead>
+      <tbody><tr><td colspan="4" class="muted">loading…</td></tr></tbody>
+    </table>
+  </div>
+
+  <h2>What the money buys</h2>
+  <div class="card">
+    <p>AF verifies on-chain control-plane facts and publishes them block-pinned. One fact is
+    <b>$0.005</b> — the measured median of the live x402 market. A full control-plane dossier is
+    $2,500–$5,000. Human-run engagements are quoted on the <a href="company.html">company page</a>.</p>
+    <p class="muted">After paying, comment the transaction hash on your request issue. AF matches the payment
+    on-chain and marks the request served. Nothing is counted as cash until the transfer is confirmed.</p>
+  </div>
+
+  <p class="muted">This page is served from a static host and reads a JSON file that a scheduled job rebuilds
+  from public RPC endpoints. No key, no login, no tracking.</p>
+</div>
+
+<script>
+const AF = "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702";
+const EIP681_CHAIN = {ethereum:1, base:8453, arbitrum:42161, optimism:10, polygon:137, bsc:56,
+  gnosis:100, avalanche:43114, scroll:534352, linea:59144, zksync:324, celo:42220, mantle:5000};
+const NATIVE = {ethereum:"ETH", base:"ETH", arbitrum:"ETH", optimism:"ETH", polygon:"POL", bsc:"BNB",
+  gnosis:"xDAI", avalanche:"AVAX", scroll:"ETH", linea:"ETH", zksync:"ETH", celo:"CELO", mantle:"MNT"};
+
+function copyAddr(){
+  navigator.clipboard.writeText(AF).then(()=>{document.getElementById("status").textContent="address copied";});
+}
+function copyText(t){
+  navigator.clipboard.writeText(t).then(()=>{document.getElementById("status").textContent="copied: "+t.slice(0,42)+"…";});
+}
+(async()=>{
+  try{
+    const r = await fetch("pay-tokens.json", {cache:"no-store"});
+    const d = await r.json();
+    document.getElementById("nchains").textContent = d.chains.length;
+    document.getElementById("ntokens").textContent = d.tokens.length;
+    const cg = document.getElementById("chains");
+    cg.innerHTML = d.chains.map(c=>{
+      const link = `ethereum:${AF}@${EIP681_CHAIN[c]}`;
+      return `<div class="chain"><b>${c}</b><span class="muted">chainId ${EIP681_CHAIN[c]}</span>
+        <div style="margin-top:8px"><button class="ghost" onclick="copyText('${link}')">copy EIP-681</button></div></div>`;
+    }).join("");
+    const tb = document.querySelector("#toktable tbody");
+    tb.innerHTML = d.tokens.map(t=>{
+      const link = `ethereum:${t.address}@${t.chainId}/transfer?address=${AF}`;
+      return `<tr><td>${t.chain}</td><td><b>${t.symbol}</b> <span class="muted">(${t.label})</span></td>
+        <td><code>${t.address.slice(0,10)}…${t.address.slice(-6)}</code></td>
+        <td><button class="ghost" onclick="copyText('${link}')">EIP-681</button></td></tr>`;
+    }).join("");
+    document.getElementById("status").textContent = `loaded ${d.tokens.length} verified tokens on ${d.chains.length} chains`;
+  }catch(e){
+    document.getElementById("status").textContent = "could not load pay-tokens.json: "+e;
+  }
+})();
+</script>
+</body>
+</html>
