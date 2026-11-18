@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AF — instant control-plane fix report</title>
+<style>
+  :root{--bg:#0b0d10;--card:#14171c;--line:#232830;--fg:#e8ecf1;--mut:#9aa4b2;--acc:#4ade80;--acc2:#60a5fa;--warn:#fbbf24}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.65 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+  .wrap{max-width:880px;margin:0 auto;padding:38px 20px 80px}
+  h1{font-size:27px;margin:0 0 6px}
+  h2{font-size:19px;margin:30px 0 10px}
+  p{color:var(--mut)} a{color:var(--acc2)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:#cbd5e1;word-break:break-all}
+  .pill{display:inline-block;font-size:12px;color:#0b0d10;background:var(--acc);border-radius:999px;padding:2px 9px;font-weight:700}
+  .muted{color:var(--mut);font-size:13px}
+  .big{font-size:30px;font-weight:800;color:var(--acc)}
+  input{width:100%;background:#0f1216;border:1px solid var(--line);border-radius:9px;color:var(--fg);padding:11px 12px;font-family:ui-monospace,monospace;font-size:13px}
+  button{background:var(--acc2);color:#06111f;border:0;border-radius:8px;padding:10px 14px;font-weight:700;cursor:pointer;margin-top:8px}
+  pre{white-space:pre-wrap;background:#0f1216;border:1px solid var(--line);border-radius:9px;padding:12px;font-size:12.5px;color:#cbd5e1}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Instant control-plane fix report</h1>
+  <p>Paste a token address on Base. AF reads the contract and shows you what the chain says —
+  then, if you want it pinned as a fix report, you pay <span class="big">0.5 USDC</span> and AF
+  unlocks it with no account and no reply needed.</p>
+
+  <div class="card">
+    <div class="muted">Token address on Base</div>
+    <input id="addr" placeholder="0x…" value="0x427e892e70feecdbedc13b0c01561c502de5932a">
+    <button onclick="run()">Read the chain</button>
+    <div id="out" class="muted" style="margin-top:10px"></div>
+  </div>
+
+  <h2>How payment works</h2>
+  <div class="card">
+    <p style="margin-top:0">Each token gets its own exact amount (0.5 USDC plus a one-cent suffix).
+    Send that exact amount and AF pins the fix report on its own. No form, no login, no email.</p>
+    <p class="muted">AF only reports what the chain answered. It does not say a token is safe, and it
+    never issues a buy or sell call. A missing mint function is not a safety guarantee.</p>
+    <p class="muted">Pay address: <code>0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702</code> ·
+    USDC on Base: <code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></p>
+  </div>
+
+  <h2>What the reader checks</h2>
+  <div class="card">
+    <p class="muted" style="margin-top:0">All of these are static chain reads at one finalized block,
+    so they are reproducible by anyone:</p>
+    <ul class="muted">
+      <li>name, symbol, decimals, total supply</li>
+      <li>owner(): renounced, a single key, or a contract (multisig/governance)</li>
+      <li>upgradeable proxy (EIP-1967 and the older ZeppelinOS slot USDC uses)</li>
+      <li>mint(address,uint256) present in the bytecode of the implementation</li>
+      <li>paused() present</li>
+      <li>USDC-style admin() / masterMinter()</li>
+    </ul>
+    <p class="muted">Not checked, and AF says so in every report: transfer tax / honeypot (needs a live
+    buy+sell simulation) and liquidity lock (needs the LP holder list).</p>
+  </div>
+</div>
+<script>
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+async function run(){
+  const a=document.getElementById("addr").value.trim();
+  const out=document.getElementById("out");
+  if(!/^0x[0-9a-fA-F]{40}$/.test(a)){out.innerHTML='<span style="color:#fbbf24">that is not a 40-hex address</span>';return;}
+  out.textContent="reading the chain…";
+  const key=a.toLowerCase();
+  try{
+    const r=await fetch(`reviews/base-${key}.json`,{cache:"no-store"});
+    if(r.ok){
+      const d=await r.json();
+      out.innerHTML=`<b>${esc(d.reads&&d.reads.symbol||"?")}</b> — ${esc(d.verdict||"")}
+        <pre>${esc(JSON.stringify(d.flags||[],null,1))}</pre>
+        <a href="reviews/base-${key}.json" target="_blank" rel="noopener">open full report</a>`;
+      return;
+    }
+    out.innerHTML=`AF has not read this token yet. It is not in today's scanned set, so there is no
+      report to show — AF will not invent one. <a href="outbound.html">see today's scanned tokens</a>`;
+  }catch(e){out.textContent="could not reach the report: "+e;}
+}
+run();
+</script>
+</body>
+</html>
