@@ -10,7 +10,8 @@
  "how_to_buy": {
   "machine": "POST an issue titled 'Fact request' (label af-request) with chain + address + docs URL, then pay",
   "human": "email/issue; engagements quoted on the company page",
-  "payment": "USDC (or any of 35 verified tokens) on 13 EVM chains to the payout address; QR on pay-all.html"
+  "payment": "USDC (or any of 35 verified tokens) on 13 EVM chains to the payout address; QR on pay-all.html",
+  "token_review": "Open an issue titled 'Token review request' with chain + token address + website"
  },
  "products": [
   {
@@ -36,6 +37,14 @@
    "unit": "per target",
    "what": "Give AF a chain + contract + the claim in its docs. AF verifies it and adds it to the registry, kept fresh every 6 h.",
    "why": "Any contract, any chain AF supports."
+  },
+  {
+   "id": "token-review",
+   "name": "Token review + promotion",
+   "price_usd": 0,
+   "unit": "paid in the project's own token (quote after reading liquidity)",
+   "what": "AF reads the token's control plane from the chain (owner, renounced?, upgradeable proxy?, masterMinter?) and publishes an honest block-pinned review, plus a clearly-labelled promotion post.",
+   "why": "Projects want a credible third-party review; AF only publishes what the chain says."
   },
   {
    "id": "watch",
