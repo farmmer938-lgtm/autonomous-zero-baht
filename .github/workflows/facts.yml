@@ -28,6 +28,8 @@ jobs:
         run: pip install --quiet eth-utils "eth-hash[pycryptodome]"
       - name: Build the verified facts
         run: python -m tools.af_facts --out site/facts --write || true
+      - name: Refresh the verified token list
+        run: python -m tools.af_tokens --write || true
       - name: Refresh the service queue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/facts
+          git add site/facts site/pay-tokens.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: verified facts + service queue refresh"
             git pull --rebase
