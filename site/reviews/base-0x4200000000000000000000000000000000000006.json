@@ -1,0 +1,20 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x4200000000000000000000000000000000000006",
+ "generatedAt": "2026-11-18T14:43:51.251093+00:00",
+ "reads": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH",
+  "decimals": 18,
+  "totalSupply": 295458212475351559556438,
+  "totalSupplyTokens": 295458.2124753516,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59113278,
+ "verdict": "no owner() surface found"
+}
