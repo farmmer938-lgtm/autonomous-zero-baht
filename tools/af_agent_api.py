@@ -79,13 +79,14 @@ def main() -> int:
             {"id": "quick-check-one", "price": "free", "method": "GET",
              "url": f"{SITE}/outbound/targets.json",
              "returns": "the same data plus the prepared outreach note"},
-            {"id": "deep-check", "price_usd": 0.10, "method": "x402",
+            {"id": "deep-check", "price_usd": 0.10, "method": "direct USDC transfer",
              "pay_to": AF, "pay_asset": {"symbol": "USDC", "chain": "base", "address": USDC_BASE},
              "order_id": "the exact amount in USDC; AF maps the unique cents-suffix back to the order",
              "returns": "a deep control-plane report for one address, block-pinned, published at "
                         f"{SITE}/api/orders/<id>.json",
-             "x402": {"protocol": "x402", "resource": f"{SITE}/api/quick-check.json",
-                      "price_usd": 0.10, "network": "base", "pay_to": AF}},
+             "honest_note": "Payment is a plain USDC transfer, not a hosted x402 server. AF has no "
+                            "always-on public server, so the amount-as-order-id keeps it keyless and "
+                            "account-free. The x402 cashier is a separate AF surface."},
             {"id": "pinned-review", "price_usd": 15.0, "method": "transfer",
              "pay_to": AF, "returns": "the report pinned to a stable URL under the project's name",
              "tiers": {"base": 15, "multi_chain": 35, "with_pinned_promotion": 75}},
