@@ -1,0 +1,24 @@
+{
+ "id": "morpho-blue-owner",
+ "subject": "Morpho Blue (Base) \u2014 owner",
+ "claim": "The address that owns the Morpho Blue singleton on Base.",
+ "chain": "base",
+ "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0xcba28b38103307ec8da98377fff9816c164f9afa"
+ },
+ "blockNumber": 59110108,
+ "blockHash": "0x0059daad75d5c3d927c623a49d94ede1d2ef412b9f482cc873baa41f30e57b0c",
+ "rpcEndpoints": [
+  "https://base-rpc.publicnode.com",
+  "https://mainnet.base.org"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:17.593922+00:00",
+ "contentHash": "sha256:273ca50e8eed9dc61b7990a07868b5f669aa7b81af0ffced81dfecd0b73a69a4"
+}
