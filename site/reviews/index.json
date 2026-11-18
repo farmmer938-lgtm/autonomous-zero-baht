@@ -4,6 +4,56 @@
  "reviews": [
   {
    "chain": "base",
+   "address": "0xda37f4c8f0656915bc001e00011811ce2314a57b",
+   "symbol": "ESDC",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0xda37f4c8f0656915bc001e00011811ce2314a57b.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x10fd7c0c2e642d746a229db08289cb441f0ff54a",
+   "symbol": "UORS",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0x10fd7c0c2e642d746a229db08289cb441f0ff54a.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x577ab9b620305c74e5c5addeeccee996dc4c0388",
+   "symbol": "UTFD",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0x577ab9b620305c74e5c5addeeccee996dc4c0388.json"
+  },
+  {
+   "chain": "base",
+   "address": "0xc26891071469fb1c42c8d869a668f7157e5dcf6a",
+   "symbol": "UFDO",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0xc26891071469fb1c42c8d869a668f7157e5dcf6a.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x00d11a580bc68078357ee935bb26bdc9089b1e1a",
+   "symbol": "URPS",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0x00d11a580bc68078357ee935bb26bdc9089b1e1a.json"
+  },
+  {
+   "chain": "base",
    "address": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
    "symbol": "LAPTOP",
    "verdict": "no owner() surface found",
@@ -11,6 +61,26 @@
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
    ],
    "path": "reviews/base-0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x5183e233fb71858cf3da6f56e8bab5c492e5e444",
+   "symbol": "USOG",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0x5183e233fb71858cf3da6f56e8bab5c492e5e444.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x4f20567407935b17fca8a653c388bb7a186bea04",
+   "symbol": "NTFA",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0x4f20567407935b17fca8a653c388bb7a186bea04.json"
   },
   {
    "chain": "base",
@@ -53,78 +123,6 @@
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
    ],
    "path": "reviews/base-0xbb7ef2075672883be24717b064fc1f828819cccc.json"
-  },
-  {
-   "chain": "base",
-   "address": "0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20",
-   "symbol": "NOTF",
-   "verdict": "no owner() surface found",
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "USDC-style proxy \u2014 admin() controls upgrades"
-   ],
-   "path": "reviews/base-0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91",
-   "symbol": "NOTF",
-   "verdict": "owner is a contract (multisig/governance)",
-   "flags": [
-    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA"
-   ],
-   "path": "reviews/base-0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91.json"
-  },
-  {
-   "chain": "base",
-   "address": "0xfada4708e587964c9b70b1b8738064ce752dd310",
-   "symbol": "NAFF",
-   "verdict": "no owner() surface found",
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "USDC-style proxy \u2014 admin() controls upgrades"
-   ],
-   "path": "reviews/base-0xfada4708e587964c9b70b1b8738064ce752dd310.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x553c84e634e3fc5c9a467677719726017a3af464",
-   "symbol": "MMT",
-   "verdict": "no owner() surface found",
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
-   ],
-   "path": "reviews/base-0x553c84e634e3fc5c9a467677719726017a3af464.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x083021482dd47b98eb6f5d43ff81afd78ab20e64",
-   "symbol": "UP",
-   "verdict": "no owner() surface found",
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
-   ],
-   "path": "reviews/base-0x083021482dd47b98eb6f5d43ff81afd78ab20e64.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x70107c4aa2dc031ef7afc350e03784c2325abe29",
-   "symbol": "OAA",
-   "verdict": "no owner() surface found",
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
-   ],
-   "path": "reviews/base-0x70107c4aa2dc031ef7afc350e03784c2325abe29.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc",
-   "symbol": "DacityCoin",
-   "verdict": "owner is a contract (multisig/governance)",
-   "flags": [
-    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA"
-   ],
-   "path": "reviews/base-0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc.json"
   }
  ]
 }

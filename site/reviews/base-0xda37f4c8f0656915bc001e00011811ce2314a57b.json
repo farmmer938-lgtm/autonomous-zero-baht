@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xda37f4c8f0656915bc001e00011811ce2314a57b",
+ "generatedAt": "2026-11-18T16:42:29.152413+00:00",
+ "reads": {
+  "name": "ESEDC",
+  "symbol": "ESDC",
+  "decimals": 18,
+  "totalSupply": 9600000000000000000000000000,
+  "totalSupplyTokens": 9600000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148868,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 53515.2159,
+ "poolCreatedAt": "2026-11-18T16:35:54Z",
+ "poolName": "ESDC / WETH",
+ "outreach": {
+  "symbol": "ESDC",
+  "name": "ESEDC",
+  "priceUsd": "0.000002897",
+  "fdv": 27817,
+  "liquidityUsd": 53834.13,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x3971499Ea99e3D650978af8CcA9784ccc60DAd5b",
+  "pairUrl": "https://dexscreener.com/base/0x3971499ea99e3d650978af8cca9784ccc60dad5b"
+ }
+}

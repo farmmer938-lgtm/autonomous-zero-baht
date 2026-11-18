@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x4f20567407935b17fca8a653c388bb7a186bea04",
+ "generatedAt": "2026-11-18T16:42:52.877264+00:00",
+ "reads": {
+  "name": "National Trust Fund Asset (NTFA)",
+  "symbol": "NTFA",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148986,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 100528.5272,
+ "poolCreatedAt": "2026-11-18T16:27:58Z",
+ "poolName": "NTFA / WETH",
+ "outreach": {
+  "symbol": "NTFA",
+  "name": "National Trust Fund Asset (NTFA)",
+  "priceUsd": "0.0001012",
+  "fdv": 101227,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xd94ca82c09d99e8696b3406d8c295df1c939500e9a1966a967e3aa4d8441187a",
+  "pairUrl": "https://dexscreener.com/base/0xd94ca82c09d99e8696b3406d8c295df1c939500e9a1966a967e3aa4d8441187a"
+ }
+}

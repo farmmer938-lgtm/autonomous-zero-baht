@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x577ab9b620305c74e5c5addeeccee996dc4c0388",
+ "generatedAt": "2026-11-18T16:42:35.695341+00:00",
+ "reads": {
+  "name": "United Dividend Trust Fund - UTFD",
+  "symbol": "UTFD",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148901,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 125095.034,
+ "poolCreatedAt": "2026-11-18T16:32:44Z",
+ "poolName": "UTFD / WETH",
+ "outreach": {
+  "symbol": "UTFD",
+  "name": "United Dividend Trust Fund - UTFD",
+  "priceUsd": "0.0001258",
+  "fdv": 125820,
+  "liquidityUsd": 124561.57,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xce4355904a5f0dfb8da69e30edd76cd178f7b22ac44d9b3eaeb1998a4aefebce",
+  "pairUrl": "https://dexscreener.com/base/0xce4355904a5f0dfb8da69e30edd76cd178f7b22ac44d9b3eaeb1998a4aefebce"
+ }
+}

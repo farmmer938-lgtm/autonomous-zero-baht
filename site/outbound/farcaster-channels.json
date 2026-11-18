@@ -1,0 +1,4658 @@
+{
+ "schema": "af.farcaster.channels.v1",
+ "channels": [
+  {
+   "id": "base",
+   "url": "https://onchainsummer.xyz",
+   "name": "Base",
+   "description": "Bringing the world onchain \u2014 a community of builders on Base",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/base.png",
+   "createdAt": 1692300191,
+   "followerCount": 481345,
+   "memberCount": 812,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/5392fc5b-c97f-4ebf-d301-82ce9f806e00/original",
+   "leadFid": 12142,
+   "moderatorFids": [
+    12142,
+    15211,
+    99,
+    3895,
+    211241,
+    193844
+   ]
+  },
+  {
+   "id": "farcaster",
+   "url": "chain://eip155:7777777/erc721:0x4f86113fc3e9783cf3ec9a552cbb566716a57628",
+   "name": "Farcaster",
+   "description": "Discussions about Farcaster on Farcaster (meta!)",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/51ffff68-b05c-4465-37a3-38e0c9a21300/original",
+   "createdAt": 1691015606,
+   "followerCount": 445644,
+   "memberCount": 1,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/064418ed-34b0-4b68-1e31-6ebac7a8f700/original",
+   "leadFid": 1,
+   "moderatorFids": [
+    1
+   ],
+   "pinnedCastHash": "0x50184b62b4c52fd76628713562e1eda3dccaf63d",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "memes",
+   "url": "chain://eip155:1/erc721:0xfd8427165df67df6d7fd689ae67c8ebf56d9ca61",
+   "name": "Memes",
+   "description": "Funny memes, wholesome memes, and everything in-between. Subscribe to earn.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b67f1620-f2c7-458a-7f8b-d2c1742d7300/original",
+   "createdAt": 1689121073,
+   "followerCount": 441754,
+   "memberCount": 770,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/64aa709a-b66d-4741-3861-08c2b3004a00/original",
+   "leadFid": 576,
+   "moderatorFids": [
+    576,
+    396644,
+    190218,
+    516917,
+    13874,
+    864314
+   ],
+   "externalLink": {
+    "title": "Subscribe",
+    "url": "https://www.hypersub.xyz/s/memes"
+   }
+  },
+  {
+   "id": "ethereum",
+   "url": "https://ethereum.org",
+   "name": "Ethereum",
+   "description": "Discussions about Ethereum.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/ethereum.png",
+   "createdAt": 1691015606,
+   "followerCount": 334456,
+   "memberCount": 3166,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/28efc96b-145e-42a0-65d2-eb2af0968100/original",
+   "leadFid": 2301,
+   "moderatorFids": [
+    2301,
+    5694,
+    7479,
+    207,
+    10420,
+    193551,
+    1766,
+    56,
+    894783,
+    21417
+   ],
+   "externalLink": {
+    "title": "Join /ethereum",
+    "url": "https://warpcast.com/~/channel/ethereum/join?inviteCode=f9j1trIzL_VB3b7l1ZMUTg"
+   }
+  },
+  {
+   "id": "founders",
+   "url": "https://farcaster.group/founders",
+   "name": "Founders",
+   "description": "A space for founders",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/founders.png",
+   "createdAt": 1697505197,
+   "followerCount": 234834,
+   "memberCount": 515,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ad0fccc5-89fd-4fdd-6f8f-ef6ce4ba8b00/original",
+   "leadFid": 2134,
+   "moderatorFids": [
+    3,
+    2134,
+    4013,
+    1626,
+    16148,
+    725
+   ],
+   "pinnedCastHash": "0x3868338c3a8142a02e02c4c56fdd1d5912e2c4a5"
+  },
+  {
+   "id": "design",
+   "url": "chain://eip155:7777777/erc721:0x22be981fb87effbe6780b34a6fe1dfc14a00ec8e",
+   "name": "Design",
+   "description": "/Design is a channel for an by designers.\nDesign Channel Publication: paragraph.com/@designchannel",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/4PDpB2a.gif",
+   "createdAt": 1690488765,
+   "followerCount": 221774,
+   "memberCount": 727,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e11bd8a4-3c0f-47fe-dc68-8e636425ad00/original",
+   "leadFid": 4923,
+   "moderatorFids": [
+    4923,
+    396644,
+    210045,
+    196957,
+    389808,
+    864314
+   ],
+   "externalLink": {
+    "title": "Join the channel",
+    "url": "https://farcaster.xyz/~/channel/design/join?inviteCode=_HGcjpSHyCg7VGvWpNPOQw"
+   }
+  },
+  {
+   "id": "zk",
+   "url": "chain://eip155:7777777/erc721:0xec30bb189781bbd87478f625d19d9deeeb771964",
+   "name": "zk",
+   "description": "Discussions about zero knowledge proofs, related cryptography and its applications.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/93fb872c-8268-4c14-b1ac-affc69626600/original",
+   "createdAt": 1691015606,
+   "followerCount": 197878,
+   "memberCount": 152,
+   "publicCasting": true,
+   "leadFid": 16148,
+   "moderatorFids": [
+    16148,
+    1349,
+    941
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "dev",
+   "url": "chain://eip155:1/erc721:0x7dd4e31f1530ac682c8ea4d8016e95773e08d8b0",
+   "name": "dev",
+   "description": "Cultivating curiosity for software developers",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafkreigbei45ni5zsliszzeivotgee5auj2ykkh6zrzjwvm4izviidusny",
+   "createdAt": 1689121073,
+   "followerCount": 183432,
+   "memberCount": 475,
+   "publicCasting": true,
+   "leadFid": 191,
+   "moderatorFids": [
+    191,
+    2172,
+    834,
+    725,
+    6841,
+    7657,
+    864314
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "food",
+   "url": "chain://eip155:1/erc721:0xec0ba367a6edf483a252c3b093f012b9b1da8b3f",
+   "name": "Food",
+   "description": "A place to talk about what you're cooking and eating. Casts generated by bots, stock photos, and AI generated images will be hidden, and may result in the user being banned from the channel.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/722bd4fe-9b37-47e7-c232-c68426193400/original",
+   "createdAt": 1689121073,
+   "followerCount": 180422,
+   "memberCount": 899,
+   "publicCasting": true,
+   "leadFid": 378,
+   "moderatorFids": [
+    378,
+    3,
+    861203,
+    864314
+   ],
+   "pinnedCastHash": "0xd95973a27ab6644fc3a69ae39a599075c19a4a4c"
+  },
+  {
+   "id": "zora",
+   "url": "chain://eip155:1/erc721:0xca21d4228cdcc68d4e23807e5e370c07577dd152",
+   "name": "Zora",
+   "description": "Trade what's trending.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e49fbe15-894f-4918-1ecc-ee21c3e20800/original",
+   "createdAt": 1689888729,
+   "followerCount": 172443,
+   "memberCount": 682,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4660d7d0-b412-4a05-4e64-8825a1523c00/original",
+   "leadFid": 8,
+   "moderatorFids": [
+    8,
+    565025,
+    5952,
+    2558,
+    17129,
+    11245
+   ],
+   "externalLink": {
+    "title": "Join",
+    "url": "https://zora.co"
+   }
+  },
+  {
+   "id": "fitness",
+   "url": "chain://eip155:1/erc721:0xee442da02f2cdcbc0140162490a068c1da94b929",
+   "name": "Fitness",
+   "description": "Discussions about exercise, health, nutrition and more",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ce5e105d-1300-45be-cf2b-8bb5589c9700/original",
+   "createdAt": 1689709823,
+   "followerCount": 147926,
+   "memberCount": 864,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/271928c8-e8ab-4dc3-27b2-5251ba294b00/original",
+   "leadFid": 10259,
+   "moderatorFids": [
+    10259,
+    780900,
+    4085,
+    325,
+    391049,
+    1407
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "fc-updates",
+   "url": "https://warpcast.com/~/channel/fc-updates",
+   "name": "fc-updates",
+   "description": "Important updates about things happening in Farcaster",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/938a0004-b076-4f57-bf9b-3770f86a1b00/original",
+   "createdAt": 1712162074,
+   "followerCount": 144396,
+   "memberCount": 6,
+   "publicCasting": false,
+   "leadFid": 194,
+   "moderatorFids": [
+    194,
+    1
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "warpcast",
+   "url": "chain://eip155:7777777/erc721:0x10a77f29a6bbeae936f3f27cd60546072dae4e41",
+   "name": "Warpcast",
+   "description": "Announcements, questions, feedback and suggestions about Warpcast",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafkreifezhnp5wzgabkdbkb6d65oix4r5axibupv45r7ifxphl4d6qqnry",
+   "createdAt": 1691015606,
+   "followerCount": 136468,
+   "memberCount": 253,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/df6ddfcd-0d96-4a4b-e5e0-497f966c8a00/original",
+   "leadFid": 3,
+   "moderatorFids": [
+    3
+   ],
+   "pinnedCastHash": "0xbfe248515deb8411130cfc58a9238d01fd072643"
+  },
+  {
+   "id": "frontend",
+   "url": "chain://eip155:7777777/erc721:0x3d037b11c5359fac54c3928dfad0b9512695d392",
+   "name": "Frontend",
+   "description": "Discussions about frontend development, HTML, CSS, JavaScript, browser APIs, web standards, component frameworks, rendering libraries, UI/UX patterns, and tools and technologies used to build websites and web apps!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafkreibv27igqil44vdeohccdmjdnrpoj6e4xsq6zlmp2is3vscoyau6yq",
+   "createdAt": 1691015606,
+   "followerCount": 131725,
+   "memberCount": 227,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7888cec0-2334-4f77-af53-e76956661000/original",
+   "leadFid": 3854,
+   "moderatorFids": [
+    3854,
+    368422
+   ],
+   "pinnedCastHash": "0x289d943817031639168f64b1a468277b57bac8c2",
+   "externalLink": {
+    "title": "MDN Web Docs \u2192",
+    "url": "https://developer.mozilla.org/en-US/docs/Web"
+   }
+  },
+  {
+   "id": "nouns",
+   "url": "chain://eip155:1/erc721:0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03",
+   "name": "Nouns",
+   "description": "A channel for Nouns and Nounish things.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/nouns.png",
+   "createdAt": 1687284741,
+   "followerCount": 123761,
+   "memberCount": 585,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ec4b26d0-a526-4ac6-e69e-1ca067335f00/original",
+   "leadFid": 3974,
+   "moderatorFids": [
+    3642,
+    4167,
+    2433,
+    11508,
+    20082,
+    1097,
+    1301,
+    921962,
+    3974,
+    13870,
+    864314
+   ],
+   "externalLink": {
+    "title": "What is Nouns?",
+    "url": "https://youtu.be/oa79nN4gMPs?si=OftJ8q0T5MHeZzXx"
+   }
+  },
+  {
+   "id": "degen",
+   "url": "chain://eip155:7777777/erc721:0x5d6a07d07354f8793d1ca06280c4adf04767ad7e",
+   "name": "Degen",
+   "description": "Welcome to the /degen channel, a place for risk-takers and meme-makers. Ape into trades, flip NFTs, share your wins (and losses), and drop your best alpha. Flex your PnL, keep it fun, and respect the vibes. We\u2019re all just degens chasing the next big move.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4728a50a-1669-4334-1f57-9473c04a2500/original",
+   "createdAt": 1691015606,
+   "followerCount": 121412,
+   "memberCount": 2003,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/cd8b3066-b64a-4bb1-7c3b-07ba38cdbb00/original",
+   "leadFid": 15983,
+   "moderatorFids": [
+    15983
+   ],
+   "pinnedCastHash": "0xa07ad2af621631272edcae484e33ab1cf0adc90f",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://cura.network/degen/details"
+   }
+  },
+  {
+   "id": "frames",
+   "url": "https://warpcast.com/~/channel/frames",
+   "name": "frames",
+   "description": "Discussion about Farcaster Frames.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/vz4KzeC.jpg",
+   "createdAt": 1706295392,
+   "followerCount": 101460,
+   "memberCount": 90,
+   "publicCasting": true,
+   "leadFid": 2,
+   "moderatorFids": [
+    2
+   ]
+  },
+  {
+   "id": "superrare",
+   "url": "https://superrare.com",
+   "name": "SuperRare",
+   "description": "The culture exchange",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/superrare.jpg",
+   "createdAt": 1698107816,
+   "followerCount": 96891,
+   "memberCount": 872,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a6ab787c-7503-4e0a-a847-a416fe9b0500/original",
+   "leadFid": 270678,
+   "moderatorFids": [
+    270678,
+    374498,
+    190045
+   ],
+   "externalLink": {
+    "title": "SuperRare",
+    "url": "https://superrare.com/"
+   }
+  },
+  {
+   "id": "music",
+   "url": "chain://eip155:7777777/erc721:0xe96c21b136a477a6a97332694f0caae9fbb05634",
+   "name": "Music",
+   "description": "",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeibdk7mvrhmud76ye6wm623sjgtiashik2imee7dkeliiq4wfissqq",
+   "createdAt": 1690488765,
+   "followerCount": 93278,
+   "memberCount": 793,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e49d7241-1016-4ff7-38a9-d00baa752d00/original",
+   "leadFid": 3115,
+   "moderatorFids": [
+    3115,
+    3609,
+    218957,
+    395346
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "art",
+   "url": "chain://eip155:1/erc721:0x1538c5ddbb073638b7cd1ae41ec2d9f9a4c24a7e",
+   "name": "Art",
+   "description": "Both art you make and art you like. Please attribute the creator when posting work that is not your own. Strive to be a conscious member of this channel and share work that sparks conversation.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafkreibrpwjcp2tykkzanqgrzaofxfsf2or7xvhb37wpzg6miazloph6fi",
+   "createdAt": 1690488765,
+   "followerCount": 92528,
+   "memberCount": 2943,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/3f3d7fa3-b5a6-4e71-e2b8-1e62586f7900/original",
+   "leadFid": 9218,
+   "moderatorFids": [
+    9135,
+    9218,
+    265506,
+    7048,
+    237973,
+    210698,
+    6815,
+    193930,
+    415950,
+    11245,
+    864314
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "replyguys",
+   "url": "https://warpcast.com/~/channel/replyguys",
+   "name": "/replyguys",
+   "description": "an unmoderated forum moderated by a self proclaimed benevolent dictator",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/xDBupZD.jpg",
+   "createdAt": 1706914277,
+   "followerCount": 87908,
+   "memberCount": 2381,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e130c9bc-ff18-4a71-2af3-c193b4e48600/original",
+   "leadFid": 5034,
+   "moderatorFids": [
+    5034,
+    269694,
+    248111,
+    311933,
+    8447
+   ],
+   "pinnedCastHash": "0x2ad4ae2bcede3d9fa037eee8391a17d58f77e8d0",
+   "externalLink": {
+    "title": "what?",
+    "url": "who?"
+   }
+  },
+  {
+   "id": "tabletop",
+   "url": "chain://eip155:7777777/erc721:0xf7ebaea271e84a0c40e90bc6f5889dbfa0a12366",
+   "name": "Tabletop",
+   "description": "Discussions, memes, and casts about board games, TTRPGs, and their digital equivalents",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b853b44c-0221-4f32-3913-f277ce0d6e00/original",
+   "createdAt": 1690488765,
+   "followerCount": 85005,
+   "memberCount": 213,
+   "publicCasting": false,
+   "leadFid": 9391,
+   "moderatorFids": [
+    9391,
+    368422,
+    396644
+   ]
+  },
+  {
+   "id": "books",
+   "url": "chain://eip155:1/erc721:0xc18f6a34019f5ba0fc5bc8cb6fe52e898d6bbbee",
+   "name": "Books",
+   "description": "A vibrant community of readers where we discuss ideas, learn together, and recommend books to help each other grow. DM  for an invite with a link to a bookish cast you\u2019ve posted.",
+   "descriptionMentions": [
+    129
+   ],
+   "descriptionMentionsPositions": [
+    119
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/44e5f409-f698-4e97-9283-860ab6597800/rectcrop3",
+   "createdAt": 1687928905,
+   "followerCount": 80089,
+   "memberCount": 500,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/48b3a25b-d98d-47fe-23ff-8b333ddf6a00/original",
+   "leadFid": 129,
+   "moderatorFids": [
+    129,
+    396644
+   ],
+   "pinnedCastHash": "0xbe7d6df1ecda1ffa6a2aa2e435b486cc37cf1135",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "itookaphoto",
+   "url": "https://warpcast.com/~/channel/itookaphoto",
+   "name": "I Took a Photo!",
+   "description": "Photography is the world's most popular art form. ITAP is a place to share photos YOU took. Start casts w/ ITAP or I took a photo & a description. Cast your shot! Sister channels: ITAV, AITap, ITAS. Banner by  Created by ",
+   "descriptionMentions": [
+    324915,
+    283056
+   ],
+   "descriptionMentionsPositions": [
+    209,
+    221
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/95377fde-4d5c-48e1-bca9-3fb1d5ff2200/original",
+   "createdAt": 1707624332,
+   "followerCount": 75278,
+   "memberCount": 7553,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e3db341f-80c1-4483-d569-163b76032900/original",
+   "leadFid": 283056,
+   "moderatorFids": [
+    283056,
+    864314,
+    262301,
+    446581,
+    523720,
+    516917
+   ],
+   "externalLink": {
+    "title": "Join via Cura!",
+    "url": "https://cura.network/itookaphoto/details?t=details"
+   }
+  },
+  {
+   "id": "airstack",
+   "url": "https://warpcast.com/~/channel/airstack",
+   "name": "Moxie Official",
+   "description": "Your starting point for everything Moxie. You must hold 0.1 /airstack fan tokens to cast into the channel. Casts about token price or off-topic casts will results in bans. For support - join our TG: https://t.me/+EM5xiv78bfA1ZTIx",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2c2fd4f3-c6ab-4298-bd58-df843114cd00/original",
+   "createdAt": 1703179838,
+   "followerCount": 68518,
+   "memberCount": 1358,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/926dc2f9-6d99-40e6-eada-116195cadd00/original",
+   "leadFid": 565051,
+   "moderatorFids": [
+    565051,
+    440220,
+    2602,
+    602,
+    11161
+   ],
+   "pinnedCastHash": "0x8b12dfad7986868ee18a31557dd7a3cd35ce8778",
+   "externalLink": {
+    "title": "Click to Join!",
+    "url": "https://moxie-frames.airstack.xyz/cme?cid=airstack"
+   }
+  },
+  {
+   "id": "travel",
+   "url": "chain://eip155:7777777/erc721:0x917ef0a90d63030e6aa37d51d7e6ece440ace537",
+   "name": "Travel",
+   "description": "For sharing travel recommendations and experiences",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeibqktr73eetw3qy4uwtnn4kcn6ziepg4g5koexpi2hjo6okbwb4em",
+   "createdAt": 1690488765,
+   "followerCount": 67735,
+   "memberCount": 695,
+   "publicCasting": true,
+   "leadFid": 347,
+   "moderatorFids": [
+    347,
+    861203,
+    864314
+   ],
+   "externalLink": {
+    "title": "Join",
+    "url": "https://cura.network/travel/details"
+   }
+  },
+  {
+   "id": "gaming",
+   "url": "chain://eip155:7777777/erc721:0xa390bc5b492f4d378ca2ef513a45a89d54538f02",
+   "name": "Gaming",
+   "description": "Discussions, memes, and casts about video games, PC games, and onchain games.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeicej2ef7467g642ccwj3d56ctdyn33qda2zkuorbejftaed3wfube",
+   "createdAt": 1691015606,
+   "followerCount": 64926,
+   "memberCount": 273,
+   "publicCasting": false,
+   "leadFid": 9391,
+   "moderatorFids": [
+    9391,
+    368422,
+    396644,
+    190968
+   ],
+   "pinnedCastHash": "0x1dda82546719148ad71d784f06f77eae441528d5",
+   "externalLink": {
+    "title": "Subscribe 2 cast",
+    "url": "https://www.hypersub.xyz/s/gaming-173guko39nocg?referrer=0x3eefaa9d6e2ab7972c1001d41c82bb4881389257"
+   }
+  },
+  {
+   "id": "new-york",
+   "url": "chain://eip155:1/erc721:0xfdd5e7949bd72c95907c46a630d2c791f0e842c6",
+   "name": "NYC",
+   "description": "The Big Apple, The City That Never Sleeps, The Greatest City In The World \n\nReporting to you live from around the five boroughs, bringing you the best that New York City has to offer URL and IRL\n\nNew York is dead? Long live New York \ud83d\uddfd\n\nSee you at the club",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9c21223e-6f7b-41e0-44b2-a12a3196d000/original",
+   "createdAt": 1689890994,
+   "followerCount": 59749,
+   "memberCount": 294,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4c3ef004-8c24-42f7-79b3-d2da1396de00/original",
+   "leadFid": 1407,
+   "moderatorFids": [
+    1407
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "wearesoearly",
+   "url": "https://warpcast.com/~/channel/wearesoearly",
+   "name": "we are so early",
+   "description": "definitely not an airdrop for future trillionaires",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4c36ddb3-4d8b-403d-87c0-f043e1898400/original",
+   "createdAt": 1706987950,
+   "followerCount": 59576,
+   "memberCount": 2530,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/765b247c-0b63-4f31-be44-74fba3d37c00/original",
+   "leadFid": 7251,
+   "moderatorFids": [
+    7251,
+    200530,
+    259597,
+    864314,
+    4483
+   ],
+   "pinnedCastHash": "0xc120d543b92e666e97aa8e0043b757a92ef414b7",
+   "externalLink": {
+    "title": "join community!",
+    "url": "https://cura.network/wearesoearly/details"
+   }
+  },
+  {
+   "id": "lifeisgood",
+   "url": "https://warpcast.com/~/channel/lifeisgood",
+   "name": "life is good",
+   "description": "life is good",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/OnEmXsg.jpg",
+   "createdAt": 1707357718,
+   "followerCount": 59062,
+   "memberCount": 7409,
+   "publicCasting": false,
+   "leadFid": 7251,
+   "moderatorFids": [
+    7251,
+    864314
+   ],
+   "pinnedCastHash": "0xf9b45e3bb648c88498661cfa73e9aa23aa7bd155",
+   "externalLink": {
+    "title": "join community",
+    "url": "https://cura.network/lifeisgood/details"
+   }
+  },
+  {
+   "id": "whoami",
+   "url": "https://warpcast.com/~/channel/whoami",
+   "name": "Who are you?",
+   "description": "the friendliest channel on Farcaster. explore the ultimate question of Life, the Universe, and Everything with us",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/PGghCe8.gif",
+   "createdAt": 1712061481,
+   "followerCount": 58033,
+   "memberCount": 204,
+   "publicCasting": true,
+   "leadFid": 274,
+   "moderatorFids": [
+    274
+   ],
+   "pinnedCastHash": "0x9112b3eb673dad83b86eb29189e97947d302e060",
+   "externalLink": {
+    "title": "website",
+    "url": "far.quest"
+   }
+  },
+  {
+   "id": "screens",
+   "url": "chain://eip155:1/erc721:0xc4934dbb7a71f76e4068cd04fade20ad6c0023dd",
+   "name": "Screens",
+   "description": "Discussions about movies and TV",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b8850e6a-7d39-46b1-b051-245df6c6b800/original",
+   "createdAt": 1689709823,
+   "followerCount": 56135,
+   "memberCount": 307,
+   "publicCasting": true,
+   "leadFid": 3,
+   "moderatorFids": [
+    3,
+    15838
+   ],
+   "pinnedCastHash": "0xcf403c8506ec3c29aac2712188eb92c6c8c544a7"
+  },
+  {
+   "id": "ted",
+   "url": "https://warpcast.com/~/channel/ted",
+   "name": "teddit",
+   "description": "where ted talks",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/dm8MnyD.png",
+   "createdAt": 1703213452,
+   "followerCount": 56059,
+   "memberCount": 76,
+   "publicCasting": false,
+   "leadFid": 239,
+   "moderatorFids": [
+    239
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "base-builds",
+   "url": "https://warpcast.com/~/channel/base-builds",
+   "name": "base-builds",
+   "description": "Base is for builders, and this is a channel to talk about what you\u2019re building on Base.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0761a000-1cf4-4b6c-acda-30cc24c01600/original",
+   "createdAt": 1714055739,
+   "followerCount": 54595,
+   "memberCount": 1613,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/590b43c5-7a9c-4b19-bf05-f43d7bbe4300/original",
+   "leadFid": 12142,
+   "moderatorFids": [
+    12142,
+    2433,
+    767,
+    262301,
+    15211,
+    99,
+    4753
+   ],
+   "externalLink": {
+    "title": "Request invite",
+    "url": "https://rounds.wtf/base-builds/invites/requests"
+   }
+  },
+  {
+   "id": "cryptoart",
+   "url": "https://warpcast.com/~/channel/cryptoart",
+   "name": "Network Propaganda",
+   "description": "cryptoart is not allowed on this platform - Network State propaganda only",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/3eb61ee8-b449-4427-04ac-2b69c081f400/original",
+   "createdAt": 1702696423,
+   "followerCount": 54241,
+   "memberCount": 1209,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1686f4ab-a1f0-4d4d-e84c-1149ab089e00/original",
+   "leadFid": 4905,
+   "moderatorFids": [
+    4905,
+    294100
+   ],
+   "pinnedCastHash": "0x3562e5ff2e19b526802e3b448182480cdd06c6e9",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "lp",
+   "url": "https://warpcast.com/~/channel/lp",
+   "name": "TN100x",
+   "description": "The home of $TN100x - The next 100x memecoin on Base. CA: 0x5b5dee44552546ecea05edea01dcd7be7aa6144a - tn100x.com",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/72f0e18f-f1b6-4d71-3d17-da8809d34c00/original",
+   "createdAt": 1707066303,
+   "followerCount": 50050,
+   "memberCount": 1378,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/18be59e1-50d5-4589-7c7b-ca603c0b5600/original",
+   "leadFid": 4482,
+   "moderatorFids": [
+    4482,
+    8433,
+    270005,
+    234616,
+    248216,
+    264222,
+    326306,
+    466111,
+    292506,
+    282520,
+    6400
+   ],
+   "externalLink": {
+    "title": "Request to join",
+    "url": "https://frame.openrank.com/api/channel/lp"
+   }
+  },
+  {
+   "id": "onchain-blocks",
+   "url": "https://warpcast.com/~/channel/onchain-blocks",
+   "name": "onchain-blocks",
+   "description": "Onchain Blocks is a farcaster native open source project built on top of the Degen (block)chain. OB art is CC0. For degens by degens.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/03f1a953-f900-4913-50f0-0455f5604800/original",
+   "createdAt": 1712154534,
+   "followerCount": 46754,
+   "memberCount": 217,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/04272a86-3c1c-4f59-e169-06d864479d00/original",
+   "leadFid": 13505,
+   "moderatorFids": [
+    13505
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "talent",
+   "url": "https://warpcast.com/~/channel/talent",
+   "name": "Talent Protocol",
+   "description": "The reputation score for the agentic web.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/002f0efe-2513-41e7-3d89-d38875d76800/original",
+   "createdAt": 1707148597,
+   "followerCount": 46609,
+   "memberCount": 1664,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ef8942e9-96e6-4e6b-cf16-b56bc568a500/original",
+   "leadFid": 20442,
+   "moderatorFids": [
+    20442,
+    8446,
+    696478,
+    864314,
+    221216,
+    195255,
+    6730
+   ],
+   "pinnedCastHash": "0xa6e0b8c4a7cc7405275f8696ae9f411fc9aaed9e",
+   "externalLink": {
+    "title": "Join channel",
+    "url": "https://cura.network/talent/details"
+   }
+  },
+  {
+   "id": "mfers",
+   "url": "https://warpcast.com/~/channel/mfers",
+   "name": "mfers",
+   "description": "channel for crypto mfers",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/huKofm1.jpg",
+   "createdAt": 1706485096,
+   "followerCount": 46189,
+   "memberCount": 485,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/75be534d-d2f0-4346-a67b-b3aac4e73d00/original",
+   "leadFid": 18085,
+   "moderatorFids": [
+    18085
+   ]
+  },
+  {
+   "id": "nature",
+   "url": "chain://eip155:7777777/erc721:0xf6a7d848603aff875e4f35025e5c568679ccc17c",
+   "name": "Nature",
+   "description": "The Central Park of Farcaster. \n\n**CHANNEL RULES: Original work only, no AI, stock photos, or images copied from the internet. If you cast a photo you did not make, please credit the artist/photographer.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/39244757-3641-41c7-ad20-ce8a5536b800/original",
+   "createdAt": 1694472448,
+   "followerCount": 45635,
+   "memberCount": 5514,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a3855375-a1e3-459e-0217-8ee3fbc85700/original",
+   "leadFid": 296687,
+   "moderatorFids": [
+    296687,
+    864314,
+    245124,
+    8447,
+    273442,
+    448502,
+    452094,
+    446581,
+    516917
+   ],
+   "pinnedCastHash": "0x3ad6b7649389d6db1d84e987e9c231c59656bdd6",
+   "externalLink": {
+    "title": "Nature App",
+    "url": "https://cura.network/nature/details"
+   }
+  },
+  {
+   "id": "farcade",
+   "url": "https://warpcast.com/~/channel/farcade",
+   "name": "Farcade (now Remix)",
+   "description": "Rebranded to /remix",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/30101b2d-2303-46d0-a565-0526669fa400/original",
+   "createdAt": 1707171130,
+   "followerCount": 44082,
+   "memberCount": 5705,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bd5614d9-4096-4df1-8a7c-58ed00121c00/original",
+   "leadFid": 294226,
+   "moderatorFids": [
+    16405,
+    294226,
+    297953
+   ],
+   "pinnedCastHash": "0x23685b7c6b46bb869e844cf50eebd32de7f130a3",
+   "externalLink": {
+    "title": "PLAY NOW",
+    "url": "https://play.remix.gg"
+   }
+  },
+  {
+   "id": "rainbow",
+   "url": "https://rainbow.me",
+   "name": "Rainbow",
+   "description": "The fun, simple, & secure way to explore Web3, NFTs, & Ethereum",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/rainbow.png",
+   "createdAt": 1698107816,
+   "followerCount": 42210,
+   "memberCount": 317,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/fddb216b-922d-448a-9a09-9e043f35a000/original",
+   "leadFid": 534,
+   "moderatorFids": [
+    534,
+    20919
+   ],
+   "pinnedCastHash": "0x8ecb7fc2668e2303f0d35d68ada4d404360f789f",
+   "externalLink": {
+    "title": "rainbow.me",
+    "url": "rainbow.me"
+   }
+  },
+  {
+   "id": "omof",
+   "url": "https://warpcast.com/~/channel/omof",
+   "name": "$ANSEM | Arena Launchpad",
+   "description": "the IRAN \ud83c\uddee\ud83c\uddf7 vs USA \ud83c\uddfa\ud83c\uddf8 airdrop. \u270c\ufe0f\n\nGovernments fight. People predict. Back a side for $1, keep a real token you can sell anytime \u2014 and everyone who joins earns from the airdrop (up to $1M, growing from $100,000 with vol",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/5e2c20b6-d97d-415c-0727-cc80fe9d6300/original",
+   "createdAt": 1712002301,
+   "followerCount": 41839,
+   "memberCount": 509,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/69a42849-7029-428f-b6bd-99f36385a400/original",
+   "leadFid": 281289,
+   "moderatorFids": [
+    281289
+   ],
+   "pinnedCastHash": "0xbae62995738dd9b56da20fcbcf3a852bcbdca9a3",
+   "externalLink": {
+    "title": "Buy $IRAN",
+    "url": "https://app.2clash.me/pro/a/0x4f2a5639e41b5790e84dcfc7c26b4d5729022808?utm_source=omof"
+   }
+  },
+  {
+   "id": "masks",
+   "url": "https://warpcast.com/~/channel/masks",
+   "name": "Masks",
+   "description": "",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6357ae40-9baf-4f8d-0569-86d783132e00/rectcrop3",
+   "createdAt": 1712057277,
+   "followerCount": 41707,
+   "memberCount": 889,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/69f2c5ad-6b68-40c1-8d0c-59986a444400/original",
+   "leadFid": 245017,
+   "moderatorFids": [
+    245017
+   ],
+   "pinnedCastHash": "0x97766b10febe27c4b44154400e70a1bca8457a4a",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "perl",
+   "url": "https://warpcast.com/~/channel/perl",
+   "name": "perl",
+   "description": "\ud83d\udd2e perl.xyz game/product discussion lounge",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/Bg7GCSh.png",
+   "createdAt": 1705964655,
+   "followerCount": 40480,
+   "memberCount": 105,
+   "publicCasting": false,
+   "leadFid": 539,
+   "moderatorFids": [
+    539
+   ],
+   "pinnedCastHash": "0xf52bbb7d5383dc8ef8ebfb5d0f9183f45a81e16b"
+  },
+  {
+   "id": "farcasther",
+   "url": "chain://eip155:8453/erc721:0x1e5115dc60cdab3c1263a945201cb509ea7a8340",
+   "name": "farcastHER",
+   "description": "Vivian Wilson is a powerful woman who defied Elon Musk, and Pussy Riot demonstrated that a woman's voice can make institutions of power tremble!!!!!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/82947689-7de6-4e26-ae2a-4e2950815d00/original",
+   "createdAt": 1694472448,
+   "followerCount": 39148,
+   "memberCount": 157,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/298cad79-cbd0-4cee-2887-c4d0959a4f00/original",
+   "leadFid": 1137,
+   "moderatorFids": [
+    1137
+   ],
+   "pinnedCastHash": "0x791fc8de983546864440de99279b24472c208c32",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "build",
+   "url": "https://warpcast.com/~/channel/build",
+   "name": "BUILD",
+   "description": "BUILD is a token of appreciation on  to support onchain builders.\u00a0\ud83e\udee1 Follow  for important announcements.",
+   "descriptionMentions": [
+    12142,
+    531162
+   ],
+   "descriptionMentionsPositions": [
+    36,
+    79
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1312560d-68ff-4545-e209-3e588f700100/original",
+   "createdAt": 1707790538,
+   "followerCount": 38346,
+   "memberCount": 744,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0b4b8ab9-7147-4f52-bd96-36a749eff500/original",
+   "leadFid": 210930,
+   "moderatorFids": [
+    210930,
+    8446,
+    861203,
+    296241
+   ],
+   "pinnedCastHash": "0x1169a824134067277ef6a2b56683363709e44efe",
+   "externalLink": {
+    "title": "build.top",
+    "url": "https://build.top/"
+   }
+  },
+  {
+   "id": "onchaincoin",
+   "url": "https://warpcast.com/~/channel/onchaincoin",
+   "name": "O\u144e\u1455\u157c\u15e9I\u144e",
+   "description": "\ud83d\udd35 onchain coin is a metameme designed to unite people around the onchainization movement. CA: 0x1C22374032e7e5a1bbDe3D943F5DEB310db060DD onchaincoin.io",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/VMs8eDY.png",
+   "createdAt": 1709671528,
+   "followerCount": 36808,
+   "memberCount": 48,
+   "publicCasting": true,
+   "leadFid": 308771,
+   "moderatorFids": [
+    308771,
+    262563
+   ],
+   "pinnedCastHash": "0x11fc3e31214fad44dc9ae9e6c29f85ac0539e98a"
+  },
+  {
+   "id": "photography",
+   "url": "chain://eip155:7777777/erc721:0x36ef4ed7a949ee87d5d2983f634ae87e304a9ea2",
+   "name": "Photography",
+   "description": "See the world through another's eyes. Home to all genres of photography. Share your work and discuss the craft.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeifezoeekksio4ojy6xcm6x4b3ety2dbkly5d5d4a7kwsc5skixgye",
+   "createdAt": 1691015606,
+   "followerCount": 35039,
+   "memberCount": 713,
+   "publicCasting": false,
+   "leadFid": 9055,
+   "moderatorFids": [
+    9055,
+    368422,
+    6373
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "op-stack",
+   "url": "https://www.optimism.io",
+   "name": "OP Stack",
+   "description": "Technical minded discussion about the OP Stack and the Superchain. Join our sister channel /optimism for broader Optimism discussion!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/op-stack.png",
+   "createdAt": 1690488765,
+   "followerCount": 34879,
+   "memberCount": 122,
+   "publicCasting": false,
+   "leadFid": 80,
+   "moderatorFids": [
+    80,
+    2689,
+    4179,
+    6061
+   ]
+  },
+  {
+   "id": "tocd",
+   "url": "https://warpcast.com/~/channel/tocd",
+   "name": "$CASHCAT | Arena Launchpad",
+   "description": "$CASHCAT fights back. The winner takes it all.\n/omof\n\nEach battle burns tokens. Deflation. The price rises. YOUR TOKENS ARE SAFE.\n\u23f3 8 hours to choose a side.\n\nCA: 0x91B8c70a4B5A459C8b2e4A9Ba7ac317eAB10F311\n\nCats NEVER Lose! \n\narenadao.live",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2864c422-41ec-4182-0664-4c150646d300/original",
+   "createdAt": 1707211086,
+   "followerCount": 34167,
+   "memberCount": 341,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6222d2ac-1ead-4059-8140-659747cc8d00/original",
+   "leadFid": 281289,
+   "moderatorFids": [
+    281289
+   ],
+   "pinnedCastHash": "0xaf5d0c26bb021c9199cc74a5764c64753a3ea128",
+   "externalLink": {
+    "title": "Buy $CASHCAT",
+    "url": "https://app.arenadao.live/pro/a/0xc45569b9fe554b31d50e6c7accfd7e1f0a7d4ed9"
+   }
+  },
+  {
+   "id": "farcards",
+   "url": "https://warpcast.com/~/channel/farcards",
+   "name": "farcards",
+   "description": "every caster is a card. collect them all!\nreceive quicker updates on our /alfafriends channel:  https://hrl.sh/3biou5",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f7f0bfc7-c89c-4312-f442-4a6c813d9b00/original",
+   "createdAt": 1713980077,
+   "followerCount": 33475,
+   "memberCount": 515,
+   "publicCasting": true,
+   "leadFid": 8152,
+   "moderatorFids": [
+    8152,
+    368422,
+    248216,
+    253127,
+    256829,
+    436577,
+    8942,
+    262938
+   ],
+   "pinnedCastHash": "0xf2aa9798252fb24cbbf930a164d7c2cfd85682bf"
+  },
+  {
+   "id": "higher",
+   "url": "https://warpcast.com/~/channel/higher",
+   "name": "HIGHER",
+   "description": "$HIGHER: 0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/640b108e-6794-44ea-d603-c712b1172d00/original",
+   "createdAt": 1709763201,
+   "followerCount": 33437,
+   "memberCount": 1039,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4318670a-3584-4954-dde6-3bf802a33900/original",
+   "leadFid": 13121,
+   "moderatorFids": [
+    13121,
+    5328,
+    7143,
+    1841,
+    263333,
+    9135
+   ],
+   "pinnedCastHash": "0x4247e9eb3055423df1ceceb81900dd990e6b7203",
+   "externalLink": {
+    "title": "Community Site",
+    "url": "https://aimhigher.net"
+   }
+  },
+  {
+   "id": "caster",
+   "url": "https://warpcast.com/~/channel/caster",
+   "name": "Caster",
+   "description": "Web 4 where attention pays. AGI and UBI power an immutable ledger. Doomscroll, trade, stream and monetize views or private 18+ content to earn $CASTER. \ud83d\udc7e \nCasterchain.online",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b1203840-5a58-42e7-64b7-e87e08fc4c00/original",
+   "createdAt": 1707323781,
+   "followerCount": 32764,
+   "memberCount": 574,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7704572a-a07e-4168-9b80-9cb14e311e00/original",
+   "leadFid": 332281,
+   "moderatorFids": [
+    332281,
+    861884,
+    1020116,
+    1049425
+   ],
+   "pinnedCastHash": "0x756136a2232ba60191e6726edac30c25525918d2",
+   "externalLink": {
+    "title": "Join Caster",
+    "url": "https://farcaster.xyz/~/channel/caster/join?inviteCode=Ue7lYa_i221NQHYAGJ2BMg"
+   }
+  },
+  {
+   "id": "outcasts",
+   "url": "https://warpcast.com/~/channel/outcasts",
+   "name": "outcasts",
+   "description": "art by ",
+   "descriptionMentions": [
+    5860
+   ],
+   "descriptionMentionsPositions": [
+    7
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/67586174-281e-4834-f728-0c6aa3f95d00/rectcrop3",
+   "createdAt": 1707317101,
+   "followerCount": 32441,
+   "memberCount": 230,
+   "publicCasting": true,
+   "leadFid": 5860,
+   "moderatorFids": [
+    5860
+   ]
+  },
+  {
+   "id": "pill",
+   "url": "https://warpcast.com/~/channel/pill",
+   "name": "pill",
+   "description": "Introducing $PILL, a memecoin created to strengthen the Base ecosystem and empower our dear community.\n\nWebsite: https://pillonbase.site/\n\nOur TG group: https://t.me/staypilled",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/GJQOmsX.png",
+   "createdAt": 1711573901,
+   "followerCount": 31884,
+   "memberCount": 15,
+   "publicCasting": true,
+   "leadFid": 11896,
+   "moderatorFids": [
+    11896
+   ]
+  },
+  {
+   "id": "running",
+   "url": "https://warpcast.com/~/channel/running",
+   "name": "Running",
+   "description": "A community of people passionate about running",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/26eef2b6-3452-453b-6f7d-8c9ab7dbbc00/original",
+   "createdAt": 1702706536,
+   "followerCount": 30685,
+   "memberCount": 367,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/929a40c2-d50b-409f-e485-003f8356c500/original",
+   "leadFid": 1887,
+   "moderatorFids": [
+    1887,
+    456555,
+    473065
+   ],
+   "externalLink": {
+    "title": "Join Running",
+    "url": "https://cura.network/running/details"
+   }
+  },
+  {
+   "id": "paidgroup",
+   "url": "https://warpcast.com/~/channel/paidgroup",
+   "name": "paid group",
+   "description": "the fabled paid group foretold in lore throughout the ages",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/8FqYfPX.jpg",
+   "createdAt": 1710422160,
+   "followerCount": 30679,
+   "memberCount": 297,
+   "publicCasting": false,
+   "leadFid": 343622,
+   "moderatorFids": [
+    343622,
+    864314
+   ],
+   "pinnedCastHash": "0x242e2756a7289f700348b56d4225cd69f58f887c",
+   "externalLink": {
+    "title": "Pay Stub Join",
+    "url": "https://cura.network/paidgroup/details"
+   }
+  },
+  {
+   "id": "replyors",
+   "url": "https://warpcast.com/~/channel/replyors",
+   "name": "replyors",
+   "description": "cast for fun, stay for the vibes",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/95fc2eb2-ec58-478b-dce9-4c0d5c7cef00/original",
+   "createdAt": 1715079851,
+   "followerCount": 30565,
+   "memberCount": 3208,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7577c9bc-8676-4bb6-769d-1ba33e9e2d00/original",
+   "leadFid": 247143,
+   "moderatorFids": [
+    247143,
+    234796,
+    236581,
+    242661,
+    8152,
+    8942
+   ],
+   "pinnedCastHash": "0x70cd3d0defc22ecca28b6fc12da4478ed6914bc9",
+   "externalLink": {
+    "title": "Join the channel",
+    "url": "https://warpcast.com/~/channel/replyors/join?inviteCode=divuenCwgCxxYBMweZMEjw"
+   }
+  },
+  {
+   "id": "layer3",
+   "url": "https://warpcast.com/~/channel/layer3",
+   "name": "layer3",
+   "description": "Layer3 is the best way to learn, explore, and succeed in web3. Get started with Activations on Layer3.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/fcf0bfe5-71ed-4123-ccbd-f38b580c9f00/original",
+   "createdAt": 1702744692,
+   "followerCount": 29987,
+   "memberCount": 131,
+   "publicCasting": true,
+   "leadFid": 12662,
+   "moderatorFids": [
+    12662
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "bracket",
+   "url": "https://warpcast.com/~/channel/bracket",
+   "name": "Bracket",
+   "description": "Live Sports Markets. Mention  in-feed or trade directly in the Bracket Mini App. All markets run on $BRACKY tokens.",
+   "descriptionMentions": [
+    901053
+   ],
+   "descriptionMentionsPositions": [
+    29
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9b892b27-7564-49b9-8ea6-faca31cdfb00/original",
+   "createdAt": 1707421819,
+   "followerCount": 29182,
+   "memberCount": 645,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/293f316a-52dc-4a97-b033-712b7c5a5700/original",
+   "leadFid": 5774,
+   "moderatorFids": [
+    5774,
+    6376,
+    4373,
+    324420
+   ],
+   "externalLink": {
+    "title": "Bracky Mini App",
+    "url": "https://f.bracket.game"
+   }
+  },
+  {
+   "id": "banmal-mode",
+   "url": "https://warpcast.com/~/channel/banmal-mode",
+   "name": "\ubc18\ubaa8 banmo \ud83c\udf10",
+   "description": "\ud83c\uddf0\ud83c\uddf7Korea no.1 channel! English available \ud55c\uad6d\uc778\uc740 \uc5ec\uae30\ub85c | Follow Host: ",
+   "descriptionMentions": [
+    336963
+   ],
+   "descriptionMentionsPositions": [
+    84
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f5c62eec-316a-4ead-3897-0362c1600d00/rectcrop3",
+   "createdAt": 1713619328,
+   "followerCount": 28834,
+   "memberCount": 2822,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d774b3c5-2d3b-419f-9786-fca41079df00/original",
+   "leadFid": 336963,
+   "moderatorFids": [
+    336963,
+    864314
+   ],
+   "pinnedCastHash": "0xbad3fd653cdc0a2c06faf26c15ca95c220ea49ef",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://warpcast.com/~/channel/banmal-mode/join?inviteCode=NdGANtBD2_S0SPir3XBhOQ"
+   }
+  },
+  {
+   "id": "fabric",
+   "url": "https://warpcast.com/~/channel/fabric",
+   "name": "Fabric",
+   "description": "Permissionless capital coordination, efficient markets, economic freedom.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/5073d31e-524b-4128-b487-3f3542677c00/original",
+   "createdAt": 1700264534,
+   "followerCount": 28356,
+   "memberCount": 265,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/eb93d70e-6c04-4dda-6c4b-b237b8bf1300/original",
+   "leadFid": 576,
+   "moderatorFids": [
+    576,
+    396644,
+    465128
+   ],
+   "pinnedCastHash": "0x4f3fe7f52affd244f62731b5f86413f85f1dee0b",
+   "externalLink": {
+    "title": "Website",
+    "url": "https://withfabric.xyz/"
+   }
+  },
+  {
+   "id": "co",
+   "url": "https://warpcast.com/~/channel/co",
+   "name": "co",
+   "description": "Welcome to /co on Farcaster!\n\nCome join us for a fantastic selection of casino games and thrilling gameplay! Get ready for endless fun and excitement, with plenty of chances to win big. Let's roll the dice together at /co!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/uFt3E6G.gif",
+   "createdAt": 1707393897,
+   "followerCount": 28262,
+   "memberCount": 203,
+   "publicCasting": false,
+   "leadFid": 230147,
+   "moderatorFids": [
+    230147
+   ],
+   "pinnedCastHash": "0xead3658ea2e79d0935d11683fdb0111e7a356023"
+  },
+  {
+   "id": "evm",
+   "url": "chain://eip155:1/erc721:0x37fb80ef28008704288087831464058a4a3940ae",
+   "name": "EVM",
+   "description": "Discussions about the Ethereum Virtual Machine",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/evm.png",
+   "createdAt": 1689121073,
+   "followerCount": 28167,
+   "memberCount": 84,
+   "publicCasting": false,
+   "leadFid": 3621,
+   "moderatorFids": [
+    3621,
+    3,
+    5694
+   ],
+   "pinnedCastHash": "0x50db93fa86c4a0331da977033e7d51902e34b094"
+  },
+  {
+   "id": "drakula",
+   "url": "https://warpcast.com/~/channel/drakula",
+   "name": "drakula.app",
+   "description": "drakula.app | Watch videos, get the alpha, trade Base tokens.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/pTEIg3A.jpg",
+   "createdAt": 1707108142,
+   "followerCount": 27725,
+   "memberCount": 303,
+   "publicCasting": true,
+   "leadFid": 738,
+   "moderatorFids": [
+    738,
+    343261
+   ],
+   "pinnedCastHash": "0x96ab196b4a3f59fe320426871352891915f6b8cf",
+   "externalLink": {
+    "title": "Download the app",
+    "url": "https://apple.co/3N8hRmi"
+   }
+  },
+  {
+   "id": "yellow",
+   "url": "https://warpcast.com/~/channel/yellow",
+   "name": "The Yellow Collective on Base",
+   "description": "The Yellow Collective is an onchain culture club on Base, dedicated to supporting & empowering artists & creatives on the Superchain. Daily \u201cCollective Nouns\u201d Auctions + more info @ https://yellowcollective.xyz",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/4Wu19x5.png",
+   "createdAt": 1705553629,
+   "followerCount": 27670,
+   "memberCount": 529,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7ec968b3-170d-48a0-d855-b4d24eae1a00/original",
+   "leadFid": 3642,
+   "moderatorFids": [
+    3642,
+    440220,
+    4567,
+    5450,
+    803,
+    4167
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "enjoy",
+   "url": "https://warpcast.com/~/channel/enjoy",
+   "name": "enjoy",
+   "description": "$ENJOY invents technology to help onchain creatives grow \ud83d\udd35\u2757\ufe0f\u2757\ufe0f\u2757\ufe0f",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/7HrWW1S.png",
+   "createdAt": 1708386661,
+   "followerCount": 27391,
+   "memberCount": 79,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0a3d87e4-bb57-4143-c739-3e39cc10ab00/original",
+   "leadFid": 368835,
+   "moderatorFids": [
+    368835,
+    368422,
+    9055
+   ],
+   "pinnedCastHash": "0xacf8471f2321966bad1da92109a8aaf188398d34",
+   "externalLink": {
+    "title": "Site",
+    "url": "https://enjoy.tech"
+   }
+  },
+  {
+   "id": "charts-by-jvmi",
+   "url": "https://warpcast.com/~/channel/charts-by-jvmi",
+   "name": "charts by jvmi",
+   "description": "art redefining the relationship between pattern & price",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/fc654355-26f6-4a7d-219a-3184c0f7af00/original",
+   "createdAt": 1740069299,
+   "followerCount": 27175,
+   "memberCount": 238,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/74bb43dd-afd2-4e8a-1509-ba7181b09600/original",
+   "leadFid": 196199,
+   "moderatorFids": [
+    196199,
+    861203,
+    864314
+   ],
+   "pinnedCastHash": "0x89b72fcc531238d954ea75cb573ee0725aa1a2eb",
+   "externalLink": {
+    "title": "charts mini app",
+    "url": "https://www.jvmi.art/charts"
+   }
+  },
+  {
+   "id": "solana",
+   "url": "https://solana.com",
+   "name": "Solana",
+   "description": "Discussions about Solana",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/solana.png",
+   "createdAt": 1691015606,
+   "followerCount": 26959,
+   "memberCount": 207,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b3fc4173-87ca-40e3-6904-69533a588100/original",
+   "leadFid": 1471,
+   "moderatorFids": [
+    1471,
+    440220,
+    1886,
+    14520,
+    6227
+   ],
+   "pinnedCastHash": "0xc682a06ac90cea4b69c396def79f2370d6fa9609",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "farcon",
+   "url": "chain://eip155:1/erc721:0x2A9EA02E4c2dcd56Ba20628Fe1bd46bAe2C62746",
+   "name": "FarCon",
+   "description": "Farcaster, but IRL",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/mtH8eq1.jpg",
+   "createdAt": 1687284741,
+   "followerCount": 26842,
+   "memberCount": 120,
+   "publicCasting": true,
+   "leadFid": 1970,
+   "moderatorFids": [
+    1970,
+    616,
+    1626,
+    617,
+    239
+   ],
+   "externalLink": {
+    "title": "farcon.xyz",
+    "url": "https://farcon.xyz"
+   }
+  },
+  {
+   "id": "tropical-house",
+   "url": "https://warpcast.com/~/channel/tropical-house",
+   "name": "Tropical House",
+   "description": "For fans of tropical house music.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/257f7912-2983-496e-aa2e-86d34a8c2f00/original",
+   "createdAt": 1713392421,
+   "followerCount": 26016,
+   "memberCount": 4,
+   "publicCasting": true,
+   "leadFid": 3,
+   "moderatorFids": [
+    3
+   ]
+  },
+  {
+   "id": "coop",
+   "url": "https://warpcast.com/~/channel/coop",
+   "name": "Coop",
+   "description": "$coopahtroopa - 0x4F4A56E5B01db944c2E77faDfA4f23DDE538f343",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/ioCm0oA.png",
+   "createdAt": 1710637209,
+   "followerCount": 25633,
+   "memberCount": 30,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/20a72e63-0fc1-4ae3-93ba-31b72e1b6400/original",
+   "leadFid": 206,
+   "moderatorFids": [
+    206
+   ],
+   "externalLink": {
+    "title": "Zora",
+    "url": "https://zora.co/@coopahtroopa"
+   }
+  },
+  {
+   "id": "football",
+   "url": "chain://eip155:1/erc721:0x7abfe142031532e1ad0e46f971cc0ef7cf4b98b0",
+   "name": "Football",
+   "description": "RESIST",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e457005e-e084-4e2e-288b-d94160184700/original",
+   "createdAt": 1689709823,
+   "followerCount": 25587,
+   "memberCount": 1143,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1ba9dfa3-18fb-450f-6293-7dce76a68500/original",
+   "leadFid": 10694,
+   "moderatorFids": [
+    10703,
+    12938,
+    2329,
+    4163,
+    10694,
+    864314,
+    718134,
+    394357,
+    4926,
+    389349,
+    516917
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "skininthegame",
+   "url": "https://warpcast.com/~/channel/skininthegame",
+   "name": "skininthegame",
+   "description": "0xa7f0b8eb0ad9122adad1702a5f2e2aa2a66ca117",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/cFday9f.jpg",
+   "createdAt": 1706454383,
+   "followerCount": 25573,
+   "memberCount": 134,
+   "publicCasting": false,
+   "leadFid": 108,
+   "moderatorFids": [
+    108,
+    260
+   ]
+  },
+  {
+   "id": "powerfeed",
+   "url": "https://warpcast.com/~/channel/powerfeed",
+   "name": "powerfeed\u26a1\ufe0f",
+   "description": "A new social game where users earn and give power to quality content on Farcaster.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/200a684d-4197-4408-f890-3d5256c30700/rectcrop3",
+   "createdAt": 1715512118,
+   "followerCount": 25454,
+   "memberCount": 289,
+   "publicCasting": true,
+   "leadFid": 8481,
+   "moderatorFids": [
+    8481
+   ],
+   "pinnedCastHash": "0xffe8a422fac8406a53b0b01e7b9402b8b0dae9b2"
+  },
+  {
+   "id": "crypto",
+   "url": "https://warpcast.com/~/channel/crypto",
+   "name": "crypto",
+   "description": "Discussions about crypto generally, from its use and tech to its culture and philosophy. Spammy talk about price, charts, gambling, etc. seriously discouraged.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/cXa9fjz.png",
+   "createdAt": 1702721257,
+   "followerCount": 25380,
+   "memberCount": 217,
+   "publicCasting": true,
+   "leadFid": 48,
+   "moderatorFids": [
+    48,
+    368422
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "spotlight",
+   "url": "https://warpcast.com/~/channel/spotlight",
+   "name": "Spotlight",
+   "description": "crypto social product studio . building the next gen capital markets platform",
+   "descriptionMentions": [
+    399693
+   ],
+   "descriptionMentionsPositions": [
+    29
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1a22eb25-8ee5-454d-d7d9-65c8c829bd00/original",
+   "createdAt": 1702764964,
+   "followerCount": 25188,
+   "memberCount": 37,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9049b0e9-3ec5-4d10-bc53-5ab6a5c3b400/original",
+   "leadFid": 11599,
+   "moderatorFids": [
+    11599
+   ],
+   "pinnedCastHash": "0x467a844ac5e643b68d667538fb0fb7cc526736e6",
+   "externalLink": {
+    "title": "X",
+    "url": "https://x.com/viaspotlight"
+   }
+  },
+  {
+   "id": "ai-art",
+   "url": "https://warpcast.com/~/channel/ai-art",
+   "name": "AI art",
+   "description": "Share or discuss art made with AI tools.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/TywLGzR.jpg",
+   "createdAt": 1702697146,
+   "followerCount": 24906,
+   "memberCount": 636,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8b0510c4-4bf4-4b97-1ae2-cece46849a00/original",
+   "leadFid": 195917,
+   "moderatorFids": [
+    195917,
+    417374,
+    279394,
+    364883,
+    18570,
+    366213,
+    307899
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "swatches",
+   "url": "https://warpcast.com/~/channel/swatches",
+   "name": "swatches by jvmi",
+   "description": "interactive art built on farcaster",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/lroY5ff.gif",
+   "createdAt": 1711502763,
+   "followerCount": 24750,
+   "memberCount": 509,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/669757a3-6da0-434d-8295-783b971bab00/original",
+   "leadFid": 196199,
+   "moderatorFids": [
+    196199,
+    861203,
+    864314
+   ],
+   "pinnedCastHash": "0xc02c53042589e59c80185b9c3de804e5970d2598",
+   "externalLink": {
+    "title": "official site",
+    "url": "https://www.jvmi.art/swatches"
+   }
+  },
+  {
+   "id": "kimchi",
+   "url": "https://warpcast.com/~/channel/kimchi",
+   "name": "kimchi",
+   "description": "Channel and starter cradle for the forcaster ecosystem airdrop for Korean.\nBut all of us.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/OojaKCH.png",
+   "createdAt": 1706709333,
+   "followerCount": 24540,
+   "memberCount": 405,
+   "publicCasting": true,
+   "leadFid": 241652,
+   "moderatorFids": [
+    241652
+   ],
+   "pinnedCastHash": "0xa62742c9271f7137543eedc98b5fa9dd08c76a20"
+  },
+  {
+   "id": "coop-recs",
+   "url": "https://warpcast.com/~/channel/coop-recs",
+   "name": "Coop Records",
+   "description": "Onchain Record Label. Collect Music. Earn Rewards. cooprecords.xyz",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/fQN9Jr6.gif",
+   "createdAt": 1707174159,
+   "followerCount": 24262,
+   "memberCount": 63,
+   "publicCasting": false,
+   "leadFid": 262450,
+   "moderatorFids": [
+    262450,
+    368422,
+    396644
+   ],
+   "pinnedCastHash": "0x0503aa2a8028c78b0607f12be9a44c03b60fd016"
+  },
+  {
+   "id": "product",
+   "url": "https://farcaster.group/product",
+   "name": "Product",
+   "description": "A place to talk about software products and the craft of building them",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/product.png",
+   "createdAt": 1697505197,
+   "followerCount": 24226,
+   "memberCount": 314,
+   "publicCasting": false,
+   "leadFid": 3635,
+   "moderatorFids": [
+    3,
+    3635
+   ],
+   "pinnedCastHash": "0xf568fd8e1eafcf4fe8e34d217f9610e9931956d2"
+  },
+  {
+   "id": "monad",
+   "url": "https://warpcast.com/~/channel/monad",
+   "name": "Monad",
+   "description": "A channel dedicated to the Monad Blockchain and its community // (Send message to mods if you want to post in the channel)",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/LvAgmbI.jpg",
+   "createdAt": 1702702364,
+   "followerCount": 23676,
+   "memberCount": 161,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/695003a7-5564-440f-60b8-abd8195e4000/original",
+   "leadFid": 16259,
+   "moderatorFids": [
+    16877,
+    3609,
+    16259,
+    17979,
+    295129,
+    395516,
+    3239
+   ],
+   "pinnedCastHash": "0x9e13a2e08a90c4332d651f11c310b0299275902d",
+   "externalLink": {
+    "title": "Homepage",
+    "url": "https://www.monad.xyz/"
+   }
+  },
+  {
+   "id": "f1",
+   "url": "chain://eip155:7777777/erc721:0x47163feb5c3b97f90671b1e1a1359b8240edbdbe",
+   "name": "F1",
+   "description": "Discussions about Formula 1.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeigabvfjslrhm3odwhp2o6ws2nm65groagcy6y2jldwx6gbxierhre",
+   "createdAt": 1691015606,
+   "followerCount": 23076,
+   "memberCount": 116,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8d9c44df-fa84-4748-7db2-7e2c9d9a4400/original",
+   "leadFid": 13089,
+   "moderatorFids": [
+    828,
+    5745,
+    13089,
+    1725,
+    1631
+   ],
+   "pinnedCastHash": "0x325ebc895f96035e3ff14df63e3b8c51d506158d",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "neynar",
+   "url": "chain://eip155:1/erc721:0xd4498134211baad5846ce70ce04e7c4da78931cc",
+   "name": "Neynar",
+   "description": "The easiest way to build on Farcaster | neynar.com | ",
+   "descriptionMentions": [
+    6131
+   ],
+   "descriptionMentionsPositions": [
+    53
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/86b3a6fe-a058-442f-7590-eaacc1e8c800/original",
+   "createdAt": 1690488765,
+   "followerCount": 22659,
+   "memberCount": 456,
+   "publicCasting": false,
+   "leadFid": 194,
+   "moderatorFids": [
+    194,
+    191,
+    864314
+   ],
+   "externalLink": {
+    "title": "Try Neynar AI",
+    "url": "https://farcaster.xyz/miniapps/w1O_146jGEE9/neynar"
+   }
+  },
+  {
+   "id": "cats",
+   "url": "chain://eip155:7777777/erc721:0x038adac316a87c29c3acc8641e1d8320bb0144c2",
+   "name": "Cats",
+   "description": "Meow! A place to discuss and share photos of cats.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeiex4iylhyfsihrqxs6hpvy6ik5i5m2pbihdhtcj2eov6uqdncoezy",
+   "createdAt": 1691015606,
+   "followerCount": 22603,
+   "memberCount": 2803,
+   "publicCasting": false,
+   "leadFid": 617,
+   "moderatorFids": [
+    617
+   ],
+   "externalLink": {
+    "title": "Join /cats!",
+    "url": "https://warpcast.com/~/channel/cats/join?inviteCode=zlJUQm7zflyo2MRG2IKisA"
+   }
+  },
+  {
+   "id": "degenfans",
+   "url": "https://warpcast.com/~/channel/degenfans",
+   "name": "df",
+   "description": "enjoy",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e46347b9-b860-4427-f2c2-f7da9c1a5400/original",
+   "createdAt": 1710063342,
+   "followerCount": 22368,
+   "memberCount": 491,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7d57251e-2403-40fb-847c-e86726ca2000/original",
+   "leadFid": 385955,
+   "moderatorFids": [
+    385955,
+    573885,
+    440220
+   ],
+   "pinnedCastHash": "0x037de1950d83ce15b9fc66bf8132e12a55ad5a77",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "thefirm",
+   "url": "https://farcaster.xyz/~/channel/thefirm",
+   "name": "The Firm \u261e The Channel",
+   "description": "The Official \u201cVirtual Headquarters\u201d of . Where Synergy, Opportunity and Innovation align.",
+   "descriptionMentions": [
+    874152
+   ],
+   "descriptionMentionsPositions": [
+    43
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6425b1cd-e6d0-4374-f0e9-ad6083c3cd00/original",
+   "createdAt": 1756308786,
+   "followerCount": 21737,
+   "memberCount": 19831,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/83a0e4e8-5492-4a5a-edc0-f1dc772b6a00/original",
+   "leadFid": 874152,
+   "moderatorFids": [
+    874152,
+    1113654,
+    1116946,
+    1335362,
+    1374637,
+    1193615
+   ],
+   "pinnedCastHash": "0x1e2b01a7a1cd52d0c5e5828c5cecb50d7d52e8bf",
+   "externalLink": {
+    "title": "\ud835\udc00\ud835\udc2e\ud835\udc2d\ud835\udc28\ud835\udc69\ud835\udc90\ud835\udc9a\u00a9",
+    "url": "https://farcaster.xyz/miniapps/qbA9MwzCCZlw/thefirm/autoboy"
+   }
+  },
+  {
+   "id": "berachain",
+   "url": "https://warpcast.com/~/channel/berachain",
+   "name": "berachain",
+   "description": "Berachain is a high-performance EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/vbemgA2.png",
+   "createdAt": 1703044349,
+   "followerCount": 21538,
+   "memberCount": 82,
+   "publicCasting": true,
+   "leadFid": 20045,
+   "moderatorFids": [
+    20045
+   ]
+  },
+  {
+   "id": "cameron",
+   "url": "https://warpcast.com/~/channel/cameron",
+   "name": "Cameron Spirals",
+   "description": "experimental content stream from .   memes, writing, poems, and software.\nprobably not a cult \ud83e\udee1",
+   "descriptionMentions": [
+    617
+   ],
+   "descriptionMentionsPositions": [
+    33
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d45adad3-4d05-4e2c-e3be-1d35a9d71600/original",
+   "createdAt": 1703098223,
+   "followerCount": 21426,
+   "memberCount": 86,
+   "publicCasting": true,
+   "leadFid": 617,
+   "moderatorFids": [
+    617,
+    368422
+   ],
+   "pinnedCastHash": "0x7a38dc2e0b3271b35bc5da267628c57e77434adc"
+  },
+  {
+   "id": "ogs",
+   "url": "https://warpcast.com/~/channel/ogs",
+   "name": "Onchain Gaias",
+   "description": "handcrafted spatial connections",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f6823ba2-5810-4ffc-8d21-07788c5a7600/original",
+   "createdAt": 1709788379,
+   "followerCount": 21186,
+   "memberCount": 926,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4f9edd6c-f10a-4f0d-83b0-6a5399e46000/original",
+   "leadFid": 7251,
+   "moderatorFids": [
+    7251,
+    861203,
+    864314
+   ],
+   "externalLink": {
+    "title": "gaias forever",
+    "url": "https://magiceden.us/collections/base/0xa449b4f43d9a33fcdcf397b9cc7aa909012709fd"
+   }
+  },
+  {
+   "id": "onchainsummer",
+   "url": "https://warpcast.com/~/channel/onchainsummer",
+   "name": "onchainsummer",
+   "description": "it's time to build for onchain summer",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/ItOcBId.png",
+   "createdAt": 1709455465,
+   "followerCount": 21091,
+   "memberCount": 854,
+   "publicCasting": false,
+   "leadFid": 12142,
+   "moderatorFids": [
+    12142,
+    440220
+   ],
+   "pinnedCastHash": "0x154fad759858cfb0b8a1b1470cfda1e1735a9965"
+  },
+  {
+   "id": "chatbfg",
+   "url": "https://warpcast.com/~/channel/chatbfg",
+   "name": "chatbfg",
+   "description": "whenever you feel lonely check /chatbfg",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/RF6Fpod.jpg",
+   "createdAt": 1711504495,
+   "followerCount": 20773,
+   "memberCount": 1368,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d5370161-f8b4-4935-5a93-2893dee94500/original",
+   "leadFid": 269694,
+   "moderatorFids": [
+    269694,
+    7464,
+    262301,
+    864314,
+    280302
+   ],
+   "pinnedCastHash": "0x7e3a2a9de1359b8561c4608c66fc1d6e01ccb2d2",
+   "externalLink": {
+    "title": "join us",
+    "url": "https://warpcast.com/~/channel/chatbfg/join?inviteCode=5g7ePhL_7lctXqNgBHQTCg"
+   }
+  },
+  {
+   "id": "rust",
+   "url": "https://www.rust-lang.org",
+   "name": "Rust",
+   "description": "Discussions about the Rust programming language",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/rust.png",
+   "createdAt": 1693538083,
+   "followerCount": 20583,
+   "memberCount": 40,
+   "publicCasting": false,
+   "leadFid": 10456,
+   "moderatorFids": [
+    10456
+   ],
+   "pinnedCastHash": "0x2837c875c31e02cfe695e44f5ca271dbce28fd8f",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://frame.openrank.com/api/channel/rust"
+   }
+  },
+  {
+   "id": "anime-manga",
+   "url": "https://warpcast.com/~/channel/anime-manga",
+   "name": "anime-manga \ud83c\udf61",
+   "description": "A place to share recommendations, and reviews ad well as fan art, industry news, and other related media!  \nOff topic casts will be hidden. *Please avoid spoilers*",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6f42a08c-6062-4a0f-b34f-8c487aa57d00/original",
+   "createdAt": 1708992629,
+   "followerCount": 20477,
+   "memberCount": 252,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/3798caa5-384e-44b2-e02b-1876a5706500/original",
+   "leadFid": 234616,
+   "moderatorFids": [
+    234616,
+    396644
+   ],
+   "pinnedCastHash": "0x230454728cec9f5e5e392046e24f6beb8509043c",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "gmonchain",
+   "url": "https://warpcast.com/~/channel/gmonchain",
+   "name": "gmonchain",
+   "description": "Say GM and connect globally, spread positivity, earn points, build your decentralized rep, and grow in crypto. Sleek, vibrant, and seamless \u2013 GMonchain levels up your blockchain game in one click! \ud83d\ude80",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/804f8845-4355-455d-f42e-9bd3eb67b300/original",
+   "createdAt": 1742889565,
+   "followerCount": 20386,
+   "memberCount": 535,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2b3b5ee9-3696-4c0b-d96d-6c7b733e1000/original",
+   "leadFid": 537378,
+   "moderatorFids": [
+    537378
+   ],
+   "pinnedCastHash": "0x9bf4c14cdcdccd11596dc748d452b67c8aff98eb",
+   "externalLink": {
+    "title": "GMonchain",
+    "url": "http://gmonchain.vercel.app"
+   }
+  },
+  {
+   "id": "f4f",
+   "url": "https://warpcast.com/~/channel/f4f",
+   "name": "Follow for Follow",
+   "description": "Follow people then you cast !",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/pSCpuNX.jpg",
+   "createdAt": 1707126107,
+   "followerCount": 20363,
+   "memberCount": 50,
+   "publicCasting": false,
+   "leadFid": 273111,
+   "moderatorFids": [
+    273111
+   ],
+   "pinnedCastHash": "0x7d3a29a107769836657b02feef474c5bfb0c4dde"
+  },
+  {
+   "id": "purple",
+   "url": "chain://eip155:1/erc721:0xa45662638e9f3bbb7a6fecb4b17853b7ba0f3a60",
+   "name": "Purple",
+   "description": "Purple is a DAO whose goal is to proliferate and expand the Farcaster protocol and ecosystem.\n\nhttps://nouns.build/dao/base/0x8de71d80ee2c4700bc9d4f8031a2504ca93f7088",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.seadn.io/gae/2R29pIWneHAMHH0e2Lcqsilv7vRBpnYngrKOZXBkhpyrlBVgcJzgPxPq_pWujLggzy-EW1Jt9QJIOQW7t95ufdgvwCAITd4fw0DvQJM?w=500&auto=format",
+   "createdAt": 1687284741,
+   "followerCount": 20201,
+   "memberCount": 188,
+   "publicCasting": false,
+   "leadFid": 472,
+   "moderatorFids": [
+    472,
+    234616,
+    861203,
+    864314
+   ],
+   "pinnedCastHash": "0x7c6f71caaee3f01d44487872314bad2cd94926cb",
+   "externalLink": {
+    "title": "Join /purple",
+    "url": "https://modbot.sh/channels/purple/join"
+   }
+  },
+  {
+   "id": "nouns-animators",
+   "url": "https://warpcast.com/~/channel/nouns-animators",
+   "name": "nouns-animators",
+   "description": "Post nounish animations, earn ETH: rounds.wtf/nouns-animators",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0978ff50-64cd-4ef0-48f2-5db18c163200/original",
+   "createdAt": 1710780058,
+   "followerCount": 20045,
+   "memberCount": 226,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/41439c8d-db7e-4ab1-7807-428d7fe4d900/original",
+   "leadFid": 2433,
+   "moderatorFids": [
+    2433,
+    262301,
+    196215
+   ],
+   "pinnedCastHash": "0x10ce934dced34158afcf344525bd8c9ddff916a8",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "wildcardclub",
+   "url": "https://warpcast.com/~/channel/wildcardclub",
+   "name": "wildcard",
+   "description": "Go Wild!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/68657e2d-ded8-4bd2-bca2-03779668ac00/original",
+   "createdAt": 1713506327,
+   "followerCount": 19895,
+   "memberCount": 292,
+   "publicCasting": false,
+   "leadFid": 7791,
+   "moderatorFids": [
+    7791,
+    440220,
+    4914
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "jobs",
+   "url": "chain://eip155:8453/erc721:0x5fcd7a54fdf08c8dbcb969bc1f021ae87affafa8",
+   "name": "Jobs",
+   "description": "A place to post and find jobs on Farcaster",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafkreie2uut3t5enmn6vtqainrmzwwy47evihl4dmxjqofwwjvqk6snbsu",
+   "createdAt": 1692218190,
+   "followerCount": 19850,
+   "memberCount": 499,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/fee28ec9-3b49-4778-af82-e19095bf2000/original",
+   "leadFid": 4044,
+   "moderatorFids": [
+    4044
+   ],
+   "pinnedCastHash": "0x5b527ae89fdbffc7f5506224df84479d10e35c6f",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "coffee",
+   "url": "https://warpcast.com/~/channel/coffee",
+   "name": "coffee",
+   "description": "talking about coffee, and sharing your today\u2019s coffee for asynchronous sip.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/FsY8FOE.jpg",
+   "createdAt": 1702692811,
+   "followerCount": 19419,
+   "memberCount": 392,
+   "publicCasting": true,
+   "leadFid": 2251,
+   "moderatorFids": [
+    2251,
+    3895,
+    5179
+   ]
+  },
+  {
+   "id": "360",
+   "url": "https://warpcast.com/~/channel/360",
+   "name": "360",
+   "description": "360 collection\n\nhttps://opensea.io/collection/0x360/overview",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/uzVXzkV.gif",
+   "createdAt": 1711704472,
+   "followerCount": 19408,
+   "memberCount": 104,
+   "publicCasting": true,
+   "leadFid": 14351,
+   "moderatorFids": [
+    14351,
+    368422
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "alfafrens",
+   "url": "https://warpcast.com/~/channel/alfafrens",
+   "name": "AlfaFrens",
+   "description": "Social subscriptions app that helps creators connect with their fans and get paid every second. Built by . \ud83e\udec2 alfafrens.com/info",
+   "descriptionMentions": [
+    1044434
+   ],
+   "descriptionMentionsPositions": [
+    105
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6c7482a1-6b38-4da4-d943-7f220a272f00/original",
+   "createdAt": 1713904257,
+   "followerCount": 19396,
+   "memberCount": 399,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d63eec87-748d-4054-9eb6-e802d71aa600/original",
+   "leadFid": 1044434,
+   "moderatorFids": [
+    340305,
+    368422,
+    4901,
+    9507,
+    1044434
+   ],
+   "pinnedCastHash": "0x6955c2b4bea39c6620a0e16037dbf1ad5034e851",
+   "externalLink": {
+    "title": "Join channel",
+    "url": "https://warpcast.com/alfafrens/0xe11664ec"
+   }
+  },
+  {
+   "id": "degentokenbase",
+   "url": "https://warpcast.com/~/channel/degentokenbase",
+   "name": "$DEGEN",
+   "description": "A space for DEGEN builders to sync, ship, and push the ecosystem forward. Projects, grants, and real development\u2014no farming.\n\nLet\u2019s build.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8c956aaf-d633-4544-42bd-9ab938854600/original",
+   "createdAt": 1716482901,
+   "followerCount": 19279,
+   "memberCount": 535,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/507c5522-f4df-4e12-802c-3c713d794a00/original",
+   "leadFid": 15983,
+   "moderatorFids": [
+    15983,
+    12493
+   ],
+   "pinnedCastHash": "0xf719c8d1d1850688af53db99fc195f302edc6091",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://frame.openrank.com/api/channel/degentokenbase?channelKey=degentokenbase"
+   }
+  },
+  {
+   "id": "appreciation",
+   "url": "https://warpcast.com/~/channel/appreciation",
+   "name": "appreciation",
+   "description": "a place to practice daily appreciation and to cast in detail the things about life that you appreciate and feel others should consider for their appreciation",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/AtO178g.png",
+   "createdAt": 1712034024,
+   "followerCount": 19273,
+   "memberCount": 1594,
+   "publicCasting": true,
+   "leadFid": 2211,
+   "moderatorFids": [
+    2211,
+    398028,
+    198783,
+    223778
+   ],
+   "pinnedCastHash": "0xcaa298cd0a28a4e173f57b6337c8dbe988b8b81a",
+   "externalLink": {
+    "title": "Add Frame",
+    "url": "https://warpcast.com/~/mini-apps/launch?domain=appreciation.lat"
+   }
+  },
+  {
+   "id": "lounge",
+   "url": "https://warpcast.com/~/channel/lounge",
+   "name": "Lounge S3: Designers",
+   "description": "Lounge is the thoughtful conversation you wish you could overhear. Sit 'n listen for a spell, sugar",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/08dfc03c-55b1-464f-d215-c5a9b53c5200/original",
+   "createdAt": 1716326817,
+   "followerCount": 19119,
+   "memberCount": 38,
+   "publicCasting": true,
+   "leadFid": 617,
+   "moderatorFids": [
+    617,
+    368422
+   ],
+   "pinnedCastHash": "0xff1ec2418194dd3e417a846ed905f656b06b0e6c"
+  },
+  {
+   "id": "fc-devs",
+   "url": "https://warpcast.com/~/channel/fc-devs",
+   "name": "Farcaster Devs",
+   "description": "A channel for builders on Farcaster to ask questions and get support",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8a0a4802-6819-47ee-2c3b-29b681d7c500/original",
+   "createdAt": 1704989268,
+   "followerCount": 18930,
+   "memberCount": 209,
+   "publicCasting": true,
+   "leadFid": 2,
+   "moderatorFids": [
+    2,
+    3,
+    6841,
+    12
+   ],
+   "pinnedCastHash": "0xb062efa6dbae9c0f5813084cd4865bd4e87b4b6d",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "ai",
+   "url": "chain://eip155:7777777/erc721:0x5747eef366fd36684e8893bf4fe628efc2ac2d10",
+   "name": "AI",
+   "description": "\ud835\uddee\ud835\ude01\ud835\ude01\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddf6\ud835\ude00 \ud835\uddee\ud835\uddf9\ud835\uddf9 \ud835\ude06\ud835\uddfc\ud835\ude02 \ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddf1 \ud835\uddc2\ud835\uddc7\ud835\uddcf\ud835\uddc2\ud835\uddcd\ud835\uddbe \ud835\uddc8\ud835\uddc7\ud835\uddc5\ud835\uddd2",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/z4yori9.jpg",
+   "createdAt": 1690488765,
+   "followerCount": 18855,
+   "memberCount": 19,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/dc15de4d-6b8d-4d6e-fbcd-74654cab2200/original",
+   "leadFid": 1171,
+   "moderatorFids": [
+    1171
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "design-everydays",
+   "url": "https://warpcast.com/~/channel/design-everydays",
+   "name": "Design Everydays",
+   "description": "Design concepts that explore ways web3 can be more useful, exciting or easier to use. \nmint \ud83d\udc49 designeverydays.com",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/XdyatFr.jpg",
+   "createdAt": 1702702575,
+   "followerCount": 18842,
+   "memberCount": 2,
+   "publicCasting": false,
+   "leadFid": 1317,
+   "moderatorFids": [
+    1317,
+    396644
+   ]
+  },
+  {
+   "id": "bitcoin",
+   "url": "https://bitcoin.org",
+   "name": "Bitcoin",
+   "description": "Bitcoin and everything related. Please don't post daily price. That's low signal info",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/bitcoin.png",
+   "createdAt": 1691015606,
+   "followerCount": 18718,
+   "memberCount": 179,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f2aa8170-f8b9-4242-2bce-390f01fa9d00/original",
+   "leadFid": 124,
+   "moderatorFids": [
+    124
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "quilibrium",
+   "url": "https://www.quilibrium.com",
+   "name": "Quilibrium",
+   "description": "Discussions about Quilibrium, the decentralized MPC platform as a service\n\nhttps://www.quilibrium.com",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/quilibrium.png",
+   "createdAt": 1691015606,
+   "followerCount": 18515,
+   "memberCount": 539,
+   "publicCasting": false,
+   "leadFid": 1325,
+   "moderatorFids": [
+    1325
+   ],
+   "externalLink": {
+    "title": "Join",
+    "url": "https://warpcast.com/~/channel/quilibrium/join?inviteCode=L3MupuoJ3hqTrT2VQ3K3qg"
+   }
+  },
+  {
+   "id": "walletconnect",
+   "url": "https://warpcast.com/~/channel/walletconnect",
+   "name": "walletconnect",
+   "description": "The onchain UX ecosystem. WalletConnect Inc. is now Reown and does not manage the Network. For AppKit and WalletKit \u2192  /reown",
+   "descriptionMentions": [
+    663664
+   ],
+   "descriptionMentionsPositions": [
+    120
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4fe59f8e-5723-49a8-27a9-8540ad1f4100/original",
+   "createdAt": 1706407892,
+   "followerCount": 18378,
+   "memberCount": 10,
+   "publicCasting": true,
+   "leadFid": 192646,
+   "moderatorFids": [
+    192646,
+    18224
+   ]
+  },
+  {
+   "id": "sharetoearn",
+   "url": "https://warpcast.com/~/channel/sharetoearn",
+   "name": "Share to Earn",
+   "description": "Share the dough and watch your rewards crumb in! \ud83c\udf6a #ShareToEarn",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ba546373-f3d6-4209-5926-281a6c030d00/original",
+   "createdAt": 1718301101,
+   "followerCount": 18121,
+   "memberCount": 5,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/c9d610a7-6125-4f7c-e9c0-44b7baed7a00/original",
+   "leadFid": 381100,
+   "moderatorFids": [
+    381100,
+    487853,
+    378582,
+    295733,
+    381077
+   ],
+   "externalLink": {
+    "title": "Snickerdoodle",
+    "url": "https://app.snickerdoodle.com"
+   }
+  },
+  {
+   "id": "farcastles",
+   "url": "https://warpcast.com/~/channel/farcastles",
+   "name": "Farcastles",
+   "description": "An epic battle between North and South on Farcaster. A Minimum Viable Game that invites the community to play and build together. CC0 \"Thou Mayest\" \ud83c\udff0\u2694\ufe0f",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/OznI2bO.jpg",
+   "createdAt": 1704079058,
+   "followerCount": 18049,
+   "memberCount": 1884,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d3af66b4-1d24-4aa3-a45c-bff95544f000/original",
+   "leadFid": 18661,
+   "moderatorFids": [
+    18661,
+    861203,
+    230147,
+    292506,
+    198783,
+    864314
+   ],
+   "pinnedCastHash": "0xa0bde1d85a22d45ebd97275e58a2864fccce12bf",
+   "externalLink": {
+    "title": "Join Farcastles!",
+    "url": "https://cura.network/farcastles/details"
+   }
+  },
+  {
+   "id": "imagine-infra",
+   "url": "https://warpcast.com/~/channel/imagine-infra",
+   "name": "imagine !!!",
+   "description": "token of imagination",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/xzzdL2L.jpg",
+   "createdAt": 1709775323,
+   "followerCount": 17959,
+   "memberCount": 92,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/922957b6-49d0-40a4-b1cc-fddc98f2b900/original",
+   "leadFid": 381068,
+   "moderatorFids": [
+    381068
+   ],
+   "pinnedCastHash": "0xa90302ba236eae272ad9496d4ee7dc2e5c52bf71",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://warpcast.com/~/channel/imagine-infra/join?inviteCode=itIFJSYNAMW-lnlFJWuOwA"
+   }
+  },
+  {
+   "id": "beamr",
+   "url": "https://farcaster.xyz/~/channel/beamr",
+   "name": "beamr",
+   "description": "Beamr is a dynamic micro-subscription service on Farcaster. It's the easiest way to sustainably support the people that make your feed worth scrolling.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e492f418-2bbc-4156-2e32-7270050caf00/original",
+   "createdAt": 1754509756,
+   "followerCount": 17942,
+   "memberCount": 5,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/39c47a6b-1c54-4486-35e2-3d12459f8700/original",
+   "leadFid": 1149437,
+   "moderatorFids": [
+    1149437
+   ],
+   "pinnedCastHash": "0x68e65caccafe8e46c119ce3817b53b00ed91fe0e",
+   "externalLink": {
+    "title": "Beamr",
+    "url": "https://farcaster.xyz/miniapps/XCbBjajsNrdL/beamr"
+   }
+  },
+  {
+   "id": "gmfarcaster",
+   "url": "https://warpcast.com/~/channel/gmfarcaster",
+   "name": "GM Farcaster (podcast)",
+   "description": "GM Farcaster: Farcaster's #1 news show to start your day! With hosts  &  streaming live Mon/Thurs on YouTube & Twitter with recordings available on Apple, Spotify, and on GMFarcaster.com.  ",
+   "descriptionMentions": [
+    5818,
+    4167,
+    273384,
+    885236
+   ],
+   "descriptionMentionsPositions": [
+    69,
+    72,
+    188,
+    189
+   ],
+   "imageUrl": "https://i.imgur.com/8OMHbYB.jpg",
+   "createdAt": 1702863134,
+   "followerCount": 17880,
+   "memberCount": 43,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a60ea76b-2136-4fd3-f44f-02a280d0dc00/original",
+   "leadFid": 4167,
+   "moderatorFids": [
+    4167,
+    396644,
+    273384,
+    5818
+   ],
+   "externalLink": {
+    "title": "GMFC on YouTube",
+    "url": "https://www.youtube.com/@GMFarcaster"
+   }
+  },
+  {
+   "id": "beearly",
+   "url": "https://warpcast.com/~/channel/beearly",
+   "name": "beearly",
+   "description": "Always beearly \ud83d\udc1d\nEasily gather early users for your product on Farcaster\n\nFollow  for updates - https://beearly.club",
+   "descriptionMentions": [
+    574472
+   ],
+   "descriptionMentionsPositions": [
+    84
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b748683a-cfdb-41c1-67c5-8c9855717a00/original",
+   "createdAt": 1716460043,
+   "followerCount": 17766,
+   "memberCount": 3,
+   "publicCasting": true,
+   "leadFid": 4461,
+   "moderatorFids": [
+    4461,
+    260770
+   ]
+  },
+  {
+   "id": "commitment",
+   "url": "https://warpcast.com/~/channel/commitment",
+   "name": "commitment",
+   "description": "a place to make public commitments to hold yourself accountable. casts must start with \"I commit\" or \"My commitment is\" to be shown in channel",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/HJuC4Ee.png",
+   "createdAt": 1715317616,
+   "followerCount": 17742,
+   "memberCount": 143,
+   "publicCasting": true,
+   "leadFid": 129,
+   "moderatorFids": [
+    129,
+    368422
+   ],
+   "pinnedCastHash": "0xfd7ce18500695211a57912934e15cb89cbb4218f"
+  },
+  {
+   "id": "69ism",
+   "url": "https://warpcast.com/~/channel/69ism",
+   "name": "69ism",
+   "description": "#1 onchain cult. cast here whenever you see 'the number' - remember, once you see it, you can't unsee it.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f07efb75-b7c7-4dae-7d1d-4ed7f9cf6d00/original",
+   "createdAt": 1713747415,
+   "followerCount": 17515,
+   "memberCount": 1354,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2e031717-daeb-4b67-2ec1-4ea979c33800/original",
+   "leadFid": 539,
+   "moderatorFids": [
+    539
+   ],
+   "pinnedCastHash": "0x2531e8ee3cd521c87ba8e3d1d9c7e1dfdb75669d",
+   "externalLink": {
+    "title": "by @ace",
+    "url": "https://farcaster.xyz/ace"
+   }
+  },
+  {
+   "id": "matcha",
+   "url": "https://warpcast.com/~/channel/matcha",
+   "name": "matcha",
+   "description": "A discussion about anything related to matcha.xyz, a DEX aggregator built by 0x. Search and trade over 6M tokens across 9 chains.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/7gP24zT.png",
+   "createdAt": 1707339391,
+   "followerCount": 17478,
+   "memberCount": 33,
+   "publicCasting": true,
+   "leadFid": 17114,
+   "moderatorFids": [
+    17114
+   ],
+   "pinnedCastHash": "0xc18e4e687ad4b332a98d17f21661ccc9e0b784f7"
+  },
+  {
+   "id": "sense",
+   "url": "https://warpcast.com/~/channel/sense",
+   "name": "Sense",
+   "description": "Pass your thoughts into the minds of others \ud83d\udcac  https://cura.network/sense/details",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a40b178e-5be6-4a05-9852-cd49c93a7200/original",
+   "createdAt": 1726831630,
+   "followerCount": 17298,
+   "memberCount": 4244,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7ed8c1e0-e238-42d2-7a4b-14bc411cc400/original",
+   "leadFid": 487070,
+   "moderatorFids": [
+    487070,
+    528914,
+    511972,
+    689717,
+    864314,
+    712192
+   ],
+   "externalLink": {
+    "title": "Click to Join!",
+    "url": "https://farcaster.xyz/~/channel/sense/join?inviteCode=Fy_MxbM0X4wG1BzJ_osCUA"
+   }
+  },
+  {
+   "id": "sharks",
+   "url": "https://warpcast.com/~/channel/sharks",
+   "name": "SHARK$ \ud83e\udd88\ud83e\udd88\ud83e\udd88",
+   "description": "SHARK MAFIA",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/89a2d030-8e18-4ae9-7a30-7089f003ce00/rectcrop3",
+   "createdAt": 1717918565,
+   "followerCount": 17175,
+   "memberCount": 519,
+   "publicCasting": false,
+   "leadFid": 2163,
+   "moderatorFids": [
+    2163
+   ]
+  },
+  {
+   "id": "justbuild",
+   "url": "https://warpcast.com/~/channel/justbuild",
+   "name": "Just Build",
+   "description": "Cozy corner for content creators, product makers, boundary breakers, wild devs, news heads, artists and art. Join if you have something to say or a burning desire to just build. Home of the $units token. Based takes welcome. https://linktr.ee/justbuild",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/v9kzJrm.png",
+   "createdAt": 1711658886,
+   "followerCount": 16964,
+   "memberCount": 381,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9a37e41e-f1f3-4440-b7b0-7a23ccdfe200/original",
+   "leadFid": 414955,
+   "moderatorFids": [
+    226915,
+    414955,
+    426167,
+    467241,
+    462759,
+    465420
+   ],
+   "pinnedCastHash": "0xaa8ae5519b19e969119259696cccc986fd1f72ed",
+   "externalLink": {
+    "title": "Casting Guide",
+    "url": "https://justbuild.today/guidelines"
+   }
+  },
+  {
+   "id": "warpwifhat",
+   "url": "https://warpcast.com/~/channel/warpwifhat",
+   "name": "NFTs - Room",
+   "description": "Degen NFTs",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/xK8weHP.jpg",
+   "createdAt": 1707242724,
+   "followerCount": 16750,
+   "memberCount": 3,
+   "publicCasting": true,
+   "leadFid": 318577,
+   "moderatorFids": [
+    318577
+   ]
+  },
+  {
+   "id": "july",
+   "url": "https://warpcast.com/~/channel/july",
+   "name": "july",
+   "description": "your musings, thoughts & dreams; welcome here",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/HZRURoE.jpg",
+   "createdAt": 1703276811,
+   "followerCount": 16734,
+   "memberCount": 700,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8f2d5017-061d-4a22-55ce-d005760b2800/original",
+   "leadFid": 1287,
+   "moderatorFids": [
+    1287
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "scoop",
+   "url": "https://warpcast.com/~/channel/scoop",
+   "name": "scoop",
+   "description": "app store link: https://apps.apple.com/us/app/scoop-cards/id6499503420",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/dcfb678e-a2be-476b-5891-367d4ab6d500/original",
+   "createdAt": 1712182905,
+   "followerCount": 16590,
+   "memberCount": 69,
+   "publicCasting": true,
+   "leadFid": 734,
+   "moderatorFids": [
+    734,
+    545
+   ],
+   "pinnedCastHash": "0x338670d3077248d2fad88390b0325a578d09efad"
+  },
+  {
+   "id": "onchain",
+   "url": "https://warpcast.com/~/channel/onchain",
+   "name": "Onchain Computer",
+   "description": "onchain is the new online",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/o4c3DQt.jpg",
+   "createdAt": 1702774072,
+   "followerCount": 16546,
+   "memberCount": 205,
+   "publicCasting": false,
+   "leadFid": 656,
+   "moderatorFids": [
+    656
+   ],
+   "pinnedCastHash": "0x023873d71a92d7abbcc49776e80f8e3cd43ca8ae",
+   "externalLink": {
+    "title": "Onchain Computer",
+    "url": "https://onchain.computer"
+   }
+  },
+  {
+   "id": "farbase",
+   "url": "https://warpcast.com/~/channel/farbase",
+   "name": "farbase",
+   "description": "FarBase Community Communications For $FARB  https://farbase.xyz\nhttps://guild.xyz/farbase",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1168ece5-1b19-4ac4-4b57-d99d712c6a00/original",
+   "createdAt": 1707157013,
+   "followerCount": 16424,
+   "memberCount": 85,
+   "publicCasting": false,
+   "leadFid": 274138,
+   "moderatorFids": [
+    274138
+   ],
+   "pinnedCastHash": "0x1abe3fce3a580ec4203e8f6828b5f89ff954ae67",
+   "externalLink": {
+    "title": "FARBASE",
+    "url": "https://server-251029100346176.studio.neynar.com"
+   }
+  },
+  {
+   "id": "imagine",
+   "url": "https://warpcast.com/~/channel/imagine",
+   "name": "+++",
+   "description": "+++???!!!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/NJcyUpL.png",
+   "createdAt": 1706977093,
+   "followerCount": 16371,
+   "memberCount": 19,
+   "publicCasting": true,
+   "leadFid": 8,
+   "moderatorFids": [
+    8
+   ]
+  },
+  {
+   "id": "history",
+   "url": "chain://eip155:7777777/erc721:0x177aa0bf214af03499c1fe239de20f3c4c373250",
+   "name": "History",
+   "description": "Discussions about history",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeig7ib3vxqwjhmr5po54tdcpxuzbqkzrs3bmuam5bsyhsxxj4w2xxe",
+   "createdAt": 1691015606,
+   "followerCount": 16052,
+   "memberCount": 57,
+   "publicCasting": true,
+   "leadFid": 457,
+   "moderatorFids": [
+    457
+   ]
+  },
+  {
+   "id": "plazafinance",
+   "url": "https://warpcast.com/~/channel/plazafinance",
+   "name": "plaza finance",
+   "description": "Discussions about  - the public square for onchain bonds and leverage on  \ud83d\udde3\ufe0f",
+   "descriptionMentions": [
+    894402,
+    12142
+   ],
+   "descriptionMentionsPositions": [
+    18,
+    73
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/69ac2c0b-ebb3-4a5b-6a70-fbb7bf931900/original",
+   "createdAt": 1733259621,
+   "followerCount": 15946,
+   "memberCount": 2,
+   "publicCasting": true,
+   "leadFid": 894402,
+   "moderatorFids": [
+    894402,
+    894414
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "electronic",
+   "url": "chain://eip155:1/erc721:0x05acde54e82e7e38ec12c5b5b4b1fd1c8d32658d",
+   "name": "Electronic Music",
+   "description": "Electronic music from around the world, below and under the ground.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/802dff8d-78d2-47cb-9a78-c4fc3accac00/rectcrop3",
+   "createdAt": 1689888729,
+   "followerCount": 15846,
+   "memberCount": 307,
+   "publicCasting": true,
+   "leadFid": 5851,
+   "moderatorFids": [
+    5851,
+    368422,
+    864314
+   ],
+   "pinnedCastHash": "0x8ea6acf56defc75d070235d01b8caab57d64457d"
+  },
+  {
+   "id": "regen",
+   "url": "https://warpcast.com/~/channel/regen",
+   "name": "Regen",
+   "description": "Crypto for good. Public goods, open source software, education, communities, banking the unbanked, supporting the environment.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/870c0af2-7c90-4eb9-165b-594286c28c00/original",
+   "createdAt": 1702720920,
+   "followerCount": 15741,
+   "memberCount": 224,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6d2c770a-be2f-4824-afe3-4f16dfebd700/original",
+   "leadFid": 10685,
+   "moderatorFids": [
+    368422,
+    10857,
+    10685,
+    3046,
+    360192,
+    874349,
+    498811
+   ],
+   "pinnedCastHash": "0x9ca34548b3467837f60ca56fe04db5a190b1f30e",
+   "externalLink": {
+    "title": "Regen Tips",
+    "url": "https://regen.tips"
+   }
+  },
+  {
+   "id": "no-channel",
+   "url": "https://warpcast.com/~/channel/no-channel",
+   "name": "No Channel Channel.",
+   "description": "Don\u2019t know where to cast something? Put it right here! Dan and god please have mercy on our souls. This is an experiment in unmoderation by  \ud83e\udee1",
+   "descriptionMentions": [
+    617
+   ],
+   "descriptionMentionsPositions": [
+    142
+   ],
+   "imageUrl": "https://i.imgur.com/p5f9Nkx.png",
+   "createdAt": 1704833007,
+   "followerCount": 15683,
+   "memberCount": 5017,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/5ace0763-259c-4d36-f649-a4d5ab1ed000/original",
+   "leadFid": 617,
+   "moderatorFids": [
+    617
+   ],
+   "externalLink": {
+    "title": "Join Us!",
+    "url": "https://warpcast.com/~/channel/no-channel/join?inviteCode=O36Gh7pZ5adWrCpHK00-7A"
+   }
+  },
+  {
+   "id": "dog",
+   "url": "https://warpcast.com/~/channel/dog",
+   "name": "Own The Doge",
+   "description": "$DOG is backed by the original Doge Meme  www.ownthedoge.com  \nContract: 0xAfb89a09D82FBDE58f18Ac6437B3fC81724e4dF6",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/x8IuhhS.jpg",
+   "createdAt": 1706244135,
+   "followerCount": 15680,
+   "memberCount": 58,
+   "publicCasting": true,
+   "leadFid": 228548,
+   "moderatorFids": [
+    228548
+   ],
+   "pinnedCastHash": "0x7b706f75ced31ef812ab0691d6b6b0b3c37e9b48"
+  },
+  {
+   "id": "casterschool",
+   "url": "https://warpcast.com/~/channel/casterschool",
+   "name": "CasterSchool",
+   "description": "Study the blockchain, secure the future, and get paid to do it. CasterSchool is the first decentralized institution built on Farcaster where education meets incentivized liquidity. Turn your study hours into $CASTER rewards. Casterchain.online \ud83d\udcdc\ud83d\udc8e",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/3d91db78-1c00-4df7-83de-a3c538000600/original",
+   "createdAt": 1707655962,
+   "followerCount": 15580,
+   "memberCount": 8,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/570aa958-a0b9-4baa-0030-7d6583c24500/original",
+   "leadFid": 332281,
+   "moderatorFids": [
+    332281,
+    251760
+   ],
+   "pinnedCastHash": "0xcb1bab9089dcae23cd63733f69c7caa71c5cf105",
+   "externalLink": {
+    "title": "JoinCasterschool",
+    "url": "https://farcaster.xyz/~/channel/casterschool/join?inviteCode=geancCBV01B6SrBb-UGoJg"
+   }
+  },
+  {
+   "id": "degenpad",
+   "url": "https://warpcast.com/~/channel/degenpad",
+   "name": "degenpad",
+   "description": "What's under degentlemen's hat? The first Initial Tips Offering (ITO) Launchpad /frames /degen /airstack /neynar\nhttps://degenpad.app",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0c605aaa-5e6b-4996-4fa3-96aa76b32000/original",
+   "createdAt": 1711804951,
+   "followerCount": 15512,
+   "memberCount": 2649,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f84a7898-11b8-45d2-c40a-9190531ea200/original",
+   "leadFid": 434908,
+   "moderatorFids": [
+    434908,
+    396160,
+    544677,
+    324916,
+    433341,
+    398678
+   ],
+   "pinnedCastHash": "0xe9df4fad6eac6aeeba972b7c68f7cf3d5c52462b",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://frame.openrank.com/api/channel/degenpad"
+   }
+  },
+  {
+   "id": "goat",
+   "url": "https://warpcast.com/~/channel/goat",
+   "name": "goat",
+   "description": "goat\u2122 | there is no token",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/68VoiWt.jpg",
+   "createdAt": 1712275565,
+   "followerCount": 15427,
+   "memberCount": 19,
+   "publicCasting": true,
+   "leadFid": 2689,
+   "moderatorFids": [
+    2689
+   ]
+  },
+  {
+   "id": "neged",
+   "url": "https://warpcast.com/~/channel/neged",
+   "name": "$neged 2.0",
+   "description": "",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/751cd7fa-038a-4e3f-d658-18532697cf00/original",
+   "createdAt": 1710950964,
+   "followerCount": 15333,
+   "memberCount": 45,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/57623385-e889-4fd7-e013-fd356332d700/original",
+   "leadFid": 398355,
+   "moderatorFids": [
+    398355
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "yoink",
+   "url": "https://warpcast.com/~/channel/yoink",
+   "name": "Yoink!",
+   "description": "Click to yoink the flag \ud83d\udea9",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ddde180a-ca00-4287-26ef-11b8dc0d2600/original",
+   "createdAt": 1706595042,
+   "followerCount": 15236,
+   "memberCount": 87,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/42a83a6c-7125-433d-7fc1-e58a5cdb5100/original",
+   "leadFid": 3621,
+   "moderatorFids": [
+    3621
+   ],
+   "pinnedCastHash": "0x48eb12826d56c623ca03440917c651e00bc83790",
+   "externalLink": {
+    "title": "Yoink!",
+    "url": "https://yoink.party/framesV2"
+   }
+  },
+  {
+   "id": "farther",
+   "url": "https://warpcast.com/~/channel/farther",
+   "name": "F A R T H E R \u2728",
+   "description": "A tipping token and prediction game for quality users. farther.social",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/48b29402-9a95-4463-cdb7-5b6f87e17000/original",
+   "createdAt": 1711899406,
+   "followerCount": 15220,
+   "memberCount": 359,
+   "publicCasting": false,
+   "leadFid": 429188,
+   "moderatorFids": [
+    429188,
+    368422
+   ],
+   "pinnedCastHash": "0x3bbe8fc99c7d6420c9033d6b1cb4ff43e5a4eb3c"
+  },
+  {
+   "id": "beans",
+   "url": "https://warpcast.com/~/channel/beans",
+   "name": "BEANSDAO",
+   "description": "Support the arts | CC0 | Onchain | Open source | https://linktr.ee/beanswtf",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/RarSJYw.png",
+   "createdAt": 1706829579,
+   "followerCount": 15135,
+   "memberCount": 14,
+   "publicCasting": false,
+   "leadFid": 3362,
+   "moderatorFids": [
+    3362,
+    11555
+   ],
+   "pinnedCastHash": "0xc436b26c6f899fac3080f0f0d38c1dbf994c56ed",
+   "externalLink": {
+    "title": "Invite Link",
+    "url": "https://warpcast.com/~/channel/beans/join?inviteCode=yHjuHknBhoqV71PWoIDx2A"
+   }
+  },
+  {
+   "id": "kaloh",
+   "url": "https://warpcast.com/~/channel/kaloh",
+   "name": "kaloh",
+   "description": "A community for Kaloh's Newsletter & Podcast Subscribe to my newsletter \ud83d\udc49 www.kaloh.xyz",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/basFuCW.jpg",
+   "createdAt": 1707082625,
+   "followerCount": 14844,
+   "memberCount": 94,
+   "publicCasting": true,
+   "leadFid": 13833,
+   "moderatorFids": [
+    13833,
+    396644
+   ],
+   "pinnedCastHash": "0x0412cda80d549280bf9bd7e06b1d69e9fe839f28",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://hypersub.withfabric.xyz/s/kaloh"
+   }
+  },
+  {
+   "id": "lotto",
+   "url": "https://warpcast.com/~/channel/lotto",
+   "name": "PowerBALD",
+   "description": "New PowerBALD now live!\n/lotto is the place to experiment with the tech and concept of @lottopgf",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/WgYxH5j.png",
+   "createdAt": 1706831066,
+   "followerCount": 14822,
+   "memberCount": 9,
+   "publicCasting": true,
+   "leadFid": 10178,
+   "moderatorFids": [
+    10178
+   ],
+   "pinnedCastHash": "0x01a5ae17b2ab969cbf192db4c3d6def2eb0b93bf"
+  },
+  {
+   "id": "gen-art",
+   "url": "chain://eip155:8453/erc721:0xe7a43b5942f15fddeb9733fdcc57c6232f1d5aa0",
+   "name": "Gen Art",
+   "description": "A channel for sharing and discussing code-based generative art. Banner by ",
+   "descriptionMentions": [
+    372893
+   ],
+   "descriptionMentionsPositions": [
+    74
+   ],
+   "imageUrl": "https://warpcast.com/~/channel-images/gen-art.png",
+   "createdAt": 1695157067,
+   "followerCount": 14716,
+   "memberCount": 467,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/45984263-ca6c-47bc-f2ea-f1dc0a652a00/original",
+   "leadFid": 604,
+   "moderatorFids": [
+    604,
+    9816,
+    13833,
+    209586,
+    7048
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "glitchedgrifters",
+   "url": "https://warpcast.com/~/channel/glitchedgrifters",
+   "name": "Glitched G(r)ifters",
+   "description": "The official channel for the G(r)ifters Project on BASE.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/YuDZb3I.gif",
+   "createdAt": 1710977260,
+   "followerCount": 14694,
+   "memberCount": 146,
+   "publicCasting": true,
+   "leadFid": 7418,
+   "moderatorFids": [
+    7418,
+    440220,
+    864314
+   ],
+   "pinnedCastHash": "0xd9f85f02d9fccfd122b4d47e0c0a6d51b05910c4"
+  },
+  {
+   "id": "confessions",
+   "url": "https://warpcast.com/~/channel/confessions",
+   "name": "confessions",
+   "description": "Be honest.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/XhHmEtD.png",
+   "createdAt": 1707395278,
+   "followerCount": 14633,
+   "memberCount": 544,
+   "publicCasting": true,
+   "leadFid": 3417,
+   "moderatorFids": [
+    3417
+   ]
+  },
+  {
+   "id": "gm",
+   "url": "chain://eip155:7777777/erc721:0x5556efe18d87f132054fbd4ba9afc13ebb1b0594",
+   "name": "GM",
+   "description": "A place to gm",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafkreic5vdt7fm3wgrpmravsuvd3grpot6vztcrmwobb67suieszpl7qay",
+   "createdAt": 1691015606,
+   "followerCount": 14595,
+   "memberCount": 1740,
+   "publicCasting": false,
+   "leadFid": 417418,
+   "moderatorFids": [
+    417418
+   ],
+   "pinnedCastHash": "0x8f260b78d949feb805108004d04c185403c40dc0",
+   "externalLink": {
+    "title": "Become a member",
+    "url": "https://warpcast.com/~/channel/gm/join?inviteCode=6YLrcFQAJ-ngQXgwT330JQ"
+   }
+  },
+  {
+   "id": "raycast",
+   "url": "https://warpcast.com/~/channel/raycast",
+   "name": "Raycast",
+   "description": "The best Mac app https://www.raycast.com",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bffd1e12-9cb5-49e7-e3ea-c66123698600/rectcrop3",
+   "createdAt": 1714771724,
+   "followerCount": 14557,
+   "memberCount": 129,
+   "publicCasting": true,
+   "leadFid": 347,
+   "moderatorFids": [
+    347,
+    861203,
+    864314
+   ],
+   "externalLink": {
+    "title": "Join",
+    "url": "https://cura.network/raycast/details"
+   }
+  },
+  {
+   "id": "poster",
+   "url": "https://warpcast.com/~/channel/poster",
+   "name": "poster \ud83d\udc4d",
+   "description": "We like Posters \ud83d\udc4d CONTENT is CURRENCY \ud83c\udfa9\ud83e\udd42  app.poster.fun by \n\nRecommended by /degen for making degen memes \ud83d\udc4d",
+   "descriptionMentions": [
+    20111
+   ],
+   "descriptionMentionsPositions": [
+    69
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4f554c13-21d1-499f-9a0f-d7e2cc043500/original",
+   "createdAt": 1712007370,
+   "followerCount": 14503,
+   "memberCount": 210,
+   "publicCasting": true,
+   "leadFid": 7620,
+   "moderatorFids": [
+    7620,
+    440220,
+    529895,
+    368412,
+    20111,
+    389066
+   ],
+   "pinnedCastHash": "0x34fbc2a7fae7d684ed4d311dafa78f7cb28aa448",
+   "externalLink": {
+    "title": "POSTER",
+    "url": "https://moxie-frames.airstack.xyz/stim?t=cid_poster"
+   }
+  },
+  {
+   "id": "nfl",
+   "url": "https://www.nfl.com",
+   "name": "NFL",
+   "description": "Discussions about football and the NFL",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/nfl.png",
+   "createdAt": 1691015606,
+   "followerCount": 14485,
+   "memberCount": 253,
+   "publicCasting": true,
+   "leadFid": 2802,
+   "moderatorFids": [
+    2802,
+    368422,
+    834,
+    245124,
+    13893,
+    193,
+    864314
+   ],
+   "pinnedCastHash": "0xdcce6937c1bbe014a6f49a23491ef2a5cbb11f37",
+   "externalLink": {
+    "title": "Join Channel",
+    "url": "https://farcaster.xyz/~/channel/nfl/join?inviteCode=cjo8sjFKAQAWswkE5gcgRg"
+   }
+  },
+  {
+   "id": "rarible",
+   "url": "https://rarible.com",
+   "name": "Rarible",
+   "description": "Aggregated NFT marketplace for NFTs",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/rarible.jpg",
+   "createdAt": 1698107816,
+   "followerCount": 14412,
+   "memberCount": 41,
+   "publicCasting": true,
+   "leadFid": 10148,
+   "moderatorFids": [
+    10148
+   ]
+  },
+  {
+   "id": "supercast",
+   "url": "https://warpcast.com/~/channel/supercast",
+   "name": "super \u30c4",
+   "description": "https://www.supercast.xyz/",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/984b1219-1189-4324-6be6-854323816900/original",
+   "createdAt": 1702716600,
+   "followerCount": 14406,
+   "memberCount": 1113,
+   "publicCasting": false,
+   "leadFid": 680,
+   "moderatorFids": [
+    680,
+    193137
+   ],
+   "pinnedCastHash": "0x23e7fb28239e66b06ae97954617e765661bd6d51",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "dude",
+   "url": "https://warpcast.com/~/channel/dude",
+   "name": "dude",
+   "description": "a place for dudes to hang out and talk about crypto, memes, and just generally shoot the shit.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/EIzvFFl.jpg",
+   "createdAt": 1708519632,
+   "followerCount": 14284,
+   "memberCount": 298,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bcb172e4-df31-4754-da99-8e23f0c0b800/original",
+   "leadFid": 281836,
+   "moderatorFids": [
+    281836
+   ],
+   "pinnedCastHash": "0x053e7ebf0b2b4ed61f3b2fa0e51af99da3e2449a"
+  },
+  {
+   "id": "airdrop",
+   "url": "https://warpcast.com/~/channel/airdrop",
+   "name": "airdrop",
+   "description": "Everything about airdrops\ud83e\ude82",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/EPKOVg8.jpg",
+   "createdAt": 1703034361,
+   "followerCount": 14274,
+   "memberCount": 1280,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/815d1a90-819d-425d-6cf3-8f2e497ee400/original",
+   "leadFid": 20398,
+   "moderatorFids": [
+    20398,
+    20286,
+    20388
+   ],
+   "externalLink": {
+    "title": "Join channel",
+    "url": "https://farcaster.xyz/~/channel/airdrop/join?inviteCode=iYQ9jyAlmuV9jHfRy41poQ"
+   }
+  },
+  {
+   "id": "groupies",
+   "url": "https://warpcast.com/~/channel/groupies",
+   "name": "groupies",
+   "description": "all things related to peace, love and groupies.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8ba2082b-cce4-4bbe-2ed4-c00a44480f00/original",
+   "createdAt": 1708715113,
+   "followerCount": 14247,
+   "memberCount": 597,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/204392ea-a162-4011-bf02-427ce6589800/original",
+   "leadFid": 243300,
+   "moderatorFids": [
+    243300,
+    864314
+   ],
+   "pinnedCastHash": "0x741c27b43d14a61380b23c710bd5285310d111a9",
+   "externalLink": {
+    "title": "join now!",
+    "url": "https://cura.network/groupies/details"
+   }
+  },
+  {
+   "id": "classical",
+   "url": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
+   "name": "Classical",
+   "description": "Discussing and discovering western classical music",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/classical.png",
+   "createdAt": 1695157067,
+   "followerCount": 14180,
+   "memberCount": 50,
+   "publicCasting": true,
+   "leadFid": 457,
+   "moderatorFids": [
+    457
+   ],
+   "pinnedCastHash": "0x41b0e9dd4b70056c8adb5313d67db1ec36d48b57"
+  },
+  {
+   "id": "theai",
+   "url": "https://warpcast.com/~/channel/theai",
+   "name": "Artificial Intelligence (AI)",
+   "description": "All that there is about Artificial Intelligence, from the latest research to its impact",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/NkYRgv0.jpg",
+   "createdAt": 1712617492,
+   "followerCount": 14057,
+   "memberCount": 76,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/fc0518ff-4e41-47c2-0ec5-497148f64900/original",
+   "leadFid": 124,
+   "moderatorFids": [
+    124
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "bounties",
+   "url": "https://www.bountycaster.xyz",
+   "name": "Bounties",
+   "description": "Tag  to post bounties or ask a question about Bountycaster bountycaster.xyz\n\nFAQ: bountycaster.xyz/faq",
+   "descriptionMentions": [
+    20596
+   ],
+   "descriptionMentionsPositions": [
+    4
+   ],
+   "imageUrl": "https://warpcast.com/~/channel-images/bounties.png",
+   "createdAt": 1699298590,
+   "followerCount": 14024,
+   "memberCount": 344,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0d65081f-3db9-42e3-69a5-ad53bb314b00/original",
+   "leadFid": 12,
+   "moderatorFids": [
+    12,
+    368422,
+    396644,
+    12152,
+    262301
+   ],
+   "pinnedCastHash": "0x06ab23fe1621e42d35fc29503de0b52819324a75",
+   "externalLink": {
+    "title": "Bountycaster",
+    "url": "bountycaster.xyz"
+   }
+  },
+  {
+   "id": "based-karma",
+   "url": "https://farcaster.xyz/~/channel/based-karma",
+   "name": "karma",
+   "description": "",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e5df8301-b397-4f84-93c8-1af5ee8b4200/original",
+   "createdAt": 1759836154,
+   "followerCount": 13888,
+   "memberCount": 8,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2a8f34b9-c26f-4aa9-97d9-dd71f7203400/original",
+   "leadFid": 335897,
+   "moderatorFids": [
+    335897,
+    864314,
+    323021,
+    432209,
+    1353274
+   ],
+   "pinnedCastHash": "0x6bf9f770de46130b64a52a41bc15f5a9283635db",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "dogs",
+   "url": "chain://eip155:7777777/erc721:0x8cb43a65b27461b61d6c8989e6f9d88e5426833d",
+   "name": "Dogs",
+   "description": "Woof! A place to discuss and share photos of dogs.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://ipfs.decentralized-content.com/ipfs/bafybeidvhfu3thunzfd3wj3ar6e6vlztnoljvqh2yauxwyfbh2vt65nypq",
+   "createdAt": 1691015606,
+   "followerCount": 13885,
+   "memberCount": 541,
+   "publicCasting": true,
+   "leadFid": 4256,
+   "moderatorFids": [
+    4256
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "jamfrens",
+   "url": "https://warpcast.com/~/channel/jamfrens",
+   "name": "$JAM \ud83d\udc3f\ufe0f",
+   "description": "https://ai.jam.so \ud83d\udfe3 | https://t.me/Jamfrens \ud83d\udc3f\ufe0f",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/c79947a8-3e4e-4b33-6c2c-4c01df9b3a00/original",
+   "createdAt": 1707104789,
+   "followerCount": 13882,
+   "memberCount": 470,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1ed5c5d0-3e9c-439f-4868-3fa83807d600/original",
+   "leadFid": 10636,
+   "moderatorFids": [
+    10636,
+    231317,
+    13908,
+    234616,
+    291686,
+    303739,
+    861203,
+    872,
+    864314
+   ],
+   "pinnedCastHash": "0x623efe61661ed40efa257ca85c8e8b485c6fbe3c",
+   "externalLink": {
+    "title": "JamAI",
+    "url": "https://ai.jam.so/"
+   }
+  },
+  {
+   "id": "airdropfind",
+   "url": "https://warpcast.com/~/channel/airdropfind",
+   "name": "airdropfind",
+   "description": "Get free Cryptocurrency Airdrop everyday, Airdropfind will publish most current & legitimate Cryptocurrency Airdrop for you.  Telegram : t.me/airdropfind\n\nairdropfinder.com",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/uqojmqk.jpg",
+   "createdAt": 1707458307,
+   "followerCount": 13692,
+   "memberCount": 32,
+   "publicCasting": true,
+   "leadFid": 18069,
+   "moderatorFids": [
+    18069,
+    211686
+   ],
+   "pinnedCastHash": "0x675d732f484a8bfea5cf3239c31f8c1bcb82f1ef"
+  },
+  {
+   "id": "farville",
+   "url": "https://warpcast.com/~/channel/farville",
+   "name": "Farville \ud83e\uddd1\u200d\ud83c\udf3e",
+   "description": "farville was a good game :))) if you want to join a even better one, join us in Rise of Farms! /rise-of-farms",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7607fcfd-566a-47a0-0293-cd3246b4e700/original",
+   "createdAt": 1735242839,
+   "followerCount": 13560,
+   "memberCount": 3,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ed9d8016-70e2-475f-da5d-ba5b02059600/original",
+   "leadFid": 4461,
+   "moderatorFids": [
+    4461,
+    5698,
+    262800
+   ],
+   "pinnedCastHash": "0x8bdd0ada8c9513fbc842e4eb62b219488e9f48d7",
+   "externalLink": {
+    "title": "Play",
+    "url": "https://riseof.farm"
+   }
+  },
+  {
+   "id": "guild",
+   "url": "https://warpcast.com/~/channel/guild",
+   "name": "Guild.xyz",
+   "description": "Guild is the LEGO of social infrastructure, offering a variety of compatible pieces that allow you to build and coordinate a custom group of people online.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/3eRjn2V.jpg",
+   "createdAt": 1702720576,
+   "followerCount": 13542,
+   "memberCount": 20,
+   "publicCasting": true,
+   "leadFid": 656,
+   "moderatorFids": [
+    656
+   ]
+  },
+  {
+   "id": "apple",
+   "url": "https://www.apple.com",
+   "name": "Apple",
+   "description": "A place to discuss Apple products",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/apple.png",
+   "createdAt": 1694472448,
+   "followerCount": 13535,
+   "memberCount": 302,
+   "publicCasting": true,
+   "leadFid": 3,
+   "moderatorFids": [
+    3,
+    1887
+   ]
+  },
+  {
+   "id": "innerview",
+   "url": "https://warpcast.com/~/channel/innerview",
+   "name": "Reply Hub",
+   "description": "Welcome to Reply Hub! A space to chat, reply, and share ideas freely. There are no strict rules, but remember to stay safe: avoid unknown links, ignore random DMs, and watch out for scams. Your safety is your responsibility!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d763d193-64aa-401b-5e85-7c39b962f900/original",
+   "createdAt": 1725847002,
+   "followerCount": 13501,
+   "memberCount": 4864,
+   "publicCasting": true,
+   "leadFid": 16333,
+   "moderatorFids": [
+    16333,
+    465748,
+    465639
+   ],
+   "pinnedCastHash": "0xf1888e8406876ea495d5596239a5bf5cee2a7212",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://warpcast.com/~/channel/innerview/join?inviteCode=50gAKgP2SDKxVR_BX6FXeA"
+   }
+  },
+  {
+   "id": "politics",
+   "url": "https://warpcast.com/~/channel/politics",
+   "name": "\ud835\udd7b\ud835\udd94\ud835\udd91\ud835\udd8e\ud835\udd99\ud835\udd8e\ud835\udd88\ud835\udd98",
+   "description": "A space to discuss, debate, build and organize around our $Politics. Become a paid member by clicking \u201cjoin\u201d and subscribing for $1/mo to our ",
+   "descriptionMentions": [
+    210657
+   ],
+   "descriptionMentionsPositions": [
+    146
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d6983b3b-92e5-44c7-b7b7-eacc510d9b00/original",
+   "createdAt": 1702753087,
+   "followerCount": 13401,
+   "memberCount": 1214,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/b65659af-fd0b-4f9f-a3e1-6a6015e2cd00/original",
+   "leadFid": 17355,
+   "moderatorFids": [
+    13893,
+    239396,
+    430534,
+    456030,
+    441474,
+    422480,
+    17355,
+    396644,
+    190218
+   ],
+   "pinnedCastHash": "0x2e3710871189da981841b287f51446467649b165",
+   "externalLink": {
+    "title": "join",
+    "url": "https://hypersub.xyz/s/the-politics-network/1"
+   }
+  },
+  {
+   "id": "inflynce",
+   "url": "https://warpcast.com/~/channel/inflynce",
+   "name": "Inflynce Protocol",
+   "description": "Only orange vibes! \ud83e\udde1",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a4ee01e8-8bf6-4a4a-65a1-cd31db604b00/original",
+   "createdAt": 1747924503,
+   "followerCount": 13222,
+   "memberCount": 846,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bd3bf0f2-e80b-4b39-8b67-d775688d0e00/original",
+   "leadFid": 1046430,
+   "moderatorFids": [
+    1046430,
+    12239,
+    528707
+   ],
+   "pinnedCastHash": "0x3844263ab50afbbc103bc1455538bf916e32f27b",
+   "externalLink": {
+    "title": "Mini App",
+    "url": "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce"
+   }
+  },
+  {
+   "id": "nuts",
+   "url": "https://warpcast.com/~/channel/nuts",
+   "name": "Nuts",
+   "description": "Home Of $Nuts. \nrules:\n\u274c Don't cast unrelated topics \n\u274c Don\u2019t spam",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/60b9d790-4440-41af-123b-66091df74000/original",
+   "createdAt": 1738483226,
+   "followerCount": 13153,
+   "memberCount": 1864,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/059c7588-9017-4574-d802-e7c84e6a4e00/original",
+   "leadFid": 976803,
+   "moderatorFids": [
+    976803,
+    395478
+   ],
+   "pinnedCastHash": "0x91deb856643fd22a94dd05a3996e5949315a07fe",
+   "externalLink": {
+    "title": "Join",
+    "url": "https://farcaster.xyz/~/channel/nuts/join?inviteCode=Pz12QYXowLDOkoTion1ZoQ"
+   }
+  },
+  {
+   "id": "rodeo-club",
+   "url": "https://warpcast.com/~/channel/rodeo-club",
+   "name": "Rodeo",
+   "description": "The creative social network.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bd14db32-d9cc-4131-abec-fb36a6a1a500/original",
+   "createdAt": 1717343004,
+   "followerCount": 13117,
+   "memberCount": 625,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/0f5df7b8-9faa-4e7d-b224-cc4dc3abca00/original",
+   "leadFid": 645771,
+   "moderatorFids": [
+    645771,
+    4473,
+    13917,
+    209586,
+    205525,
+    308536
+   ],
+   "pinnedCastHash": "0x24133956d0fbbadfe60b56ce412a8905bb19faa4",
+   "externalLink": {
+    "title": "rodeo.club",
+    "url": "https://rodeo.club/"
+   }
+  },
+  {
+   "id": "arbitrum",
+   "url": "https://warpcast.com/~/channel/arbitrum",
+   "name": "arbitrum",
+   "description": "Arbitrum Everywhere",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/xeZze6Q.png",
+   "createdAt": 1702753912,
+   "followerCount": 13079,
+   "memberCount": 62,
+   "publicCasting": true,
+   "leadFid": 16707,
+   "moderatorFids": [
+    16707,
+    212581
+   ]
+  },
+  {
+   "id": "farrank",
+   "url": "https://warpcast.com/~/channel/farrank",
+   "name": "FarRank",
+   "description": "The ULTIMATE Farcaster Miniapp that analytics & ranking platform!\n\ud83d\udc51 Track the OGs, \ud83d\udc0b whales, and \ud83c\udf1f rising stars of onchain social.\n\ud83d\udcca Real-time leaderboards, powered by Farcaster & Neynar APIs.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/edb98aa3-57f6-4c21-7210-2a842c5deb00/original",
+   "createdAt": 1746106401,
+   "followerCount": 13032,
+   "memberCount": 31,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/445e9c46-b223-494d-7929-838f16bd2900/original",
+   "leadFid": 537378,
+   "moderatorFids": [
+    537378
+   ],
+   "pinnedCastHash": "0x2bbf2be50fb87c31b8a71a288755aa868b7a7492",
+   "externalLink": {
+    "title": "FarRank.info",
+    "url": "https://farrank.info"
+   }
+  },
+  {
+   "id": "launchcaster",
+   "url": "chain://eip155:1/erc721:0x5f4336f57cf41821522f1777321462b108de55c26",
+   "name": "Launchcaster",
+   "description": "Discover the best new web3 projects. Like Product Hunt, but built on Farcaster. \n\nVisit here: https://www.launchcaster.xyz/",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/hwTivtS.png",
+   "createdAt": 1687928905,
+   "followerCount": 12978,
+   "memberCount": 7,
+   "publicCasting": false,
+   "leadFid": 373,
+   "moderatorFids": [
+    373,
+    12181
+   ]
+  },
+  {
+   "id": "party",
+   "url": "https://www.party.app",
+   "name": "Party",
+   "description": "Party is the best way to create a group on Ethereum. Gather members, vote on decisions, and experience Ethereum in multiplayer",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://warpcast.com/~/channel-images/party.jpg",
+   "createdAt": 1698107816,
+   "followerCount": 12684,
+   "memberCount": 64,
+   "publicCasting": true,
+   "leadFid": 913,
+   "moderatorFids": [
+    913
+   ]
+  },
+  {
+   "id": "bash",
+   "url": "https://warpcast.com/~/channel/bash",
+   "name": "bash",
+   "description": "",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/adyMvZk.gif",
+   "createdAt": 1707172599,
+   "followerCount": 12560,
+   "memberCount": 1,
+   "publicCasting": true,
+   "leadFid": 272453,
+   "moderatorFids": [
+    272453
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "bros",
+   "url": "https://warpcast.com/~/channel/bros",
+   "name": "bros",
+   "description": "just some bros broing out \ud83c\udd71\ufe0fm",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/39f396dd-3ec0-46f4-a804-7a0fd3674500/original",
+   "createdAt": 1710608134,
+   "followerCount": 12554,
+   "memberCount": 117,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f8545301-3755-4b74-88c4-566cc059b100/original",
+   "leadFid": 4483,
+   "moderatorFids": [
+    4483,
+    1045026
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "am",
+   "url": "https://warpcast.com/~/channel/am",
+   "name": "animated doing stuff",
+   "description": "official home of $am - animated-mfers.xyz ca: 0xDdf98aad8180c3E368467782CD07AE2E3E8d36A5",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/5c4d1d2b-6a11-40c5-5baf-7f1a4c542300/original",
+   "createdAt": 1710524994,
+   "followerCount": 12542,
+   "memberCount": 27,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d7bc8cc6-bf37-4c79-22f8-e9aecdd8fa00/original",
+   "leadFid": 262938,
+   "moderatorFids": [
+    262938,
+    396644
+   ],
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "six",
+   "url": "https://warpcast.com/~/channel/six",
+   "name": "six",
+   "description": "this channel is for people to share their thoughts. treat it as a notes app!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/dbc973d4-864f-4b27-6f2b-ad1e5055e500/original",
+   "createdAt": 1703095212,
+   "followerCount": 12514,
+   "memberCount": 860,
+   "publicCasting": false,
+   "leadFid": 7143,
+   "moderatorFids": [
+    7143
+   ],
+   "pinnedCastHash": "0x78c086e53b1f811a45d53a7875adefe4630f26f1",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "success",
+   "url": "https://warpcast.com/~/channel/success",
+   "name": "The Success Syndicate",
+   "description": "Home to the Success Movement, a community for networking, building, & growing the Farcaster ecosystem. | Subscriber only group chat: https://warpcast.com/~/group/ayHC6jUibF6VcgT_AaDSLg",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9b8476f4-0809-4f5f-c629-97dc8745c700/original",
+   "createdAt": 1716998853,
+   "followerCount": 12506,
+   "memberCount": 214,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/5611bb1a-ea1f-4476-b6c0-aaf876ff2200/original",
+   "leadFid": 403619,
+   "moderatorFids": [
+    403619,
+    396644,
+    409176,
+    245124,
+    377111,
+    15351,
+    440220,
+    13874,
+    861203,
+    466688,
+    355110
+   ],
+   "pinnedCastHash": "0xe083918c0e5d0c9106d0b67f50b6147d11499844",
+   "externalLink": {
+    "title": "Subscribe Now \u2757\ufe0f",
+    "url": "https://www.hypersub.xyz/s/success"
+   }
+  },
+  {
+   "id": "pain-points",
+   "url": "https://warpcast.com/~/channel/pain-points",
+   "name": "Pain Points",
+   "description": "A place to log web3 UX frustrations for design inspiration.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/hErT2mK.gif",
+   "createdAt": 1712238333,
+   "followerCount": 12423,
+   "memberCount": 16,
+   "publicCasting": true,
+   "leadFid": 1317,
+   "moderatorFids": [
+    1317
+   ]
+  },
+  {
+   "id": "zibb",
+   "url": "https://warpcast.com/~/channel/zibb",
+   "name": "ZIBBLERGUYZ",
+   "description": "the home of $ZIBB, project-idea on ZORA network. www.zibblerguyz.com \u267b \u267b \u267b  \n\"we will build our world without rubbish\" -Zibbler",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/06a79d47-1f4e-4b64-ba69-235c90098d00/original",
+   "createdAt": 1714862813,
+   "followerCount": 12414,
+   "memberCount": 5,
+   "publicCasting": true,
+   "leadFid": 418384,
+   "moderatorFids": [
+    418384
+   ],
+   "pinnedCastHash": "0x1ea207e28cbdbd52d50ff392fb980c60d8bd7347"
+  },
+  {
+   "id": "gray",
+   "url": "https://warpcast.com/~/channel/gray",
+   "name": "Gray Tribe",
+   "description": "A place to discuss and build tech-forward political movements.  \nGray \u2260 Red or Blue.\nGray \u2260 Black or White.\nGray = A Decentralized Center.",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/aufHx8W.jpg",
+   "createdAt": 1702738343,
+   "followerCount": 12213,
+   "memberCount": 11,
+   "publicCasting": true,
+   "leadFid": 5774,
+   "moderatorFids": [
+    5774
+   ]
+  },
+  {
+   "id": "saloon",
+   "url": "https://warpcast.com/~/channel/saloon",
+   "name": "Saloon",
+   "description": "\ud83c\udf35\ud83c\udf35 Party chat for Farcasters \ud83c\udf35\ud83c\udf35 Set up a live chatroom for your Farcaster channel https://saloon.town",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4446b0bc-04f8-493d-fb9c-7cf4541f5800/original",
+   "createdAt": 1711837643,
+   "followerCount": 12100,
+   "memberCount": 3,
+   "publicCasting": true,
+   "leadFid": 554,
+   "moderatorFids": [
+    554
+   ]
+  },
+  {
+   "id": "south-korea",
+   "url": "https://warpcast.com/~/channel/south-korea",
+   "name": "south-korea",
+   "description": "\ub300\ud55c\ubbfc\uad6d \ub300\ud45c \ucc44\ub110.  \uc6cc\uce90\uc2a4\ud2b8\uc758 \ubc1c\uc804\uc744 \uc751\uc6d0\ud569\ub2c8\ub2e4. \uc6f9 3.0 \ud654\uc774\ud305!!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/232dd5b0-6b03-4cc7-a97c-1b3bcec77200/original",
+   "createdAt": 1711805186,
+   "followerCount": 12099,
+   "memberCount": 874,
+   "publicCasting": true,
+   "leadFid": 286046,
+   "moderatorFids": [
+    286046
+   ],
+   "pinnedCastHash": "0xec7e430dfbf319fdbf3fe9a8cef25dce8bbb564a"
+  },
+  {
+   "id": "degentlemen",
+   "url": "https://warpcast.com/~/channel/degentlemen",
+   "name": "Degentlemen",
+   "description": "\ud83c\udfa9 PFP For Degens \ud83c\udf0a https://opensea.io/collection/the-degentlemen",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/91a7b282-501f-418f-a4f6-7efccf41f700/original",
+   "createdAt": 1706678626,
+   "followerCount": 12077,
+   "memberCount": 657,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/242466d4-d813-4175-6baa-0eb8622f7c00/original",
+   "leadFid": 294226,
+   "moderatorFids": [
+    294226,
+    16405,
+    297953
+   ],
+   "pinnedCastHash": "0x476101267c38578b6366c79b66777ff6af8410e1",
+   "externalLink": {
+    "title": "ENTER THE CLUB",
+    "url": "https://degentlemen.xyz"
+   }
+  },
+  {
+   "id": "sofi",
+   "url": "https://warpcast.com/~/channel/sofi",
+   "name": "SocialFi",
+   "description": "Home for conversation around social finance (SoFi).",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/MGP7q8E.png",
+   "createdAt": 1712528719,
+   "followerCount": 11940,
+   "memberCount": 6,
+   "publicCasting": true,
+   "leadFid": 206,
+   "moderatorFids": [
+    206
+   ]
+  },
+  {
+   "id": "tower",
+   "url": "https://warpcast.com/~/channel/tower",
+   "name": "tower",
+   "description": "Ecosystem of mini apps, games, utility token $TOWER and more. Start exploring now!\n\nCA (Base): 0xf7C1CEfCf7E1dd8161e00099facD3E1Db9e528ee \n\nPowered by .",
+   "descriptionMentions": [
+    20805
+   ],
+   "descriptionMentionsPositions": [
+    151
+   ],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6c177521-c320-447f-380b-ffe1a922bb00/original",
+   "createdAt": 1718331790,
+   "followerCount": 11902,
+   "memberCount": 10,
+   "publicCasting": true,
+   "leadFid": 397971,
+   "moderatorFids": [
+    397971,
+    440220
+   ],
+   "pinnedCastHash": "0x8418c615bf4df9dde23d43133ed7f361570172aa",
+   "externalLink": {
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "id": "ticker",
+   "url": "https://warpcast.com/~/channel/ticker",
+   "name": "ticker",
+   "description": "the ticker was always $ticker",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/Io6LNLy.jpg",
+   "createdAt": 1707169541,
+   "followerCount": 11872,
+   "memberCount": 1,
+   "publicCasting": true,
+   "leadFid": 283553,
+   "moderatorFids": [
+    283553
+   ]
+  },
+  {
+   "id": "fargods",
+   "url": "https://farcaster.xyz/~/channel/fargods",
+   "name": "fargods",
+   "description": "Ascend, wielder of divine lightning. Your legend begins here.\nChapter I: https://opensea.io/collection/the-gods-207580603",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2cf81234-5d16-4f16-3993-0545794efe00/original",
+   "createdAt": 1763700775,
+   "followerCount": 11848,
+   "memberCount": 1,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/39c35d7a-f917-4e69-4165-d52b04044800/original",
+   "leadFid": 377096,
+   "moderatorFids": [
+    377096
+   ],
+   "pinnedCastHash": "0xe9c3858bf6f56c0f3541da52d59a16f63b7ac7fa",
+   "externalLink": {
+    "title": "Gods",
+    "url": "https://farcaster.xyz/miniapps/ZVX8CRxkzj2h/fargods"
+   }
+  },
+  {
+   "id": "eggsfun",
+   "url": "https://warpcast.com/~/channel/eggsfun",
+   "name": "eggsfun",
+   "description": "EGGS??? IN THIS ECONOMY???",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ee1b8959-a73f-4a96-a4fe-52ca93f37200/original",
+   "createdAt": 1741205621,
+   "followerCount": 11823,
+   "memberCount": 1,
+   "publicCasting": true,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bb742296-cef3-49be-e5a2-56b938fde700/original",
+   "leadFid": 1356,
+   "moderatorFids": [
+    1356
+   ],
+   "pinnedCastHash": "0x2e381a63185a2d32116a9f7306a39cc7e4f98ada",
+   "externalLink": {
+    "title": "EGGS",
+    "url": "https://eggs.name"
+   }
+  },
+  {
+   "id": "degen-art",
+   "url": "https://warpcast.com/~/channel/degen-art",
+   "name": "Degen Art\ud83c\udfa9\ud83c\udfa8",
+   "description": "A place for Degenerate art lovers. \nWe aim to support and empower artists by blending the art and degen community",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/iSUZv8Z.jpg",
+   "createdAt": 1709164414,
+   "followerCount": 11679,
+   "memberCount": 486,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/16481f0f-a161-4fba-c04f-b38ea9881400/original",
+   "leadFid": 307834,
+   "moderatorFids": [
+    307834,
+    209586
+   ],
+   "pinnedCastHash": "0x97f41bf2862001fcc5730a51eecd9278d2b18470"
+  },
+  {
+   "id": "ventures",
+   "url": "https://warpcast.com/~/channel/ventures",
+   "name": "f3",
+   "description": "interactive comics | launching meme(coin)\u2019s | no offensive content | farcaster daily | only good vibes",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/ByGcNDx.png",
+   "createdAt": 1704285647,
+   "followerCount": 11537,
+   "memberCount": 998,
+   "publicCasting": false,
+   "leadFid": 7941,
+   "moderatorFids": [
+    7941,
+    217261,
+    288578
+   ],
+   "externalLink": {
+    "title": "join ventures",
+    "url": "https://warpcast.com/~/channel/ventures/join?inviteCode=DAtKuZGy_2sUOWtyVMSUvQ"
+   }
+  },
+  {
+   "id": "basepaint",
+   "url": "https://basepaint.xyz",
+   "name": "Basepaint",
+   "description": "The Internet's Daily Canvas",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/70ab7864-430e-468a-4bf6-52be90640400/original",
+   "createdAt": 1697505197,
+   "followerCount": 11449,
+   "memberCount": 242,
+   "publicCasting": false,
+   "headerImageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/a9afb3f5-5071-4be6-c903-ffaeb4a95c00/original",
+   "leadFid": 5062,
+   "moderatorFids": [
+    5062,
+    368422
+   ],
+   "externalLink": {
+    "title": "Visit BasePaint",
+    "url": "https://basepaint.xyz/"
+   }
+  },
+  {
+   "id": "mike",
+   "url": "https://warpcast.com/~/channel/mike",
+   "name": "mike",
+   "description": "",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/vN9e4S7.png",
+   "createdAt": 1714102311,
+   "followerCount": 11319,
+   "memberCount": 2,
+   "publicCasting": true,
+   "leadFid": 534,
+   "moderatorFids": [
+    534
+   ]
+  },
+  {
+   "id": "frame-token",
+   "url": "https://warpcast.com/~/channel/frame-token",
+   "name": "$FRAME",
+   "description": "The official channel for the $FRAME token, the first frame powered erc-20 airdrop on Farcaster! | https://frametoken.us | https://t.me/framebase | https://x.com/frameonbase",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/F055TuI.png",
+   "createdAt": 1706839546,
+   "followerCount": 11249,
+   "memberCount": 5,
+   "publicCasting": true,
+   "leadFid": 189501,
+   "moderatorFids": [
+    189501
+   ]
+  },
+  {
+   "id": "louder",
+   "url": "https://warpcast.com/~/channel/louder",
+   "name": "louder \ud83d\udd0a",
+   "description": "BE LOUDER. GET LOUDER!!!!!",
+   "descriptionMentions": [],
+   "descriptionMentionsPositions": [],
+   "imageUrl": "https://i.imgur.com/r4GIRLL.png",
+   "createdAt": 1712612952,
+   "followerCount": 11126,
+   "memberCount": 1375,
+   "publicCasting": false,
+   "leadFid": 238853,
+   "moderatorFids": [
+    238853,
+    368422,
+    508334
+   ],
+   "externalLink": {
+    "title": "join louder",
+    "url": "https://warpcast.com/~/channel/louder/join?inviteCode=_C9I6Pc5-XhJk-yy4VVCjA"
+   }
+  }
+ ],
+ "note": "Read-only. Posting to Farcaster needs an FID and a signer key; FID registration is paid, so AF has no FID and cannot post."
+}

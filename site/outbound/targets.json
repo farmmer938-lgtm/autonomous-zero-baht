@@ -1,6 +1,6 @@
 {
  "schema": "af.outbound.scan.v1",
- "generatedAt": "2026-11-18T16:35:42.105441+00:00",
+ "generatedAt": "2026-11-18T16:41:52.029569+00:00",
  "network": "base",
  "windowHours": 24,
  "liquidityFloorUsd": 10000,
@@ -9,8 +9,198 @@
   {
    "chain": "base",
    "chainId": 8453,
+   "address": "0xda37f4c8f0656915bc001e00011811ce2314a57b",
+   "generatedAt": "2026-11-18T16:42:29.152413+00:00",
+   "reads": {
+    "name": "ESEDC",
+    "symbol": "ESDC",
+    "decimals": 18,
+    "totalSupply": 9600000000000000000000000000,
+    "totalSupplyTokens": 9600000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148868,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 53515.2159,
+   "poolCreatedAt": "2026-11-18T16:35:54Z",
+   "poolName": "ESDC / WETH",
+   "outreach": {
+    "symbol": "ESDC",
+    "name": "ESEDC",
+    "priceUsd": "0.000002897",
+    "fdv": 27817,
+    "liquidityUsd": 53834.13,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0x3971499Ea99e3D650978af8CcA9784ccc60DAd5b",
+    "pairUrl": "https://dexscreener.com/base/0x3971499ea99e3d650978af8cca9784ccc60dad5b"
+   },
+   "reportPath": "reviews/base-0xda37f4c8f0656915bc001e00011811ce2314a57b.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xda37f4c8f0656915bc001e00011811ce2314a57b.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read ESDC (0xda37f4c8f0656915bc001e00011811ce2314a57b) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x10fd7c0c2e642d746a229db08289cb441f0ff54a",
+   "generatedAt": "2026-11-18T16:42:32.486143+00:00",
+   "reads": {
+    "name": "United Oil Reserve States (UORS)",
+    "symbol": "UORS",
+    "decimals": 18,
+    "totalSupply": 1000000000000000000000000000,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148885,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 87470.3366,
+   "poolCreatedAt": "2026-11-18T16:33:47Z",
+   "poolName": "UORS / WETH",
+   "outreach": {
+    "symbol": "UORS",
+    "name": "United Oil Reserve States (UORS)",
+    "priceUsd": "0.00008817",
+    "fdv": 88172,
+    "liquidityUsd": null,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0xa726f85dcd28d1511e6f9fd67cbbdb943ea5825aaec763e5af9aaf5c8251a8ab",
+    "pairUrl": "https://dexscreener.com/base/0xa726f85dcd28d1511e6f9fd67cbbdb943ea5825aaec763e5af9aaf5c8251a8ab"
+   },
+   "reportPath": "reviews/base-0x10fd7c0c2e642d746a229db08289cb441f0ff54a.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x10fd7c0c2e642d746a229db08289cb441f0ff54a.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read UORS (0x10fd7c0c2e642d746a229db08289cb441f0ff54a) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x577ab9b620305c74e5c5addeeccee996dc4c0388",
+   "generatedAt": "2026-11-18T16:42:35.695341+00:00",
+   "reads": {
+    "name": "United Dividend Trust Fund - UTFD",
+    "symbol": "UTFD",
+    "decimals": 18,
+    "totalSupply": 1000000000000000000000000000,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148901,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 125095.034,
+   "poolCreatedAt": "2026-11-18T16:32:44Z",
+   "poolName": "UTFD / WETH",
+   "outreach": {
+    "symbol": "UTFD",
+    "name": "United Dividend Trust Fund - UTFD",
+    "priceUsd": "0.0001258",
+    "fdv": 125820,
+    "liquidityUsd": 124561.57,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0xce4355904a5f0dfb8da69e30edd76cd178f7b22ac44d9b3eaeb1998a4aefebce",
+    "pairUrl": "https://dexscreener.com/base/0xce4355904a5f0dfb8da69e30edd76cd178f7b22ac44d9b3eaeb1998a4aefebce"
+   },
+   "reportPath": "reviews/base-0x577ab9b620305c74e5c5addeeccee996dc4c0388.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x577ab9b620305c74e5c5addeeccee996dc4c0388.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read UTFD (0x577ab9b620305c74e5c5addeeccee996dc4c0388) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0xc26891071469fb1c42c8d869a668f7157e5dcf6a",
+   "generatedAt": "2026-11-18T16:42:38.975766+00:00",
+   "reads": {
+    "name": "United Fund Dividend Oil",
+    "symbol": "UFDO",
+    "decimals": 18,
+    "totalSupply": 1000000000000000000000000000,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148917,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 125095.034,
+   "poolCreatedAt": "2026-11-18T16:32:00Z",
+   "poolName": "UFDO / WETH",
+   "outreach": {
+    "symbol": "UFDO",
+    "name": "United Fund Dividend Oil",
+    "priceUsd": "0.0001258",
+    "fdv": 125820,
+    "liquidityUsd": null,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0x5ec7a6389e787ffa6a4770e7457e42a6a9b51ba782ecca7d2d4fe1b11ce06438",
+    "pairUrl": "https://dexscreener.com/base/0x5ec7a6389e787ffa6a4770e7457e42a6a9b51ba782ecca7d2d4fe1b11ce06438"
+   },
+   "reportPath": "reviews/base-0xc26891071469fb1c42c8d869a668f7157e5dcf6a.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xc26891071469fb1c42c8d869a668f7157e5dcf6a.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read UFDO (0xc26891071469fb1c42c8d869a668f7157e5dcf6a) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x00d11a580bc68078357ee935bb26bdc9089b1e1a",
+   "generatedAt": "2026-11-18T16:42:42.191996+00:00",
+   "reads": {
+    "name": "United States Power Reserve\ud83d\udca5",
+    "symbol": "URPS",
+    "decimals": 18,
+    "totalSupply": 1000000000000000000000000000,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148933,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 87761.9475,
+   "poolCreatedAt": "2026-11-18T16:31:14Z",
+   "poolName": "URPS / WETH",
+   "outreach": {
+    "symbol": "URPS",
+    "name": "United States Power Reserve\ud83d\udca5",
+    "priceUsd": "0.00008817",
+    "fdv": 88172,
+    "liquidityUsd": 87289.73,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0x7a28a70f85f0125627385745829e07c566da121bc873464361cc8f6089b8442a",
+    "pairUrl": "https://dexscreener.com/base/0x7a28a70f85f0125627385745829e07c566da121bc873464361cc8f6089b8442a"
+   },
+   "reportPath": "reviews/base-0x00d11a580bc68078357ee935bb26bdc9089b1e1a.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x00d11a580bc68078357ee935bb26bdc9089b1e1a.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read URPS (0x00d11a580bc68078357ee935bb26bdc9089b1e1a) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
    "address": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
-   "generatedAt": "2026-11-18T16:36:19.066634+00:00",
+   "generatedAt": "2026-11-18T16:42:45.571830+00:00",
    "reads": {
     "name": "LAPTOP",
     "symbol": "LAPTOP",
@@ -23,17 +213,17 @@
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
    ],
    "errors": [],
-   "blockNumber": 59147018,
+   "blockNumber": 59148950,
    "verdict": "no owner() surface found",
-   "liquidityUsd": 10267.0983,
+   "liquidityUsd": 11323.9626,
    "poolCreatedAt": "2026-11-18T16:30:57Z",
    "poolName": "LAPTOP / WETH",
    "outreach": {
     "symbol": "LAPTOP",
     "name": "LAPTOP",
-    "priceUsd": "0.000001096",
-    "fdv": 6141,
-    "liquidityUsd": 11174.13,
+    "priceUsd": "0.000001136",
+    "fdv": 6366,
+    "liquidityUsd": 11326.69,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
@@ -47,8 +237,84 @@
   {
    "chain": "base",
    "chainId": 8453,
+   "address": "0x5183e233fb71858cf3da6f56e8bab5c492e5e444",
+   "generatedAt": "2026-11-18T16:42:48.850344+00:00",
+   "reads": {
+    "name": "United Supply Oil Global",
+    "symbol": "USOG",
+    "decimals": 18,
+    "totalSupply": 1000000000000000000000000000,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148967,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 89248.2444,
+   "poolCreatedAt": "2026-11-18T16:30:02Z",
+   "poolName": "USOG / WETH",
+   "outreach": {
+    "symbol": "USOG",
+    "name": "United Supply Oil Global",
+    "priceUsd": "0.00008992",
+    "fdv": 89927,
+    "liquidityUsd": null,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0xbb3ad46081e72718c86a4a1535a7eb3e07684c4e641c6616a28f471b4d4e0161",
+    "pairUrl": "https://dexscreener.com/base/0xbb3ad46081e72718c86a4a1535a7eb3e07684c4e641c6616a28f471b4d4e0161"
+   },
+   "reportPath": "reviews/base-0x5183e233fb71858cf3da6f56e8bab5c492e5e444.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x5183e233fb71858cf3da6f56e8bab5c492e5e444.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read USOG (0x5183e233fb71858cf3da6f56e8bab5c492e5e444) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x4f20567407935b17fca8a653c388bb7a186bea04",
+   "generatedAt": "2026-11-18T16:42:52.877264+00:00",
+   "reads": {
+    "name": "National Trust Fund Asset (NTFA)",
+    "symbol": "NTFA",
+    "decimals": 18,
+    "totalSupply": 1000000000000000000000000000,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null
+   },
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "errors": [],
+   "blockNumber": 59148986,
+   "verdict": "no owner() surface found",
+   "liquidityUsd": 100528.5272,
+   "poolCreatedAt": "2026-11-18T16:27:58Z",
+   "poolName": "NTFA / WETH",
+   "outreach": {
+    "symbol": "NTFA",
+    "name": "National Trust Fund Asset (NTFA)",
+    "priceUsd": "0.0001012",
+    "fdv": 101227,
+    "liquidityUsd": null,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0xd94ca82c09d99e8696b3406d8c295df1c939500e9a1966a967e3aa4d8441187a",
+    "pairUrl": "https://dexscreener.com/base/0xd94ca82c09d99e8696b3406d8c295df1c939500e9a1966a967e3aa4d8441187a"
+   },
+   "reportPath": "reviews/base-0x4f20567407935b17fca8a653c388bb7a186bea04.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x4f20567407935b17fca8a653c388bb7a186bea04.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NTFA (0x4f20567407935b17fca8a653c388bb7a186bea04) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
    "address": "0xfa7e202cc99b719695a4174302a96555ec76383c",
-   "generatedAt": "2026-11-18T16:36:22.270515+00:00",
+   "generatedAt": "2026-11-18T16:42:56.419099+00:00",
    "reads": {
     "name": "LAPTOP",
     "symbol": "LAPTOP",
@@ -61,17 +327,17 @@
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
    ],
    "errors": [],
-   "blockNumber": 59147033,
+   "blockNumber": 59149004,
    "verdict": "no owner() surface found",
-   "liquidityUsd": 13741.2866,
+   "liquidityUsd": 14510.3976,
    "poolCreatedAt": "2026-11-18T16:27:56Z",
    "poolName": "LAPTOP / WETH",
    "outreach": {
     "symbol": "LAPTOP",
     "name": "LAPTOP",
-    "priceUsd": "0.000001497",
-    "fdv": 8385,
-    "liquidityUsd": 14346.87,
+    "priceUsd": "0.000001567",
+    "fdv": 8778,
+    "liquidityUsd": 14613.4,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
@@ -86,7 +352,7 @@
    "chain": "base",
    "chainId": 8453,
    "address": "0x427e892e70feecdbedc13b0c01561c502de5932a",
-   "generatedAt": "2026-11-18T16:36:25.557694+00:00",
+   "generatedAt": "2026-11-18T16:42:59.753321+00:00",
    "reads": {
     "name": "GODF",
     "symbol": "GODF",
@@ -101,17 +367,17 @@
     "USDC-style proxy \u2014 admin() controls upgrades"
    ],
    "errors": [],
-   "blockNumber": 59147050,
+   "blockNumber": 59149021,
    "verdict": "no owner() surface found",
-   "liquidityUsd": 204598.735,
+   "liquidityUsd": 102075.2574,
    "poolCreatedAt": "2026-11-18T16:27:12Z",
    "poolName": "GODF / WETH",
    "outreach": {
     "symbol": "GODF",
     "name": "GODF",
-    "priceUsd": "0.000001101",
-    "fdv": 110104,
-    "liquidityUsd": 102451.14,
+    "priceUsd": "0.000001089",
+    "fdv": 108963,
+    "liquidityUsd": 101388.19,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
@@ -126,7 +392,7 @@
    "chain": "base",
    "chainId": 8453,
    "address": "0xf94d1179b07deffd38bc33afebc691256f7e0692",
-   "generatedAt": "2026-11-18T16:36:29.301959+00:00",
+   "generatedAt": "2026-11-18T16:43:03.213953+00:00",
    "reads": {
     "name": "USAR",
     "symbol": "USAR",
@@ -141,17 +407,17 @@
     "USDC-style proxy \u2014 admin() controls upgrades"
    ],
    "errors": [],
-   "blockNumber": 59147069,
+   "blockNumber": 59149038,
    "verdict": "no owner() surface found",
-   "liquidityUsd": 204666.2178,
+   "liquidityUsd": 102204.8773,
    "poolCreatedAt": "2026-11-18T16:25:17Z",
    "poolName": "USAR / WETH",
    "outreach": {
     "symbol": "USAR",
     "name": "USAR",
-    "priceUsd": "0.000001100",
-    "fdv": 110083,
-    "liquidityUsd": 102433.63,
+    "priceUsd": "0.000001089",
+    "fdv": 108946,
+    "liquidityUsd": 101373.63,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
@@ -166,7 +432,7 @@
    "chain": "base",
    "chainId": 8453,
    "address": "0xbb7ef2075672883be24717b064fc1f828819cccc",
-   "generatedAt": "2026-11-18T16:36:32.587865+00:00",
+   "generatedAt": "2026-11-18T16:43:06.645329+00:00",
    "reads": {
     "name": "Dragon Reserve",
     "symbol": "DRSV",
@@ -179,7 +445,7 @@
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
    ],
    "errors": [],
-   "blockNumber": 59147085,
+   "blockNumber": 59149055,
    "verdict": "no owner() surface found",
    "liquidityUsd": 14932.3925,
    "poolCreatedAt": "2026-11-18T16:24:38Z",
@@ -199,332 +465,62 @@
    "reportPath": "reviews/base-0xbb7ef2075672883be24717b064fc1f828819cccc.json",
    "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xbb7ef2075672883be24717b064fc1f828819cccc.json",
    "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read DRSV (0xbb7ef2075672883be24717b064fc1f828819cccc) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20",
-   "generatedAt": "2026-11-18T16:36:36.327653+00:00",
-   "reads": {
-    "name": "NOTF",
-    "symbol": "NOTF",
-    "decimals": 18,
-    "totalSupply": 100000000000000000000000000000,
-    "totalSupplyTokens": 100000000000.0,
-    "owner": null,
-    "proxyAdmin": "0xdeabf6b6efaedc976cb85327ad8bdb2e46c4f3c3"
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "USDC-style proxy \u2014 admin() controls upgrades"
-   ],
-   "errors": [],
-   "blockNumber": 59147104,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 102211.9364,
-   "poolCreatedAt": "2026-11-18T16:22:59Z",
-   "poolName": "NOTF / WETH",
-   "outreach": {
-    "symbol": "NOTF",
-    "name": "NOTF",
-    "priceUsd": "0.000001101",
-    "fdv": 110117,
-    "liquidityUsd": 102462.38,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0x393ad1f46dd5f28ff629487395583f6fffe544a5d90fbdc728359fe498ffbef4",
-    "pairUrl": "https://dexscreener.com/base/0x393ad1f46dd5f28ff629487395583f6fffe544a5d90fbdc728359fe498ffbef4"
-   },
-   "reportPath": "reviews/base-0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NOTF (0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - USDC-style proxy \u2014 admin() controls upgrades\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91",
-   "generatedAt": "2026-11-18T16:36:39.858896+00:00",
-   "reads": {
-    "name": "NOTF",
-    "symbol": "NOTF",
-    "decimals": 18,
-    "totalSupply": 1000000000000000000000000,
-    "totalSupplyTokens": 1000000.0,
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
-   },
-   "flags": [
-    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA"
-   ],
-   "errors": [],
-   "blockNumber": 59147121,
-   "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 67222.1226,
-   "poolCreatedAt": "2026-11-18T16:08:29Z",
-   "poolName": "NOTF / WETH 1%",
-   "outreach": {
-    "symbol": "NOTF",
-    "name": "NOTF",
-    "priceUsd": "3.042",
-    "fdv": 2080086,
-    "liquidityUsd": 66620.68,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0xf124b2b2eb6536cc17e33fb83928c119852b4338c2e436aff68a00870e5d193b",
-    "pairUrl": "https://dexscreener.com/base/0xf124b2b2eb6536cc17e33fb83928c119852b4338c2e436aff68a00870e5d193b"
-   },
-   "reportPath": "reviews/base-0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NOTF (0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0xfada4708e587964c9b70b1b8738064ce752dd310",
-   "generatedAt": "2026-11-18T16:36:43.363835+00:00",
-   "reads": {
-    "name": "NAFF",
-    "symbol": "NAFF",
-    "decimals": 18,
-    "totalSupply": 100000000000000000000000000000,
-    "totalSupplyTokens": 100000000000.0,
-    "owner": null,
-    "proxyAdmin": "0x4fa8f0eda5b8acf908155c750ac9345208f8c6d2"
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "USDC-style proxy \u2014 admin() controls upgrades"
-   ],
-   "errors": [],
-   "blockNumber": 59147139,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 102333.1966,
-   "poolCreatedAt": "2026-11-18T15:59:28Z",
-   "poolName": "NAFF / WETH",
-   "outreach": {
-    "symbol": "NAFF",
-    "name": "NAFF",
-    "priceUsd": "0.000001101",
-    "fdv": 110139,
-    "liquidityUsd": 102481.44,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0xca6e6e4efe16e8f2fceadecd04ab5f7ea1ee32e485598a1c3183d1f4be7af98a",
-    "pairUrl": "https://dexscreener.com/base/0xca6e6e4efe16e8f2fceadecd04ab5f7ea1ee32e485598a1c3183d1f4be7af98a"
-   },
-   "reportPath": "reviews/base-0xfada4708e587964c9b70b1b8738064ce752dd310.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xfada4708e587964c9b70b1b8738064ce752dd310.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NAFF (0xfada4708e587964c9b70b1b8738064ce752dd310) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - USDC-style proxy \u2014 admin() controls upgrades\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x553c84e634e3fc5c9a467677719726017a3af464",
-   "generatedAt": "2026-11-18T16:36:46.857286+00:00",
-   "reads": {
-    "name": "Momentum Network (MMT)",
-    "symbol": "MMT",
-    "decimals": 18,
-    "totalSupply": 1000000000000000000000000000,
-    "totalSupplyTokens": 1000000000.0,
-    "owner": null
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
-   ],
-   "errors": [],
-   "blockNumber": 59147156,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 110485.4059,
-   "poolCreatedAt": "2026-11-18T15:57:57Z",
-   "poolName": "MMT / WETH",
-   "outreach": {
-    "symbol": "MMT",
-    "name": "Momentum Network (MMT)",
-    "priceUsd": "0.0001119",
-    "fdv": 111906,
-    "liquidityUsd": 110786.48,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0xfc80bb686798c51aa02e7d983f1466999d9139f1443607909a7218a661fb2024",
-    "pairUrl": "https://dexscreener.com/base/0xfc80bb686798c51aa02e7d983f1466999d9139f1443607909a7218a661fb2024"
-   },
-   "reportPath": "reviews/base-0x553c84e634e3fc5c9a467677719726017a3af464.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x553c84e634e3fc5c9a467677719726017a3af464.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read MMT (0x553c84e634e3fc5c9a467677719726017a3af464) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x083021482dd47b98eb6f5d43ff81afd78ab20e64",
-   "generatedAt": "2026-11-18T16:36:50.012973+00:00",
-   "reads": {
-    "name": "Unitas Network (UP)",
-    "symbol": "UP",
-    "decimals": 18,
-    "totalSupply": 7700000000000000000000000000,
-    "totalSupplyTokens": 7700000000.0,
-    "owner": null
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
-   ],
-   "errors": [],
-   "blockNumber": 59147172,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 62552.8747,
-   "poolCreatedAt": "2026-11-18T15:57:02Z",
-   "poolName": "UP / WETH",
-   "outreach": {
-    "symbol": "UP",
-    "name": "Unitas Network (UP)",
-    "priceUsd": "0.000004840",
-    "fdv": 37275,
-    "liquidityUsd": 2.7,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0x020c04157BA93d3e2A7517ACd3a1970583241be0",
-    "pairUrl": "https://dexscreener.com/base/0x020c04157ba93d3e2a7517acd3a1970583241be0"
-   },
-   "reportPath": "reviews/base-0x083021482dd47b98eb6f5d43ff81afd78ab20e64.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x083021482dd47b98eb6f5d43ff81afd78ab20e64.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read UP (0x083021482dd47b98eb6f5d43ff81afd78ab20e64) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x70107c4aa2dc031ef7afc350e03784c2325abe29",
-   "generatedAt": "2026-11-18T16:36:53.329878+00:00",
-   "reads": {
-    "name": "OAA Protocol",
-    "symbol": "OAA",
-    "decimals": 18,
-    "totalSupply": 1000000000000000000000000000,
-    "totalSupplyTokens": 1000000000.0,
-    "owner": null
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
-   ],
-   "errors": [],
-   "blockNumber": 59147189,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 17854.2439,
-   "poolCreatedAt": "2026-11-18T15:57:00Z",
-   "poolName": "OAA / ETH",
-   "outreach": {
-    "symbol": "OAA",
-    "name": "OAA Protocol",
-    "priceUsd": "0.00002562",
-    "fdv": 25622,
-    "liquidityUsd": 17786.54,
-    "socials": [
-     {
-      "url": "https://x.com/oaaprotocol",
-      "type": "twitter"
-     },
-     {
-      "url": "https://t.me/oaaprotocol",
-      "type": "telegram"
-     }
-    ],
-    "websites": [
-     {
-      "url": "https://oaap.si",
-      "label": "Website"
-     },
-     {
-      "url": "https://oaap.si/#docs",
-      "label": "Docs"
-     },
-     {
-      "url": "https://buy.oaap.si",
-      "label": "Buy & Sell"
-     },
-     {
-      "url": "https://oaap.si/#lock",
-      "label": "Liquidity Lock Proof"
-     },
-     {
-      "url": "https://github.com/oaaprotocol",
-      "label": "GitHub"
-     }
-    ],
-    "dexId": "uniswap",
-    "pairAddress": "0xa551ab8931ba5d5c2aa3df0cec300b68567fbfe6b21bc626804e359982bec242",
-    "pairUrl": "https://dexscreener.com/base/0xa551ab8931ba5d5c2aa3df0cec300b68567fbfe6b21bc626804e359982bec242"
-   },
-   "reportPath": "reviews/base-0x70107c4aa2dc031ef7afc350e03784c2325abe29.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x70107c4aa2dc031ef7afc350e03784c2325abe29.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read OAA (0x70107c4aa2dc031ef7afc350e03784c2325abe29) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc",
-   "generatedAt": "2026-11-18T16:36:56.738065+00:00",
-   "reads": {
-    "name": "AudaCity",
-    "symbol": "DacityCoin",
-    "decimals": 18,
-    "totalSupply": 10000000000000000000000000000,
-    "totalSupplyTokens": 10000000000.0,
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
-   },
-   "flags": [
-    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA"
-   ],
-   "errors": [],
-   "blockNumber": 59147206,
-   "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 268901.5442,
-   "poolCreatedAt": "2026-11-18T15:56:09Z",
-   "poolName": "DacityCoin / WETH 0.3%",
-   "outreach": {
-    "symbol": "DacityCoin",
-    "name": "AudaCity",
-    "priceUsd": "0.5176",
-    "fdv": 4981022757,
-    "liquidityUsd": 268834.77,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0x82e54ae22648cd77454269a5b6d158d85971dd7aa8c6a4ec6683ec9a65c39436",
-    "pairUrl": "https://dexscreener.com/base/0x82e54ae22648cd77454269a5b6d158d85971dd7aa8c6a4ec6683ec9a65c39436"
-   },
-   "reportPath": "reviews/base-0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read DacityCoin (0x91c0544636c73dcf39a6d536a8ce79fb561f7ebc) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nA full review pins this report to a shareable URL and adds a clearly-labelled promotion:\n  $15 single-chain (Base) \u00b7 $35 multi-chain \u00b7 $75 with a pinned promotion post\n  Pay in USDC on Base, or in your own token at market value at the time we agree:\n  0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   }
  ],
  "skipped": [
   {
-   "symbol": "ANT",
-   "address": "0xb200000000000000000000b0ec84c13e4f63f201",
-   "liquidityUsd": 0.0,
-   "why": "liquidity $0 below $10,000 floor"
+   "symbol": "AX1",
+   "address": "0xb200000000000000000000ac75ef2e6d603e066f",
+   "liquidityUsd": 3645.1797,
+   "why": "liquidity $3,645 below $10,000 floor"
+  },
+  {
+   "symbol": "AX1",
+   "address": "0xb200000000000000000000fcbbdb6c9f60e357ab",
+   "liquidityUsd": 707.9222,
+   "why": "liquidity $708 below $10,000 floor"
+  },
+  {
+   "symbol": "S4T",
+   "address": "0x39eeebc65cce13507dd580c70947dd43ea50ea55",
+   "liquidityUsd": 8395.79519844635,
+   "why": "liquidity $8,396 below $10,000 floor"
+  },
+  {
+   "symbol": "KAI",
+   "address": "0xfe24fccbfc46848073570691d81fabc2c3413423",
+   "liquidityUsd": 2220.19547384373,
+   "why": "liquidity $2,220 below $10,000 floor"
   },
   {
    "symbol": "JALU",
    "address": "0x834f1a57fe28299f88a4be0b9e6b9babeb9bc84a",
-   "liquidityUsd": 7.003182652e-15,
-   "why": "liquidity $0 below $10,000 floor"
+   "liquidityUsd": 2269.5425,
+   "why": "liquidity $2,270 below $10,000 floor"
+  },
+  {
+   "symbol": "ANT",
+   "address": "0xb200000000000000000000b0ec84c13e4f63f201",
+   "liquidityUsd": 3835.9155,
+   "why": "liquidity $3,836 below $10,000 floor"
   },
   {
    "symbol": "DCTY",
    "address": "0x4fa716798ea8e92035e7bc3507c3412ca23816ea",
-   "liquidityUsd": 1381.9075,
-   "why": "liquidity $1,382 below $10,000 floor"
+   "liquidityUsd": 1378.3913,
+   "why": "liquidity $1,378 below $10,000 floor"
+  },
+  {
+   "symbol": "AETH",
+   "address": "0x8052ecd71fdf58e9f3a39ffdf195470a2488cccc",
+   "liquidityUsd": 4004.8434,
+   "why": "liquidity $4,005 below $10,000 floor"
   },
   {
    "symbol": "Good",
    "address": "0x61876cb333e7252d6b33aa9441484489bdb0cccc",
-   "liquidityUsd": 7729.4425,
-   "why": "liquidity $7,729 below $10,000 floor"
+   "liquidityUsd": 7733.6385,
+   "why": "liquidity $7,734 below $10,000 floor"
   },
   {
    "symbol": "BEARPAN",
@@ -535,242 +531,8 @@
   {
    "symbol": "BRYAN",
    "address": "0xf76bf4eaaa52a9abdb39ecec903d2f903028fd01",
-   "liquidityUsd": 4580.5465,
-   "why": "liquidity $4,581 below $10,000 floor"
-  },
-  {
-   "symbol": "DETECTIVE",
-   "address": "0x3d1cf424abc7816a362197f79ff3a036dce0423f",
-   "liquidityUsd": 2222.1119,
-   "why": "liquidity $2,222 below $10,000 floor"
-  },
-  {
-   "symbol": "CEO",
-   "address": "0xb200000000000000000000b3d2e549714de78c01",
-   "liquidityUsd": 3833.8343,
-   "why": "liquidity $3,834 below $10,000 floor"
-  },
-  {
-   "symbol": "DCTY",
-   "address": "0x3e60037cf61ec028b3e01ef524825ae9d24ecccc",
-   "liquidityUsd": 4257.2006,
-   "why": "liquidity $4,257 below $10,000 floor"
-  },
-  {
-   "symbol": "NADO",
-   "address": "0x668f53f9457aaa955f9a630636b27cda71f1cccc",
-   "liquidityUsd": 7676.2434,
-   "why": "liquidity $7,676 below $10,000 floor"
-  },
-  {
-   "symbol": "JALU",
-   "address": "0x18e449921f038d242b799c7618eebee2e358c5dd",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "ANTHROPIC",
-   "address": "0x877efc9a0dda0c97eb28baab4b4d64cc4a99e454",
-   "liquidityUsd": 0.003552752945,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "KieDex",
-   "address": "0xb200000000000000000000a5faa4fc4014afa272",
-   "liquidityUsd": 4381.0021,
-   "why": "liquidity $4,381 below $10,000 floor"
-  },
-  {
-   "symbol": "FUNDADOR",
-   "address": "0x8d1851e84d4e3a3196d4b827a54ed1887fefcccc",
-   "liquidityUsd": 8014.1626,
-   "why": "liquidity $8,014 below $10,000 floor"
-  },
-  {
-   "symbol": "DCTY",
-   "address": "0x8a73c482649214b7f28e635a1f5a666115ea0222",
-   "liquidityUsd": 2925.4232,
-   "why": "liquidity $2,925 below $10,000 floor"
-  },
-  {
-   "symbol": "TROLL",
-   "address": "0x50517cce5da1e25239e33632f9f95c0d39ee31a1",
-   "liquidityUsd": 2265.8612,
-   "why": "liquidity $2,266 below $10,000 floor"
-  },
-  {
-   "symbol": "BTC",
-   "address": "0x13607e43fc80e3605e4f38be92d2b077ee2b0648",
-   "liquidityUsd": 4536.6222,
-   "why": "liquidity $4,537 below $10,000 floor"
-  },
-  {
-   "symbol": "BTC",
-   "address": "0xd87a338596e049b900ab697feed8f603f84d612d",
-   "liquidityUsd": 0.0,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "PEPKING",
-   "address": "0x209e70415607925945b3e9f59b5cad6d5f9810bb",
-   "liquidityUsd": 0.0001260943288,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "DACT",
-   "address": "0xa5707a6db4cba5d6771de75640335d09a33acccc",
-   "liquidityUsd": 7831.6407,
-   "why": "liquidity $7,832 below $10,000 floor"
-  },
-  {
-   "symbol": "DCTY",
-   "address": "0x088077e8fbcb0aa8e8acb68346e2f7aa33477801",
-   "liquidityUsd": 3867.7837,
-   "why": "liquidity $3,868 below $10,000 floor"
-  },
-  {
-   "symbol": "DCTY",
-   "address": "0xd75ecea7443a14ceaf9cf3612ce151e266d11401",
-   "liquidityUsd": 7861.7402,
-   "why": "liquidity $7,862 below $10,000 floor"
-  },
-  {
-   "symbol": "DCTY",
-   "address": "0xcef9dda031c657c9e1dcba08393de42dbc3acccc",
-   "liquidityUsd": 4008.6563,
-   "why": "liquidity $4,009 below $10,000 floor"
-  },
-  {
-   "symbol": "NADO",
-   "address": "0xb2000000000000000000008eb8fcd3386f379702",
-   "liquidityUsd": 4737.3711,
-   "why": "liquidity $4,737 below $10,000 floor"
-  },
-  {
-   "symbol": "DCTY",
-   "address": "0x8d49f3290c12f640cbb0dafd88f0a3c6c47b9e01",
-   "liquidityUsd": 6053.8206,
-   "why": "liquidity $6,054 below $10,000 floor"
-  },
-  {
-   "symbol": "HYBRD",
-   "address": "0xbbccf41158c82a1a4ba0be324914830359e3cccc",
-   "liquidityUsd": 3916.6079,
-   "why": "liquidity $3,917 below $10,000 floor"
-  },
-  {
-   "symbol": "AX1",
-   "address": "0xb200000000000000000000f4127194ef47c4ec8d",
-   "liquidityUsd": 826.8012,
-   "why": "liquidity $827 below $10,000 floor"
-  },
-  {
-   "symbol": "CBB",
-   "address": "0x3b0c3b3f5ca11bfa9ed1dcd582b8946876cbcc01",
-   "liquidityUsd": 5318.4284,
-   "why": "liquidity $5,318 below $10,000 floor"
-  },
-  {
-   "symbol": "GROK",
-   "address": "0xdc0a3558a4f52adbbfd952a7f7ead23d08391cf6",
-   "liquidityUsd": 1.40218252273049e-13,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "SKILLS",
-   "address": "0xc4150f3078d05b9e9421c3de5adfbbce0a0dcccc",
-   "liquidityUsd": 0.0,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "MMT",
-   "address": "0x2ca19b9142e056db8df2acad4df7ab00d5113a5b",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "AXCAT",
-   "address": "0x6ce64b9b2f522242c3f25a413ea774f296a6fba3",
-   "liquidityUsd": 5074.913,
-   "why": "liquidity $5,075 below $10,000 floor"
-  },
-  {
-   "symbol": "nice",
-   "address": "0xe7ee32eda775f264b9c5baa400daa76be9a3cccc",
-   "liquidityUsd": 4295.6514,
-   "why": "liquidity $4,296 below $10,000 floor"
-  },
-  {
-   "symbol": "AMPS",
-   "address": "0x1a074f116786248fc79b130e6379293c7ef604a4",
-   "liquidityUsd": 0.008842010696,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "GTA6",
-   "address": "0xdc8b0737c5e7b0b172885f8a616d4e02bbb355dc",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTA6",
-   "address": "0x9795ba9e9bf2c865053b1fff0d507d7e3b3ff4ad",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTA",
-   "address": "0xee70384bd48cfc275517e5b188f21ce0ba44d5c5",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTA",
-   "address": "0x8ef61896e737ca357c4558df65accf69c7c867e0",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTAVI",
-   "address": "0x5c3c3bbe8c1f1067c370787aff3f1544ca9ee408",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTAVI",
-   "address": "0x341e419c31baccfd3142420330e3653a196ecd28",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTAVI",
-   "address": "0x61da7a3a91240ad94abb9986f1b27997beeecee1",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTAVI",
-   "address": "0x4182b595c08ebbb81b63e63c379d25bc4bb40bae",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTAVI",
-   "address": "0x441ff8c4370fb92be301b11896de34afdff6146d",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "GTAVI",
-   "address": "0xeabbcc68fac3be3b51b2e932c3368751d192e310",
-   "liquidityUsd": 2268.3111,
-   "why": "liquidity $2,268 below $10,000 floor"
-  },
-  {
-   "symbol": "CFG",
-   "address": "0x972c6b226701044b9c841147111535a73469cccc",
-   "liquidityUsd": 3919.9328,
-   "why": "liquidity $3,920 below $10,000 floor"
+   "liquidityUsd": 4583.0331,
+   "why": "liquidity $4,583 below $10,000 floor"
   }
  ]
 }

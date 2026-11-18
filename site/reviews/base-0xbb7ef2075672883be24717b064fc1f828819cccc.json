@@ -2,7 +2,7 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0xbb7ef2075672883be24717b064fc1f828819cccc",
- "generatedAt": "2026-11-18T16:36:32.587865+00:00",
+ "generatedAt": "2026-11-18T16:43:06.645329+00:00",
  "reads": {
   "name": "Dragon Reserve",
   "symbol": "DRSV",
@@ -15,7 +15,7 @@
   "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
  ],
  "errors": [],
- "blockNumber": 59147085,
+ "blockNumber": 59149055,
  "verdict": "no owner() surface found",
  "liquidityUsd": 14932.3925,
  "poolCreatedAt": "2026-11-18T16:24:38Z",

@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x10fd7c0c2e642d746a229db08289cb441f0ff54a",
+ "generatedAt": "2026-11-18T16:42:32.486143+00:00",
+ "reads": {
+  "name": "United Oil Reserve States (UORS)",
+  "symbol": "UORS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148885,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 87470.3366,
+ "poolCreatedAt": "2026-11-18T16:33:47Z",
+ "poolName": "UORS / WETH",
+ "outreach": {
+  "symbol": "UORS",
+  "name": "United Oil Reserve States (UORS)",
+  "priceUsd": "0.00008817",
+  "fdv": 88172,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xa726f85dcd28d1511e6f9fd67cbbdb943ea5825aaec763e5af9aaf5c8251a8ab",
+  "pairUrl": "https://dexscreener.com/base/0xa726f85dcd28d1511e6f9fd67cbbdb943ea5825aaec763e5af9aaf5c8251a8ab"
+ }
+}

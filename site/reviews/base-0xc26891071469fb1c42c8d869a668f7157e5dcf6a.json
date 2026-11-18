@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xc26891071469fb1c42c8d869a668f7157e5dcf6a",
+ "generatedAt": "2026-11-18T16:42:38.975766+00:00",
+ "reads": {
+  "name": "United Fund Dividend Oil",
+  "symbol": "UFDO",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148917,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 125095.034,
+ "poolCreatedAt": "2026-11-18T16:32:00Z",
+ "poolName": "UFDO / WETH",
+ "outreach": {
+  "symbol": "UFDO",
+  "name": "United Fund Dividend Oil",
+  "priceUsd": "0.0001258",
+  "fdv": 125820,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x5ec7a6389e787ffa6a4770e7457e42a6a9b51ba782ecca7d2d4fe1b11ce06438",
+  "pairUrl": "https://dexscreener.com/base/0x5ec7a6389e787ffa6a4770e7457e42a6a9b51ba782ecca7d2d4fe1b11ce06438"
+ }
+}

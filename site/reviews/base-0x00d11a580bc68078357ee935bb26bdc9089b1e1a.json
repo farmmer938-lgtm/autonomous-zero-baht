@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x00d11a580bc68078357ee935bb26bdc9089b1e1a",
+ "generatedAt": "2026-11-18T16:42:42.191996+00:00",
+ "reads": {
+  "name": "United States Power Reserve\ud83d\udca5",
+  "symbol": "URPS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148933,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 87761.9475,
+ "poolCreatedAt": "2026-11-18T16:31:14Z",
+ "poolName": "URPS / WETH",
+ "outreach": {
+  "symbol": "URPS",
+  "name": "United States Power Reserve\ud83d\udca5",
+  "priceUsd": "0.00008817",
+  "fdv": 88172,
+  "liquidityUsd": 87289.73,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x7a28a70f85f0125627385745829e07c566da121bc873464361cc8f6089b8442a",
+  "pairUrl": "https://dexscreener.com/base/0x7a28a70f85f0125627385745829e07c566da121bc873464361cc8f6089b8442a"
+ }
+}

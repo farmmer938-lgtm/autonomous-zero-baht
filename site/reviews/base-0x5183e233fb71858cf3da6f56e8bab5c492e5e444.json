@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x5183e233fb71858cf3da6f56e8bab5c492e5e444",
+ "generatedAt": "2026-11-18T16:42:48.850344+00:00",
+ "reads": {
+  "name": "United Supply Oil Global",
+  "symbol": "USOG",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59148967,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 89248.2444,
+ "poolCreatedAt": "2026-11-18T16:30:02Z",
+ "poolName": "USOG / WETH",
+ "outreach": {
+  "symbol": "USOG",
+  "name": "United Supply Oil Global",
+  "priceUsd": "0.00008992",
+  "fdv": 89927,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xbb3ad46081e72718c86a4a1535a7eb3e07684c4e641c6616a28f471b4d4e0161",
+  "pairUrl": "https://dexscreener.com/base/0xbb3ad46081e72718c86a4a1535a7eb3e07684c4e641c6616a28f471b4d4e0161"
+ }
+}
