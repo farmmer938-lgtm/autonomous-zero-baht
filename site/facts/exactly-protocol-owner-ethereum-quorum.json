@@ -9,15 +9,15 @@
   "threshold": 3,
   "ownerCount": 5,
   "owners": [
-   "0xA4F5f3848142116fe061e7255C133003a41ABce8",
-   "0x13FD608F64C9dE7627e28C8906350ad4F0E1C24d",
-   "0x260f7DCA963D9eC79d225d26c4323960673f769f",
-   "0xa2FDE6Cad46ff7E4C77f8bf87B258A00fA863c2E",
-   "0xF99A8edfe60B8112128A904b985D9DAe3aAB8132"
+   "0xa4f5f3848142116fe061e7255c133003a41abce8",
+   "0x13fd608f64c9de7627e28c8906350ad4f0e1c24d",
+   "0x260f7dca963d9ec79d225d26c4323960673f769f",
+   "0xa2fde6cad46ff7e4c77f8bf87b258a00fa863c2e",
+   "0xf99a8edfe60b8112128a904b985d9dae3aab8132"
   ]
  },
- "blockNumber": 26442340,
- "blockHash": "0x363c0d9d2f48af4f70ed29106fe1581573520b921eb7a9bdd03be60fa9c0b1ab",
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
  "rpcEndpoints": [
   "https://eth.drpc.org",
   "https://ethereum-rpc.publicnode.com"
@@ -27,6 +27,6 @@
   "claim": "currently 3 out of 6",
   "verdict": "mismatch"
  },
- "verifiedAt": "2026-11-18T13:47:42.335547+00:00",
- "contentHash": "sha256:fff103ef08dc9215fbc4c2173323fd0800cec288bb9912c940d5c5e488c19bef"
+ "verifiedAt": "2026-11-18T14:33:01.865078+00:00",
+ "contentHash": "sha256:eb9b0c5b9cc2acd2e55312c136bd2343975626c6193ff1fe52e77974dba69669"
 }
