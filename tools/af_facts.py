@@ -57,6 +57,36 @@ SPECS = [
      "subject": "Aave V3 Pool — upgradeable proxy (Ethereum)",
      "claim": "The implementation behind the Aave V3 Pool proxy on Ethereum, read from the EIP-1967 slot.",
      "docs_url": "https://aave.com/docs", "docs_claim": None},
+    {"id": "gnosisdao-treasury-safe-quorum", "chain": "ethereum",
+     "address": "0x849D52316331967b6fF1198e5E32A0eB168D039d", "kind": "safe_quorum",
+     "subject": "GnosisDAO — Treasury Safe (Ethereum)",
+     "claim": "GnosisDAO's Treasury Safe runs at the quorum recorded below.",
+     "docs_url": "https://docs.gnosischain.com/", "docs_claim": None},
+    {"id": "aave-addresses-provider-owner", "chain": "ethereum",
+     "address": "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e", "kind": "owner_contract",
+     "subject": "Aave V3 AddressesProvider — owner (Ethereum)",
+     "claim": "The address that owns the Aave V3 AddressesProvider (the registry every Aave market reads).",
+     "docs_url": "https://aave.com/docs", "docs_claim": None},
+    {"id": "uniswap-v3-factory-owner", "chain": "ethereum",
+     "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984", "kind": "owner_contract",
+     "subject": "Uniswap V3 Factory — owner (Ethereum)",
+     "claim": "The address that owns the Uniswap V3 Factory, which can enable new fee tiers.",
+     "docs_url": "https://docs.uniswap.org/", "docs_claim": None},
+    {"id": "maker-pause-proxy-owner", "chain": "ethereum",
+     "address": "0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB", "kind": "owner_contract",
+     "subject": "MakerDAO PauseProxy — owner (Ethereum)",
+     "claim": "The governance address that owns MakerDAO's PauseProxy, the contract that executes every Maker spell.",
+     "docs_url": "https://manual.makerdao.com/", "docs_claim": None},
+    {"id": "1inch-v6-router-owner", "chain": "ethereum",
+     "address": "0x111111125421cA6dc452d289314280a0f8842A65", "kind": "owner_contract",
+     "subject": "1inch Aggregation Router V6 — owner (Ethereum)",
+     "claim": "The address that owns the 1inch Aggregation Router V6.",
+     "docs_url": "https://docs.1inch.io/", "docs_claim": None},
+    {"id": "eigenlayer-strategy-manager-owner", "chain": "ethereum",
+     "address": "0x858646372CC42E1A627fcE94aa7A7033e7CF075A", "kind": "owner_contract",
+     "subject": "EigenLayer StrategyManager — owner (Ethereum)",
+     "claim": "The address that owns the EigenLayer StrategyManager, the entry point for stake deposits.",
+     "docs_url": "https://docs.eigenlayer.xyz/", "docs_claim": None},
 ]
 
 
@@ -89,6 +119,9 @@ def read_once(chain: str, host: str, address: str, kind: str, block: str):
     if kind == "timelock":
         md = rpc(chain, "eth_call", [{"to": address, "data": SEL["min_delay"]}, block], host)
         return {"minDelaySeconds": int(md, 16)}
+    if kind == "owner_contract":
+        ow = rpc(chain, "eth_call", [{"to": address, "data": SEL["owner"]}, block], host)
+        return {"owner": addr_from_word(ow[2:])}
     if kind == "proxy_admin":
         impl = rpc(chain, "eth_getStorageAt", [address, SLOT_IMPL, block], host)
         adm = rpc(chain, "eth_getStorageAt", [address, SLOT_ADMIN, block], host)
