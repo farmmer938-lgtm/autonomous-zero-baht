@@ -6,10 +6,10 @@
  "address": "0x216B4B4Ba9F3e719726886d34a177484278Bfcae",
  "kind": "owner_contract",
  "value": {
-  "owner": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
+  "owner": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57"
  },
- "blockNumber": 26442568,
- "blockHash": "0x3db37fe3f1c186eabd2047438f4fa05747f0fae4ecfd5d7c7eb3488f2ce23f30",
+ "blockNumber": 26442573,
+ "blockHash": "0xc1c300ad304878aabfe60b210acba5be40820bfe013bbdf841ef9d0e1ff5418b",
  "rpcEndpoints": [
   "https://eth.drpc.org",
   "https://ethereum-rpc.publicnode.com"
@@ -19,6 +19,6 @@
   "claim": null,
   "verdict": null
  },
- "verifiedAt": "2026-11-18T14:33:15.798587+00:00",
- "contentHash": "sha256:59e88943f1d74e31714bfe43f057a5e80f67dc3772a3b745999745a4b25eccdb"
+ "verifiedAt": "2026-11-18T14:34:24.901773+00:00",
+ "contentHash": "sha256:1bf3de50ba7cf6c1e0a3c3b968c4bc13b6920a0d25d181b10587f1ebf1f2b814"
 }
