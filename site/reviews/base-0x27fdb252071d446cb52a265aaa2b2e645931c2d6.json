@@ -2,7 +2,7 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0x27fdb252071d446cb52a265aaa2b2e645931c2d6",
- "generatedAt": "2026-11-18T17:41:01.692914+00:00",
+ "generatedAt": "2026-11-18T17:38:05.678848+00:00",
  "reads": {
   "name": "Oil United Dividend Fund",
   "symbol": "OUDF",
@@ -21,9 +21,9 @@
   "no mint(address,uint256) selector in the bytecode of 0x27fdb252\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
  ],
  "errors": [],
- "blockNumber": 59166431,
+ "blockNumber": 59165550,
  "verdict": "no owner() surface found",
- "liquidityUsd": 389030.0018,
+ "liquidityUsd": 193632.2505,
  "poolCreatedAt": "2026-11-18T17:29:58Z",
  "poolName": "OUDF / ZORA",
  "outreach": {

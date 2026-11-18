@@ -1,6 +1,6 @@
 {
  "schema": "af.service.queue.v1",
- "generatedAt": "2026-11-18T17:41:40.476972+00:00",
+ "generatedAt": "2026-11-18T17:39:19.390896+00:00",
  "business": {
   "what": "AF verifies one control-plane fact per request and publishes it, block-pinned.",
   "price_usd": 0.005,

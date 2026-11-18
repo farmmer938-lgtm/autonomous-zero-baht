@@ -2,7 +2,7 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0x1cef7065063964a5646a3f3b48c9cbbf145988cd",
- "generatedAt": "2026-11-18T17:26:06.767123+00:00",
+ "generatedAt": "2026-11-18T17:38:30.277663+00:00",
  "reads": {
   "name": "Almost elf season",
   "symbol": "ELF",
@@ -21,9 +21,9 @@
   "no mint(address,uint256) selector in the bytecode of 0x1cef7065\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
  ],
  "errors": [],
- "blockNumber": 59161956,
+ "blockNumber": 59165674,
  "verdict": "owner is a contract (multisig/governance)",
- "liquidityUsd": 101533.1808,
+ "liquidityUsd": 102341.9598,
  "poolCreatedAt": "2026-11-18T17:14:41Z",
  "poolName": "ELF / ZORA",
  "outreach": {
