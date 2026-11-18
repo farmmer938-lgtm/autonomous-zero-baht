@@ -1,0 +1,37 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xfada4708e587964c9b70b1b8738064ce752dd310",
+ "generatedAt": "2026-11-18T16:36:43.363835+00:00",
+ "reads": {
+  "name": "NAFF",
+  "symbol": "NAFF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0x4fa8f0eda5b8acf908155c750ac9345208f8c6d2"
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades"
+ ],
+ "errors": [],
+ "blockNumber": 59147139,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 102333.1966,
+ "poolCreatedAt": "2026-11-18T15:59:28Z",
+ "poolName": "NAFF / WETH",
+ "outreach": {
+  "symbol": "NAFF",
+  "name": "NAFF",
+  "priceUsd": "0.000001101",
+  "fdv": 110139,
+  "liquidityUsd": 102481.44,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xca6e6e4efe16e8f2fceadecd04ab5f7ea1ee32e485598a1c3183d1f4be7af98a",
+  "pairUrl": "https://dexscreener.com/base/0xca6e6e4efe16e8f2fceadecd04ab5f7ea1ee32e485598a1c3183d1f4be7af98a"
+ }
+}
