@@ -6,11 +6,11 @@
  "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
  "kind": "proxy_admin",
  "value": {
-  "implementation": "0x4295fe69b3e978eb511e4558b4407ad871612fcb",
+  "implementation": "0x4295Fe69b3e978Eb511e4558B4407AD871612fCb",
   "admin": null
  },
- "blockNumber": 26442295,
- "blockHash": "0xbe5ed096f8b15d523cc8750611765ef06294f2f25cc88b2950a30fe7bfa9d657",
+ "blockNumber": 26442301,
+ "blockHash": "0x26965835c0534fefffb3db09fe38fa8ea981d6202087eabd59c8f2c413947e4b",
  "rpcEndpoints": [
   "https://eth.drpc.org",
   "https://ethereum-rpc.publicnode.com"
@@ -20,6 +20,6 @@
   "claim": null,
   "verdict": null
  },
- "verifiedAt": "2026-11-18T13:38:38.474521+00:00",
- "contentHash": "sha256:6988d6c3d454f9a2045b58170b57195e373632e019a4adfbd7a1ef025e1497e2"
+ "verifiedAt": "2026-11-18T13:39:57.492099+00:00",
+ "contentHash": "sha256:4b51553602fccb37588febe9689117ce9cabcff76e5cc604402660413220c09f"
 }
