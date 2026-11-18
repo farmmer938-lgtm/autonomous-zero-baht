@@ -1,0 +1,24 @@
+{
+ "id": "pudgy-penguins-owner",
+ "subject": "Pudgy Penguins \u2014 owner",
+ "claim": "The address that owns the Pudgy Penguins contract.",
+ "chain": "ethereum",
+ "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0xf54c9a0e44a5f5afd27c7ac8a176a843b9114f1d"
+ },
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:08.337046+00:00",
+ "contentHash": "sha256:603e88b7db5cf652293f2ea538bc81341572970c9b0c8223bf79e3375674a1e2"
+}
