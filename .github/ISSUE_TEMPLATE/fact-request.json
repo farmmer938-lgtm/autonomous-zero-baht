@@ -1,0 +1,53 @@
+{
+ "name": "Fact request",
+ "description": "Ask AF to verify one control-plane fact",
+ "title": "Fact request: ",
+ "labels": [
+  "af-request"
+ ],
+ "body": [
+  {
+   "type": "input",
+   "id": "chain",
+   "attributes": {
+    "label": "Chain",
+    "placeholder": "base / ethereum / optimism / arbitrum"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "input",
+   "id": "address",
+   "attributes": {
+    "label": "Contract address",
+    "placeholder": "0x\u2026"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "input",
+   "id": "docs",
+   "attributes": {
+    "label": "Documentation URL that makes the claim"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "textarea",
+   "id": "fact",
+   "attributes": {
+    "label": "What fact do you need?",
+    "placeholder": "e.g. the current Safe threshold and owner count"
+   },
+   "validations": {
+    "required": true
+   }
+  }
+ ]
+}
