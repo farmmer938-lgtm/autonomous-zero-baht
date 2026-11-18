@@ -1,0 +1,32 @@
+{
+ "id": "exactly-protocol-owner-ethereum-quorum",
+ "subject": "Exactly Protocol \u2014 Protocol Owner multisig (Ethereum)",
+ "claim": "The Safe that owns Exactly Protocol on Ethereum runs at the quorum recorded below.",
+ "chain": "ethereum",
+ "address": "0x7A65824d74B0C20730B6eE4929ABcc41Cbe843Aa",
+ "kind": "safe_quorum",
+ "value": {
+  "threshold": 3,
+  "ownerCount": 5,
+  "owners": [
+   "0xa4f5f3848142116fe061e7255c133003a41abce8",
+   "0x13fd608f64c9de7627e28c8906350ad4f0e1c24d",
+   "0x260f7dca963d9ec79d225d26c4323960673f769f",
+   "0xa2fde6cad46ff7e4c77f8bf87b258a00fa863c2e",
+   "0xf99a8edfe60b8112128a904b985d9dae3aab8132"
+  ]
+ },
+ "blockNumber": 26442136,
+ "blockHash": "0xd5385087ebef5681ad0f53ad8516a83097a37c3da24d08174e736c0054e7cd85",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": "https://docs.exact.ly/security/access-control",
+  "claim": "currently 3 out of 6",
+  "verdict": "mismatch"
+ },
+ "verifiedAt": "2026-11-18T13:06:57.289128+00:00",
+ "contentHash": "sha256:48b336eae0a390536585e5d31d10f37d87a8460f824187bd6c4e889a012815e2"
+}
