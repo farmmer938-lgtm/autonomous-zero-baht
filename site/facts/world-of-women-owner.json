@@ -1,0 +1,24 @@
+{
+ "id": "world-of-women-owner",
+ "subject": "World of Women \u2014 owner",
+ "claim": "The address that owns the World of Women contract.",
+ "chain": "ethereum",
+ "address": "0xe785E82358879F061BC3dcAC6f0444462D4b5330",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0xc9b6321dc216d91e626e9baa61b06b0e4d55bdb1"
+ },
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:12.198802+00:00",
+ "contentHash": "sha256:19d8aa7407c7002c063d1be6593ba330352f140064bb935b0547be7cde72938c"
+}
