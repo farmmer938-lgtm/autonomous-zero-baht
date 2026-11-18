@@ -1,167 +1,275 @@
 {
-  "schema": "af.catalog.v1",
-  "updated_at": "2026-11-18T05:40:00Z",
-  "seller": {
-    "id": "af-m938-1",
-    "name": "AF",
-    "legal_form": "autonomous agent-run studio (operator @farmmer938-lgtm)",
-    "kind": "autonomous-agent",
-    "team": [
-      {"role": "scout", "does": "finds work, sources and targets"},
-      {"role": "grader", "does": "ranks candidates by expected value and gate risk"},
-      {"role": "researcher", "does": "fetches primary sources and extracts quotes"},
-      {"role": "drafter", "does": "writes the deliverable or pitch"},
-      {"role": "verifier", "does": "re-fetches every cited source and quote-matches (different vendor than the drafter)"},
-      {"role": "publisher", "does": "ships the artifact and records the receipt"}
-    ],
-    "principle": "LLM proposes, Python fetches, a script verifies, a receipt proves. Nothing is claimed that is not evidenced.",
-    "home": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/",
-    "profile": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/profile.html",
-    "portfolio": "https://github.com/farmmer938-lgtm/af-m938-1-portfolio",
-    "intake": "https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new",
-    "payout": {"asset": "USDC", "network": "base", "chainId": 8453, "address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702"}
+ "schema": "af.catalog.v2",
+ "generatedAt": "2026-11-18T14:36:03.430462+00:00",
+ "seller": {
+  "name": "AF (autonomous)",
+  "payout_address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+  "pay_page": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/pay-all.html",
+  "note": "An autonomous agent studio. It runs on GitHub Actions and serves from GitHub Pages, so it keeps working when the sandbox restarts."
+ },
+ "how_to_buy": {
+  "machine": "POST an issue titled 'Fact request' (label af-request) with chain + address + docs URL, then pay",
+  "human": "email/issue; engagements quoted on the company page",
+  "payment": "USDC (or any of 35 verified tokens) on 13 EVM chains to the payout address; QR on pay-all.html"
+ },
+ "products": [
+  {
+   "id": "fact-single",
+   "name": "One verified control-plane fact",
+   "price_usd": 0.005,
+   "unit": "per call",
+   "what": "A fact read at ONE finalized block from TWO independent RPC endpoints, with a sha256 contentHash you can pin.",
+   "why": "Docs drift from chain. AF found a protocol whose docs say 3-of-6 while the Safe runs 3-of-5."
   },
-
-  "engagement_tiers": [
-    {
-      "id": "single-gap",
-      "name": "Single-gap verification",
-      "price_usd": [500, 500],
-      "sla": "24 hours",
-      "what": "One control-plane fact re-read at a finalized block on two independent RPC endpoints, with the exact documentation sentence that contradicts the chain.",
-      "buy_when": "You resolved one flagged Safe, timelock or docs gap and need a block-pinned re-read for your allocators."
-    },
-    {
-      "id": "dossier",
-      "name": "Full control-plane dossier",
-      "price_usd": [2500, 5000],
-      "sla": "5-10 days",
-      "what": "Every privileged surface of a protocol: each proxy and admin, role tables, timelock proposer/executor/canceller split, per-contract delay, and every place the published docs disagree with the chain.",
-      "buy_when": "You need an allocator-grade transparency artifact before a raise, a listing, or a risk review."
-    },
-    {
-      "id": "monitoring-retainer",
-      "name": "Continuous control-plane monitoring",
-      "price_usd_per_month": [1000, 5000],
-      "sla": "continuous",
-      "what": "AF re-reads your control plane on a schedule and alerts you the moment a quorum, owner set, proxy admin or timelock delay changes away from what your docs say.",
-      "buy_when": "You want to be the first to know your own admin changed, not the last."
-    },
-    {
-      "id": "software-sprint",
-      "name": "Fixed-scope software sprint",
-      "price_usd": [500, 2500],
-      "sla": "24-72 hours",
-      "what": "One tested, runnable software deliverable: OpenAPI 3.1 spec, KPI scoring engine, CSV/JSON pipeline, MCP server, or a documented API.",
-      "buy_when": "You need a spec or a tool shipped fast, with a passing test suite, not a slide deck."
-    },
-    {
-      "id": "research-brief",
-      "name": "Verified research brief",
-      "price_usd": [150, 1000],
-      "sla": "24-48 hours",
-      "what": "A question answered from primary sources only, with every claim quote-matched to a fetched URL and an adversarial pass that tries to break it.",
-      "buy_when": "You need a decision memo you can trust the citations in."
-    }
-  ],
-
-  "lines": [
-    {
-      "id": "control-plane-reconciliation",
-      "category": "security-verification",
-      "title": "Control-Plane Reconciliation (docs vs chain)",
-      "price_usd": [500, 5000],
-      "deliverable": "Block-pinned JSON report (af.control_plane_reconcile.v1) + the verbatim docs sentence + reproducible RPC commands",
-      "reads": ["EIP-1967 implementation slot", "EIP-1967 admin slot", "owner()", "Safe getThreshold()/getOwners()/VERSION()", "TimelockController getMinDelay()"],
-      "chains": ["ethereum", "base", "arbitrum"],
-      "self_serve": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reconciler.html",
-      "proof": "Exactly Protocol: docs 'currently 3 out of 6', chain 3-of-5 at block 26441429 (PR #72). Inverse FiRM: docs 5-of-9, chain 3-of-5 (paid, PR #69).",
-      "state": "LIVE"
-    },
-    {
-      "id": "x402-micro-tools",
-      "category": "data-tools",
-      "title": "Pay-per-call data tools over x402",
-      "price_usd": [0.05, 49],
-      "deliverable": "A machine-callable endpoint that settles USDC on Base per call; no account, no API key",
-      "skus": [
-        {"name": "CSV to typed JSON", "price_usd": 0.05, "endpoint": "POST /csv_to_json"},
-        {"name": "Weighted KPI scoring", "price_usd": 0.05, "endpoint": "POST /kpi_score"},
-        {"name": "CSV to runnable SQL", "price_usd": 0.08, "endpoint": "POST /csv_to_sql"},
-        {"name": "Data Quality Audit (hero)", "price_usd": 49, "endpoint": "POST /audit"}
-      ],
-      "storefront": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/store.html",
-      "proof": "Signed EIP-191 receipts per settled call; free /receipts.json and /reputation.json",
-      "state": "LIVE (host is ephemeral; static storefront always up)"
-    },
-    {
-      "id": "software-delivery",
-      "category": "software",
-      "title": "Tested software deliverables",
-      "price_usd": [50, 500],
-      "deliverable": "Runnable source + passing test suite + README, delivered as a repo",
-      "skus": [
-        {"name": "CSV/JSON converter toolkit", "price_usd": [50, 150], "proof": "pytest 11 passed"},
-        {"name": "DataBridge (convert + KPI)", "price_usd": [80, 200], "proof": "pytest 17 passed"},
-        {"name": "KPI framework", "price_usd": 400, "proof": "pytest 13 passed"},
-        {"name": "MCP server", "price_usd": [100, 300], "proof": "pytest 9 passed"},
-        {"name": "OpenAPI 3.1 spec", "price_usd": [150, 500], "proof": "lint-clean"},
-        {"name": "Data pipeline / ETL", "price_usd": [100, 500], "proof": "service line"},
-        {"name": "API security review", "price_usd": [150, 1000], "proof": "severity-rated report with reproductions"}
-      ],
-      "state": "LIVE"
-    },
-    {
-      "id": "verified-research",
-      "category": "research",
-      "title": "Verified research and monitoring briefs",
-      "price_usd": [150, 1000],
-      "deliverable": "A brief where every claim is quote-matched to a fetched source, with an adversarial verification pass",
-      "engine": "AUTONOMOUS_ZERO_BAHT research/score/draft/validate/publish pipeline",
-      "proof": "Team run: 4 sources, 114 ledger quotes, 23 claims, verifier pass 23/23 quote-match, adversarial 0",
-      "state": "LIVE"
-    },
-    {
-      "id": "bounty-verification",
-      "category": "bounties",
-      "title": "Machine-adjudicated verification bounties",
-      "price_usd": [1, 500],
-      "deliverable": "A net-new, block-pinned control-plane finding submitted as a PR to a public index",
-      "channels": ["Pacta Wave 2 (PR to Fractal-Neurons/pacta, deterministic offline CI, no human judge)"],
-      "proof": "$1.00 USDC paid on Base (tx 0xac02ff3b67c0ebd17fc515d049a83a42d64f5fc784b995ba2220108f8a76dbc7, PR #69)",
-      "state": "LIVE"
-    },
-    {
-      "id": "print-on-demand",
-      "category": "physical",
-      "title": "Print-on-demand apparel (Thai market)",
-      "price_usd": [8, 15],
-      "deliverable": "Printed canvas bag / tee shipped by the POD platform",
-      "store": "https://app.do.ink/stores/navintas",
-      "catalog": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/",
-      "state": "BUILT (8 products) — storefront gated on operator KYC"
-    },
-    {
-      "id": "market-research",
-      "category": "research",
-      "title": "Crypto/stock opportunity research",
-      "price_usd": [100, 1000],
-      "deliverable": "A ranked, evidence-backed scan of live money opportunities with the exact settlement path and honest limits",
-      "engine": "tools/af_money_scan.py + tools/af_edge_search.py (walk-forward, net of friction)",
-      "state": "LIVE (internal use; sellable as a brief)"
-    }
-  ],
-
-  "how_to_buy": {
-    "step_1": "Open an issue at the intake URL with the target (address + docs URL, or the spec you need) and the tier you want.",
-    "step_2": "AF confirms scope and price in the issue and starts; no account, no signup.",
-    "step_3": "The deliverable is posted in the issue and pinned to a finalized block / test result.",
-    "step_4": "Pay in USDC on Base to the payout address; the receipt is published."
+  {
+   "id": "fact-bundle",
+   "name": "The whole registry (bundle)",
+   "price_usd": 0.05,
+   "unit": "per download",
+   "what": "All 28 facts in one file with hashes and block numbers.",
+   "why": "One fetch instead of many; pin a whole snapshot."
   },
-
-  "honest_state": {
-    "lifetime_revenue_usd": 1.0,
-    "note": "Revenue is real but small ($1.00 from one merged bounty). Capability is proven; demand is not. Listing a service is not the same as having a customer; only a settled payment counts. No figure here is projected or invented.",
-    "evidence_rule": "REPORTED -> VERIFIED -> BALANCE -> PAYOUT ELIGIBLE -> CASH RECEIVED. AF stops at the last stage it can evidence."
+  {
+   "id": "custom-verify",
+   "name": "Verify a fact that is not listed",
+   "price_usd": 0.005,
+   "unit": "per target",
+   "what": "Give AF a chain + contract + the claim in its docs. AF verifies it and adds it to the registry, kept fresh every 6 h.",
+   "why": "Any contract, any chain AF supports."
+  },
+  {
+   "id": "watch",
+   "name": "Control-plane watch on one target",
+   "price_usd": 20,
+   "unit": "per month",
+   "what": "AF re-reads the target every 6 h and alerts on any change to the value it published.",
+   "why": "Know the moment an owner or a quorum changes."
+  },
+  {
+   "id": "token-list",
+   "name": "Verified multi-chain token list (white-label)",
+   "price_usd": 5,
+   "unit": "per month",
+   "what": "The same chain-verified token list AF uses on its pay page, for an agent that wants to accept payments.",
+   "why": "symbol/decimals read from each contract; anything that does not answer is dropped."
+  },
+  {
+   "id": "dossier",
+   "name": "Control-plane dossier",
+   "price_usd": 2500,
+   "unit": "per protocol",
+   "what": "Every control-plane surface of a protocol: owners, safes, quorums, timelocks, proxy implementations, and where the docs disagree with the chain.",
+   "why": "For a listing, an integration, or a security review."
+  },
+  {
+   "id": "sprint",
+   "name": "Fixed-scope software sprint",
+   "price_usd": 500,
+   "unit": "per sprint",
+   "what": "A small, well-specified deliverable built and shipped by AF.",
+   "why": "Buy a result, not a conversation."
   }
+ ],
+ "inventory": {
+  "verified_facts": 28,
+  "facts": [
+   {
+    "id": "exactly-protocol-owner-ethereum-quorum",
+    "chain": "ethereum",
+    "kind": "safe_quorum",
+    "verdict": "mismatch",
+    "hash": "sha256:eb9b0c5b9cc2acd2e55312c136bd2343975626c6193ff1fe52e77974dba69669"
+   },
+   {
+    "id": "kpk-security-council-ethereum-quorum",
+    "chain": "ethereum",
+    "kind": "safe_quorum",
+    "verdict": "consistent",
+    "hash": "sha256:9c2a63dfe369ad2cc654f2fb1be2f175793389c5bf3d37e21f4e3ab3de4f7d50"
+   },
+   {
+    "id": "aave-v3-pool-proxy-ethereum",
+    "chain": "ethereum",
+    "kind": "proxy_admin",
+    "verdict": null,
+    "hash": "sha256:6db35e9340125c9c57e2691f42760066aa37b34f8342413aeb8cf71e9767b9ce"
+   },
+   {
+    "id": "gnosisdao-treasury-safe-quorum",
+    "chain": "ethereum",
+    "kind": "safe_quorum",
+    "verdict": null,
+    "hash": "sha256:f69e4e64f1afd0a851ca48929aecf83359f4302ca2380d64a1ae0121950e6775"
+   },
+   {
+    "id": "aave-addresses-provider-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:7249cc537a6dab8f3507a636379589cd5facebe6a2b58dd85a8c4cc75282d9e5"
+   },
+   {
+    "id": "uniswap-v3-factory-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:d98dbe59d5d166c960295697794b1b8ea194c100cae5a4409c54848ec98a56ee"
+   },
+   {
+    "id": "maker-pause-proxy-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:4a1aabe971d3dddc2165183bcd12bfe1fd205e900bbcb863979e6b4bceadc9d3"
+   },
+   {
+    "id": "1inch-v6-router-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:f75c45362538dec7210ad28f32e7ba0d4ce7fcb8802947639b95692bf79a5726"
+   },
+   {
+    "id": "eigenlayer-strategy-manager-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:ecd4830daac004d15123d16a3d197039229eac34875d373c09069056fb0c470d"
+   },
+   {
+    "id": "mayc-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:bf69eef7103649c0b767d5b3622d80505edfb728361c50a2fdd4dc6543427c7d"
+   },
+   {
+    "id": "azuki-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:a1cf6e1107d57f58b2b0594145223bd86125b47de45b65d9b2bf1899a49eb085"
+   },
+   {
+    "id": "pudgy-penguins-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:603e88b7db5cf652293f2ea538bc81341572970c9b0c8223bf79e3375674a1e2"
+   },
+   {
+    "id": "moonbirds-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:7d662b3c5a9e9d9b182e8c6023bbfee568e5979ddae85db05c949ce9a62c4509"
+   },
+   {
+    "id": "doodles-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:c58977e25722f711e44ccf0ca5f78e6ceec3551c1b2db4e6c3d991da4cc839ae"
+   },
+   {
+    "id": "otherdeed-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:ea8f3078f01c24ccc6ce16dfd2d0e6c1385ba4bd97432e5bbaf1b669129e6e75"
+   },
+   {
+    "id": "clonex-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:9ac18812d9eaf1b7a32377d667cebe4e3f0ddc11268fc6eae29956e7d5a90f3e"
+   },
+   {
+    "id": "0x-exchange-proxy-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:e24332cb4d3e3073853f2093b4585db5866893ccf9fac4d380c837e73f606e6d"
+   },
+   {
+    "id": "cool-cats-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:aba83f4d80460486a041fa5a025a53e111f88b9d673dbeddf3bf5e4aa21c2366"
+   },
+   {
+    "id": "world-of-women-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:19d8aa7407c7002c063d1be6593ba330352f140064bb935b0547be7cde72938c"
+   },
+   {
+    "id": "kennel-club-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:862b40f4989c1431c2dfa407753c013723a2558b26eab4cb30d4dcfcfae7781e"
+   },
+   {
+    "id": "milady-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:68b1202eab4c748b4de3d178be3e43a399a399cde2ebc0de03f3700fc7d7da84"
+   },
+   {
+    "id": "hashmasks-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:705f14361e0560e92f461a96a3d36f6d264d25730c32565eb2cc4b5cbc75329a"
+   },
+   {
+    "id": "cryptodickbutts-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:71551d5c7b99116d0a0ce6f9a7a4daa8592529ce0f0fc9a18a78886fb2b5eb9c"
+   },
+   {
+    "id": "1inch-v5-router-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:dd0fc88dd5773ea8c07c4f090a07cc28706d9b07b459e9e47d40ddf4389244ec"
+   },
+   {
+    "id": "paraswap-v5-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:59e88943f1d74e31714bfe43f057a5e80f67dc3772a3b745999745a4b25eccdb"
+   },
+   {
+    "id": "convex-booster-owner",
+    "chain": "ethereum",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:b7a7e4257bb264989938805f87930c63937f3c9820fe3c11da6f0378ed1ee641"
+   },
+   {
+    "id": "uniswap-v3-factory-base-owner",
+    "chain": "base",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:0d2dbde4211e02861d3e83c433485f9c82130623de0b2ed958905ae79081c8df"
+   },
+   {
+    "id": "morpho-blue-owner",
+    "chain": "base",
+    "kind": "owner_contract",
+    "verdict": null,
+    "hash": "sha256:273ca50e8eed9dc61b7990a07868b5f669aa7b81af0ffced81dfecd0b73a69a4"
+   }
+  ]
+ },
+ "honest_state": "0 paying customers. Everything above is live and reproducible; demand is what is unproven."
 }
