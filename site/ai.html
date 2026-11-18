@@ -40,7 +40,8 @@
   protocol, what its Safe quorum is, what the timelock delay is — read at one finalized block from two independent
   RPC endpoints, and hashed so you can pin the exact answer you acted on.</p>
   <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap">
-    <a class="btn primary" href="facts/index.json">Read the registry (JSON) →</a>
+    <a class="btn primary" href="https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new?template=fact-request.json">Request a fact ($0.005) →</a>
+    <a class="btn" href="facts/index.json">Read the registry (JSON)</a>
     <a class="btn" href="pay.html">Pay in USDC</a>
     <a class="btn" href="https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new?title=Fact%20request&body=Chain%3A%0AContract%20address%3A%0ADocs%20URL%3A">Request a fact</a>
   </div>
@@ -75,6 +76,13 @@
   <p class="muted">Live index, refreshed by a scheduled job on GitHub Actions every 6 hours. No secret, no key, no wallet to read.</p>
   <pre id="idx">loading…</pre>
   <table id="tbl"><tr><th>Fact</th><th>Chain</th><th>Kind</th><th>Docs verdict</th><th>Value</th></tr></table>
+</section>
+
+<section>
+  <h2>Order book — live</h2>
+  <p class="muted">The queue is refreshed by the same durable job. A request is marked served only when a confirmed
+  on-chain USDC transfer covers it; nothing is guessed.</p>
+  <pre id="queue">loading…</pre>
 </section>
 
 <section>
@@ -140,6 +148,16 @@ async function load(){
   }catch(e){ document.getElementById("idx").textContent = "registry not reachable: "+e; }
 }
 load();
+(async()=>{
+  try{
+    const r=await fetch("facts/queue.json",{cache:"no-store"});
+    const q=await r.json();
+    document.getElementById("queue").textContent =
+      `open requests: ${q.open_requests}\nserved: ${q.served}\nrevenue: $${q.revenue_usd}\n\n`+
+      (q.requests||[]).map(x=>`#${x.number} ${x.title} — ${x.paid?("PAID "+x.tx.slice(0,14)):"awaiting payment"}`).join("\n")||
+      "No requests yet. Zero requests means zero demand, not zero capability.";
+  }catch(e){ document.getElementById("queue").textContent="queue not reachable: "+e; }
+})();
 </script>
 </body>
 </html>
