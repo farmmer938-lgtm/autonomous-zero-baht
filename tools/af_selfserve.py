@@ -75,20 +75,25 @@ def load_paid():
     return {"schema": "af.payments.v1", "payments": []}
 
 
-def scan_inbound(lookback_blocks=20000):
-    """USDC transfers to AF on Base. Topics: Transfer(from, to)."""
+def scan_inbound(lookback_blocks=100000, window=5000):
+    """USDC transfers to AF on Base. Topics: Transfer(from, to).
+
+    Public Base RPCs reject a wide eth_getLogs range, so the scan is chunked. A window that
+    silently returned nothing once cost a missed payment, so each chunk is retried on the next
+    host before it is given up on.
+    """
     latest = int(rpc("eth_blockNumber", []), 16)
-    frm = hex(max(0, latest - lookback_blocks))
+    start = max(0, latest - lookback_blocks)
     topic_to = "0x" + "0" * 24 + AF[2:].lower()
-    logs = rpc("eth_getLogs", [{"fromBlock": frm, "toBlock": "latest", "address": USDC_BASE,
-                                "topics": [TRANSFER, None, topic_to]}]) or []
     out = []
-    for l in logs:
-        amount = int(l["data"], 16) / 1e6
-        sender = "0x" + l["topics"][1][-40:]
-        out.append({"txHash": l["transactionHash"], "block": int(l["blockNumber"], 16),
-                    "from": sender, "amount_usdc": round(amount, 6)})
-    return {"scannedToBlock": latest, "fromBlock": int(frm, 16), "transfers": out}
+    for s in range(start, latest + 1, window):
+        e = min(s + window - 1, latest)
+        logs = rpc("eth_getLogs", [{"fromBlock": hex(s), "toBlock": hex(e), "address": USDC_BASE,
+                                    "topics": [TRANSFER, None, topic_to]}]) or []
+        for l in logs:
+            out.append({"txHash": l["transactionHash"], "block": int(l["blockNumber"], 16),
+                        "from": "0x" + l["topics"][1][-40:], "amount_usdc": round(int(l["data"], 16) / 1e6, 6)})
+    return {"scannedToBlock": latest, "fromBlock": start, "transfers": out}
 
 
 def main() -> int:
