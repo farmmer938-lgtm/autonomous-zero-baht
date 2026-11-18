@@ -29,6 +29,9 @@ USDC_BASE = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
 RPC = ["https://base-rpc.publicnode.com", "https://mainnet.base.org", "https://base.drpc.org"]
 TRANSFER = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
 TIERS = {"base": 15.0, "multi_chain": 35.0, "pinned_promotion": 75.0}
+# Gemini advice 2026-11-18: a deployer in launch week pays a micro-amount without thinking.
+# 0.5 USDC for the pinned fix report, offered in the on-chain memo itself.
+MICRO_TIER = {"id": "micro_fix", "usdc": 0.5}
 LEDGER = "artifacts/payments/paid.json"
 
 
@@ -48,6 +51,16 @@ def rpc(method, params):
         except Exception as e:
             last = e
     raise RuntimeError(f"rpc {method}: {str(last)[:160]}")
+
+
+def micro_amount(token: str) -> float:
+    """The 0.5-USDC micro invoice, made unique per token (0.51..0.59).
+
+    A flat 0.5 would be cheap but anonymous: two deployers paying 0.5 are indistinguishable.
+    Keeping a one-cent suffix preserves the amount-as-order-id trick at micro scale.
+    """
+    cents = (int(token[:10], 16) % 9) + 1
+    return round(MICRO_TIER["usdc"] + cents / 100, 2)
 
 
 def invoice_amount(token: str, tier: str = "base") -> float:
@@ -114,6 +127,11 @@ def main() -> int:
 
     res = scan_inbound()
     inv = {round(i["amount_usdc"], 2): i for i in invoices(targets)}
+    # micro tier: the 0.5x amount offered inside the on-chain memo
+    for t in targets:
+        a = round(micro_amount(t["address"]), 2)
+        inv.setdefault(a, {"token": t["address"], "symbol": (t.get("reads") or {}).get("symbol"),
+                           "amount_usdc": a, "tier": MICRO_TIER["id"], "report": t.get("reportUrl")})
     paid = load_paid()
     seen = {p["txHash"] for p in paid["payments"]}
     print(f"scanned blocks {res['fromBlock']}..{res['scannedToBlock']} | inbound transfers: {len(res['transfers'])}")
