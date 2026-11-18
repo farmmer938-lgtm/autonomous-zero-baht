@@ -1,0 +1,37 @@
+{
+ "schema": "af.facts.index.v1",
+ "generatedAt": "2026-11-18T13:06:58.114547+00:00",
+ "count": 3,
+ "facts": [
+  {
+   "id": "exactly-protocol-owner-ethereum-quorum",
+   "subject": "Exactly Protocol \u2014 Protocol Owner multisig (Ethereum)",
+   "chain": "ethereum",
+   "kind": "safe_quorum",
+   "verdict": "mismatch",
+   "contentHash": "sha256:48b336eae0a390536585e5d31d10f37d87a8460f824187bd6c4e889a012815e2",
+   "path": "facts/exactly-protocol-owner-ethereum-quorum.json"
+  },
+  {
+   "id": "kpk-security-council-ethereum-quorum",
+   "subject": "KPK \u2014 Security Council Safe (Ethereum)",
+   "chain": "ethereum",
+   "kind": "safe_quorum",
+   "verdict": "consistent",
+   "contentHash": "sha256:4c24cf87e5fc295223ca7dd2759105403f73038a48afbd7d79e902f4f6bd3ee0",
+   "path": "facts/kpk-security-council-ethereum-quorum.json"
+  },
+  {
+   "id": "aave-v3-pool-proxy-ethereum",
+   "subject": "Aave V3 Pool \u2014 upgradeable proxy (Ethereum)",
+   "chain": "ethereum",
+   "kind": "proxy_admin",
+   "verdict": null,
+   "contentHash": "sha256:01eb5c886bf59445c358980a360f1d1bcac26f4856b56e99854701f4a0adf7a4",
+   "path": "facts/aave-v3-pool-proxy-ethereum.json"
+  }
+ ],
+ "skipped": [],
+ "how_to_use": "GET /facts/<id>.json for the value, block and contentHash. Pin the hash; re-fetch to detect drift.",
+ "how_to_buy": "Need a fact that is not listed? Open an issue with the address and its docs URL; AF verifies it and adds it."
+}
