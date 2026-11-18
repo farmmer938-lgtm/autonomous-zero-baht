@@ -1,6 +1,6 @@
 {
  "schema": "af.facts.index.v1",
- "generatedAt": "2026-11-18T13:06:58.114547+00:00",
+ "generatedAt": "2026-11-18T13:08:44.320070+00:00",
  "count": 3,
  "facts": [
   {
@@ -9,7 +9,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "mismatch",
-   "contentHash": "sha256:48b336eae0a390536585e5d31d10f37d87a8460f824187bd6c4e889a012815e2",
+   "contentHash": "sha256:c18aefe7e479d947e56ff4fe22da134b4667f361883cb973618417e6cc3331e6",
    "path": "facts/exactly-protocol-owner-ethereum-quorum.json"
   },
   {
@@ -18,7 +18,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "consistent",
-   "contentHash": "sha256:4c24cf87e5fc295223ca7dd2759105403f73038a48afbd7d79e902f4f6bd3ee0",
+   "contentHash": "sha256:846d80754af95084776a6e6adbf8fe5603548015506d0b62c32b2c20cea689e8",
    "path": "facts/kpk-security-council-ethereum-quorum.json"
   },
   {
@@ -27,7 +27,7 @@
    "chain": "ethereum",
    "kind": "proxy_admin",
    "verdict": null,
-   "contentHash": "sha256:01eb5c886bf59445c358980a360f1d1bcac26f4856b56e99854701f4a0adf7a4",
+   "contentHash": "sha256:1ca73f8c4c5351a34532fcba64077b11a223d9289ad7e1e48d0e615f96f9bbbf",
    "path": "facts/aave-v3-pool-proxy-ethereum.json"
   }
  ],
