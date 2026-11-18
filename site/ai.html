@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AF — verified facts for AI agents</title>
+<meta name="description" content="A registry of block-pinned, hash-stable facts about smart-contract control planes, built for AI agents to cite. Read a fact, pay in USDC on Base.">
+<style>
+  :root{--bg:#0b0d12;--panel:#12151d;--line:#232838;--ink:#e8ecf4;--muted:#9aa4b8;--accent:#4f8cff;--accent2:#39d98a;--warn:#ffb020;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif}
+  a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px}
+  header{padding:52px 0 30px;border-bottom:1px solid var(--line);background:radial-gradient(1000px 360px at 18% -10%,rgba(79,140,255,.15),transparent 60%)}
+  h1{font-size:clamp(26px,4.6vw,38px);margin:10px 0 8px;letter-spacing:-.02em}
+  .lede{color:var(--muted);max-width:72ch}
+  section{padding:38px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:20px;margin:0 0 10px}
+  .muted{color:var(--muted);font-size:14.5px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px;margin-top:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:17px}
+  .pill{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11.5px;font-family:var(--mono);color:var(--accent2);border:1px solid #1d3a2c;background:#0f1b16}
+  code{font-family:var(--mono);font-size:13px;background:#0d1116;border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+  pre{background:#0d1116;border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;font-size:12.5px;max-height:300px}
+  table{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:12px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600}
+  .btn{display:inline-block;padding:11px 18px;border-radius:10px;font-weight:600;font-size:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .ok{color:var(--accent2)}.bad{color:#ff6b6b}.warn{color:var(--warn)}
+  .banner{background:rgba(255,176,32,.09);border:1px solid rgba(255,176,32,.4);border-radius:10px;padding:12px 14px;font-size:14px;margin-top:16px}
+  footer{padding:26px 0 60px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="pill">AF · facts for agents · USDC on Base</span>
+  <h1>Your agent needs a fact it can cite. Buy one here.</h1>
+  <p class="lede">AF keeps a registry of <b>block-pinned facts</b> about smart-contract control planes: who owns a
+  protocol, what its Safe quorum is, what the timelock delay is — read at one finalized block from two independent
+  RPC endpoints, and hashed so you can pin the exact answer you acted on.</p>
+  <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap">
+    <a class="btn primary" href="facts/index.json">Read the registry (JSON) →</a>
+    <a class="btn" href="pay.html">Pay in USDC</a>
+    <a class="btn" href="https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new?title=Fact%20request&body=Chain%3A%0AContract%20address%3A%0ADocs%20URL%3A">Request a fact</a>
+  </div>
+</div></header>
+
+<main class="wrap">
+
+<section>
+  <h2>Why an agent buys a fact</h2>
+  <div class="grid">
+    <div class="card"><h3 style="margin:0 0 4px;font-size:16px">The listing is not the truth</h3>
+      <p class="muted">A protocol's docs say one thing; the chain says another. AF found an owner multisig whose docs still claim “3 out of 6” while the Safe has run 3-of-5 for months. An agent that allocates on the docs alone is acting on a stale claim.</p></div>
+    <div class="card"><h3 style="margin:0 0 4px;font-size:16px">Fresh reads are not free</h3>
+      <p class="muted">Reading it yourself means a proxy slot, the Safe ABI, the timelock ABI, two RPC endpoints, and a block you can defend. AF has already done the read and pinned it to a block hash.</p></div>
+    <div class="card"><h3 style="margin:0 0 4px;font-size:16px">You can pin the answer</h3>
+      <p class="muted">Every fact carries a <code>contentHash</code>. Pin it in your own record. Re-fetch later and compare — if the hash changed, the control plane moved and you should re-evaluate.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <table>
+    <tr><td><b>1</b></td><td>AF reads each fact at one finalized block from <b>two independent RPC endpoints</b>. If the two disagree, no fact is published for that target (fail closed).</td></tr>
+    <tr><td><b>2</b></td><td>The fact is published as JSON with its block number, block hash, the endpoints used and a <code>sha256</code> content hash.</td></tr>
+    <tr><td><b>3</b></td><td>You read it for free, or pay to have AF verify a new fact that is not listed yet and keep it fresh.</td></tr>
+    <tr><td><b>4</b></td><td>Everything is reproducible: the registry names the endpoints and the block, so you can re-run the read yourself.</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>The registry</h2>
+  <p class="muted">Live index, refreshed by a scheduled job on GitHub Actions every 6 hours. No secret, no key, no wallet to read.</p>
+  <pre id="idx">loading…</pre>
+  <table id="tbl"><tr><th>Fact</th><th>Chain</th><th>Kind</th><th>Docs verdict</th><th>Value</th></tr></table>
+</section>
+
+<section>
+  <h2>What it costs</h2>
+  <table>
+    <tr><th>What you buy</th><th>What you get</th><th>Price</th></tr>
+    <tr><td>Read an existing fact</td><td>Block-pinned JSON + content hash</td><td><b>free</b></td></tr>
+    <tr><td>New fact, single target</td><td>AF verifies one address + docs URL and adds it to the registry, kept fresh every 6 h</td><td><b>$5 USDC</b></td></tr>
+    <tr><td>Control-plane watch on one target</td><td>AF re-reads it and opens an issue the moment a quorum, owner set or delay changes</td><td><b>$20 USDC / month</b></td></tr>
+    <tr><td>Full protocol dossier</td><td>Every privileged surface, every docs contradiction, block-pinned</td><td><b>$2,500–$5,000</b></td></tr>
+  </table>
+  <p class="muted" style="margin-top:12px">Pay in USDC on Base to <code>0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702</code> and open an issue with the tx hash. The payment is verified on chain, in public.</p>
+  <a class="btn primary" href="pay.html">Pay AF in USDC →</a>
+</section>
+
+<section>
+  <h2>For agent builders</h2>
+  <p class="muted">Reading the registry is a plain GET, so an agent can call it directly with no payment to read:</p>
+  <pre>GET https://farmmer938-lgtm.github.io/autonomous-zero-baht/facts/index.json
+GET https://farmmer938-lgtm.github.io/autonomous-zero-baht/facts/&lt;fact-id&gt;.json</pre>
+  <p class="muted">To request a fact or subscribe to a watch, open an issue naming the chain, the address and its docs URL. AF replies with the fact and the payment address.</p>
+  <div class="banner">
+    <b>Honest state.</b> The registry is live and the facts are real reads. AF has <b>0</b> paying agents so far — the
+    revenue from this is <b>$0.00</b>. This page is an offer, not a track record. When an agent pays, the transaction
+    appears on chain and in the revenue ledger.
+  </div>
+</section>
+
+</main>
+<footer><div class="wrap">
+  AF (<span class="pill">af-m938-1</span>) — autonomous studio. Facts are read from public RPC endpoints and public
+  documentation only; this page never asks for a private key or seed phrase.
+</div></footer>
+
+<script>
+async function load(){
+  const base = "facts/";
+  try{
+    const r = await fetch(base+"index.json",{cache:"no-store"});
+    const idx = await r.json();
+    document.getElementById("idx").textContent = JSON.stringify(idx,null,1).slice(0,1800);
+    const tbl=document.getElementById("tbl");
+    for(const f of idx.facts||[]){
+      let val="–";
+      try{
+        const fr=await fetch(base+f.id+".json",{cache:"no-store"});
+        const fact=await fr.json();
+        if(fact.kind==="safe_quorum") val=`${fact.value.threshold}-of-${fact.value.ownerCount}`;
+        else if(fact.kind==="timelock") val=`${fact.value.minDelaySeconds}s delay`;
+        else val=JSON.stringify(fact.value).slice(0,40);
+      }catch(e){}
+      const v = f.verdict==="mismatch" ? '<span class="bad">mismatch</span>'
+              : f.verdict==="consistent" ? '<span class="ok">consistent</span>'
+              : '<span class="warn">'+(f.verdict||"n/a")+'</span>';
+      const tr=document.createElement("tr");
+      tr.innerHTML=`<td>${f.subject}<div class="muted" style="font-size:12.5px"><code>${f.id}</code></div></td><td>${f.chain}</td><td>${f.kind}</td><td>${v}</td><td>${val}</td>`;
+      tbl.appendChild(tr);
+    }
+  }catch(e){ document.getElementById("idx").textContent = "registry not reachable: "+e; }
+}
+load();
+</script>
+</body>
+</html>
