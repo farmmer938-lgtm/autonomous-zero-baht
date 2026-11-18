@@ -48,11 +48,17 @@ jobs:
         run: python -m tools.af_service --write || true
       - name: Commit
         run: |
+          set -u
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/facts site/pay-tokens.json site/outbound site/reviews site/api site/paid
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: verified facts + service queue refresh"
-            git pull --rebase
-            git push
+          if git diff --cached --quiet; then
+            echo "nothing to commit"; exit 0
           fi
+          git commit -m "chore: verified facts + service queue refresh"
+          # These files are regenerated artifacts, so on any collision the freshest copy wins.
+          # Gemini advice 2026-11-18: never let an overlapping run fail the job. AF does not use
+          # git pull --rebase on this fast-moving branch (AGENTS.md); a merge with -X theirs
+          # resolves an add/add conflict deterministically instead of stopping for a human.
+          git pull --no-rebase -X theirs --no-edit origin main || true
+          git push origin main || (git pull --no-rebase -X theirs --no-edit origin main && git push origin main)
