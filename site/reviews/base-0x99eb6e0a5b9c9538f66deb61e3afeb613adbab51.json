@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
+ "generatedAt": "2026-11-18T16:36:19.066634+00:00",
+ "reads": {
+  "name": "LAPTOP",
+  "symbol": "LAPTOP",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59147018,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 10267.0983,
+ "poolCreatedAt": "2026-11-18T16:30:57Z",
+ "poolName": "LAPTOP / WETH",
+ "outreach": {
+  "symbol": "LAPTOP",
+  "name": "LAPTOP",
+  "priceUsd": "0.000001096",
+  "fdv": 6141,
+  "liquidityUsd": 11174.13,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x5eF42Da705Ca984240Ada689e480504138550A13",
+  "pairUrl": "https://dexscreener.com/base/0x5ef42da705ca984240ada689e480504138550a13"
+ }
+}
