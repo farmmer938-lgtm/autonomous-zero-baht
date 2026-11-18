@@ -1,0 +1,37 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xc2ac966d2492f6bf84d6a5125bbc47c4e0a3fd20",
+ "generatedAt": "2026-11-18T16:36:36.327653+00:00",
+ "reads": {
+  "name": "NOTF",
+  "symbol": "NOTF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0xdeabf6b6efaedc976cb85327ad8bdb2e46c4f3c3"
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades"
+ ],
+ "errors": [],
+ "blockNumber": 59147104,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 102211.9364,
+ "poolCreatedAt": "2026-11-18T16:22:59Z",
+ "poolName": "NOTF / WETH",
+ "outreach": {
+  "symbol": "NOTF",
+  "name": "NOTF",
+  "priceUsd": "0.000001101",
+  "fdv": 110117,
+  "liquidityUsd": 102462.38,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x393ad1f46dd5f28ff629487395583f6fffe544a5d90fbdc728359fe498ffbef4",
+  "pairUrl": "https://dexscreener.com/base/0x393ad1f46dd5f28ff629487395583f6fffe544a5d90fbdc728359fe498ffbef4"
+ }
+}
