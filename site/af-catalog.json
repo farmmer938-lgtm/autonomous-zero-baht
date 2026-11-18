@@ -41,10 +41,11 @@
   {
    "id": "token-review",
    "name": "Token review + promotion",
-   "price_usd": 0,
-   "unit": "paid in the project's own token (quote after reading liquidity)",
+   "price_usd": 15,
+   "unit": "single-chain (Base); $35 multi-chain; $75 with pinned promotion",
    "what": "AF reads the token's control plane from the chain (owner, renounced?, upgradeable proxy?, masterMinter?) and publishes an honest block-pinned review, plus a clearly-labelled promotion post.",
-   "why": "Projects want a credible third-party review; AF only publishes what the chain says."
+   "why": "Projects want a credible third-party review; AF only publishes what the chain says.",
+   "payment": "USDC on Base, or the project's own token at market value at the time both sides agree"
   },
   {
    "id": "watch",
@@ -280,5 +281,11 @@
    }
   ]
  },
- "honest_state": "0 paying customers. Everything above is live and reproducible; demand is what is unproven."
+ "honest_state": "0 paying customers. Everything above is live and reproducible; demand is what is unproven.",
+ "outbound": {
+  "page": "outbound.html",
+  "engine": "tools/af_outbound.py",
+  "source": "GeckoTerminal new_pools (Base) + DexScreener socials",
+  "rule": "AF reports only what the chain answered; never a buy/sell call"
+ }
 }
