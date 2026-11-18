@@ -1,0 +1,36 @@
+{
+ "schema": "af.outreach.ledger.v1",
+ "sent": [
+  {
+   "token": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
+   "symbol": "LAPTOP",
+   "deployer": "0x74d50e384d801e37101becda2561dc2837dc909a",
+   "txHash": "0xaea9b27e03e6a17c7cb3e58392cd2b071db99a73e73121aec31c4c1e5e39bdfa",
+   "at": "2026-11-18T16:53:27.257636+00:00",
+   "date": "2026-11-18",
+   "gas": 25624,
+   "costWei": "257172252368"
+  },
+  {
+   "token": "0xfa7e202cc99b719695a4174302a96555ec76383c",
+   "symbol": "LAPTOP",
+   "deployer": "0x698fa43b95159290ee84f96be2e45312f63d234d",
+   "txHash": "0x5b491827f06bdfbba66b16881e35ba45964ba2decb9bfaef6c38de6e2f2fbadc",
+   "at": "2026-11-18T16:56:16.076532+00:00",
+   "date": "2026-11-18",
+   "gas": 25624,
+   "costWei": "256744229072"
+  },
+  {
+   "token": "0x427e892e70feecdbedc13b0c01561c502de5932a",
+   "symbol": "GODF",
+   "deployer": "0xac3c6fb47dd06aeab4bbddfc8a726e458fb982c8",
+   "txHash": "0xa8d2dcb150a30f988157a7da1d077129581c92657fdc8539c0ccfc782db7d2a1",
+   "at": "2026-11-18T16:56:16.287933+00:00",
+   "date": "2026-11-18",
+   "gas": 25592,
+   "costWei": "256423599376"
+  }
+ ],
+ "note": "On-chain memos AF sent to token deployers. Each is a 0-value Base tx whose input data is the note."
+}
