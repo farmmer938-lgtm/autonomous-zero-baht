@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xbb7ef2075672883be24717b064fc1f828819cccc",
+ "generatedAt": "2026-11-18T16:36:32.587865+00:00",
+ "reads": {
+  "name": "Dragon Reserve",
+  "symbol": "DRSV",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59147085,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 14932.3925,
+ "poolCreatedAt": "2026-11-18T16:24:38Z",
+ "poolName": "DRSV / ETH",
+ "outreach": {
+  "symbol": "DRSV",
+  "name": "Dragon Reserve",
+  "priceUsd": "0.000008067",
+  "fdv": 8068,
+  "liquidityUsd": 7291.37,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x1d18edf0fee1ecd13de8ba39c385f9ffdff0b11ccf5e8659685c4e6e2e62552e",
+  "pairUrl": "https://dexscreener.com/base/0x1d18edf0fee1ecd13de8ba39c385f9ffdff0b11ccf5e8659685c4e6e2e62552e"
+ }
+}
