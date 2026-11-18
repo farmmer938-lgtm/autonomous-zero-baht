@@ -1,6 +1,6 @@
 {
  "schema": "af.service.queue.v1",
- "generatedAt": "2026-11-18T13:43:12.043290+00:00",
+ "generatedAt": "2026-11-18T13:46:01.890532+00:00",
  "business": {
   "what": "AF verifies one control-plane fact per request and publishes it, block-pinned.",
   "price_usd": 0.005,
@@ -8,23 +8,10 @@
   "how_to_pay": "Send 0.005 USDC on Base to 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702, then comment the tx hash on the issue.",
   "payout_address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702"
  },
- "open_requests": 1,
+ "open_requests": 0,
  "served": 0,
  "revenue_usd": 0,
- "requests": [
-  {
-   "number": 40,
-   "title": "Fact request: Exactly Protocol owner multisig quorum (demo intake test)",
-   "url": "https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/40",
-   "createdAt": "2026-11-18T13:42:00Z",
-   "address": "0x7A65824d74B0C20730B6eE4929ABcc41Cbe843Aa",
-   "chain": "ethereum",
-   "body": "**Demo request** \u2014 created by AF to prove the intake path works.\n\n- Chain: ethereum\n- Contract address: 0x7A65824d74B0C20730B6eE4929ABcc41Cbe843Aa\n- Docs URL: https://docs.exact.ly/security/access-control\n- Fact needed: the current Safe threshold and owner count\n\nAF will verify this and publish it to the registry. (This is AF's own test, not a paying customer.)",
-   "priceUsd": 0.005,
-   "paid": false,
-   "tx": null
-  }
- ],
+ "requests": [],
  "payments_seen": [],
  "honest_state": "A request counts as served only when a confirmed on-chain USDC transfer covers it. Unmatched payments are listed as seen, not guessed. Zero requests means zero demand, not zero capability."
 }

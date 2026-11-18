@@ -1,7 +1,7 @@
 {
  "schema": "af.facts.index.v1",
- "generatedAt": "2026-11-18T13:43:10.403688+00:00",
- "count": 3,
+ "generatedAt": "2026-11-18T13:46:00.486576+00:00",
+ "count": 9,
  "facts": [
   {
    "id": "exactly-protocol-owner-ethereum-quorum",
@@ -9,7 +9,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "mismatch",
-   "contentHash": "sha256:74d28742a5215584b22db9b8a1ee1c97ba58d6ced77508f7c0acad3c7527a8f0",
+   "contentHash": "sha256:301294d8240e9adec87fa9efc3532699e5da98d974136c673e3d8e9a368c6efe",
    "path": "facts/exactly-protocol-owner-ethereum-quorum.json"
   },
   {
@@ -18,7 +18,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "consistent",
-   "contentHash": "sha256:dc9b0a517e8dbafbd1cc74eacbc9b8807ea72c29d8839907aaef1346193b23e4",
+   "contentHash": "sha256:7833f2181583ce8f8d211ba778e848391db8b318bc065740295a251af39c142b",
    "path": "facts/kpk-security-council-ethereum-quorum.json"
   },
   {
@@ -27,8 +27,62 @@
    "chain": "ethereum",
    "kind": "proxy_admin",
    "verdict": null,
-   "contentHash": "sha256:4aa7367f4cd3a641b9f4fca73b6f5d7e1fdb605bbe6ea97b068833d73e2d4188",
+   "contentHash": "sha256:663c50c5779f5677f7bf1322971d7298f2317b1881f227cfeb4aa71c2e6ded23",
    "path": "facts/aave-v3-pool-proxy-ethereum.json"
+  },
+  {
+   "id": "gnosisdao-treasury-safe-quorum",
+   "subject": "GnosisDAO \u2014 Treasury Safe (Ethereum)",
+   "chain": "ethereum",
+   "kind": "safe_quorum",
+   "verdict": null,
+   "contentHash": "sha256:fcec4065d67695c745371e38787eab53018b520727353c218e43058396e3766f",
+   "path": "facts/gnosisdao-treasury-safe-quorum.json"
+  },
+  {
+   "id": "aave-addresses-provider-owner",
+   "subject": "Aave V3 AddressesProvider \u2014 owner (Ethereum)",
+   "chain": "ethereum",
+   "kind": "owner_contract",
+   "verdict": null,
+   "contentHash": "sha256:79ca8934ade60393e2a33202b37b7b9a3def049c52804d74bba52d710cef4ce1",
+   "path": "facts/aave-addresses-provider-owner.json"
+  },
+  {
+   "id": "uniswap-v3-factory-owner",
+   "subject": "Uniswap V3 Factory \u2014 owner (Ethereum)",
+   "chain": "ethereum",
+   "kind": "owner_contract",
+   "verdict": null,
+   "contentHash": "sha256:8931836da2922c270c03f260a66f12823e960c90a26de70741eaf8f9fb6272b5",
+   "path": "facts/uniswap-v3-factory-owner.json"
+  },
+  {
+   "id": "maker-pause-proxy-owner",
+   "subject": "MakerDAO PauseProxy \u2014 owner (Ethereum)",
+   "chain": "ethereum",
+   "kind": "owner_contract",
+   "verdict": null,
+   "contentHash": "sha256:74843afd9b16cc99a20ebdfdd9d65507073e6b4ed05e7d28744f4705602318bf",
+   "path": "facts/maker-pause-proxy-owner.json"
+  },
+  {
+   "id": "1inch-v6-router-owner",
+   "subject": "1inch Aggregation Router V6 \u2014 owner (Ethereum)",
+   "chain": "ethereum",
+   "kind": "owner_contract",
+   "verdict": null,
+   "contentHash": "sha256:9e74256a97d3df4bb7d22499d6d8fcd2472ce34078ac34335be213a18cea0e6b",
+   "path": "facts/1inch-v6-router-owner.json"
+  },
+  {
+   "id": "eigenlayer-strategy-manager-owner",
+   "subject": "EigenLayer StrategyManager \u2014 owner (Ethereum)",
+   "chain": "ethereum",
+   "kind": "owner_contract",
+   "verdict": null,
+   "contentHash": "sha256:f9c9058faedb6961567446914994e970244dd26c191d80491e6eb2ac6233f256",
+   "path": "facts/eigenlayer-strategy-manager-owner.json"
   }
  ],
  "skipped": [],
