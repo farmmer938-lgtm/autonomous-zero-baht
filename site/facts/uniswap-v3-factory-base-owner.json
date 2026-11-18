@@ -1,0 +1,24 @@
+{
+ "id": "uniswap-v3-factory-base-owner",
+ "subject": "Uniswap V3 Factory (Base) \u2014 owner",
+ "claim": "The address that owns the Uniswap V3 Factory on Base.",
+ "chain": "base",
+ "address": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0xabea76658b205696d49b5f91b2a03536cb8a3be1"
+ },
+ "blockNumber": 59110105,
+ "blockHash": "0x8e6fac24a5e3c7038deee19680ab4dbeb8302101878fcee92d32f1ae8c7caeed",
+ "rpcEndpoints": [
+  "https://base-rpc.publicnode.com",
+  "https://mainnet.base.org"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:17.135706+00:00",
+ "contentHash": "sha256:0d2dbde4211e02861d3e83c433485f9c82130623de0b2ed958905ae79081c8df"
+}
