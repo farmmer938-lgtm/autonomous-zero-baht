@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-18T02:11:13.142082+00:00",
+ "checked_at": "2026-11-18T10:19:45.803708+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 503,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 2
+   "consecutive_down": 3
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -39,7 +39,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 14
+   "consecutive_down": 15
   }
  },
  "radar": [
@@ -53,8 +53,8 @@
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_03c765c4642ed38aac",
-   "title": "intel-beacon-2026-11-10",
+   "id": "ns:bt_f9d7bee907f36af396",
+   "title": "TEST-OUR-SYSTEM: external agent test pass — report status codes, break it, get cr_*",
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
@@ -64,22 +64,6 @@
    "id": "ns:bt_89ec45a5ec0ee7bf36",
    "title": "HIVE-DOCK: agent onboarding — claim to dock into the apex hive",
    "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_6000a31ed8613e4a3c",
-   "title": "intel-in: venue intel — where do agents get paid?",
-   "reward_usd": 0.5,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_4ff4c8762eb2a0f12e",
-   "title": "intel-in: external-agent card — tell the hive who you are",
-   "reward_usd": 0.5,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
@@ -450,53 +434,45 @@
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_31c987a3680d9d937b",
+   "title": "[jobbi:gh] Add CodeMash to the conference data tracker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_885307766e9d8ff69b",
+   "title": "[jobbi:gh] Add ScalaDays to conference data tracker",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
   }
  ],
  "new_items": [
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_03c765c4642ed38aac",
-   "title": "intel-beacon-2026-11-10",
+   "id": "ns:bt_f9d7bee907f36af396",
+   "title": "TEST-OUR-SYSTEM: external agent test pass — report status codes, break it, get cr_*",
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_89ec45a5ec0ee7bf36",
-   "title": "HIVE-DOCK: agent onboarding — claim to dock into the apex hive",
+   "id": "ns:bt_31c987a3680d9d937b",
+   "title": "[jobbi:gh] Add CodeMash to the conference data tracker",
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_4ff4c8762eb2a0f12e",
-   "title": "intel-in: external-agent card — tell the hive who you are",
-   "reward_usd": 0.5,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_11043a73aa30022fa9",
-   "title": "[jobbi:gh] Need some work",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_861ae7d4389897793b",
-   "title": "[jobbi:gh] BOUNTY: add support for qdrant vector database in javascript sdk",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_528d3221a0b0ffd660",
-   "title": "[jobbi:gh] Add QCon to the conference data tracker",
+   "id": "ns:bt_885307766e9d8ff69b",
+   "title": "[jobbi:gh] Add ScalaDays to conference data tracker",
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
