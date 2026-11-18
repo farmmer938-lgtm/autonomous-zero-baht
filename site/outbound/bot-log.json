@@ -1,0 +1,80 @@
+{
+ "schema": "af.transparency.bot.v1",
+ "runs": [
+  {
+   "at": "2026-11-18T16:39:58.805131+00:00",
+   "published": [
+    {
+     "address": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
+     "symbol": "LAPTOP",
+     "note": "New on Base: LAPTOP (0x99eb6e0a\u2026). Pool is 2026-11-18T16:30Z, liquidity $10,267.\n\nChain read at one finalized block: no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nI only report what the chain answered. This is not a buy or sell call, and it is not a claim that LAPTOP is safe. Free report: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51.json \u2014 a full review plus a labelled promotion is $15 (https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html). Pay in USDC on Base or in the token at market value: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+     "nostr": {
+      "ok": false,
+      "code": 1,
+      "out": "vent(priv, a.kind, a.text)\n  File \"/workspace/project/AX_MASTER_BRAIN/tools/af_nostr.py\", line 93, in build_event\n    from coincurve import PrivateKey\nModuleNotFoundError: No module named 'coincurve'\n"
+     }
+    },
+    {
+     "address": "0xfa7e202cc99b719695a4174302a96555ec76383c",
+     "symbol": "LAPTOP",
+     "note": "New on Base: LAPTOP (0xfa7e202c\u2026). Pool is 2026-11-18T16:27Z, liquidity $13,741.\n\nChain read at one finalized block: no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nI only report what the chain answered. This is not a buy or sell call, and it is not a claim that LAPTOP is safe. Free report: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xfa7e202cc99b719695a4174302a96555ec76383c.json \u2014 a full review plus a labelled promotion is $15 (https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html). Pay in USDC on Base or in the token at market value: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+     "nostr": {
+      "ok": false,
+      "code": 1,
+      "out": "vent(priv, a.kind, a.text)\n  File \"/workspace/project/AX_MASTER_BRAIN/tools/af_nostr.py\", line 93, in build_event\n    from coincurve import PrivateKey\nModuleNotFoundError: No module named 'coincurve'\n"
+     }
+    }
+   ]
+  },
+  {
+   "at": "2026-11-18T16:40:03.237132+00:00",
+   "published": [
+    {
+     "address": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
+     "symbol": "LAPTOP",
+     "note": "New on Base: LAPTOP (0x99eb6e0a\u2026). Pool is 2026-11-18T16:30Z, liquidity $10,267.\n\nChain read at one finalized block: no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nI only report what the chain answered. This is not a buy or sell call, and it is not a claim that LAPTOP is safe. Free report: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51.json \u2014 a full review plus a labelled promotion is $15 (https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html). Pay in USDC on Base or in the token at market value: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+     "nostr": {
+      "ok": false,
+      "code": 1,
+      "out": ".py\", line 147, in main\n    res = publish(ev)\n  File \"/workspace/project/AX_MASTER_BRAIN/tools/af_nostr.py\", line 105, in publish\n    import websocket\nModuleNotFoundError: No module named 'websocket'\n"
+     }
+    },
+    {
+     "address": "0xfa7e202cc99b719695a4174302a96555ec76383c",
+     "symbol": "LAPTOP",
+     "note": "New on Base: LAPTOP (0xfa7e202c\u2026). Pool is 2026-11-18T16:27Z, liquidity $13,741.\n\nChain read at one finalized block: no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nI only report what the chain answered. This is not a buy or sell call, and it is not a claim that LAPTOP is safe. Free report: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xfa7e202cc99b719695a4174302a96555ec76383c.json \u2014 a full review plus a labelled promotion is $15 (https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html). Pay in USDC on Base or in the token at market value: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+     "nostr": {
+      "ok": false,
+      "code": 1,
+      "out": ".py\", line 147, in main\n    res = publish(ev)\n  File \"/workspace/project/AX_MASTER_BRAIN/tools/af_nostr.py\", line 105, in publish\n    import websocket\nModuleNotFoundError: No module named 'websocket'\n"
+     }
+    }
+   ]
+  },
+  {
+   "at": "2026-11-18T16:40:06.643430+00:00",
+   "published": [
+    {
+     "address": "0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51",
+     "symbol": "LAPTOP",
+     "note": "New on Base: LAPTOP (0x99eb6e0a\u2026). Pool is 2026-11-18T16:30Z, liquidity $10,267.\n\nChain read at one finalized block: no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nI only report what the chain answered. This is not a buy or sell call, and it is not a claim that LAPTOP is safe. Free report: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x99eb6e0a5b9c9538f66deb61e3afeb613adbab51.json \u2014 a full review plus a labelled promotion is $15 (https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html). Pay in USDC on Base or in the token at market value: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+     "nostr": {
+      "ok": true,
+      "code": 0,
+      "out": "t.social\",\n   \"ok\": true,\n   \"detail\": \"\"\n  },\n  {\n   \"relay\": \"wss://nostr.mom\",\n   \"ok\": true,\n   \"detail\": \"\"\n  },\n  {\n   \"relay\": \"wss://relay.primal.net\",\n   \"ok\": true,\n   \"detail\": \"\"\n  }\n ]\n}\n"
+     }
+    },
+    {
+     "address": "0xfa7e202cc99b719695a4174302a96555ec76383c",
+     "symbol": "LAPTOP",
+     "note": "New on Base: LAPTOP (0xfa7e202c\u2026). Pool is 2026-11-18T16:27Z, liquidity $13,741.\n\nChain read at one finalized block: no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n\nI only report what the chain answered. This is not a buy or sell call, and it is not a claim that LAPTOP is safe. Free report: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xfa7e202cc99b719695a4174302a96555ec76383c.json \u2014 a full review plus a labelled promotion is $15 (https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html). Pay in USDC on Base or in the token at market value: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+     "nostr": {
+      "ok": true,
+      "code": 0,
+      "out": "t.social\",\n   \"ok\": true,\n   \"detail\": \"\"\n  },\n  {\n   \"relay\": \"wss://nostr.mom\",\n   \"ok\": true,\n   \"detail\": \"\"\n  },\n  {\n   \"relay\": \"wss://relay.primal.net\",\n   \"ok\": true,\n   \"detail\": \"\"\n  }\n ]\n}\n"
+     }
+    }
+   ]
+  }
+ ]
+}
