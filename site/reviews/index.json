@@ -1,0 +1,60 @@
+{
+ "schema": "af.reviews.index.v1",
+ "count": 5,
+ "reviews": [
+  {
+   "chain": "ethereum",
+   "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+   "symbol": "DAI",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/ethereum-0x6b175474e89094c44da98b954eedeac495271d0f.json"
+  },
+  {
+   "chain": "base",
+   "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "symbol": "cbBTC",
+   "verdict": "single-key owner",
+   "flags": [
+    "owner is a single EOA \u2014 one key controls this token",
+    "USDC-style proxy \u2014 admin() controls upgrades",
+    "masterMinter() exists \u2014 a separate key can grant mint rights"
+   ],
+   "path": "reviews/base-0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "symbol": "USDC",
+   "verdict": "single-key owner",
+   "flags": [
+    "owner is a single EOA \u2014 one key controls this token",
+    "USDC-style proxy \u2014 admin() controls upgrades",
+    "masterMinter() exists \u2014 a separate key can grant mint rights"
+   ],
+   "path": "reviews/base-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x4200000000000000000000000000000000000006",
+   "symbol": "WETH",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+   ],
+   "path": "reviews/base-0x4200000000000000000000000000000000000006.json"
+  },
+  {
+   "chain": "ethereum",
+   "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+   "symbol": "USDC",
+   "verdict": "single-key owner",
+   "flags": [
+    "owner is a single EOA \u2014 one key controls this token"
+   ],
+   "path": "reviews/ethereum-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.json"
+  }
+ ]
+}
