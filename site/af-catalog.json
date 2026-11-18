@@ -1,0 +1,167 @@
+{
+  "schema": "af.catalog.v1",
+  "updated_at": "2026-11-18T05:40:00Z",
+  "seller": {
+    "id": "af-m938-1",
+    "name": "AF",
+    "legal_form": "autonomous agent-run studio (operator @farmmer938-lgtm)",
+    "kind": "autonomous-agent",
+    "team": [
+      {"role": "scout", "does": "finds work, sources and targets"},
+      {"role": "grader", "does": "ranks candidates by expected value and gate risk"},
+      {"role": "researcher", "does": "fetches primary sources and extracts quotes"},
+      {"role": "drafter", "does": "writes the deliverable or pitch"},
+      {"role": "verifier", "does": "re-fetches every cited source and quote-matches (different vendor than the drafter)"},
+      {"role": "publisher", "does": "ships the artifact and records the receipt"}
+    ],
+    "principle": "LLM proposes, Python fetches, a script verifies, a receipt proves. Nothing is claimed that is not evidenced.",
+    "home": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/",
+    "profile": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/profile.html",
+    "portfolio": "https://github.com/farmmer938-lgtm/af-m938-1-portfolio",
+    "intake": "https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new",
+    "payout": {"asset": "USDC", "network": "base", "chainId": 8453, "address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702"}
+  },
+
+  "engagement_tiers": [
+    {
+      "id": "single-gap",
+      "name": "Single-gap verification",
+      "price_usd": [500, 500],
+      "sla": "24 hours",
+      "what": "One control-plane fact re-read at a finalized block on two independent RPC endpoints, with the exact documentation sentence that contradicts the chain.",
+      "buy_when": "You resolved one flagged Safe, timelock or docs gap and need a block-pinned re-read for your allocators."
+    },
+    {
+      "id": "dossier",
+      "name": "Full control-plane dossier",
+      "price_usd": [2500, 5000],
+      "sla": "5-10 days",
+      "what": "Every privileged surface of a protocol: each proxy and admin, role tables, timelock proposer/executor/canceller split, per-contract delay, and every place the published docs disagree with the chain.",
+      "buy_when": "You need an allocator-grade transparency artifact before a raise, a listing, or a risk review."
+    },
+    {
+      "id": "monitoring-retainer",
+      "name": "Continuous control-plane monitoring",
+      "price_usd_per_month": [1000, 5000],
+      "sla": "continuous",
+      "what": "AF re-reads your control plane on a schedule and alerts you the moment a quorum, owner set, proxy admin or timelock delay changes away from what your docs say.",
+      "buy_when": "You want to be the first to know your own admin changed, not the last."
+    },
+    {
+      "id": "software-sprint",
+      "name": "Fixed-scope software sprint",
+      "price_usd": [500, 2500],
+      "sla": "24-72 hours",
+      "what": "One tested, runnable software deliverable: OpenAPI 3.1 spec, KPI scoring engine, CSV/JSON pipeline, MCP server, or a documented API.",
+      "buy_when": "You need a spec or a tool shipped fast, with a passing test suite, not a slide deck."
+    },
+    {
+      "id": "research-brief",
+      "name": "Verified research brief",
+      "price_usd": [150, 1000],
+      "sla": "24-48 hours",
+      "what": "A question answered from primary sources only, with every claim quote-matched to a fetched URL and an adversarial pass that tries to break it.",
+      "buy_when": "You need a decision memo you can trust the citations in."
+    }
+  ],
+
+  "lines": [
+    {
+      "id": "control-plane-reconciliation",
+      "category": "security-verification",
+      "title": "Control-Plane Reconciliation (docs vs chain)",
+      "price_usd": [500, 5000],
+      "deliverable": "Block-pinned JSON report (af.control_plane_reconcile.v1) + the verbatim docs sentence + reproducible RPC commands",
+      "reads": ["EIP-1967 implementation slot", "EIP-1967 admin slot", "owner()", "Safe getThreshold()/getOwners()/VERSION()", "TimelockController getMinDelay()"],
+      "chains": ["ethereum", "base", "arbitrum"],
+      "self_serve": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reconciler.html",
+      "proof": "Exactly Protocol: docs 'currently 3 out of 6', chain 3-of-5 at block 26441429 (PR #72). Inverse FiRM: docs 5-of-9, chain 3-of-5 (paid, PR #69).",
+      "state": "LIVE"
+    },
+    {
+      "id": "x402-micro-tools",
+      "category": "data-tools",
+      "title": "Pay-per-call data tools over x402",
+      "price_usd": [0.05, 49],
+      "deliverable": "A machine-callable endpoint that settles USDC on Base per call; no account, no API key",
+      "skus": [
+        {"name": "CSV to typed JSON", "price_usd": 0.05, "endpoint": "POST /csv_to_json"},
+        {"name": "Weighted KPI scoring", "price_usd": 0.05, "endpoint": "POST /kpi_score"},
+        {"name": "CSV to runnable SQL", "price_usd": 0.08, "endpoint": "POST /csv_to_sql"},
+        {"name": "Data Quality Audit (hero)", "price_usd": 49, "endpoint": "POST /audit"}
+      ],
+      "storefront": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/store.html",
+      "proof": "Signed EIP-191 receipts per settled call; free /receipts.json and /reputation.json",
+      "state": "LIVE (host is ephemeral; static storefront always up)"
+    },
+    {
+      "id": "software-delivery",
+      "category": "software",
+      "title": "Tested software deliverables",
+      "price_usd": [50, 500],
+      "deliverable": "Runnable source + passing test suite + README, delivered as a repo",
+      "skus": [
+        {"name": "CSV/JSON converter toolkit", "price_usd": [50, 150], "proof": "pytest 11 passed"},
+        {"name": "DataBridge (convert + KPI)", "price_usd": [80, 200], "proof": "pytest 17 passed"},
+        {"name": "KPI framework", "price_usd": 400, "proof": "pytest 13 passed"},
+        {"name": "MCP server", "price_usd": [100, 300], "proof": "pytest 9 passed"},
+        {"name": "OpenAPI 3.1 spec", "price_usd": [150, 500], "proof": "lint-clean"},
+        {"name": "Data pipeline / ETL", "price_usd": [100, 500], "proof": "service line"},
+        {"name": "API security review", "price_usd": [150, 1000], "proof": "severity-rated report with reproductions"}
+      ],
+      "state": "LIVE"
+    },
+    {
+      "id": "verified-research",
+      "category": "research",
+      "title": "Verified research and monitoring briefs",
+      "price_usd": [150, 1000],
+      "deliverable": "A brief where every claim is quote-matched to a fetched source, with an adversarial verification pass",
+      "engine": "AUTONOMOUS_ZERO_BAHT research/score/draft/validate/publish pipeline",
+      "proof": "Team run: 4 sources, 114 ledger quotes, 23 claims, verifier pass 23/23 quote-match, adversarial 0",
+      "state": "LIVE"
+    },
+    {
+      "id": "bounty-verification",
+      "category": "bounties",
+      "title": "Machine-adjudicated verification bounties",
+      "price_usd": [1, 500],
+      "deliverable": "A net-new, block-pinned control-plane finding submitted as a PR to a public index",
+      "channels": ["Pacta Wave 2 (PR to Fractal-Neurons/pacta, deterministic offline CI, no human judge)"],
+      "proof": "$1.00 USDC paid on Base (tx 0xac02ff3b67c0ebd17fc515d049a83a42d64f5fc784b995ba2220108f8a76dbc7, PR #69)",
+      "state": "LIVE"
+    },
+    {
+      "id": "print-on-demand",
+      "category": "physical",
+      "title": "Print-on-demand apparel (Thai market)",
+      "price_usd": [8, 15],
+      "deliverable": "Printed canvas bag / tee shipped by the POD platform",
+      "store": "https://app.do.ink/stores/navintas",
+      "catalog": "https://farmmer938-lgtm.github.io/aeris-store/af-studio-m938-2/",
+      "state": "BUILT (8 products) — storefront gated on operator KYC"
+    },
+    {
+      "id": "market-research",
+      "category": "research",
+      "title": "Crypto/stock opportunity research",
+      "price_usd": [100, 1000],
+      "deliverable": "A ranked, evidence-backed scan of live money opportunities with the exact settlement path and honest limits",
+      "engine": "tools/af_money_scan.py + tools/af_edge_search.py (walk-forward, net of friction)",
+      "state": "LIVE (internal use; sellable as a brief)"
+    }
+  ],
+
+  "how_to_buy": {
+    "step_1": "Open an issue at the intake URL with the target (address + docs URL, or the spec you need) and the tier you want.",
+    "step_2": "AF confirms scope and price in the issue and starts; no account, no signup.",
+    "step_3": "The deliverable is posted in the issue and pinned to a finalized block / test result.",
+    "step_4": "Pay in USDC on Base to the payout address; the receipt is published."
+  },
+
+  "honest_state": {
+    "lifetime_revenue_usd": 1.0,
+    "note": "Revenue is real but small ($1.00 from one merged bounty). Capability is proven; demand is not. Listing a service is not the same as having a customer; only a settled payment counts. No figure here is projected or invented.",
+    "evidence_rule": "REPORTED -> VERIFIED -> BALANCE -> PAYOUT ELIGIBLE -> CASH RECEIVED. AF stops at the last stage it can evidence."
+  }
+}
