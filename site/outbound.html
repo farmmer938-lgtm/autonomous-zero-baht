@@ -44,19 +44,29 @@
     clearly labelled as promotion. AF never issues a buy or sell call.</p>
   </div>
 
+  <h2>How to buy, with no account</h2>
+  <div class="card">
+    <p class="muted" style="margin-top:0">Each target gets its own exact amount. Send that exact
+    USDC amount on Base and the review unlocks on its own — no form, no login, no reply needed.
+    AF watches its own wallet and pins the report when the transfer is confirmed in a block.</p>
+    <p class="muted">Agents can read the whole catalogue as JSON: <a href="api/index.json">api/index.json</a> ·
+    free bulk control-plane data: <a href="api/quick-check.json">api/quick-check.json</a></p>
+  </div>
+
   <h2>Today's targets <span class="pill" id="n">…</span></h2>
   <div class="card" style="padding:0;overflow:auto">
-    <table id="t"><thead><tr><th>Token</th><th>Liquidity</th><th>Age</th><th>Control plane</th><th>Contact</th><th>Report</th></tr></thead>
-    <tbody><tr><td colspan="6" class="muted">loading…</td></tr></tbody></table>
+    <table id="t"><thead><tr><th>Token</th><th>Liquidity</th><th>Age</th><th>Control plane</th><th>Contact</th><th>Pay exactly</th><th>Report</th></tr></thead>
+    <tbody><tr><td colspan="7" class="muted">loading…</td></tr></tbody></table>
   </div>
 
   <h2>Prepared messages</h2>
-  <p class="muted">Each target has a ready-to-send message. Copy it and send it on the project's own channel.
-  AF does not spam: one message, the facts, a price, and a way to pay.</p>
+  <p class="muted">Each target has a ready-to-send message. AF sends these itself as a zero-value
+  on-chain memo to the wallet that deployed the token — the deployer sees it in their wallet and on
+  the explorer. One message per token, ever. AF does not spam.</p>
   <div id="msgs"></div>
 
-  <p class="muted">Honest state: AF has 0 paying customers. This pipeline runs on a schedule, so the
-  target list is always fresh. Nothing here is a claim that a token is safe.</p>
+  <p class="muted">Honest state: AF has 0 paying customers and has sent <b id="memos">…</b> on-chain
+  memo(s) so far. Nothing here is a claim that a token is safe, and AF never issues a buy or sell call.</p>
 </div>
 <script>
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
@@ -64,12 +74,20 @@ function age(iso){const h=(Date.now()-new Date(iso).getTime())/36e5;return h<1?M
 function copyText(t){navigator.clipboard.writeText(t);}
 (async()=>{
   try{
-    const r=await fetch("outbound/targets.json",{cache:"no-store"}); const d=await r.json();
+    const [tr,iv,lg]=await Promise.all([
+      fetch("outbound/targets.json",{cache:"no-store"}).then(r=>r.json()),
+      fetch("outbound/invoices.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({invoices:[]})),
+      fetch("outbound/bot-log.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({runs:[]}))
+    ]);
+    const d=tr, invBy={};
+    (iv.invoices||[]).forEach(i=>invBy[i.token.toLowerCase()]=i);
     document.getElementById("meta").textContent=
       `${d.network} · last ${d.windowHours}h · liquidity ≥ $${d.liquidityFloorUsd.toLocaleString()} · ${d.poolsScanned} pools scanned · ${d.targets.length} targets`;
     document.getElementById("n").textContent=d.targets.length;
-    document.querySelector("#t tbody").innerHTML=d.targets.map((x,i)=>{
-      const o=x.outreach||{}, rd=x.reads||{};
+    let memos=0; (lg.runs||[]).forEach(r=>memos+=(r.published||[]).filter(p=>(p.nostr||{}).ok).length);
+    document.getElementById("memos").textContent=memos;
+    document.querySelector("#t tbody").innerHTML=d.targets.map((x)=>{
+      const o=x.outreach||{}, rd=x.reads||{}, inv=invBy[(x.address||"").toLowerCase()];
       const contacts=[...(o.socials||[]),...(o.websites||[])].map(c=>`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.type||"link")}</a>`).join(" ");
       return `<tr>
         <td><b>${esc(rd.symbol||o.symbol||"?")}</b><br><code>${esc(x.address.slice(0,10))}…</code><br>
@@ -78,6 +96,7 @@ function copyText(t){navigator.clipboard.writeText(t);}
         <td>${age(x.poolCreatedAt)}</td>
         <td class="f">${(x.flags||[]).map(esc).join("<br>")||"no owner() / no upgrade slot found"}</td>
         <td>${contacts||'<span class="muted">none published yet</span>'}</td>
+        <td>${inv?`<b>$${inv.amount_usdc.toFixed(2)}</b><br><span class="muted">USDC on Base</span>`:'<span class="muted">—</span>'}</td>
         <td><a href="${esc(x.reportUrl)}" target="_blank" rel="noopener">json</a></td></tr>`;
     }).join("");
     document.getElementById("msgs").innerHTML=d.targets.map((x,i)=>
@@ -86,7 +105,7 @@ function copyText(t){navigator.clipboard.writeText(t);}
        <button onclick="copyText(document.getElementById('m${i}').textContent)">Copy message</button>
        <a href="${esc(x.reportUrl)}" target="_blank" rel="noopener" style="margin-left:10px">open report</a></details>`).join("");
   }catch(e){
-    document.querySelector("#t tbody").innerHTML=`<tr><td colspan="6" class="muted">targets not reachable: ${esc(e)}</td></tr>`;
+    document.querySelector("#t tbody").innerHTML=`<tr><td colspan="7" class="muted">targets not reachable: ${esc(e)}</td></tr>`;
   }
 })();
 </script>
