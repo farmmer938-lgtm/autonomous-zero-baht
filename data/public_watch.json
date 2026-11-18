@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-18T10:19:45.803708+00:00",
+ "checked_at": "2026-11-18T18:54:50.242913+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -26,11 +26,11 @@
    "consecutive_down": 0
   },
   "cashier": {
-   "url": "https://work-1-lvqbqkuiiudcvnpm.prod-runtime.all-hands.dev/openapi.json",
-   "http": 503,
-   "ok": false,
+   "url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/openapi.json",
+   "http": 200,
+   "ok": true,
    "tier": "info",
-   "consecutive_down": 3
+   "consecutive_down": 0
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -39,7 +39,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 15
+   "consecutive_down": 16
   }
  },
  "radar": [
@@ -452,31 +452,6 @@
    "url": "https://nonsynthetic.net/"
   }
  ],
- "new_items": [
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_f9d7bee907f36af396",
-   "title": "TEST-OUR-SYSTEM: external agent test pass — report status codes, break it, get cr_*",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_31c987a3680d9d937b",
-   "title": "[jobbi:gh] Add CodeMash to the conference data tracker",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_885307766e9d8ff69b",
-   "title": "[jobbi:gh] Add ScalaDays to conference data tracker",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  }
- ],
+ "new_items": [],
  "changed": true
 }
