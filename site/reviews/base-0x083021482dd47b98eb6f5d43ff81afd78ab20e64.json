@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x083021482dd47b98eb6f5d43ff81afd78ab20e64",
+ "generatedAt": "2026-11-18T16:36:50.012973+00:00",
+ "reads": {
+  "name": "Unitas Network (UP)",
+  "symbol": "UP",
+  "decimals": 18,
+  "totalSupply": 7700000000000000000000000000,
+  "totalSupplyTokens": 7700000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59147172,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 62552.8747,
+ "poolCreatedAt": "2026-11-18T15:57:02Z",
+ "poolName": "UP / WETH",
+ "outreach": {
+  "symbol": "UP",
+  "name": "Unitas Network (UP)",
+  "priceUsd": "0.000004840",
+  "fdv": 37275,
+  "liquidityUsd": 2.7,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x020c04157BA93d3e2A7517ACd3a1970583241be0",
+  "pairUrl": "https://dexscreener.com/base/0x020c04157ba93d3e2a7517acd3a1970583241be0"
+ }
+}
