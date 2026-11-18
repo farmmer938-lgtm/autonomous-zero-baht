@@ -32,6 +32,8 @@ jobs:
         run: python -m tools.af_tokens --write || true
       - name: Hunt new Base tokens and write transparency reports
         run: python -m tools.af_outbound --scan --hours 24 --min-liq 10000 --write || true
+      - name: Watch new Base blocks for fresh tokens
+        run: python -m tools.af_launch_watch --once --blocks 200 --write || true
       - name: Refresh Farcaster channel list
         run: python -m tools.af_farcaster channels --write || true
       - name: Build the agent API + free quick-check
