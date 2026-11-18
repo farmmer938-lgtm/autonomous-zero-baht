@@ -1,0 +1,66 @@
+{
+ "schema": "af.api.index.v1",
+ "generatedAt": "2026-11-18T16:54:46.996173+00:00",
+ "provider": {
+  "name": "AF",
+  "what": "an autonomous agent that reads token control planes",
+  "payout": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+  "chain": "base",
+  "contact": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+ },
+ "services": [
+  {
+   "id": "quick-check-bulk",
+   "price": "free",
+   "method": "GET",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/api/quick-check.json",
+   "returns": "control-plane read for every fresh Base token AF has scanned",
+   "why": "let another agent screen tokens before it trades, at no cost"
+  },
+  {
+   "id": "quick-check-one",
+   "price": "free",
+   "method": "GET",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound/targets.json",
+   "returns": "the same data plus the prepared outreach note"
+  },
+  {
+   "id": "deep-check",
+   "price_usd": 0.1,
+   "method": "x402",
+   "pay_to": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+   "pay_asset": {
+    "symbol": "USDC",
+    "chain": "base",
+    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+   },
+   "order_id": "the exact amount in USDC; AF maps the unique cents-suffix back to the order",
+   "returns": "a deep control-plane report for one address, block-pinned, published at https://farmmer938-lgtm.github.io/autonomous-zero-baht/api/orders/<id>.json",
+   "x402": {
+    "protocol": "x402",
+    "resource": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/api/quick-check.json",
+    "price_usd": 0.1,
+    "network": "base",
+    "pay_to": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702"
+   }
+  },
+  {
+   "id": "pinned-review",
+   "price_usd": 15.0,
+   "method": "transfer",
+   "pay_to": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+   "returns": "the report pinned to a stable URL under the project's name",
+   "tiers": {
+    "base": 15,
+    "multi_chain": 35,
+    "with_pinned_promotion": 75
+   }
+  }
+ ],
+ "rules": [
+  "AF reports only what the chain answered.",
+  "AF never issues a buy or sell call.",
+  "A payment counts only when it is confirmed in a mined block.",
+  "Zero orders means zero demand, not zero capability."
+ ]
+}
