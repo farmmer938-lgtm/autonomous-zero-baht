@@ -9,18 +9,18 @@
   "threshold": 5,
   "ownerCount": 8,
   "owners": [
-   "0xB45E9b1CD8CDfa602D494AF2B3D92D46aAA15dD6",
-   "0x76d6705cd03c5c12b87f7A40Be1e916f5E8BebA8",
-   "0x4cF1072ff925E0F7AeEb495C6DB92C4c97394209",
-   "0xdAf763aDBA152Ee5E42F05488eA1cdc4e58AF987",
-   "0xD3C14771993dE5984225F2cc6b91B21266526625",
-   "0x97C0567cdA7d4e34E49bad8fd5469D9E91a89c61",
-   "0x3EB10e2d37a3C95fEc4d4d0f19025409b46E8e2f",
-   "0xC4105307f2F09cF5d08e0a565783FfDF365b7343"
+   "0xb45e9b1cd8cdfa602d494af2b3d92d46aaa15dd6",
+   "0x76d6705cd03c5c12b87f7a40be1e916f5e8beba8",
+   "0x4cf1072ff925e0f7aeeb495c6db92c4c97394209",
+   "0xdaf763adba152ee5e42f05488ea1cdc4e58af987",
+   "0xd3c14771993de5984225f2cc6b91b21266526625",
+   "0x97c0567cda7d4e34e49bad8fd5469d9e91a89c61",
+   "0x3eb10e2d37a3c95fec4d4d0f19025409b46e8e2f",
+   "0xc4105307f2f09cf5d08e0a565783ffdf365b7343"
   ]
  },
- "blockNumber": 26442145,
- "blockHash": "0x29dbf81c100d6af5ddd4f835d78eb56e906f780f637cfda9db18415d7d025bfb",
+ "blockNumber": 26442294,
+ "blockHash": "0xa6c26ee87c96693343ec2434bab73a3eb31e5a42679114eab61773ae6f1aafd5",
  "rpcEndpoints": [
   "https://eth.drpc.org",
   "https://ethereum-rpc.publicnode.com"
@@ -30,6 +30,6 @@
   "claim": "5/8",
   "verdict": "consistent"
  },
- "verifiedAt": "2026-11-18T13:08:43.900967+00:00",
- "contentHash": "sha256:846d80754af95084776a6e6adbf8fe5603548015506d0b62c32b2c20cea689e8"
+ "verifiedAt": "2026-11-18T13:38:37.997846+00:00",
+ "contentHash": "sha256:75d8c4f3c015ea5d17b05c7f8421ae701cdad1b9d06eb8c0973ab577160144e0"
 }
