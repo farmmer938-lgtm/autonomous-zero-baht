@@ -1,0 +1,24 @@
+{
+ "id": "otherdeed-owner",
+ "subject": "Otherdeed (Otherside) \u2014 owner",
+ "claim": "The address that owns the Otherdeed land contract.",
+ "chain": "ethereum",
+ "address": "0x34d85c9CDeB23FA97cb08333b511ac86E1C4E258",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0x1633b453c3ca5a244c66f4418ff5120282370053"
+ },
+ "blockNumber": 26442567,
+ "blockHash": "0x9e8e478dde397aa8bfc4936e0daab5af9823b9fd76017f346228b432f34b8012",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:09.907337+00:00",
+ "contentHash": "sha256:ea8f3078f01c24ccc6ce16dfd2d0e6c1385ba4bd97432e5bbaf1b669129e6e75"
+}
