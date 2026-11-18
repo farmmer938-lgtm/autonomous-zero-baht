@@ -1,0 +1,24 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+ "generatedAt": "2026-11-18T14:43:52.960902+00:00",
+ "reads": {
+  "name": "Coinbase Wrapped BTC",
+  "symbol": "cbBTC",
+  "decimals": 8,
+  "totalSupply": 4976187943620,
+  "totalSupplyTokens": 49761.8794362,
+  "owner": "0xbbc9b6001cf0a4fccffab7bdda1ab16cafb9db4f",
+  "proxyAdmin": "0x42d90b3faf2287475cdc863706bd7cc3e938c2af",
+  "masterMinter": "0x2b5b99d0096a1ae5641f5041f780a33d004fc1d3"
+ },
+ "flags": [
+  "owner is a single EOA \u2014 one key controls this token",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "masterMinter() exists \u2014 a separate key can grant mint rights"
+ ],
+ "errors": [],
+ "blockNumber": 59113287,
+ "verdict": "single-key owner"
+}
