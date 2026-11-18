@@ -1,0 +1,37 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xf94d1179b07deffd38bc33afebc691256f7e0692",
+ "generatedAt": "2026-11-18T16:36:29.301959+00:00",
+ "reads": {
+  "name": "USAR",
+  "symbol": "USAR",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0xb743a42dca2af5bc6eb4dd27f31d3a8f5d6f6784"
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades"
+ ],
+ "errors": [],
+ "blockNumber": 59147069,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 204666.2178,
+ "poolCreatedAt": "2026-11-18T16:25:17Z",
+ "poolName": "USAR / WETH",
+ "outreach": {
+  "symbol": "USAR",
+  "name": "USAR",
+  "priceUsd": "0.000001100",
+  "fdv": 110083,
+  "liquidityUsd": 102433.63,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xd0acf95e30f3acca5aa0c7ce9133bb3a2293bfd0216f25494fea38be00953a42",
+  "pairUrl": "https://dexscreener.com/base/0xd0acf95e30f3acca5aa0c7ce9133bb3a2293bfd0216f25494fea38be00953a42"
+ }
+}
