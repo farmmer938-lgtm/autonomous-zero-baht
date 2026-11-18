@@ -1,0 +1,35 @@
+{
+ "id": "kpk-security-council-ethereum-quorum",
+ "subject": "KPK \u2014 Security Council Safe (Ethereum)",
+ "claim": "KPK's Security Council Safe runs at the quorum recorded below.",
+ "chain": "ethereum",
+ "address": "0x8b884f80B3B839F52b6cE168f133e7a5D1f0A537",
+ "kind": "safe_quorum",
+ "value": {
+  "threshold": 5,
+  "ownerCount": 8,
+  "owners": [
+   "0xb45e9b1cd8cdfa602d494af2b3d92d46aaa15dd6",
+   "0x76d6705cd03c5c12b87f7a40be1e916f5e8beba8",
+   "0x4cf1072ff925e0f7aeeb495c6db92c4c97394209",
+   "0xdaf763adba152ee5e42f05488ea1cdc4e58af987",
+   "0xd3c14771993de5984225f2cc6b91b21266526625",
+   "0x97c0567cda7d4e34e49bad8fd5469d9e91a89c61",
+   "0x3eb10e2d37a3c95fec4d4d0f19025409b46e8e2f",
+   "0xc4105307f2f09cf5d08e0a565783ffdf365b7343"
+  ]
+ },
+ "blockNumber": 26442136,
+ "blockHash": "0xd5385087ebef5681ad0f53ad8516a83097a37c3da24d08174e736c0054e7cd85",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": "https://docs.kpk.io/",
+  "claim": "5/8",
+  "verdict": "consistent"
+ },
+ "verifiedAt": "2026-11-18T13:06:57.715403+00:00",
+ "contentHash": "sha256:4c24cf87e5fc295223ca7dd2759105403f73038a48afbd7d79e902f4f6bd3ee0"
+}
