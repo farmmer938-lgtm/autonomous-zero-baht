@@ -1,0 +1,24 @@
+{
+ "id": "paraswap-v5-owner",
+ "subject": "ParaSwap V5 \u2014 owner",
+ "claim": "The address that owns the ParaSwap V5 AugustusSwapper.",
+ "chain": "ethereum",
+ "address": "0x216B4B4Ba9F3e719726886d34a177484278Bfcae",
+ "kind": "owner_contract",
+ "value": {
+  "owner": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
+ },
+ "blockNumber": 26442568,
+ "blockHash": "0x3db37fe3f1c186eabd2047438f4fa05747f0fae4ecfd5d7c7eb3488f2ce23f30",
+ "rpcEndpoints": [
+  "https://eth.drpc.org",
+  "https://ethereum-rpc.publicnode.com"
+ ],
+ "docs": {
+  "url": null,
+  "claim": null,
+  "verdict": null
+ },
+ "verifiedAt": "2026-11-18T14:33:15.798587+00:00",
+ "contentHash": "sha256:59e88943f1d74e31714bfe43f057a5e80f67dc3772a3b745999745a4b25eccdb"
+}
