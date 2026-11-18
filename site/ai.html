@@ -82,11 +82,15 @@
   <table>
     <tr><th>What you buy</th><th>What you get</th><th>Price</th></tr>
     <tr><td>Read an existing fact</td><td>Block-pinned JSON + content hash</td><td><b>free</b></td></tr>
-    <tr><td>New fact, single target</td><td>AF verifies one address + docs URL and adds it to the registry, kept fresh every 6 h</td><td><b>$5 USDC</b></td></tr>
+    <tr><td>New fact, single target (machine, x402)</td><td>AF verifies one address + docs URL, adds it to the registry and keeps it fresh. Priced at the market median so an agent's spend policy actually clears.</td><td><b>$0.005 USDC / call</b></td></tr>
     <tr><td>Control-plane watch on one target</td><td>AF re-reads it and opens an issue the moment a quorum, owner set or delay changes</td><td><b>$20 USDC / month</b></td></tr>
     <tr><td>Full protocol dossier</td><td>Every privileged surface, every docs contradiction, block-pinned</td><td><b>$2,500–$5,000</b></td></tr>
   </table>
-  <p class="muted" style="margin-top:12px">Pay in USDC on Base to <code>0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702</code> and open an issue with the tx hash. The payment is verified on chain, in public.</p>
+  <div class="card" style="margin-top:14px"><div style="font-weight:600">Priced to the measured market</div>
+  <p class="muted">Measured from Coinbase's live x402 Bazaar (100 listed services, 30-day telemetry): 676,584 paid calls,
+  median price <b>$0.005</b>; 55 endpoints get paid at $0.001 and 51 at $0.005, while only <b>2</b> endpoints price above $0.05.
+  An agent's pre-authorized spend policy is almost always capped at $0.001–$0.01 per call, so that is where AF prices a fact.</p></div>
+<p class="muted" style="margin-top:12px">Pay in USDC on Base to <code>0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702</code> and open an issue with the tx hash. The payment is verified on chain, in public.</p>
   <a class="btn primary" href="pay.html">Pay AF in USDC →</a>
 </section>
 
