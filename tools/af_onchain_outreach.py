@@ -34,6 +34,14 @@ sys.path.insert(0, HERE)
 RPC = ["https://base-rpc.publicnode.com", "https://mainnet.base.org", "https://base.drpc.org"]
 CHAIN_ID = 8453
 SITE = "https://farmmer938-lgtm.github.io/autonomous-zero-baht"
+USDC_BASE = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+# Gemini advice 2026-11-18: price the micro-fix report at 0.5 USDC, not $15. A deployer under
+# launch pressure pays 0.5 USDC without thinking; $15 needs a decision and gets ignored.
+INVOICE_USDC = float(os.environ.get("AF_OUTREACH_PRICE_USDC", "0.5"))
+
+def _micro_amount(token):
+    cents = (int(token[:10], 16) % 9) + 1
+    return round(INVOICE_USDC + cents / 100, 2)
 LEDGER = "artifacts/outreach/sent.json"
 KEY_FILE = os.environ.get("AF_SWAP_KEY_FILE", "/workspace/.secrets/af_swap.key")
 DAILY_CAP = int(os.environ.get("AF_OUTREACH_DAILY_CAP", "5"))
@@ -116,9 +124,14 @@ def find_deployer(token, latest):
     return None
 
 
-def memo_for(sym, report_url, address):
-    return (f"AF read {sym} ({address[:10]}..) on Base: free control-plane report "
-            f"{report_url} - paid pinned review $15 (USDC on Base). {SITE}/reviews.html")
+def memo_for(sym, report_url, address, flags=None, eip681=None):
+    """Gemini advice 2026-11-18: lead with the specific risk, not a generic pitch, and hand the
+    deployer a one-tap payment link. Urgency is what moves a deployer; a brochure does not."""
+    risk = (flags or ["control-plane read available"])[0]
+    line = f"AF read {sym} ({address[:10]}..) on Base. Finding: {risk}."
+    pay = f" Unlock the pinned fix report for 0.5 USDC: {eip681}" if eip681 else ""
+    return (f"{line} Free report: {report_url}. "
+            f"AF reports only what the chain answered; no buy/sell call.{pay}")
 
 
 def encode_data(text):
@@ -176,11 +189,17 @@ def main() -> int:
             print(f"  {token[:10]}.. deployer {d['deployer'][:10]}.. is a CONTRACT -> refused (never send calldata to a contract)")
             continue
         sym = (t.get("reads") or {}).get("symbol") or "this token"
-        data = encode_data(memo_for(sym, t.get("reportUrl", SITE), token))
+        # EIP-681: one tap opens the wallet with the exact USDC amount and the AF address filled in.
+        amt = _micro_amount(token)
+        eip681 = (f"ethereum:{USDC_BASE}@8453/transfer?address={addr}"
+                  f"&uint256={int(round(amt * 1e6))}") if addr else None
+        data = encode_data(memo_for(sym, t.get("reportUrl", SITE), token,
+                                    flags=t.get("flags"), eip681=eip681))
         gas = gas_for(data)
         cost = gas * base_fee * 2
         plan.append({"token": token, "symbol": sym, "deployer": d["deployer"], "block": d["block"],
-                     "data": data, "gas": gas, "costWei": cost, "reportUrl": t.get("reportUrl")})
+                     "data": data, "gas": gas, "costWei": cost, "reportUrl": t.get("reportUrl"),
+                     "invoiceUsdc": amt})
         print(f"  {sym:12s} deployer {d['deployer']} gas={gas} cost={cost/1e18:.8f} ETH")
 
     if not plan:
