@@ -1,0 +1,65 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x70107c4aa2dc031ef7afc350e03784c2325abe29",
+ "generatedAt": "2026-11-18T16:36:53.329878+00:00",
+ "reads": {
+  "name": "OAA Protocol",
+  "symbol": "OAA",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable"
+ ],
+ "errors": [],
+ "blockNumber": 59147189,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 17854.2439,
+ "poolCreatedAt": "2026-11-18T15:57:00Z",
+ "poolName": "OAA / ETH",
+ "outreach": {
+  "symbol": "OAA",
+  "name": "OAA Protocol",
+  "priceUsd": "0.00002562",
+  "fdv": 25622,
+  "liquidityUsd": 17786.54,
+  "socials": [
+   {
+    "url": "https://x.com/oaaprotocol",
+    "type": "twitter"
+   },
+   {
+    "url": "https://t.me/oaaprotocol",
+    "type": "telegram"
+   }
+  ],
+  "websites": [
+   {
+    "url": "https://oaap.si",
+    "label": "Website"
+   },
+   {
+    "url": "https://oaap.si/#docs",
+    "label": "Docs"
+   },
+   {
+    "url": "https://buy.oaap.si",
+    "label": "Buy & Sell"
+   },
+   {
+    "url": "https://oaap.si/#lock",
+    "label": "Liquidity Lock Proof"
+   },
+   {
+    "url": "https://github.com/oaaprotocol",
+    "label": "GitHub"
+   }
+  ],
+  "dexId": "uniswap",
+  "pairAddress": "0xa551ab8931ba5d5c2aa3df0cec300b68567fbfe6b21bc626804e359982bec242",
+  "pairUrl": "https://dexscreener.com/base/0xa551ab8931ba5d5c2aa3df0cec300b68567fbfe6b21bc626804e359982bec242"
+ }
+}
