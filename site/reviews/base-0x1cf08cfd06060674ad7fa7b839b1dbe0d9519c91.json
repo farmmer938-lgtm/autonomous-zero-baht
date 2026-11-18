@@ -1,0 +1,35 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x1cf08cfd06060674ad7fa7b839b1dbe0d9519c91",
+ "generatedAt": "2026-11-18T16:36:39.858896+00:00",
+ "reads": {
+  "name": "NOTF",
+  "symbol": "NOTF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000,
+  "totalSupplyTokens": 1000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA"
+ ],
+ "errors": [],
+ "blockNumber": 59147121,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 67222.1226,
+ "poolCreatedAt": "2026-11-18T16:08:29Z",
+ "poolName": "NOTF / WETH 1%",
+ "outreach": {
+  "symbol": "NOTF",
+  "name": "NOTF",
+  "priceUsd": "3.042",
+  "fdv": 2080086,
+  "liquidityUsd": 66620.68,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xf124b2b2eb6536cc17e33fb83928c119852b4338c2e436aff68a00870e5d193b",
+  "pairUrl": "https://dexscreener.com/base/0xf124b2b2eb6536cc17e33fb83928c119852b4338c2e436aff68a00870e5d193b"
+ }
+}
