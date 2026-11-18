@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xb041d426ebe8586269f436fd4c8dc57a299c1208",
+ "generatedAt": "2026-11-18T17:38:02.186419+00:00",
+ "reads": {
+  "name": "OUDF",
+  "symbol": "OUDF\ud83d\udd25",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xb041d426ebe8586269f436fd4c8dc57a299c1208",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xb041d426\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59165533,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 183528.9872,
+ "poolCreatedAt": "2026-11-18T17:32:58Z",
+ "poolName": "OUDF\ud83d\udd25 / ZORA",
+ "outreach": {
+  "symbol": "OUDF\ud83d\udd25",
+  "name": "OUDF",
+  "priceUsd": "0.0001816",
+  "fdv": 181613,
+  "liquidityUsd": 179796.6,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xff544f59af08168d7d045219ec9fbfcc39fac2373071eda769597d4ac134ccf0",
+  "pairUrl": "https://dexscreener.com/base/0xff544f59af08168d7d045219ec9fbfcc39fac2373071eda769597d4ac134ccf0"
+ }
+}

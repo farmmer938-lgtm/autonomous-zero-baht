@@ -2,7 +2,7 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0x9196907f4713eb566cbeaead7da160b56c132056",
- "generatedAt": "2026-11-18T17:26:13.854326+00:00",
+ "generatedAt": "2026-11-18T17:38:37.400263+00:00",
  "reads": {
   "name": "DacityCoin",
   "symbol": "DCTY",
@@ -21,9 +21,9 @@
   "no mint(address,uint256) selector in the bytecode of 0x9196907f\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
  ],
  "errors": [],
- "blockNumber": 59161991,
+ "blockNumber": 59165709,
  "verdict": "no owner() surface found",
- "liquidityUsd": 21959.8369,
+ "liquidityUsd": 22134.7616,
  "poolCreatedAt": "2026-11-18T17:13:28Z",
  "poolName": "DCTY / WETH 0.01%",
  "outreach": {

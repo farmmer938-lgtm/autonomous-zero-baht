@@ -2,7 +2,7 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0xe197120d3da2f7abd90c80973f718353a579989f",
- "generatedAt": "2026-11-18T17:26:10.500090+00:00",
+ "generatedAt": "2026-11-18T17:38:33.851581+00:00",
  "reads": {
   "name": "United Dividend Trust Fund",
   "symbol": "UDTF",
@@ -23,9 +23,9 @@
   "no mint(address,uint256) selector in the bytecode of 0xe197120d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
  ],
  "errors": [],
- "blockNumber": 59161975,
+ "blockNumber": 59165692,
  "verdict": "no owner() surface found",
- "liquidityUsd": 74786.4555,
+ "liquidityUsd": 75382.1791,
  "poolCreatedAt": "2026-11-18T17:14:19Z",
  "poolName": "UDTF / WETH",
  "outreach": {
