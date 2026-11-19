@@ -1,7 +1,15 @@
 {
  "schema": 1,
- "first_seen": {},
- "days": [],
- "last_checked": "2026-11-19T07:45:21.022880+00:00",
- "tx_count": 0
+ "first_seen": {
+  "0x3e2c50ec914e08028bca00f4cedee058671731bfd3b51039d532a469537884ce": {
+   "usdc": 0.1,
+   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
+   "at": "2026-11-19T18:46:17+00:00"
+  }
+ },
+ "days": [
+  "2026-11-19"
+ ],
+ "last_checked": "2026-11-19T20:53:23.182113+00:00",
+ "tx_count": 1
 }
