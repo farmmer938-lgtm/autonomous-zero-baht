@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xdef8180ed6af314d369ade1407f6f4d2d3d070fd",
+ "generatedAt": "2026-11-19T00:23:27.372427+00:00",
+ "reads": {
+  "name": "BOOST",
+  "symbol": "BOOST",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0xdef8180ed6af314d369ade1407f6f4d2d3d070fd",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0xdef8180e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59287159,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 132043.3961,
+ "poolCreatedAt": "2026-11-18T23:53:34Z",
+ "poolName": "BOOST / USDC",
+ "outreach": {
+  "symbol": "BOOST",
+  "name": "BOOST",
+  "priceUsd": "0.0001000",
+  "fdv": 100028,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x83dc441498a5e65c78b1ab49fc866223263cbd70f7b3762a9ed2f8f85ad0a6b3",
+  "pairUrl": "https://dexscreener.com/base/0x83dc441498a5e65c78b1ab49fc866223263cbd70f7b3762a9ed2f8f85ad0a6b3"
+ }
+}

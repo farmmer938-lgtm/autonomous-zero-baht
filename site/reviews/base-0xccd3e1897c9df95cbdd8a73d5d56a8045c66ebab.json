@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xccd3e1897c9df95cbdd8a73d5d56a8045c66ebab",
+ "generatedAt": "2026-11-19T00:23:23.733734+00:00",
+ "reads": {
+  "name": "VICE 6",
+  "symbol": "VTC",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0xccd3e1897c9df95cbdd8a73d5d56a8045c66ebab",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0xccd3e189\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59287141,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 36082.7425,
+ "poolCreatedAt": "2026-11-18T23:54:21Z",
+ "poolName": "VTC / WETH 0.3%",
+ "outreach": {
+  "symbol": "VTC",
+  "name": "VICE 6",
+  "priceUsd": "0.003530",
+  "fdv": 33995701,
+  "liquidityUsd": 36043.07,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xcb83cc6ecb734bf938329ab1a28e85cc6367c6854cff3f91e6c90e631376d4a7",
+  "pairUrl": "https://dexscreener.com/base/0xcb83cc6ecb734bf938329ab1a28e85cc6367c6854cff3f91e6c90e631376d4a7"
+ }
+}

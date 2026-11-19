@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x9b1f8ec3c375ebea5cb5586522cb2d891f865dbe",
+ "generatedAt": "2026-11-19T00:23:00.301597+00:00",
+ "reads": {
+  "name": "ANTHROPIC",
+  "symbol": "ANTHROPIC",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x9b1f8ec3c375ebea5cb5586522cb2d891f865dbe",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x9b1f8ec3\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59287024,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 14027.0938,
+ "poolCreatedAt": "2026-11-19T00:15:18Z",
+ "poolName": "ANTHROPIC / WETH",
+ "outreach": {
+  "symbol": "ANTHROPIC",
+  "name": "ANTHROPIC",
+  "priceUsd": "0.000001455",
+  "fdv": 8151,
+  "liquidityUsd": 14212.94,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x28E831e88Dc47bAA5E8D9dAC7F14F4C1128A4Ae4",
+  "pairUrl": "https://dexscreener.com/base/0x28e831e88dc47baa5e8d9dac7f14f4c1128a4ae4"
+ }
+}

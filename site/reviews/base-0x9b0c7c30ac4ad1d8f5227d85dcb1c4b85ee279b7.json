@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x9b0c7c30ac4ad1d8f5227d85dcb1c4b85ee279b7",
+ "generatedAt": "2026-11-19T00:23:30.863129+00:00",
+ "reads": {
+  "name": "UPSR\u26a1\ufe0f",
+  "symbol": "UPSR\u26a1\ufe0f",
+  "decimals": 18,
+  "totalSupply": 4800000000000000000000000000,
+  "totalSupplyTokens": 4800000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x9b0c7c30ac4ad1d8f5227d85dcb1c4b85ee279b7",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x9b0c7c30\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59287177,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 59387.8608,
+ "poolCreatedAt": "2026-11-18T23:53:17Z",
+ "poolName": "UPSR\u26a1\ufe0f / WETH",
+ "outreach": {
+  "symbol": "UPSR\u26a1\ufe0f",
+  "name": "UPSR\u26a1\ufe0f",
+  "priceUsd": "0.000007177",
+  "fdv": 34451,
+  "liquidityUsd": 60473.99,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xf79c5BD283A5B0aAb1c7aa6A8C82332Fa70A7481",
+  "pairUrl": "https://dexscreener.com/base/0xf79c5bd283a5b0aab1c7aa6a8c82332fa70a7481"
+ }
+}

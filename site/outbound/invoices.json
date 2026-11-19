@@ -9,88 +9,88 @@
  "note": "The exact amount is the order reference. No account needed.",
  "invoices": [
   {
-   "token": "0x6855a20dec3339672045a37765b6c49fb75b8aa5",
-   "symbol": "LAPTOP",
-   "amount_usdc": 15.2,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x6855a20dec3339672045a37765b6c49fb75b8aa5.json"
-  },
-  {
-   "token": "0xb041d426ebe8586269f436fd4c8dc57a299c1208",
-   "symbol": "OUDF\ud83d\udd25",
-   "amount_usdc": 15.87,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb041d426ebe8586269f436fd4c8dc57a299c1208.json"
-  },
-  {
-   "token": "0x27fdb252071d446cb52a265aaa2b2e645931c2d6",
-   "symbol": "OUDF",
-   "amount_usdc": 15.13,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x27fdb252071d446cb52a265aaa2b2e645931c2d6.json"
-  },
-  {
-   "token": "0x6d2024f573e85645bb137cc0ee32d27ceba5cc1b",
-   "symbol": "CHUBBY",
-   "amount_usdc": 15.48,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x6d2024f573e85645bb137cc0ee32d27ceba5cc1b.json"
-  },
-  {
-   "token": "0x207cae657f8cb9a92611ba1f50d2a4bd304aa435",
-   "symbol": "VTC6",
-   "amount_usdc": 15.42,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x207cae657f8cb9a92611ba1f50d2a4bd304aa435.json"
-  },
-  {
-   "token": "0x00998e8534e7905123a65eee17922febeeeb8a0f",
+   "token": "0x5f61cdcaaa167c8ea92728e564953494cca2df8d",
    "symbol": "DCTY",
-   "amount_usdc": 15.54,
+   "amount_usdc": 15.15,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x00998e8534e7905123a65eee17922febeeeb8a0f.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x5f61cdcaaa167c8ea92728e564953494cca2df8d.json"
   },
   {
-   "token": "0x8f0068fd30177a978411fe2ba02e7c2a3bcfa2d5",
-   "symbol": "FUND UNITED OIL DIVIDEND",
-   "amount_usdc": 15.66,
+   "token": "0x9b1f8ec3c375ebea5cb5586522cb2d891f865dbe",
+   "symbol": "ANTHROPIC",
+   "amount_usdc": 15.74,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x8f0068fd30177a978411fe2ba02e7c2a3bcfa2d5.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9b1f8ec3c375ebea5cb5586522cb2d891f865dbe.json"
   },
   {
-   "token": "0x0c6df5ac3f26e0d8a63380097851c6c4068d1345",
-   "symbol": "UDTF",
+   "token": "0x15f2fd0fa3256bbde5dc787d338e561ca19abb97",
+   "symbol": ".AI",
+   "amount_usdc": 15.52,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x15f2fd0fa3256bbde5dc787d338e561ca19abb97.json"
+  },
+  {
+   "token": "0x2572ce103e3bc09254961ba7d39290398b23ada7",
+   "symbol": "VTC\u200a6",
    "amount_usdc": 15.29,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0c6df5ac3f26e0d8a63380097851c6c4068d1345.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2572ce103e3bc09254961ba7d39290398b23ada7.json"
   },
   {
-   "token": "0xd7d6aac4e40f1b3631f35576b07f58410e8d5acb",
-   "symbol": "OIL FUND UNITED DIVIDEND",
-   "amount_usdc": 15.61,
+   "token": "0x5e1e10b54b450121af3c99ca2fd679fe6020e1f4",
+   "symbol": "CLAUDIA",
+   "amount_usdc": 15.82,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xd7d6aac4e40f1b3631f35576b07f58410e8d5acb.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x5e1e10b54b450121af3c99ca2fd679fe6020e1f4.json"
   },
   {
-   "token": "0x1cef7065063964a5646a3f3b48c9cbbf145988cd",
-   "symbol": "ELF",
-   "amount_usdc": 15.46,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1cef7065063964a5646a3f3b48c9cbbf145988cd.json"
-  },
-  {
-   "token": "0xe197120d3da2f7abd90c80973f718353a579989f",
-   "symbol": "UDTF",
-   "amount_usdc": 15.18,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xe197120d3da2f7abd90c80973f718353a579989f.json"
-  },
-  {
-   "token": "0x9196907f4713eb566cbeaead7da160b56c132056",
+   "token": "0x844f62667e7883d7bcf0c5526eaa2b9fba0cf2ab",
    "symbol": "DCTY",
-   "amount_usdc": 15.72,
+   "amount_usdc": 15.37,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9196907f4713eb566cbeaead7da160b56c132056.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x844f62667e7883d7bcf0c5526eaa2b9fba0cf2ab.json"
+  },
+  {
+   "token": "0x08df4c930fd10c2e370d073473f786a10e5ebfef",
+   "symbol": "VICE 6",
+   "amount_usdc": 15.5,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x08df4c930fd10c2e370d073473f786a10e5ebfef.json"
+  },
+  {
+   "token": "0x1b1cff4d431782c2d66f40cf2e1afa11e873f625",
+   "symbol": "DACITYCOIN",
+   "amount_usdc": 15.88,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1b1cff4d431782c2d66f40cf2e1afa11e873f625.json"
+  },
+  {
+   "token": "0xccd3e1897c9df95cbdd8a73d5d56a8045c66ebab",
+   "symbol": "VTC",
+   "amount_usdc": 15.28,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xccd3e1897c9df95cbdd8a73d5d56a8045c66ebab.json"
+  },
+  {
+   "token": "0xdef8180ed6af314d369ade1407f6f4d2d3d070fd",
+   "symbol": "BOOST",
+   "amount_usdc": 15.89,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xdef8180ed6af314d369ade1407f6f4d2d3d070fd.json"
+  },
+  {
+   "token": "0x9b0c7c30ac4ad1d8f5227d85dcb1c4b85ee279b7",
+   "symbol": "UPSR\u26a1\ufe0f",
+   "amount_usdc": 15.55,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9b0c7c30ac4ad1d8f5227d85dcb1c4b85ee279b7.json"
+  },
+  {
+   "token": "0xc60663510824927f437134f0c5f173815b0f40e8",
+   "symbol": "VICE 6",
+   "amount_usdc": 15.7,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xc60663510824927f437134f0c5f173815b0f40e8.json"
   }
  ]
 }

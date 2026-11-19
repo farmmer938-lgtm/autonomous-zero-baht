@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x15f2fd0fa3256bbde5dc787d338e561ca19abb97",
+ "generatedAt": "2026-11-19T00:23:03.511229+00:00",
+ "reads": {
+  "name": "Agent ID",
+  "symbol": ".AI",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x15f2fd0fa3256bbde5dc787d338e561ca19abb97",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x15f2fd0f\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59287040,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 11465.9985,
+ "poolCreatedAt": "2026-11-19T00:13:04Z",
+ "poolName": ".AI / WETH",
+ "outreach": {
+  "symbol": ".AI",
+  "name": "Agent ID",
+  "priceUsd": "0.000001213",
+  "fdv": 6798,
+  "liquidityUsd": 11813.08,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x59dC6a4DEF57EFA90d54E9A9Ab602B0485Fc7F69",
+  "pairUrl": "https://dexscreener.com/base/0x59dc6a4def57efa90d54e9a9ab602b0485fc7f69"
+ }
+}
