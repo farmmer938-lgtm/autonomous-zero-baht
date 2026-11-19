@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xa6314a786afb41887e291f6b998b44a1ff90614a",
+ "generatedAt": "2026-11-19T15:44:35.381936+00:00",
+ "reads": {
+  "name": "Super Inu",
+  "symbol": "SI",
+  "decimals": 18,
+  "totalSupply": 4400000000000000000000000000,
+  "totalSupplyTokens": 4400000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xa6314a786afb41887e291f6b998b44a1ff90614a",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xa6314a78\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59563499,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 142110.35,
+ "poolCreatedAt": "2026-11-19T15:42:30Z",
+ "poolName": "SI / WETH",
+ "outreach": {
+  "symbol": "SI",
+  "name": "Super Inu",
+  "priceUsd": "0.00001643",
+  "fdv": 72325,
+  "liquidityUsd": 142965.29,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x5AD1f332EbCb84ff2c0AEA96D3F8588E32c23F90",
+  "pairUrl": "https://dexscreener.com/base/0x5ad1f332ebcb84ff2c0aea96d3f8588e32c23f90"
+ }
+}

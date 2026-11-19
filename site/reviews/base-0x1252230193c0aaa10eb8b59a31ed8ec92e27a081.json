@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x1252230193c0aaa10eb8b59a31ed8ec92e27a081",
+ "generatedAt": "2026-11-19T15:45:07.737897+00:00",
+ "reads": {
+  "name": "Akamai Technologies",
+  "symbol": "AKAM",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": "0x0000000000000000000000000000000000000000",
+  "bytecodeScannedAddress": "0x1252230193c0aaa10eb8b59a31ed8ec92e27a081",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "ownership RENOUNCED (owner is the zero address)",
+  "no mint(address,uint256) selector in the bytecode of 0x12522301\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59563661,
+ "verdict": "ownership renounced, not upgradeable",
+ "liquidityUsd": 23239.5814,
+ "poolCreatedAt": "2026-11-19T14:48:14Z",
+ "poolName": "AKAM / WETH 1%",
+ "outreach": {
+  "symbol": "AKAM",
+  "name": "Akamai Technologies",
+  "priceUsd": "0.00002491",
+  "fdv": 24913,
+  "liquidityUsd": 23667.64,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x78FadEA9db53B68c372F93ccE458b7F583F57434",
+  "pairUrl": "https://dexscreener.com/base/0x78fadea9db53b68c372f93cce458b7f583f57434"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x4e65f8b66c07018b167b2ce60b4f8d86d9b56985",
+ "generatedAt": "2026-11-19T15:45:04.017454+00:00",
+ "reads": {
+  "name": "NOTF",
+  "symbol": "NOTF",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x4e65f8b66c07018b167b2ce60b4f8d86d9b56985",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x4e65f8b6\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59563642,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 300989.025,
+ "poolCreatedAt": "2026-11-19T14:59:16Z",
+ "poolName": "NOTF / WETH 0.3%",
+ "outreach": {
+  "symbol": "NOTF",
+  "name": "NOTF",
+  "priceUsd": "0.02852",
+  "fdv": 2744974662,
+  "liquidityUsd": 301950.94,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xa853b67229b697e07abe548b93dad95b7e3f4d990d396c2a12e4c89b0c4110f7",
+  "pairUrl": "https://dexscreener.com/base/0xa853b67229b697e07abe548b93dad95b7e3f4d990d396c2a12e4c89b0c4110f7"
+ }
+}

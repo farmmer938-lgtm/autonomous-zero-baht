@@ -1,6 +1,6 @@
 {
  "schema": "af.service.queue.v1",
- "generatedAt": "2026-11-19T00:24:12.258165+00:00",
+ "generatedAt": "2026-11-19T15:45:59.744043+00:00",
  "business": {
   "what": "AF verifies one control-plane fact per request and publishes it, block-pinned.",
   "price_usd": 0.005,
@@ -12,6 +12,43 @@
  "served": 0,
  "revenue_usd": 0,
  "requests": [],
- "payments_seen": [],
+ "payments_seen": [
+  {
+   "tx": "0x576596b401c67a7a2b962544df758399fcfe50d8e2a638cee07773822b972372",
+   "block": 59528525,
+   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
+   "usdc": 0.5
+  },
+  {
+   "tx": "0xc7357ca1d2c60beb3f6c2e9f35f07a783b3d1e7d79a852098c0ef6163fa92391",
+   "block": 59533553,
+   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
+   "usdc": 0.5
+  },
+  {
+   "tx": "0xcddbc3fc207d9ec8eb6a2bc4669a2e1c1de0576efffb078cfcfa9cbe83531aad",
+   "block": 59533569,
+   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
+   "usdc": 0.25
+  },
+  {
+   "tx": "0xf7c7e4f879e3cc0dcb6397fbd97a1814003c4a223154207106eaa32fe3fde7f1",
+   "block": 59540199,
+   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
+   "usdc": 0.5
+  },
+  {
+   "tx": "0xa455af3132431f24a4b7c1a729e5b46c63767b09a0bb4397849c7eb3a594655e",
+   "block": 59544625,
+   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
+   "usdc": 0.4
+  },
+  {
+   "tx": "0x97ce04c7a36aff5a199d680535331cd3085e8910dbafb02fade57dbdefa46f3a",
+   "block": 59555620,
+   "from": "0xa1d1c0cf717402ff3651aa4873ccf96410b01978",
+   "usdc": 0.05
+  }
+ ],
  "honest_state": "A request counts as served only when a confirmed on-chain USDC transfer covers it. Unmatched payments are listed as seen, not guessed. Zero requests means zero demand, not zero capability."
 }

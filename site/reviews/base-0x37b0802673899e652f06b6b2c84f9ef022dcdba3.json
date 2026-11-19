@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x37b0802673899e652f06b6b2c84f9ef022dcdba3",
+ "generatedAt": "2026-11-19T15:44:57.005243+00:00",
+ "reads": {
+  "name": "cybersecurity",
+  "symbol": "cybersecurity",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x37b0802673899e652f06b6b2c84f9ef022dcdba3",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x37b08026\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59563607,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 17064.6799,
+ "poolCreatedAt": "2026-11-19T15:01:25Z",
+ "poolName": "cybersecurity / WETH",
+ "outreach": {
+  "symbol": "cybersecurity",
+  "name": "cybersecurity",
+  "priceUsd": "0.0000001019",
+  "fdv": 10194,
+  "liquidityUsd": 8665.2,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x1ff5e1ad5a87d3a0b00eafdcd45a20c84459330984bc39671930d1d87e007249",
+  "pairUrl": "https://dexscreener.com/base/0x1ff5e1ad5a87d3a0b00eafdcd45a20c84459330984bc39671930d1d87e007249"
+ }
+}

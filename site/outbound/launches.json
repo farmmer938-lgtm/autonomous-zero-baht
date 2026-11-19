@@ -1,10 +1,19 @@
 {
  "schema": "af.launch.watch.v1",
- "generatedAt": "2026-11-19T00:24:07.000352+00:00",
- "fromBlock": 59287010,
- "toBlock": 59287210,
- "creations": 6,
- "tokens": [],
- "skippedNonToken": 6,
+ "generatedAt": "2026-11-19T15:45:54.445484+00:00",
+ "fromBlock": 59563512,
+ "toBlock": 59563712,
+ "creations": 9,
+ "tokens": [
+  {
+   "address": "0x064114177d843ba48b7e4f3107fb58e4ff2f29fa",
+   "deployer": "0x591db80f37fecb6fd8642ee7fbd5fc5baf55f7b8",
+   "block": 59563647,
+   "txHash": "0xfeda873a58fb6145bd1f0783b19f4579d0583bc50205a4877fdc23a3ee7158d3",
+   "hasSymbol": true,
+   "hasDecimals": true
+  }
+ ],
+ "skippedNonToken": 8,
  "note": "tokens are filtered by an on-chain symbol()/decimals() read, not by name"
 }

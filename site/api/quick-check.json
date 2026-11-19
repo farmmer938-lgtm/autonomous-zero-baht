@@ -1,271 +1,272 @@
 {
  "schema": "af.api.quickcheck.v1",
- "generatedAt": "2026-11-19T00:24:07.979621+00:00",
+ "generatedAt": "2026-11-19T15:45:55.263116+00:00",
  "count": 12,
  "network": "base",
  "free": true,
  "rows": [
   {
    "chain": "base",
-   "address": "0x5f61cdcaaa167c8ea92728e564953494cca2df8d",
-   "symbol": "DCTY",
-   "name": "DacityCoin",
+   "address": "0xa6314a786afb41887e291f6b998b44a1ff90614a",
+   "symbol": "SI",
+   "name": "Super Inu",
    "decimals": 18,
-   "liquidityUsd": 36476.5825,
-   "poolCreatedAt": "2026-11-19T00:16:19Z",
-   "controlPlane": {
-    "flags": [
-     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0x5f61cdca\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-    ],
-    "verdict": "owner is a contract (multisig/governance)",
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "ownerIsContract": null,
-    "upgradeable": null
-   },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x5f61cdcaaa167c8ea92728e564953494cca2df8d.json",
-   "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
-   "notA": "not a safety guarantee, not a buy or sell call"
-  },
-  {
-   "chain": "base",
-   "address": "0x9b1f8ec3c375ebea5cb5586522cb2d891f865dbe",
-   "symbol": "ANTHROPIC",
-   "name": "ANTHROPIC",
-   "decimals": 18,
-   "liquidityUsd": 14027.0938,
-   "poolCreatedAt": "2026-11-19T00:15:18Z",
+   "liquidityUsd": 142110.35,
+   "poolCreatedAt": "2026-11-19T15:42:30Z",
    "controlPlane": {
     "flags": [
      "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-     "no mint(address,uint256) selector in the bytecode of 0x9b1f8ec3\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no mint(address,uint256) selector in the bytecode of 0xa6314a78\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "no owner() surface found",
     "owner": null,
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9b1f8ec3c375ebea5cb5586522cb2d891f865dbe.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xa6314a786afb41887e291f6b998b44a1ff90614a.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0x15f2fd0fa3256bbde5dc787d338e561ca19abb97",
-   "symbol": ".AI",
-   "name": "Agent ID",
+   "address": "0x9cd3f694241551f6420f9a87feb7193e5811f95c",
+   "symbol": "CHUBBY",
+   "name": "Chubby",
    "decimals": 18,
-   "liquidityUsd": 11465.9985,
-   "poolCreatedAt": "2026-11-19T00:13:04Z",
+   "liquidityUsd": 14275.8265,
+   "poolCreatedAt": "2026-11-19T15:29:28Z",
    "controlPlane": {
     "flags": [
      "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-     "no mint(address,uint256) selector in the bytecode of 0x15f2fd0f\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no mint(address,uint256) selector in the bytecode of 0x9cd3f694\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "no owner() surface found",
     "owner": null,
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x15f2fd0fa3256bbde5dc787d338e561ca19abb97.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9cd3f694241551f6420f9a87feb7193e5811f95c.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0x2572ce103e3bc09254961ba7d39290398b23ada7",
-   "symbol": "VTC\u200a6",
-   "name": "VTC",
+   "address": "0xb87bad7832bb2bbc8b38b495d73493e8c356aba3",
+   "symbol": "HELIOS",
+   "name": "Helios",
    "decimals": 18,
-   "liquidityUsd": 71882491.8067,
-   "poolCreatedAt": "2026-11-19T00:10:08Z",
+   "liquidityUsd": 18273.5575,
+   "poolCreatedAt": "2026-11-19T15:26:04Z",
    "controlPlane": {
     "flags": [
      "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0x2572ce10\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no mint(address,uint256) selector in the bytecode of 0xb87bad78\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "owner is a contract (multisig/governance)",
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2572ce103e3bc09254961ba7d39290398b23ada7.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb87bad7832bb2bbc8b38b495d73493e8c356aba3.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0x5e1e10b54b450121af3c99ca2fd679fe6020e1f4",
-   "symbol": "CLAUDIA",
-   "name": "CLAUDIA",
+   "address": "0x33b91b3a627e82a9d1a05c6933858e82a15f1206",
+   "symbol": "ALU",
+   "name": "Altura",
    "decimals": 18,
-   "liquidityUsd": 150489.0966,
-   "poolCreatedAt": "2026-11-19T00:10:00Z",
+   "liquidityUsd": 23257.2711,
+   "poolCreatedAt": "2026-11-19T15:07:04Z",
+   "controlPlane": {
+    "flags": [
+     "ownership RENOUNCED (owner is the zero address)",
+     "no mint(address,uint256) selector in the bytecode of 0x33b91b3a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    ],
+    "verdict": "ownership renounced, not upgradeable",
+    "owner": "0x0000000000000000000000000000000000000000",
+    "ownerIsContract": null,
+    "upgradeable": null
+   },
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x33b91b3a627e82a9d1a05c6933858e82a15f1206.json",
+   "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
+   "notA": "not a safety guarantee, not a buy or sell call"
+  },
+  {
+   "chain": "base",
+   "address": "0xfe6fa24c11a588f6299093b31420f3e99ee0be86",
+   "symbol": "VTC6\u26a1\ufe0f",
+   "name": "VTC6\u26a1\ufe0f",
+   "decimals": 18,
+   "liquidityUsd": 121860.633,
+   "poolCreatedAt": "2026-11-19T15:06:14Z",
    "controlPlane": {
     "flags": [
      "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-     "no mint(address,uint256) selector in the bytecode of 0x5e1e10b5\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "USDC-style proxy \u2014 admin() controls upgrades",
+     "no mint(address,uint256) selector in the bytecode of 0xfe6fa24c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "no owner() surface found",
     "owner": null,
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x5e1e10b54b450121af3c99ca2fd679fe6020e1f4.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xfe6fa24c11a588f6299093b31420f3e99ee0be86.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0x844f62667e7883d7bcf0c5526eaa2b9fba0cf2ab",
-   "symbol": "DCTY",
-   "name": "DacityCoin",
+   "address": "0xe99faa5308270ee46ed16a18922816aa8d0fb308",
+   "symbol": "PVT",
+   "name": "PUNKVISM",
    "decimals": 18,
-   "liquidityUsd": 223106.8492,
-   "poolCreatedAt": "2026-11-19T00:06:48Z",
+   "liquidityUsd": 23257.2711,
+   "poolCreatedAt": "2026-11-19T15:03:34Z",
+   "controlPlane": {
+    "flags": [
+     "ownership RENOUNCED (owner is the zero address)",
+     "no mint(address,uint256) selector in the bytecode of 0xe99faa53\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    ],
+    "verdict": "ownership renounced, not upgradeable",
+    "owner": "0x0000000000000000000000000000000000000000",
+    "ownerIsContract": null,
+    "upgradeable": null
+   },
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xe99faa5308270ee46ed16a18922816aa8d0fb308.json",
+   "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
+   "notA": "not a safety guarantee, not a buy or sell call"
+  },
+  {
+   "chain": "base",
+   "address": "0x37b0802673899e652f06b6b2c84f9ef022dcdba3",
+   "symbol": "cybersecurity",
+   "name": "cybersecurity",
+   "decimals": 18,
+   "liquidityUsd": 17064.6799,
+   "poolCreatedAt": "2026-11-19T15:01:25Z",
    "controlPlane": {
     "flags": [
      "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0x844f6266\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no mint(address,uint256) selector in the bytecode of 0x37b08026\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "owner is a contract (multisig/governance)",
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x844f62667e7883d7bcf0c5526eaa2b9fba0cf2ab.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x37b0802673899e652f06b6b2c84f9ef022dcdba3.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0x08df4c930fd10c2e370d073473f786a10e5ebfef",
-   "symbol": "VICE 6",
-   "name": "VICE6",
+   "address": "0x76db92afdc3352b6fd94893c03877aa78a9eee71",
+   "symbol": "LIMO",
+   "name": "Limoverse",
    "decimals": 18,
-   "liquidityUsd": 72227140.3499,
-   "poolCreatedAt": "2026-11-19T00:00:42Z",
+   "liquidityUsd": 23257.2711,
+   "poolCreatedAt": "2026-11-19T15:01:20Z",
+   "controlPlane": {
+    "flags": [
+     "ownership RENOUNCED (owner is the zero address)",
+     "no mint(address,uint256) selector in the bytecode of 0x76db92af\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    ],
+    "verdict": "ownership renounced, not upgradeable",
+    "owner": "0x0000000000000000000000000000000000000000",
+    "ownerIsContract": null,
+    "upgradeable": null
+   },
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x76db92afdc3352b6fd94893c03877aa78a9eee71.json",
+   "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
+   "notA": "not a safety guarantee, not a buy or sell call"
+  },
+  {
+   "chain": "base",
+   "address": "0x4e65f8b66c07018b167b2ce60b4f8d86d9b56985",
+   "symbol": "NOTF",
+   "name": "NOTF",
+   "decimals": 18,
+   "liquidityUsd": 300989.025,
+   "poolCreatedAt": "2026-11-19T14:59:16Z",
    "controlPlane": {
     "flags": [
      "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0x08df4c93\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no mint(address,uint256) selector in the bytecode of 0x4e65f8b6\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "owner is a contract (multisig/governance)",
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x08df4c930fd10c2e370d073473f786a10e5ebfef.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x4e65f8b66c07018b167b2ce60b4f8d86d9b56985.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0x1b1cff4d431782c2d66f40cf2e1afa11e873f625",
-   "symbol": "DACITYCOIN",
-   "name": "DacityCoin",
+   "address": "0x1252230193c0aaa10eb8b59a31ed8ec92e27a081",
+   "symbol": "AKAM",
+   "name": "Akamai Technologies",
    "decimals": 18,
-   "liquidityUsd": 99565.0351,
-   "poolCreatedAt": "2026-11-19T00:00:31Z",
+   "liquidityUsd": 23239.5814,
+   "poolCreatedAt": "2026-11-19T14:48:14Z",
    "controlPlane": {
     "flags": [
-     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0x1b1cff4d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "ownership RENOUNCED (owner is the zero address)",
+     "no mint(address,uint256) selector in the bytecode of 0x12522301\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
-    "verdict": "owner is a contract (multisig/governance)",
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+    "verdict": "ownership renounced, not upgradeable",
+    "owner": "0x0000000000000000000000000000000000000000",
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1b1cff4d431782c2d66f40cf2e1afa11e873f625.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1252230193c0aaa10eb8b59a31ed8ec92e27a081.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0xccd3e1897c9df95cbdd8a73d5d56a8045c66ebab",
-   "symbol": "VTC",
-   "name": "VICE 6",
+   "address": "0xb1c5970754259a222b796144c17bc5b7af33a42f",
+   "symbol": "OUF",
+   "name": "UNITED OIL FUND (OUF)",
    "decimals": 18,
-   "liquidityUsd": 36082.7425,
-   "poolCreatedAt": "2026-11-18T23:54:21Z",
-   "controlPlane": {
-    "flags": [
-     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0xccd3e189\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-    ],
-    "verdict": "owner is a contract (multisig/governance)",
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "ownerIsContract": null,
-    "upgradeable": null
-   },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xccd3e1897c9df95cbdd8a73d5d56a8045c66ebab.json",
-   "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
-   "notA": "not a safety guarantee, not a buy or sell call"
-  },
-  {
-   "chain": "base",
-   "address": "0xdef8180ed6af314d369ade1407f6f4d2d3d070fd",
-   "symbol": "BOOST",
-   "name": "BOOST",
-   "decimals": 18,
-   "liquidityUsd": 132043.3961,
-   "poolCreatedAt": "2026-11-18T23:53:34Z",
-   "controlPlane": {
-    "flags": [
-     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0xdef8180e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-    ],
-    "verdict": "owner is a contract (multisig/governance)",
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "ownerIsContract": null,
-    "upgradeable": null
-   },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xdef8180ed6af314d369ade1407f6f4d2d3d070fd.json",
-   "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
-   "notA": "not a safety guarantee, not a buy or sell call"
-  },
-  {
-   "chain": "base",
-   "address": "0x9b0c7c30ac4ad1d8f5227d85dcb1c4b85ee279b7",
-   "symbol": "UPSR\u26a1\ufe0f",
-   "name": "UPSR\u26a1\ufe0f",
-   "decimals": 18,
-   "liquidityUsd": 59387.8608,
-   "poolCreatedAt": "2026-11-18T23:53:17Z",
+   "liquidityUsd": 175352.11,
+   "poolCreatedAt": "2026-11-19T14:45:41Z",
    "controlPlane": {
     "flags": [
      "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-     "no mint(address,uint256) selector in the bytecode of 0x9b0c7c30\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no mint(address,uint256) selector in the bytecode of 0xb1c59707\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
     "verdict": "no owner() surface found",
     "owner": null,
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9b0c7c30ac4ad1d8f5227d85dcb1c4b85ee279b7.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb1c5970754259a222b796144c17bc5b7af33a42f.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   },
   {
    "chain": "base",
-   "address": "0xc60663510824927f437134f0c5f173815b0f40e8",
-   "symbol": "VICE 6",
-   "name": "VICE6",
+   "address": "0x346e0aac33a4ca0014b7c6ec3ef9234798b115a2",
+   "symbol": "OIL UOF",
+   "name": "United Oil Fund (UOF)",
    "decimals": 18,
-   "liquidityUsd": 175973.3724,
-   "poolCreatedAt": "2026-11-18T23:45:51Z",
+   "liquidityUsd": 88829.5159,
+   "poolCreatedAt": "2026-11-19T14:41:30Z",
    "controlPlane": {
     "flags": [
-     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-     "no mint(address,uint256) selector in the bytecode of 0xc6066351\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+     "no mint(address,uint256) selector in the bytecode of 0x346e0aac\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
     ],
-    "verdict": "owner is a contract (multisig/governance)",
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+    "verdict": "no owner() surface found",
+    "owner": null,
     "ownerIsContract": null,
     "upgradeable": null
    },
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xc60663510824927f437134f0c5f173815b0f40e8.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x346e0aac33a4ca0014b7c6ec3ef9234798b115a2.json",
    "method": "eth_call at one finalized Base block; no heuristics, no price opinion",
    "notA": "not a safety guarantee, not a buy or sell call"
   }

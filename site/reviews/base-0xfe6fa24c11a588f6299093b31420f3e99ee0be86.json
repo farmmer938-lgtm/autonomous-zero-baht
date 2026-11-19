@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xfe6fa24c11a588f6299093b31420f3e99ee0be86",
+ "generatedAt": "2026-11-19T15:44:49.956527+00:00",
+ "reads": {
+  "name": "VTC6\u26a1\ufe0f",
+  "symbol": "VTC6\u26a1\ufe0f",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0xc46a4a026d19db3d5e8a2bb9c2ab73dba55d0bd8",
+  "bytecodeScannedAddress": "0xfe6fa24c11a588f6299093b31420f3e99ee0be86",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0xfe6fa24c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59563572,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 121860.633,
+ "poolCreatedAt": "2026-11-19T15:06:14Z",
+ "poolName": "VTC6\u26a1\ufe0f / WETH",
+ "outreach": {
+  "symbol": "VTC6\u26a1\ufe0f",
+  "name": "VTC6\u26a1\ufe0f",
+  "priceUsd": "0.000001336",
+  "fdv": 133687,
+  "liquidityUsd": 122062.1,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x5a72c716f51f422c5a34c1299f7b408a6fb751b4ae110a74255fb84eb8e0af58",
+  "pairUrl": "https://dexscreener.com/base/0x5a72c716f51f422c5a34c1299f7b408a6fb751b4ae110a74255fb84eb8e0af58"
+ }
+}
