@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xf3cfc64eb4fa52d3bab49e808b29d9d8eff9e9ae",
+ "generatedAt": "2026-11-20T15:26:47.196778+00:00",
+ "reads": {
+  "name": "American Dollar Asset Reserve",
+  "symbol": "ADAR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xf3cfc64eb4fa52d3bab49e808b29d9d8eff9e9ae",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xf3cfc64e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59990158,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 329170.8209,
+ "poolCreatedAt": "2026-11-20T15:02:02Z",
+ "poolName": "ADAR / ETH 0.008%",
+ "outreach": {
+  "symbol": "ADAR",
+  "name": "American Dollar Asset Reserve",
+  "priceUsd": "0.0004388",
+  "fdv": 438863,
+  "liquidityUsd": 329147.21,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x88a979fc2b918d96d2d08bef70d54fe0cfae96d46e3486d41fe6138fe98eab6a",
+  "pairUrl": "https://dexscreener.com/base/0x88a979fc2b918d96d2d08bef70d54fe0cfae96d46e3486d41fe6138fe98eab6a"
+ }
+}

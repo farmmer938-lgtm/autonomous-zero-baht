@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x9e9298bc4483ecb01ebfe740589398501aed60cf",
+ "generatedAt": "2026-11-20T15:26:54.036781+00:00",
+ "reads": {
+  "name": "APCY",
+  "symbol": "APOCRYCOIN",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x9e9298bc4483ecb01ebfe740589398501aed60cf",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x9e9298bc\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59990192,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 173659.5669,
+ "poolCreatedAt": "2026-11-20T14:47:59Z",
+ "poolName": "APOCRYCOIN / ZORA",
+ "outreach": {
+  "symbol": "APOCRYCOIN",
+  "name": "APCY",
+  "priceUsd": "0.0001786",
+  "fdv": 178611,
+  "liquidityUsd": 176824.23,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x95fe5ffa4b49a3e4439dfa538b2e1b5ac105f27f399c18035a0c4c94002aa4aa",
+  "pairUrl": "https://dexscreener.com/base/0x95fe5ffa4b49a3e4439dfa538b2e1b5ac105f27f399c18035a0c4c94002aa4aa"
+ }
+}

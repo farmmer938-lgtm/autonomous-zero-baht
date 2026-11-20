@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x296f777c7edff5ece3c519138fb2ebc8bdd2e310",
+ "generatedAt": "2026-11-20T15:26:50.650976+00:00",
+ "reads": {
+  "name": "IOUS",
+  "symbol": "INDEX OIL U.S",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x296f777c7edff5ece3c519138fb2ebc8bdd2e310",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x296f777c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59990175,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 150074.575,
+ "poolCreatedAt": "2026-11-20T14:48:24Z",
+ "poolName": "INDEX OIL U.S / ZORA",
+ "outreach": {
+  "symbol": "INDEX OIL U.S",
+  "name": "IOUS",
+  "priceUsd": "0.0001555",
+  "fdv": 155577,
+  "liquidityUsd": 154020.75,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x208a8d91f38280e529caa7a5a3cda148fd50b2d77d1489b8520fdb63850b4a52",
+  "pairUrl": "https://dexscreener.com/base/0x208a8d91f38280e529caa7a5a3cda148fd50b2d77d1489b8520fdb63850b4a52"
+ }
+}

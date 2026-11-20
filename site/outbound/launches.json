@@ -1,27 +1,10 @@
 {
  "schema": "af.launch.watch.v1",
- "generatedAt": "2026-11-20T00:39:14.844369+00:00",
- "fromBlock": 59723516,
- "toBlock": 59723716,
+ "generatedAt": "2026-11-20T15:28:07.611935+00:00",
+ "fromBlock": 59990164,
+ "toBlock": 59990364,
  "creations": 3,
- "tokens": [
-  {
-   "address": "0x7361f72ed815760ca7e0a1f4888decb6a2e0a68c",
-   "deployer": "0xbd8c67f738004890411393487feb8f50ea800629",
-   "block": 59723569,
-   "txHash": "0x71187b928f46575c694a294b2acd0d8aa6461f97e7ba7db493f777ddc7ab7c9b",
-   "hasSymbol": true,
-   "hasDecimals": true
-  },
-  {
-   "address": "0x7e03a5a58fc1aef0ba1672ad1b1dbd6cb767c01c",
-   "deployer": "0x65fdf942b7155ae690a1354edde4b0064dc9e85f",
-   "block": 59723707,
-   "txHash": "0x9e603604f8ec1f5e1df3fab57305ed6e1f5664ce52e638ff7c62e13cc17358d8",
-   "hasSymbol": true,
-   "hasDecimals": true
-  }
- ],
- "skippedNonToken": 1,
+ "tokens": [],
+ "skippedNonToken": 3,
  "note": "tokens are filtered by an on-chain symbol()/decimals() read, not by name"
 }

@@ -1,6 +1,6 @@
 {
  "schema": "af.pay.tokens.v1",
- "generatedAt": "2026-11-20T00:37:24.197048+00:00",
+ "generatedAt": "2026-11-20T15:26:11.038667+00:00",
  "payout_address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
  "note": "Every token below was read from its contract on that chain (symbol/decimals). Anything that did not answer was dropped, not guessed.",
  "chains": [
@@ -32,7 +32,7 @@
    "chainId": 8453,
    "token": "ETH",
    "native": true,
-   "afBalance": 0.000243713000809217,
+   "afBalance": 0.00024098909776153,
    "ok": true
   },
   {
@@ -187,7 +187,7 @@
    "symbol": "USDC",
    "name": "USD Coin",
    "decimals": 6,
-   "afBalance": 0.553037,
+   "afBalance": 0.0,
    "ok": true,
    "label": "USDC"
   },
