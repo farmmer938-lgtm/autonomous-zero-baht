@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x58e64b4363bf676c7e69505a6bdc6c1148302270",
+ "generatedAt": "2026-11-20T00:38:18.042592+00:00",
+ "reads": {
+  "name": "United Dividend Oil Fund (UDOF)",
+  "symbol": "UDOF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x58e64b4363bf676c7e69505a6bdc6c1148302270",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x58e64b43\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59723612,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 80882.2837,
+ "poolCreatedAt": "2026-11-20T00:01:36Z",
+ "poolName": "UDOF / ZORA",
+ "outreach": {
+  "symbol": "UDOF",
+  "name": "United Dividend Oil Fund (UDOF)",
+  "priceUsd": "0.00008100",
+  "fdv": 81009,
+  "liquidityUsd": 80198.44,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x6a1aff1aa36f302dfffa1f974974b7ba4a826f1b358138f5e75435b25be8b5f9",
+  "pairUrl": "https://dexscreener.com/base/0x6a1aff1aa36f302dfffa1f974974b7ba4a826f1b358138f5e75435b25be8b5f9"
+ }
+}

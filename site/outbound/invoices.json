@@ -9,88 +9,88 @@
  "note": "The exact amount is the order reference. No account needed.",
  "invoices": [
   {
-   "token": "0xa6314a786afb41887e291f6b998b44a1ff90614a",
-   "symbol": "SI",
-   "amount_usdc": 15.35,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xa6314a786afb41887e291f6b998b44a1ff90614a.json"
-  },
-  {
-   "token": "0x9cd3f694241551f6420f9a87feb7193e5811f95c",
-   "symbol": "CHUBBY",
-   "amount_usdc": 15.57,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x9cd3f694241551f6420f9a87feb7193e5811f95c.json"
-  },
-  {
-   "token": "0xb87bad7832bb2bbc8b38b495d73493e8c356aba3",
-   "symbol": "HELIOS",
-   "amount_usdc": 15.31,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb87bad7832bb2bbc8b38b495d73493e8c356aba3.json"
-  },
-  {
-   "token": "0x33b91b3a627e82a9d1a05c6933858e82a15f1206",
-   "symbol": "ALU",
-   "amount_usdc": 15.37,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x33b91b3a627e82a9d1a05c6933858e82a15f1206.json"
-  },
-  {
-   "token": "0xfe6fa24c11a588f6299093b31420f3e99ee0be86",
-   "symbol": "VTC6\u26a1\ufe0f",
-   "amount_usdc": 15.19,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xfe6fa24c11a588f6299093b31420f3e99ee0be86.json"
-  },
-  {
-   "token": "0xe99faa5308270ee46ed16a18922816aa8d0fb308",
-   "symbol": "PVT",
-   "amount_usdc": 15.76,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xe99faa5308270ee46ed16a18922816aa8d0fb308.json"
-  },
-  {
-   "token": "0x37b0802673899e652f06b6b2c84f9ef022dcdba3",
-   "symbol": "cybersecurity",
-   "amount_usdc": 15.83,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x37b0802673899e652f06b6b2c84f9ef022dcdba3.json"
-  },
-  {
-   "token": "0x76db92afdc3352b6fd94893c03877aa78a9eee71",
-   "symbol": "LIMO",
-   "amount_usdc": 15.44,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x76db92afdc3352b6fd94893c03877aa78a9eee71.json"
-  },
-  {
-   "token": "0x4e65f8b66c07018b167b2ce60b4f8d86d9b56985",
-   "symbol": "NOTF",
+   "token": "0x0bb2c31ec3ae0950fb29456948495eb0fd1ca674",
+   "symbol": "AO\u200aDT",
    "amount_usdc": 15.25,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x4e65f8b66c07018b167b2ce60b4f8d86d9b56985.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0bb2c31ec3ae0950fb29456948495eb0fd1ca674.json"
   },
   {
-   "token": "0x1252230193c0aaa10eb8b59a31ed8ec92e27a081",
-   "symbol": "AKAM",
-   "amount_usdc": 15.32,
+   "token": "0x146fc22d9759ab25dca05740069ff3ce920336ec",
+   "symbol": "NADF",
+   "amount_usdc": 15.26,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1252230193c0aaa10eb8b59a31ed8ec92e27a081.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x146fc22d9759ab25dca05740069ff3ce920336ec.json"
   },
   {
-   "token": "0xb1c5970754259a222b796144c17bc5b7af33a42f",
-   "symbol": "OUF",
-   "amount_usdc": 15.08,
+   "token": "0x0597779e6a67f8b1d448a0ebf71daa55d7ef2ac3",
+   "symbol": "XCHAT",
+   "amount_usdc": 15.59,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb1c5970754259a222b796144c17bc5b7af33a42f.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0597779e6a67f8b1d448a0ebf71daa55d7ef2ac3.json"
   },
   {
-   "token": "0x346e0aac33a4ca0014b7c6ec3ef9234798b115a2",
-   "symbol": "OIL UOF",
-   "amount_usdc": 15.45,
+   "token": "0x4e23f71ac18430a37cf53a3db30de3b1ebc76679",
+   "symbol": "LIQUIDBGT",
+   "amount_usdc": 15.87,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x346e0aac33a4ca0014b7c6ec3ef9234798b115a2.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x4e23f71ac18430a37cf53a3db30de3b1ebc76679.json"
+  },
+  {
+   "token": "0x59ae66570d1bd5bd6fd22fdcfc625a3b334ddee7",
+   "symbol": "UDFO",
+   "amount_usdc": 15.48,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x59ae66570d1bd5bd6fd22fdcfc625a3b334ddee7.json"
+  },
+  {
+   "token": "0xa71064c09bb1aafa55ba19b13e1bc1b82de696bd",
+   "symbol": "UDFO",
+   "amount_usdc": 15.71,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xa71064c09bb1aafa55ba19b13e1bc1b82de696bd.json"
+  },
+  {
+   "token": "0x58e64b4363bf676c7e69505a6bdc6c1148302270",
+   "symbol": "UDOF",
+   "amount_usdc": 15.86,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x58e64b4363bf676c7e69505a6bdc6c1148302270.json"
+  },
+  {
+   "token": "0xf436101ad5b44e2f27652bbe046ec70e77231ba3",
+   "symbol": "CYPHERCAT",
+   "amount_usdc": 15.11,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xf436101ad5b44e2f27652bbe046ec70e77231ba3.json"
+  },
+  {
+   "token": "0x5a7705911dc8a85e6afb766dc90513362d3ffb69",
+   "symbol": "ANTCOIN",
+   "amount_usdc": 15.9,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x5a7705911dc8a85e6afb766dc90513362d3ffb69.json"
+  },
+  {
+   "token": "0x24959374603c23f4cbb2fc07e2e30f8356b3f994",
+   "symbol": "CRDNL",
+   "amount_usdc": 15.29,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x24959374603c23f4cbb2fc07e2e30f8356b3f994.json"
+  },
+  {
+   "token": "0xd4570fb1f2aa183087b83e2c1a95d998416f8bf9",
+   "symbol": "IOF",
+   "amount_usdc": 15.42,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xd4570fb1f2aa183087b83e2c1a95d998416f8bf9.json"
+  },
+  {
+   "token": "0x7c1d72b929168361a3fd2fe3ec7d994dfa8a0ba3",
+   "symbol": "CLANKO",
+   "amount_usdc": 15.78,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x7c1d72b929168361a3fd2fe3ec7d994dfa8a0ba3.json"
   }
  ]
 }

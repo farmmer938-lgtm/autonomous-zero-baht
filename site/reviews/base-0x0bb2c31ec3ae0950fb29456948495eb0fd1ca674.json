@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0bb2c31ec3ae0950fb29456948495eb0fd1ca674",
+ "generatedAt": "2026-11-20T00:37:56.922420+00:00",
+ "reads": {
+  "name": "AODT \ud83d\udd25",
+  "symbol": "AO\u200aDT",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x0bb2c31ec3ae0950fb29456948495eb0fd1ca674",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x0bb2c31e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59723507,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 7196307.7835,
+ "poolCreatedAt": "2026-11-20T00:33:04Z",
+ "poolName": "AO\u200aDT / WETH",
+ "outreach": {
+  "symbol": "AO\u200aDT",
+  "name": "AODT \ud83d\udd25",
+  "priceUsd": "0.004802",
+  "fdv": 48020703,
+  "liquidityUsd": 7203280.98,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xadc0497ebbba917a5895492a5a2f624db02b559dcec9922e68637c2a61240722",
+  "pairUrl": "https://dexscreener.com/base/0xadc0497ebbba917a5895492a5a2f624db02b559dcec9922e68637c2a61240722"
+ }
+}

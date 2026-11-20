@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xf436101ad5b44e2f27652bbe046ec70e77231ba3",
+ "generatedAt": "2026-11-20T00:38:21.388822+00:00",
+ "reads": {
+  "name": "Cypher Cat",
+  "symbol": "CYPHERCAT",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0xf436101ad5b44e2f27652bbe046ec70e77231ba3",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0xf436101a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59723629,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 17292.7872,
+ "poolCreatedAt": "2026-11-19T23:55:42Z",
+ "poolName": "CYPHERCAT / WETH",
+ "outreach": {
+  "symbol": "CYPHERCAT",
+  "name": "Cypher Cat",
+  "priceUsd": "0.0000001012",
+  "fdv": 10126,
+  "liquidityUsd": 8606.77,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x70fde85ed9393b67186d05ccee849d358d64e91fe17349b09317ef2ec241dd1e",
+  "pairUrl": "https://dexscreener.com/base/0x70fde85ed9393b67186d05ccee849d358d64e91fe17349b09317ef2ec241dd1e"
+ }
+}

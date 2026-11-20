@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x5a7705911dc8a85e6afb766dc90513362d3ffb69",
+ "generatedAt": "2026-11-20T00:38:24.901743+00:00",
+ "reads": {
+  "name": "ANTHROPIC AI COIN",
+  "symbol": "ANTCOIN",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x5a7705911dc8a85e6afb766dc90513362d3ffb69",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x5a770591\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 59723647,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 161386.4209,
+ "poolCreatedAt": "2026-11-19T23:48:14Z",
+ "poolName": "ANTCOIN / ZORA",
+ "outreach": {
+  "symbol": "ANTCOIN",
+  "name": "ANTHROPIC AI COIN",
+  "priceUsd": "0.00008025",
+  "fdv": 80253,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xb568a64e3170d98fc6228ec202a94c10fc9dbe93fdccc60cc48132bb21462102",
+  "pairUrl": "https://dexscreener.com/base/0xb568a64e3170d98fc6228ec202a94c10fc9dbe93fdccc60cc48132bb21462102"
+ }
+}
