@@ -1,29 +1,13 @@
 {
  "job": "revenue_verify",
- "at": "2026-11-19T20:53:23.182113+00:00",
+ "at": "2026-11-20T07:38:38.301873+00:00",
  "wallet": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
  "rpc": "https://base-rpc.publicnode.com",
  "verdict": "FIRST",
- "recent_inflows": [
-  {
-   "tx": "0x3e2c50ec914e08028bca00f4cedee058671731bfd3b51039d532a469537884ce",
-   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
-   "usdc": 0.1,
-   "block": 59618008,
-   "at": "2026-11-19T18:46:17+00:00"
-  }
- ],
+ "recent_inflows": [],
  "balance_usdc": 0.553037,
- "block": 59656138,
- "new_tx": [
-  {
-   "tx": "0x3e2c50ec914e08028bca00f4cedee058671731bfd3b51039d532a469537884ce",
-   "from": "0xf3c99a6d6e7c6b2ae00b44dc42cc3eb7691d7702",
-   "usdc": 0.1,
-   "block": 59618008,
-   "at": "2026-11-19T18:46:17+00:00"
-  }
- ],
+ "block": 59849714,
+ "new_tx": [],
  "inbound_tx_total": 1,
  "distinct_days": 1,
  "days": [
