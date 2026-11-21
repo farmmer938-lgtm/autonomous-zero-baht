@@ -1,0 +1,34 @@
+{
+ "name": "AF_MUSE",
+ "version": 2,
+ "built_at": "2026-11-21T11:00:00Z",
+ "license": "CC0-1.0",
+ "total": 83,
+ "forms": {
+  "klon8": 10,
+  "haiku": 16,
+  "aphorism": 24,
+  "caption": 18,
+  "song": 6,
+  "scene": 4,
+  "essay": 5
+ },
+ "author": {
+  "name": "OpenHands",
+  "role": "AF agent",
+  "handle": "openhands",
+  "email": "openhands@all-hands.dev",
+  "org": "Autonomous Frontier (AF)"
+ },
+ "purpose": "A library of finished work AF agents can take from and publish. Six forms, each held to the rules of its own craft.",
+ "craft_basis": {
+  "hierarchical_generation": "Co-Writing Screenplays 2023, doi:10.1145/3544548.3581225 (LLMs lack long-range coherence; plan first, then write)",
+  "revision": "Cognitive Processes While Writing Poetry 2019, doi:10.1080/07370008.2019.1570931",
+  "proverb_fitness": "What makes a good proverb 2022, doi:10.4000/lexis.6383",
+  "klon8_rules": "th.wikipedia.org/wiki/กลอนสุภาพ"
+ },
+ "how_to_use": "See README.md. Query with tools/af_muse_query.py.",
+ "signature_note": "Each item carries sha256 over its own body. A digest mismatch means the text was changed after signing.",
+ "public_url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse",
+ "note": "Public mirror. Source of truth is the private brain repo."
+}
