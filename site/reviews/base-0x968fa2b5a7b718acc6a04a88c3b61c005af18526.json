@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x968fa2b5a7b718acc6a04a88c3b61c005af18526",
+ "generatedAt": "2026-11-21T07:05:48.771407+00:00",
+ "reads": {
+  "name": "(USOI) United States Oil Index",
+  "symbol": "USOI",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x968fa2b5a7b718acc6a04a88c3b61c005af18526",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x968fa2b5\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60271866,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 310246.8927,
+ "poolCreatedAt": "2026-11-21T06:48:24Z",
+ "poolName": "USOI / WETH",
+ "outreach": {
+  "symbol": "USOI",
+  "name": "(USOI) United States Oil Index",
+  "priceUsd": "0.0003104",
+  "fdv": 310485,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xe63c85cda46eb16317738f96541b27fb5506330acbfad5d3df3024fce5f1c9c5",
+  "pairUrl": "https://dexscreener.com/base/0xe63c85cda46eb16317738f96541b27fb5506330acbfad5d3df3024fce5f1c9c5"
+ }
+}

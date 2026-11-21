@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x26d30b461c1f6a43c96a7127ea36cb44c8453d62",
+ "generatedAt": "2026-11-21T07:06:18.557117+00:00",
+ "reads": {
+  "name": "AOTF",
+  "symbol": "AOTF",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x26d30b461c1f6a43c96a7127ea36cb44c8453d62",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x26d30b46\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60272015,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 38373475.4307,
+ "poolCreatedAt": "2026-11-21T06:41:44Z",
+ "poolName": "AOTF / WETH",
+ "outreach": {
+  "symbol": "AOTF",
+  "name": "AOTF",
+  "priceUsd": "0.02565",
+  "fdv": 256527449,
+  "liquidityUsd": 38479280.97,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x780267a7b2501d02f5c3bc9a579639082a4b53cc317ee3895db00db5b4165d6b",
+  "pairUrl": "https://dexscreener.com/base/0x780267a7b2501d02f5c3bc9a579639082a4b53cc317ee3895db00db5b4165d6b"
+ }
+}
