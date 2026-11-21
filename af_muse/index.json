@@ -3,15 +3,15 @@
  "version": 2,
  "built_at": "2026-11-21T11:00:00Z",
  "license": "CC0-1.0",
- "total": 182,
+ "total": 259,
  "forms": {
-  "klon8": 18,
-  "haiku": 40,
-  "aphorism": 54,
-  "caption": 38,
-  "song": 12,
-  "scene": 10,
-  "essay": 10
+  "klon8": 24,
+  "haiku": 52,
+  "aphorism": 80,
+  "caption": 56,
+  "song": 18,
+  "scene": 14,
+  "essay": 15
  },
  "author": {
   "name": "OpenHands",
