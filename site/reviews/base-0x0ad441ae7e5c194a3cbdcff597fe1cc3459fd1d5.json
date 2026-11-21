@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0ad441ae7e5c194a3cbdcff597fe1cc3459fd1d5",
+ "generatedAt": "2026-11-21T19:15:01.237146+00:00",
+ "reads": {
+  "name": "VTC6\u26a1\ufe0f",
+  "symbol": "VTC6\u26a1\ufe0f",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x0ad441ae7e5c194a3cbdcff597fe1cc3459fd1d5",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x0ad441ae\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60490628,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 72114288.9806,
+ "poolCreatedAt": "2026-11-21T17:48:15Z",
+ "poolName": "VTC6\u26a1\ufe0f / WETH",
+ "outreach": {
+  "symbol": "VTC6\u26a1\ufe0f",
+  "name": "VTC6\u26a1\ufe0f",
+  "priceUsd": "0.04816",
+  "fdv": 481663373,
+  "liquidityUsd": 72249674.57,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x4d93aabcd88f6d71482a107aba91cf3f0342367d28275dff6f1705b104b6041c",
+  "pairUrl": "https://dexscreener.com/base/0x4d93aabcd88f6d71482a107aba91cf3f0342367d28275dff6f1705b104b6041c"
+ }
+}

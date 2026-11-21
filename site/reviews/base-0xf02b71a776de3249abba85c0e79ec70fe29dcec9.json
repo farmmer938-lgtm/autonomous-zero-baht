@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xf02b71a776de3249abba85c0e79ec70fe29dcec9",
+ "generatedAt": "2026-11-21T19:14:34.986677+00:00",
+ "reads": {
+  "name": "PepeKing",
+  "symbol": "PEPKING",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xf02b71a776de3249abba85c0e79ec70fe29dcec9",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xf02b71a7\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60490497,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 12883.9322,
+ "poolCreatedAt": "2026-11-21T19:06:54Z",
+ "poolName": "PEPKING / WETH",
+ "outreach": {
+  "symbol": "PEPKING",
+  "name": "PepeKing",
+  "priceUsd": "0.000001257",
+  "fdv": 7041,
+  "liquidityUsd": 12881.99,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xea7b92409dFA0764c94aea194f802eaca691e751",
+  "pairUrl": "https://dexscreener.com/base/0xea7b92409dfa0764c94aea194f802eaca691e751"
+ }
+}

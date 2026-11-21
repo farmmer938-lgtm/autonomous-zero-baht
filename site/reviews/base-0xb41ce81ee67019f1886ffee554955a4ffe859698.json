@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xb41ce81ee67019f1886ffee554955a4ffe859698",
+ "generatedAt": "2026-11-21T19:14:32.421035+00:00",
+ "reads": {
+  "name": "GOIF",
+  "symbol": "GOIF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xb41ce81ee67019f1886ffee554955a4ffe859698",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xb41ce81e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60490484,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 144600.3571,
+ "poolCreatedAt": "2026-11-21T19:11:31Z",
+ "poolName": "GOIF / ZORA",
+ "outreach": {
+  "symbol": "GOIF",
+  "name": "GOIF",
+  "priceUsd": "0.0001438",
+  "fdv": 143891,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xf8c96eda723fb8acf9bdf565e595bc0ebd8696f68a01ea61439c0e5f9a71a553",
+  "pairUrl": "https://dexscreener.com/base/0xf8c96eda723fb8acf9bdf565e595bc0ebd8696f68a01ea61439c0e5f9a71a553"
+ }
+}

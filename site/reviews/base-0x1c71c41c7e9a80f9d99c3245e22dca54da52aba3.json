@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x1c71c41c7e9a80f9d99c3245e22dca54da52aba3",
+ "generatedAt": "2026-11-21T19:14:53.212323+00:00",
+ "reads": {
+  "name": "APA",
+  "symbol": "AVE",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x1c71c41c7e9a80f9d99c3245e22dca54da52aba3",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x1c71c41c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60490588,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 16587.9813,
+ "poolCreatedAt": "2026-11-21T18:28:30Z",
+ "poolName": "AVE / WETH",
+ "outreach": {
+  "symbol": "AVE",
+  "name": "APA",
+  "priceUsd": "0.0000001008",
+  "fdv": 10087,
+  "liquidityUsd": 8573.87,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x21e55ccdc6a6633db0b424cb019872cc368482c5c2d50cd177244c24b981a8f6",
+  "pairUrl": "https://dexscreener.com/base/0x21e55ccdc6a6633db0b424cb019872cc368482c5c2d50cd177244c24b981a8f6"
+ }
+}
