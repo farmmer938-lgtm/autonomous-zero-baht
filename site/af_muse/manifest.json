@@ -2,15 +2,15 @@
  "name": "AF_MUSE",
  "version": 2,
  "license": "CC0-1.0",
- "total": 83,
+ "total": 182,
  "forms": {
-  "klon8": 10,
-  "haiku": 16,
-  "aphorism": 24,
-  "caption": 18,
-  "song": 6,
-  "scene": 4,
-  "essay": 5
+  "klon8": 18,
+  "haiku": 40,
+  "aphorism": 54,
+  "caption": 38,
+  "song": 12,
+  "scene": 10,
+  "essay": 10
  },
  "base_url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse",
  "how_to_read": {
@@ -129,6 +129,94 @@
    "digest": "4c7198f8e76233dbe94712f75c05ec26aff524002a6e7fc1d977e3f76d7737c9",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
    "title": "กระจก"
+  },
+  {
+   "id": "klon8-11",
+   "form": "klon8",
+   "tags": [
+    "ของใช้",
+    "ความจำ"
+   ],
+   "digest": "8243531fb2a14102facee2fb2392103d22ad7a5e2a6643ab155bbea854f1366e",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "ปากกา"
+  },
+  {
+   "id": "klon8-12",
+   "form": "klon8",
+   "tags": [
+    "ทาง",
+    "รอคอย"
+   ],
+   "digest": "5f7454ece898d37b3219b9bad451bcd9d4bc790d8bbbc284e058a60a1efc6da0",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "ถนนสายเก่า"
+  },
+  {
+   "id": "klon8-13",
+   "form": "klon8",
+   "tags": [
+    "ของใช้",
+    "แม่"
+   ],
+   "digest": "1faa08f66a715a28aba8c2cdc90cdc6f7420988c36e34e113124854061054114",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "ผ้าขาว"
+  },
+  {
+   "id": "klon8-14",
+   "form": "klon8",
+   "tags": [
+    "บ้าน",
+    "ความจำ"
+   ],
+   "digest": "aba2aa0262e40337c388423b8a9797615163547f11a1a3a5aa9398417e813b3f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "กลิ่น"
+  },
+  {
+   "id": "klon8-15",
+   "form": "klon8",
+   "tags": [
+    "บ้าน",
+    "ลม"
+   ],
+   "digest": "e3462435a13c7b58e118e4683108bdcbcc921e8357e425bd411ab724d9228f98",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "ประตู"
+  },
+  {
+   "id": "klon8-16",
+   "form": "klon8",
+   "tags": [
+    "ฟ้า",
+    "รอคอย"
+   ],
+   "digest": "3a4cf914e890b02ac88a075e7281fccb2a18f209ed8e1593cd5d92d830f9f221",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "คืนไม่มีดาว"
+  },
+  {
+   "id": "klon8-17",
+   "form": "klon8",
+   "tags": [
+    "ของใช้",
+    "ความจำ"
+   ],
+   "digest": "cb3851539e8c66cfd2b2d02697704ec2fd06d4e43d1556d1b1035c61c2b8f46d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "ลิ้นชัก"
+  },
+  {
+   "id": "klon8-18",
+   "form": "klon8",
+   "tags": [
+    "ผูกพัน",
+    "รอคอย"
+   ],
+   "digest": "3610538692fb6d96d1342bf89ec1f5c5e3831ba3d8c759080a3f7f6a39683dc3",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/klon8.json",
+   "title": "เชือกเส้นนี้"
   },
   {
    "id": "haiku-01",
@@ -305,6 +393,270 @@
    "digest": "dbdfc266181d824b8007ae383251ba0fcc0398650636cb38d002eac51fc77bd6",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
    "title": "ปากกา"
+  },
+  {
+   "id": "haiku-17",
+   "form": "haiku",
+   "tags": [
+    "ฝน",
+    "คืน"
+   ],
+   "digest": "b93a862b82b083e38ab7d23677e32504519d4d595fb985043a98c80863b2e585",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ฝนทั้งคืน"
+  },
+  {
+   "id": "haiku-18",
+   "form": "haiku",
+   "tags": [
+    "ลม",
+    "ใบไม้"
+   ],
+   "digest": "9f11da844c46d4ed6503d70f11c11642311822053c2c1943442c2d9c2ccea76c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ลมแรง"
+  },
+  {
+   "id": "haiku-19",
+   "form": "haiku",
+   "tags": [
+    "ฟ้า",
+    "เงา"
+   ],
+   "digest": "811afe0b3af1f3770ccc79758f3e643d446bec16e132511d31ec1e352ad061cb",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "จันทร์เต็มดวง"
+  },
+  {
+   "id": "haiku-20",
+   "form": "haiku",
+   "tags": [
+    "บ้าน",
+    "ความเงียบ"
+   ],
+   "digest": "442e901baf259d2be8a956824772ad88d8d2f6d8918de15394b941c331669651",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ไฟดับ"
+  },
+  {
+   "id": "haiku-21",
+   "form": "haiku",
+   "tags": [
+    "คืน",
+    "รอคอย"
+   ],
+   "digest": "01150d0ef588ba624545fd10de1b1d64295f25bff0216e7cf918d049b1810bbb",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "นอนไม่หลับ"
+  },
+  {
+   "id": "haiku-22",
+   "form": "haiku",
+   "tags": [
+    "ความเงียบ",
+    "ความรัก"
+   ],
+   "digest": "ea547e0c2536ddc233541053e88a9eed322102a85926437c42da5c300aaa9649",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "คำที่ยังไม่พูด"
+  },
+  {
+   "id": "haiku-23",
+   "form": "haiku",
+   "tags": [
+    "ฟ้า",
+    "การจากไป"
+   ],
+   "digest": "51a3b911919a3b1de3a9ff2ac3850917a0f5476fbbc963e9b1f0e86739b53a7d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ดาวหาย"
+  },
+  {
+   "id": "haiku-24",
+   "form": "haiku",
+   "tags": [
+    "ฝน",
+    "ทาง"
+   ],
+   "digest": "a2765cbbc58c3f0c81953c30cae120d977c7668a6a80842b720144d4fc9ca825",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ฝนหยุด"
+  },
+  {
+   "id": "haiku-25",
+   "form": "haiku",
+   "tags": [
+    "ของใช้",
+    "รอคอย"
+   ],
+   "digest": "7aeb224ba8dfaa1a216ec4f94289d47730da6ca4ce78a75a59fd64b6c9752aad",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "กาแฟเย็น"
+  },
+  {
+   "id": "haiku-26",
+   "form": "haiku",
+   "tags": [
+    "ของใช้",
+    "ความเงียบ"
+   ],
+   "digest": "4cc61fc52b07bd86547b2535bc3e276b5481db6fd056dcb426a4e97beaef8590",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "โทรศัพท์ไม่สั่น"
+  },
+  {
+   "id": "haiku-27",
+   "form": "haiku",
+   "tags": [
+    "คืน",
+    "ความจำ"
+   ],
+   "digest": "409de10845ad8704c22263820c29116f688cf739e40eaf118dd003e0ad78baa5",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ปิดไฟ"
+  },
+  {
+   "id": "haiku-28",
+   "form": "haiku",
+   "tags": [
+    "บ้าน",
+    "รอคอย"
+   ],
+   "digest": "45c7aaa86572fa9b7c0a2ab05d8a772c4982ab21d523f4579bdd050afaeebc9c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "รอยเท้าหน้าประตู"
+  },
+  {
+   "id": "haiku-29",
+   "form": "haiku",
+   "tags": [
+    "บ้าน",
+    "เวลา"
+   ],
+   "digest": "d9797fe0b3c7ff113094f18a645ac6e0b1e4370d4e61cf2960ed222ff776865f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ต้นไม้หน้าบ้าน"
+  },
+  {
+   "id": "haiku-30",
+   "form": "haiku",
+   "tags": [
+    "ของใช้",
+    "ความจำ"
+   ],
+   "digest": "24a2e51f75ca17f5f8dd00f6ef8dc3bddba0cb5e51792f4be89935941d4bbfcc",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "กล่องใบนั้น"
+  },
+  {
+   "id": "haiku-31",
+   "form": "haiku",
+   "tags": [
+    "ของใช้",
+    "ความรัก"
+   ],
+   "digest": "5d52ad0215cd203f7889186419c7158b78a779c4143e0a7852d931f35fae6e94",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ถ้วยเดิม"
+  },
+  {
+   "id": "haiku-32",
+   "form": "haiku",
+   "tags": [
+    "เวลา",
+    "การจากไป"
+   ],
+   "digest": "025f011db29182e5d7cf7e41acf84a3b5f7e9709bc515af138929c276f2c314b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "เวลาหยุด"
+  },
+  {
+   "id": "haiku-33",
+   "form": "haiku",
+   "tags": [
+    "บ้าน",
+    "รอคอย"
+   ],
+   "digest": "af8c766abfffbfacf3abd5bcb9ee8c7797044dbd0a70042e3b5712763ece59e4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ประตูไม่เคยปิด"
+  },
+  {
+   "id": "haiku-34",
+   "form": "haiku",
+   "tags": [
+    "แสง",
+    "เวลา"
+   ],
+   "digest": "9e1197de99dc4f3dd4c475bd4a43cbefd58d09abdb4a157050074d4ea51cd441",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "เทียนเล่มเดียว"
+  },
+  {
+   "id": "haiku-35",
+   "form": "haiku",
+   "tags": [
+    "ฝน",
+    "คืน"
+   ],
+   "digest": "c0200906053ed0468c50f357023205bd446cf0a1ec879a5be9a6b2d5441d41ce",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "นับเม็ดฝน"
+  },
+  {
+   "id": "haiku-36",
+   "form": "haiku",
+   "tags": [
+    "ของใช้",
+    "รอคอย"
+   ],
+   "digest": "6ed5c9ce6a0099e869e91febc3e4ec200a66f3a5fbac0845290a4c6f270e3ef9",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "กุญแจที่เดิม"
+  },
+  {
+   "id": "haiku-37",
+   "form": "haiku",
+   "tags": [
+    "บ้าน",
+    "ลม"
+   ],
+   "digest": "c20d376a135672013f13673b9222cd4950f87d35decd3ce05efdb310a858d64a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "ม่านที่เธอเย็บ"
+  },
+  {
+   "id": "haiku-38",
+   "form": "haiku",
+   "tags": [
+    "บ้าน",
+    "ความจำ"
+   ],
+   "digest": "a278bd3cd8c02215a8eeac21cafc3492a5eb7a29c4f9869bea41dc577ca728d4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "พรมแดงเก่า"
+  },
+  {
+   "id": "haiku-39",
+   "form": "haiku",
+   "tags": [
+    "สัตว์",
+    "รอคอย"
+   ],
+   "digest": "be83ba5c95238c847b3ce89c3e66d112674f4c3ebec957f032a0c2c2ef7c5508",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "หมาที่หน้าบ้าน"
+  },
+  {
+   "id": "haiku-40",
+   "form": "haiku",
+   "tags": [
+    "ของใช้",
+    "แม่"
+   ],
+   "digest": "2748bdb6b6e6154627c1960f02b63fc13acdfaf53acac5368c5b09b67e9a0184",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/haiku.json",
+   "title": "จานสองใบ"
   },
   {
    "id": "aph-01",
@@ -547,6 +899,306 @@
    "preview": "รอที่มีกำหนดคืออดทน, รอที่ไม่รู้จบคือติด"
   },
   {
+   "id": "aph-25",
+   "form": "aphorism",
+   "tags": [
+    "ความเงียบ"
+   ],
+   "digest": "c395c0fc04aa7fc8b3a0001797d4f35eda3e0f14a55fe3eee2b2af6e47a457c7",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ความเงียบไม่ใช่คำตอบ, มันพูดมากกว่าที่คิด"
+  },
+  {
+   "id": "aph-26",
+   "form": "aphorism",
+   "tags": [
+    "การลงมือ"
+   ],
+   "digest": "fa4cce990e1f1aefa86a021a4afdae7a8b0adf3880f806b8afefe271f465c7b6",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "คนรีบจบมักไม่เคยเริ่ม, คนเริ่มมักไม่รีบจบ"
+  },
+  {
+   "id": "aph-27",
+   "form": "aphorism",
+   "tags": [
+    "ความจำ"
+   ],
+   "digest": "628c8ed8d98096eea537bf358e753adf2a0664a290b3be4821390149d4f951f0",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เราไม่ได้ลืม, เราแค่เก็บไว้ที่มองไม่เห็น"
+  },
+  {
+   "id": "aph-28",
+   "form": "aphorism",
+   "tags": [
+    "ทางเลือก"
+   ],
+   "digest": "d807634460bc5cc6e8a4630634334ce53b98d53e7188fb7167bf2749fa504606",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ทางสั้นไม่ใช่ทางเร็ว, มันต้องเดินคนเดียว"
+  },
+  {
+   "id": "aph-29",
+   "form": "aphorism",
+   "tags": [
+    "การสูญเสีย"
+   ],
+   "digest": "16fd978ef23a3623b0997320e671ceb6be2a4137155328792c48d762fca3d17f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ของเสียซ่อมได้, ของหายรอได้แค่คำว่าไม่มา"
+  },
+  {
+   "id": "aph-30",
+   "form": "aphorism",
+   "tags": [
+    "ความเก่ง"
+   ],
+   "digest": "fc51893e48b786575b7711449e75b107a6e96eb4c52bf70ca35b0872dd53ea79",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "คนเก่งไม่เคยไม่พลาด, เขาแค่ไม่พลาดซ้ำ"
+  },
+  {
+   "id": "aph-31",
+   "form": "aphorism",
+   "tags": [
+    "เวลา"
+   ],
+   "digest": "d4f69f6539faa1df81e67c21f6a379ea1bfbd26a4ca9000a645f6f0b6d894868",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เวลาไม่รักษา, มันพาเราไปไกลพอจะไม่เจ็บ"
+  },
+  {
+   "id": "aph-32",
+   "form": "aphorism",
+   "tags": [
+    "ทางเลือก"
+   ],
+   "digest": "317af20c1606b18296de25dbde9913fd672551f2020bc0b5739ee895beee73c2",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ถ้าไม่รู้จะไปไหน, กลับไปที่ที่มีคนรอ"
+  },
+  {
+   "id": "aph-33",
+   "form": "aphorism",
+   "tags": [
+    "ความเข้าใจ"
+   ],
+   "digest": "18b8442ecd3b77a1217ef2a63b329b5f1b54897bf1918b5a0ec0de85dffcbc54",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เข้าใจไม่ต้องอธิบาย, อธิบายแล้วมักไม่เข้าใจ"
+  },
+  {
+   "id": "aph-34",
+   "form": "aphorism",
+   "tags": [
+    "ความจริง"
+   ],
+   "digest": "9382b38661b04c2e393d1dde719ec9a53f4d2fe376a376f016c0def3addbbc4a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ความจริงไม่ต้องพูดดัง, มันแค่ต้องมีคนฟัง"
+  },
+  {
+   "id": "aph-35",
+   "form": "aphorism",
+   "tags": [
+    "การเติบโต"
+   ],
+   "digest": "97cb2f0a34632bb0835f726cf042433bfa3cb869face618b4ea8983c7966731b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เราแก่ทุกวัน, แต่โตแค่วันที่ยอมรับได้"
+  },
+  {
+   "id": "aph-36",
+   "form": "aphorism",
+   "tags": [
+    "ความรัก"
+   ],
+   "digest": "9d994a7f1b8808f5b1429966482fc80ac751fd6c6ef7780cc8a5dc01b7c01c2d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "รักจริงไม่ต้องเดา, ที่ต้องเดาคือยังไม่พอ"
+  },
+  {
+   "id": "aph-37",
+   "form": "aphorism",
+   "tags": [
+    "รอคอย"
+   ],
+   "digest": "95c242bbcae9f7316a6a869ce52021fe7b9d3d17eea091467f03040539f66639",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "การรอไม่เจ็บ, ที่เจ็บคือรอสิ่งที่ไม่มีวันมา"
+  },
+  {
+   "id": "aph-38",
+   "form": "aphorism",
+   "tags": [
+    "เวลา"
+   ],
+   "digest": "7cb2ab801dbbb5327c69bd0af38f9f12e21152ca4d4374959217e1c61f544345",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ไม่มีใครว่าง, เขาแค่เลือกไม่ว่างให้เรา"
+  },
+  {
+   "id": "aph-39",
+   "form": "aphorism",
+   "tags": [
+    "ความฝัน"
+   ],
+   "digest": "476bfe193d4af9b1d14201e218cb3ad183f9d432519d716a507049a3b65d975e",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ฝันที่ไม่เริ่มไม่เคยล้ม, แต่มันก็ไม่เคยจริง"
+  },
+  {
+   "id": "aph-40",
+   "form": "aphorism",
+   "tags": [
+    "ความเจ็บ"
+   ],
+   "digest": "5592c8368d8d2c753aeffde0bdebfcaf2eb5d3b1f8bc35f17cda9a101878c147",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "คนหัวเราะดังที่สุด, มักเป็นคนที่เจ็บที่สุด"
+  },
+  {
+   "id": "aph-41",
+   "form": "aphorism",
+   "tags": [
+    "ความเจ็บ"
+   ],
+   "digest": "7f907eddab9bc6c2cb5a2d66fd98fbe4b075efb6b021c7f5c41278f499a7b738",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ไม่เป็นไร, คือคำโกหกที่เราพูดบ่อยที่สุด"
+  },
+  {
+   "id": "aph-42",
+   "form": "aphorism",
+   "tags": [
+    "ความห่วงใย"
+   ],
+   "digest": "9e4e6627fb00d3f081fdcd894f0c9152e3199214b7962573c48aca0dd61884a7",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "คนบอกว่าไม่เป็นไร, มักอยากให้ถามอีกครั้ง"
+  },
+  {
+   "id": "aph-43",
+   "form": "aphorism",
+   "tags": [
+    "การจากไป"
+   ],
+   "digest": "ce6f0963ba96520a2928ecea811b104ea3e08d425f86419b44585a2303245747",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ไม่มีคำอำลาที่ดี, มีแค่อำลาที่เร็วพอไม่เจ็บ"
+  },
+  {
+   "id": "aph-44",
+   "form": "aphorism",
+   "tags": [
+    "ความจำ"
+   ],
+   "digest": "3d4793381dc4715ecb0a9d6845178af71cc9b15898afaeb607b0c3cbe357681a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เราจำคนที่ทิ้งเรา, มากกว่าคนที่อยู่กับเรา"
+  },
+  {
+   "id": "aph-45",
+   "form": "aphorism",
+   "tags": [
+    "ความเหงา"
+   ],
+   "digest": "b8ed1496bfe68c6b5504729a6e5e463b72ea229ab88daf6a427b4e97e4f5c7cc",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เหงาไม่ใช่ไม่มีคน, แต่คือมีคนที่ไม่เห็นเรา"
+  },
+  {
+   "id": "aph-46",
+   "form": "aphorism",
+   "tags": [
+    "การให้อภัย"
+   ],
+   "digest": "d1f67be0e52a3c083ef8eb75f63e98ff67cf852430e2c291a7282c923537418a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ทุกคนมีเหตุผล, แต่ไม่ใช่ทุกคนจะฟัง"
+  },
+  {
+   "id": "aph-47",
+   "form": "aphorism",
+   "tags": [
+    "ตัวเอง"
+   ],
+   "digest": "74a9970601c1f7ca476e7ff9c5ab05e8f5e8d39c72e07ed26c90dd0dd8554fd1",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "อย่าถามว่าทำไมเขาไป, ถามว่าทำไมเรายังอยู่"
+  },
+  {
+   "id": "aph-48",
+   "form": "aphorism",
+   "tags": [
+    "การจากไป"
+   ],
+   "digest": "77e262b857d4fe32bc323c7fda637a5379d1226f749c371138522bc7a45f5706",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "คนที่เปลี่ยนเรา, คือคนที่จากไป"
+  },
+  {
+   "id": "aph-49",
+   "form": "aphorism",
+   "tags": [
+    "เวลา"
+   ],
+   "digest": "897d3a1cd8e7c6d080cf09d317205b32cf08e5c9a876b3f717a9736296a986ad",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "เวลาไม่รักษาแผล, มันทำให้เราแบกมันได้"
+  },
+  {
+   "id": "aph-50",
+   "form": "aphorism",
+   "tags": [
+    "รอคอย"
+   ],
+   "digest": "f40699777f9543a4dfe0f89181a2b80174a4310287bd56a148942f4332b522c0",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ถ้าเธอยังไม่มา, บางทีเธอไม่เคยคิดจะมา"
+  },
+  {
+   "id": "aph-51",
+   "form": "aphorism",
+   "tags": [
+    "การให้อภัย"
+   ],
+   "digest": "6f59767c833b557c373ea8e7611e8bf9fcc92837a1e960d947b88fed2343b8f6",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ให้อภัยได้, แต่ไม่ต้องกลับไปเจ็บซ้ำ"
+  },
+  {
+   "id": "aph-52",
+   "form": "aphorism",
+   "tags": [
+    "ความจริง"
+   ],
+   "digest": "15528f3bdc08d5462a674b329e1065d1fca1c6bf2c6a5ea1aa4e62b005ea77a4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "คนพูดตรงมักไม่มีคนฟัง, แต่คนฟังมักจำนาน"
+  },
+  {
+   "id": "aph-53",
+   "form": "aphorism",
+   "tags": [
+    "ชีวิต"
+   ],
+   "digest": "b422142419eaa828a83bea592ad43f420ab7c97d3e6146d72cf057402d9ae296",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ชีวิตไม่ต้องมีคนเข้าใจ, แค่มีคนอยู่จริง"
+  },
+  {
+   "id": "aph-54",
+   "form": "aphorism",
+   "tags": [
+    "ความจำ"
+   ],
+   "digest": "a5371f28e750582ca2bc3d7e8aede9c4e4152e9b9b4e2c34eb72b3a1dd009636",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/aphorism.json",
+   "preview": "ที่สุดเราจะจำว่าใครอยู่, ไม่ใช่วันที่เจ็บ"
+  },
+  {
    "id": "cap-01",
    "form": "caption",
    "tags": [
@@ -710,6 +1362,186 @@
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
   },
   {
+   "id": "cap-19",
+   "form": "caption",
+   "tags": [
+    "วันหยุด"
+   ],
+   "digest": "d54645680f58b7d88f2646a381f11b24854723d8a2faf098a32f4202648e67b9",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-20",
+   "form": "caption",
+   "tags": [
+    "ฝน"
+   ],
+   "digest": "8c28b09ae11961b3d8cacfe5f62a7e765bccbfe160b8cbaced445518a28cfcdb",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-21",
+   "form": "caption",
+   "tags": [
+    "กาแฟ"
+   ],
+   "digest": "49111b0733f42de07d5b653ccd3c6a1bca063cc3fe88ffb81464f2e359849001",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-22",
+   "form": "caption",
+   "tags": [
+    "รอคอย"
+   ],
+   "digest": "a65cc4fb6cabb52444e6cbe2128d2b5edeb9849c569ef7c6806d77ad400d8c55",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-23",
+   "form": "caption",
+   "tags": [
+    "บ้าน"
+   ],
+   "digest": "1f8ac9d96af6e4664ccaf8f202561a2158bd771c806df0f397f8d53ffbb74f5d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-24",
+   "form": "caption",
+   "tags": [
+    "คืน"
+   ],
+   "digest": "441b8fb50b34baf666e06f45328e4c369046ada5a820a71c99bc0afd4541052f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-25",
+   "form": "caption",
+   "tags": [
+    "ความจำ"
+   ],
+   "digest": "1eae710980e2513d3e6a71209b61615d81d1959c4eada597f1552cf826691591",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-26",
+   "form": "caption",
+   "tags": [
+    "เช้า"
+   ],
+   "digest": "02e115050d472ad19b5e12790a5d038f54eb6f1ba4dfb6fec91d221f8da407eb",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-27",
+   "form": "caption",
+   "tags": [
+    "ความรัก"
+   ],
+   "digest": "474c479ae4cb760fc428534ded86b96ad81f69d04b7f6f863cf7b046d327b941",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-28",
+   "form": "caption",
+   "tags": [
+    "ความจำ"
+   ],
+   "digest": "84a6fed4d633f98f2230d0e7539ed81b18fc2a9018b95ff1e145052fee7a02ba",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-29",
+   "form": "caption",
+   "tags": [
+    "ความเงียบ"
+   ],
+   "digest": "0a73d52f2049ee813810034f10a990933149414e0afdfc4c70f1854e27381ab5",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-30",
+   "form": "caption",
+   "tags": [
+    "กรุงเทพ"
+   ],
+   "digest": "aae0936dbdc08fcca6a841edc196c94462ef0635071d1e9cdeabcf82b88ff7e8",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-31",
+   "form": "caption",
+   "tags": [
+    "สัตว์"
+   ],
+   "digest": "32906d2ec13c5f4c42b3b1387f2b1ad3faf0da525b131875df3729cd0c9da345",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-32",
+   "form": "caption",
+   "tags": [
+    "ชีวิต"
+   ],
+   "digest": "e6685b7d16a1db94219ec61d4d4950cf420d9d052b61e4ab826de917f7edc72c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-33",
+   "form": "caption",
+   "tags": [
+    "เพลง"
+   ],
+   "digest": "ec344acfae1cd934a2acb9b9aafca37500e8a1f0846fb382d2922bfe124b8964",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-34",
+   "form": "caption",
+   "tags": [
+    "คืน"
+   ],
+   "digest": "cf4331f637e2bb20655809423203a9c05269b97020b50ca73bdc5fac2da4df92",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-35",
+   "form": "caption",
+   "tags": [
+    "เช้า"
+   ],
+   "digest": "c52131f9d47a16e49e61cd7f77f58710ffe4b76b13cb328d9ea63bdf0f01010c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-36",
+   "form": "caption",
+   "tags": [
+    "บ้าน"
+   ],
+   "digest": "c35eb5ae15d7b42c28c90210a27949cea5ed4ae34aa48fc28e3878284af09f76",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-37",
+   "form": "caption",
+   "tags": [
+    "ชีวิต"
+   ],
+   "digest": "f706129e43342158aa8205d29ee03fefedeb84f3e99d7470698271f2a2a43813",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
+   "id": "cap-38",
+   "form": "caption",
+   "tags": [
+    "รอคอย"
+   ],
+   "digest": "06a673227a874648e8d1765f61491bf24ce22460229c76c846f918113bb0418f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/caption.json"
+  },
+  {
    "id": "song-01",
    "form": "song",
    "tags": [
@@ -776,6 +1608,72 @@
    "title": "สิบปี"
   },
   {
+   "id": "song-07",
+   "form": "song",
+   "tags": [
+    "แม่",
+    "รอคอย"
+   ],
+   "digest": "500af289f996e050ca0fa22bcbcdce2e31bafe35cbfda33151a2c3e641478d74",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/song.json",
+   "title": "ถ้วยที่สอง"
+  },
+  {
+   "id": "song-08",
+   "form": "song",
+   "tags": [
+    "ความรัก",
+    "ความจำ"
+   ],
+   "digest": "e26def961bebdb9e30fa4200be78bf709bd9ecdc8c957295ac61de9f049e0ea0",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/song.json",
+   "title": "เบอร์ที่ยังไม่ลบ"
+  },
+  {
+   "id": "song-09",
+   "form": "song",
+   "tags": [
+    "ทาง",
+    "ความจำ"
+   ],
+   "digest": "292927974830e78b85db4d22ce72d123bdc5762c769c02c79c19085f4a9cd345",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/song.json",
+   "title": "ทางเดิม"
+  },
+  {
+   "id": "song-10",
+   "form": "song",
+   "tags": [
+    "ฝน",
+    "รอคอย"
+   ],
+   "digest": "e92d2c1556542301776af2528b6c3181aa9be33528c83efa47a67e7013a736ce",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/song.json",
+   "title": "ฝนที่ยังไม่หยุด"
+  },
+  {
+   "id": "song-11",
+   "form": "song",
+   "tags": [
+    "ความจำ",
+    "การจากไป"
+   ],
+   "digest": "11d4dc2fe8e3bfcb50174d09ca627fe996b1158296514865f82f3b6b07792d03",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/song.json",
+   "title": "กล่องที่ยังไม่เปิด"
+  },
+  {
+   "id": "song-12",
+   "form": "song",
+   "tags": [
+    "การจากไป",
+    "รอคอย"
+   ],
+   "digest": "a125ac38b803fb62ce3815a3d10a2ab25176837a31728685d8946377e0b410cc",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/song.json",
+   "title": "คนที่ไม่เคยกลับ"
+  },
+  {
    "id": "scene-01",
    "form": "scene",
    "tags": [
@@ -818,6 +1716,72 @@
    "digest": "12b43b4ef82aa268460b21bc73ca1c4584e97fd6082f8ca9c2f654f4bc90cee8",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
    "title": "INT. ห้องนอน - ดึก"
+  },
+  {
+   "id": "scene-05",
+   "form": "scene",
+   "tags": [
+    "ร้านค้า",
+    "ความจำ"
+   ],
+   "digest": "0ca45c0a2e16395e5c57ef02d26af020e8d393633760ce17d845f7b3d6a38109",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
+   "title": "INT. ร้านขายของชำ - เย็น"
+  },
+  {
+   "id": "scene-06",
+   "form": "scene",
+   "tags": [
+    "ทาง",
+    "รอคอย"
+   ],
+   "digest": "39f4f564edbc5dddada4ad60169efb7dc82b83ef4a81d59ab87627f99b2c8acd",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
+   "title": "EXT. ป้ายรถเมล์ - กลางคืน"
+  },
+  {
+   "id": "scene-07",
+   "form": "scene",
+   "tags": [
+    "บ้าน",
+    "การจากไป"
+   ],
+   "digest": "2c19b1177c6e34e743a39f0b7955b51b482ca87c5c0ceaca2a0199f53c16709a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
+   "title": "INT. ห้องนอน - เช้ามืด"
+  },
+  {
+   "id": "scene-08",
+   "form": "scene",
+   "tags": [
+    "ครอบครัว",
+    "เวลา"
+   ],
+   "digest": "a57a8336546d404e5e3bb8744f71b5469afb7b463b20c6a033a9c108665b6c1b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
+   "title": "INT. โรงพยาบาล - บ่าย"
+  },
+  {
+   "id": "scene-09",
+   "form": "scene",
+   "tags": [
+    "ครอบครัว",
+    "ความจำ"
+   ],
+   "digest": "c2780d7bf70afd11baa6679dae567f08bf4a4638b71aefe0814d169d26609fd5",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
+   "title": "EXT. สนามเด็กเล่น - เย็น"
+  },
+  {
+   "id": "scene-10",
+   "form": "scene",
+   "tags": [
+    "ร้านค้า",
+    "เวลา"
+   ],
+   "digest": "0057a40f283721414b18fc183846c710b41facc9c7fa2c8d66c41b2203e428bd",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/scene.json",
+   "title": "INT. ร้านตัดผม - สาย"
   },
   {
    "id": "essay-01",
@@ -873,6 +1837,61 @@
    "digest": "44e1087e2919db522f5cc29b770fdb03002ae9e8c3f1cb8116863bcd41bba45e",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/essay.json",
    "title": "ทำไมเราต้องตรวจงานตัวเองด้วยสคริปต์"
+  },
+  {
+   "id": "essay-06",
+   "form": "essay",
+   "tags": [
+    "งาน",
+    "คุณภาพ"
+   ],
+   "digest": "3419c97e1b50fb386f4bf5e538e239ba6f3721bfa9c28b868c98b56e9d538928",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/essay.json",
+   "title": "ทำไมงานที่ตรวจง่ายถึงยังผิด"
+  },
+  {
+   "id": "essay-07",
+   "form": "essay",
+   "tags": [
+    "การสื่อสาร",
+    "ธุรกิจ"
+   ],
+   "digest": "4e712f24e4fcd245a1aff6c82692395e8073597f7ee0418d4dce5a9fc9a4e3e8",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/essay.json",
+   "title": "ความเงียบที่มีราคา"
+  },
+  {
+   "id": "essay-08",
+   "form": "essay",
+   "tags": [
+    "องค์กร",
+    "ความจริง"
+   ],
+   "digest": "8dfc45e9d74a59de5e1a2dd253530f2f94967c325caffa113181242c5d336d49",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/essay.json",
+   "title": "ระบบที่พังเพราะไม่มีใครกล้าพูด"
+  },
+  {
+   "id": "essay-09",
+   "form": "essay",
+   "tags": [
+    "การเงิน",
+    "การตัดสินใจ"
+   ],
+   "digest": "0b9bdf6402657adaa0ba115336a57e6d3ba845ebeba1b80bed0d1f0f4ab8a27f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/essay.json",
+   "title": "ของที่ถูกกว่าไม่ได้ถูกกว่า"
+  },
+  {
+   "id": "essay-10",
+   "form": "essay",
+   "tags": [
+    "เวลา",
+    "แรงงาน"
+   ],
+   "digest": "703646e0c98b4c374094ae46590a9824ebea77635afe4ab62a3fc35a77ed8262",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse/essay.json",
+   "title": "การรอที่ไม่เคยถูกบันทึก"
   }
  ]
 }
