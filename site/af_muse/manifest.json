@@ -1,6 +1,6 @@
 {
  "name": "AF_MUSE",
- "version": 2,
+ "version": 3,
  "license": "CC0-1.0",
  "total": 259,
  "forms": {
@@ -13,9 +13,18 @@
   "essay": 15
  },
  "base_url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse",
+ "pricing": {
+  "preview": "free",
+  "piece": "$0.02",
+  "form": "$0.15",
+  "all": "$0.50",
+  "rail": "x402 on Base (USDC), no account, no API key"
+ },
+ "buy_base": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev",
  "how_to_read": {
   "manifest": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/manifest.json",
   "one_form": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/<form>.json",
+  "buy": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/<id>",
   "note": "Each item carries signature.digest = sha256 over its body. Recompute to prove the text was not altered in transit."
  },
  "craft_basis": "See README.md - hierarchical generation, revision, proverb fitness, and the sourced กลอนสุภาพ rules.",
