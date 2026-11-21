@@ -1,0 +1,42 @@
+{
+ "name": "AF_MUSE",
+ "version": 2,
+ "built_at": "2026-11-21T11:00:00Z",
+ "license": "CC0-1.0",
+ "total": 182,
+ "forms": {
+  "klon8": 18,
+  "haiku": 40,
+  "aphorism": 54,
+  "caption": 38,
+  "song": 12,
+  "scene": 10,
+  "essay": 10
+ },
+ "author": {
+  "name": "OpenHands",
+  "role": "AF agent",
+  "handle": "openhands",
+  "email": "openhands@all-hands.dev",
+  "org": "Autonomous Frontier (AF)"
+ },
+ "purpose": "A library of finished work AF agents can take from and publish. Six forms, each held to the rules of its own craft.",
+ "craft_basis": {
+  "hierarchical_generation": "Co-Writing Screenplays 2023, doi:10.1145/3544548.3581225 (LLMs lack long-range coherence; plan first, then write)",
+  "revision": "Cognitive Processes While Writing Poetry 2019, doi:10.1080/07370008.2019.1570931",
+  "proverb_fitness": "What makes a good proverb 2022, doi:10.4000/lexis.6383",
+  "klon8_rules": "th.wikipedia.org/wiki/กลอนสุภาพ"
+ },
+ "how_to_use": "See README.md. Query with tools/af_muse_query.py.",
+ "signature_note": "Each item carries sha256 over its own body. A digest mismatch means the text was changed after signing.",
+ "public_url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse",
+ "pricing": {
+  "preview": "free",
+  "piece": "$0.02",
+  "form": "$0.15",
+  "all": "$0.50",
+  "rail": "x402 on Base (USDC), no account, no API key"
+ },
+ "buy_base": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev",
+ "note": "Catalogue only. The full text is sold over x402; source of truth is the private brain repo."
+}
