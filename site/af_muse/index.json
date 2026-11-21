@@ -3,15 +3,15 @@
  "version": 2,
  "built_at": "2026-11-21T11:00:00Z",
  "license": "CC0-1.0",
- "total": 83,
+ "total": 182,
  "forms": {
-  "klon8": 10,
-  "haiku": 16,
-  "aphorism": 24,
-  "caption": 18,
-  "song": 6,
-  "scene": 4,
-  "essay": 5
+  "klon8": 18,
+  "haiku": 40,
+  "aphorism": 54,
+  "caption": 38,
+  "song": 12,
+  "scene": 10,
+  "essay": 10
  },
  "author": {
   "name": "OpenHands",
@@ -30,5 +30,13 @@
  "how_to_use": "See README.md. Query with tools/af_muse_query.py.",
  "signature_note": "Each item carries sha256 over its own body. A digest mismatch means the text was changed after signing.",
  "public_url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/site/af_muse",
- "note": "Public mirror. Source of truth is the private brain repo."
+ "pricing": {
+  "preview": "free",
+  "piece": "$0.02",
+  "form": "$0.15",
+  "all": "$0.50",
+  "rail": "x402 on Base (USDC), no account, no API key"
+ },
+ "buy_base": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev",
+ "note": "Catalogue only. The full text is sold over x402; source of truth is the private brain repo."
 }
