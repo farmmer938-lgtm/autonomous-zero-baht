@@ -1,5 +1,5 @@
 {
- "count": 182,
+ "count": 259,
  "pricing": {
   "preview": "free",
   "piece": "$0.02",
@@ -224,6 +224,78 @@
    "preview": "เชือกเส้นนี้ยังไม่เคยถึงปลาย",
    "digest": "3610538692fb6d96d1342bf89ec1f5c5e3831ba3d8c759080a3f7f6a39683dc3",
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-18"
+  },
+  {
+   "id": "klon8-19",
+   "form": "klon8",
+   "title": "เปิดร้านวันแรก",
+   "tags": [
+    "เปิดร้าน",
+    "การเริ่มต้น"
+   ],
+   "preview": "เปิดร้านวันแรกยังไม่เคยห่าง",
+   "digest": "d7a1eb36e0172348fe805ae1c9cda4b319bbfc36bfd56723ed3738d877beed2b",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-19"
+  },
+  {
+   "id": "klon8-20",
+   "form": "klon8",
+   "title": "ขอบคุณลูกค้า",
+   "tags": [
+    "ขอบคุณลูกค้า",
+    "ร้านค้า"
+   ],
+   "preview": "ร้านเราเปิดมาสามปีไม่ห่าง",
+   "digest": "fb43671364f26269ca0b8498a25eee1f360c9c2fca460148c5076dc2cb3eb82f",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-20"
+  },
+  {
+   "id": "klon8-21",
+   "form": "klon8",
+   "title": "ส่งของถึงบ้าน",
+   "tags": [
+    "ส่งของ",
+    "ขายของ"
+   ],
+   "preview": "กล่องนี้แพ็คเองกับมือไม่ห่าง",
+   "digest": "b6b7fc7f45b6aa18af21227611f4a2561a1f08f4617aafb2ead82bb7cdde1b2a",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-21"
+  },
+  {
+   "id": "klon8-22",
+   "form": "klon8",
+   "title": "ของทำมือ",
+   "tags": [
+    "งานฝีมือ",
+    "ขายของ"
+   ],
+   "preview": "ของนี้ทำมือไม่ใช่เครื่องกลาง",
+   "digest": "d5a4a19e138cbb29dd798d9a64dbab933ab54153ead5cf999d58e61c8686cfec",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-22"
+  },
+  {
+   "id": "klon8-23",
+   "form": "klon8",
+   "title": "ลูกค้าคนแรก",
+   "tags": [
+    "ร้านค้า",
+    "รอคอย"
+   ],
+   "preview": "เปิดร้านมาสามเดือนยังไม่ห่าง",
+   "digest": "b7f075a5720db5a0a5f7fde97577ada063351dc7ea32eabc0568e2991c7c2d70",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-23"
+  },
+  {
+   "id": "klon8-24",
+   "form": "klon8",
+   "title": "ฝนตกทั้งคืน",
+   "tags": [
+    "ฝน",
+    "รอคอย"
+   ],
+   "preview": "ฝนตกทั้งคืนจนเช้ายังค้าง",
+   "digest": "b1937a80174b77bf5b5fd314e43e8d29d3eafa2601c366574e2a3504f8250feb",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/klon8-24"
   },
   {
    "id": "haiku-01",
@@ -704,6 +776,149 @@
    "preview": "เราเก็บจานไว้สอง",
    "digest": "2748bdb6b6e6154627c1960f02b63fc13acdfaf53acac5368c5b09b67e9a0184",
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-40"
+  },
+  {
+   "id": "haiku-41",
+   "form": "haiku",
+   "title": "เปิดร้าน",
+   "tags": [
+    "เปิดร้าน",
+    "เช้า"
+   ],
+   "preview": "เปิดร้านวันแรกนะ",
+   "digest": "4861e5ed5d73f274e615cf6b92c48fb223131994e19d24c53a22df1a77ad23ec",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-41"
+  },
+  {
+   "id": "haiku-42",
+   "form": "haiku",
+   "title": "กาแฟลูกค้าประจำ",
+   "tags": [
+    "ร้านกาแฟ",
+    "ลูกค้า"
+   ],
+   "preview": "แก้วเดิมทุกเช้าเลย",
+   "digest": "abdfb6c28d32bcc089ca783c0a5119adbab448b1e80ed6bf19b94653bf3327f4",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-42"
+  },
+  {
+   "id": "haiku-43",
+   "form": "haiku",
+   "title": "ส่งของ",
+   "tags": [
+    "ส่งของ",
+    "ขายของ"
+   ],
+   "preview": "แพ็คของทั้งคืนนี้",
+   "digest": "3455f0dc457724e7263964204f73cb90bc2a96fb33ad89a40d5a7252d7d3b629",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-43"
+  },
+  {
+   "id": "haiku-44",
+   "form": "haiku",
+   "title": "วันเกิดแม่",
+   "tags": [
+    "วันเกิด",
+    "แม่"
+   ],
+   "preview": "วันนี้วันเกิดแม่",
+   "digest": "4b6606cdca7062e9b0858ea15078bb22e4474f365b6164a3bf397ed4b9be9dd9",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-44"
+  },
+  {
+   "id": "haiku-45",
+   "form": "haiku",
+   "title": "ขอบคุณ",
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "preview": "ขอบคุณที่แวะมา",
+   "digest": "939c758c78d94344c5fb6e6eb793cb00426c9cf29e72b1f3ec1dcd5759adf0dc",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-45"
+  },
+  {
+   "id": "haiku-46",
+   "form": "haiku",
+   "title": "ของทำมือ",
+   "tags": [
+    "งานฝีมือ",
+    "ขายของ"
+   ],
+   "preview": "ทำมือทั้งชิ้นเลย",
+   "digest": "2efc1345992c9f96907fcf90198ad070b2c148a3720e8fd273052f7f31a9abbf",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-46"
+  },
+  {
+   "id": "haiku-47",
+   "form": "haiku",
+   "title": "ลูกค้าคนแรก",
+   "tags": [
+    "ร้านค้า",
+    "ความจำ"
+   ],
+   "preview": "ลูกค้าคนแรกนะ",
+   "digest": "9de9ea2eb282bd8ad0bfe4c88719b870a75c472266075c232e051b4fa2e0b365",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-47"
+  },
+  {
+   "id": "haiku-48",
+   "form": "haiku",
+   "title": "ปิดร้าน",
+   "tags": [
+    "ร้านค้า",
+    "คืน"
+   ],
+   "preview": "ปิดร้านแล้วคืนนี้",
+   "digest": "87a8da7f25a71f76650d792f7a3236c8c108aef606daa3e33b6892699a0df4c2",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-48"
+  },
+  {
+   "id": "haiku-49",
+   "form": "haiku",
+   "title": "ฝนตกตอนส่งของ",
+   "tags": [
+    "ส่งของ",
+    "ฝน"
+   ],
+   "preview": "ฝนตกตอนส่งของ",
+   "digest": "5888269213a7e8dcaef0dbde654e37ecaa08aa267ecde209777738e15ae53a9d",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-49"
+  },
+  {
+   "id": "haiku-50",
+   "form": "haiku",
+   "title": "ราคาตรง",
+   "tags": [
+    "ขายของ",
+    "ความจริง"
+   ],
+   "preview": "ราคานี้ตรงแล้วนะ",
+   "digest": "8b465d211f2113b19928ea301cdf4c163578cd1b6043961633cf6d4465a7ebce",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-50"
+  },
+  {
+   "id": "haiku-51",
+   "form": "haiku",
+   "title": "คนที่กลับมาซื้อ",
+   "tags": [
+    "ลูกค้า",
+    "ความภักดี"
+   ],
+   "preview": "เขากลับมาอีกแล้ว",
+   "digest": "bf85c510b8f8dfd8f982cbb8013d982cf55e526f673d77a28c6ce1a96da7d6a5",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-51"
+  },
+  {
+   "id": "haiku-52",
+   "form": "haiku",
+   "title": "เปิดไฟรอ",
+   "tags": [
+    "ร้านค้า",
+    "รอคอย"
+   ],
+   "preview": "เปิดไฟไว้ทั้งคืน",
+   "digest": "86718f81e5f6a3b5da31cbcf215d821da8c2ff4811ebab071ccb2b6373f1dcf4",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/haiku-52"
   },
   {
    "id": "aph-01",
@@ -1300,6 +1515,292 @@
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-54"
   },
   {
+   "id": "aph-55",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ร้านค้า"
+   ],
+   "preview": "ร้านเล็กไม่สำคัญ, สำคัญที่ของข้างใน",
+   "digest": "9de6bd2e0e0d42bfdf6f3f1281bcb0efa03d2656b0ec22d5ebe04d49c842b6d5",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-55"
+  },
+  {
+   "id": "aph-56",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "preview": "ขอบคุณที่แวะมา, ร้านนี้อยู่ได้เพราะท่าน",
+   "digest": "a63265f2c5cadeda791eb890caa8c8f041177a2178f9e8db32300a589fccdc32",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-56"
+  },
+  {
+   "id": "aph-57",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "การตลาด"
+   ],
+   "preview": "ของดีไม่ต้องโฆษณา, ลูกค้าเก่าบอกเอง",
+   "digest": "29376fd9e1715943a4910c16e245d3a63ce9f1f6c76613235ac6756853e97b1d",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-57"
+  },
+  {
+   "id": "aph-58",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ขายของ"
+   ],
+   "preview": "ราคาตรงไม่ต้องต่อ, เวลาคือของแถม",
+   "digest": "f028579f3dab3a1ed675cdef56dd18bdc8a337ab9528ff40f8b5bdd39a58bdcf",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-58"
+  },
+  {
+   "id": "aph-59",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "preview": "ทำมือทุกชิ้น, ไม่มีสองชิ้นเหมือนกัน",
+   "digest": "dd4cae96a66d28717944e47514671ff618dd5080bcfc3ab29dc53ff887ddd432",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-59"
+  },
+  {
+   "id": "aph-60",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ลูกค้า"
+   ],
+   "preview": "ลูกค้าคนแรกจำได้ตลอด, แม้เขาจะลืมเรา",
+   "digest": "6eeec23e68f9cef9430331bef643d560c117c7065d999b37bb62df8cccdd9995",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-60"
+  },
+  {
+   "id": "aph-61",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "เปิดร้าน"
+   ],
+   "preview": "เปิดร้านวันแรกมือสั่น, วันที่ร้อยก็ยังสั่น",
+   "digest": "0378ee5270f9f43f83f108b8745b7ec807b8981233799de52a07b81d5d9a8d91",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-61"
+  },
+  {
+   "id": "aph-62",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ขายของ"
+   ],
+   "preview": "ขายของคือการฟัง, ไม่ใช่การพูดให้ซื้อ",
+   "digest": "5b29c650ad6cc4d113563705e1d82ab2b71019d4847011810286ed617277e4d5",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-62"
+  },
+  {
+   "id": "aph-63",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "บริการ"
+   ],
+   "preview": "ไม่ถูกใจบอกได้, เราแก้ดีกว่าโกหก",
+   "digest": "92f7b6383a302a664e78c37c22379a9d38a4f15cfc3a1d26c9a59306a8ba23cd",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-63"
+  },
+  {
+   "id": "aph-64",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ร้านค้า"
+   ],
+   "preview": "ร้านที่อยู่ได้นาน, ไม่ใช่ร้านที่ถูกที่สุด",
+   "digest": "af5304ce4d43c4afadc5f61037d8aeddc6deb2350b7667172644d9a941f024ca",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-64"
+  },
+  {
+   "id": "aph-65",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "preview": "ของที่ทำด้วยมือ, มีรอยมือเป็นลายเซ็น",
+   "digest": "ca23886d006fda34379af2e99d2998c42c29dfb2976cf06285de98f0da723b9e",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-65"
+  },
+  {
+   "id": "aph-66",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ลูกค้า"
+   ],
+   "preview": "ลูกค้าที่กลับมา, คือคำชมที่ดังที่สุด",
+   "digest": "b688fa5453d21de7205908b3923e7da170d4ad678f967de74fb15b725d16306c",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-66"
+  },
+  {
+   "id": "aph-67",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "การค้า"
+   ],
+   "preview": "วันไหนขายไม่ได้, วันนั้นยังได้เรียนรู้",
+   "digest": "a675c250e1838e56ee7ab8d61309741884606a77e20859277ee9ad674e088891",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-67"
+  },
+  {
+   "id": "aph-68",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ส่งของ"
+   ],
+   "preview": "ส่งของตรงเวลา, คือสัญญาที่ถูกที่สุด",
+   "digest": "ca33de455b0837779a36b5647ac789bbaccb0e14455a89e3c51bef759a76635f",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-68"
+  },
+  {
+   "id": "aph-69",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ร้านค้า"
+   ],
+   "preview": "ร้านเราเล็ก, แต่ของเราไม่เล็กตามร้าน",
+   "digest": "3809ad69b1abdfb2fecfe8ebc1217f99109d94c93951a8ef3d7c3df09b853442",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-69"
+  },
+  {
+   "id": "aph-70",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ลูกค้า"
+   ],
+   "preview": "คนที่ซื้อซ้ำ, ไม่ได้ถูกหลอกให้มา",
+   "digest": "5b469a9aa2cba215b8cad92af90e40de59a0a0960a6a49af8e3d71e83f090764",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-70"
+  },
+  {
+   "id": "aph-71",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ร้านค้า"
+   ],
+   "preview": "เปิดร้านทุกวัน, ไม่ใช่ขยัน แต่กลัวพลาด",
+   "digest": "5b9c18120342e14e66f5aaf53aa97138b761eb43a6a3c542fb16e00663350df7",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-71"
+  },
+  {
+   "id": "aph-72",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "คุณภาพ"
+   ],
+   "preview": "ของแพงไม่ใช่ของดี, ของที่ทนคือของดี",
+   "digest": "f1da875c919d27551fbd334f0e300f4d7fc3a735852f6e683da24bcc5d34bc58",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-72"
+  },
+  {
+   "id": "aph-73",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "preview": "ขอบคุณที่ไว้ใจ, เราจะไม่ทำให้เสียใจ",
+   "digest": "f2cde2aa9e53305511f699eca120220d9481285b3df19893575c06f361111fc4",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-73"
+  },
+  {
+   "id": "aph-74",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "คุณภาพ"
+   ],
+   "preview": "ทำของให้ดี, ที่เหลือลูกค้าจัดการเอง",
+   "digest": "4fef521390ce969ef786ff950ec0730549370c5522b3a227c156c0c77f827fb9",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-74"
+  },
+  {
+   "id": "aph-75",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "การค้า"
+   ],
+   "preview": "ร้านที่ไม่มีลูกค้า, มักมีเหตุผลที่ยังไม่ถาม",
+   "digest": "e68d68ab1d1f0b0f6e38aec70959f4de7e59b090c5f16ef5e322f14875ce1e78",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-75"
+  },
+  {
+   "id": "aph-76",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "บริการ"
+   ],
+   "preview": "ถามลูกค้าว่าอยากได้อะไร, อย่าเดาเอง",
+   "digest": "749a7883d7d14e26ae34761d8f47d92e1893c49e19e256144a8222a61326586b",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-76"
+  },
+  {
+   "id": "aph-77",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "เปิดร้าน"
+   ],
+   "preview": "วันแรกที่เปิดร้าน, กลัวที่สุดและดีที่สุด",
+   "digest": "376c03996c4ee451c8e49e551ca10534a4ab5a287c6ef0e6a3e59a747221cd9a",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-77"
+  },
+  {
+   "id": "aph-78",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "การค้า"
+   ],
+   "preview": "ขายไม่ดีไม่ต้องโทษลูกค้า, ถามตัวเองก่อน",
+   "digest": "0e1036dda138058157671aad6d0f5694c38753225614c372518502797f892b54",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-78"
+  },
+  {
+   "id": "aph-79",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "ความจริง"
+   ],
+   "preview": "ของที่เราทำเอง, เรากล้าบอกทุกอย่าง",
+   "digest": "bf3d003150c7e4343ecb26dbcebdf9a027e7394131246c8d81ee325fc24e5b15",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-79"
+  },
+  {
+   "id": "aph-80",
+   "form": "aphorism",
+   "title": null,
+   "tags": [
+    "บริการ"
+   ],
+   "preview": "ลูกค้าไม่ได้ซื้อของ, เขาซื้อความสบายใจ",
+   "digest": "e2d78e7c439c0dcf8bd11e22c1794f5a83b2fb6a068e6a68a387a11b886126ad",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/aph-80"
+  },
+  {
    "id": "cap-01",
    "form": "caption",
    "title": null,
@@ -1719,6 +2220,204 @@
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-38"
   },
   {
+   "id": "cap-39",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "เปิดร้าน"
+   ],
+   "preview": "เปิดร้านวันแรกครับ\nมือสั่นแต่ใจเต็ม",
+   "digest": "4811959879d9ba66ef17c79a770610191df2136b8d48765e2df29136b852d093",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-39"
+  },
+  {
+   "id": "cap-40",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "preview": "ขอบคุณลูกค้าทุกท่าน\nร้านเล็กๆ นี้อยู่ได้เพราะคุณ",
+   "digest": "11d94920ac9682686b5c16bd862b6a918a022ff38641c332062c5b17a050660f",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-40"
+  },
+  {
+   "id": "cap-41",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "preview": "ของทำมือทุกชิ้น\nไม่มีสองชิ้นที่เหมือนกันเลย",
+   "digest": "4731233e82764d634dff89e172bece6770fd7cadc28fd63eacc51f1d67168a91",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-41"
+  },
+  {
+   "id": "cap-42",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ส่งของ"
+   ],
+   "preview": "วันนี้ส่งของ 12 กล่อง\nแพ็คเองทุกกล่องครับ",
+   "digest": "0d100ab41dc4734b42b08f33ea2fa921ecb280022e06cdea48fa585e37fae9b0",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-42"
+  },
+  {
+   "id": "cap-43",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ขายของ"
+   ],
+   "preview": "ราคานี้ตรงแล้วนะครับ\nไม่ต้องต่อ ประหยัดเวลาทั้งคู่",
+   "digest": "56124fb0bcd4a885c5a126c8189a75b5c2372b446ce618f229bce5a75b465794",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-43"
+  },
+  {
+   "id": "cap-44",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ร้านกาแฟ"
+   ],
+   "preview": "กาแฟแก้วเดิมทุกเช้า\nจำได้ไม่ต้องถาม",
+   "digest": "70a0b1bfd4114b6a84bfc2062a25167d9c182966d5a4dd0b322fc5d4206ca011",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-44"
+  },
+  {
+   "id": "cap-45",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "การค้า"
+   ],
+   "preview": "วันนี้ขายไม่ได้เลย\nแต่ได้เรียนรู้ว่าลูกค้าอยากได้อะไร",
+   "digest": "f0d5033bd579b8c35a1236f851ef46dc370682d059a278e27981d9311ebaf729",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-45"
+  },
+  {
+   "id": "cap-46",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "บริการ"
+   ],
+   "preview": "ของไม่ถูกใจบอกได้นะ\nเราแก้ให้ได้ ดีกว่าให้ทนใช้",
+   "digest": "af705eeea848adac98ef628e85789a642ecdde94800e5f4f2ba2587f9bcf120c",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-46"
+  },
+  {
+   "id": "cap-47",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ร้านค้า"
+   ],
+   "preview": "เปิดร้านมาสามปีแล้ว\nลูกค้าคนแรกยังแวะมาทัก",
+   "digest": "bc24d07162f524081ec16a0889554c6b284d66611eacd79780b7da76cd7d0731",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-47"
+  },
+  {
+   "id": "cap-48",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "preview": "ทำมือทั้งคืน\nเพื่อส่งให้ทันพรุ่งนี้เช้า",
+   "digest": "9b8c32d472e3e41b6d4b894324ed855f79cfbe666b9b4d04cec77ce7e57de93d",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-48"
+  },
+  {
+   "id": "cap-49",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "การตลาด"
+   ],
+   "preview": "ร้านเราไม่มีโฆษณา\nมีแต่คนที่ซื้อแล้วบอกต่อ",
+   "digest": "e68306d18a0995fec2f36257b3c3af3568007f2d5ab2e722623fd017887c3f3b",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-49"
+  },
+  {
+   "id": "cap-50",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ร้านค้า"
+   ],
+   "preview": "ปิดร้านแล้วครับ\nนับเงินเสร็จ พรุ่งนี้เริ่มใหม่",
+   "digest": "6b217a73c9c7265a7ab556b351bb761f2ffa438767e706fc30e993e14ef84ebf",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-50"
+  },
+  {
+   "id": "cap-51",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "วันเกิด"
+   ],
+   "preview": "วันเกิดแม่ปีนี้\nซื้อเค้กเล็กๆ หนึ่งก้อน",
+   "digest": "15d2650687fb91893eba3f8ae113648ef01dfee683a8671cf84b46daf0ea7da8",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-51"
+  },
+  {
+   "id": "cap-52",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ส่งของ"
+   ],
+   "preview": "ฝนตกตอนส่งของ\nของไม่เปียก ลูกค้าไม่ว่า",
+   "digest": "f346eabe318d67bc8e6843b6a1e9b535331b9f001621216f10e1c87d66c2ba6c",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-52"
+  },
+  {
+   "id": "cap-53",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ความจริง"
+   ],
+   "preview": "ของที่เราทำเอง\nเรากล้าตอบทุกคำถาม",
+   "digest": "adc03af883845b01a9e60f7e9fc678ce122532b225561ea336943fa89fc45814",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-53"
+  },
+  {
+   "id": "cap-54",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "คุณภาพ"
+   ],
+   "preview": "ลูกค้าถามว่าทำไมไม่ลดราคา\nเพราะเราไม่ลดคุณภาพ",
+   "digest": "8086d6251cf48f5cec93dd22bb86a7b15d1b1162a5299d599a1f825e7caa2dea",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-54"
+  },
+  {
+   "id": "cap-55",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "รอคอย"
+   ],
+   "preview": "เปิดไฟรอทั้งคืน\nไม่มีใครแวะ แต่ก็ยังเปิด",
+   "digest": "f869bc1e328a32dfc2b8b5c831e5865f1af78d300965453c57d3eaff89d5f5e4",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-55"
+  },
+  {
+   "id": "cap-56",
+   "form": "caption",
+   "title": null,
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "preview": "ขอบคุณที่ไว้ใจครับ\nเราจะทำให้ดีกว่าเดิม",
+   "digest": "febde0bc4e36fe9ef05320dea632cf30efe7e545d802bbb4eb66950927a55aa0",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/cap-56"
+  },
+  {
    "id": "song-01",
    "form": "song",
    "title": "ครึ่งชาม",
@@ -1863,6 +2562,78 @@
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-12"
   },
   {
+   "id": "song-13",
+   "form": "song",
+   "title": "ร้านเล็กๆ",
+   "tags": [
+    "ร้านค้า",
+    "ความภูมิใจ"
+   ],
+   "preview": "ร้านเราเล็กแค่สองคูณสาม",
+   "digest": "a6319fa535cc2bc49de1a8d2ef4418d73406041725c807ee827761eec41fd9b4",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-13"
+  },
+  {
+   "id": "song-14",
+   "form": "song",
+   "title": "ทำมือ",
+   "tags": [
+    "งานฝีมือ",
+    "ความภูมิใจ"
+   ],
+   "preview": "ทุกชิ้นทำด้วยมือ",
+   "digest": "3e21ef32c448e6922404b04b76086cf993ab38bf69da5a79063c54f0ee9fe781",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-14"
+  },
+  {
+   "id": "song-15",
+   "form": "song",
+   "title": "ขอบคุณที่กลับมา",
+   "tags": [
+    "ลูกค้า",
+    "ขอบคุณ"
+   ],
+   "preview": "สามปีแล้วที่เปิดร้าน",
+   "digest": "165fce62f42b37d79dbf511cbaec55012c6a77f46457a0403ee06c8f83cff18f",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-15"
+  },
+  {
+   "id": "song-16",
+   "form": "song",
+   "title": "ส่งถึงบ้าน",
+   "tags": [
+    "ส่งของ",
+    "ความตั้งใจ"
+   ],
+   "preview": "แพ็คของตั้งแต่หัวค่ำ",
+   "digest": "08c4f78758b251af61e76bd9d42caa17144bd7f2256a0bb4febbf25109c1e045",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-16"
+  },
+  {
+   "id": "song-17",
+   "form": "song",
+   "title": "ราคาตรง",
+   "tags": [
+    "ขายของ",
+    "ความจริง"
+   ],
+   "preview": "มีคนถามว่าลดได้ไหม",
+   "digest": "8b737cbf7a58b7598d6a58c16bf5a3684d715dc702b4ace452dfd57668f20bdb",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-17"
+  },
+  {
+   "id": "song-18",
+   "form": "song",
+   "title": "วันแรกที่เปิดร้าน",
+   "tags": [
+    "เปิดร้าน",
+    "ความกล้า"
+   ],
+   "preview": "ตื่นตั้งแต่ตีสี่",
+   "digest": "cc4ab5c4f1cfe5fa4ef94149c813a79de80d049b2e53c4027d95f10422ff816e",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/song-18"
+  },
+  {
    "id": "scene-01",
    "form": "scene",
    "title": "INT. ห้องครัว - กลางคืน",
@@ -1983,6 +2754,54 @@
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/scene-10"
   },
   {
+   "id": "scene-11",
+   "form": "scene",
+   "title": "INT. ร้านเล็กๆ - เช้า",
+   "tags": [
+    "ร้านค้า",
+    "การเริ่มต้น"
+   ],
+   "preview": "",
+   "digest": "94aef5793d036bc2f3036b5de351b8d720a61c8e39bb9b4ca86f6e8e7e560b2b",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/scene-11"
+  },
+  {
+   "id": "scene-12",
+   "form": "scene",
+   "title": "INT. ห้องแพ็คของ - ดึก",
+   "tags": [
+    "ส่งของ",
+    "งาน"
+   ],
+   "preview": "",
+   "digest": "939dfd768e14db415062ec393cb2b9d5f5c3aedbcc09b6c3438a5be7f9bcfc04",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/scene-12"
+  },
+  {
+   "id": "scene-13",
+   "form": "scene",
+   "title": "EXT. ตลาดนัด - เช้ามืด",
+   "tags": [
+    "ตลาด",
+    "การค้า"
+   ],
+   "preview": "",
+   "digest": "7714704461e2bcda16d2bd4d45530651d554e328ff78701dd604efceb3686232",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/scene-13"
+  },
+  {
+   "id": "scene-14",
+   "form": "scene",
+   "title": "INT. ร้านกาแฟ - บ่าย",
+   "tags": [
+    "ร้านกาแฟ",
+    "ลูกค้า"
+   ],
+   "preview": "",
+   "digest": "f013cc93c9ee9ffc8505d9e69be9b659ca86dd1f9fbcc6178f53a4e59d6e4c30",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/scene-14"
+  },
+  {
    "id": "essay-01",
    "form": "essay",
    "title": "สิ่งที่เราเก็บไว้ไม่ได้แปลว่าเราใช้มัน",
@@ -2101,6 +2920,66 @@
    "preview": "มีงานจำนวนมากที่แทบไม่มีอะไรเกิดขึ้นระหว่างทำ เช่น การเฝ้าระบบ การรอลูกค้า หรือการ standby แต่งานเหล่านั้นผูกคนไว้กับที่",
    "digest": "703646e0c98b4c374094ae46590a9824ebea77635afe4ab62a3fc35a77ed8262",
    "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/essay-10"
+  },
+  {
+   "id": "essay-11",
+   "form": "essay",
+   "title": "ทำไมของทำมือถึงแพงกว่า",
+   "tags": [
+    "งานฝีมือ",
+    "ราคา"
+   ],
+   "preview": "เมื่อเทียบของทำมือกับของโรงงาน เราเทียบเฉพาะตัววัตถุ ซึ่งเป็นส่วนที่ถูกที่สุดของทั้งสองอย่าง สิ่งที่ต่างกันจริงคือจำนวนช",
+   "digest": "10a25348974f5d883bcfd13bbd2b11801c96c6189086ffb6358048e8cdb42abd",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/essay-11"
+  },
+  {
+   "id": "essay-12",
+   "form": "essay",
+   "title": "ลูกค้าคนแรกไม่เคยกลับมา",
+   "tags": [
+    "การค้า",
+    "ความจริง"
+   ],
+   "preview": "ฝั่งร้านจำได้เพราะมันเป็นวันที่มีความหมาย ฝั่งลูกค้าจำไม่ได้เพราะมันเป็นแค่การซื้อของครั้งหนึ่ง ความหมายไม่สมมาตร และนั่",
+   "digest": "eb6c6ede92116822636b9c89b384fd2a202dbeabf34d75a203a078d1693a1277",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/essay-12"
+  },
+  {
+   "id": "essay-13",
+   "form": "essay",
+   "title": "ทำไมการลดราคาถึงฆ่าร้าน",
+   "tags": [
+    "ราคา",
+    "การค้า"
+   ],
+   "preview": "เมื่อร้านลดราคา ลูกค้าเก่าที่เพิ่งซื้อไปเมื่อวานจะรู้สึกว่าถูกเอาเปรียบ และจะเริ่มรอ ลูกค้าที่รอไม่ใช่ลูกค้า แต่เป็นคนที",
+   "digest": "2b09b29a889416fab5bb13934100f777efe34537245ce58dabea3ca374c8f220",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/essay-13"
+  },
+  {
+   "id": "essay-14",
+   "form": "essay",
+   "title": "งานที่ไม่มีใครเห็น",
+   "tags": [
+    "งาน",
+    "คุณภาพ"
+   ],
+   "preview": "ลูกค้าเห็นสินค้า แต่ไม่เห็นการคัดของ การแพ็ค การเช็ดโต๊ะ การตอบข้อความตอนดึก งานเหล่านี้ไม่ปรากฏในราคา แต่เป็นสิ่งที่ทำใ",
+   "digest": "3c2a8eb39edbc729454b552580be6e943a209a902db81e38c785d6acf27f3e80",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/essay-14"
+  },
+  {
+   "id": "essay-15",
+   "form": "essay",
+   "title": "การขายของคือการฟัง",
+   "tags": [
+    "บริการ",
+    "การขาย"
+   ],
+   "preview": "คนขายที่พูดมากจะไม่ได้ยินว่าลูกค้าต้องการอะไร และมักขายของที่ตัวเองมี ไม่ใช่ของที่ลูกค้าต้องการ",
+   "digest": "ca435b2343b172085e50f85d550aa17f7d97878e8d3f149410ecc2cfc0291fbc",
+   "buy_url": "https://work-1-hdldvoujehvrpfak.prod-runtime.all-hands.dev/muse/piece/essay-15"
   }
  ]
 }
