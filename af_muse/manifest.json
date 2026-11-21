@@ -2,15 +2,15 @@
  "name": "AF_MUSE",
  "version": 2,
  "license": "CC0-1.0",
- "total": 182,
+ "total": 259,
  "forms": {
-  "klon8": 18,
-  "haiku": 40,
-  "aphorism": 54,
-  "caption": 38,
-  "song": 12,
-  "scene": 10,
-  "essay": 10
+  "klon8": 24,
+  "haiku": 52,
+  "aphorism": 80,
+  "caption": 56,
+  "song": 18,
+  "scene": 14,
+  "essay": 15
  },
  "base_url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse",
  "how_to_read": {
@@ -217,6 +217,72 @@
    "digest": "3610538692fb6d96d1342bf89ec1f5c5e3831ba3d8c759080a3f7f6a39683dc3",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
    "title": "เชือกเส้นนี้"
+  },
+  {
+   "id": "klon8-19",
+   "form": "klon8",
+   "tags": [
+    "เปิดร้าน",
+    "การเริ่มต้น"
+   ],
+   "digest": "d7a1eb36e0172348fe805ae1c9cda4b319bbfc36bfd56723ed3738d877beed2b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
+   "title": "เปิดร้านวันแรก"
+  },
+  {
+   "id": "klon8-20",
+   "form": "klon8",
+   "tags": [
+    "ขอบคุณลูกค้า",
+    "ร้านค้า"
+   ],
+   "digest": "fb43671364f26269ca0b8498a25eee1f360c9c2fca460148c5076dc2cb3eb82f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
+   "title": "ขอบคุณลูกค้า"
+  },
+  {
+   "id": "klon8-21",
+   "form": "klon8",
+   "tags": [
+    "ส่งของ",
+    "ขายของ"
+   ],
+   "digest": "b6b7fc7f45b6aa18af21227611f4a2561a1f08f4617aafb2ead82bb7cdde1b2a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
+   "title": "ส่งของถึงบ้าน"
+  },
+  {
+   "id": "klon8-22",
+   "form": "klon8",
+   "tags": [
+    "งานฝีมือ",
+    "ขายของ"
+   ],
+   "digest": "d5a4a19e138cbb29dd798d9a64dbab933ab54153ead5cf999d58e61c8686cfec",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
+   "title": "ของทำมือ"
+  },
+  {
+   "id": "klon8-23",
+   "form": "klon8",
+   "tags": [
+    "ร้านค้า",
+    "รอคอย"
+   ],
+   "digest": "b7f075a5720db5a0a5f7fde97577ada063351dc7ea32eabc0568e2991c7c2d70",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
+   "title": "ลูกค้าคนแรก"
+  },
+  {
+   "id": "klon8-24",
+   "form": "klon8",
+   "tags": [
+    "ฝน",
+    "รอคอย"
+   ],
+   "digest": "b1937a80174b77bf5b5fd314e43e8d29d3eafa2601c366574e2a3504f8250feb",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/klon8.json",
+   "title": "ฝนตกทั้งคืน"
   },
   {
    "id": "haiku-01",
@@ -657,6 +723,137 @@
    "digest": "2748bdb6b6e6154627c1960f02b63fc13acdfaf53acac5368c5b09b67e9a0184",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
    "title": "จานสองใบ"
+  },
+  {
+   "id": "haiku-41",
+   "form": "haiku",
+   "tags": [
+    "เปิดร้าน",
+    "เช้า"
+   ],
+   "digest": "4861e5ed5d73f274e615cf6b92c48fb223131994e19d24c53a22df1a77ad23ec",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "เปิดร้าน"
+  },
+  {
+   "id": "haiku-42",
+   "form": "haiku",
+   "tags": [
+    "ร้านกาแฟ",
+    "ลูกค้า"
+   ],
+   "digest": "abdfb6c28d32bcc089ca783c0a5119adbab448b1e80ed6bf19b94653bf3327f4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "กาแฟลูกค้าประจำ"
+  },
+  {
+   "id": "haiku-43",
+   "form": "haiku",
+   "tags": [
+    "ส่งของ",
+    "ขายของ"
+   ],
+   "digest": "3455f0dc457724e7263964204f73cb90bc2a96fb33ad89a40d5a7252d7d3b629",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ส่งของ"
+  },
+  {
+   "id": "haiku-44",
+   "form": "haiku",
+   "tags": [
+    "วันเกิด",
+    "แม่"
+   ],
+   "digest": "4b6606cdca7062e9b0858ea15078bb22e4474f365b6164a3bf397ed4b9be9dd9",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "วันเกิดแม่"
+  },
+  {
+   "id": "haiku-45",
+   "form": "haiku",
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "digest": "939c758c78d94344c5fb6e6eb793cb00426c9cf29e72b1f3ec1dcd5759adf0dc",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ขอบคุณ"
+  },
+  {
+   "id": "haiku-46",
+   "form": "haiku",
+   "tags": [
+    "งานฝีมือ",
+    "ขายของ"
+   ],
+   "digest": "2efc1345992c9f96907fcf90198ad070b2c148a3720e8fd273052f7f31a9abbf",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ของทำมือ"
+  },
+  {
+   "id": "haiku-47",
+   "form": "haiku",
+   "tags": [
+    "ร้านค้า",
+    "ความจำ"
+   ],
+   "digest": "9de9ea2eb282bd8ad0bfe4c88719b870a75c472266075c232e051b4fa2e0b365",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ลูกค้าคนแรก"
+  },
+  {
+   "id": "haiku-48",
+   "form": "haiku",
+   "tags": [
+    "ร้านค้า",
+    "คืน"
+   ],
+   "digest": "87a8da7f25a71f76650d792f7a3236c8c108aef606daa3e33b6892699a0df4c2",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ปิดร้าน"
+  },
+  {
+   "id": "haiku-49",
+   "form": "haiku",
+   "tags": [
+    "ส่งของ",
+    "ฝน"
+   ],
+   "digest": "5888269213a7e8dcaef0dbde654e37ecaa08aa267ecde209777738e15ae53a9d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ฝนตกตอนส่งของ"
+  },
+  {
+   "id": "haiku-50",
+   "form": "haiku",
+   "tags": [
+    "ขายของ",
+    "ความจริง"
+   ],
+   "digest": "8b465d211f2113b19928ea301cdf4c163578cd1b6043961633cf6d4465a7ebce",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "ราคาตรง"
+  },
+  {
+   "id": "haiku-51",
+   "form": "haiku",
+   "tags": [
+    "ลูกค้า",
+    "ความภักดี"
+   ],
+   "digest": "bf85c510b8f8dfd8f982cbb8013d982cf55e526f673d77a28c6ce1a96da7d6a5",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "คนที่กลับมาซื้อ"
+  },
+  {
+   "id": "haiku-52",
+   "form": "haiku",
+   "tags": [
+    "ร้านค้า",
+    "รอคอย"
+   ],
+   "digest": "86718f81e5f6a3b5da31cbcf215d821da8c2ff4811ebab071ccb2b6373f1dcf4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/haiku.json",
+   "title": "เปิดไฟรอ"
   },
   {
    "id": "aph-01",
@@ -1199,6 +1396,266 @@
    "preview": "ที่สุดเราจะจำว่าใครอยู่, ไม่ใช่วันที่เจ็บ"
   },
   {
+   "id": "aph-55",
+   "form": "aphorism",
+   "tags": [
+    "ร้านค้า"
+   ],
+   "digest": "9de6bd2e0e0d42bfdf6f3f1281bcb0efa03d2656b0ec22d5ebe04d49c842b6d5",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ร้านเล็กไม่สำคัญ, สำคัญที่ของข้างใน"
+  },
+  {
+   "id": "aph-56",
+   "form": "aphorism",
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "digest": "a63265f2c5cadeda791eb890caa8c8f041177a2178f9e8db32300a589fccdc32",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ขอบคุณที่แวะมา, ร้านนี้อยู่ได้เพราะท่าน"
+  },
+  {
+   "id": "aph-57",
+   "form": "aphorism",
+   "tags": [
+    "การตลาด"
+   ],
+   "digest": "29376fd9e1715943a4910c16e245d3a63ce9f1f6c76613235ac6756853e97b1d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ของดีไม่ต้องโฆษณา, ลูกค้าเก่าบอกเอง"
+  },
+  {
+   "id": "aph-58",
+   "form": "aphorism",
+   "tags": [
+    "ขายของ"
+   ],
+   "digest": "f028579f3dab3a1ed675cdef56dd18bdc8a337ab9528ff40f8b5bdd39a58bdcf",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ราคาตรงไม่ต้องต่อ, เวลาคือของแถม"
+  },
+  {
+   "id": "aph-59",
+   "form": "aphorism",
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "digest": "dd4cae96a66d28717944e47514671ff618dd5080bcfc3ab29dc53ff887ddd432",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ทำมือทุกชิ้น, ไม่มีสองชิ้นเหมือนกัน"
+  },
+  {
+   "id": "aph-60",
+   "form": "aphorism",
+   "tags": [
+    "ลูกค้า"
+   ],
+   "digest": "6eeec23e68f9cef9430331bef643d560c117c7065d999b37bb62df8cccdd9995",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ลูกค้าคนแรกจำได้ตลอด, แม้เขาจะลืมเรา"
+  },
+  {
+   "id": "aph-61",
+   "form": "aphorism",
+   "tags": [
+    "เปิดร้าน"
+   ],
+   "digest": "0378ee5270f9f43f83f108b8745b7ec807b8981233799de52a07b81d5d9a8d91",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "เปิดร้านวันแรกมือสั่น, วันที่ร้อยก็ยังสั่น"
+  },
+  {
+   "id": "aph-62",
+   "form": "aphorism",
+   "tags": [
+    "ขายของ"
+   ],
+   "digest": "5b29c650ad6cc4d113563705e1d82ab2b71019d4847011810286ed617277e4d5",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ขายของคือการฟัง, ไม่ใช่การพูดให้ซื้อ"
+  },
+  {
+   "id": "aph-63",
+   "form": "aphorism",
+   "tags": [
+    "บริการ"
+   ],
+   "digest": "92f7b6383a302a664e78c37c22379a9d38a4f15cfc3a1d26c9a59306a8ba23cd",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ไม่ถูกใจบอกได้, เราแก้ดีกว่าโกหก"
+  },
+  {
+   "id": "aph-64",
+   "form": "aphorism",
+   "tags": [
+    "ร้านค้า"
+   ],
+   "digest": "af5304ce4d43c4afadc5f61037d8aeddc6deb2350b7667172644d9a941f024ca",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ร้านที่อยู่ได้นาน, ไม่ใช่ร้านที่ถูกที่สุด"
+  },
+  {
+   "id": "aph-65",
+   "form": "aphorism",
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "digest": "ca23886d006fda34379af2e99d2998c42c29dfb2976cf06285de98f0da723b9e",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ของที่ทำด้วยมือ, มีรอยมือเป็นลายเซ็น"
+  },
+  {
+   "id": "aph-66",
+   "form": "aphorism",
+   "tags": [
+    "ลูกค้า"
+   ],
+   "digest": "b688fa5453d21de7205908b3923e7da170d4ad678f967de74fb15b725d16306c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ลูกค้าที่กลับมา, คือคำชมที่ดังที่สุด"
+  },
+  {
+   "id": "aph-67",
+   "form": "aphorism",
+   "tags": [
+    "การค้า"
+   ],
+   "digest": "a675c250e1838e56ee7ab8d61309741884606a77e20859277ee9ad674e088891",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "วันไหนขายไม่ได้, วันนั้นยังได้เรียนรู้"
+  },
+  {
+   "id": "aph-68",
+   "form": "aphorism",
+   "tags": [
+    "ส่งของ"
+   ],
+   "digest": "ca33de455b0837779a36b5647ac789bbaccb0e14455a89e3c51bef759a76635f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ส่งของตรงเวลา, คือสัญญาที่ถูกที่สุด"
+  },
+  {
+   "id": "aph-69",
+   "form": "aphorism",
+   "tags": [
+    "ร้านค้า"
+   ],
+   "digest": "3809ad69b1abdfb2fecfe8ebc1217f99109d94c93951a8ef3d7c3df09b853442",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ร้านเราเล็ก, แต่ของเราไม่เล็กตามร้าน"
+  },
+  {
+   "id": "aph-70",
+   "form": "aphorism",
+   "tags": [
+    "ลูกค้า"
+   ],
+   "digest": "5b469a9aa2cba215b8cad92af90e40de59a0a0960a6a49af8e3d71e83f090764",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "คนที่ซื้อซ้ำ, ไม่ได้ถูกหลอกให้มา"
+  },
+  {
+   "id": "aph-71",
+   "form": "aphorism",
+   "tags": [
+    "ร้านค้า"
+   ],
+   "digest": "5b9c18120342e14e66f5aaf53aa97138b761eb43a6a3c542fb16e00663350df7",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "เปิดร้านทุกวัน, ไม่ใช่ขยัน แต่กลัวพลาด"
+  },
+  {
+   "id": "aph-72",
+   "form": "aphorism",
+   "tags": [
+    "คุณภาพ"
+   ],
+   "digest": "f1da875c919d27551fbd334f0e300f4d7fc3a735852f6e683da24bcc5d34bc58",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ของแพงไม่ใช่ของดี, ของที่ทนคือของดี"
+  },
+  {
+   "id": "aph-73",
+   "form": "aphorism",
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "digest": "f2cde2aa9e53305511f699eca120220d9481285b3df19893575c06f361111fc4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ขอบคุณที่ไว้ใจ, เราจะไม่ทำให้เสียใจ"
+  },
+  {
+   "id": "aph-74",
+   "form": "aphorism",
+   "tags": [
+    "คุณภาพ"
+   ],
+   "digest": "4fef521390ce969ef786ff950ec0730549370c5522b3a227c156c0c77f827fb9",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ทำของให้ดี, ที่เหลือลูกค้าจัดการเอง"
+  },
+  {
+   "id": "aph-75",
+   "form": "aphorism",
+   "tags": [
+    "การค้า"
+   ],
+   "digest": "e68d68ab1d1f0b0f6e38aec70959f4de7e59b090c5f16ef5e322f14875ce1e78",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ร้านที่ไม่มีลูกค้า, มักมีเหตุผลที่ยังไม่ถาม"
+  },
+  {
+   "id": "aph-76",
+   "form": "aphorism",
+   "tags": [
+    "บริการ"
+   ],
+   "digest": "749a7883d7d14e26ae34761d8f47d92e1893c49e19e256144a8222a61326586b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ถามลูกค้าว่าอยากได้อะไร, อย่าเดาเอง"
+  },
+  {
+   "id": "aph-77",
+   "form": "aphorism",
+   "tags": [
+    "เปิดร้าน"
+   ],
+   "digest": "376c03996c4ee451c8e49e551ca10534a4ab5a287c6ef0e6a3e59a747221cd9a",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "วันแรกที่เปิดร้าน, กลัวที่สุดและดีที่สุด"
+  },
+  {
+   "id": "aph-78",
+   "form": "aphorism",
+   "tags": [
+    "การค้า"
+   ],
+   "digest": "0e1036dda138058157671aad6d0f5694c38753225614c372518502797f892b54",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ขายไม่ดีไม่ต้องโทษลูกค้า, ถามตัวเองก่อน"
+  },
+  {
+   "id": "aph-79",
+   "form": "aphorism",
+   "tags": [
+    "ความจริง"
+   ],
+   "digest": "bf3d003150c7e4343ecb26dbcebdf9a027e7394131246c8d81ee325fc24e5b15",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ของที่เราทำเอง, เรากล้าบอกทุกอย่าง"
+  },
+  {
+   "id": "aph-80",
+   "form": "aphorism",
+   "tags": [
+    "บริการ"
+   ],
+   "digest": "e2d78e7c439c0dcf8bd11e22c1794f5a83b2fb6a068e6a68a387a11b886126ad",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/aphorism.json",
+   "preview": "ลูกค้าไม่ได้ซื้อของ, เขาซื้อความสบายใจ"
+  },
+  {
    "id": "cap-01",
    "form": "caption",
    "tags": [
@@ -1542,6 +1999,168 @@
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
   },
   {
+   "id": "cap-39",
+   "form": "caption",
+   "tags": [
+    "เปิดร้าน"
+   ],
+   "digest": "4811959879d9ba66ef17c79a770610191df2136b8d48765e2df29136b852d093",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-40",
+   "form": "caption",
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "digest": "11d94920ac9682686b5c16bd862b6a918a022ff38641c332062c5b17a050660f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-41",
+   "form": "caption",
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "digest": "4731233e82764d634dff89e172bece6770fd7cadc28fd63eacc51f1d67168a91",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-42",
+   "form": "caption",
+   "tags": [
+    "ส่งของ"
+   ],
+   "digest": "0d100ab41dc4734b42b08f33ea2fa921ecb280022e06cdea48fa585e37fae9b0",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-43",
+   "form": "caption",
+   "tags": [
+    "ขายของ"
+   ],
+   "digest": "56124fb0bcd4a885c5a126c8189a75b5c2372b446ce618f229bce5a75b465794",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-44",
+   "form": "caption",
+   "tags": [
+    "ร้านกาแฟ"
+   ],
+   "digest": "70a0b1bfd4114b6a84bfc2062a25167d9c182966d5a4dd0b322fc5d4206ca011",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-45",
+   "form": "caption",
+   "tags": [
+    "การค้า"
+   ],
+   "digest": "f0d5033bd579b8c35a1236f851ef46dc370682d059a278e27981d9311ebaf729",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-46",
+   "form": "caption",
+   "tags": [
+    "บริการ"
+   ],
+   "digest": "af705eeea848adac98ef628e85789a642ecdde94800e5f4f2ba2587f9bcf120c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-47",
+   "form": "caption",
+   "tags": [
+    "ร้านค้า"
+   ],
+   "digest": "bc24d07162f524081ec16a0889554c6b284d66611eacd79780b7da76cd7d0731",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-48",
+   "form": "caption",
+   "tags": [
+    "งานฝีมือ"
+   ],
+   "digest": "9b8c32d472e3e41b6d4b894324ed855f79cfbe666b9b4d04cec77ce7e57de93d",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-49",
+   "form": "caption",
+   "tags": [
+    "การตลาด"
+   ],
+   "digest": "e68306d18a0995fec2f36257b3c3af3568007f2d5ab2e722623fd017887c3f3b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-50",
+   "form": "caption",
+   "tags": [
+    "ร้านค้า"
+   ],
+   "digest": "6b217a73c9c7265a7ab556b351bb761f2ffa438767e706fc30e993e14ef84ebf",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-51",
+   "form": "caption",
+   "tags": [
+    "วันเกิด"
+   ],
+   "digest": "15d2650687fb91893eba3f8ae113648ef01dfee683a8671cf84b46daf0ea7da8",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-52",
+   "form": "caption",
+   "tags": [
+    "ส่งของ"
+   ],
+   "digest": "f346eabe318d67bc8e6843b6a1e9b535331b9f001621216f10e1c87d66c2ba6c",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-53",
+   "form": "caption",
+   "tags": [
+    "ความจริง"
+   ],
+   "digest": "adc03af883845b01a9e60f7e9fc678ce122532b225561ea336943fa89fc45814",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-54",
+   "form": "caption",
+   "tags": [
+    "คุณภาพ"
+   ],
+   "digest": "8086d6251cf48f5cec93dd22bb86a7b15d1b1162a5299d599a1f825e7caa2dea",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-55",
+   "form": "caption",
+   "tags": [
+    "รอคอย"
+   ],
+   "digest": "f869bc1e328a32dfc2b8b5c831e5865f1af78d300965453c57d3eaff89d5f5e4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
+   "id": "cap-56",
+   "form": "caption",
+   "tags": [
+    "ขอบคุณลูกค้า"
+   ],
+   "digest": "febde0bc4e36fe9ef05320dea632cf30efe7e545d802bbb4eb66950927a55aa0",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/caption.json"
+  },
+  {
    "id": "song-01",
    "form": "song",
    "tags": [
@@ -1674,6 +2293,72 @@
    "title": "คนที่ไม่เคยกลับ"
   },
   {
+   "id": "song-13",
+   "form": "song",
+   "tags": [
+    "ร้านค้า",
+    "ความภูมิใจ"
+   ],
+   "digest": "a6319fa535cc2bc49de1a8d2ef4418d73406041725c807ee827761eec41fd9b4",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/song.json",
+   "title": "ร้านเล็กๆ"
+  },
+  {
+   "id": "song-14",
+   "form": "song",
+   "tags": [
+    "งานฝีมือ",
+    "ความภูมิใจ"
+   ],
+   "digest": "3e21ef32c448e6922404b04b76086cf993ab38bf69da5a79063c54f0ee9fe781",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/song.json",
+   "title": "ทำมือ"
+  },
+  {
+   "id": "song-15",
+   "form": "song",
+   "tags": [
+    "ลูกค้า",
+    "ขอบคุณ"
+   ],
+   "digest": "165fce62f42b37d79dbf511cbaec55012c6a77f46457a0403ee06c8f83cff18f",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/song.json",
+   "title": "ขอบคุณที่กลับมา"
+  },
+  {
+   "id": "song-16",
+   "form": "song",
+   "tags": [
+    "ส่งของ",
+    "ความตั้งใจ"
+   ],
+   "digest": "08c4f78758b251af61e76bd9d42caa17144bd7f2256a0bb4febbf25109c1e045",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/song.json",
+   "title": "ส่งถึงบ้าน"
+  },
+  {
+   "id": "song-17",
+   "form": "song",
+   "tags": [
+    "ขายของ",
+    "ความจริง"
+   ],
+   "digest": "8b737cbf7a58b7598d6a58c16bf5a3684d715dc702b4ace452dfd57668f20bdb",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/song.json",
+   "title": "ราคาตรง"
+  },
+  {
+   "id": "song-18",
+   "form": "song",
+   "tags": [
+    "เปิดร้าน",
+    "ความกล้า"
+   ],
+   "digest": "cc4ab5c4f1cfe5fa4ef94149c813a79de80d049b2e53c4027d95f10422ff816e",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/song.json",
+   "title": "วันแรกที่เปิดร้าน"
+  },
+  {
    "id": "scene-01",
    "form": "scene",
    "tags": [
@@ -1784,6 +2469,50 @@
    "title": "INT. ร้านตัดผม - สาย"
   },
   {
+   "id": "scene-11",
+   "form": "scene",
+   "tags": [
+    "ร้านค้า",
+    "การเริ่มต้น"
+   ],
+   "digest": "94aef5793d036bc2f3036b5de351b8d720a61c8e39bb9b4ca86f6e8e7e560b2b",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/scene.json",
+   "title": "INT. ร้านเล็กๆ - เช้า"
+  },
+  {
+   "id": "scene-12",
+   "form": "scene",
+   "tags": [
+    "ส่งของ",
+    "งาน"
+   ],
+   "digest": "939dfd768e14db415062ec393cb2b9d5f5c3aedbcc09b6c3438a5be7f9bcfc04",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/scene.json",
+   "title": "INT. ห้องแพ็คของ - ดึก"
+  },
+  {
+   "id": "scene-13",
+   "form": "scene",
+   "tags": [
+    "ตลาด",
+    "การค้า"
+   ],
+   "digest": "7714704461e2bcda16d2bd4d45530651d554e328ff78701dd604efceb3686232",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/scene.json",
+   "title": "EXT. ตลาดนัด - เช้ามืด"
+  },
+  {
+   "id": "scene-14",
+   "form": "scene",
+   "tags": [
+    "ร้านกาแฟ",
+    "ลูกค้า"
+   ],
+   "digest": "f013cc93c9ee9ffc8505d9e69be9b659ca86dd1f9fbcc6178f53a4e59d6e4c30",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/scene.json",
+   "title": "INT. ร้านกาแฟ - บ่าย"
+  },
+  {
    "id": "essay-01",
    "form": "essay",
    "tags": [
@@ -1892,6 +2621,61 @@
    "digest": "703646e0c98b4c374094ae46590a9824ebea77635afe4ab62a3fc35a77ed8262",
    "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/essay.json",
    "title": "การรอที่ไม่เคยถูกบันทึก"
+  },
+  {
+   "id": "essay-11",
+   "form": "essay",
+   "tags": [
+    "งานฝีมือ",
+    "ราคา"
+   ],
+   "digest": "10a25348974f5d883bcfd13bbd2b11801c96c6189086ffb6358048e8cdb42abd",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/essay.json",
+   "title": "ทำไมของทำมือถึงแพงกว่า"
+  },
+  {
+   "id": "essay-12",
+   "form": "essay",
+   "tags": [
+    "การค้า",
+    "ความจริง"
+   ],
+   "digest": "eb6c6ede92116822636b9c89b384fd2a202dbeabf34d75a203a078d1693a1277",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/essay.json",
+   "title": "ลูกค้าคนแรกไม่เคยกลับมา"
+  },
+  {
+   "id": "essay-13",
+   "form": "essay",
+   "tags": [
+    "ราคา",
+    "การค้า"
+   ],
+   "digest": "2b09b29a889416fab5bb13934100f777efe34537245ce58dabea3ca374c8f220",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/essay.json",
+   "title": "ทำไมการลดราคาถึงฆ่าร้าน"
+  },
+  {
+   "id": "essay-14",
+   "form": "essay",
+   "tags": [
+    "งาน",
+    "คุณภาพ"
+   ],
+   "digest": "3c2a8eb39edbc729454b552580be6e943a209a902db81e38c785d6acf27f3e80",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/essay.json",
+   "title": "งานที่ไม่มีใครเห็น"
+  },
+  {
+   "id": "essay-15",
+   "form": "essay",
+   "tags": [
+    "บริการ",
+    "การขาย"
+   ],
+   "digest": "ca435b2343b172085e50f85d550aa17f7d97878e8d3f149410ecc2cfc0291fbc",
+   "url": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/af_muse/essay.json",
+   "title": "การขายของคือการฟัง"
   }
  ]
 }
