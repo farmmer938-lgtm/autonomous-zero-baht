@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x20d01d34e6d36d7ab7b8a62864054f4dfefbfce5",
+ "generatedAt": "2026-11-21T00:00:12.289745+00:00",
+ "reads": {
+  "name": "NAOF \ud83d\udd25",
+  "symbol": "NAOF",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x20d01d34e6d36d7ab7b8a62864054f4dfefbfce5",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x20d01d34\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60144183,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 5851723.8126,
+ "poolCreatedAt": "2026-11-20T23:20:37Z",
+ "poolName": "NAOF / WETH",
+ "outreach": {
+  "symbol": "NAOF",
+  "name": "NAOF \ud83d\udd25",
+  "priceUsd": "0.003913",
+  "fdv": 39133401,
+  "liquidityUsd": 5870496.96,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x66541282a8b8e0ca43464c761c425f106b7bd30f5c8a2c7afbb0361845df336c",
+  "pairUrl": "https://dexscreener.com/base/0x66541282a8b8e0ca43464c761c425f106b7bd30f5c8a2c7afbb0361845df336c"
+ }
+}

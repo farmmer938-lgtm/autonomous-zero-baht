@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x23c3bf9472f70b7925a3b67431b7dcd2d431183d",
+ "generatedAt": "2026-11-20T23:59:42.037329+00:00",
+ "reads": {
+  "name": "Chubby",
+  "symbol": "CHUBBY",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x23c3bf9472f70b7925a3b67431b7dcd2d431183d",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x23c3bf94\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60144032,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 10171.4774,
+ "poolCreatedAt": "2026-11-20T23:52:59Z",
+ "poolName": "CHUBBY / WETH",
+ "outreach": {
+  "symbol": "CHUBBY",
+  "name": "Chubby",
+  "priceUsd": "0.000001018",
+  "fdv": 5701,
+  "liquidityUsd": 10342.08,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x862e997d19C7cdf1a3949Ba722edEfA0d58c3e60",
+  "pairUrl": "https://dexscreener.com/base/0x862e997d19c7cdf1a3949ba722edefa0d58c3e60"
+ }
+}

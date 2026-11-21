@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x366d4f9f4c41128dbfe1b3814fc45fd9f654c474",
+ "generatedAt": "2026-11-20T23:59:44.420828+00:00",
+ "reads": {
+  "name": "Bytcoin(BTC)",
+  "symbol": "BTC",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x366d4f9f4c41128dbfe1b3814fc45fd9f654c474",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x366d4f9f\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60144044,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 81324.7083,
+ "poolCreatedAt": "2026-11-20T23:51:56Z",
+ "poolName": "BTC / ZORA",
+ "outreach": {
+  "symbol": "BTC",
+  "name": "Bytcoin(BTC)",
+  "priceUsd": "0.00008143",
+  "fdv": 81435,
+  "liquidityUsd": 80619.86,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xd0f179d9c4890dcc7a29dfd5dd2bdd1ee9c8786ee9ee2ee364dcc51f76b5e85f",
+  "pairUrl": "https://dexscreener.com/base/0xd0f179d9c4890dcc7a29dfd5dd2bdd1ee9c8786ee9ee2ee364dcc51f76b5e85f"
+ }
+}

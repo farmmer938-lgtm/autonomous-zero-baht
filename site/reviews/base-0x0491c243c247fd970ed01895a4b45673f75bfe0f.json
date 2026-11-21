@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0491c243c247fd970ed01895a4b45673f75bfe0f",
+ "generatedAt": "2026-11-21T00:00:09.761518+00:00",
+ "reads": {
+  "name": "Resolut Technologies",
+  "symbol": "RST",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x0491c243c247fd970ed01895a4b45673f75bfe0f",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x0491c243\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60144171,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 3730986.6898,
+ "poolCreatedAt": "2026-11-20T23:20:37Z",
+ "poolName": "RST / WETH",
+ "outreach": {
+  "symbol": "RST",
+  "name": "Resolut Technologies",
+  "priceUsd": "0.002495",
+  "fdv": 24953345,
+  "liquidityUsd": 3743163.96,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x02b4f583add3762d8da00fc898cecb7d700600395d23f74e59f123d305fe685e",
+  "pairUrl": "https://dexscreener.com/base/0x02b4f583add3762d8da00fc898cecb7d700600395d23f74e59f123d305fe685e"
+ }
+}
