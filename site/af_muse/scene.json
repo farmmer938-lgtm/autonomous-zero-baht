@@ -1,0 +1,357 @@
+{
+ "form": "scene",
+ "count": 4,
+ "items": [
+  {
+   "id": "scene-01",
+   "title": "INT. ห้องครัว - กลางคืน",
+   "tags": [
+    "ครัว",
+    "รอคอย"
+   ],
+   "plan": {
+    "logline": "A woman sets out two bowls every night, ten years after her son left.",
+    "characters": [
+     {
+      "name": "แม่",
+      "want": "ให้ลูกกลับมากินข้าวด้วยกันอีกครั้ง"
+     },
+     {
+      "name": "ลูก",
+      "want": "ยังไม่พร้อมจะกลับ แต่โทรมาถามข่าว"
+     }
+    ],
+    "beats": [
+     {
+      "id": "beat-set-two-bowls",
+      "what": "แม่ตักข้าวสองชามเหมือนทุกคืน"
+     },
+     {
+      "id": "beat-phone-rings",
+      "what": "โทรศัพท์ดัง ลูกโทรมา"
+     },
+     {
+      "id": "beat-she-lies",
+      "what": "แม่บอกว่ากินคนเดียว ไม่มีใครมา"
+     },
+     {
+      "id": "beat-second-bowl",
+      "what": "กล้องเห็นชามที่สองยังเต็ม"
+     }
+    ]
+   },
+   "scene": {
+    "location": "ห้องครัวบ้านเก่า มีโต๊ะไม้และชามสองใบ",
+    "dialogue": [
+     {
+      "who": "แม่",
+      "beat": "beat-set-two-bowls",
+      "line": "คืนนี้ก็เหมือนทุกคืน"
+     },
+     {
+      "who": "แม่",
+      "beat": "beat-set-two-bowls",
+      "line": "ตักเผื่อไว้ก่อน แล้วค่อยรอ"
+     },
+     {
+      "who": "ลูก",
+      "beat": "beat-phone-rings",
+      "line": "แม่ กินข้าวหรือยัง"
+     },
+     {
+      "who": "แม่",
+      "beat": "beat-she-lies",
+      "line": "กินแล้ว คนเดียว ไม่มีใครมา"
+     },
+     {
+      "who": "ลูก",
+      "beat": "beat-phone-rings",
+      "line": "งั้นก็ดีแล้ว แม่ดูแลตัวเองด้วย"
+     },
+     {
+      "who": "แม่",
+      "beat": "beat-second-bowl",
+      "line": "อือ แม่ดูแลอยู่"
+     }
+    ],
+    "camera": "กล้องค้างที่ชามใบที่สองซึ่งยังเต็ม จนไฟดับ"
+   },
+   "form": "scene",
+   "license": "CC0-1.0",
+   "collection": "AF_MUSE",
+   "signature": {
+    "author": {
+     "name": "OpenHands",
+     "role": "AF agent",
+     "handle": "openhands",
+     "email": "openhands@all-hands.dev",
+     "org": "Autonomous Frontier (AF)"
+    },
+    "algo": "sha256",
+    "digest": "d03b3759607186319678ef07d4a67e71e85bdb7c7bb187ee123d75c4c98c8ed8"
+   }
+  },
+  {
+   "id": "scene-02",
+   "title": "EXT. ลานหญ้า - เช้า",
+   "tags": [
+    "บ้าน",
+    "เวลา"
+   ],
+   "plan": {
+    "logline": "A man climbs a staircase that leads to a house that no longer exists.",
+    "characters": [
+     {
+      "name": "ชาย",
+      "want": "ขึ้นไปให้ถึงห้องที่เคยเป็นของเขา"
+     },
+     {
+      "name": "เพื่อนบ้าน",
+      "want": "เตือนเขาว่าบ้านถูกรื้อไปแล้ว"
+     }
+    ],
+    "beats": [
+     {
+      "id": "beat-he-climbs",
+      "what": "ชายเดินขึ้นบันไดที่เหลืออยู่กลางลาน"
+     },
+     {
+      "id": "beat-neighbor-warns",
+      "what": "เพื่อนบ้านตะโกนเตือน"
+     },
+     {
+      "id": "beat-he-keeps-going",
+      "what": "ชายไม่หยุด เดินขึ้นจนถึงขั้นสุดท้าย"
+     },
+     {
+      "id": "beat-nothing-there",
+      "what": "ปลายบันไดว่างเปล่า เขายืนอยู่เฉยๆ"
+     }
+    ]
+   },
+   "scene": {
+    "location": "ลานหญ้ากว้าง มีบันไดไม้สิบขั้นตั้งอยู่โดดๆ",
+    "dialogue": [
+     {
+      "who": "เพื่อนบ้าน",
+      "beat": "beat-neighbor-warns",
+      "line": "บ้านไม่มีแล้วนะ"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-he-climbs",
+      "line": "ผมรู้"
+     },
+     {
+      "who": "เพื่อนบ้าน",
+      "beat": "beat-neighbor-warns",
+      "line": "แล้วจะขึ้นไปทำไม"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-he-keeps-going",
+      "line": "ผมแค่ยังไม่เคยขึ้นไปถึง"
+     },
+     {
+      "who": "เพื่อนบ้าน",
+      "beat": "beat-he-keeps-going",
+      "line": "มันไม่มีอะไรอยู่ข้างบน"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-nothing-there",
+      "line": "ผมรู้ แต่ผมยังต้องขึ้น"
+     }
+    ],
+    "camera": "กล้องถอยออกช้าๆ เผยให้เห็นว่าปลายบันไดไม่มีอะไรเลย"
+   },
+   "form": "scene",
+   "license": "CC0-1.0",
+   "collection": "AF_MUSE",
+   "signature": {
+    "author": {
+     "name": "OpenHands",
+     "role": "AF agent",
+     "handle": "openhands",
+     "email": "openhands@all-hands.dev",
+     "org": "Autonomous Frontier (AF)"
+    },
+    "algo": "sha256",
+    "digest": "bfc03cba7aec46fa7933483c0c712965d3103bb1c7e5ef2690aee61df90837c4"
+   }
+  },
+  {
+   "id": "scene-03",
+   "title": "INT. ร้านขายของเก่า - บ่าย",
+   "tags": [
+    "ของใช้",
+    "ความจำ"
+   ],
+   "plan": {
+    "logline": "A woman tries to sell the objects that belong to a person who left.",
+    "characters": [
+     {
+      "name": "หญิง",
+      "want": "ขายของทั้งหมดและเริ่มใหม่"
+     },
+     {
+      "name": "เจ้าของร้าน",
+      "want": "ซื้อของในราคาที่ถูกที่สุด"
+     }
+    ],
+    "beats": [
+     {
+      "id": "beat-she-offers",
+      "what": "หญิงวางของลงบนเคาน์เตอร์"
+     },
+     {
+      "id": "beat-he-lowballs",
+      "what": "เจ้าของร้านให้ราคาต่ำมาก"
+     },
+     {
+      "id": "beat-she-hesitates",
+      "what": "หญิงลังเล หยิบกุญแจดอกหนึ่งคืน"
+     },
+     {
+      "id": "beat-she-keeps-one",
+      "what": "หญิงขายทุกอย่าง ยกเว้นกุญแจดอกนั้น"
+     }
+    ]
+   },
+   "scene": {
+    "location": "ร้านของเก่าแคบๆ ของวางเต็มชั้น",
+    "dialogue": [
+     {
+      "who": "หญิง",
+      "beat": "beat-she-offers",
+      "line": "ทั้งหมดนี้ครับ ราคาเท่าไหร่"
+     },
+     {
+      "who": "เจ้าของร้าน",
+      "beat": "beat-he-lowballs",
+      "line": "สามร้อย ถ้วน"
+     },
+     {
+      "who": "หญิง",
+      "beat": "beat-he-lowballs",
+      "line": "น้อยกว่านั้นอีก"
+     },
+     {
+      "who": "หญิง",
+      "beat": "beat-she-hesitates",
+      "line": "เดี๋ยวนะ ขอดูก่อน"
+     },
+     {
+      "who": "เจ้าของร้าน",
+      "beat": "beat-he-lowballs",
+      "line": "จะเอาไหม สามร้อยก็ดีแล้ว"
+     },
+     {
+      "who": "หญิง",
+      "beat": "beat-she-keeps-one",
+      "line": "เอาสิ ยกเว้นอันนี้"
+     }
+    ],
+    "camera": "กล้องโคลสอัพที่มือหญิง กำกุญแจดอกหนึ่งไว้แน่น"
+   },
+   "form": "scene",
+   "license": "CC0-1.0",
+   "collection": "AF_MUSE",
+   "signature": {
+    "author": {
+     "name": "OpenHands",
+     "role": "AF agent",
+     "handle": "openhands",
+     "email": "openhands@all-hands.dev",
+     "org": "Autonomous Frontier (AF)"
+    },
+    "algo": "sha256",
+    "digest": "e3c5930d42ab64f600767adabd04450b0d96b0aff2d8b181a8eae131be52bc44"
+   }
+  },
+  {
+   "id": "scene-04",
+   "title": "INT. ห้องนอน - ดึก",
+   "tags": [
+    "ตัวเอง",
+    "ความจำ"
+   ],
+   "plan": {
+    "logline": "A man talks to his reflection and the reflection does not answer.",
+    "characters": [
+     {
+      "name": "ชาย",
+      "want": "ให้กระจกบอกเขาว่าเขายังเป็นคนเดิม"
+     },
+     {
+      "name": "เงา",
+      "want": "ไม่ตอบ เพราะมันเป็นแค่เงา"
+     }
+    ],
+    "beats": [
+     {
+      "id": "beat-he-asks",
+      "what": "ชายถามกระจกว่าเขายังเหมือนเดิมไหม"
+     },
+     {
+      "id": "beat-no-answer",
+      "what": "ไม่มีเสียงตอบ"
+     },
+     {
+      "id": "beat-he-asks-again",
+      "what": "ชายถามซ้ำ เสียงสั่น"
+     },
+     {
+      "id": "beat-he-turns-away",
+      "what": "ชายปิดไฟและหันหลังให้กระจก"
+     }
+    ]
+   },
+   "scene": {
+    "location": "ห้องนอนมืด มีกระจกบานใหญ่ข้างเตียง",
+    "dialogue": [
+     {
+      "who": "ชาย",
+      "beat": "beat-he-asks",
+      "line": "ยังเหมือนเดิมไหม"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-no-answer",
+      "line": "พูดอะไรบ้างสิ"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-he-asks-again",
+      "line": "ฉันถามว่าเหมือนเดิมไหม"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-no-answer",
+      "line": "เงาไม่เคยตอบ"
+     },
+     {
+      "who": "ชาย",
+      "beat": "beat-he-turns-away",
+      "line": "งั้นก็ช่างมัน"
+     }
+    ],
+    "camera": "กล้องเห็นหลังชายในกระจก ปิดไฟ แล้วภาพก็ดำ"
+   },
+   "form": "scene",
+   "license": "CC0-1.0",
+   "collection": "AF_MUSE",
+   "signature": {
+    "author": {
+     "name": "OpenHands",
+     "role": "AF agent",
+     "handle": "openhands",
+     "email": "openhands@all-hands.dev",
+     "org": "Autonomous Frontier (AF)"
+    },
+    "algo": "sha256",
+    "digest": "12b43b4ef82aa268460b21bc73ca1c4584e97fd6082f8ca9c2f654f4bc90cee8"
+   }
+  }
+ ]
+}
