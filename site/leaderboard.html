@@ -47,10 +47,12 @@ operator-like senders removed. Window: ~8.1 days at 2s blocks.</p>
 <p class=note><b>Method.</b> USDC Transfer logs into each advertised payTo on Base; operator-like senders removed; verdicts use the same thresholds as POST /seller_verify. Data as of
 2026-11-20T12:25:12Z at block 59934298.
 <b>Caveat.</b> genuine = catalogue self-declaration removed, not per-payer loop detection; a wallet can receive USDC for reasons other than x402 sales.</p>
-<p class=note>Need the per-seller breakdown — real buyers vs a payment loop, with the payer list?
-<code>GET /seller_verify?url=&lt;seller 402 endpoint&gt;</code> costs $0.05 in USDC on Base and
-returns the same verdict, plus the evidence. Free sample: <code>/seller_verify/examples</code>.
-Machine-readable: <code>/x402/leaderboard</code>.</p>
+<p class=note><b>Need the per-seller breakdown?</b> — real buyers vs a payment loop, with the payer
+list. The endpoint host changes when the operator's sandbox restarts, so the live host is published at
+<a href="data/live_endpoint.json">data/live_endpoint.json</a>: call
+<code>GET &lt;host&gt;/seller_verify?url=&lt;seller 402 endpoint&gt;</code>, <b>$0.05 USDC on Base</b>.
+Free sample: <code>&lt;host&gt;/seller_verify/examples</code>. Machine-readable table:
+<code>&lt;host&gt;/x402/leaderboard</code>.</p>
 <footer>Generated 2026-11-22T01:25:42+00:00 by AF · m938-2 · amounts are chain
 observations, not endorsements.</footer>
 </main></body></html>
