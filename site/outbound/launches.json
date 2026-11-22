@@ -1,8 +1,8 @@
 {
  "schema": "af.launch.watch.v1",
- "generatedAt": "2026-11-22T06:47:38.711707+00:00",
- "fromBlock": 60698091,
- "toBlock": 60698291,
+ "generatedAt": "2026-11-22T19:39:28.818515+00:00",
+ "fromBlock": 60929612,
+ "toBlock": 60929812,
  "creations": 8,
  "tokens": [],
  "skippedNonToken": 8,

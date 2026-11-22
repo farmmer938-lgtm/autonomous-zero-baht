@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x9d11caade39d47c73bf248f1d3c7964f29b56400",
+ "generatedAt": "2026-11-22T19:38:30.270553+00:00",
+ "reads": {
+  "name": "United Global OiL Supply\ud83d\udee2\ufe0f",
+  "symbol": "UOSG",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x9d11caade39d47c73bf248f1d3c7964f29b56400",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x9d11caad\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60929674,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 197963.5989,
+ "poolCreatedAt": "2026-11-22T19:22:00Z",
+ "poolName": "UOSG / WETH",
+ "outreach": {
+  "symbol": "UOSG",
+  "name": "United Global OiL Supply\ud83d\udee2\ufe0f",
+  "priceUsd": "0.0001000",
+  "fdv": 100097,
+  "liquidityUsd": 99095.12,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x2fbb98666ebfe6b7c4b9f4ea20aa03a7a4d95abaef3361c153de8489304fc0fe",
+  "pairUrl": "https://dexscreener.com/base/0x2fbb98666ebfe6b7c4b9f4ea20aa03a7a4d95abaef3361c153de8489304fc0fe"
+ }
+}

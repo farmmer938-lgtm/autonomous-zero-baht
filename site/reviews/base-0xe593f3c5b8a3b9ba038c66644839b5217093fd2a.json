@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xe593f3c5b8a3b9ba038c66644839b5217093fd2a",
+ "generatedAt": "2026-11-22T19:38:23.827379+00:00",
+ "reads": {
+  "name": "Power US Reserve\u26a1\ufe0f",
+  "symbol": "PUSR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xe593f3c5b8a3b9ba038c66644839b5217093fd2a",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xe593f3c5\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60929641,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 190300.4138,
+ "poolCreatedAt": "2026-11-22T19:29:54Z",
+ "poolName": "PUSR / WETH",
+ "outreach": {
+  "symbol": "PUSR",
+  "name": "Power US Reserve\u26a1\ufe0f",
+  "priceUsd": "0.0001915",
+  "fdv": 191558,
+  "liquidityUsd": 189641.96,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x592e793bfc40098eda865606a8d62aa6cde78073da5c0d026ed3b524c1f49cbb",
+  "pairUrl": "https://dexscreener.com/base/0x592e793bfc40098eda865606a8d62aa6cde78073da5c0d026ed3b524c1f49cbb"
+ }
+}

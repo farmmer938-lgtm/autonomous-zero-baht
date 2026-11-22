@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x69cb608567e802ee29336a8ab833825b11f8bf0f",
+ "generatedAt": "2026-11-22T19:38:36.925651+00:00",
+ "reads": {
+  "name": "Deus Ecosystem Link",
+  "symbol": "COLLECTIVE",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x69cb608567e802ee29336a8ab833825b11f8bf0f",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x69cb6085\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60929707,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 193877.9665,
+ "poolCreatedAt": "2026-11-22T19:19:24Z",
+ "poolName": "COLLECTIVE / DEUS",
+ "outreach": {
+  "symbol": "COLLECTIVE",
+  "name": "Deus Ecosystem Link",
+  "priceUsd": null,
+  "fdv": null,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x7df34ee7cae49278ed5cd5935df925a0ebd90ac0b95f44be7836d9fed77105f4",
+  "pairUrl": "https://dexscreener.com/base/0x7df34ee7cae49278ed5cd5935df925a0ebd90ac0b95f44be7836d9fed77105f4"
+ }
+}

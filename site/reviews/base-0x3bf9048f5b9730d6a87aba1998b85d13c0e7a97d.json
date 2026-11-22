@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x3bf9048f5b9730d6a87aba1998b85d13c0e7a97d",
+ "generatedAt": "2026-11-22T19:38:27.043349+00:00",
+ "reads": {
+  "name": "[URSP] United Power States Reserve\u26a1\ufe0f",
+  "symbol": "URSP",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x3bf9048f5b9730d6a87aba1998b85d13c0e7a97d",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x3bf9048f\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60929658,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 96966.9118,
+ "poolCreatedAt": "2026-11-22T19:27:40Z",
+ "poolName": "URSP / WETH",
+ "outreach": {
+  "symbol": "URSP",
+  "name": "[URSP] United Power States Reserve\u26a1\ufe0f",
+  "priceUsd": "0.00009805",
+  "fdv": 98053,
+  "liquidityUsd": 97072.07,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x29931305c28f438a01a286c460c95fdc405ebaa97499c3e767916d0c2507e672",
+  "pairUrl": "https://dexscreener.com/base/0x29931305c28f438a01a286c460c95fdc405ebaa97499c3e767916d0c2507e672"
+ }
+}
