@@ -1,22 +1,59 @@
 {
   "schema": "af.live_endpoint.v1",
-  "updated_at": "2026-11-22T01:02:53.284220+00:00",
+  "updated_at": "2026-11-22T01:16:17.351451+00:00",
   "public_base": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev",
   "runtime_url": "https://szkgvrypvhwdfybu.prod-runtime.all-hands.dev",
   "cashier": {
     "openapi": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev/openapi.json",
     "discovery": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev/.well-known/x402",
-    "paid_endpoints": [],
-    "price_usd": null,
-    "price_usd_by_tool": {},
-    "hero": null,
+    "paid_endpoints": [
+      "GET /muse/piece/{id}",
+      "GET /muse/form/{form}",
+      "GET /muse/all",
+      "GET /art/themes/{slug}/{file}",
+      "GET /art/wallpapers/{name}",
+      "GET /art/app/{name}",
+      "GET /art/stickers/{slug}/{file}",
+      "GET /art/{collection}/{slug}/art.png",
+      "POST /csv_to_json",
+      "POST /kpi_score",
+      "POST /csv_to_sql",
+      "POST /x402_check",
+      "POST /llm",
+      "POST /seller_verify",
+      "POST /audit_lite",
+      "POST /audit"
+    ],
+    "price_usd": "49",
+    "price_usd_by_tool": {
+      "GET /muse/piece/{id}": "0.02",
+      "GET /muse/form/{form}": "0.15",
+      "GET /muse/all": "0.50",
+      "GET /art/themes/{slug}/{file}": "0.50",
+      "GET /art/wallpapers/{name}": "0.90",
+      "GET /art/app/{name}": "0.90",
+      "GET /art/stickers/{slug}/{file}": "0.25",
+      "GET /art/{collection}/{slug}/art.png": "0.50",
+      "POST /csv_to_json": "0.05",
+      "POST /kpi_score": "0.05",
+      "POST /csv_to_sql": "0.08",
+      "POST /x402_check": "0.08",
+      "POST /llm": "0.01",
+      "POST /seller_verify": "1",
+      "POST /audit_lite": "0.25",
+      "POST /audit": "49"
+    },
+    "hero": "POST /audit",
     "free_endpoints": [
+      "POST /trial/audit",
+      "POST /trial/kpi_score",
+      "POST /trial/csv_to_json",
       "GET /receipts.json",
       "GET /reputation.json"
     ],
     "network": "eip155:8453",
-    "openapi_http": 502,
-    "discovery_http": 502
+    "openapi_http": 200,
+    "discovery_http": 200
   },
-  "status": "NOT_VERIFIED"
+  "status": "VERIFIED"
 }
