@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x8e5b78239fc015711f41212f92b7af47dac72915",
+ "generatedAt": "2026-11-22T06:46:52.282877+00:00",
+ "reads": {
+  "name": "United Fund Trust Oil",
+  "symbol": "UFTO",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x8e5b78239fc015711f41212f92b7af47dac72915",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x8e5b7823\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698184,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 160110.3006,
+ "poolCreatedAt": "2026-11-22T06:10:21Z",
+ "poolName": "UFTO / ZORA",
+ "outreach": {
+  "symbol": "UFTO",
+  "name": "United Fund Trust Oil",
+  "priceUsd": "0.00008008",
+  "fdv": 80083,
+  "liquidityUsd": 79282.21,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x878183bbd817b889d4c88a02f5ff95c9eb3529e13a7ded5fc80cd1d60830dcd9",
+  "pairUrl": "https://dexscreener.com/base/0x878183bbd817b889d4c88a02f5ff95c9eb3529e13a7ded5fc80cd1d60830dcd9"
+ }
+}

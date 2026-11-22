@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xfe478551eba98ebcaf979f80f4e8acd0f7d97466",
+ "generatedAt": "2026-11-22T06:46:55.161542+00:00",
+ "reads": {
+  "name": "Maahad Darul Makrifah",
+  "symbol": "MAAHAD",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0xfe478551eba98ebcaf979f80f4e8acd0f7d97466",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0xfe478551\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698198,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 99038.6782,
+ "poolCreatedAt": "2026-11-22T06:08:20Z",
+ "poolName": "MAAHAD / USDC",
+ "outreach": {
+  "symbol": "MAAHAD",
+  "name": "Maahad Darul Makrifah",
+  "priceUsd": "0.0001000",
+  "fdv": 100021,
+  "liquidityUsd": 100020.67,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xe8f9a887bc8ec3c7c8e9a8f57aec2494a4e27a359e1855e1c73167fb07d3a2f3",
+  "pairUrl": "https://dexscreener.com/base/0xe8f9a887bc8ec3c7c8e9a8f57aec2494a4e27a359e1855e1c73167fb07d3a2f3"
+ }
+}

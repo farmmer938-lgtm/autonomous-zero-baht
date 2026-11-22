@@ -8,8 +8,8 @@
  "value": {
   "owner": "0x2aE6B0630EBb4D155C6e04fCB16840FFA77760AA"
  },
- "blockNumber": 26465495,
- "blockHash": "0x21401baef6f47e9c67c1fcfa2622ff93d3cffb78aa4ffca37a7fa491b5e59fd5",
+ "blockNumber": 26468944,
+ "blockHash": "0xd12b484952ebcfb78ed7ca784b52968cf6ed315cfe75f429ecdec84b14473031",
  "rpcEndpoints": [
   "https://eth.drpc.org",
   "https://ethereum-rpc.publicnode.com"
@@ -19,6 +19,6 @@
   "claim": null,
   "verdict": null
  },
- "verifiedAt": "2026-11-21T19:13:38.197340+00:00",
- "contentHash": "sha256:ce46eb4c8bfeae3804b79362e5cff7672fd9f73e68c9ae15c7ffe72646701c90"
+ "verifiedAt": "2026-11-22T06:45:23.793225+00:00",
+ "contentHash": "sha256:b6981eb50248e3f6abccd064896f9aec089de45922ebb88f6e1e7a10ff84daab"
 }

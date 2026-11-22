@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x069fddfe0e39650eb4ac3bb2125a22591c9d6830",
+ "generatedAt": "2026-11-22T06:46:58.395499+00:00",
+ "reads": {
+  "name": "UOTF (United Oil Trust Fund)",
+  "symbol": "UOTF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x069fddfe0e39650eb4ac3bb2125a22591c9d6830",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x069fddfe\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698214,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 84327.9057,
+ "poolCreatedAt": "2026-11-22T06:03:19Z",
+ "poolName": "UOTF / ZORA",
+ "outreach": {
+  "symbol": "UOTF",
+  "name": "UOTF (United Oil Trust Fund)",
+  "priceUsd": "0.00008374",
+  "fdv": 83748,
+  "liquidityUsd": 82910.14,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x46c4336461075b1921ee44dd78227576ef481e2732ac35dfbcfc0cbb8f9f058a",
+  "pairUrl": "https://dexscreener.com/base/0x46c4336461075b1921ee44dd78227576ef481e2732ac35dfbcfc0cbb8f9f058a"
+ }
+}

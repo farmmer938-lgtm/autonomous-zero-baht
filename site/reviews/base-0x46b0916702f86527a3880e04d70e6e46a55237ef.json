@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x46b0916702f86527a3880e04d70e6e46a55237ef",
+ "generatedAt": "2026-11-22T06:47:04.359375+00:00",
+ "reads": {
+  "name": "PoliticalOX",
+  "symbol": "POX",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000,
+  "totalSupplyTokens": 1000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x46b0916702f86527a3880e04d70e6e46a55237ef",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x46b09167\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698244,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 13304.567,
+ "poolCreatedAt": "2026-11-22T05:43:58Z",
+ "poolName": "POX / ETH 0.3%",
+ "outreach": {
+  "symbol": "POX",
+  "name": "PoliticalOX",
+  "priceUsd": "0.006596",
+  "fdv": 6596,
+  "liquidityUsd": 13192.96,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x40c841235685f66373206189733fa00993c107a635098df386c66c40a45c5f8c",
+  "pairUrl": "https://dexscreener.com/base/0x40c841235685f66373206189733fa00993c107a635098df386c66c40a45c5f8c"
+ }
+}

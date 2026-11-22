@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xb91a574e29e12bb133817ea7586134060a2e499b",
+ "generatedAt": "2026-11-22T06:46:37.598264+00:00",
+ "reads": {
+  "name": "XChat Privacy",
+  "symbol": "XCHAT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xb91a574e29e12bb133817ea7586134060a2e499b",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xb91a574e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698110,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 210999.605,
+ "poolCreatedAt": "2026-11-22T06:40:29Z",
+ "poolName": "XCHAT / WETH",
+ "outreach": {
+  "symbol": "XCHAT",
+  "name": "XChat Privacy",
+  "priceUsd": "0.0002113",
+  "fdv": 211383,
+  "liquidityUsd": 209269.39,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x3219fd89281bca57b0183cf05400a2483284f7ca62eab45f1ec2f5d6ba981fe0",
+  "pairUrl": "https://dexscreener.com/base/0x3219fd89281bca57b0183cf05400a2483284f7ca62eab45f1ec2f5d6ba981fe0"
+ }
+}

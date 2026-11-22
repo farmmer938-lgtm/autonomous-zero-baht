@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xbed2f5113c2476b3aac372b9f286e9532a6190ee",
+ "generatedAt": "2026-11-22T06:46:46.440676+00:00",
+ "reads": {
+  "name": "UG Oil Supply",
+  "symbol": "UGOS",
+  "decimals": 18,
+  "totalSupply": 6700000000000000000000000000,
+  "totalSupplyTokens": 6700000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xbed2f5113c2476b3aac372b9f286e9532a6190ee",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xbed2f511\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698154,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 55369.6548,
+ "poolCreatedAt": "2026-11-22T06:25:38Z",
+ "poolName": "UGOS / WETH",
+ "outreach": {
+  "symbol": "UGOS",
+  "name": "UG Oil Supply",
+  "priceUsd": "0.000004662",
+  "fdv": 31236,
+  "liquidityUsd": 55792.1,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x279aE61477f538A1A5dCe4b71E645aE2f77eD60D",
+  "pairUrl": "https://dexscreener.com/base/0x279ae61477f538a1a5dce4b71e645ae2f77ed60d"
+ }
+}

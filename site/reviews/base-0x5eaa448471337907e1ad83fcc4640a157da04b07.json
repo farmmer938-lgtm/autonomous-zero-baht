@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x5eaa448471337907e1ad83fcc4640a157da04b07",
+ "generatedAt": "2026-11-22T06:47:07.518505+00:00",
+ "reads": {
+  "name": "Base",
+  "symbol": "Base",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0x00aae02dc0aab6b7bee1fe9f301649bbd46bce61",
+  "bytecodeScannedAddress": "0x5eaa448471337907e1ad83fcc4640a157da04b07",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0x5eaa4484\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 60698260,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 10190643.3854,
+ "poolCreatedAt": "2026-11-22T05:37:25Z",
+ "poolName": "Base / USDC 0.01%",
+ "outreach": {
+  "symbol": "Base",
+  "name": "Base",
+  "priceUsd": "0.0001020",
+  "fdv": 10207468,
+  "liquidityUsd": 10208424.19,
+  "socials": [],
+  "websites": [],
+  "dexId": "aerodrome",
+  "pairAddress": "0x195CB1e1d69770f2a2724E5150FD2529686dd3b7",
+  "pairUrl": "https://dexscreener.com/base/0x195cb1e1d69770f2a2724e5150fd2529686dd3b7"
+ }
+}
