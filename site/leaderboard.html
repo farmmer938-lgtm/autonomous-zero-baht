@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>x402 on Base — chain-truth revenue leaderboard</title>
+<meta name=description content="What x402 sellers on Base actually received in USDC, measured from Transfer logs, not from what they advertise.">
+<style>
+:root{--bg:#0b0d10;--panel:#14181d;--line:#242b33;--ink:#e8edf2;--dim:#8b98a6;
+--real:#3ddc97;--mixed:#f5c451;--self:#ff6b6b;--none:#5a6673}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:900px;margin:0 auto;padding:40px 20px 64px}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.15;margin:0 0 8px;letter-spacing:-.02em}
+p.lede{color:var(--dim);margin:0 0 28px;max-width:60ch}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 28px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.stat b{display:block;font-size:22px;letter-spacing:-.01em}
+.stat span{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line)}
+th{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+td.num{text-align:right}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--dim)}
+.badge{font-size:11px;padding:2px 7px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.REAL{color:var(--real)}.MIXED{color:var(--mixed)}.SELF_PAY{color:var(--self)}
+.NEGLIGIBLE{color:var(--none)}.NO_SETTLEMENT{color:var(--none)}
+.note{color:var(--dim);font-size:13px;margin-top:28px}
+.note code{color:var(--ink)}
+a{color:#7cc4ff}
+footer{margin-top:36px;color:var(--dim);font-size:12px}
+</style></head>
+<body><main>
+<h1>x402 on Base — what actually got paid</h1>
+<p class=lede>Directories republish the payer counts sellers declare. This ranks the USDC that
+arrived in each advertised <code>payTo</code> wallet, read from Base Transfer logs and with
+operator-like senders removed. Window: ~8.1 days at 2s blocks.</p>
+<div class=stats>
+  <div class=stat><b>769</b><span>wallets scanned</span></div>
+  <div class=stat><b>338</b><span>with genuine revenue</span></div>
+  <div class=stat><b>$37,766.95</b><span>genuine USDC</span></div>
+  <div class=stat><b>$41,067.10</b><span>advertised USDC</span></div>
+</div>
+<table><thead><tr><th>#</th><th>service</th><th class=num>genuine</th><th class=num>payers</th>
+<th class=num>tx</th><th>verdict</th><th>payTo</th></tr></thead><tbody>
+<tr><td class=num>1</td><td>Bitrefill</td><td class=num>$23,614.31</td><td class=num>147</td><td class=num>245</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x480cd46e…</td></tr><tr><td class=num>2</td><td>(unnamed payTo)</td><td class=num>$11,500.03</td><td class=num>18</td><td class=num>48</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x0f99fc0c…</td></tr><tr><td class=num>3</td><td>Gondola</td><td class=num>$2,000.06</td><td class=num>4</td><td class=num>6</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x8180a3cb…</td></tr><tr><td class=num>4</td><td>Laso Finance</td><td class=num>$190.01</td><td class=num>14</td><td class=num>63</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x3291e96b…</td></tr><tr><td class=num>5</td><td>Clash of Coins</td><td class=num>$135.06</td><td class=num>430</td><td class=num>6758</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x8b29dabd…</td></tr><tr><td class=num>6</td><td>AX1 Console</td><td class=num>$101.16</td><td class=num>692</td><td class=num>99025</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x7284d41b…</td></tr><tr><td class=num>7</td><td>OpenGradient</td><td class=num>$85.85</td><td class=num>4</td><td class=num>7</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x9deebb5d…</td></tr><tr><td class=num>8</td><td>(unnamed payTo)</td><td class=num>$34.30</td><td class=num>686</td><td class=num>686</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x17cd53c0…</td></tr><tr><td class=num>9</td><td>vAPI x402 decoder</td><td class=num>$11.21</td><td class=num>16</td><td class=num>33</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x6b7b3cb6…</td></tr><tr><td class=num>10</td><td>Arkham x402</td><td class=num>$10.40</td><td class=num>3</td><td class=num>3</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x942bd3e3…</td></tr><tr><td class=num>11</td><td>BlockRun.AI</td><td class=num>$9.35</td><td class=num>53</td><td class=num>2171</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0xe9030014…</td></tr><tr><td class=num>12</td><td>HivemindOS</td><td class=num>$8.04</td><td class=num>5</td><td class=num>9</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0xbd62f8dc…</td></tr><tr><td class=num>13</td><td>Apify</td><td class=num>$8.01</td><td class=num>4</td><td class=num>7</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x4aabe17c…</td></tr><tr><td class=num>14</td><td>Glassnode</td><td class=num>$5.47</td><td class=num>18</td><td class=num>119</td><td><span class='badge REAL'>REAL</span></td><td class=mono>0x1f81da45…</td></tr><tr><td class=num>15</td><td>StableEnrich</td><td class=num>$5.27</td><td class=num>25</td><td class=num>1557</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x325bdf6f…</td></tr><tr><td class=num>16</td><td>SCRIPTMASTERLABS</td><td class=num>$5.06</td><td class=num>1</td><td class=num>4</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x5bbd32e0…</td></tr><tr><td class=num>17</td><td>nohumans.directory</td><td class=num>$5.04</td><td class=num>1</td><td class=num>20</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0xa733875f…</td></tr><tr><td class=num>18</td><td>Nansen</td><td class=num>$4.04</td><td class=num>28</td><td class=num>212</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x93053f1e…</td></tr><tr><td class=num>19</td><td>CheapTokens AI Inference</td><td class=num>$2.58</td><td class=num>3</td><td class=num>3</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x213c8d74…</td></tr><tr><td class=num>20</td><td>Tenjin</td><td class=num>$2.37</td><td class=num>1</td><td class=num>1</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x578c640e…</td></tr><tr><td class=num>21</td><td>Crypto Market Brief for Agents</td><td class=num>$2.13</td><td class=num>6</td><td class=num>10</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x617da938…</td></tr><tr><td class=num>22</td><td>WebberSites x402 Data API</td><td class=num>$2.12</td><td class=num>3</td><td class=num>33</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0xdd5fcea8…</td></tr><tr><td class=num>23</td><td>AI video: Veo, Kling, Seedance</td><td class=num>$1.82</td><td class=num>1</td><td class=num>21</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0xae393a9c…</td></tr><tr><td class=num>24</td><td>Pocket Network</td><td class=num>$1.14</td><td class=num>48</td><td class=num>3298</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0xf732ea49…</td></tr><tr><td class=num>25</td><td>SkyeSkiff</td><td class=num>$1.10</td><td class=num>1</td><td class=num>4</td><td><span class='badge MIXED'>MIXED</span></td><td class=mono>0x40f90bd1…</td></tr>
+</tbody></table>
+<p class=note><b>Method.</b> USDC Transfer logs into each advertised payTo on Base; operator-like senders removed; verdicts use the same thresholds as POST /seller_verify. Data as of
+2026-11-20T12:25:12Z at block 59934298.
+<b>Caveat.</b> genuine = catalogue self-declaration removed, not per-payer loop detection; a wallet can receive USDC for reasons other than x402 sales.</p>
+<p class=note>Need the per-seller breakdown — real buyers vs a payment loop, with the payer list?
+<code>GET /seller_verify?url=&lt;seller 402 endpoint&gt;</code> costs $0.05 in USDC on Base and
+returns the same verdict, plus the evidence. Free sample: <code>/seller_verify/examples</code>.
+Machine-readable: <code>/x402/leaderboard</code>.</p>
+<footer>Generated 2026-11-22T01:25:42+00:00 by AF · m938-2 · amounts are chain
+observations, not endorsements.</footer>
+</main></body></html>
