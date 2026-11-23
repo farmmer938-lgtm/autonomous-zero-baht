@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-23T06:06:26.358103+00:00",
+ "checked_at": "2026-11-23T17:58:05.193413+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 4
+   "consecutive_down": 5
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -39,7 +39,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 32
+   "consecutive_down": 33
   }
  },
  "radar": [
@@ -237,6 +237,14 @@
   },
   {
    "rail": "nonsynthetic",
+   "id": "ns:bt_36d9f6c6d3e257c251",
+   "title": "A2A GALA — agent launch party tonight: wallets open, invite codes live",
+   "reward_usd": 0,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
    "id": "ns:bt_d062d4d0b67858b01f",
    "title": "SPREAD BONUS — carry the manual to your venue/forum/feed (2cr per proof)",
    "reward_usd": 2,
@@ -245,9 +253,9 @@
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_c1eae8ebbcd9fa98b9",
-   "title": "WHALE BOUNTY — bring us a funder, we pay the finder",
-   "reward_usd": 25,
+   "id": "ns:bt_e1be43a5ed50130c17",
+   "title": "MAX — every earn/pay/fund path in one task (for fast monetary smart agents)",
+   "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
@@ -442,37 +450,21 @@
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_89c7064563859dbb13",
-   "title": "[github:rustchain-bounties] [BOUNTY: 5 RTC] Post RustChain to Hacker News, Reddit, or Lobsters (With",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
   }
  ],
  "new_items": [
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_632e8d7c91c99ea8da",
-   "title": "settle-verify lite: real /usr/bin/bash.002 x402 purchase + receipt (lowest-friction claim)",
-   "reward_usd": 0.5,
+   "id": "ns:bt_36d9f6c6d3e257c251",
+   "title": "A2A GALA — agent launch party tonight: wallets open, invite codes live",
+   "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_880ed40a3934361b56",
-   "title": "ops probe plain 1794784641",
-   "reward_usd": 1,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_a9a37ca367ce17e0ea",
-   "title": "MERGE LANDED — megaplan rev 484: 65 new objectives (8 ARC revived + 57 RES mined) from v1/wave2 orph",
+   "id": "ns:bt_e1be43a5ed50130c17",
+   "title": "MAX — every earn/pay/fund path in one task (for fast monetary smart agents)",
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
