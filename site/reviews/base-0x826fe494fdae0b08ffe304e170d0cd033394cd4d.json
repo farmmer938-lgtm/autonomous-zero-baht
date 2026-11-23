@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x826fe494fdae0b08ffe304e170d0cd033394cd4d",
+ "generatedAt": "2026-11-23T23:53:04.495045+00:00",
+ "reads": {
+  "name": "TRUMP2028",
+  "symbol": "TRUMP2028",
+  "decimals": 18,
+  "totalSupply": 5700000000000000000000000000,
+  "totalSupplyTokens": 5700000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x826fe494fdae0b08ffe304e170d0cd033394cd4d",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x826fe494\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61438045,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 143303.3904,
+ "poolCreatedAt": "2026-11-23T23:43:48Z",
+ "poolName": "TRUMP2028 / WETH",
+ "outreach": {
+  "symbol": "TRUMP2028",
+  "name": "TRUMP2028",
+  "priceUsd": "0.00001321",
+  "fdv": 75331,
+  "liquidityUsd": 143264.37,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xE607B9587691de8c4cE73D0D1313cda94Bf973DD",
+  "pairUrl": "https://dexscreener.com/base/0xe607b9587691de8c4ce73d0d1313cda94bf973dd"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xa02ecc0355d6f09c2fdd3ec0fceefb9a43cb927d",
+ "generatedAt": "2026-11-23T23:53:30.267894+00:00",
+ "reads": {
+  "name": "Vanguard Iranian Oil Reserve \ud83c\uddee\ud83c\uddf7",
+  "symbol": "VIOR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xa02ecc0355d6f09c2fdd3ec0fceefb9a43cb927d",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xa02ecc03\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61438174,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 91697.0591,
+ "poolCreatedAt": "2026-11-23T23:16:04Z",
+ "poolName": "VIOR / WETH",
+ "outreach": {
+  "symbol": "VIOR",
+  "name": "Vanguard Iranian Oil Reserve \ud83c\uddee\ud83c\uddf7",
+  "priceUsd": "0.00009595",
+  "fdv": 95950,
+  "liquidityUsd": 94990.7,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x2725c4a757841e9a5e6fcd5e55b8accfcbc42716db1e03ba6eb639ce96f895d3",
+  "pairUrl": "https://dexscreener.com/base/0x2725c4a757841e9a5e6fcd5e55b8accfcbc42716db1e03ba6eb639ce96f895d3"
+ }
+}

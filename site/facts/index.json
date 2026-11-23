@@ -1,6 +1,6 @@
 {
  "schema": "af.facts.index.v1",
- "generatedAt": "2026-11-23T07:35:02.789222+00:00",
+ "generatedAt": "2026-11-23T23:51:58.665057+00:00",
  "count": 28,
  "facts": [
   {
@@ -9,7 +9,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "mismatch",
-   "contentHash": "sha256:5c39ed23ab94b620ff69fdb4993e38ad8eec97133fef98d33849aaa09fb6bebe",
+   "contentHash": "sha256:63b312d51d86ad234fb4b5975775910fa5ac08e58357f612b49c4a2e1d5e23d1",
    "path": "facts/exactly-protocol-owner-ethereum-quorum.json"
   },
   {
@@ -18,7 +18,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": "consistent",
-   "contentHash": "sha256:3dfa5dd633981e4fecb92870776db5f71afa1a3052810dde8eb0d133c5fb4a60",
+   "contentHash": "sha256:a13ead4cacca660035c8d2cd04bef22367f23b1dbd5bd6e07245349b56f8901a",
    "path": "facts/kpk-security-council-ethereum-quorum.json"
   },
   {
@@ -27,7 +27,7 @@
    "chain": "ethereum",
    "kind": "proxy_admin",
    "verdict": null,
-   "contentHash": "sha256:9dc61d61f612acc81ca362c2d8b6570368c59d168d2b6c1bcd4ca1bd1dcaee03",
+   "contentHash": "sha256:17c7f6b8f3c5854eb90f804509b625b44c47a390eb70ed9a3b21427729f50060",
    "path": "facts/aave-v3-pool-proxy-ethereum.json"
   },
   {
@@ -36,7 +36,7 @@
    "chain": "ethereum",
    "kind": "safe_quorum",
    "verdict": null,
-   "contentHash": "sha256:85d6664c31381c2a97bbf7700ef1ccb5ed9d479f5ed8705132e6f84f440f20fb",
+   "contentHash": "sha256:7829aa893d3310d3bc2f488a19a47c542c1ff2d163fa6c76f0ee407a2fb90d59",
    "path": "facts/gnosisdao-treasury-safe-quorum.json"
   },
   {
@@ -45,7 +45,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:a0db5d77053d2c268a857cc70bebbc2e9b5ec6dacb33429a9538b819349241f6",
+   "contentHash": "sha256:f0c034744a869325017ff611411f9d181e10fa022f9f77185d20414f998b04fb",
    "path": "facts/aave-addresses-provider-owner.json"
   },
   {
@@ -54,7 +54,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:62a3c6c45b39bd34b4fb9e5ad3fab1dd4b9cd324bab15a75c09076b6b1b8420b",
+   "contentHash": "sha256:a785e65391174833c08f7926776d1686e5f6506ba805084feea53e7e6d2daf1c",
    "path": "facts/uniswap-v3-factory-owner.json"
   },
   {
@@ -63,7 +63,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:4aa62b7c57f12b0557614f6a3acfa856c69f5d10c37c9b4578968048239fe794",
+   "contentHash": "sha256:a182a86532e42b768cf486e09b224f9c2747b075fab303c7be300f25ac8c3f01",
    "path": "facts/maker-pause-proxy-owner.json"
   },
   {
@@ -72,7 +72,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:c3eb879914983f60e2d6b18e0a5276e79757405e63b6ea613925b82cd0555b26",
+   "contentHash": "sha256:036bd32acc6fcf01cf72a1f9cbb3603e4b8e5a4d2d05c5cee018e5f2c9f85c3c",
    "path": "facts/1inch-v6-router-owner.json"
   },
   {
@@ -81,7 +81,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:7913e8386801b82fb7efd7be0d0b9e7fcdb733fc3c276f826a3f762c97bb6347",
+   "contentHash": "sha256:962473fb1c2e298bfc0be256f2a8e1c1526d0e1df64307ab14bd1bc19ebd6a20",
    "path": "facts/eigenlayer-strategy-manager-owner.json"
   },
   {
@@ -90,7 +90,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:06f2f2478e05d9bcefaa6334b63ff30d07436fd0ebabd9f0b829f73e5c62736a",
+   "contentHash": "sha256:d791d8809e61f0c80d28e1dc05e43f9d91f5d9423fe2b5ea8fbd7bded4ce7379",
    "path": "facts/mayc-owner.json"
   },
   {
@@ -99,7 +99,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:1ddfee53f5e1da09bf2ca1c2546d8fb483e71ecece4a4ce5f4db766a5479ae18",
+   "contentHash": "sha256:87131d3dc51f7eef0ad12fa0e00135de1c8dfe4ca85127713f02e183b57c1a98",
    "path": "facts/azuki-owner.json"
   },
   {
@@ -108,7 +108,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:0b960db6685051598a4af2bfef24aa1b5c52bb90866f5005447f7552b43e0b9b",
+   "contentHash": "sha256:e535e8c2d3a24786b3b1e1a22836c50bd50e3245a406eabec17ad9ba0dd89d07",
    "path": "facts/pudgy-penguins-owner.json"
   },
   {
@@ -117,7 +117,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:91cdbdba04725d276bcde2d533a469f298540d7dd81e81a823b2e6b836f62d08",
+   "contentHash": "sha256:042aa8bc7fb11ef56444baafa8df263fad96e98db43374c711967c288e53267a",
    "path": "facts/moonbirds-owner.json"
   },
   {
@@ -126,7 +126,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:20d6bc46d9e1d2cb7a19c9faf1856858d3d67cbedaa26ae6a0fefa99dd5addf2",
+   "contentHash": "sha256:906332e06a645c409ab1a1ecec3f9bc57589278d6f53c17a7e2c05bcea7b3ebc",
    "path": "facts/doodles-owner.json"
   },
   {
@@ -135,7 +135,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:a1b3c6432173cf6a76c789d403048274bcb67e6e1cb1d819d469ce58a9b4ad34",
+   "contentHash": "sha256:3b60943801aeb95b2ba20f7cb084ac57adb0dd517bef0440cbf35e82e7225450",
    "path": "facts/otherdeed-owner.json"
   },
   {
@@ -144,7 +144,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:cd487ad1f38d748d3a66e55214b9b5a0ec80c338e4bbd6c90ee8547d66a4acfd",
+   "contentHash": "sha256:e373fe1874045c1ac6ba89b0d2071b7a6ebcc61c3957a5dfffa87dd0a6780069",
    "path": "facts/clonex-owner.json"
   },
   {
@@ -153,7 +153,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:5fd19e3911c1e6e25db6986a1a202c939b080246b5b64d8bea3f37e75ffe97a1",
+   "contentHash": "sha256:39764f0a6c0a51124d72b56c6c065c4a76cfce068cb7bc08ac20ed624baad0ed",
    "path": "facts/0x-exchange-proxy-owner.json"
   },
   {
@@ -162,7 +162,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:d054779401e1a9794cdebf456eea71fd1eb3ac0e5ac21b7b121ed934588f309a",
+   "contentHash": "sha256:cbf733722de03811bdcc20df9d6f7fe1a56b6a7e978512cfbff6963cf9b24dcb",
    "path": "facts/cool-cats-owner.json"
   },
   {
@@ -171,7 +171,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:942e4beed050ffdca26c49d032526c7bcc9310697a5a2f605c0972508a6c5238",
+   "contentHash": "sha256:6d056ef5224522edf81b86876799baedc5e31e338a2c9e8d2475c58bfd0e0c0c",
    "path": "facts/world-of-women-owner.json"
   },
   {
@@ -180,7 +180,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:76852c5e27f5c8b4e34db4a487021694c7901c89ac169c2cdfac0e3fccfc3a73",
+   "contentHash": "sha256:b88f0d3b0c2ef6c21336f44be093c97e7988af244c2769c4b55fa356c2c6629d",
    "path": "facts/kennel-club-owner.json"
   },
   {
@@ -189,7 +189,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:e6662092b7d1d7a79eb1a099f34551f0277f85dea612d63594ddb819ee59c722",
+   "contentHash": "sha256:a6a7319947778d7366fb405cfa355c79c9408fd31a41bba6efe74df7fd8cad15",
    "path": "facts/milady-owner.json"
   },
   {
@@ -198,7 +198,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:4c2825c0d0589f41f1fa6d8cb2c60b9b289db492954af7d282181984852c297d",
+   "contentHash": "sha256:110726fdee0612b0be85e025d3b8a54935d4f663c0cf9cab8ae77985827eaa15",
    "path": "facts/hashmasks-owner.json"
   },
   {
@@ -207,7 +207,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:274c0b90e411e694f02d70bad8bd7995c982bd1bbcf6877f2d299f704fbaec22",
+   "contentHash": "sha256:61322ca30f75fe0c25aefa5c399294cd417b78c6383908e4b12c4ab6ee54eb17",
    "path": "facts/cryptodickbutts-owner.json"
   },
   {
@@ -216,7 +216,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:965ffe86111a4b25cccdc3185daba6c5988b07ec1b23dde154be83486bedd076",
+   "contentHash": "sha256:d0b10238b56544b95bdabfe480617f98fed8c1601608befdda0c4a162853f9bc",
    "path": "facts/1inch-v5-router-owner.json"
   },
   {
@@ -225,7 +225,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:519099caf8b82920fec09ed8264aa9838e20685ab44edc29105a3eaaa6b179b4",
+   "contentHash": "sha256:eea3c451342a83dd90ceb0346298a6ffd3d66feb4a1a63f45a588d0403908e41",
    "path": "facts/paraswap-v5-owner.json"
   },
   {
@@ -234,7 +234,7 @@
    "chain": "ethereum",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:18b49e449a6fc47dd9abb71f11d25e3b99f58a95f804ba93d7980fe5baf226d6",
+   "contentHash": "sha256:2eb815e8b058997c261b1f4147edcbd9881fe6ec0e3f533a2583a9d26c17b141",
    "path": "facts/convex-booster-owner.json"
   },
   {
@@ -243,7 +243,7 @@
    "chain": "base",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:d0b27fd50d74657e5a15408517110ed1af944866476e10e15774fe681f508a41",
+   "contentHash": "sha256:a3dd37b612c550f54de92595757ded747527c8b81748267cf8908a5ba718d53d",
    "path": "facts/uniswap-v3-factory-base-owner.json"
   },
   {
@@ -252,7 +252,7 @@
    "chain": "base",
    "kind": "owner_contract",
    "verdict": null,
-   "contentHash": "sha256:d3c35f8b2e7f8471e55e1e03f5db23af581d00c95b8421a87dc4db073516f383",
+   "contentHash": "sha256:b1b21445d84a2fc5e0669856877f85bb07b733aa3c7eff5a94bdb132880d065d",
    "path": "facts/morpho-blue-owner.json"
   }
  ],

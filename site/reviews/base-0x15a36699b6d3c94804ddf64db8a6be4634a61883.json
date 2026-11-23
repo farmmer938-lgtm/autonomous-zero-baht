@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x15a36699b6d3c94804ddf64db8a6be4634a61883",
+ "generatedAt": "2026-11-23T23:53:26.584016+00:00",
+ "reads": {
+  "name": "U\u2019S ENERGY FUND",
+  "symbol": "USEF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x15a36699b6d3c94804ddf64db8a6be4634a61883",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x15a36699\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61438155,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 80766.8605,
+ "poolCreatedAt": "2026-11-23T23:27:19Z",
+ "poolName": "USEF / WETH",
+ "outreach": {
+  "symbol": "USEF",
+  "name": "U\u2019S ENERGY FUND",
+  "priceUsd": "0.00008396",
+  "fdv": 83966,
+  "liquidityUsd": 83126.74,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x4011fc427b0f40754b64e77a2baac2eb79ba9af09b220a6d63b58278cf671dcd",
+  "pairUrl": "https://dexscreener.com/base/0x4011fc427b0f40754b64e77a2baac2eb79ba9af09b220a6d63b58278cf671dcd"
+ }
+}

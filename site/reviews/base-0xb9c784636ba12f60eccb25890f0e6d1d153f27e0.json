@@ -1,0 +1,43 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xb9c784636ba12f60eccb25890f0e6d1d153f27e0",
+ "generatedAt": "2026-11-23T23:53:11.539679+00:00",
+ "reads": {
+  "name": "Fuzzy Cat",
+  "symbol": "FCAT",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": null,
+  "proxyAdmin": "0x1111111111111111111111111111111111111111",
+  "bytecodeScannedAddress": "0xb9c784636ba12f60eccb25890f0e6d1d153f27e0",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "USDC-style proxy \u2014 admin() controls upgrades",
+  "no mint(address,uint256) selector in the bytecode of 0xb9c78463\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61438080,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 614425.0941,
+ "poolCreatedAt": "2026-11-23T23:36:08Z",
+ "poolName": "FCAT / WETH",
+ "outreach": {
+  "symbol": "FCAT",
+  "name": "Fuzzy Cat",
+  "priceUsd": "0.000003401",
+  "fdv": 340126,
+  "liquidityUsd": 306113.56,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x964b4b7d3dd899f10fd022bf11128a7844204b34a3a75842ad26fbde25f4f708",
+  "pairUrl": "https://dexscreener.com/base/0x964b4b7d3dd899f10fd022bf11128a7844204b34a3a75842ad26fbde25f4f708"
+ }
+}
