@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xe23235ad082661100d4b1f772d3ce8bfe0f128cb",
+ "generatedAt": "2026-11-23T07:36:00.588398+00:00",
+ "reads": {
+  "name": "STRATEGIC AMERICAN OIL RESERVE ",
+  "symbol": "SAOR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xe23235ad082661100d4b1f772d3ce8bfe0f128cb",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xe23235ad\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61144925,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 96824.6968,
+ "poolCreatedAt": "2026-11-23T05:56:41Z",
+ "poolName": "SAOR / ZORA",
+ "outreach": {
+  "symbol": "SAOR",
+  "name": "STRATEGIC AMERICAN OIL RESERVE ",
+  "priceUsd": "0.00009939",
+  "fdv": 99399,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x897e27864012e59124290a18bf6243007d1369f46d66e92adb93459600037cd2",
+  "pairUrl": "https://dexscreener.com/base/0x897e27864012e59124290a18bf6243007d1369f46d66e92adb93459600037cd2"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x368f6f7f045cc62094a58b2d309452176cab5310",
+ "generatedAt": "2026-11-23T07:36:07.851844+00:00",
+ "reads": {
+  "name": "NOTF",
+  "symbol": "National Oil Truts Fund",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x368f6f7f045cc62094a58b2d309452176cab5310",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x368f6f7f\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61144961,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 1156720872.9375,
+ "poolCreatedAt": "2026-11-23T05:46:49Z",
+ "poolName": "National Oil Truts Fund / WETH",
+ "outreach": {
+  "symbol": "National Oil Truts Fund",
+  "name": "NOTF",
+  "priceUsd": "0.7715",
+  "fdv": 7715969792,
+  "liquidityUsd": 1157398598.03,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xed8d385bc6cde819e8cf65d13db7c5b1687c3ac4267a12011be2dc5c7b5e0af2",
+  "pairUrl": "https://dexscreener.com/base/0xed8d385bc6cde819e8cf65d13db7c5b1687c3ac4267a12011be2dc5c7b5e0af2"
+ }
+}

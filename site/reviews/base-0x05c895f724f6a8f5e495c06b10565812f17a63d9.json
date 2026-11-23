@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x05c895f724f6a8f5e495c06b10565812f17a63d9",
+ "generatedAt": "2026-11-23T07:35:50.696273+00:00",
+ "reads": {
+  "name": "Bootr",
+  "symbol": "BOOTR",
+  "decimals": 18,
+  "totalSupply": 9900000000000000000000000000,
+  "totalSupplyTokens": 9900000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x05c895f724f6a8f5e495c06b10565812f17a63d9",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x05c895f7\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61144875,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 148940.4605,
+ "poolCreatedAt": "2026-11-23T07:20:31Z",
+ "poolName": "BOOTR / WETH",
+ "outreach": {
+  "symbol": "BOOTR",
+  "name": "Bootr",
+  "priceUsd": "0.000008261",
+  "fdv": 81784,
+  "liquidityUsd": 149989.04,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xaB5dF8542eB7fa9a0EB246Db905160f68C4e57b1",
+  "pairUrl": "https://dexscreener.com/base/0xab5df8542eb7fa9a0eb246db905160f68c4e57b1"
+ }
+}

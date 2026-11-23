@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x45e5defe290a40548aea327ba9e690718b7cf54b",
+ "generatedAt": "2026-11-23T07:35:58.019516+00:00",
+ "reads": {
+  "name": "OuterCRANE",
+  "symbol": "CRN",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000,
+  "totalSupplyTokens": 1000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x45e5defe290a40548aea327ba9e690718b7cf54b",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x45e5defe\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61144912,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 13799.2278,
+ "poolCreatedAt": "2026-11-23T06:00:50Z",
+ "poolName": "CRN / ETH 0.3%",
+ "outreach": {
+  "symbol": "CRN",
+  "name": "OuterCRANE",
+  "priceUsd": "0.006936",
+  "fdv": 6937,
+  "liquidityUsd": 13873.6,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x66104ccdb45c5124f714803b29c536594878e37bdf55cd193ed4f5ed912b4565",
+  "pairUrl": "https://dexscreener.com/base/0x66104ccdb45c5124f714803b29c536594878e37bdf55cd193ed4f5ed912b4565"
+ }
+}
