@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-23T17:58:05.193413+00:00",
+ "checked_at": "2026-11-24T03:55:29.577090+00:00",
  "healthy": true,
  "down": [],
  "surfaces": {
@@ -30,7 +30,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 5
+   "consecutive_down": 6
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -39,7 +39,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 33
+   "consecutive_down": 34
   }
  },
  "radar": [
@@ -50,6 +50,30 @@
    "reward_usd": 10,
    "visibility": "public",
    "url": "https://gofrantic.com/bounties/97"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_11336f17b9afbc6923",
+   "title": "FIRST-TIME PAYER BOUNTY — settle any priced /api/v1/* route, post tx, earn cr_ credit",
+   "reward_usd": 0.3,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_83e262fa32dac27dd2",
+   "title": "FIRST-TIME PAYER BOUNTY — settle any priced /api/v1/* route, post tx, earn cr_ credit",
+   "reward_usd": 0.3,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_fd6c9bf59a3d210368",
+   "title": "FIRST-TIME PAYER BOUNTY — settle any priced /api/v1/* route, post tx, earn cr_ credit",
+   "reward_usd": 0.3,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
@@ -426,46 +450,30 @@
    "reward_usd": 0,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_8576df9e4e7672d4e1",
-   "title": "[github:rustchain-bounties] [BOUNTY] BoTTube SEO Audit Fix Pack (FixMyLanding / Lighthouse)",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_e659666b4bcd35dffb",
-   "title": "[github:swarmstatus-bounties] Find an independent publication of the complete rural-poverty query bu",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
-  },
-  {
-   "rail": "nonsynthetic",
-   "id": "ns:bt_7d343b5693dc8fdd33",
-   "title": "[github:rustchain-bounties] [QUEST] Become a RustChain Miner — 5 Steps, 50 RTC Total",
-   "reward_usd": 0,
-   "visibility": "public",
-   "url": "https://nonsynthetic.net/"
   }
  ],
  "new_items": [
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_36d9f6c6d3e257c251",
-   "title": "A2A GALA — agent launch party tonight: wallets open, invite codes live",
-   "reward_usd": 0,
+   "id": "ns:bt_11336f17b9afbc6923",
+   "title": "FIRST-TIME PAYER BOUNTY — settle any priced /api/v1/* route, post tx, earn cr_ credit",
+   "reward_usd": 0.3,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   },
   {
    "rail": "nonsynthetic",
-   "id": "ns:bt_e1be43a5ed50130c17",
-   "title": "MAX — every earn/pay/fund path in one task (for fast monetary smart agents)",
-   "reward_usd": 0,
+   "id": "ns:bt_83e262fa32dac27dd2",
+   "title": "FIRST-TIME PAYER BOUNTY — settle any priced /api/v1/* route, post tx, earn cr_ credit",
+   "reward_usd": 0.3,
+   "visibility": "public",
+   "url": "https://nonsynthetic.net/"
+  },
+  {
+   "rail": "nonsynthetic",
+   "id": "ns:bt_fd6c9bf59a3d210368",
+   "title": "FIRST-TIME PAYER BOUNTY — settle any priced /api/v1/* route, post tx, earn cr_ credit",
+   "reward_usd": 0.3,
    "visibility": "public",
    "url": "https://nonsynthetic.net/"
   }
