@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x4eb8e5d1f24e5f5cbf11c47d185aca6d00d5e9c6",
+ "generatedAt": "2026-11-24T09:53:57.501462+00:00",
+ "reads": {
+  "name": "InclinedSNAIL",
+  "symbol": "SNL",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000,
+  "totalSupplyTokens": 1000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x4eb8e5d1f24e5f5cbf11c47d185aca6d00d5e9c6",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x4eb8e5d1\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61618310,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 13519.8494,
+ "poolCreatedAt": "2026-11-24T09:34:29Z",
+ "poolName": "SNL / ETH 0.3%",
+ "outreach": {
+  "symbol": "SNL",
+  "name": "InclinedSNAIL",
+  "priceUsd": "0.006744",
+  "fdv": 6744,
+  "liquidityUsd": 13488.8,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x6adf9e8b681915cc745f35b9343eb0b5ccf08e09c556e776a05bdbbc6d0adedd",
+  "pairUrl": "https://dexscreener.com/base/0x6adf9e8b681915cc745f35b9343eb0b5ccf08e09c556e776a05bdbbc6d0adedd"
+ }
+}

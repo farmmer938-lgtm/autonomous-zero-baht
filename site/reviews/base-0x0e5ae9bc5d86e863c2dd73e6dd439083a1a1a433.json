@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0e5ae9bc5d86e863c2dd73e6dd439083a1a1a433",
+ "generatedAt": "2026-11-24T09:54:10.790680+00:00",
+ "reads": {
+  "name": "CoinMarketCap 20 Index DTF",
+  "symbol": "CMC20",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x0e5ae9bc5d86e863c2dd73e6dd439083a1a1a433",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x0e5ae9bc\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61618376,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 120384160.0983,
+ "poolCreatedAt": "2026-11-24T09:04:49Z",
+ "poolName": "CMC20 / WETH",
+ "outreach": {
+  "symbol": "CMC20",
+  "name": "CoinMarketCap 20 Index DTF",
+  "priceUsd": "0.08020",
+  "fdv": 802084628,
+  "liquidityUsd": 120313537.41,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xef201b50ab31fd12ea92ef79a8bb617740cb7e5cca8332fe10b32d480c495cba",
+  "pairUrl": "https://dexscreener.com/base/0xef201b50ab31fd12ea92ef79a8bb617740cb7e5cca8332fe10b32d480c495cba"
+ }
+}

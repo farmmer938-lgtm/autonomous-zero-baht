@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x3daf779de6b286832abb2370323a62a1fc6350a8",
+ "generatedAt": "2026-11-24T09:54:00.027201+00:00",
+ "reads": {
+  "name": "NOTF",
+  "symbol": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x3daf779de6b286832abb2370323a62a1fc6350a8",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x3daf779d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61618322,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 712856.6981,
+ "poolCreatedAt": "2026-11-24T09:25:47Z",
+ "poolName": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad / WETH",
+ "outreach": {
+  "symbol": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad",
+  "name": "NOTF",
+  "priceUsd": "0.0004735",
+  "fdv": 4735062,
+  "liquidityUsd": 713304.94,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x59ca2d98f9550e0dd910b9585e1856a1b8c4a7972393ef6408f9d876c69c1488",
+  "pairUrl": "https://dexscreener.com/base/0x59ca2d98f9550e0dd910b9585e1856a1b8c4a7972393ef6408f9d876c69c1488"
+ }
+}

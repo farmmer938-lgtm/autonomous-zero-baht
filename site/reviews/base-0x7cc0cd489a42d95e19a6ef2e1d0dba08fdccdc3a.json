@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x7cc0cd489a42d95e19a6ef2e1d0dba08fdccdc3a",
+ "generatedAt": "2026-11-24T09:53:52.307483+00:00",
+ "reads": {
+  "name": "OFFICIAL JOE BIDEN",
+  "symbol": "BIDEN",
+  "decimals": 18,
+  "totalSupply": 7700000000000000000000000000,
+  "totalSupplyTokens": 7700000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x7cc0cd489a42d95e19a6ef2e1d0dba08fdccdc3a",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x7cc0cd48\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61618284,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 136290.6159,
+ "poolCreatedAt": "2026-11-24T09:50:08Z",
+ "poolName": "BIDEN / WETH",
+ "outreach": {
+  "symbol": "BIDEN",
+  "name": "OFFICIAL JOE BIDEN",
+  "priceUsd": "0.000009042",
+  "fdv": 69627,
+  "liquidityUsd": 136901.04,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x8E4ddE59F9D7313174C49303e1E956AE598711D1",
+  "pairUrl": "https://dexscreener.com/base/0x8e4dde59f9d7313174c49303e1e956ae598711d1"
+ }
+}

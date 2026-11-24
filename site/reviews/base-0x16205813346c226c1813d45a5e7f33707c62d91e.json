@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x16205813346c226c1813d45a5e7f33707c62d91e",
+ "generatedAt": "2026-11-24T09:54:16.082999+00:00",
+ "reads": {
+  "name": "USAR",
+  "symbol": "USAR",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x16205813346c226c1813d45a5e7f33707c62d91e",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x16205813\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61618402,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 28353900.8019,
+ "poolCreatedAt": "2026-11-24T09:04:47Z",
+ "poolName": "USAR / WETH",
+ "outreach": {
+  "symbol": "USAR",
+  "name": "USAR",
+  "priceUsd": "0.01889",
+  "fdv": 188913990,
+  "liquidityUsd": 28337267.07,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x79dca3b4e15c25bd981de8857cb8241b0cb4a02e66aa4d9b7739febea332a534",
+  "pairUrl": "https://dexscreener.com/base/0x79dca3b4e15c25bd981de8857cb8241b0cb4a02e66aa4d9b7739febea332a534"
+ }
+}
