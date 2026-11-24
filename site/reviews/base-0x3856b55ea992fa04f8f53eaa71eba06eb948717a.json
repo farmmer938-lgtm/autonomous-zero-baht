@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x3856b55ea992fa04f8f53eaa71eba06eb948717a",
+ "generatedAt": "2026-11-24T22:25:58.517736+00:00",
+ "reads": {
+  "name": "XST (XSolut)",
+  "symbol": "XST",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x3856b55ea992fa04f8f53eaa71eba06eb948717a",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x3856b55e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61843915,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 57027565.7536,
+ "poolCreatedAt": "2026-11-24T22:20:57Z",
+ "poolName": "XST / WETH",
+ "outreach": {
+  "symbol": "XST",
+  "name": "XST (XSolut)",
+  "priceUsd": "0.03806",
+  "fdv": 380655415,
+  "liquidityUsd": 57098483.1,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xadd77ff0dacb2bf35a01ced95e3a1c6005dc209971e0e79f04f5cb65654b2016",
+  "pairUrl": "https://dexscreener.com/base/0xadd77ff0dacb2bf35a01ced95e3a1c6005dc209971e0e79f04f5cb65654b2016"
+ }
+}

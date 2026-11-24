@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x2379867c1d3cc7fe0ae014b750ac5d2eb69fdac4",
+ "generatedAt": "2026-11-24T22:25:52.392528+00:00",
+ "reads": {
+  "name": "US Asset Reserve [USAR]",
+  "symbol": "UARS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x2379867c1d3cc7fe0ae014b750ac5d2eb69fdac4",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x2379867c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61843884,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 96974.6782,
+ "poolCreatedAt": "2026-11-24T22:21:43Z",
+ "poolName": "UARS / ZORA",
+ "outreach": {
+  "symbol": "UARS",
+  "name": "US Asset Reserve [USAR]",
+  "priceUsd": "0.00009806",
+  "fdv": 98063,
+  "liquidityUsd": 97082.82,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x2954b138ec8a1f4920748053b3cf55a3b04f63559fe5cf24655d8dde646f8530",
+  "pairUrl": "https://dexscreener.com/base/0x2954b138ec8a1f4920748053b3cf55a3b04f63559fe5cf24655d8dde646f8530"
+ }
+}

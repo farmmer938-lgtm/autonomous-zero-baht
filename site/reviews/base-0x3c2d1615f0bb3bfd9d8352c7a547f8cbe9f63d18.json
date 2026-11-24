@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x3c2d1615f0bb3bfd9d8352c7a547f8cbe9f63d18",
+ "generatedAt": "2026-11-24T22:26:11.477403+00:00",
+ "reads": {
+  "name": "SOSF \ud83d\udd25",
+  "symbol": "SOS\u200aF",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x3c2d1615f0bb3bfd9d8352c7a547f8cbe9f63d18",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x3c2d1615\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 61843979,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 4194895.6681,
+ "poolCreatedAt": "2026-11-24T22:20:42Z",
+ "poolName": "SOS\u200aF / WETH",
+ "outreach": {
+  "symbol": "SOS\u200aF",
+  "name": "SOSF \ud83d\udd25",
+  "priceUsd": "0.002799",
+  "fdv": 27995144,
+  "liquidityUsd": 4199439.99,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xc10c41f5427354add78f5b263b81535fc0dc0a812e25b8df5b6b35459917847b",
+  "pairUrl": "https://dexscreener.com/base/0xc10c41f5427354add78f5b263b81535fc0dc0a812e25b8df5b6b35459917847b"
+ }
+}
