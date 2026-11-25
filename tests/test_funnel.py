@@ -40,6 +40,16 @@ class FunnelTests(unittest.TestCase):
         self.assertIsNone(f["conversion"]["interest_to_delivered"])
         self.assertIsNone(f["conversion"]["delivered_to_paid"])
 
+    def test_af_own_self_test_is_not_a_customer(self):
+        issues = ISSUES + [{"number": 75, "labels": [{"name": "audit-request"},
+                                                     {"name": "self-test"}],
+                            "createdAt": "t4"}]
+        orders = ORDERS + [{"status": "delivered_unpaid", "issue": 75}]
+        f = fn.compute(issues, orders, PAID)
+        self.assertEqual(f["interest"], 1)
+        self.assertEqual(f["delivered"], 1)
+        self.assertEqual(f["excluded_self_tests"], [75])
+
     def test_a_delivery_is_not_a_sale(self):
         f = fn.compute(ISSUES, ORDERS, {})
         self.assertEqual(f["delivered"], 1)
