@@ -57,7 +57,10 @@ jobs:
         run: python tools/af_deploy_gate.py
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+            # A visible warning beats a silently dead site: the deploy still runs, and the step
+      # shows up as failed-but-ignored instead of taking the whole job down.
       - name: Delete older deploy artifacts
+        continue-on-error: true
         # Each artifact is ~64 MB and the account's storage is 500 MB, so a handful of
         # deploys would stop the next one from being kept. Only this workflow's own
         # artifacts are removed, and only before the new one is uploaded.
@@ -69,6 +72,7 @@ jobs:
           for id in ${ids}; do
             gh api -X DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${id}"
           done
+          echo "artifact cleanup: ${ids:-none}"
 
       - name: Upload safe static status page
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3

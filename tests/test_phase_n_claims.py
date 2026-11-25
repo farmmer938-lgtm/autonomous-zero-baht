@@ -57,3 +57,15 @@ class CouncilHonestyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DeployHonestyTests(unittest.TestCase):
+    """A build that succeeded must still publish: housekeeping steps may not abort a deploy."""
+
+    def test_artifact_cleanup_cannot_fail_the_deploy(self):
+        wf = Path(".github/workflows/pages.yml").read_text(encoding="utf-8")
+        self.assertIn("Delete older deploy artifacts", wf)
+        block = wf.split("Delete older deploy artifacts", 1)[1].split("- name:", 1)[0]
+        # Explicit and visible, not a silent `|| true` (which test_workflow_safety forbids).
+        self.assertIn("continue-on-error: true", block,
+                      "cleanup must not abort a deploy that already succeeded")
