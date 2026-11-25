@@ -34,6 +34,13 @@ TIERS = {"base": 15.0, "multi_chain": 35.0, "pinned_promotion": 75.0}
 MICRO_TIER = {"id": "micro_fix", "usdc": 0.5}
 # Tracked, because the workflow commits it: an untracked ledger is empty on every CI
 # run, so each run would re-match the same transfers and publish revenue again.
+# A transfer in the newest block can still disappear in a reorg, and a transfer from AF's
+# own wallet (or from a swap settlement paying AF back) is not a sale.
+MIN_CONFIRMATIONS = 12
+SELF_SENDERS = frozenset({
+    AF.lower(),
+    "0x9008d19f58aabd9ed0d60971565aa8510560ab41",  # CoW Protocol GPv2Settlement
+})
 LEDGER = "data/paid_ledger.json"
 LEGACY_LEDGER = "artifacts/payments/paid.json"  # read-only fallback from before the move
 
@@ -111,6 +118,40 @@ def invoice_map(targets):
     return inv
 
 
+def order_key(invoice):
+    """One sale per invoice. The amount is the order id, so the key is the amount."""
+    return f"{invoice['tier']}:{invoice['token'].lower()}:{invoice['amount_usdc']:.3f}"
+
+
+def classify(transfer, inv_map, seen_txs, seen_orders, latest_block,
+             confirmations=MIN_CONFIRMATIONS, self_senders=SELF_SENDERS):
+    """Decide what one inbound transfer is. Never raises, never guesses.
+
+    Returns {"kind": ..., "reason": ..., "invoice": ...} where kind is one of
+    payment / pending / duplicate_tx / duplicate_order / self / unmatched.
+    Only `payment` may be counted as cash.
+    """
+    tx = str(transfer.get("txHash") or "").lower()
+    sender = str(transfer.get("from") or "").lower()
+    if tx and tx in seen_txs:
+        return {"kind": "duplicate_tx", "reason": "this tx is already in the ledger"}
+    if sender in self_senders:
+        return {"kind": "self", "reason": f"{sender} is AF's own wallet or a swap settlement"}
+    amount = float(transfer.get("amount_usdc") or 0)
+    invoice = inv_map.get(round(amount, 3))
+    if not invoice or abs(amount - invoice["amount_usdc"]) > 0.0005:
+        return {"kind": "unmatched", "reason": "amount is not an exact invoice"}
+    key = order_key(invoice)
+    if key in seen_orders:
+        return {"kind": "duplicate_order", "reason": f"order {key} is already paid",
+                "invoice": invoice}
+    depth = latest_block - int(transfer.get("block") or 0)
+    if depth < confirmations:
+        return {"kind": "pending", "reason": f"{depth} confirmation(s), needs {confirmations}",
+                "invoice": invoice}
+    return {"kind": "payment", "reason": f"{depth} confirmations", "invoice": invoice}
+
+
 def load_paid():
     # The legacy path is read so a wallet that already recorded payments is never
     # re-matched as new revenue; everything is written to LEDGER from now on.
@@ -164,21 +205,32 @@ def main() -> int:
     res = scan_inbound()
     inv = invoice_map(targets)
     paid = load_paid()
-    seen = {p["txHash"] for p in paid["payments"]}
+    seen = {p["txHash"].lower() for p in paid["payments"]}
+    seen_orders = {p["orderKey"] for p in paid["payments"] if p.get("orderKey")}
     print(f"scanned blocks {res['fromBlock']}..{res['scannedToBlock']} | inbound transfers: {len(res['transfers'])}")
     matched = 0
+    pending = 0
     for t in res["transfers"]:
-        if t["txHash"] in seen:
-            continue
-        m = inv.get(round(t["amount_usdc"], 3))
-        # The amount is the order id, so a transfer that is not an exact invoice is not a sale.
-        if not m or abs(t["amount_usdc"] - m["amount_usdc"]) > 0.0005:
+        d = classify(t, inv, seen, seen_orders, res["scannedToBlock"])
+        if d["kind"] == "unmatched":
             print(f"  unmatched transfer {t['amount_usdc']} USDC from {t['from'][:10]}.. tx {t['txHash'][:12]}..")
             continue
-        entry = {**t, "matchedToken": m["token"], "symbol": m["symbol"], "tier": m["tier"],
+        if d["kind"] == "pending":
+            pending += 1
+            print(f"  PENDING {t['amount_usdc']} USDC tx {t['txHash'][:12]}.. ({d['reason']})")
+            continue
+        if d["kind"] != "payment":
+            print(f"  skip {d['kind']}: tx {t['txHash'][:12]}.. ({d['reason']})")
+            continue
+        m = d["invoice"]
+        entry = {**t, "txHash": t["txHash"].lower(), "matchedToken": m["token"], "symbol": m["symbol"],
+                 "tier": m["tier"], "orderKey": order_key(m),
                  "at": datetime.now(timezone.utc).isoformat(),
-                 "confirmed": True, "evidence": f"base tx {t['txHash']} in block {t['block']}"}
+                 "confirmed": True, "confirmations": res["scannedToBlock"] - t["block"],
+                 "evidence": f"base tx {t['txHash']} in block {t['block']}"}
         paid["payments"].append(entry)
+        seen.add(entry["txHash"])
+        seen_orders.add(entry["orderKey"])
         matched += 1
         print(f"  MATCH {m['symbol'] or m['token'][:10]} <- {t['amount_usdc']} USDC (tx {t['txHash'][:12]}..)")
         if "--write" in sys.argv:
@@ -198,8 +250,12 @@ def main() -> int:
         os.makedirs(os.path.dirname(LEDGER), exist_ok=True)
         json.dump(paid, open(LEDGER, "w"), indent=1)
         os.makedirs("site/paid", exist_ok=True)
-        json.dump({"schema": "af.paid.index.v1", "count": len(paid["payments"]),
-                   "cash_received_usdc": round(sum(p["amount_usdc"] for p in paid["payments"]), 6),
+        # Cash is only money a third party paid for an order. Pending transfers are named
+        # so nobody reads a tip-block transfer as a sale.
+        cash = [p for p in paid["payments"] if p.get("confirmed") and p.get("orderKey")]
+        json.dump({"schema": "af.paid.index.v1", "count": len(cash),
+                   "cash_received_usdc": round(sum(p["amount_usdc"] for p in cash), 6),
+                   "pending_usdc": 0.0,
                    "payments": paid["payments"]}, open("site/paid/index.json", "w"), indent=1)
         print(f"wrote site/paid/index.json ({len(paid['payments'])} payments)")
     return 0
