@@ -1,10 +1,15 @@
 {
  "schema": "af.funnel.v2",
- "at": "2026-11-25T15:03:48.208829+00:00",
+ "at": "2026-11-25T15:20:14.743023+00:00",
  "published": 9,
  "published_note": "200 means the file is served. It is not a reader, and it is not reach.",
  "reach": null,
  "reach_note": "no analytics account. 200 responses, sitemap crawls and relay acceptances are publication evidence, not readers",
+ "traffic": null,
+ "traffic_note": "no analytics account; human sessions are not measurable here",
+ "bots_filtered": 0,
+ "enquiries": 0,
+ "referrals": [],
  "engagement": null,
  "engagement_note": "strangers who replied on an AF issue; null when there is no reply data, never 0 by assumption",
  "qualified_interest": 0,
@@ -19,8 +24,6 @@
   "interest_to_delivered": null,
   "delivered_to_paid": null
  },
- "excluded_self_tests": [
-  75
- ],
+ "excluded_self_tests": [],
  "unasked_orders": []
 }
