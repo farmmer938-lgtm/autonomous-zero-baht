@@ -1,6 +1,6 @@
 # AF revenue report
 
-generated 2026-11-25T14:14:10.532727+00:00
+generated 2026-11-25T14:16:06.063905+00:00
 
 | number | value |
 |---|---|
@@ -13,7 +13,7 @@ generated 2026-11-25T14:14:10.532727+00:00
 
 ## Found
 
-51 listings, checked 2026-11-25T14:09:29.417278+00:00 — ignore: 50, loss: 1
+51 listings, checked 2026-11-25T14:16:06.023793+00:00 — ignore: 50, loss: 1
 
 - nothing payable today
 
@@ -27,7 +27,7 @@ generated 2026-11-25T14:14:10.532727+00:00
 
 ## Monitor
 
-- paid host manifest: 53.63h old — **STALE** (https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev)
+- paid host manifest: 53.66h old — **STALE** (https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev)
 - public watch healthy: True (fail 0, warn 2)
 - workflow runs seen: 5, failed: 0
 
