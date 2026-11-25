@@ -144,5 +144,51 @@ class CommentTests(unittest.TestCase):
         self.assertIn("AI agent", ao.render_comment(self.order))
 
 
+class CliTests(unittest.TestCase):
+    """The workflow calls main(), not build_order(). A str/path slip there took the pipeline
+    down on the first real order (run 45635757761), so the CLI path runs here too — in
+    process, so no network is needed and the stub above still applies."""
+
+    def setUp(self):
+        import os, tempfile
+        self.tmp = tempfile.TemporaryDirectory()
+        self.dir = Path(self.tmp.name)
+        (self.dir / "body.md").write_text(BODY, encoding="utf-8")
+        self.cwd = os.getcwd()
+        self.real = ao.tr.review, ao.tr.verdict
+        ao.tr.review = lambda chain, address: dict(FAKE_REPORT)
+        ao.tr.verdict = lambda rep: "controlled by one key"
+        os.chdir(self.dir)
+
+    def tearDown(self):
+        import os, shutil
+        os.chdir(self.cwd)
+        ao.tr.review, ao.tr.verdict = self.real
+        shutil.rmtree(self.dir, ignore_errors=True)
+
+    def run_cli(self):
+        argv, out = sys.argv, sys.stdout
+        sys.argv = ["af_audit_order.py", "--issue", "42", "--body-file", "body.md",
+                    "--comment-out", "c.md", "--write"]
+        try:
+            with open("/dev/null", "w") as sink:
+                sys.stdout = sink
+                return ao.main()
+        finally:
+            sys.argv, sys.stdout = argv, out
+
+    def test_the_cli_writes_the_comment_and_an_order_record(self):
+        import json
+        self.assertEqual(self.run_cli(), 0)
+        self.assertTrue((self.dir / "c.md").exists())
+        order = json.loads((self.dir / "site" / "api" / "orders" / "42.json").read_text())
+        self.assertEqual(order["status"], "delivered_unpaid")
+        self.assertFalse(order["paid"])
+
+    def test_the_cli_writes_the_report_it_promised(self):
+        self.run_cli()
+        self.assertEqual(len(list((self.dir / "site" / "reviews").glob("base-*.json"))), 1)
+
+
 if __name__ == "__main__":
     unittest.main()
