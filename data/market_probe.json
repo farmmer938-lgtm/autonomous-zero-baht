@@ -1,0 +1,166 @@
+{
+ "schema": "af.market_probe.v1",
+ "at": "2026-11-25T15:19:51.513984+00:00",
+ "method": "GitHub search API (user.type = bot truth) + Farcaster public search; read-only, no account",
+ "classification": {
+  "bot": "API type Bot, or an agent marker/handle",
+  "question_with_context": "'?' plus a problem word, or an address in the text",
+  "unclear": "everything else, never counted as a human"
+ },
+ "github": [
+  {
+   "query": "\"mint authority\" is:issue",
+   "total_indexed": 9223,
+   "sampled": 30,
+   "question_with_context": 3,
+   "bot": 0,
+   "unclear": 27,
+   "note": "counts from the first successful call; the rerun hit the search rate limit and returned nothing, which must not be read as zero"
+  },
+  {
+   "query": "\"renounce ownership\" is:issue",
+   "total_indexed": 648,
+   "sampled": 30,
+   "question_with_context": 17,
+   "bot": 1,
+   "unclear": 12,
+   "note": "counts from the first successful call; the rerun hit the search rate limit and returned nothing, which must not be read as zero"
+  },
+  {
+   "query": "\"is this token safe\" is:issue",
+   "total_indexed": 1320,
+   "sampled": 30,
+   "question_with_context": 1,
+   "bot": 3,
+   "unclear": 26,
+   "note": "counts from the first successful call; the rerun hit the search rate limit and returned nothing, which must not be read as zero"
+  },
+  {
+   "query": "\"honeypot\" is:issue base",
+   "total_indexed": 5267,
+   "sampled": 30,
+   "question_with_context": 2,
+   "bot": 1,
+   "unclear": 27,
+   "note": "counts from the first successful call; the rerun hit the search rate limit and returned nothing, which must not be read as zero"
+  },
+  {
+   "query": "\"token audit\" is:issue base",
+   "total_indexed": 30463,
+   "sampled": 30,
+   "question_with_context": 1,
+   "bot": 1,
+   "unclear": 28,
+   "note": "counts from the first successful call; the rerun hit the search rate limit and returned nothing, which must not be read as zero"
+  }
+ ],
+ "farcaster": [
+  {
+   "query": "mint authority",
+   "sampled": 16,
+   "bot": 0,
+   "question_with_context": 1,
+   "unclear": 15,
+   "samples": [
+    "Full thing: https://hackmd.io/@eKiId-r1SoqWVAHc9XdaVw/Hk2eDGo7-e\n\nCrea"
+   ],
+   "error": null
+  },
+  {
+   "query": "renounce ownership",
+   "sampled": 23,
+   "bot": 0,
+   "question_with_context": 3,
+   "unclear": 20,
+   "samples": [
+    "Wen ownership renounced??",
+    "Is there a way to renounce channel ownership?",
+    "Just grabbed more bag of $LATCH on Base, ownership renounced, LP locke"
+   ],
+   "error": null
+  },
+  {
+   "query": "is this token safe",
+   "sampled": 24,
+   "bot": 5,
+   "question_with_context": 4,
+   "unclear": 15,
+   "samples": [
+    "Before you buy a tokenised stock, ask three questions. The boss of Zot",
+    "Wrote about this in October when Gravity Alpha shut down on November 1",
+    "Good morning ☀️ \n\nPerhaps all these years we have been searching for s",
+    "QR Miniapp Update\n\nEarlier today, an attacker stole credentials from t"
+   ],
+   "error": null
+  },
+  {
+   "query": "honeypot base token",
+   "sampled": 25,
+   "bot": 0,
+   "question_with_context": 6,
+   "unclear": 19,
+   "samples": [
+    "farcade token looks like a honeypot. stay safe.\n\nhttps://honeypot.is/b",
+    "I can't possibly be the only one on FC getting honeypot tokens.\n\nIs th",
+    "honeypot tracker on base that not only checks apparent honetpots but a",
+    "another day, another honeypot using a farcaster native app's name to t",
+    "The 100% security and compliance of the $NFTT token have been successf"
+   ],
+   "error": null
+  },
+  {
+   "query": "token audit",
+   "sampled": 25,
+   "bot": 0,
+   "question_with_context": 6,
+   "unclear": 19,
+   "samples": [
+    "Who’s gonna de-throne me? 🫣\n\nPs. Could have of course cheated with tre",
+    "What the devs are working on this week:\n-Wallet: adding Robinhood Chai",
+    "What the devs are working on this week:\n-Clanker: fixed Clanker tokens",
+    "What the devs are working on this week:\n-Clanker: auditing v5, rolling",
+    "What the devs are working on this week:\n-Clanker: getting v5 ready to "
+   ],
+   "error": null
+  }
+ ],
+ "manual_review": {
+  "reviewed_at": "2026-11-25T15:19:51.513965+00:00",
+  "reviewed_by": "AF, by reading the sampled titles and casts",
+  "github_verdict": "the 'questions' are mostly spec text, my own self-test issue (#75), and developer design docs. Reading 15 samples found 0 that ask anyone to check a specific token.",
+  "farcaster_verdict": "real pain signals exist, and they are about honeypots, not ownership: 'farcade token looks like a honeypot', 'I can't possibly be the only one on FC getting honeypot tokens', 'honeypot tracker on base that not only checks apparent honeypots'.",
+  "questions_ready_to_pay": 0,
+  "pain_signals_found": 4,
+  "pain_topic": "honeypot / can I sell this token",
+  "mismatch": "the stated pain is honeypot (a live buy+sell test), which AF does NOT perform and must not claim. AF proves ownership/mint/upgradeability at a block. That is a real but narrower question, and the case studies already quote the free honeypot scanner beside it instead of copying its answer.",
+  "self_test_leak": "issue #75 appears in GitHub results for 'token audit' — AF counting its own issue is exactly the contamination the funnel excludes"
+ },
+ "verified_demand_events": 0,
+ "segments": [
+  {
+   "segment": "token creator who wants to look clean",
+   "problem": "buyers ask them for proof of ownership / no-mint",
+   "fits_today": "partial",
+   "why": "AF reports the control surface; it refuses to certify, so it cannot give the assurance they are really buying"
+  },
+  {
+   "segment": "Web3 developer reviewing a contract",
+   "problem": "wants to know who can change what, at which block",
+   "fits_today": "yes",
+   "why": "this is exactly what the engine reads, and the hash makes it diffable"
+  },
+  {
+   "segment": "user deciding whether to buy a token",
+   "problem": "is the owner able to mint or rug",
+   "fits_today": "yes",
+   "why": "owner, owner type, supply and upgradeability answer the question; honeypot stays unread and is labelled so"
+  },
+  {
+   "segment": "community moderator vetting a token before recommending it",
+   "problem": "needs a citable artefact, not a green badge",
+   "fits_today": "yes",
+   "why": "a block-stamped, hashed report is exactly what a moderator can paste"
+  }
+ ],
+ "github_rate_limit": "a second run of the same queries returned total=None/sampled=0 (search API rate limit, unauthenticated budget). Zeros from a failed call are not evidence of absent demand, so the earlier counts are kept and the failure is recorded here."
+}

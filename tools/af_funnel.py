@@ -4,6 +4,7 @@
   published          a page AF owns answers 200                     (data/published.json)
   reach              human readers                                  ALWAYS null here
   engagement         a stranger replied to something AF published    (issue comments)
+  traffic            human sessions                                    ALWAYS null here
   qualified_interest an `audit-request` issue with a chain + address
   orders             an order record exists for that issue
   delivered          the report was produced (status delivered_unpaid)
@@ -37,8 +38,8 @@ ORDERS = Path("site/api/orders")
 PAID = "site/paid/index.json"
 PUBLISHED = "data/published.json"
 OUT = "data/funnel.json"
-STAGES = ("published", "reach", "engagement", "qualified_interest", "orders",
-          "delivered", "paid", "net_revenue")
+STAGES = ("published", "reach", "traffic", "engagement", "enquiries",
+          "qualified_interest", "orders", "delivered", "paid", "net_revenue")
 
 
 def load(path, default):
@@ -77,8 +78,14 @@ def compute(issue_rows, order_rows, paid, published):
         return {l["name"] for l in (i.get("labels") or [])}
 
     own = {i.get("number") for i in issue_rows if "self-test" in labels(i)}
+    def is_bot(i):
+        author = (i.get("author") or {})
+        login = (author.get("login") or "").lower()
+        return (author.get("type") or "").lower() == "bot" or login.endswith("[bot]")
+
+    bots = [i for i in issue_rows if is_bot(i)]
     asked = [i for i in issue_rows
-             if "audit-request" in labels(i) and i.get("number") not in own]
+             if "audit-request" in labels(i) and i.get("number") not in own and not is_bot(i)]
     asked_numbers = {i.get("number") for i in asked}
 
     # Orders that belong to nobody who asked are still orders — they came from the form.
@@ -103,6 +110,11 @@ def compute(issue_rows, order_rows, paid, published):
         "reach": None,
         "reach_note": ("no analytics account. 200 responses, sitemap crawls and relay "
                        "acceptances are publication evidence, not readers"),
+        "traffic": None,
+        "traffic_note": "no analytics account; human sessions are not measurable here",
+        "bots_filtered": len(bots),
+        "enquiries": len(asked),
+        "referrals": sorted({o.get("referral") for o in kept if o.get("referral")}),
         "engagement": engaged or None,
         "engagement_note": ("strangers who replied on an AF issue; null when there is no "
                             "reply data, never 0 by assumption"),

@@ -67,6 +67,23 @@ class StageTests(unittest.TestCase):
                                            "self_test": True}])
         self.assertEqual((f["orders"], f["delivered"]), (0, 0))
 
+    def test_a_bot_issue_is_filtered_not_counted(self):
+        issues = [{"number": 5, "labels": [{"name": "audit-request"}],
+                   "author": {"login": "some-bot", "type": "Bot"}}]
+        f = run(issue_rows=issues)
+        self.assertEqual(f["bots_filtered"], 1)
+        self.assertEqual(f["enquiries"], 0)
+        self.assertEqual(f["qualified_interest"], 0)
+
+    def test_human_traffic_is_null_not_zero(self):
+        self.assertIsNone(run()["traffic"])
+
+    def test_referrals_come_from_order_records_only(self):
+        f = run(order_rows=[{"issue": 1, "status": "delivered_unpaid",
+                             "referral": "farcaster"}])
+        self.assertEqual(f["referrals"], ["farcaster"])
+        self.assertEqual(run()["referrals"], [])
+
     def test_unasked_orders_are_named(self):
         self.assertEqual(run()["unasked_orders"], [9])
 
