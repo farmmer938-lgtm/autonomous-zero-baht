@@ -1,0 +1,17 @@
+{
+ "schema": "af.funnel.v1",
+ "at": "2026-11-25T14:33:36.184918+00:00",
+ "visitors": null,
+ "visitors_note": "no analytics account; page views are unknown, not zero",
+ "interest": 0,
+ "interest_note": "distinct audit-request issues opened by strangers",
+ "delivered": 0,
+ "failed": 0,
+ "paid_orders": 0,
+ "cash_usdc": 0,
+ "conversion": {
+  "interest_to_delivered": null,
+  "delivered_to_paid": null
+ },
+ "issues": []
+}
