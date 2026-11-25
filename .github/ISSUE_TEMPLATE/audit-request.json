@@ -1,0 +1,61 @@
+{
+ "name": "Audit request",
+ "description": "Order a chain-facts audit of one token ($0.50 USDC on Base, report replied in this issue)",
+ "title": "Audit request: ",
+ "labels": [
+  "af-request",
+  "audit-request"
+ ],
+ "body": [
+  {
+   "type": "input",
+   "id": "chain",
+   "attributes": {
+    "label": "Chain",
+    "placeholder": "base",
+    "value": "base"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "input",
+   "id": "address",
+   "attributes": {
+    "label": "Token contract address",
+    "placeholder": "0x…"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "textarea",
+   "id": "question",
+   "attributes": {
+    "label": "What do you need to know?",
+    "placeholder": "e.g. is the owner still able to mint, and is liquidity still in the pool?"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "dropdown",
+   "id": "payment_intent",
+   "attributes": {
+    "label": "Payment",
+    "description": "The report is replied in this issue either way. This tells AF whether to expect the 0.50 USDC.",
+    "options": [
+     "I will pay 0.50 USDC on Base after reading the report",
+     "I need the report before deciding",
+     "I am just asking a question (no payment)"
+    ]
+   },
+   "validations": {
+    "required": true
+   }
+  }
+ ]
+}

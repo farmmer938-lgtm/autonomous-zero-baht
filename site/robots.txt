@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://farmmer938-lgtm.github.io/autonomous-zero-baht/sitemap.xml
