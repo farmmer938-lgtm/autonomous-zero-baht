@@ -39,9 +39,15 @@ USDC_BASE = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
 # launch pressure pays 0.5 USDC without thinking; $15 needs a decision and gets ignored.
 INVOICE_USDC = float(os.environ.get("AF_OUTREACH_PRICE_USDC", "0.5"))
 
-def _micro_amount(token):
-    cents = (int(token[:10], 16) % 9) + 1
-    return round(INVOICE_USDC + cents / 100, 2)
+# The invoice amount must be the one tools/af_selfserve.py will reconcile, so the mapping is
+# imported from there instead of being recomputed here.
+from af_selfserve import assign_amounts  # noqa: E402
+
+
+def micro_amounts(targets):
+    return assign_amounts([t["address"] for t in targets], INVOICE_USDC, span=499)
+
+
 LEDGER = "artifacts/outreach/sent.json"
 KEY_FILE = os.environ.get("AF_SWAP_KEY_FILE", "/workspace/.secrets/af_swap.key")
 DAILY_CAP = int(os.environ.get("AF_OUTREACH_DAILY_CAP", "5"))
@@ -173,6 +179,7 @@ def main() -> int:
         print("no targets file; run tools/af_outbound.py first")
         return 1
     targets = json.load(open(tp)).get("targets") or []
+    amounts = micro_amounts(targets)
 
     latest = int(rpc("eth_blockNumber", []), 16)
     balance = int(rpc("eth_getBalance", [addr, "latest"]), 16) if addr else 0
@@ -195,7 +202,7 @@ def main() -> int:
             continue
         sym = (t.get("reads") or {}).get("symbol") or "this token"
         # EIP-681: one tap opens the wallet with the exact USDC amount and the AF address filled in.
-        amt = _micro_amount(token)
+        amt = amounts[token.lower()]
         eip681 = (f"ethereum:{USDC_BASE}@8453/transfer?address={addr}"
                   f"&uint256={int(round(amt * 1e6))}") if addr else None
         data = encode_data(memo_for(sym, t.get("reportUrl", SITE), token,

@@ -25,9 +25,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
       - name: Run public watch
@@ -58,7 +58,9 @@ jobs:
 
           d = json.loads(pathlib.Path("data/public_watch.json").read_text())
           down = d.get("down", [])
-          new = d.get("new_items", [])
+          # Only listings that state a reward are reported as paid work. A $0 listing is
+          # still shown on the status page, but calling it "paid" would be a false claim.
+          new = d.get("new_paid_items", [])
           problem = bool(down or new)
 
           open_no = gh("issue", "list", "--label", "af-alert", "--state", "open",
@@ -75,12 +77,12 @@ jobs:
           if down:
               lines.append("**Surfaces down:** " + ", ".join(down))
           if new:
-              lines.append("**New paid opportunities:**")
+              lines.append("**New listings stating a reward (not yet verified as payable):**")
               for i in new:
                   lines.append("- $%s on %s: %s -> %s" % (i.get("reward_usd"), i.get("rail"), i.get("title"), i.get("url")))
           body = ("AF self-check found work/attention needed (checked_at %s):\n\n%s\n\n"
                   "_Automated by AF; K is not in the loop._") % (d.get("checked_at"), "\n".join(lines))
-          title = "AF alert: " + (", ".join(down) if down else "%d new paid opportunity(ies)" % len(new))
+          title = "AF alert: " + (", ".join(down) if down else "%d new listing(s) with a stated reward" % len(new))
           if open_no:
               gh("issue", "comment", open_no, "--body", body)
           else:
