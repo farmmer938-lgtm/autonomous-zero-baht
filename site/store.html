@@ -323,13 +323,24 @@ fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
     .then(j=>{reo.textContent=JSON.stringify(j.receipts||[],null,2);}).catch(e=>{reo.textContent='unavailable';});
 }).catch(()=>{ document.getElementById('repOut').textContent='unavailable'; });
 
-/* Point at the CURRENT paid host, republished at every bring-up. */
+/* Point at the CURRENT paid host, republished at every bring-up. The manifest is only
+   evidence while it is fresh: the sandbox dies without notice, so an old stamp means the
+   host behind it is gone. Showing a dead URL as "live" is the same as claiming a payment
+   AF cannot take. */
+const LIVE_MAX_AGE_MIN=180;
 fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   const a=document.getElementById('liveBase');
-  if(d&&d.public_base){
-    a.textContent=d.public_base+(d.status?' ('+d.status+')':'');
-    a.href=d.public_base;
-  } else { a.textContent='not published yet'; }
+  if(!(d&&d.public_base)){ a.textContent='not published yet'; return; }
+  const t=Date.parse(d.updated_at||'');
+  const ageMin=isNaN(t)?null:(Date.now()-t)/60000;
+  if(ageMin!==null&&ageMin>LIVE_MAX_AGE_MIN){
+    a.textContent='OFFLINE — last refreshed '+d.updated_at+' ('+Math.round(ageMin/60)+'h ago)';
+    a.removeAttribute('href');
+    a.style.color='#b00020';
+    return;
+  }
+  a.textContent=d.public_base+(d.status?' ('+d.status+')':'');
+  a.href=d.public_base;
 }).catch(()=>{ document.getElementById('liveBase').textContent='not published yet'; });
 /* Catalog is rendered from the live manifest, never hardcoded, so a new SKU shows up
    the moment it is published. */
