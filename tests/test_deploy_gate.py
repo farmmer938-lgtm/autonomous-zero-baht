@@ -3,7 +3,11 @@
 The rule lives in `tools/af_deploy_gate.py`; these tests pin both the rule and the YAML
 that has to enforce it, because a gate that silently disappears looks exactly like a gate
 that always passes.
+
+CI runs the suite on a bare Python with no third-party packages, so the workflow is read as
+text (like `test_workflow_safety.py`) instead of being parsed with a YAML library.
 """
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -11,10 +15,20 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import af_deploy_gate as gate  # noqa: E402
 
-import yaml  # noqa: E402
-
-PAGES = Path(".github/workflows/pages.yml")
+PAGES_TEXT = Path(".github/workflows/pages.yml").read_text(encoding="utf-8")
 NAME = gate.UPSTREAM_ALLOWLIST[0]
+
+
+def _squash(text):
+    return " ".join(text.split())
+
+
+def _step(name):
+    """The text of one step, from its `- name:` line to the next step."""
+    start = PAGES_TEXT.index(f"- name: {name}")
+    rest = PAGES_TEXT[start + 1:]
+    end = rest.find("\n      - ")
+    return _squash(rest if end == -1 else rest[:end])
 
 
 class DecisionTests(unittest.TestCase):
@@ -51,30 +65,28 @@ class DecisionTests(unittest.TestCase):
 
 
 class WorkflowWiringTests(unittest.TestCase):
-    def setUp(self):
-        self.workflow = yaml.safe_load(PAGES.read_text(encoding="utf-8"))
-        self.deploy = self.workflow["jobs"]["deploy"]
-
     def test_the_job_is_gated_on_conclusion_and_branch(self):
-        condition = " ".join(str(self.deploy.get("if", "")).split())
-        self.assertIn("github.event.workflow_run.conclusion == 'success'", condition)
-        self.assertIn("github.event.workflow_run.head_branch == 'main'", condition)
-        self.assertIn("github.event_name != 'workflow_run'", condition)
+        text = _squash(PAGES_TEXT)
+        self.assertIn("github.event.workflow_run.conclusion == 'success'", text)
+        self.assertIn("github.event.workflow_run.head_branch == 'main'", text)
+        self.assertIn("github.event_name != 'workflow_run'", text)
 
     def test_the_allowlist_matches_the_workflows_that_trigger_a_deploy(self):
-        listed = tuple(self.workflow[True]["workflow_run"]["workflows"])
+        block = PAGES_TEXT[PAGES_TEXT.index("workflow_run:"):]
+        block = block[:block.index("types:")]
+        listed = tuple(re.findall(r"^\s+- (.+)$", block, re.MULTILINE))
         self.assertEqual(listed, gate.UPSTREAM_ALLOWLIST)
 
     def test_the_trigger_is_checked_in_code_before_anything_is_published(self):
-        steps = self.deploy["steps"]
-        names = [s.get("name") for s in steps]
-        self.assertIn("Check the trigger", names)
-        check = steps[names.index("Check the trigger")]
-        self.assertEqual(check["run"], "python tools/af_deploy_gate.py")
-        self.assertEqual(check["if"], "github.event_name == 'workflow_run'")
-        passed = " ".join(check["env"].values())
+        step = _step("Check the trigger")
+        self.assertIn("run: python tools/af_deploy_gate.py", step)
+        self.assertIn("if: github.event_name == 'workflow_run'", step)
         for upstream in ("conclusion", "head_branch", "name"):
-            self.assertIn(f"github.event.workflow_run.{upstream}", passed)
+            self.assertIn(f"github.event.workflow_run.{upstream}", step)
+
+    def test_the_check_runs_before_the_upload(self):
+        self.assertLess(PAGES_TEXT.index("- name: Check the trigger"),
+                        PAGES_TEXT.index("- name: Upload safe static status page"))
 
 
 if __name__ == "__main__":
