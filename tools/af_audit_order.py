@@ -29,7 +29,7 @@ import af_token_review as tr  # noqa: E402
 CHAINS = {"base": 8453}
 PRICE_USDC = ss.MICRO_TIER["usdc"]
 PAY_TO = ss.AF
-ORDERS = "site/api/orders"
+ORDERS = Path("site/api/orders")
 REVIEWS = Path("site/reviews")
 SECTION = re.compile(r"^###\s+(.+?)\s*\n+(.*?)(?=^###\s|\Z)", re.S | re.M)
 ADDRESS = re.compile(r"^0x[0-9a-fA-F]{40}$")
