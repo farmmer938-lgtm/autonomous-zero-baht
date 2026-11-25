@@ -1,20 +1,24 @@
 {
- "schema": "af.funnel.v1",
- "at": "2026-11-25T14:43:00.308385+00:00",
- "visitors": null,
- "visitors_note": "no analytics account; page views are unknown, not zero",
- "interest": 0,
- "interest_note": "distinct audit-request issues opened by strangers",
+ "schema": "af.funnel.v2",
+ "at": "2026-11-25T15:01:34.905225+00:00",
+ "published": 9,
+ "published_note": "200 means the file is served. It is not a reader, and it is not reach.",
+ "reach": null,
+ "reach_note": "no analytics account. 200 responses, sitemap crawls and relay acceptances are publication evidence, not readers",
+ "engagement": null,
+ "engagement_note": "strangers who replied on an AF issue; null when there is no reply data, never 0 by assumption",
+ "qualified_interest": 0,
+ "orders": 0,
  "delivered": 0,
- "failed": 0,
- "paid_orders": 0,
+ "paid": 0,
+ "net_revenue": 0.0,
  "cash_usdc": 0,
+ "costs_usd": 0.0,
  "conversion": {
+  "published_to_interest": 0.0,
   "interest_to_delivered": null,
   "delivered_to_paid": null
  },
- "excluded_self_tests": [
-  75
- ],
- "issues": []
+ "excluded_self_tests": [],
+ "unasked_orders": []
 }

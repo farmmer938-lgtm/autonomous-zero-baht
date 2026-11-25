@@ -1,0 +1,20 @@
+{
+ "schema": "af.published.v1",
+ "at": "2026-11-25T15:01:16.852938+00:00",
+ "published": 9,
+ "attempted": 9,
+ "live_paths": [
+  "audit/",
+  "audit/cases/",
+  "audit/guides/check-a-base-token.html",
+  "audit/guides/mint-authority.html",
+  "audit/guides/scanner-vs-evidence.html",
+  "store.html",
+  "reviews.html",
+  "sitemap.xml",
+  "robots.txt"
+ ],
+ "dead_paths": [],
+ "note": "200 means the file is served. It is not a reader, and it is not reach.",
+ "base": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/"
+}

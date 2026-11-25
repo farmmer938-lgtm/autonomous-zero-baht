@@ -114,6 +114,30 @@ class BuildOrderTests(unittest.TestCase):
         self.assertNotIn("paid", comment.lower().replace("is owed", ""))
 
 
+class SelfTestFlagTests(unittest.TestCase):
+    """The order record must carry its own self-test marker, so the funnel can exclude it
+    even when the issue list is not available (local runs, older artifacts)."""
+
+    def setUp(self):
+        self.real = ao.tr.review, ao.tr.verdict
+        ao.tr.review = lambda chain, address: dict(FAKE_REPORT)
+        ao.tr.verdict = lambda rep: "controlled by one key"
+
+    def tearDown(self):
+        ao.tr.review, ao.tr.verdict = self.real
+
+    def test_a_self_test_label_marks_the_order(self):
+        o = ao.build_order(75, BODY, labels=["audit-request", "self-test"])
+        self.assertTrue(o["self_test"])
+
+    def test_a_real_order_is_not_marked(self):
+        o = ao.build_order(1, BODY, labels=["audit-request"])
+        self.assertFalse(o["self_test"])
+
+    def test_no_labels_means_not_a_self_test(self):
+        self.assertFalse(ao.build_order(1, BODY)["self_test"])
+
+
 class CommentTests(unittest.TestCase):
     def setUp(self):
         self.real = ao.tr.review, ao.tr.verdict

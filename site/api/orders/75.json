@@ -13,5 +13,6 @@
  "status": "delivered_unpaid",
  "verdict": "upgradeable AND controlled by one key — highest control risk · mint still present · can be paused",
  "report_path": "site/reviews/base-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.json",
- "report_sha256": "ace1e96fd4686d3921bce275e370ab65ef690fbe8970f2f8c61026bf19aa75b5"
+ "report_sha256": "ace1e96fd4686d3921bce275e370ab65ef690fbe8970f2f8c61026bf19aa75b5",
+ "self_test": true
 }

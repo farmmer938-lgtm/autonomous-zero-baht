@@ -38,8 +38,9 @@ jobs:
       - name: Produce the report
         env:
           ISSUE: ${{ github.event.issue.number }}
+          LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
         run: |
-          python tools/af_audit_order.py --issue "$ISSUE" \
+          python tools/af_audit_order.py --issue "$ISSUE" --labels "$LABELS" \
             --body-file /tmp/body.md --comment-out /tmp/comment.md --write
 
       - name: Reply in the issue
