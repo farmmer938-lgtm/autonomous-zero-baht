@@ -20,8 +20,9 @@ from pathlib import Path
 
 BASE = "https://farmmer938-lgtm.github.io/autonomous-zero-baht/"
 OUT = Path("data/published.json")
-PATHS = ["audit/", "audit/cases/", "audit/guides/check-a-base-token.html",
-         "audit/guides/mint-authority.html", "audit/guides/scanner-vs-evidence.html",
+PATHS = ["audit/", "audit/e2/", "audit/cases/",
+         "audit/guides/check-a-base-token.html", "audit/guides/mint-authority.html",
+         "audit/guides/scanner-vs-evidence.html",
          "store.html", "reviews.html", "sitemap.xml", "robots.txt"]
 
 
