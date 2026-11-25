@@ -101,7 +101,7 @@ def render_comment(order):
     return "\n".join(lines)
 
 
-def build_order(issue_number, body, now=None):
+def build_order(issue_number, body, now=None, labels=()):
     now = now or datetime.now(timezone.utc)
     fields = parse_issue(body)
     order = {
@@ -116,6 +116,8 @@ def build_order(issue_number, body, now=None):
         "pay_to": PAY_TO,
         "payment_tx": None,
         "paid": False,
+        # AF's own verification must never look like a customer in the funnel.
+        "self_test": "self-test" in {l.strip().lower() for l in (labels or ())},
     }
     ok, reason = validate(fields)
     if not ok:
@@ -136,10 +138,12 @@ def main():
     ap.add_argument("--issue", required=True, type=int)
     ap.add_argument("--body-file", required=True)
     ap.add_argument("--comment-out", required=True)
+    ap.add_argument("--labels", default="", help="comma-separated issue labels")
     ap.add_argument("--write", action="store_true")
     a = ap.parse_args()
     body = Path(a.body_file).read_text(encoding="utf-8")
-    order = build_order(a.issue, body)
+    labels = [l for l in a.labels.split(",") if l.strip()]
+    order = build_order(a.issue, body, labels=labels)
     comment = render_comment(order)
     Path(a.comment_out).write_text(comment, encoding="utf-8")
     if a.write:
