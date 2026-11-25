@@ -4,6 +4,7 @@
   published          a page AF owns answers 200                     (data/published.json)
   reach              human readers                                  ALWAYS null here
   engagement         a stranger replied to something AF published    (issue comments)
+  discovered         a search engine confirms the URL                  ALWAYS null here
   traffic            human sessions                                    ALWAYS null here
   qualified_interest an `audit-request` issue with a chain + address
   orders             an order record exists for that issue
@@ -38,7 +39,7 @@ ORDERS = Path("site/api/orders")
 PAID = "site/paid/index.json"
 PUBLISHED = "data/published.json"
 OUT = "data/funnel.json"
-STAGES = ("published", "reach", "traffic", "engagement", "enquiries",
+STAGES = ("published", "discovered", "reach", "traffic", "engagement", "enquiries",
           "qualified_interest", "orders", "delivered", "paid", "net_revenue")
 
 
@@ -110,6 +111,11 @@ def compute(issue_rows, order_rows, paid, published):
         "reach": None,
         "reach_note": ("no analytics account. 200 responses, sitemap crawls and relay "
                        "acceptances are publication evidence, not readers"),
+        "discovered": None,
+        "discovered_note": ("needs a search engine's own word (Search Console / site: query). "
+                            "A share, a search-engine ping or a sitemap fetch is not discovery, "
+                            "and setting these fields on a share is exactly the mistake this "
+                            "file exists to prevent"),
         "traffic": None,
         "traffic_note": "no analytics account; human sessions are not measurable here",
         "bots_filtered": len(bots),
