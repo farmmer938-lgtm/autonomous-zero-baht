@@ -10,6 +10,36 @@ from pathlib import Path
 
 WORKFLOWS = sorted(Path(".github/workflows").glob("*.yml"))
 USES = re.compile(r"^\s*uses:\s*(\S+)", re.MULTILINE)
+WORKFLOW_RUN = re.compile(r"workflow_run:(.*?)(?=\n  [a-z_]+:|\Z)", re.S)
+WORKFLOWS_LIST = re.compile(r"workflows:\s*(\[[^\]]*\]|(?:\n\s*-\s*[^\n]+)+)")
+
+
+def _workflow_names():
+    names = set()
+    for path in WORKFLOWS:
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if line.startswith("name:"):
+                names.add(line.split(":", 1)[1].strip())
+                break
+    return names
+
+
+def _listed_workflows(text):
+    """Names a `workflow_run` block waits on, in either `[a, b]` or `- a` form."""
+    block = WORKFLOW_RUN.search(text)
+    if not block:
+        return []
+    found = WORKFLOWS_LIST.search(block.group(1))
+    if not found:
+        return []
+    raw = found.group(1)
+    pieces = raw.strip("[]").split(",") if raw.startswith("[") else raw.splitlines()
+    names = []
+    for piece in pieces:
+        name = piece.strip().lstrip("-").strip().strip("'\"")
+        if name and not name.startswith("#"):
+            names.append(name)
+    return names
 
 
 class WorkflowSafetyTests(unittest.TestCase):
@@ -43,6 +73,13 @@ class WorkflowSafetyTests(unittest.TestCase):
                 continue
             self.assertNotIn("workflow_run.head_sha", text,
                              f"{path} would execute code from the run that triggered it")
+
+    def test_workflow_run_lists_real_workflow_names(self):
+        names = _workflow_names()
+        for path in WORKFLOWS:
+            for name in _listed_workflows(path.read_text(encoding="utf-8")):
+                self.assertIn(name, names,
+                              f"{path} waits on {name!r}, which is no workflow's name")
 
     def test_no_step_silently_swallows_failure(self):
         for path in WORKFLOWS:
