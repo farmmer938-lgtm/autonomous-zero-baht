@@ -1,0 +1,103 @@
+{
+ "schema": "af.phase_n_review.v1",
+ "at": "2026-11-25T15:48:59.982169+00:00",
+ "council": {
+  "exists": false,
+  "searched": [
+   "tools/ (no advis|council|board|panel|quorum file)",
+   "grep -rln advisory|advisor|council over *.py/*.md/*.sh/*.json",
+   "find / -maxdepth 4 -iname '*council*' -o -iname 'af_advisor*'"
+  ],
+  "decision": "one agent wrote under six headings; claiming a council reviewed this would be the fabrication K forbade",
+  "to_create_it": "K approves an LLM budget (6 conversations per phase) or a local model"
+ },
+ "n1_merge": {
+  "pr": 83,
+  "sha": "2c5cbb407eb4508a3bc0b31231c550aacd540280",
+  "mergedAt": "2026-11-25T15:40:48Z",
+  "main": "2c5cbb4"
+ },
+ "n4_match": {
+  "developer": true,
+  "moderator": true,
+  "buyer": "partial",
+  "token_creator": false
+ },
+ "n6_price": {
+  "chosen": {
+   "amount": 0.5,
+   "asset": "USDC",
+   "chain": "base"
+  },
+  "retired": {
+   "amount_baht": 750,
+   "reason": "no page, template or tool ever carried it"
+  },
+  "rails": [
+   {
+    "rail": "USDC on Base",
+    "upfront": 0,
+    "kyc": false,
+    "receive_fee": 0
+   },
+   {
+    "rail": "card via Stripe/PayPal",
+    "upfront": 0,
+    "kyc": "owner",
+    "status": "not approved"
+   }
+  ]
+ },
+ "experiments": [
+  {
+   "id": "E1",
+   "needs": "owner: Search Console + one share",
+   "window_days": 14
+  },
+  {
+   "id": "E2",
+   "needs": "AF only: 10 free audits of publicly discussed tokens",
+   "window_days": 30
+  },
+  {
+   "id": "E3",
+   "needs": "owner channel; 0.50 vs 5 USDC",
+   "window_days": 30
+  }
+ ],
+ "risk_register": [
+  {
+   "risk": "declaring sales 'blocked' to avoid the hard work",
+   "severity": "high",
+   "mitigation": "the block is measured (403, push:false, no account), not asserted"
+  },
+  {
+   "risk": "E2 turns into content farming",
+   "severity": "medium",
+   "mitigation": "cap 10, 30-day clock, stop if discovered stays null"
+  },
+  {
+   "risk": "0.50 USDC reads as a toy to a moderator",
+   "severity": "medium",
+   "mitigation": "E3 price test; no claim either way until it reports"
+  },
+  {
+   "risk": "the honeypot mismatch is fatal, not fixable",
+   "severity": "high",
+   "mitigation": "state it as unresolved; never report it as solved by a share"
+  },
+  {
+   "risk": "a future session fills reach with a flattering number",
+   "severity": "high",
+   "mitigation": "Phase M test asserts reach/discovered/traffic stay null"
+  }
+ ],
+ "kpi": {
+  "humans_reached": null,
+  "real_enquiries": 0,
+  "real_orders": 0,
+  "cash_received_usdc": 0,
+  "cost_usd": 0,
+  "net_profit_usdc": 0
+ }
+}
