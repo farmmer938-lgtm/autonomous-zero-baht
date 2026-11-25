@@ -32,7 +32,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -45,4 +45,10 @@ jobs:
           path: ./site
       - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Retry the deploy once
+        # The artifact API lags behind a 64 MB upload: the first attempt reports
+        # "No artifacts named github-pages" although the upload succeeded.
+        if: failure()
+        id: retry
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
