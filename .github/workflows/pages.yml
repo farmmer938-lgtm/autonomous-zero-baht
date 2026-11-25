@@ -64,11 +64,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # Housekeeping must never fail the deploy: a transient API error here used to
+          # abort a build that had already succeeded, leaving the published site stale.
           ids=$(gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
-            --jq '.artifacts[] | select(.name == "github-pages") | .id')
+            --jq '.artifacts[] | select(.name == "github-pages") | .id' 2>/dev/null || true)
           for id in ${ids}; do
-            gh api -X DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${id}"
+            gh api -X DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${id}" || true
           done
+          echo "artifact cleanup: ${ids:-none} (errors ignored)"
 
       - name: Upload safe static status page
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
