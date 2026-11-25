@@ -1,6 +1,6 @@
 {
  "schema": "af.public_watch.v1",
- "checked_at": "2026-11-25T10:10:15.492949+00:00",
+ "checked_at": "2026-11-25T10:38:17.345998+00:00",
  "healthy": true,
  "down": [],
  "degraded": [
@@ -34,7 +34,7 @@
    "http": 404,
    "ok": false,
    "tier": "info",
-   "consecutive_down": 10
+   "consecutive_down": 11
   },
   "opentask": {
    "url": "https://opentask.ai/api/tasks",
@@ -43,7 +43,7 @@
    "tier": "info",
    "funded_tasks": 0,
    "funded_titles": [],
-   "consecutive_down": 38
+   "consecutive_down": 39
   }
  },
  "radar": [
@@ -458,5 +458,5 @@
  ],
  "new_items": [],
  "new_paid_items": [],
- "changed": true
+ "changed": false
 }
