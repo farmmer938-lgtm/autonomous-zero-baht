@@ -1,0 +1,36 @@
+{
+ "schema": "af.demand_probe.v1",
+ "at": "2026-11-25T15:05:00+00:00",
+ "method": "GitHub search API, read-only, no scraping of communities that forbid it",
+ "queries": [
+  {
+   "q": "is:issue is:open \"audit\" \"base\" in:title created:>2026-11-01",
+   "total": 109,
+   "finding": "every sampled hit is a code/CI audit trail, not a Base-token audit request"
+  }
+ ],
+ "write_permission": {
+  "own_repo": {
+   "admin": false,
+   "maintain": true,
+   "pull": true,
+   "push": true,
+   "triage": true
+  },
+  "foreign_repo_sample": {
+   "repo": "bonsai/bons",
+   "admin": false,
+   "maintain": false,
+   "pull": true,
+   "push": false,
+   "triage": false
+  },
+  "verdict": "READ-ONLY outside farmmer938-lgtm; commenting on other people's issues is not available to AF"
+ },
+ "nostr": {
+  "tooling": "none in tools/",
+  "signing_key": "absent (was in /workspace/.secrets, wiped on rebuild)",
+  "verdict": "BLOCKED: publishing needs an identity AF does not have and may not create"
+ },
+ "conclusion": "No demand for a Base-token audit could be found in the channels AF may read, and AF may not write in the channels where such demand would appear. Both are recorded rather than worked around."
+}
