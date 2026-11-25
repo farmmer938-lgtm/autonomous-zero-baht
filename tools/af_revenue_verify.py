@@ -9,6 +9,7 @@ decides that mechanically instead of by assumption, straight from the chain:
   * keep a ledger of distinct inbound transactions (tx hash -> first seen),
   * classify every inbound transfer before calling any of it revenue:
       self         - the sender is one of AF's own wallets, so the money never arrived
+      own_trade    - a swap settlement paid AF because AF sold a token in that same tx
       unattributed - a third party paid, but no order id can be tied to the tx
       customer     - a third party paid AND the tx matches a published order id
   * verdict (NONE / FIRST / CONTINUOUS / RECURRING_SAME_DAY) counts third-party
@@ -40,6 +41,11 @@ AF_WALLET = os.environ.get("AF_WALLET_ADDR", "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7
 SCAN_BLOCKS = int(os.environ.get("AF_SCAN_BLOCKS", "49000"))  # publicnode caps at 50000
 LEDGER = os.environ.get("AF_REVENUE_LEDGER", "data/revenue_ledger.json")
 ORDERS_INDEX = os.environ.get("AF_ORDERS_INDEX", "site/api/orders/index.json")
+# Swap settlement contracts pay USDC into AF's wallet because AF sold something in that
+# same transaction: the money is AF's own capital coming back, never income.
+KNOWN_SWAP_SENDERS = frozenset({
+    "0x9008d19f58aabd9ed0d60971565aa8510560ab41",  # CoW Protocol GPv2Settlement
+})
 
 
 def now():
@@ -79,8 +85,11 @@ def self_addresses():
     return frozenset(a.strip().lower() for a in found if a.strip())
 
 
-def classify_transfer(from_addr, self_set):
-    return "self" if str(from_addr or "").lower() in self_set else "external"
+def classify_transfer(from_addr, self_set, swap_senders=KNOWN_SWAP_SENDERS):
+    sender = str(from_addr or "").lower()
+    if sender in self_set:
+        return "self"
+    return "swap" if sender in swap_senders else "external"
 
 
 def load_order_txs(path=None):
@@ -104,15 +113,18 @@ def summarise(records, self_set, order_txs):
     A wrong match publishes revenue that was never earned, so a transfer is only called
     customer money when a third party sent it AND an order id names the same tx.
     """
-    totals = {"self_transfer_usdc": 0.0, "unattributed_usdc": 0.0,
-              "customer_verified_usdc": 0.0}
+    totals = {"self_transfer_usdc": 0.0, "own_trade_usdc": 0.0,
+              "unattributed_usdc": 0.0, "customer_verified_usdc": 0.0}
     rows = []
     for rec in records:
         tx = str(rec.get("tx") or "").lower()
         kind = classify_transfer(rec.get("from"), self_set)
+        if kind == "external" and rec.get("own_trade"):
+            kind = "swap"  # the receipt showed AF paying a token in the same tx
         order_id = order_txs.get(tx) if kind == "external" else None
         usdc = float(rec.get("usdc") or 0)
         bucket = ("self_transfer_usdc" if kind == "self"
+                  else "own_trade_usdc" if kind == "swap"
                   else "customer_verified_usdc" if order_id else "unattributed_usdc")
         totals[bucket] = round(totals[bucket] + usdc, 6)
         rows.append({"tx": tx, "from": rec.get("from"), "usdc": usdc, "at": rec.get("at"),
@@ -207,9 +219,11 @@ def main():
         out["transfers"] = rows
         out["verdict_note"] = (
             "%d third-party transfer(s) on %d day(s); %s USDC verified against an order, "
-            "%s USDC unattributed, %s USDC moved from AF's own wallets"
+            "%s USDC unattributed, %s USDC from AF's own swaps, %s USDC moved between "
+            "AF's own wallets"
             % (len(external), external_days, totals["customer_verified_usdc"],
-               totals["unattributed_usdc"], totals["self_transfer_usdc"]))
+               totals["unattributed_usdc"], totals["own_trade_usdc"],
+               totals["self_transfer_usdc"]))
 
         if a.write:
             save_ledger(led)

@@ -63,6 +63,31 @@ class SplitTests(unittest.TestCase):
         self.assertEqual(totals["customer_verified_usdc"], 0.1)
 
 
+class OwnTradeTests(unittest.TestCase):
+    def test_a_cow_settlement_payment_is_own_trade_proceeds(self):
+        cow = "0x9008d19f58aabd9ed0d60971565aa8510560ab41"
+        self.assertEqual(rv.classify_transfer(cow, SELF_SET), "swap")
+
+    def test_a_receipt_flagged_swap_is_not_revenue(self):
+        rec_swap = dict(rec("0xff", CUSTOMER, 3.0), own_trade=True)
+        totals, rows = rv.summarise([rec_swap], SELF_SET, {})
+        self.assertEqual(totals["own_trade_usdc"], 3.0)
+        self.assertEqual(totals["customer_verified_usdc"], 0.0)
+        self.assertEqual(rows[0]["bucket"], "own_trade_usdc")
+
+    def test_a_swap_flag_cannot_promote_a_self_transfer(self):
+        rec_self = dict(rec("0x1f", OWN, 2.0), own_trade=True)
+        totals, _ = rv.summarise([rec_self], SELF_SET, {})
+        self.assertEqual(totals["self_transfer_usdc"], 2.0)
+        self.assertEqual(totals["own_trade_usdc"], 0.0)
+
+    def test_the_buckets_add_up_to_the_total_inbound(self):
+        records = [rec("0xa1", OWN, 0.1), rec("0xa2", CUSTOMER, 0.05),
+                   dict(rec("0xa3", CUSTOMER, 3.0), own_trade=True)]
+        totals, _ = rv.summarise(records, SELF_SET, {"0xa2": "ord-9"})
+        self.assertAlmostEqual(sum(totals.values()), 3.15, places=6)
+
+
 class VerdictTests(unittest.TestCase):
     def test_no_third_party_transfer_is_none(self):
         self.assertEqual(rv.verdict(0, 0), "NONE")
