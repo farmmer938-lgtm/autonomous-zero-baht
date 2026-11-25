@@ -57,11 +57,11 @@ jobs:
               return subprocess.run(["gh", *a], capture_output=True, text=True).stdout.strip()
 
           d = json.loads(pathlib.Path("data/public_watch.json").read_text())
-          down = d.get("down", [])
-          # Only listings that state a reward are reported as paid work. A $0 listing is
-          # still shown on the status page, but calling it "paid" would be a false claim.
+          fail = d.get("fail") or []
+          warn = d.get("warn") or []
+          # Only listings the rail says it holds money for may be called paid work.
           new = d.get("new_paid_items", [])
-          problem = bool(down or new)
+          problem = bool(fail or new)
 
           open_no = gh("issue", "list", "--label", "af-alert", "--state", "open",
                        "--json", "number", "--jq", ".[0].number")
@@ -69,21 +69,31 @@ jobs:
           if not problem:
               if open_no:
                   gh("issue", "close", open_no, "--comment",
-                     "All surfaces healthy and no new paid work (checked_at %s). Auto-closed by AF." % d.get("checked_at"))
+                     "Back to normal: no FAIL surfaces and no new funded work "
+                     "(checked_at %s). WARN: %s. Auto-closed by AF."
+                     % (d.get("checked_at"), ", ".join(warn) or "none"))
               print("clear")
               raise SystemExit(0)
 
           lines = []
-          if down:
-              lines.append("**Surfaces down:** " + ", ".join(down))
+          if fail:
+              lines.append("**FAIL (act now):** " + ", ".join(fail))
+          if warn:
+              lines.append("**WARN (look later, not blocking):** " + ", ".join(warn))
+          for name in fail + [w for w in warn if w not in fail]:
+              e = (d.get("surfaces") or {}).get(name) or {}
+              if e.get("note"):
+                  lines.append("- %s: %s (%s)" % (name, e.get("note"), e.get("url")))
           if new:
-              lines.append("**New listings stating a reward (not yet verified as payable):**")
+              lines.append("**New listings with money held by the rail:**")
               for i in new:
-                  lines.append("- $%s on %s: %s -> %s" % (i.get("reward_usd"), i.get("rail"), i.get("title"), i.get("url")))
-          body = ("AF self-check found work/attention needed (checked_at %s):\n\n%s\n\n"
+                  lines.append("- $%s on %s: %s -> %s"
+                               % (i.get("reward_usd"), i.get("rail"), i.get("title"), i.get("url")))
+          body = ("AF self-check found FAIL items (checked_at %s):\n\n%s\n\n"
                   "_Automated by AF; K is not in the loop._") % (d.get("checked_at"), "\n".join(lines))
-          title = "AF alert: " + (", ".join(down) if down else "%d new listing(s) with a stated reward" % len(new))
+          title = "AF alert: " + (", ".join(fail) if fail else "%d new funded listing(s)" % len(new))
           if open_no:
+              # Same issue for a repeat FAIL, so the thread keeps the history.
               gh("issue", "comment", open_no, "--body", body)
           else:
               gh("issue", "create", "--title", title, "--label", "af-alert", "--body", body)
