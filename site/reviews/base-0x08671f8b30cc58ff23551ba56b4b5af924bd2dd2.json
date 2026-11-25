@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x08671f8b30cc58ff23551ba56b4b5af924bd2dd2",
+ "generatedAt": "2026-11-25T08:31:43.917088+00:00",
+ "reads": {
+  "name": "GOTF US.",
+  "symbol": "GOTF US.",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x08671f8b30cc58ff23551ba56b4b5af924bd2dd2",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x08671f8b\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62025641,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 134380751.0012,
+ "poolCreatedAt": "2026-11-25T08:28:16Z",
+ "poolName": "GOTF US. / WETH",
+ "outreach": {
+  "symbol": "GOTF US.",
+  "name": "GOTF US.",
+  "priceUsd": "0.08972",
+  "fdv": 897261754,
+  "liquidityUsd": 134589591.77,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xb25dac2e7d47b8fc1725f2cb618206b300f24df7265903605e41adb67ad75ef7",
+  "pairUrl": "https://dexscreener.com/base/0xb25dac2e7d47b8fc1725f2cb618206b300f24df7265903605e41adb67ad75ef7"
+ }
+}

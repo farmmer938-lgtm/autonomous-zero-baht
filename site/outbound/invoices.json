@@ -9,88 +9,88 @@
  "note": "The exact amount is the order reference. No account needed.",
  "invoices": [
   {
-   "token": "0x2379867c1d3cc7fe0ae014b750ac5d2eb69fdac4",
-   "symbol": "UARS",
-   "amount_usdc": 15.85,
+   "token": "0x08671f8b30cc58ff23551ba56b4b5af924bd2dd2",
+   "symbol": "GOTF US.",
+   "amount_usdc": 15.12,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2379867c1d3cc7fe0ae014b750ac5d2eb69fdac4.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x08671f8b30cc58ff23551ba56b4b5af924bd2dd2.json"
   },
   {
-   "token": "0x089e1d9678569dbf2ee5c3bdff0699aee157d709",
-   "symbol": "ATX PROJECT",
-   "amount_usdc": 15.31,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x089e1d9678569dbf2ee5c3bdff0699aee157d709.json"
-  },
-  {
-   "token": "0x3856b55ea992fa04f8f53eaa71eba06eb948717a",
+   "token": "0x1ff50004b8c07ea5eb803d16b306a9539973b8fa",
    "symbol": "XST",
-   "amount_usdc": 15.73,
+   "amount_usdc": 15.41,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3856b55ea992fa04f8f53eaa71eba06eb948717a.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1ff50004b8c07ea5eb803d16b306a9539973b8fa.json"
   },
   {
-   "token": "0x1db3cc1bf75c20e281324b7cfac063f151c03243",
+   "token": "0x30839fdae44790eb777ea8cd182fc34a2515a172",
+   "symbol": "MEOW",
+   "amount_usdc": 15.47,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x30839fdae44790eb777ea8cd182fc34a2515a172.json"
+  },
+  {
+   "token": "0x189165ca7362a8434bc969df5421b3c762b68f98",
    "symbol": "CMC20",
-   "amount_usdc": 15.2,
+   "amount_usdc": 15.53,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1db3cc1bf75c20e281324b7cfac063f151c03243.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x189165ca7362a8434bc969df5421b3c762b68f98.json"
   },
   {
-   "token": "0x1f4a3d120acd8c6ad80857978860a0666e63c1a6",
+   "token": "0x3156d59dc13addfff1f8b53c5f3f679004d9de39",
    "symbol": "Antropic",
-   "amount_usdc": 15.65,
+   "amount_usdc": 15.86,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1f4a3d120acd8c6ad80857978860a0666e63c1a6.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3156d59dc13addfff1f8b53c5f3f679004d9de39.json"
   },
   {
-   "token": "0x1d714ae4e572428e2a37c83ff8a34470c70355db",
+   "token": "0x0090be84e7a76dc78dde53005a75c72250f30d22",
+   "symbol": "USAR",
+   "amount_usdc": 15.47,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0090be84e7a76dc78dde53005a75c72250f30d22.json"
+  },
+  {
+   "token": "0x355f1ac19ef4f1b66fa59910c34ab758571c246b",
    "symbol": "VTC6\u26a1\ufe0f",
-   "amount_usdc": 15.85,
+   "amount_usdc": 15.08,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1d714ae4e572428e2a37c83ff8a34470c70355db.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x355f1ac19ef4f1b66fa59910c34ab758571c246b.json"
   },
   {
-   "token": "0x3c2d1615f0bb3bfd9d8352c7a547f8cbe9f63d18",
+   "token": "0x07ccc39152d61b961c523e30a3037453a2d53283",
    "symbol": "SOS\u200aF",
-   "amount_usdc": 15.44,
+   "amount_usdc": 15.12,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3c2d1615f0bb3bfd9d8352c7a547f8cbe9f63d18.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x07ccc39152d61b961c523e30a3037453a2d53283.json"
   },
   {
-   "token": "0x0c519ece9add2c362af524f835e98662b7274212",
+   "token": "0x29828ce94bb6ecfabaafa5c21c36c33d4a6a12ed",
    "symbol": "AOTF",
-   "amount_usdc": 15.23,
+   "amount_usdc": 15.8,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0c519ece9add2c362af524f835e98662b7274212.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x29828ce94bb6ecfabaafa5c21c36c33d4a6a12ed.json"
   },
   {
-   "token": "0x39ff2da2240286b0272f3addb1548be614afa1c4",
-   "symbol": "U\u200aS\u200aO\u200aE",
-   "amount_usdc": 15.25,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x39ff2da2240286b0272f3addb1548be614afa1c4.json"
-  },
-  {
-   "token": "0x09a13107d77a4875fe0d1b68a41b4d3f770f0727",
+   "token": "0x402e957ad77de1d1a1aa4eda204a3e35a17a3439",
    "symbol": "GOAF",
-   "amount_usdc": 15.62,
+   "amount_usdc": 15.07,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x09a13107d77a4875fe0d1b68a41b4d3f770f0727.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x402e957ad77de1d1a1aa4eda204a3e35a17a3439.json"
   },
   {
-   "token": "0x234f2a4dcaa73d4aee579ee412178f819943a524",
+   "token": "0x2842484d8e9ff5830ef6e7654dcf21037780998b",
    "symbol": "LU\u200aN\u200aC",
-   "amount_usdc": 15.24,
+   "amount_usdc": 15.76,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x234f2a4dcaa73d4aee579ee412178f819943a524.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2842484d8e9ff5830ef6e7654dcf21037780998b.json"
   },
   {
-   "token": "0x021350de403b1719160b568284d66e9dd4edd179",
+   "token": "0x2584b7e3a656da471fa2500f33a80a90c6fe4865",
    "symbol": "USIO",
-   "amount_usdc": 15.39,
+   "amount_usdc": 15.4,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x021350de403b1719160b568284d66e9dd4edd179.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2584b7e3a656da471fa2500f33a80a90c6fe4865.json"
   }
  ]
 }

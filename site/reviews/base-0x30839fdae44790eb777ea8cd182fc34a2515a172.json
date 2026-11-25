@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x30839fdae44790eb777ea8cd182fc34a2515a172",
+ "generatedAt": "2026-11-25T08:31:49.400356+00:00",
+ "reads": {
+  "name": "MeowCoin",
+  "symbol": "MEOW",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x30839fdae44790eb777ea8cd182fc34a2515a172",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x30839fda\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62025669,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 12404.0521,
+ "poolCreatedAt": "2026-11-25T08:28:09Z",
+ "poolName": "MEOW / WETH",
+ "outreach": {
+  "symbol": "MEOW",
+  "name": "MeowCoin",
+  "priceUsd": "0.000001166",
+  "fdv": 6531,
+  "liquidityUsd": 12509.73,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xd84ff2408Cf201E2f42482f775b4f1405549f2FD",
+  "pairUrl": "https://dexscreener.com/base/0xd84ff2408cf201e2f42482f775b4f1405549f2fd"
+ }
+}

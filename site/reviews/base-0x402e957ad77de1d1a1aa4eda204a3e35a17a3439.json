@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x402e957ad77de1d1a1aa4eda204a3e35a17a3439",
+ "generatedAt": "2026-11-25T08:32:08.384511+00:00",
+ "reads": {
+  "name": "Global Oil Asset Fund",
+  "symbol": "GOAF",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x402e957ad77de1d1a1aa4eda204a3e35a17a3439",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x402e957a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62025764,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 2704487.5616,
+ "poolCreatedAt": "2026-11-25T08:27:48Z",
+ "poolName": "GOAF / WETH",
+ "outreach": {
+  "symbol": "GOAF",
+  "name": "Global Oil Asset Fund",
+  "priceUsd": "0.001808",
+  "fdv": 18087608,
+  "liquidityUsd": 2713305.74,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x8e5f611e919a156d791424867bb3bd6fe0a967917a7a76b4dfb487d73ff22bea",
+  "pairUrl": "https://dexscreener.com/base/0x8e5f611e919a156d791424867bb3bd6fe0a967917a7a76b4dfb487d73ff22bea"
+ }
+}

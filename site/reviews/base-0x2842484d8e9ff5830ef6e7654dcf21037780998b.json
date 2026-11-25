@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x2842484d8e9ff5830ef6e7654dcf21037780998b",
+ "generatedAt": "2026-11-25T08:32:11.073463+00:00",
+ "reads": {
+  "name": "LUNA CLASSIC",
+  "symbol": "LU\u200aN\u200aC",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x2842484d8e9ff5830ef6e7654dcf21037780998b",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x2842484d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62025777,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 49338755.686,
+ "poolCreatedAt": "2026-11-25T08:27:47Z",
+ "poolName": "LU\u200aN\u200aC / WETH",
+ "outreach": {
+  "symbol": "LU\u200aN\u200aC",
+  "name": "LUNA CLASSIC",
+  "priceUsd": "0.03299",
+  "fdv": 329996433,
+  "liquidityUsd": 49499629.55,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xe77c330761ad59e0b2bf13ec440cc1232b4d6403a5bab515b5605f355acfc276",
+  "pairUrl": "https://dexscreener.com/base/0xe77c330761ad59e0b2bf13ec440cc1232b4d6403a5bab515b5605f355acfc276"
+ }
+}

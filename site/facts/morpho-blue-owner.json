@@ -8,8 +8,8 @@
  "value": {
   "owner": "0xcBa28b38103307Ec8dA98377ffF9816C164f9AFa"
  },
- "blockNumber": 61843604,
- "blockHash": "0x51c3b5127eb31aa09f9d5e94f9608dbf5e29e570d3e6ab9f8b8b0ced7f7959a2",
+ "blockNumber": 62025405,
+ "blockHash": "0x16d543e18c00c5da5590782c59132a7c9b5ef0727e16ba23b2c123fe5e8b6a88",
  "rpcEndpoints": [
   "https://base-rpc.publicnode.com",
   "https://mainnet.base.org"
@@ -19,6 +19,6 @@
   "claim": null,
   "verdict": null
  },
- "verifiedAt": "2026-11-24T22:24:56.737673+00:00",
- "contentHash": "sha256:a263cef3d70197cd052ee347dfb6bfd181596875b9035500bc225ddff240f6f0"
+ "verifiedAt": "2026-11-25T08:30:56.742110+00:00",
+ "contentHash": "sha256:c520b01b7f1cccb97bfe60fcd33f1418644150566b6791a75d04041639f7fcce"
 }

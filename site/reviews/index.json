@@ -4,135 +4,135 @@
  "reviews": [
   {
    "chain": "base",
-   "address": "0x2379867c1d3cc7fe0ae014b750ac5d2eb69fdac4",
-   "symbol": "UARS",
-   "verdict": "no owner() surface found",
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "no mint(address,uint256) selector in the bytecode of 0x2379867c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-   ],
-   "path": "reviews/base-0x2379867c1d3cc7fe0ae014b750ac5d2eb69fdac4.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x089e1d9678569dbf2ee5c3bdff0699aee157d709",
-   "symbol": "ATX PROJECT",
+   "address": "0x08671f8b30cc58ff23551ba56b4b5af924bd2dd2",
+   "symbol": "GOTF US.",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x089e1d96\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x08671f8b\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x089e1d9678569dbf2ee5c3bdff0699aee157d709.json"
+   "path": "reviews/base-0x08671f8b30cc58ff23551ba56b4b5af924bd2dd2.json"
   },
   {
    "chain": "base",
-   "address": "0x3856b55ea992fa04f8f53eaa71eba06eb948717a",
+   "address": "0x1ff50004b8c07ea5eb803d16b306a9539973b8fa",
    "symbol": "XST",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x3856b55e\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x1ff50004\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x3856b55ea992fa04f8f53eaa71eba06eb948717a.json"
+   "path": "reviews/base-0x1ff50004b8c07ea5eb803d16b306a9539973b8fa.json"
   },
   {
    "chain": "base",
-   "address": "0x1db3cc1bf75c20e281324b7cfac063f151c03243",
+   "address": "0x30839fdae44790eb777ea8cd182fc34a2515a172",
+   "symbol": "MEOW",
+   "verdict": "no owner() surface found",
+   "flags": [
+    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0x30839fda\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+   ],
+   "path": "reviews/base-0x30839fdae44790eb777ea8cd182fc34a2515a172.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x189165ca7362a8434bc969df5421b3c762b68f98",
    "symbol": "CMC20",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x1db3cc1b\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x189165ca\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x1db3cc1bf75c20e281324b7cfac063f151c03243.json"
+   "path": "reviews/base-0x189165ca7362a8434bc969df5421b3c762b68f98.json"
   },
   {
    "chain": "base",
-   "address": "0x1f4a3d120acd8c6ad80857978860a0666e63c1a6",
+   "address": "0x3156d59dc13addfff1f8b53c5f3f679004d9de39",
    "symbol": "Antropic",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x1f4a3d12\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x3156d59d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x1f4a3d120acd8c6ad80857978860a0666e63c1a6.json"
+   "path": "reviews/base-0x3156d59dc13addfff1f8b53c5f3f679004d9de39.json"
   },
   {
    "chain": "base",
-   "address": "0x1d714ae4e572428e2a37c83ff8a34470c70355db",
+   "address": "0x0090be84e7a76dc78dde53005a75c72250f30d22",
+   "symbol": "USAR",
+   "verdict": "owner is a contract (multisig/governance)",
+   "flags": [
+    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+    "no mint(address,uint256) selector in the bytecode of 0x0090be84\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+   ],
+   "path": "reviews/base-0x0090be84e7a76dc78dde53005a75c72250f30d22.json"
+  },
+  {
+   "chain": "base",
+   "address": "0x355f1ac19ef4f1b66fa59910c34ab758571c246b",
    "symbol": "VTC6\u26a1\ufe0f",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x1d714ae4\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x355f1ac1\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x1d714ae4e572428e2a37c83ff8a34470c70355db.json"
+   "path": "reviews/base-0x355f1ac19ef4f1b66fa59910c34ab758571c246b.json"
   },
   {
    "chain": "base",
-   "address": "0x3c2d1615f0bb3bfd9d8352c7a547f8cbe9f63d18",
+   "address": "0x07ccc39152d61b961c523e30a3037453a2d53283",
    "symbol": "SOS\u200aF",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x3c2d1615\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x07ccc391\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x3c2d1615f0bb3bfd9d8352c7a547f8cbe9f63d18.json"
+   "path": "reviews/base-0x07ccc39152d61b961c523e30a3037453a2d53283.json"
   },
   {
    "chain": "base",
-   "address": "0x0c519ece9add2c362af524f835e98662b7274212",
+   "address": "0x29828ce94bb6ecfabaafa5c21c36c33d4a6a12ed",
    "symbol": "AOTF",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x0c519ece\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x29828ce9\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x0c519ece9add2c362af524f835e98662b7274212.json"
+   "path": "reviews/base-0x29828ce94bb6ecfabaafa5c21c36c33d4a6a12ed.json"
   },
   {
    "chain": "base",
-   "address": "0x39ff2da2240286b0272f3addb1548be614afa1c4",
-   "symbol": "U\u200aS\u200aO\u200aE",
-   "verdict": "owner is a contract (multisig/governance)",
-   "flags": [
-    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x39ff2da2\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-   ],
-   "path": "reviews/base-0x39ff2da2240286b0272f3addb1548be614afa1c4.json"
-  },
-  {
-   "chain": "base",
-   "address": "0x09a13107d77a4875fe0d1b68a41b4d3f770f0727",
+   "address": "0x402e957ad77de1d1a1aa4eda204a3e35a17a3439",
    "symbol": "GOAF",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x09a13107\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x402e957a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x09a13107d77a4875fe0d1b68a41b4d3f770f0727.json"
+   "path": "reviews/base-0x402e957ad77de1d1a1aa4eda204a3e35a17a3439.json"
   },
   {
    "chain": "base",
-   "address": "0x234f2a4dcaa73d4aee579ee412178f819943a524",
+   "address": "0x2842484d8e9ff5830ef6e7654dcf21037780998b",
    "symbol": "LU\u200aN\u200aC",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x234f2a4d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x2842484d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x234f2a4dcaa73d4aee579ee412178f819943a524.json"
+   "path": "reviews/base-0x2842484d8e9ff5830ef6e7654dcf21037780998b.json"
   },
   {
    "chain": "base",
-   "address": "0x021350de403b1719160b568284d66e9dd4edd179",
+   "address": "0x2584b7e3a656da471fa2500f33a80a90c6fe4865",
    "symbol": "USIO",
    "verdict": "owner is a contract (multisig/governance)",
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x021350de\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x2584b7e3\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
-   "path": "reviews/base-0x021350de403b1719160b568284d66e9dd4edd179.json"
+   "path": "reviews/base-0x2584b7e3a656da471fa2500f33a80a90c6fe4865.json"
   }
  ]
 }
