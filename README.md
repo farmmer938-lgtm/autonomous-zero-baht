@@ -53,7 +53,7 @@ local seed data marked as unverified, which the validator then refuses to publis
 | `public_watch.yml` | cron `*/10` | GitHub decides the real frequency; recent runs land a few times per day, not every 10 minutes |
 | `facts.yml` | cron `*/6h` | refreshes the public artifacts and reports failed steps in the `af-alert` issue |
 | `revenue_verify.yml` | cron `*/6h` | reads the wallet's inbound USDC from chain logs |
-| `pages.yml` | on push to `main` | deploys `site/` to GitHub Pages |
+| `pages.yml` | push to `main`, after each data workflow, every 6h | deploys `site/` to GitHub Pages; a `GITHUB_TOKEN` push does not start another workflow, so the data jobs trigger it explicitly |
 | `daily.yml` | cron daily 02:47 UTC | runs the research engine, then commits `data/` and the rebuilt site to `main` |
 
 The scheduled jobs never fail on purpose, so GitHub does not email the owner. Problems are
