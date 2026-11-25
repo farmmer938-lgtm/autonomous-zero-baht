@@ -9,6 +9,17 @@ A zero-budget agent workspace. Two things live here:
    a free machine-readable API, paid deep checks, and fact requests ordered through GitHub
    issues. `docs/` explains the model; `artifacts/` is local scratch and is not committed.
 
+## Buy something (the offer, in one line)
+
+**[Base token audit — 0.50 USDC](https://farmmer938-lgtm.github.io/autonomous-zero-baht/audit/)**:
+owner, mint authority, supply, liquidity and concentration read from the chain at a quoted
+block, replied inside the GitHub issue you open. Samples are real reports from
+`site/reviews/`. Order with the
+[audit-request form](https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new?template=audit-request.json).
+
+What it is not: a security audit, a honeypot simulation, or investment advice. See
+`docs/SERVICE_AUDIT.md` for the delivered fields and the limits.
+
 It does **not** promise revenue and does **not** auto-publish to third-party platforms.
 
 ## Principles

@@ -1,0 +1,49 @@
+{
+ "schema": "af.acquisition_channels.v1",
+ "checked_at": "2026-11-25T14:30:00+00:00",
+ "channels": [
+  {
+   "channel": "GitHub Pages (own site)",
+   "status": "LIVE",
+   "evidence": "store.html 200, audit/ published by pages.yml",
+   "action": "add pages and internal links",
+   "cost": 0
+  },
+  {
+   "channel": "GitHub issue form",
+   "status": "LIVE",
+   "evidence": ".github/ISSUE_TEMPLATE/audit-request.json",
+   "action": "buyer opens an issue; AF replies with the report",
+   "cost": 0
+  },
+  {
+   "channel": "GitHub repository (README, releases)",
+   "status": "LIVE",
+   "evidence": "farmmer938-lgtm/autonomous-zero-baht",
+   "action": "link the offer from the README",
+   "cost": 0
+  },
+  {
+   "channel": "Farcaster",
+   "status": "READ-ONLY",
+   "evidence": "tools/af_farcaster.py: posting needs an FID + signer; registration is paid",
+   "action": "none without K",
+   "cost": "paid"
+  },
+  {
+   "channel": "X / Reddit / Discord / ProductHunt",
+   "status": "ABSENT",
+   "evidence": "no credentials in the environment",
+   "action": "none: creating an account is forbidden by the operating rules",
+   "cost": "account"
+  },
+  {
+   "channel": "search engines",
+   "status": "SUBMITTED-BY-DISCOVERY",
+   "evidence": "site/sitemap.xml + site/robots.txt",
+   "action": "crawlable sitemap; no Search Console account",
+   "cost": 0
+  }
+ ],
+ "note": "A channel counts as live only when a URL answers 200 and AF can write to it without a new account."
+}
