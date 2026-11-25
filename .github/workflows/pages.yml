@@ -9,7 +9,12 @@ on:
   # another workflow from such a push: without this, every automated commit left the
   # published site a version behind until the next human push.
   workflow_run:
-    workflows: [daily, facts, public_watch, revenue_verify]
+    # These are the `name:` fields, not the file names; GitHub matches on the display name.
+    workflows:
+      - Zero-Baht Research and Drafts
+      - AF Verified Facts (durable, no secrets)
+      - AF Public Watch (free, no secrets)
+      - AF Revenue Verify (free, no secrets)
     types: [completed]
   schedule:
     - cron: "15 */6 * * *"
