@@ -1,6 +1,6 @@
 {
  "schema": "af.revenue_report.v1",
- "at": "2026-11-25T14:42:59.713247+00:00",
+ "at": "2026-11-25T15:03:39.497254+00:00",
  "headline": {
   "cash_received_usdc": 0,
   "cash_payments": 0,
@@ -10,7 +10,7 @@
  },
  "found": {
   "source": "data/opportunities.json",
-  "checked_at": "2026-11-25T14:42:59.641746+00:00",
+  "checked_at": "2026-11-25T15:03:39.442143+00:00",
   "total": 51,
   "by_verdict": {
    "loss": 1,
@@ -79,7 +79,7 @@
   "note": "window is the last 49k blocks; tools/af_inbound_audit.py walks all of it"
  },
  "monitor": {
-  "manifest_age_hours": 54.11,
+  "manifest_age_hours": 54.46,
   "manifest_stale": true,
   "manifest_base": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev",
   "public_watch_healthy": true,

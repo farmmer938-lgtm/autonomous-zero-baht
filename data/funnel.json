@@ -1,6 +1,6 @@
 {
  "schema": "af.funnel.v2",
- "at": "2026-11-25T15:01:34.905225+00:00",
+ "at": "2026-11-25T15:03:48.208829+00:00",
  "published": 9,
  "published_note": "200 means the file is served. It is not a reader, and it is not reach.",
  "reach": null,
@@ -19,6 +19,8 @@
   "interest_to_delivered": null,
   "delivered_to_paid": null
  },
- "excluded_self_tests": [],
+ "excluded_self_tests": [
+  75
+ ],
  "unasked_orders": []
 }
