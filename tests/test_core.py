@@ -123,15 +123,16 @@ class CoreTests(unittest.TestCase):
 
         research._fetch_feed = flaky_fetch
         try:
-            items = research.run_research({
-                "rss_feeds": ["https://feed.example.test/rss"],
-                "user_agent": "test",
-                "max_items_per_feed": 20,
-                "max_feed_retries": 2,
-                "max_age_days": 30,
-                "keywords": ["guide"],
-                "max_drafts_per_run": 5,
-            })
+            with tempfile.TemporaryDirectory() as tmp:
+                items = research.run_research({
+                    "rss_feeds": ["https://feed.example.test/rss"],
+                    "user_agent": "test",
+                    "max_items_per_feed": 20,
+                    "max_feed_retries": 2,
+                    "max_age_days": 30,
+                    "keywords": ["guide"],
+                    "max_drafts_per_run": 5,
+                }, output_root=tmp)
         finally:
             research._fetch_feed = original
         self.assertEqual(calls["count"], 2)
@@ -149,20 +150,57 @@ class CoreTests(unittest.TestCase):
 
         research._fetch_feed = always_fail
         try:
-            items = research.run_research({
-                "rss_feeds": ["https://feed.example.test/rss"],
-                "user_agent": "test",
-                "max_items_per_feed": 20,
-                "max_feed_retries": 2,
-                "max_age_days": 30,
-                "keywords": ["guide"],
-                "max_drafts_per_run": 5,
-            })
+            with tempfile.TemporaryDirectory() as tmp:
+                seed_dir = Path(tmp) / "data" / "research"
+                seed_dir.mkdir(parents=True)
+                repo = Path(__file__).resolve().parents[1]
+                seed_dir.joinpath("seed.json").write_text(
+                    (repo / "data" / "research" / "seed.json").read_text(encoding="utf-8"), encoding="utf-8")
+                items = research.run_research({
+                    "rss_feeds": ["https://feed.example.test/rss"],
+                    "user_agent": "test",
+                    "max_items_per_feed": 20,
+                    "max_feed_retries": 2,
+                    "max_age_days": 30,
+                    "keywords": ["guide"],
+                    "max_drafts_per_run": 5,
+                }, output_root=tmp)
         finally:
             research._fetch_feed = original
         self.assertEqual(calls["count"], 3)
         self.assertEqual(len(items), 2)
         self.assertTrue(all(item["research_quality"] == "seed_unverified" for item in items))
+
+    def test_run_research_never_writes_into_the_repository(self):
+        import engine.research as research
+        repo = Path(__file__).resolve().parents[1]
+        tracked = repo / "data" / "research" / "opportunities.json"
+        before = tracked.read_bytes() if tracked.exists() else None
+        original = research._fetch_feed
+        research._fetch_feed = lambda *a, **k: []
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                research.run_research({
+                    "rss_feeds": ["https://feed.example.test/rss"],
+                    "user_agent": "test",
+                    "max_items_per_feed": 20,
+                    "max_feed_retries": 1,
+                    "max_age_days": 30,
+                    "keywords": ["guide"],
+                    "max_drafts_per_run": 5,
+                }, output_root=tmp)
+                self.assertTrue((Path(tmp) / "data" / "research" / "opportunities.json").exists())
+        finally:
+            research._fetch_feed = original
+        self.assertEqual(tracked.read_bytes() if tracked.exists() else None, before)
+
+    def test_feed_with_dtd_or_entity_is_rejected(self):
+        import engine.research as research
+        hostile = (b'<?xml version="1.0"?><!DOCTYPE lolz [<!ENTITY lol "lol">]>'
+                   b'<rss><channel><item><title>&lol;</title></item></channel></rss>')
+        with self.assertRaises(ValueError):
+            research._reject_doctype(hostile)
+        research._reject_doctype(b'<?xml version="1.0"?><rss><channel></channel></rss>')
 
     def test_rfc822_published_date_is_parsed(self):
         item = {"published": "Thu, 01 Oct 2026 01:00:00 GMT"}

@@ -23,10 +23,21 @@ def _clean_text(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
+def _reject_doctype(payload):
+    """ElementTree expands internal entities, so a hostile feed could exhaust memory.
+
+    Public feeds never need a DTD or entity declaration, so refuse them outright.
+    """
+    head = payload[:4096].upper()
+    if b"<!DOCTYPE" in head or b"<!ENTITY" in head:
+        raise ValueError("feed_declares_dtd_or_entity")
+
+
 def _fetch_feed(url, user_agent, limit):
     request = urllib.request.Request(url, headers={"User-Agent": user_agent})
     with urllib.request.urlopen(request, timeout=12) as response:
         payload = response.read(2_000_000)
+    _reject_doctype(payload)
     root = ET.fromstring(payload)
     items = root.findall(".//item")
     if not items:
@@ -63,8 +74,8 @@ def _fetch_feed(url, user_agent, limit):
     return results
 
 
-def _load_seed_data(limit):
-    path = ROOT / "data" / "research" / "seed.json"
+def _load_seed_data(limit, root=None):
+    path = Path(root or ROOT) / "data" / "research" / "seed.json"
     if not path.exists():
         return []
     try:
@@ -119,7 +130,8 @@ def _dedupe(items):
     return unique
 
 
-def run_research(config):
+def run_research(config, output_root=None):
+    root = Path(output_root) if output_root else ROOT
     all_items = []
     max_retries = max(0, int(config.get("max_feed_retries", 2)))
     for feed in config.get("rss_feeds", []):
@@ -143,7 +155,7 @@ def run_research(config):
 
     all_items = _dedupe(all_items)
     if not all_items:
-        all_items = _load_seed_data(int(config.get("max_items_per_feed", 20)))
+        all_items = _load_seed_data(int(config.get("max_items_per_feed", 20)), root)
         if all_items:
             log_event("research_fallback_used", provider="local_seed_data", item_count=len(all_items))
         else:
@@ -174,7 +186,7 @@ def run_research(config):
         ),
         reverse=True,
     )
-    out = ROOT / "data" / "research"
+    out = root / "data" / "research"
     out.mkdir(parents=True, exist_ok=True)
     (out / "opportunities.json").write_text(
         json.dumps(all_items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

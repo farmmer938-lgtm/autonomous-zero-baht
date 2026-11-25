@@ -104,31 +104,87 @@ def inbound_payments(span_blocks: int = 43200, window: int = 5000) -> list[dict]
     return found
 
 
-def reconcile(reqs: list[dict], pays: list[dict]) -> list[dict]:
-    """Match payments to requests by amount and time. Honest about ambiguity."""
-    used = set()
+def reconcile(reqs: list[dict], pays: list[dict], block_time=None):
+    """Match payments to requests on evidence, never on a guess.
+
+    Two matches are accepted, strongest first:
+      1. the request names the payment's tx hash in its body;
+      2. exactly one claimable payment and exactly one unpaid request exist.
+    Everything else stays unpaid and is reported as an unmatched payment, because a
+    wrong match publishes revenue that was never earned.
+    """
     for r in reqs:
         r["priceUsd"] = PRICE_USD
         r["paid"] = False
         r["tx"] = None
+        r["matchMethod"] = None
+        r["claimedTxHashes"] = sorted(_tx_hashes(r.get("body", "")))
+    used: set[int] = set()
+
+    def claim(r, index, method):
+        p = pays[index]
+        used.add(index)
+        r["paid"] = True
+        r["tx"] = p["tx"]
+        r["paidUsdc"] = p["usdc"]
+        r["paidBlock"] = p["block"]
+        r["matchMethod"] = method
+
+    def covers(index):
+        return pays[index]["usdc"] + 1e-9 >= PRICE_USD
+
+    for r in reqs:
         for i, p in enumerate(pays):
-            if i in used:
+            if i in used or not covers(i):
                 continue
-            if p["usdc"] + 1e-9 >= PRICE_USD and p["tx"] not in [x.get("tx") for x in reqs if x.get("tx")]:
-                # first payment at or after the request that is not already claimed
-                used.add(i)
-                r["paid"] = True
-                r["tx"] = p["tx"]
-                r["paidUsdc"] = p["usdc"]
-                r["paidBlock"] = p["block"]
+            if p["tx"].lower() in r["claimedTxHashes"]:
+                claim(r, i, "tx_hash_in_request")
                 break
-    return reqs
+
+    unclaimed = [i for i in range(len(pays)) if i not in used and covers(i)]
+    unpaid = [r for r in reqs if not r["paid"]]
+    if len(unclaimed) == 1 and len(unpaid) == 1:
+        paid_at = block_time(pays[unclaimed[0]]["block"]) if block_time else None
+        if paid_at is None or _parse_iso(paid_at) >= _parse_iso(unpaid[0]["createdAt"]):
+            claim(unpaid[0], unclaimed[0], "only_open_request_and_payment")
+
+    for r in reqs:
+        if not r["paid"] and unclaimed:
+            r["matchNote"] = "payment(s) seen but no unambiguous match; add the tx hash to the issue"
+    return reqs, [pays[i] for i in range(len(pays)) if i not in used]
+
+
+def _tx_hashes(text: str) -> set[str]:
+    return {m.group(0).lower() for m in re.finditer(r"0x[a-fA-F0-9]{64}", text or "")}
+
+
+def _parse_iso(value):
+    return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+
+
+def block_time_lookup():
+    """Lazily read block timestamps so a payment older than its request cannot match."""
+    cache: dict[int, str | None] = {}
+
+    def lookup(block: int):
+        if block not in cache:
+            cache[block] = None
+            for h in BASE_RPCS:
+                try:
+                    b = _rpc("eth_getBlockByNumber", [hex(block), False], h)
+                    cache[block] = datetime.fromtimestamp(int(b["timestamp"], 16), timezone.utc).isoformat()
+                    break
+                except Exception:
+                    continue
+        return cache[block]
+
+    return lookup
 
 
 def build(repo: str, token: str | None) -> dict:
     reqs = requests(repo, token)
     pays = inbound_payments()
-    reqs = reconcile(reqs, pays)
+    reqs, unmatched = reconcile(reqs, pays, block_time=block_time_lookup())
     served = [r for r in reqs if r["paid"]]
     return {
         "schema": "af.service.queue.v1",
@@ -146,6 +202,10 @@ def build(repo: str, token: str | None) -> dict:
         "revenue_usd": round(sum(r.get("paidUsdc", 0) for r in served), 6),
         "requests": reqs,
         "payments_seen": pays,
+        "unmatched_payments": unmatched,
+        "match_rules": ("A request is paid only when its issue names the tx hash, or when exactly one "
+                        "open request and one claimable payment exist and the payment is not older "
+                        "than the request. Anything else is reported as unmatched, not guessed."),
         "honest_state": ("A request counts as served only when a confirmed on-chain USDC transfer covers it. "
                          "Unmatched payments are listed as seen, not guessed. Zero requests means zero demand, "
                          "not zero capability."),

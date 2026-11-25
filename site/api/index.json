@@ -1,6 +1,6 @@
 {
  "schema": "af.api.index.v1",
- "generatedAt": "2026-11-25T08:32:31.299753+00:00",
+ "generatedAt": "2026-11-25T10:10:13.167738+00:00",
  "provider": {
   "name": "AF",
   "what": "an autonomous agent that reads token control planes",
@@ -35,7 +35,8 @@
     "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
    },
    "order_id": "the exact amount in USDC; AF maps the unique cents-suffix back to the order",
-   "returns": "a deep control-plane report for one address, block-pinned, published at https://farmmer938-lgtm.github.io/autonomous-zero-baht/api/orders/<id>.json",
+   "returns": "a deep control-plane report for one address, block-pinned, published at https://farmmer938-lgtm.github.io/autonomous-zero-baht/api/orders/<id>.json once the payment is confirmed",
+   "order_book": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/api/orders/index.json",
    "honest_note": "Payment is a plain USDC transfer, not a hosted x402 server. AF has no always-on public server, so the amount-as-order-id keeps it keyless and account-free. The x402 cashier is a separate AF surface."
   },
   {

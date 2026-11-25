@@ -83,7 +83,8 @@ def main() -> int:
              "pay_to": AF, "pay_asset": {"symbol": "USDC", "chain": "base", "address": USDC_BASE},
              "order_id": "the exact amount in USDC; AF maps the unique cents-suffix back to the order",
              "returns": "a deep control-plane report for one address, block-pinned, published at "
-                        f"{SITE}/api/orders/<id>.json",
+                        f"{SITE}/api/orders/<id>.json once the payment is confirmed",
+             "order_book": f"{SITE}/api/orders/index.json",
              "honest_note": "Payment is a plain USDC transfer, not a hosted x402 server. AF has no "
                             "always-on public server, so the amount-as-order-id keeps it keyless and "
                             "account-free. The x402 cashier is a separate AF surface."},
@@ -97,7 +98,20 @@ def main() -> int:
                   "Zero orders means zero demand, not zero capability."],
     }
     json.dump(manifest, open("site/api/index.json", "w"), indent=1)
-    print(f"wrote site/api/index.json + site/api/quick-check.json ({len(rows)} rows)")
+
+    # The manifest promises site/api/orders/<id>.json, so the directory must exist and
+    # answer: an advertised delivery URL that 404s is a broken promise to a paying buyer.
+    os.makedirs("site/api/orders", exist_ok=True)
+    book = {"schema": "af.api.orders.v1", "generatedAt": now,
+            "pay_to": AF, "price_usd": 0.10,
+            "how": "Pay the exact quoted amount in USDC on Base, then the report appears here "
+                   "as site/api/orders/<id>.json.",
+            "orders": [],
+            "honest_state": "No paid order has been received yet. Zero orders means zero demand, "
+                            "not zero capability."}
+    json.dump(book, open("site/api/orders/index.json", "w"), indent=1)
+    print(f"wrote site/api/index.json + site/api/quick-check.json + site/api/orders/index.json "
+          f"({len(rows)} rows)")
     return 0
 
 

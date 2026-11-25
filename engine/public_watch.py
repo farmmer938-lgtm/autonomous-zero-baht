@@ -1,16 +1,18 @@
 """Public-surface watchdog (GitHub Actions, free, no secrets).
 
 Runs on GitHub's infrastructure instead of a quota-limited OpenHands sandbox, so it can
-check AF's public revenue surfaces every few minutes at zero cost and zero token use.
-Everything it reads is public: no credentials, so nothing sensitive can leak.
+check AF's public revenue surfaces at zero cost and zero token use. Everything it reads is
+public: no credentials, so nothing sensitive can leak.
 
-It writes data/public_watch.json and exits non-zero if a critical surface is down, which
-makes GitHub email the owner automatically.
+It writes data/public_watch.json and site/status.html. The workflow keeps the job green on
+purpose (K is not in the loop) and reports problems through the "af-alert" issue instead of
+an email, so this tool's exit code is a signal for that issue, not for GitHub's mailer.
 
 Entrypoint: python -m engine.public_watch
 """
 from __future__ import annotations
 
+import html
 import json
 import sys
 import urllib.error
@@ -131,8 +133,34 @@ def radar_items():
     return items
 
 
+def paid_only(items):
+    """Only a listing that states a reward may be called paid work in an alert."""
+    out = []
+    for i in items:
+        try:
+            if float(i.get("reward_usd") or 0) > 0:
+                out.append(i)
+        except (TypeError, ValueError):
+            continue
+    return out
+
+
+def _esc(value) -> str:
+    return html.escape(str(value if value is not None else ""), quote=True)
+
+
+def _safe_url(value) -> str:
+    """Only http(s) links may reach an href; anything else becomes '#'."""
+    url = str(value or "").strip()
+    return _esc(url) if url.lower().startswith(("http://", "https://")) else "#"
+
+
 def render_dashboard(report):
-    """Self-contained status page (no JS, no external assets) for K to bookmark."""
+    """Self-contained status page (no JS, no external assets) for K to bookmark.
+
+    Every value below comes from a third-party API, so all of it is escaped: a bounty
+    title is attacker-controlled text and must never become markup on a public page.
+    """
     s = report["surfaces"]
 
     def row(name, label):
@@ -143,25 +171,31 @@ def render_dashboard(report):
         color = "#0a7d33" if ok else ("#b00020" if tier == "critical" else "#8a6d00")
         extra = ""
         if name == "opentask":
-            extra = f" &middot; {e.get('funded_tasks', '?')} funded tasks"
+            extra = " &middot; %s funded tasks" % _esc(e.get("funded_tasks", "?"))
         note = "" if tier == "critical" else " <span style=\"color:#888;font-size:12px\">(informational)</span>"
         return (f"<tr><td>{label}{note}</td>"
                 f"<td><span style=\"color:{color};font-weight:700\">{badge}</span>"
-                f" &middot; HTTP {e.get('http')}{extra}</td>"
-                f"<td><a href=\"{e.get('url')}\">open</a></td></tr>")
+                f" &middot; HTTP {_esc(e.get('http'))}{extra}</td>"
+                f"<td><a href=\"{_safe_url(e.get('url'))}\" rel=\"noopener nofollow\">open</a></td></tr>")
 
     tasks = s.get("opentask", {}).get("funded_titles", []) or []
-    items = "".join(f"<li>{t}</li>" for t in tasks[:15]) or "<li>(none)</li>"
+    items = "".join(f"<li>{_esc(t)}</li>" for t in tasks[:15]) or "<li>(none)</li>"
     radar = report.get("radar", []) or []
     if radar:
         radar_html = "".join(
-            f"<li><b>${r.get('reward_usd')}</b> &middot; {r.get('rail')} &middot; "
-            f"<a href=\"{r.get('url')}\">{r.get('title')}</a></li>"
+            f"<li><b>${_esc(r.get('reward_usd'))}</b> &middot; {_esc(r.get('rail'))} &middot; "
+            f"<a href=\"{_safe_url(r.get('url'))}\" rel=\"noopener nofollow\">{_esc(r.get('title'))}</a></li>"
             for r in sorted(radar, key=lambda x: -(x.get("reward_usd") or 0))[:20])
     else:
         radar_html = "<li>(none open)</li>"
-    head_color = "#0a7d33" if report["healthy"] else "#b00020"
-    head_text = "ALL SYSTEMS UP" if report["healthy"] else f"DOWN: {', '.join(report['down'])}"
+    degraded = report.get("degraded", []) or []
+    if report["down"]:
+        head_color, head_text = "#b00020", "DOWN: " + ", ".join(report["down"])
+    elif degraded:
+        head_color = "#8a6d00"
+        head_text = "DEGRADED: %s offline (informational)" % ", ".join(degraded)
+    else:
+        head_color, head_text = "#0a7d33", "ALL SYSTEMS UP"
     return f"""<!doctype html>
 <html lang="th"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -178,7 +212,8 @@ def render_dashboard(report):
  code{{background:#eee;padding:2px 6px;border-radius:4px;font-size:12px}}
 </style></head><body><div class="wrap">
 <h1>AF Status</h1>
-<div class="sub">ตรวจอัตโนมัติทุก 10 นาที โดย GitHub Actions (ฟรี, ไม่ใช้โควตา) &middot; อัปเดตล่าสุด {report['checked_at']}</div>
+<div class="sub">ตรวจด้วย GitHub Actions ตามตาราง cron ของ workflow (GitHub เป็นผู้กำหนดความถี่จริง)
+&middot; รอบตรวจล่าสุด {_esc(report['checked_at'])}</div>
 <div class="head">{head_text}</div>
 <table><tr><th>Surface</th><th>State</th><th></th></tr>
 {row('storefront', 'Do.ink storefront')}
@@ -190,6 +225,8 @@ def render_dashboard(report):
 <h1 style="margin-top:24px">งานมีเงินบน OpenTask</h1>
 <ul>{items}</ul>
 <h1 style="margin-top:24px">Opportunity radar — งานเปิดใหม่ (Frantic + nonsynthetic)</h1>
+<p class="sub">รายการเหล่านี้เป็นประกาศจากบุคคลที่สาม AF ยังไม่ได้ตรวจสอบว่าจ่ายจริง
+&middot; ตัวเลข $ คือรางวัลที่ประกาศไว้ ไม่ใช่รายได้ของ AF</p>
 <ul>{radar_html}</ul>
 <p class="sub">source: <code>engine/public_watch.py</code></p>
 </div></body></html>
@@ -226,12 +263,16 @@ def main() -> int:
         if not ok and tier == "critical" and entry["consecutive_down"] >= SUSTAINED_DOWN:
             down.append(name)
 
+    # An informational surface being down is still a fact worth publishing: the cashier is
+    # where money is meant to arrive, so a green "ALL SYSTEMS UP" would be a false claim.
+    degraded = [name for name, e in surfaces.items() if not e["ok"] and e["tier"] != "critical"]
     report = {"schema": "af.public_watch.v1", "checked_at": now,
-              "healthy": not down, "down": down, "surfaces": surfaces,
+              "healthy": not down, "down": down, "degraded": degraded, "surfaces": surfaces,
               "radar": radar_items()}
     seen = {i["id"] for i in (prev or {}).get("radar", [])}
     report["new_items"] = [i for i in report["radar"] if i["id"] not in seen]
-    changed = not prev or prev.get("down") != down or [
+    report["new_paid_items"] = paid_only(report["new_items"])
+    changed = not prev or prev.get("down") != down or prev.get("degraded") != degraded or [
         s.get("ok") for s in (prev or {}).get("surfaces", {}).values()
     ] != [s.get("ok") for s in surfaces.values()]
     if prev and prev.get("surfaces", {}).get("opentask", {}).get("funded_titles") != \
@@ -246,8 +287,9 @@ def main() -> int:
     status_page = ROOT / "site" / "status.html"
     status_page.parent.mkdir(parents=True, exist_ok=True)
     status_page.write_text(render_dashboard(report), encoding="utf-8")
-    print(json.dumps({"healthy": report["healthy"], "down": down,
-                      "opentask_funded": surfaces["opentask"].get("funded_tasks")},
+    print(json.dumps({"healthy": report["healthy"], "down": down, "degraded": degraded,
+                      "opentask_funded": surfaces["opentask"].get("funded_tasks"),
+                      "new_paid_items": len(report["new_paid_items"])},
                      ensure_ascii=False))
     if down:
         print(f"ALERT: surfaces down -> {down}", file=sys.stderr)

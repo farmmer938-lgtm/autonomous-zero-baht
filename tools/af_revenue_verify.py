@@ -143,6 +143,12 @@ def main():
         out["distinct_days"] = distinct_days
         out["days"] = led["days"]
         out["state"] = "VERIFIED"
+        # The verdict is a mechanical rule, not a size claim: publish the amount next to it so
+        # "CONTINUOUS" cannot be read as meaningful income when it is a few cents.
+        total = round(sum(float(v.get("usdc") or 0) for v in seen.values()), 6)
+        out["inbound_usdc_total"] = total
+        out["verdict_note"] = ("%d confirmed transfer(s) on %d day(s), totalling %s USDC"
+                               % (n, distinct_days, total))
 
         if a.write:
             save_ledger(led)
