@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x047e440c02aa4ccc8aeb681e3540b3bcaaad4f01",
+ "generatedAt": "2026-11-25T21:40:57.669015+00:00",
+ "reads": {
+  "name": "UGOS",
+  "symbol": "United Global Oil Supply",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x047e440c02aa4ccc8aeb681e3540b3bcaaad4f01",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x047e440c\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62262410,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 29600209.9994,
+ "poolCreatedAt": "2026-11-25T21:24:59Z",
+ "poolName": "United Global Oil Supply / WETH",
+ "outreach": {
+  "symbol": "United Global Oil Supply",
+  "name": "UGOS",
+  "priceUsd": "0.01975",
+  "fdv": 197538076,
+  "liquidityUsd": 29630880.37,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xa34c57f0d74d796b6c93fa166ca49718853495d3e984c4955bab41a6b42a100b",
+  "pairUrl": "https://dexscreener.com/base/0xa34c57f0d74d796b6c93fa166ca49718853495d3e984c4955bab41a6b42a100b"
+ }
+}

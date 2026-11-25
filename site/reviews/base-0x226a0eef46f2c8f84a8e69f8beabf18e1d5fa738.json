@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x226a0eef46f2c8f84a8e69f8beabf18e1d5fa738",
+ "generatedAt": "2026-11-25T21:41:02.817279+00:00",
+ "reads": {
+  "name": "GOTF",
+  "symbol": "Global Oil Trust Fund",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x226a0eef46f2c8f84a8e69f8beabf18e1d5fa738",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x226a0eef\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62262437,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 134249033.0673,
+ "poolCreatedAt": "2026-11-25T21:24:52Z",
+ "poolName": "Global Oil Trust Fund / WETH",
+ "outreach": {
+  "symbol": "Global Oil Trust Fund",
+  "name": "GOTF",
+  "priceUsd": "0.08959",
+  "fdv": 895918575,
+  "liquidityUsd": 134388124.4,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xff6a0b82b0eaccc1b9f129f8c4eff15b55fe33064f7fa86fd3ea7a740160792f",
+  "pairUrl": "https://dexscreener.com/base/0xff6a0b82b0eaccc1b9f129f8c4eff15b55fe33064f7fa86fd3ea7a740160792f"
+ }
+}

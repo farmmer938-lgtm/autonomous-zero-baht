@@ -2,5 +2,6 @@
  "schema": "af.paid.index.v1",
  "count": 0,
  "cash_received_usdc": 0,
+ "pending_usdc": 0.0,
  "payments": []
 }

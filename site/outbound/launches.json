@@ -1,10 +1,10 @@
 {
  "schema": "af.launch.watch.v1",
- "generatedAt": "2026-11-25T10:32:46.281112+00:00",
- "fromBlock": 62061604,
- "toBlock": 62061804,
- "creations": 3,
+ "generatedAt": "2026-11-25T21:41:37.171181+00:00",
+ "fromBlock": 62262355,
+ "toBlock": 62262555,
+ "creations": 11,
  "tokens": [],
- "skippedNonToken": 3,
+ "skippedNonToken": 11,
  "note": "tokens are filtered by an on-chain symbol()/decimals() read, not by name"
 }

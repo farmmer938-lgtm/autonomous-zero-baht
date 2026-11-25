@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0eeb93e59dd8b4f3a73ccdba794fbf509f348b95",
+ "generatedAt": "2026-11-25T21:41:13.651048+00:00",
+ "reads": {
+  "name": "AnthropicAI",
+  "symbol": "Antropic",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x0eeb93e59dd8b4f3a73ccdba794fbf509f348b95",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x0eeb93e5\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62262490,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 1501137.6533,
+ "poolCreatedAt": "2026-11-25T21:24:38Z",
+ "poolName": "Antropic / WETH",
+ "outreach": {
+  "symbol": "Antropic",
+  "name": "AnthropicAI",
+  "priceUsd": "0.001001",
+  "fdv": 10015060,
+  "liquidityUsd": 1502426.4,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x8791e91f8f4280b0b3b8b86d029e6e7ee7d6b91db2f95ae6b2698c2ff4243626",
+  "pairUrl": "https://dexscreener.com/base/0x8791e91f8f4280b0b3b8b86d029e6e7ee7d6b91db2f95ae6b2698c2ff4243626"
+ }
+}

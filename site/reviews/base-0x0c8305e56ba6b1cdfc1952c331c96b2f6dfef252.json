@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x0c8305e56ba6b1cdfc1952c331c96b2f6dfef252",
+ "generatedAt": "2026-11-25T21:41:00.223347+00:00",
+ "reads": {
+  "name": "UK FINANCIAL MOONSHOT TOKEN",
+  "symbol": "UKFLMS",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x0c8305e56ba6b1cdfc1952c331c96b2f6dfef252",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x0c8305e5\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62262423,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 19962963.4674,
+ "poolCreatedAt": "2026-11-25T21:24:59Z",
+ "poolName": "UKFLMS / WETH",
+ "outreach": {
+  "symbol": "UKFLMS",
+  "name": "UK FINANCIAL MOONSHOT TOKEN",
+  "priceUsd": "0.01332",
+  "fdv": 133224022,
+  "liquidityUsd": 19983646.51,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x2b7091af762ceaa03eea759e76b6ebf16e1d74803f1003799296420f62b0d46c",
+  "pairUrl": "https://dexscreener.com/base/0x2b7091af762ceaa03eea759e76b6ebf16e1d74803f1003799296420f62b0d46c"
+ }
+}

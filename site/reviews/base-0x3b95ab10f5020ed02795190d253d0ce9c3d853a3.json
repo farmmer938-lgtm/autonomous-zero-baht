@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x3b95ab10f5020ed02795190d253d0ce9c3d853a3",
+ "generatedAt": "2026-11-25T21:41:05.843903+00:00",
+ "reads": {
+  "name": "ATX",
+  "symbol": "ATX PROJECT",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x3b95ab10f5020ed02795190d253d0ce9c3d853a3",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x3b95ab10\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62262451,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 73237349.2489,
+ "poolCreatedAt": "2026-11-25T21:24:48Z",
+ "poolName": "ATX PROJECT / WETH",
+ "outreach": {
+  "symbol": "ATX PROJECT",
+  "name": "ATX",
+  "priceUsd": "0.04886",
+  "fdv": 488658338,
+  "liquidityUsd": 73298919.82,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x7c061aded1ff5a4c9b214b1571e955fd0e8165b87d8ef9ff95e0881e01a91e5a",
+  "pairUrl": "https://dexscreener.com/base/0x7c061aded1ff5a4c9b214b1571e955fd0e8165b87d8ef9ff95e0881e01a91e5a"
+ }
+}
