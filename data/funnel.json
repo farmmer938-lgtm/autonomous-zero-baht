@@ -1,6 +1,6 @@
 {
  "schema": "af.funnel.v1",
- "at": "2026-11-25T14:33:36.184918+00:00",
+ "at": "2026-11-25T14:43:00.308385+00:00",
  "visitors": null,
  "visitors_note": "no analytics account; page views are unknown, not zero",
  "interest": 0,
@@ -13,5 +13,8 @@
   "interest_to_delivered": null,
   "delivered_to_paid": null
  },
+ "excluded_self_tests": [
+  75
+ ],
  "issues": []
 }
