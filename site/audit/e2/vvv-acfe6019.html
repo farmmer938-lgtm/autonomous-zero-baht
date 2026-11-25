@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VVV — what the chain says about control, at block 62160843</title>
+<meta name="description" content="Owner, mint authority and upgradeability of VVV on Base, read at block 62160843, with a sha256 and a list of what was not checked.">
+<link rel="canonical" href="https://farmmer938-lgtm.github.io/autonomous-zero-baht/audit/e2/vvv-acfe6019.html">
+<style>body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:820px;margin:0 auto;padding:24px 18px;background:#0b0d12;color:#e8ecf4}a{color:#4f8cff}code{font-family:ui-monospace,monospace;font-size:13px;word-break:break-all}table{border-collapse:collapse;width:100%;margin:12px 0}td,th{border:1px solid #232838;padding:6px 8px;text-align:left;vertical-align:top}.mut{color:#9aa4b8}.warn{border-left:3px solid #ffb020;padding-left:12px}</style>
+</head><body>
+<p class="mut"><a href="../../audit/">← all audits</a> · generated 2026-11-25T16:02:02Z</p>
+<h1>VVV on Base</h1>
+<p>Contract <code>0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf</code>, read at block <code>62160843</code>.
+Verdict: <strong>owner is a contract (multisig/governance) · mint still present</strong>.</p>
+<p class="mut">Why this token is here: top 10 Base token by 24h pool volume in GeckoTerminal&#x27;s trending list when this page was generated —
+4,318,432 USD of 24h volume, 3,264,585 USD of
+liquidity. Volume means people are trading it. It does not mean anyone wants an audit.</p>
+<h2>What was read</h2>
+<table><tr><th>field</th><th>value at block 62160843</th></tr><tr><td>symbol</td><td><code>VVV</code></td></tr><tr><td>name</td><td><code>Venice Token</code></td></tr><tr><td>decimals</td><td><code>18</code></td></tr><tr><td>totalSupplyTokens</td><td><code>115268776.30422062</code></td></tr><tr><td>owner</td><td><code>0x321b7ff75154472b18edb199033ff4d116f340ff</code></td></tr><tr><td>bytecodeScannedAddress</td><td><code>0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf</code></td></tr></table>
+<h2>What this page cannot tell you</h2>
+<div class="warn">
+<ul>
+<li>It says nothing about whether you can sell this token. No swap was simulated and no
+honeypot test was performed — that needs capital this project does not have.</li>
+<li>It is not a safety certification, a rating, a score, or investment advice.</li>
+<li>It does not predict the price, the liquidity, or whether the owner will act.</li>
+</ul>
+</div>
+<h2>What the bytecode scan flagged</h2>
+<ul><li><code>owner is a CONTRACT (likely a multisig or governance) — not a single EOA</code></li><li><code>mint(address,uint256) IS present in the bytecode — supply can still be increased by whoever holds mint rights (not necessarily the owner; access control is a separate question)</code></li></ul>
+<h2>What was deliberately not established</h2>
+<ul><li>transfer tax / honeypot: needs a live buy+sell simulation, not a static read</li><li>liquidity lock: needs the LP token holder list, which this reader does not fetch</li></ul>
+<h2>What the free scanner says about the same address</h2>
+<table><tr><th>field</th><th>quoted value</th></tr><tr><td>is_honeypot</td><td><code>0</code></td></tr><tr><td>buy_tax</td><td><code>0</code></td></tr><tr><td>sell_tax</td><td><code>0</code></td></tr><tr><td>holder_count</td><td><code>161314</code></td></tr><tr><td>owner_address</td><td><code>0x321b7ff75154472b18edb199033ff4d116f340ff</code></td></tr><tr><td>is_open_source</td><td><code>1</code></td></tr><tr><td>is_mintable</td><td><code>1</code></td></tr></table>
+<p class="mut">Quoted, not interpreted. Where the two disagree, the chain read above is the one
+with a block number attached, and this page does not claim it is the more complete answer.</p>
+<h2>Reproduce it</h2>
+<p>Raw report: <code>site/reviews/base-0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf.json</code> ·
+sha256 of the report JSON: <code>806f8937861df723c9f6e03601e3bc1fd66679471322befc7f3b2ddffd5b81eb</code></p>
+<p class="mut">Errors during the read: none</p>
+</body></html>

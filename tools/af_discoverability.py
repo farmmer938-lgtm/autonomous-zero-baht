@@ -28,7 +28,7 @@ from pathlib import Path
 BASE = "https://farmmer938-lgtm.github.io/autonomous-zero-baht/"
 SITE = Path("site")
 OUT = Path("data/discoverability.json")
-PAGES = ["audit/index.html", "audit/cases/index.html",
+PAGES = ["audit/e2/index.html", "audit/index.html", "audit/cases/index.html",
          "audit/guides/check-a-base-token.html", "audit/guides/mint-authority.html",
          "audit/guides/scanner-vs-evidence.html", "reviews.html", "store.html", "index.html"]
 

@@ -2,6 +2,24 @@
  "schema": "af.discoverability.v1",
  "pages": [
   {
+   "path": "audit/e2/index.html",
+   "title": "Ten Base tokens, read at their block — an audit panel",
+   "http": null,
+   "internal_links": [
+    "site/audit",
+    "site/audit/e2/aero-3f5bf3ed.html",
+    "site/audit/e2/aero-940181a9.html",
+    "site/audit/e2/antc-b2000000.html",
+    "site/audit/e2/elsa-29cc30f9.html",
+    "site/audit/e2/nvdac-b2000000.html",
+    "site/audit/e2/pros-8b7dde05.html",
+    "site/audit/e2/sol-311935cd.html",
+    "site/audit/e2/spcxc-b2000000.html",
+    "site/audit/e2/ttwoc-b2000000.html",
+    "site/audit/e2/vvv-acfe6019.html"
+   ]
+  },
+  {
    "path": "audit/index.html",
    "title": "Base token audit — chain facts, evidence, delivered in an issue | AF",
    "http": null,
@@ -102,7 +120,7 @@
  ],
  "problems": [],
  "sitemap": {
-  "urls": 13,
+  "urls": 24,
   "error": null,
   "not_a_local_page": [],
   "all_local": true

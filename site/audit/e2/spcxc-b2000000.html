@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPCXc — what the chain says about control, at block 62160780</title>
+<meta name="description" content="Owner, mint authority and upgradeability of SPCXc on Base, read at block 62160780, with a sha256 and a list of what was not checked.">
+<link rel="canonical" href="https://farmmer938-lgtm.github.io/autonomous-zero-baht/audit/e2/spcxc-b2000000.html">
+<style>body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:820px;margin:0 auto;padding:24px 18px;background:#0b0d12;color:#e8ecf4}a{color:#4f8cff}code{font-family:ui-monospace,monospace;font-size:13px;word-break:break-all}table{border-collapse:collapse;width:100%;margin:12px 0}td,th{border:1px solid #232838;padding:6px 8px;text-align:left;vertical-align:top}.mut{color:#9aa4b8}.warn{border-left:3px solid #ffb020;padding-left:12px}</style>
+</head><body>
+<p class="mut"><a href="../../audit/">← all audits</a> · generated 2026-11-25T16:02:02Z</p>
+<h1>SPCXc on Base</h1>
+<p>Contract <code>0xb2000000000000000000007b9fcbd005511acbd5</code>, read at block <code>62160780</code>.
+Verdict: <strong>no owner() surface found</strong>.</p>
+<p class="mut">Why this token is here: top 10 Base token by 24h pool volume in GeckoTerminal&#x27;s trending list when this page was generated —
+9,452,420 USD of 24h volume, 961,569 USD of
+liquidity. Volume means people are trading it. It does not mean anyone wants an audit.</p>
+<h2>What was read</h2>
+<table><tr><th>field</th><th>value at block 62160780</th></tr><tr><td>symbol</td><td><code>SPCXc</code></td></tr><tr><td>name</td><td><code>Space Exploration Technologies Corp.</code></td></tr><tr><td>decimals</td><td><code>8</code></td></tr><tr><td>totalSupplyTokens</td><td><code>33136.36553606</code></td></tr><tr><td>owner</td><td><code>not returned</code></td></tr><tr><td>bytecodeScannedAddress</td><td><code>0xb2000000000000000000007b9fcbd005511acbd5</code></td></tr></table>
+<h2>What this page cannot tell you</h2>
+<div class="warn">
+<ul>
+<li>It says nothing about whether you can sell this token. No swap was simulated and no
+honeypot test was performed — that needs capital this project does not have.</li>
+<li>It is not a safety certification, a rating, a score, or investment advice.</li>
+<li>It does not predict the price, the liquidity, or whether the owner will act.</li>
+</ul>
+</div>
+<h2>What the bytecode scan flagged</h2>
+<ul><li><code>no owner() function — ownership is either renounced at the code level or the contract is not Ownable</code></li><li><code>no mint(address,uint256) selector in the bytecode of 0xb2000000… — supply cannot be inflated through the standard mint entry point</code></li></ul>
+<h2>What was deliberately not established</h2>
+<ul><li>transfer tax / honeypot: needs a live buy+sell simulation, not a static read</li><li>liquidity lock: needs the LP token holder list, which this reader does not fetch</li></ul>
+<h2>What the free scanner says about the same address</h2>
+<table><tr><th>field</th><th>quoted value</th></tr><tr><td>buy_tax</td><td><code>0</code></td></tr><tr><td>sell_tax</td><td><code>0</code></td></tr><tr><td>holder_count</td><td><code>6985</code></td></tr><tr><td>owner_address</td><td><code>not returned</code></td></tr><tr><td>is_open_source</td><td><code>1</code></td></tr></table>
+<p class="mut">Quoted, not interpreted. Where the two disagree, the chain read above is the one
+with a block number attached, and this page does not claim it is the more complete answer.</p>
+<h2>Reproduce it</h2>
+<p>Raw report: <code>site/reviews/base-0xb2000000000000000000007b9fcbd005511acbd5.json</code> ·
+sha256 of the report JSON: <code>93d4015cac635f8373acbd19aec8574607595c33fdc587fea000298e32042532</code></p>
+<p class="mut">Errors during the read: none</p>
+</body></html>

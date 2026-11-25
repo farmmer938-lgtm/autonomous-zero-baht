@@ -1,0 +1,560 @@
+{
+ "schema": "af.e2.panel.v1",
+ "selected_at": "2026-11-25T16:00:12.620370+00:00",
+ "source": "https://api.geckoterminal.com/api/v2/networks/base/trending_pools?page=1",
+ "tokens": [
+  {
+   "address": "0xb20000000000000000000078ee7ce2fe4908108c",
+   "symbol": "NVDAc",
+   "pool_name": "NVDAc / USDC 0.301%",
+   "pool_address": "0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
+   "h24_volume_usd": 30731033.2390024,
+   "liquidity_usd": 1850039.3017,
+   "source_url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
+  },
+  {
+   "address": "0x8b7dde054be9d180c1be7fae0874697374a49832",
+   "symbol": "PROS",
+   "pool_name": "PROS / USDC 0.01%",
+   "pool_address": "0x8a8e4170c09074b109352190d47e54d7c1f61e4e",
+   "h24_volume_usd": 11394428.7495714,
+   "liquidity_usd": 1008745.9508,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x8a8e4170c09074b109352190d47e54d7c1f61e4e"
+  },
+  {
+   "address": "0x311935cd80b76769bf2ecc9d8ab7635b2139cf82",
+   "symbol": "SOL",
+   "pool_name": "SOL / cbBTC 0.014%",
+   "pool_address": "0xc01c2800186207270ba5386532a8173c5b7dd194",
+   "h24_volume_usd": 10067664.6431446,
+   "liquidity_usd": 584183.3883,
+   "source_url": "https://www.geckoterminal.com/base/pools/0xc01c2800186207270ba5386532a8173c5b7dd194"
+  },
+  {
+   "address": "0xb2000000000000000000007b9fcbd005511acbd5",
+   "symbol": "SPCXc",
+   "pool_name": "SPCXc / USDC 0.034%",
+   "pool_address": "0x880db7dda4407d99508574e680d067d1164b3cfe",
+   "h24_volume_usd": 9452419.90255458,
+   "liquidity_usd": 961569.3463,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe"
+  },
+  {
+   "address": "0xb20000000000000000000016e38fd364d271ba28",
+   "symbol": "ANTc",
+   "pool_name": "ANTc / USDC 0.05%",
+   "pool_address": "0x599c4225fe90214795a0be228d20d7680f8ced15",
+   "h24_volume_usd": 8641288.80128019,
+   "liquidity_usd": 1137042.2988,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x599c4225fe90214795a0be228d20d7680f8ced15"
+  },
+  {
+   "address": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+   "symbol": "ELSA",
+   "pool_name": "ELSA / USDC 0.01%",
+   "pool_address": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
+   "h24_volume_usd": 8634043.34916728,
+   "liquidity_usd": 534394.2262,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+  },
+  {
+   "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+   "symbol": "AERO",
+   "pool_name": "AERO / USDC 0.015%",
+   "pool_address": "0x422df9aa896e883c9cdcbad309c0785b7364a1cf",
+   "h24_volume_usd": 4432782.83330188,
+   "liquidity_usd": 733375.2556,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
+  },
+  {
+   "address": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+   "symbol": "VVV",
+   "pool_name": "VVV / WETH 0.276%",
+   "pool_address": "0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
+   "h24_volume_usd": 4318432.4094885,
+   "liquidity_usd": 3264585.0458,
+   "source_url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
+  },
+  {
+   "address": "0xb200000000000000000000f720c26062bc3067da",
+   "symbol": "TTWOc",
+   "pool_name": "TTWOc / USDC 0.05%",
+   "pool_address": "0x18907cae5a9c7b45f85c5d2e1f7508c27c134f83",
+   "h24_volume_usd": 1949846.49580261,
+   "liquidity_usd": 254789.1252,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x18907cae5a9c7b45f85c5d2e1f7508c27c134f83"
+  },
+  {
+   "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "symbol": "AERO",
+   "pool_name": "AERO / USDC",
+   "pool_address": "0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d",
+   "h24_volume_usd": 242907.848866572,
+   "liquidity_usd": 3196276.4266,
+   "source_url": "https://www.geckoterminal.com/base/pools/0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d"
+  }
+ ],
+ "built_at": "2026-11-25T16:02:02.549236+00:00",
+ "cases": [
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "nvdac-b2000000",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0xb20000000000000000000078ee7ce2fe4908108c",
+   "symbol": "NVDAc",
+   "name": "NVIDIA Corporation",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 30731033.2390024,
+    "liquidity_usd": 1850039.3017,
+    "pool_name": "NVDAc / USDC 0.301%",
+    "pool_address": "0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
+    "source_url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
+   },
+   "block": 62160735,
+   "verdict": "no owner() surface found",
+   "read": {
+    "symbol": "NVDAc",
+    "name": "NVIDIA Corporation",
+    "decimals": 8,
+    "totalSupplyTokens": 70862.9806457,
+    "owner": null,
+    "bytecodeScannedAddress": "0xb20000000000000000000078ee7ce2fe4908108c"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0xb2000000… — supply cannot be inflated through the standard mint entry point"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "buy_tax": "",
+    "sell_tax": "",
+    "holder_count": "12992",
+    "owner_address": "",
+    "is_open_source": "1"
+   },
+   "report_path": "site/reviews/base-0xb20000000000000000000078ee7ce2fe4908108c.json",
+   "report_sha256": "db2c92de9b4839a7a8d2db0426dbdba2dc7cdc68d95d196cfd7145f3567d329a"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "pros-8b7dde05",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0x8b7dde054be9d180c1be7fae0874697374a49832",
+   "symbol": "PROS",
+   "name": "Wrapped PROS",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 11394428.7495714,
+    "liquidity_usd": 1008745.9508,
+    "pool_name": "PROS / USDC 0.01%",
+    "pool_address": "0x8a8e4170c09074b109352190d47e54d7c1f61e4e",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x8a8e4170c09074b109352190d47e54d7c1f61e4e"
+   },
+   "block": 62160749,
+   "verdict": "no owner() surface found · mint still present",
+   "read": {
+    "symbol": "PROS",
+    "name": "Wrapped PROS",
+    "decimals": 18,
+    "totalSupplyTokens": 3786039.5941568273,
+    "owner": null,
+    "bytecodeScannedAddress": "0x8b7dde054be9d180c1be7fae0874697374a49832"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "mint(address,uint256) IS present in the bytecode — supply can still be increased by whoever holds mint rights (not necessarily the owner; access control is a separate question)"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "is_honeypot": "0",
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "4412",
+    "owner_address": "0x755853e1a893e69349c20ca505418883303885bb",
+    "is_open_source": "1",
+    "is_mintable": "1"
+   },
+   "report_path": "site/reviews/base-0x8b7dde054be9d180c1be7fae0874697374a49832.json",
+   "report_sha256": "fd9367fd64f2cbe7d3b2a2ab205cbc760768442349c735d184b6512d0e7a2087"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "sol-311935cd",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0x311935cd80b76769bf2ecc9d8ab7635b2139cf82",
+   "symbol": "SOL",
+   "name": "Solana",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 10067664.6431446,
+    "liquidity_usd": 584183.3883,
+    "pool_name": "SOL / cbBTC 0.014%",
+    "pool_address": "0xc01c2800186207270ba5386532a8173c5b7dd194",
+    "source_url": "https://www.geckoterminal.com/base/pools/0xc01c2800186207270ba5386532a8173c5b7dd194"
+   },
+   "block": 62160764,
+   "verdict": "no owner() surface found",
+   "read": {
+    "symbol": "SOL",
+    "name": "Solana",
+    "decimals": 9,
+    "totalSupplyTokens": 336672.646943206,
+    "owner": null,
+    "bytecodeScannedAddress": "0x311935cd80b76769bf2ecc9d8ab7635b2139cf82"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0x311935cd… — supply cannot be inflated through the standard mint entry point"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "is_honeypot": "0",
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "31864",
+    "owner_address": "0x3eff766c76a1be2ce1acf2b69c78bcae257d5188",
+    "is_open_source": "1",
+    "is_mintable": "0"
+   },
+   "report_path": "site/reviews/base-0x311935cd80b76769bf2ecc9d8ab7635b2139cf82.json",
+   "report_sha256": "b15a098a40751f22d1f565451188e4580e73e9cd6b9d20795733e258aeab6c4a"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "spcxc-b2000000",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0xb2000000000000000000007b9fcbd005511acbd5",
+   "symbol": "SPCXc",
+   "name": "Space Exploration Technologies Corp.",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 9452419.90255458,
+    "liquidity_usd": 961569.3463,
+    "pool_name": "SPCXc / USDC 0.034%",
+    "pool_address": "0x880db7dda4407d99508574e680d067d1164b3cfe",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe"
+   },
+   "block": 62160780,
+   "verdict": "no owner() surface found",
+   "read": {
+    "symbol": "SPCXc",
+    "name": "Space Exploration Technologies Corp.",
+    "decimals": 8,
+    "totalSupplyTokens": 33136.36553606,
+    "owner": null,
+    "bytecodeScannedAddress": "0xb2000000000000000000007b9fcbd005511acbd5"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0xb2000000… — supply cannot be inflated through the standard mint entry point"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "6985",
+    "owner_address": "",
+    "is_open_source": "1"
+   },
+   "report_path": "site/reviews/base-0xb2000000000000000000007b9fcbd005511acbd5.json",
+   "report_sha256": "93d4015cac635f8373acbd19aec8574607595c33fdc587fea000298e32042532"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "antc-b2000000",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0xb20000000000000000000016e38fd364d271ba28",
+   "symbol": "ANTc",
+   "name": "Anthropic, PBC",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 8641288.80128019,
+    "liquidity_usd": 1137042.2988,
+    "pool_name": "ANTc / USDC 0.05%",
+    "pool_address": "0x599c4225fe90214795a0be228d20d7680f8ced15",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x599c4225fe90214795a0be228d20d7680f8ced15"
+   },
+   "block": 62160800,
+   "verdict": "no owner() surface found",
+   "read": {
+    "symbol": "ANTc",
+    "name": "Anthropic, PBC",
+    "decimals": 8,
+    "totalSupplyTokens": 21135.59938358,
+    "owner": null,
+    "bytecodeScannedAddress": "0xb20000000000000000000016e38fd364d271ba28"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0xb2000000… — supply cannot be inflated through the standard mint entry point"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "1303",
+    "owner_address": "",
+    "is_open_source": "1"
+   },
+   "report_path": "site/reviews/base-0xb20000000000000000000016e38fd364d271ba28.json",
+   "report_sha256": "4ebcc8a259827312b18510b12d7fc0bc862d335e4105e8b9c7f12d6e5231a148"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "elsa-29cc30f9",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+   "symbol": "ELSA",
+   "name": "Elsa",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 8634043.34916728,
+    "liquidity_usd": 534394.2262,
+    "pool_name": "ELSA / USDC 0.01%",
+    "pool_address": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+   },
+   "block": 62160815,
+   "verdict": "no owner() surface found",
+   "read": {
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "decimals": 18,
+    "totalSupplyTokens": 1000000000.0,
+    "owner": null,
+    "bytecodeScannedAddress": "0x29cc30f9d113b356ce408667aa6433589cecbdca"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0x29cc30f9… — supply cannot be inflated through the standard mint entry point"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "is_honeypot": "0",
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "242212",
+    "is_open_source": "1",
+    "is_mintable": "0"
+   },
+   "report_path": "site/reviews/base-0x29cc30f9d113b356ce408667aa6433589cecbdca.json",
+   "report_sha256": "7751d91c230aef407828ce5193e57b712368376c78cd5737e5f7e541af8d564c"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "aero-3f5bf3ed",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+   "symbol": "AERO",
+   "name": "Aero",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 4432782.83330188,
+    "liquidity_usd": 733375.2556,
+    "pool_name": "AERO / USDC 0.015%",
+    "pool_address": "0x422df9aa896e883c9cdcbad309c0785b7364a1cf",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
+   },
+   "block": 62160829,
+   "verdict": "no owner() surface found · mint still present",
+   "read": {
+    "symbol": "AERO",
+    "name": "Aero",
+    "decimals": 18,
+    "totalSupplyTokens": 2152619539.2613835,
+    "owner": null,
+    "bytecodeScannedAddress": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "mint(address,uint256) IS present in the bytecode — supply can still be increased by whoever holds mint rights (not necessarily the owner; access control is a separate question)"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "is_honeypot": "0",
+    "buy_tax": "",
+    "sell_tax": "",
+    "holder_count": "18501",
+    "is_open_source": "1",
+    "is_mintable": "0"
+   },
+   "report_path": "site/reviews/base-0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee.json",
+   "report_sha256": "46b5277400d66d2e60840978a7685b423907fb4b779f896fd7087019ffa579d3"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "vvv-acfe6019",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+   "symbol": "VVV",
+   "name": "Venice Token",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 4318432.4094885,
+    "liquidity_usd": 3264585.0458,
+    "pool_name": "VVV / WETH 0.276%",
+    "pool_address": "0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
+    "source_url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
+   },
+   "block": 62160843,
+   "verdict": "owner is a contract (multisig/governance) · mint still present",
+   "read": {
+    "symbol": "VVV",
+    "name": "Venice Token",
+    "decimals": 18,
+    "totalSupplyTokens": 115268776.30422062,
+    "owner": "0x321b7ff75154472b18edb199033ff4d116f340ff",
+    "bytecodeScannedAddress": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf"
+   },
+   "flags": [
+    "owner is a CONTRACT (likely a multisig or governance) — not a single EOA",
+    "mint(address,uint256) IS present in the bytecode — supply can still be increased by whoever holds mint rights (not necessarily the owner; access control is a separate question)"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "is_honeypot": "0",
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "161314",
+    "owner_address": "0x321b7ff75154472b18edb199033ff4d116f340ff",
+    "is_open_source": "1",
+    "is_mintable": "1"
+   },
+   "report_path": "site/reviews/base-0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf.json",
+   "report_sha256": "806f8937861df723c9f6e03601e3bc1fd66679471322befc7f3b2ddffd5b81eb"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "ttwoc-b2000000",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0xb200000000000000000000f720c26062bc3067da",
+   "symbol": "TTWOc",
+   "name": "Take-Two Interactive Software, Inc.",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 1949846.49580261,
+    "liquidity_usd": 254789.1252,
+    "pool_name": "TTWOc / USDC 0.05%",
+    "pool_address": "0x18907cae5a9c7b45f85c5d2e1f7508c27c134f83",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x18907cae5a9c7b45f85c5d2e1f7508c27c134f83"
+   },
+   "block": 62160858,
+   "verdict": "no owner() surface found",
+   "read": {
+    "symbol": "TTWOc",
+    "name": "Take-Two Interactive Software, Inc.",
+    "decimals": 8,
+    "totalSupplyTokens": 1684.53160669,
+    "owner": null,
+    "bytecodeScannedAddress": "0xb200000000000000000000f720c26062bc3067da"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "no mint(address,uint256) selector in the bytecode of 0xb2000000… — supply cannot be inflated through the standard mint entry point"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "664",
+    "owner_address": "",
+    "is_open_source": "1"
+   },
+   "report_path": "site/reviews/base-0xb200000000000000000000f720c26062bc3067da.json",
+   "report_sha256": "13f733dc85582badc416f8737e2fe65f15143ce43e7cf29ac496afd6d1bcb1e3"
+  },
+  {
+   "schema": "af.e2.token.v1",
+   "slug": "aero-940181a9",
+   "at": "2026-11-25T16:02:02.549236+00:00",
+   "chain": "base",
+   "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "symbol": "AERO",
+   "name": "Aerodrome",
+   "why_here": "top 10 Base token by 24h pool volume in GeckoTerminal's trending list when this page was generated",
+   "selection_evidence": {
+    "h24_volume_usd": 242907.848866572,
+    "liquidity_usd": 3196276.4266,
+    "pool_name": "AERO / USDC",
+    "pool_address": "0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d",
+    "source_url": "https://www.geckoterminal.com/base/pools/0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d"
+   },
+   "block": 62160872,
+   "verdict": "no owner() surface found · mint still present",
+   "read": {
+    "symbol": "AERO",
+    "name": "Aerodrome",
+    "decimals": 18,
+    "totalSupplyTokens": 2008752775.3277738,
+    "owner": null,
+    "bytecodeScannedAddress": "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
+   },
+   "flags": [
+    "no owner() function — ownership is either renounced at the code level or the contract is not Ownable",
+    "mint(address,uint256) IS present in the bytecode — supply can still be increased by whoever holds mint rights (not necessarily the owner; access control is a separate question)"
+   ],
+   "not_established": [
+    "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+    "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+   ],
+   "errors": [],
+   "free_scanner": {
+    "is_honeypot": "0",
+    "buy_tax": "0",
+    "sell_tax": "0",
+    "holder_count": "733351",
+    "is_open_source": "1",
+    "is_mintable": "1"
+   },
+   "report_path": "site/reviews/base-0x940181a94a35a4569e4529a3cdfb74e38fd98631.json",
+   "report_sha256": "483ad6156dcd18ee55942d30961799e886ff525e7cf4b0d1cac5be4e4e51161a"
+  }
+ ],
+ "pages": 10
+}
