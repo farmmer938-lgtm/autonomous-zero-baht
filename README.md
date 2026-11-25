@@ -54,12 +54,16 @@ local seed data marked as unverified, which the validator then refuses to publis
 | `facts.yml` | cron `*/6h` | refreshes the public artifacts and reports failed steps in the `af-alert` issue |
 | `revenue_verify.yml` | cron `*/6h` | reads the wallet's inbound USDC from chain logs |
 | `pages.yml` | on push to `main` | deploys `site/` to GitHub Pages |
-| `daily.yml` | cron daily | **currently disabled in the repository settings**; the published `site/index.html` is therefore only as fresh as its last manual run |
+| `daily.yml` | cron daily 02:47 UTC | runs the research engine, then commits `data/` and the rebuilt site to `main` |
 
 The scheduled jobs never fail on purpose, so GitHub does not email the owner. Problems are
-reported through the `af-alert` issue instead. Failures inside `facts.yml` are recorded in
-`data/workflow_health.json` and surfaced in that issue — a green run is not proof that every
-step published something.
+reported through the `af-alert` issue instead. Failures inside `facts.yml` and
+`revenue_verify.yml` are recorded in `data/workflow_health.json` and surfaced in that issue —
+a green run is not proof that every step published something.
+
+`tests/test_workflow_safety.py` enforces the rules that a stale branch once broke: no workflow
+may print `secrets`/`vars`, use `pull_request_target`, pin an action to a mutable tag, or hide
+a failure behind `|| true`.
 
 ## What is live, and what is not
 - **Live:** the GitHub Pages site, the free `site/api/quick-check.json` feed, the status page.
@@ -84,5 +88,4 @@ claim first-hand experience unless it actually occurred.
 - `.github/workflows/`: scheduled automation
 
 ## License
-No license file is present, so all rights are reserved by default. Add one deliberately if
-this code is meant to be reused.
+MIT — see `LICENSE`. Copyright (c) 2026 farmmer938-lgtm.
