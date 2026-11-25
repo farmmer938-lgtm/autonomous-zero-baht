@@ -42,9 +42,17 @@ def orders():
 
 
 def compute(issue_rows, order_rows, paid):
-    """Pure. issue_rows: [{"number","labels":[{"name"}],"createdAt"}]."""
+    """Pure. issue_rows: [{"number","labels":[{"name"}],"createdAt"}].
+
+    `self-test` issues are AF's own checks, so they are removed from every stage. Without
+    this, one verification issue would look like a customer forever.
+    """
+    def labels(i):
+        return {l["name"] for l in (i.get("labels") or [])}
+    own = {i.get("number") for i in issue_rows if "self-test" in labels(i)}
     requested = [i for i in issue_rows
-                 if "audit-request" in {l["name"] for l in (i.get("labels") or [])}]
+                 if "audit-request" in labels(i) and i.get("number") not in own]
+    order_rows = [o for o in order_rows if o.get("issue") not in own]
     delivered = [o for o in order_rows if o.get("status") == "delivered_unpaid"]
     failed = [o for o in order_rows if o.get("status") == "failed"]
     cash_rows = [p for p in (paid.get("payments") or [])
@@ -65,6 +73,7 @@ def compute(issue_rows, order_rows, paid):
             "delivered_to_paid": (round(len(cash_rows) / len(delivered), 3)
                                   if delivered else None),
         },
+        "excluded_self_tests": sorted(n for n in own if n is not None),
         "issues": [{"number": i.get("number"), "createdAt": i.get("createdAt")}
                    for i in requested],
     }
