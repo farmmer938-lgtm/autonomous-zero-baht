@@ -40,18 +40,6 @@ jobs:
             echo "revenue verify FAILED: the verdict below is stale"
             date -u +%Y-%m-%dT%H:%M:%SZ > /tmp/af_verify_failed
           fi
-      - name: Commit ledger and verdict
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/revenue_ledger.json data/revenue_verify.json data/workflow_health.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: revenue verify ledger"
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
-            git push
-          else
-            echo "No change."
-          fi
       - name: Alert AF on new money (never email K)
         env:
           GH_TOKEN: ${{ github.token }}
@@ -120,3 +108,15 @@ jobs:
                  "--label", "af-alert", "--body", "\n".join(body))
           print("alerted")
           PY
+      - name: Commit ledger and verdict
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/revenue_ledger.json data/revenue_verify.json data/workflow_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: revenue verify ledger"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          else
+            echo "No change."
+          fi
