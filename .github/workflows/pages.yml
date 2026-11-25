@@ -31,6 +31,13 @@ concurrency:
 
 jobs:
   deploy:
+    # A `workflow_run` fires for every completion of an allowlisted workflow, including a
+    # failed or cancelled one and including runs on other branches. Only a green run on
+    # main may publish; the other triggers are explicit and always allowed.
+    if: >-
+      github.event_name != 'workflow_run'
+      || (github.event.workflow_run.conclusion == 'success'
+          && github.event.workflow_run.head_branch == 'main')
     environment:
       name: github-pages
       url: ${{ steps.retry2.outputs.page_url || steps.retry1.outputs.page_url || steps.deployment.outputs.page_url }}
@@ -38,6 +45,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check the trigger
+        # The job-level `if` above is the real gate. This step re-checks the same rule in
+        # code, so a drift between the YAML and the allowlist fails the job loudly instead
+        # of deploying.
+        if: github.event_name == 'workflow_run'
+        env:
+          UPSTREAM_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          UPSTREAM_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          UPSTREAM_NAME: ${{ github.event.workflow_run.name }}
+        run: python tools/af_deploy_gate.py
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Delete older deploy artifacts
