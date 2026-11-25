@@ -23,6 +23,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write # delete previous deploy artifacts, which otherwise exhaust the quota
 
 concurrency:
   group: pages
@@ -39,6 +40,19 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - name: Delete older deploy artifacts
+        # Each artifact is ~64 MB and the account's storage is 500 MB, so a handful of
+        # deploys would stop the next one from being kept. Only this workflow's own
+        # artifacts are removed, and only before the new one is uploaded.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ids=$(gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id')
+          for id in ${ids}; do
+            gh api -X DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${id}"
+          done
+
       - name: Upload safe static status page
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
