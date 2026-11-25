@@ -1,10 +1,11 @@
 {
  "schema": "af.published.v1",
- "at": "2026-11-25T15:13:42.753885+00:00",
- "published": 9,
- "attempted": 9,
+ "at": "2026-11-25T16:25:58.017724+00:00",
+ "published": 10,
+ "attempted": 10,
  "live_paths": [
   "audit/",
+  "audit/e2/",
   "audit/cases/",
   "audit/guides/check-a-base-token.html",
   "audit/guides/mint-authority.html",
