@@ -1,0 +1,36 @@
+{
+ "schema": "af.case_study.v1",
+ "slug": "renounced",
+ "at": "2026-11-25T14:57:24.334851+00:00",
+ "why": "ownership renounced and not upgradeable: the strongest thing a contract can show",
+ "chain": "base",
+ "address": "0x1252230193c0aaa10eb8b59a31ed8ec92e27a081",
+ "symbol": "AKAM",
+ "name": "Akamai Technologies",
+ "block": 62141351,
+ "verdict": "ownership renounced, not upgradeable",
+ "facts": {
+  "symbol": "AKAM",
+  "name": "Akamai Technologies",
+  "decimals": 18,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": "0x0000000000000000000000000000000000000000",
+  "bytecodeScannedAddress": "0x1252230193c0aaa10eb8b59a31ed8ec92e27a081"
+ },
+ "not_established": [
+  "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+  "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+ ],
+ "errors": [],
+ "free_scanner": {
+  "is_honeypot": "0",
+  "buy_tax": "0",
+  "sell_tax": "0",
+  "holder_count": "8",
+  "owner_address": "0x0000000000000000000000000000000000000000",
+  "is_open_source": "1",
+  "is_mintable": "0"
+ },
+ "report": "site/reviews/base-0x1252230193c0aaa10eb8b59a31ed8ec92e27a081.json",
+ "report_sha256": "3dcc40b98296f211cd8b43255eb7ebd9c1b054bad57f4834807fdf49e11ae53e"
+}

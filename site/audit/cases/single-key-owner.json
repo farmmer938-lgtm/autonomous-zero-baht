@@ -1,0 +1,34 @@
+{
+ "schema": "af.case_study.v1",
+ "slug": "single-key-owner",
+ "at": "2026-11-25T14:57:24.334851+00:00",
+ "why": "the owner is one wallet: every privileged action is one key away",
+ "chain": "base",
+ "address": "0x20116282bf477f796749567d283ef733d3ee5704",
+ "symbol": "MCAT",
+ "name": "Moon Cat",
+ "block": 62141344,
+ "verdict": "single-key owner",
+ "facts": {
+  "symbol": "MCAT",
+  "name": "Moon Cat",
+  "decimals": 18,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": "0xffe8afed2974e94888aea7f26447840197f72a01",
+  "bytecodeScannedAddress": "0x20116282bf477f796749567d283ef733d3ee5704"
+ },
+ "not_established": [
+  "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+  "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+ ],
+ "errors": [],
+ "free_scanner": {
+  "buy_tax": "0",
+  "sell_tax": "0",
+  "holder_count": "2234",
+  "owner_address": "",
+  "is_open_source": "0"
+ },
+ "report": "site/reviews/base-0x20116282bf477f796749567d283ef733d3ee5704.json",
+ "report_sha256": "fedd6ddcee12c4ad2a9e73dcadb32520225398622afa1d776638d1bb55511fff"
+}
