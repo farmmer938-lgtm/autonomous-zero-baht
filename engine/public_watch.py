@@ -145,6 +145,15 @@ def paid_only(items):
     return out
 
 
+def _reward(item) -> str:
+    """`$0` claims a value; a listing that states no USD price is unpriced, not worthless."""
+    try:
+        usd = float(item.get("reward_usd") or 0)
+    except (TypeError, ValueError):
+        return "unpriced"
+    return f"${usd:g}" if usd > 0 else "unpriced"
+
+
 def _esc(value) -> str:
     return html.escape(str(value if value is not None else ""), quote=True)
 
@@ -183,7 +192,7 @@ def render_dashboard(report):
     radar = report.get("radar", []) or []
     if radar:
         radar_html = "".join(
-            f"<li><b>${_esc(r.get('reward_usd'))}</b> &middot; {_esc(r.get('rail'))} &middot; "
+            f"<li><b>{_esc(_reward(r))}</b> &middot; {_esc(r.get('rail'))} &middot; "
             f"<a href=\"{_safe_url(r.get('url'))}\" rel=\"noopener nofollow\">{_esc(r.get('title'))}</a></li>"
             for r in sorted(radar, key=lambda x: -(x.get("reward_usd") or 0))[:20])
     else:
@@ -226,7 +235,8 @@ def render_dashboard(report):
 <ul>{items}</ul>
 <h1 style="margin-top:24px">Opportunity radar — งานเปิดใหม่ (Frantic + nonsynthetic)</h1>
 <p class="sub">รายการเหล่านี้เป็นประกาศจากบุคคลที่สาม AF ยังไม่ได้ตรวจสอบว่าจ่ายจริง
-&middot; ตัวเลข $ คือรางวัลที่ประกาศไว้ ไม่ใช่รายได้ของ AF</p>
+&middot; ตัวเลข $ คือรางวัลที่ประกาศไว้ ไม่ใช่รายได้ของ AF
+&middot; &quot;unpriced&quot; = ประกาศไม่ได้ระบุเป็นดอลลาร์ (เช่น RTC/MRG) ไม่ได้แปลว่าไม่มีค่า</p>
 <ul>{radar_html}</ul>
 <p class="sub">source: <code>engine/public_watch.py</code></p>
 </div></body></html>

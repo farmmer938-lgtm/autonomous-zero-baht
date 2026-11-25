@@ -23,6 +23,23 @@ class DashboardEscapingTests(unittest.TestCase):
         self.assertNotIn("<script>alert(1)</script>", page)
         self.assertIn("&lt;script&gt;", page)
 
+    def test_unpriced_reward_is_not_rendered_as_zero(self):
+        page = render_dashboard(report(
+            {"storefront": surface(), "catalog": surface(), "research_site": surface(),
+             "cashier": surface(), "opentask": surface()},
+            radar=[{"rail": "nonsynthetic", "title": "2 RTC bounty", "reward_usd": 0,
+                    "url": "https://nonsynthetic.net/"}]))
+        self.assertIn("<b>unpriced</b>", page)
+        self.assertNotIn("<b>$0</b>", page)
+
+    def test_priced_reward_keeps_its_dollars(self):
+        page = render_dashboard(report(
+            {"storefront": surface(), "catalog": surface(), "research_site": surface(),
+             "cashier": surface(), "opentask": surface()},
+            radar=[{"rail": "frantic", "title": "paid", "reward_usd": 12.5,
+                    "url": "https://example.test"}]))
+        self.assertIn("<b>$12.5</b>", page)
+
     def test_javascript_url_is_dropped(self):
         page = render_dashboard(report(
             {"storefront": surface("javascript:alert(1)"), "catalog": surface(),
