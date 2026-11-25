@@ -7,10 +7,12 @@ decides that mechanically instead of by assumption, straight from the chain:
   * read AF's own receiving wallet USDC balance on Base,
   * scan the recent window for USDC Transfer logs *into* that wallet,
   * keep a ledger of distinct inbound transactions (tx hash -> first seen),
-  * verdict:
-      NONE       - no inbound transfer ever seen
-      FIRST      - exactly one inbound transfer seen
-      CONTINUOUS - >= 2 distinct inbound transfers on >= 2 distinct UTC days
+  * classify every inbound transfer before calling any of it revenue:
+      self         - the sender is one of AF's own wallets, so the money never arrived
+      unattributed - a third party paid, but no order id can be tied to the tx
+      customer     - a third party paid AND the tx matches a published order id
+  * verdict (NONE / FIRST / CONTINUOUS / RECURRING_SAME_DAY) counts third-party
+    transfers only; `customer_verified_usdc_total` is the only field that is revenue.
 
 Zero third-party deps (urllib JSON-RPC only), no secrets required (the wallet is
 public), so a GitHub Actions job can run it on a schedule and commit the result.
@@ -37,6 +39,7 @@ TRANSFER = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
 AF_WALLET = os.environ.get("AF_WALLET_ADDR", "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702")
 SCAN_BLOCKS = int(os.environ.get("AF_SCAN_BLOCKS", "49000"))  # publicnode caps at 50000
 LEDGER = os.environ.get("AF_REVENUE_LEDGER", "data/revenue_ledger.json")
+ORDERS_INDEX = os.environ.get("AF_ORDERS_INDEX", "site/api/orders/index.json")
 
 
 def now():
@@ -67,6 +70,62 @@ def balance_usdc(addr):
     data = "0x70a08231" + "0" * 24 + addr[2:].lower()
     res = rpc("eth_call", [{"to": USDC, "data": data}, "latest"])
     return int(res, 16) / 10 ** 6
+
+
+def self_addresses():
+    """AF's own wallets; a transfer from one of them is a self-transfer, not income."""
+    extra = os.environ.get("AF_SELF_ADDRESSES", "")
+    found = [AF_WALLET] + [a for a in extra.split(",") if a.strip()]
+    return frozenset(a.strip().lower() for a in found if a.strip())
+
+
+def classify_transfer(from_addr, self_set):
+    return "self" if str(from_addr or "").lower() in self_set else "external"
+
+
+def load_order_txs(path=None):
+    """tx hash (lowercase) -> order id, from the published order index."""
+    try:
+        with open(path or ORDERS_INDEX) as f:
+            data = json.load(f)
+    except Exception:
+        return {}
+    out = {}
+    for order in data.get("orders") or []:
+        tx = str(order.get("tx") or "").strip().lower()
+        if tx:
+            out[tx] = order.get("id")
+    return out
+
+
+def summarise(records, self_set, order_txs):
+    """Split received USDC into self-transfer, unattributed and verified customer money.
+
+    A wrong match publishes revenue that was never earned, so a transfer is only called
+    customer money when a third party sent it AND an order id names the same tx.
+    """
+    totals = {"self_transfer_usdc": 0.0, "unattributed_usdc": 0.0,
+              "customer_verified_usdc": 0.0}
+    rows = []
+    for rec in records:
+        tx = str(rec.get("tx") or "").lower()
+        kind = classify_transfer(rec.get("from"), self_set)
+        order_id = order_txs.get(tx) if kind == "external" else None
+        usdc = float(rec.get("usdc") or 0)
+        bucket = ("self_transfer_usdc" if kind == "self"
+                  else "customer_verified_usdc" if order_id else "unattributed_usdc")
+        totals[bucket] = round(totals[bucket] + usdc, 6)
+        rows.append({"tx": tx, "from": rec.get("from"), "usdc": usdc, "at": rec.get("at"),
+                     "kind": kind, "order_id": order_id, "bucket": bucket})
+    return totals, rows
+
+
+def verdict(external_count, external_days):
+    if external_count == 0:
+        return "NONE"
+    if external_count == 1:
+        return "FIRST"
+    return "CONTINUOUS" if external_days >= 2 else "RECURRING_SAME_DAY"
 
 
 def load_ledger():
@@ -129,26 +188,28 @@ def main():
         led["last_checked"] = out["at"]
         led["tx_count"] = len(seen)
 
-        n = len(seen)
-        distinct_days = len(days)
-        if n == 0:
-            out["verdict"] = "NONE"
-        elif n == 1:
-            out["verdict"] = "FIRST"
-        elif distinct_days >= 2:
-            out["verdict"] = "CONTINUOUS"
-        else:
-            out["verdict"] = "RECURRING_SAME_DAY"
-        out["inbound_tx_total"] = n
-        out["distinct_days"] = distinct_days
+        records = [dict(v, tx=k) for k, v in seen.items()]
+        totals, rows = summarise(records, self_addresses(), load_order_txs())
+        external = [r for r in rows if r["kind"] == "external"]
+        external_days = len({(r.get("at") or "")[:10] for r in external if r.get("at")})
+        out["verdict"] = verdict(len(external), external_days)
+        out["inbound_tx_total"] = len(seen)
+        out["external_tx_total"] = len(external)
+        out["distinct_days"] = len(days)
+        out["external_days"] = external_days
         out["days"] = led["days"]
         out["state"] = "VERIFIED"
-        # The verdict is a mechanical rule, not a size claim: publish the amount next to it so
-        # "CONTINUOUS" cannot be read as meaningful income when it is a few cents.
-        total = round(sum(float(v.get("usdc") or 0) for v in seen.values()), 6)
-        out["inbound_usdc_total"] = total
-        out["verdict_note"] = ("%d confirmed transfer(s) on %d day(s), totalling %s USDC"
-                               % (n, distinct_days, total))
+        # The verdict is a mechanical rule, not a size claim: publish the amounts next to it so
+        # "CONTINUOUS" cannot be read as income when the transfers were AF paying itself.
+        out["inbound_usdc_total"] = round(sum(totals.values()), 6)
+        out.update({k + "_total": v for k, v in totals.items()})
+        out["revenue_basis"] = "customer_verified"
+        out["transfers"] = rows
+        out["verdict_note"] = (
+            "%d third-party transfer(s) on %d day(s); %s USDC verified against an order, "
+            "%s USDC unattributed, %s USDC moved from AF's own wallets"
+            % (len(external), external_days, totals["customer_verified_usdc"],
+               totals["unattributed_usdc"], totals["self_transfer_usdc"]))
 
         if a.write:
             save_ledger(led)
