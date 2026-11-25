@@ -1,0 +1,25 @@
+name: AF Pages Health (free, no secrets)
+
+# The site has already gone stale twice without anyone noticing: a failed deploy keeps the
+# previous version online, and an exhausted artifact quota makes the next upload vanish
+# without an error. This only reads and reports.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 */6 * * *"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Report deployment, storage, media and freshness
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python tools/af_pages_health.py
