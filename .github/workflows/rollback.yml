@@ -47,6 +47,8 @@ jobs:
           python tools/af_rollback_check.py "${TARGET_SHA}" | tee rollback-check.txt
           echo "target_sha=${TARGET_SHA}" >> "$GITHUB_OUTPUT"
       - name: Show what changes
+        env:
+          TARGET_SHA: ${{ inputs.target_sha }}
         run: |
           set -euo pipefail
           echo "--- commits that would stop being deployed ---"
