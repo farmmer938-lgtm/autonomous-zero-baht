@@ -1,0 +1,91 @@
+name: Pages rollback (manual only)
+
+# A rollback publishes an older tree over the live site. It never runs on its own: the only
+# trigger is a human typing a SHA, and `dry_run` defaults to true so the first press of the
+# button prints what would happen instead of doing it.
+on:
+  workflow_dispatch:
+    inputs:
+      target_sha:
+        description: "Full commit SHA on main to redeploy (40 hex characters)"
+        required: true
+        type: string
+      dry_run:
+        description: "Check only, do not deploy"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write # delete older deploy artifacts, same reason as pages.yml
+
+concurrency:
+  group: pages # shares the group with pages.yml, so the two never deploy at once
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      target_sha: ${{ steps.check.outputs.target_sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0 # the ancestry check needs history, not a single commit
+      - name: Check the target SHA
+        id: check
+        env:
+          TARGET_SHA: ${{ inputs.target_sha }}
+        run: |
+          set -euo pipefail
+          echo "current main: $(git rev-parse origin/main)"
+          echo "requested target: ${TARGET_SHA}"
+          python tools/af_rollback_check.py "${TARGET_SHA}" | tee rollback-check.txt
+          echo "target_sha=${TARGET_SHA}" >> "$GITHUB_OUTPUT"
+      - name: Show what changes
+        run: |
+          set -euo pipefail
+          echo "--- commits that would stop being deployed ---"
+          git --no-pager log --oneline "${TARGET_SHA}..origin/main" | head -30
+
+  deploy:
+    needs: check
+    if: inputs.dry_run == false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the target commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ needs.check.outputs.target_sha }}
+      - name: Configure Pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - name: Delete older deploy artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ids=$(gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id')
+          for id in ${ids}; do
+            gh api -X DELETE "repos/${GITHUB_REPOSITORY}/actions/artifacts/${id}"
+          done
+      - name: Upload the target tree
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: ./site
+          retention-days: 1
+      - name: Deploy the target tree
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Report what is live
+        run: |
+          echo "deployed ${{ needs.check.outputs.target_sha }}"
+          echo "the scheduled pages.yml deploy will publish main again on its next run;"
+          echo "to make this permanent, revert on main (see docs/ROLLBACK.md)"
