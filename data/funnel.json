@@ -1,10 +1,12 @@
 {
  "schema": "af.funnel.v2",
- "at": "2026-11-25T15:20:14.743023+00:00",
+ "at": "2026-11-25T15:39:00.699170+00:00",
  "published": 9,
  "published_note": "200 means the file is served. It is not a reader, and it is not reach.",
  "reach": null,
  "reach_note": "no analytics account. 200 responses, sitemap crawls and relay acceptances are publication evidence, not readers",
+ "discovered": null,
+ "discovered_note": "needs a search engine's own word (Search Console / site: query). A share, a search-engine ping or a sitemap fetch is not discovery, and setting these fields on a share is exactly the mistake this file exists to prevent",
  "traffic": null,
  "traffic_note": "no analytics account; human sessions are not measurable here",
  "bots_filtered": 0,
