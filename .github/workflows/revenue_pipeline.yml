@@ -37,11 +37,18 @@ jobs:
       - name: Build the revenue report
         run: python tools/af_revenue_report.py --write
 
+      - name: Measure the funnel
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --state all --limit 200 --json number,labels,createdAt             > /tmp/issues.json
+          python tools/af_funnel.py --issues-json /tmp/issues.json --write
+
       - name: Commit the evidence
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/opportunities.json data/revenue_report.json data/REVENUE_REPORT.md
+          git add data/opportunities.json data/revenue_report.json data/REVENUE_REPORT.md data/funnel.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: revenue pipeline (opportunities + report)"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true

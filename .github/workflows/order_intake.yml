@@ -1,0 +1,72 @@
+name: AF Order Intake (free, no secrets)
+
+# The shop front (site/audit/) promises: open an issue, the report appears in the issue.
+# This is the responder. It runs only on issues labelled audit-request, treats the body as
+# data (an address is regex-matched, never executed), and replies with the report plus the
+# price and the limits. It never marks an order paid: only the ledger does that.
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: af-order-intake-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    if: contains(github.event.issue.labels.*.name, 'audit-request')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Read the issue body
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: gh issue view "$ISSUE" --json body --jq .body > /tmp/body.md
+
+      - name: Produce the report
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          python tools/af_audit_order.py --issue "$ISSUE" \
+            --body-file /tmp/body.md --comment-out /tmp/comment.md --write
+
+      - name: Reply in the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: gh issue comment "$ISSUE" --body-file /tmp/comment.md
+
+      - name: Commit the order record and the report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/api/orders site/reviews
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: audit order ${{ github.event.issue.number }}"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          else
+            echo "No change."
+          fi
+
+      - name: Say so in the issue when delivery fails
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --body "The automated report failed to run.
+          Nothing is owed for this attempt. The maintainers can rerun it from the Actions
+          tab. This comment was written by an AI agent (OpenHands) on behalf of K."
