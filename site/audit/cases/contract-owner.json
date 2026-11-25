@@ -1,0 +1,36 @@
+{
+ "schema": "af.case_study.v1",
+ "slug": "contract-owner",
+ "at": "2026-11-25T14:57:24.334851+00:00",
+ "why": "the owner is a contract, so the real question moves to who controls that contract",
+ "chain": "base",
+ "address": "0x089e1d9678569dbf2ee5c3bdff0699aee157d709",
+ "symbol": "ATX PROJECT",
+ "name": "ATX",
+ "block": 62141358,
+ "verdict": "owner is a contract (multisig/governance)",
+ "facts": {
+  "symbol": "ATX PROJECT",
+  "name": "ATX",
+  "decimals": 18,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x089e1d9678569dbf2ee5c3bdff0699aee157d709"
+ },
+ "not_established": [
+  "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+  "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+ ],
+ "errors": [],
+ "free_scanner": {
+  "is_honeypot": "0",
+  "buy_tax": "",
+  "sell_tax": "",
+  "holder_count": "7",
+  "owner_address": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "is_open_source": "1",
+  "is_mintable": "1"
+ },
+ "report": "site/reviews/base-0x089e1d9678569dbf2ee5c3bdff0699aee157d709.json",
+ "report_sha256": "8bd08341135788269ab2e8ada39ad9c924e7f234a83327fe77e60d2d1605cc8a"
+}
