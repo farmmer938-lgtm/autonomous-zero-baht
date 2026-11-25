@@ -48,23 +48,25 @@ jobs:
           # quota; past that the upload "succeeds" and deploy-pages then finds no
           # artifact at all.
           retention-days: 1
+      # deploy-pages looks the artifact up through the API and sometimes cannot see one
+      # the upload step has just finalised. The first two attempts are allowed to fail so
+      # that a later success leaves the job green; the last attempt decides the job.
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
-      # deploy-pages looks the artifact up through the API and sometimes cannot see one
-      # that the upload step has just finalised. Waiting is what helps; an immediate
-      # second attempt fails the same way.
       - name: Wait for the artifact to become visible
-        if: failure()
+        if: steps.deployment.outcome == 'failure'
         run: sleep 30
       - name: Deploy to GitHub Pages (retry 1)
-        if: failure()
         id: retry1
+        if: steps.deployment.outcome == 'failure'
+        continue-on-error: true
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
       - name: Wait longer
-        if: failure()
+        if: steps.deployment.outcome == 'failure' && steps.retry1.outcome == 'failure'
         run: sleep 60
       - name: Deploy to GitHub Pages (retry 2)
-        if: failure()
         id: retry2
+        if: steps.deployment.outcome == 'failure' && steps.retry1.outcome == 'failure'
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
