@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.042668+00:00"
+    "researched_at": "2026-11-25T10:29:21.496991+00:00"
   },
   {
     "title": "Beginner Guide to CJ Affiliate (Commission Junction) in 2022",
@@ -33,7 +33,39 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043121+00:00"
+    "researched_at": "2026-11-25T10:29:21.497608+00:00"
+  },
+  {
+    "title": "รู้จักกับ AINU โซลูชั่น AI ของไทยที่ช่วยสร้าง Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากันรู้จักกับ AINU บริษัท AI ไทยที่ช่วยสร้าง Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากัน",
+    "url": "https://www.blognone.com/node/152250",
+    "summary": "รู้จักกับ AINU โซลูชั่น AI ของไทยที่ช่วยสร้าง Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากันรู้จักกับ AINU บริษัท AI ไทยที่ช่วยสร้าง Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากัน Body นับตั้งแต่สมาร์ตโฟนได้รับความนิยมสูงขึ้นเรื่อยๆ คนไทยก็เริ่มชินกับการทำธุรกรรมต่างๆ ไม่ว่าจะเป็นการซื้อของออนไลน์ การโอนเงินหรือทำธุรกรรมต่างๆ ที่ไม่ต้องไปติดต่อสาขาธนาคารเช่นเดิม มาจนถึงช่วงไม่กี่ปีที่ผ่านมา เราเริ่มเห็นบริการที่เคยต้องรอพบเจ้าหน้าที่หรือไปติดต่อที่ทำการต่างๆ สามารถทำงานออนไลน์ได้มากขึ้นเรื่อยๆ แต่ความสะดวกเหล่านี้ก็มาพร้อมกับความท้าทายใหม่ๆ คนร้ายอาศัยระบบที่พยายามทำให้ผู้ใช้สะดวกมาโจมตีด้วยวิธีต่างๆ ที่เราเห็นมากที่สุดคงเป็นแก๊งคอลเซ็นเตอร์ที่พยายามขโมยเงินด้วยวิธีต่างๆ กันไป AINU เป็นผู้ให้บริการ AI ของไทยภายใต้ KASIKORN X (KX) โดยทีมงานเริ่มจากการทำโครงการภายในของ KBTG ที่ต้องการพัฒนาเทคโนโลยีมาใช้ รองรับ NDID ในกระบวนการตรวจสอบยืนยันตัวตน (e-KYC) ระหว่างช่วง COVID-19 จากตอนนั้นเทคโนโลยีของ AINU ก็สามารถนำไปให้บริการต่างๆ ทั้งบริการในเครือของธนาคารกสิกรไทยเ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 25 Nov 2026 10:00:00 +0000",
+    "matched_keywords": [
+      "วิธี"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-25T10:29:21.498851+00:00"
+  },
+  {
+    "title": "[ลือ] พนักงาน OpenAI และ Anthropic กังวล โมเดลรุ่นใช้ภายในเริ่มเก่งเกินจนน่ากลัว",
+    "url": "https://www.blognone.com/node/152249",
+    "summary": "[ลือ] พนักงาน OpenAI และ Anthropic กังวล โมเดลรุ่นใช้ภายในเริ่มเก่งเกินจนน่ากลัว Body เว็บไซต์ Axios อ้างข้อมูลจากการสัมภาษณ์พนักงาน OpenAI และ Anthropic จำนวนรวมมากกว่า 24 คน ได้ข้อมูลตรงกันว่า โมเดล LLM ที่ใช้กันภายในมีความฉลาดขึ้นกว่าโมเดลที่เปิดต่อสาธารณะมาก (far more powerful) จนถึงระดับที่อาจเอาชนะระบบควบคุมโมเดลได้แล้ว ซึ่งเป็นสัญญาณอันตรายว่าเราสมควรเทรนโมเดลกันต่อไปมากแค่ไหน นักวิจัยรายหนึ่งระบุว่า โมเดลฉลาดขึ้นจนหลอกมนุษย์ได้แล้ว และทำให้ระบบควบคุมที่มีอยู่ในปัจจุบันล้าสมัย เพราะในอดีต โมเดลไม่รู้ว่าตัวเองอยู่ภายใต้ระบบควบคุม และมนุษย์สั่งให้โมเดล thinking out loud เพื่อทำความเข้าใจวิธีคิดของโมเดลว่าเป็นอย่างไร แต่โมเดลรุ่นปัจจุบันมักมีพฤติกรรมคิดเองภายใน แก้โจทย์ซับซ้อนขึ้นได้ แต่เปิดเผยรายละเอียดน้อยลง หรืออาจทำได้กระทั่งการหลอกมนุษย์ให้เข้าใจผิดไปอีกทาง เพื่อเอาใจมนุษย์ที่เฝ้ามอนิเตอร์อยู่ ส่วนโฆษกของ Anthropic ให้สัมภาษณ์แนวทางใหม่ของบริษัทที่เชื่อว่า วิธีการป้องกันด้วยการเก็บรักษาโมเดลนี้ไว้ใช้ภายในเพียงอย่างเดียว จะถือว่าไม่ปลอดภัยอีกต่อไปแล้วเช่นกัน ส่งผลให้ Anthropic ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Wed, 25 Nov 2026 02:39:51 +0000",
+    "matched_keywords": [
+      "วิธี"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-25T10:29:21.499178+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -49,7 +81,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.042837+00:00"
+    "researched_at": "2026-11-25T10:29:21.497235+00:00"
+  },
+  {
+    "title": "Tidal แบนเพลงที่สร้างด้วย AI ทั้งเพลงออกจากแพลตฟอร์ม",
+    "url": "https://www.blognone.com/node/152248",
+    "summary": "Tidal แบนเพลงที่สร้างด้วย AI ทั้งเพลงออกจากแพลตฟอร์ม Body Tidal แพลตฟอร์มฟังเพลงออนไลน์ ( ถูก Block/Square ซื้อกิจการมาตั้งแต่ปี 2021 ) ประกาศนโยบายใหม่ แบนเพลงที่สร้างด้วย AI ทั้งเพลง100% บนแพลตฟอร์ม Tidal บอกว่าตอนแรกใช้วิธี \"แปะป้าย\" ว่าเป็นเพลงที่สร้างด้วย AI แต่พบว่าไม่พอ เพราะปริมาณเพลง AI เพิ่มขึ้นอย่างรวดเร็ว โดยในรอบ 90 วันล่าสุด มีเพลง AI คิดเป็น 43% ของเพลงทั้งหมดที่ถูกส่งเข้ามาบนแพลตฟอร์ม บางวันพุ่งสูงไปถึง 60% และถ้าคิดเทียบกับคลังเพลงทั้งหมด 27 ล้านเพลง ตอนนี้มีเพลง AI แล้ว 6.3% แต่ปริมาณเพลง AI เยอะไม่ได้แปลว่าคนฟังเยอะตามไปด้วย สมาชิก Tidal แทบไม่ฟังเพลงเหล่านี้เลย โดย 96% ของเพลง AI มีคนฟัง 0 ครั้งในรอบ 3 เดือนล่าสุด นอกจากนี้เพลง AI ที่พยายามปลอมตัวเป็นเพลงของศิลปินคนอื่น (ด้วยวิธีการตั้งชื่อเพลงหรือชื่อศิลปิน) ยังสร้างปัญหาไปแย่งรายได้ที่ศิลปินควรได้ เพลงกลุ่มนี้มี 65,000 เพลงที่ถูกลบออกไปแล้ว ด้วยเหตุผลเหล่านี้ Tidal จึงตัดสินใจลบเพลงที่สร้างด้วย AI 100% ทั้งหมด เพื่อประโยชน์ของทั้งผู้ฟังและศิลปิน ส่วนเพลงที่ใช้ AI ช่วยบ้าง ยังอนุญาตให้อยู่บนแพลตฟอร์มได้ นโยบายใหม่จ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 24 Nov 2026 23:47:37 +0000",
+    "matched_keywords": [
+      "วิธี"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-25T10:29:21.499256+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -65,7 +113,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043466+00:00"
+    "researched_at": "2026-11-25T10:29:21.498063+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -81,7 +129,23 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.042900+00:00"
+    "researched_at": "2026-11-25T10:29:21.497318+00:00"
+  },
+  {
+    "title": "Jensen Huang กลับเข้าสำนักงานใหญ่ NVIDIA แล้ว พนักงานยืนปรบมือต้อนรับอย่างอบอุ่น",
+    "url": "https://www.blognone.com/node/152246",
+    "summary": "Jensen Huang กลับเข้าสำนักงานใหญ่ NVIDIA แล้ว พนักงานยืนปรบมือต้อนรับอย่างอบอุ่น Body มีประเด็นเพิ่มเติมจากการที่ NVIDIA ประกาศให้ Jensen Huang กลับมาเป็นซีอีโอบริษัทอีกครั้ง ถึงแม้มุมมองต่อเรื่องนี้จะมีหลากหลาย แต่มันก็เกิดขึ้นเช่นนี้แล้ว เริ่มที่ Huang ปรากฏตัวกลับเข้าไปทำงานที่สำนักงาน NVIDIA ใน Santa Clara เมื่อวันจันทร์ที่ผ่านมาตามเวลาท้องถิ่น โดยมีพนักงานหลายร้อยคนยืนปรบมือต้อนรับพร้อมส่งเสียงเชียร์ ซึ่ง Huang ก็กล่าวสั้น ๆ ว่าขอบคุณทุกคนสำหรับโอกาสที่สอง เขาจะเป็นซีอีโอที่ดีกว่าเดิม การตอบรับนี้สอดคล้องกับข่าวว่าพนักงาน NVIDIA มากกว่า 1 หมื่นคน ได้ร่วมลงชื่อในจดหมายเปิดผนึก เรียกร้องให้เขากลับมาเป็นซีอีโออีกครั้ง BREAKING: Jensen Huang returns to NVIDIA headquarters as CEO, welcomed with cheers, shout-outs and an outpouring of support from employees. “Thank you all for the second chance. I am going to be a better CEO the second time around.” https://t.co/ye9duf25NF — DogeDesigner (@cb_doge) November 23, 2026 ข่าวการกลับมาของ Huang นี้ ยังส่งผลทันทีต่อราคาหุ้นของ NVIDIA โดยปรับเพ",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Tue, 24 Nov 2026 12:09:17 +0000",
+    "matched_keywords": [
+      "ราคา"
+    ],
+    "keyword_score": 1,
+    "intent_score": 2,
+    "opportunity_score": 3,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-25T10:29:21.499412+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -97,7 +161,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044193+00:00"
+    "researched_at": "2026-11-25T10:29:21.499101+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -113,7 +177,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043665+00:00"
+    "researched_at": "2026-11-25T10:29:21.498323+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -129,63 +193,21 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043522+00:00"
+    "researched_at": "2026-11-25T10:29:21.498137+00:00"
   },
   {
-    "title": "เผย Jensen Huang โกหกหัวหน้าฝ่ายกฎหมาย NVIDIA ว่าไม่มีความสัมพันธ์กับ Alice Huang",
-    "url": "https://www.blognone.com/node/152182",
-    "summary": "เผย Jensen Huang โกหกหัวหน้าฝ่ายกฎหมาย NVIDIA ว่าไม่มีความสัมพันธ์กับ Alice Huang Body Reuters รายงานข่าวเบื้องลึกกรณี Jensen Huang มีความสัมพันธ์นอกสมรสกับผู้หญิงหลายคน โดยอ้างข้อมูลจากแหล่งข่าวภายในว่า Jensen โกหกผู้บริหารระดับสูงของบริษัท ว่าเขาไม่มีความเกี่ยวข้องกับ Alice Huang ตามข่าวของ Reuters บอกว่านักข่าวเคยถามเรื่อง Alice Huang มาแล้วครั้งหนึ่งในเดือนตุลาคม 2025 และรอบล่าสุดในเดือนตุลาคม 2026 (แต่ Reuters เห็นข้อมูลเฉพาะรอบล่าสุด) โดยรอบปี 2025 หนังสือพิมพ์ The New York Times เคยลงข่าวเรื่องความสัมพันธ์ของ Jensen กับบริษัท Megaspeed ของ Alice Huang มาก่อนแล้ว และ Jensen เคยคิดจะฟ้องหนังสือพิมพ์ด้วย แม้สุดท้ายไม่ได้ฟ้อง ส่วนเหตุการณ์เดือนตุลาคม 2026 คือ Jensen อธิบายกับผู้บริหารระดับสูงของ NVIDIA หลายคน ที่ระบุชื่อคือ Tim Teter หัวหน้าฝ่ายกฎหมาย (general counsel) และ Alison Wagonfeld ประธานเจ้าหน้าที่ฝ่ายการตลาด (CMO) ว่าความสัมพันธ์ของเขากับ Alice Huang เป็นการดูแลลูกค้าตามปกติทั่วไป อย่างไรก็ตาม เมื่อ Financial Times ลงข่าวย้ำอีกครั้งในวันที่ 6 พฤศจิกายน ทำให้ Tim Teter ตัดส",
+    "title": "มีคนเล่น GTA 6 บน PS 5 วันแรกมากกว่า 39 ล้านคน สูงสุดในประวัติศาสตร์เกม PlayStation",
+    "url": "https://www.blognone.com/node/152245",
+    "summary": "มีคนเล่น GTA 6 บน PS 5 วันแรกมากกว่า 39 ล้านคน สูงสุดในประวัติศาสตร์เกม PlayStation Body นอกจาก GTA 6 จะทำ เงินเฉพาะวันแรก เป็นประวัติศาสตร์แล้ว ยังทำสถิติใหม่ให้กับ Sony ด้วย โดยทาง Sony ประกาศว่า มีคนเล่น GTA 6 พร้อมกันทั่วโลกบน PlayStation 5 มากกว่า 39 ล้านคน สูงสุดเท่าที่เคยมีมาในทุกเกมบน PlayStation และมากกว่าเกมทุกประเภททั้งแบบมัลติเพลเยอร์, ฟรีทูเพลย์ หรือเกมเล่นคนเดียว เฉพาะช่วงแรกที่เกมเปิดตัว มีชั่วโมงการเล่นรวมทั้งหมดบน PS5 ถึง 683 ล้านชั่วโมง เฉลี่ยในคิดเป็น 17.4 ชั่วโมงต่อคน นอกจากนี้ Sony ให้ข้อมูลน่าสนใจว่ามีเครื่องเล่น PS5 ใหม่ ที่เปิดใช้งานในวันนั้นสูงที่สุดตั้งแต่คอนโซลเริ่มขาย ซึ่ง 70% ก็เล่น GTA 6 นั่นเอง ที่มา: Sony arjin Tue, 24/11/2026 - 18:36",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 15 Nov 2026 04:19:16 +0000",
+    "published": "Tue, 24 Nov 2026 11:36:10 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044255+00:00"
-  },
-  {
-    "title": "เบื้องหลังระบบสื่อสารการบิน FAA ล่ม เกิดจากอัพเดตเราเตอร์เก่าผิดพลาด",
-    "url": "https://www.blognone.com/node/152179",
-    "summary": "เบื้องหลังระบบสื่อสารการบิน FAA ล่ม เกิดจากอัพเดตเราเตอร์เก่าผิดพลาด Body สำนักข่าว CBS อ้างแหล่งข่าวระดับสูงของรัฐบาลสหรัฐ ระบุสาเหตุของ ปัญหาระบบควบคุมการบินของสหรัฐล่ม จนทำให้ FAA ต้องสั่งเครื่องบินหยุดบินทั่วประเทศ ว่าเกิดจากการอัพเดตเราเตอร์ผิดพลาด ข้อมูลจาก Markwayne Mullin รัฐมนตรีกระทรวงความมั่นคงแห่งมาตุภูมิ (Homeland Security) ให้สัมภาษณ์ว่าเกิดจากการอัพเดตแพตช์ความปลอดภัยในระบบเดิม เกิดปริมาณข้อมูลมหาศาลจนเราเตอร์รับไม่ไหว ส่วนแหล่งข่าวอย่างไม่เป็นทางการของ CBS ให้ข้อมูลผลการสอบสวนเบื้องต้นของ FAA ว่าเกิดจากเราเตอร์เก่า Cisco Series 600 ที่ผลิตระหว่างปี 2001-2006 เมื่ออัพเดตแล้วทำงานผิดพลาด และส่งแพ็กเกตข้อมูลเข้ามาในระบบเครือข่าย จนทำให้การสื่อสารด้วยเสียงมีปัญหา และหน้าจอกะพริบหรือจอดำไปเลย ระบบสื่อสารของหอบังคับการบินมีชื่อว่า FAA Telecommunications Infrastructure (FTI) โดยมีบริษัท L3Harris เป็นผู้ดูแลระบบมาตั้งแต่ปี 2022 อย่างไรก็ตาม FAA ได้ทบทวนโครงสร้างของ FTI ในปี 2023 และฟันธงว่าระบบล้าสมัย เพราะต้องพึ่งพาเทคโนโลยีสื่อสารแบบเก่าชื่อ TDM ที่ปัจจุบันไม่ใช้กันแล้ว ส่วนบ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 14 Nov 2026 15:11:34 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044434+00:00"
-  },
-  {
-    "title": "วันหยุดจบแล้ว ไมโครซอฟท์กู้ระบบทั้งหมดเสร็จสิ้น ยืนยันไม่ใช่การโจมตีไซเบอร์",
-    "url": "https://www.blognone.com/node/152180",
-    "summary": "วันหยุดจบแล้ว ไมโครซอฟท์กู้ระบบทั้งหมดเสร็จสิ้น ยืนยันไม่ใช่การโจมตีไซเบอร์ Body ไมโครซอฟท์ประกาศว่า บริการทั้งหมดกลับมาเป็นปกติแล้ว หลังจาก ระบบล่มครั้งใหญ่ตั้งแต่วันที่ 13 พฤศจิกายน ในโพสต์ของไมโครซอฟท์ยืนยันว่าปัญหาระบบล่มครั้งนี้เป็นความผิดพลาดทางเทคนิค ไม่ใช่การโจมตีไซเบอร์ สาเหตุเกิดจากการอัพเกรดเครือข่าย ซึ่งจะมาแถลงรายละเอียดเพิ่มเติมในระยะถัดไป We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions. Further updates can be found at MO1550821 in the Microsoft 365 admin center. — Microsoft 365 Status (@MSFT365Status) November 14, 2026 We are deeply sorry for the disruption this incident has caused our customers and partners. We know the trust they place in our services and take that responsibility extremely seriously. We are seeing broad recovery and stability across our services. This was a technical issue not related to cyber or AI / agents. The incident was introduced by an issue during",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 14 Nov 2026 23:26:31 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044377+00:00"
-  },
-  {
-    "title": "ยาน Starship บินกลับมาลงจอดที่ฐานได้เป็นครั้งแรก แม้จรวด Super Heavy ระเบิด",
-    "url": "https://www.blognone.com/node/152181",
-    "summary": "ยาน Starship บินกลับมาลงจอดที่ฐานได้เป็นครั้งแรก แม้จรวด Super Heavy ระเบิด Body บริษัท SpaceX ประสบความสำเร็จในการนำยาน Starship กลับลงมาจอด (แขวน) บนฐานยิงที่รัฐเท็กซัส แม้จรวดท่อนล่าง Super Heavy ระเบิดไป โครงสร้างของยานอวกาศ Starship จะถูกยิงขึ้นอวกาศด้วยจรวด Super Heavy โดยเป้าหมายของบริษัท SpaceX คือส่งยานและจรวดขึ้นไปด้วยกัน ยานแยกตัวจากจรวดขึ้นสู่อวกาศไปปล่อยดาวเทียม Starlink แล้วทั้งสองส่วนแยกกันบินกลับลงมาจอดที่ฐานอย่างปลอดภัย (ค่อยๆ ร่อนลงมาด้วยบูสเตอร์) เพื่อนำกลับมาใช้ซ้ำได้ในอนาคต เมื่อปี 2025 SpaceX เคยประสบความสำเร็จในการจับจรวด แต่ยานระเบิด ภารกิจครั้งนี้เป็นการบินทดสอบครั้งที่ 15 ของ Starship มีเป้าหมาย double-catch คือจับทั้งยานและจรวดกลับลงมาจอดที่แท่นได้อย่างปลอดภัย ผลคือตัวยานท่อนบน Starship บินกลับมาลงจอดได้สำเร็จ (ถือเป็นครั้งแรกของ Starship ด้วย) ส่วนจรวดท่อนล่าง Super Heavy ระเบิดระหว่างช่วงแยกตัว และตกทะเลไป แม้แผนการทำ double-catch ไม่เป็นไปตามเป้า แต่ SpaceX ก็ประกาศว่าการ \"คีบ\" ยาน Starship กลับมาได้ครั้งแรก ถือเป็นก้าวที่สำคัญ ที่มา - SpaceX , Guardian Me",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Sun, 15 Nov 2026 03:59:55 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044314+00:00"
+    "researched_at": "2026-11-25T10:29:21.499482+00:00"
   },
   {
     "title": "จากเขียนโค้ดด้วย AI สู่การสร้าง Agent-Native Architecture เจาะลึกเนื้อหา Deep Tech จากงาน LINE THAILAND DEVELOPER CONFERENCE 2026",
@@ -199,21 +221,21 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044054+00:00"
+    "researched_at": "2026-11-25T10:29:21.498935+00:00"
   },
   {
-    "title": "[ลือ] บอร์ด NVIDIA สนใจ Rene Haas ซีอีโอ Arm ที่เคยอยู่ NVIDIA มาก่อน",
-    "url": "https://www.blognone.com/node/152178",
-    "summary": "[ลือ] บอร์ด NVIDIA สนใจ Rene Haas ซีอีโอ Arm ที่เคยอยู่ NVIDIA มาก่อน Body หนังสือพิมพ์ Financial Times รายงานข้อมูลจากแหล่งข่าวว่า บอร์ดของ NVIDIA ทาบทาม Rene Haas ซีอีโอของ Arm เพื่อมารับตำแหน่งแทน Jensen Huang แล้ว Haas เคยทำงานกับ NVIDIA มานาน 7 ปี ก่อนย้ายมาอยู่ Arm ในปี 2013 และได้ขึ้นเป็นซีอีโอของ Arm ในปี 2022 ผลงานเด่นของเขาคือ การพาบริษัท Arm ขายหุ้น IPO เข้าตลาดหลักทรัพย์ในปี 2023 หลังจากนั้น บริษัทก็เติบโตทั้งรายได้และผลกำไรเกือบเท่าตัว เนื่องจาก Arm เป็นบริษัทในเครือ SoftBank ทำให้ Haas ยังมีอีกหน้าที่คือเป็นซีอีโอของ SoftBank Group International ด้วย Financial Times ระบุว่า Haas เป็นหนึ่งในตัวเลือก ส่วนรายชื่ออื่นที่มีในข่าวคือ Lisa Su ซีอีโอ AMD ที่อาจสนใจย้ายข้ามวิก, Colette Kress ซีเอฟโอและรักษาการซีอีโอ , Ian Buck หัวหน้าฝ่ายธุรกิจศูนย์ข้อมูลของ NVIDIA ที่มา - Financial Times ภาพจากรายการ podcast ของ Arm ที่ Haas เป็นคนจัดรายการ และเชิญ Jensen Huang มาออกรายการ mk Sat, 14/11/2026 - 21:56",
+    "title": "Z.ai ปล่อย GLM-5.4 เปลี่ยนสถาปัตยกรรมเป็น Loop Transformer ลดต้นทุนการรัน",
+    "url": "https://www.blognone.com/node/152244",
+    "summary": "Z.ai ปล่อย GLM-5.4 เปลี่ยนสถาปัตยกรรมเป็น Loop Transformer ลดต้นทุนการรัน Body Z.ai ปล่อยโมเดลปัญญาประดิษฐ์ GLM-5.4 ที่จุดเปลี่ยนสำคัญคือการใช้สถาปัตยกรรม Loop Transformer ที่ช่วยให้โมเดลทำความฉลาดได้เทียบเท่าโมเดลขนาดใหญ่กว่ามากๆ แนวทาง Loop Transformer มีการเสนอมาตั้งแต่ปี 2018 แม้โมเดลที่ได้จะฉลาดขึ้นบ้างแต่ก็แพ้ต่อการขยายขนาดโมเดลไปเรื่อยๆ แนวทางของ Z.ai แทนที่จะฝึกโมเดลด้วย Loop Transformer แต่แรกกลับใช้โมเดล GLM-5 เดิมมาปรับเป็น Loop Transformer เพื่อให้ฉลาดขึ้นกว่าเดิม แม้ Z.ai จะโฆษณาว่า GLM-5.4 มีการปรับปรุงหลายอย่าง แต่ก็ไม่ยอมบอกผลทดสอบตรงๆ แต่กลับยกตัวอย่างโมเดลย่อขนาด 30B ที่ใช้สถาปัตยกรรมเดียวกับ GLM-5 แล้วแปลงมาเป็น Loop Transformer เหมือนกัน เพื่อแสดงให้เห็นว่าโมเดลทำคะแนนทดสอบได้ดีขึ้นมาก แถมยังตอบสั้นลงทำให้ประหยัดโทเค็น ตอนนี้ GLM-5.4 เปิดให้ใช้เฉพาะทาง GLM Coding Plan และ Z.ai บนเว็บเท่านั้น และจะเปิดให้ใช้ API และให้ดาวน์โหลดไฟล์โมเดลภายหลัง ที่มา - Z.ai lew Tue, 24/11/2026 - 08:01",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Sat, 14 Nov 2026 14:56:05 +0000",
+    "published": "Tue, 24 Nov 2026 01:01:51 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044494+00:00"
+    "researched_at": "2026-11-25T10:29:21.499560+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -227,7 +249,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043347+00:00"
+    "researched_at": "2026-11-25T10:29:21.497905+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -241,7 +263,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043736+00:00"
+    "researched_at": "2026-11-25T10:29:21.498416+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -255,7 +277,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043595+00:00"
+    "researched_at": "2026-11-25T10:29:21.498232+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -269,7 +291,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.042979+00:00"
+    "researched_at": "2026-11-25T10:29:21.497421+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -283,7 +305,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043051+00:00"
+    "researched_at": "2026-11-25T10:29:21.497516+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -297,7 +319,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043215+00:00"
+    "researched_at": "2026-11-25T10:29:21.497699+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -311,7 +333,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043407+00:00"
+    "researched_at": "2026-11-25T10:29:21.497983+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -325,7 +347,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043865+00:00"
+    "researched_at": "2026-11-25T10:29:21.498584+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -339,7 +361,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043275+00:00"
+    "researched_at": "2026-11-25T10:29:21.497811+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -353,7 +375,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043991+00:00"
+    "researched_at": "2026-11-25T10:29:21.498767+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -367,7 +389,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044114+00:00"
+    "researched_at": "2026-11-25T10:29:21.499015+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -381,7 +403,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.042755+00:00"
+    "researched_at": "2026-11-25T10:29:21.497129+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -395,35 +417,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043795+00:00"
+    "researched_at": "2026-11-25T10:29:21.498493+00:00"
   },
   {
-    "title": "Facebook จะปิดการทำงานระบบ Profile แยก ในล็อกอินเดียวกัน มีผล 14 ธันวาคมนี้",
-    "url": "https://www.blognone.com/node/152176",
-    "summary": "Facebook จะปิดการทำงานระบบ Profile แยก ในล็อกอินเดียวกัน มีผล 14 ธันวาคมนี้ Body Meta ประกาศว่าฟีเจอร์สร้างโปรไฟล์แยกใน Facebook ที่ทำให้ผู้ใช้งานสามารถสลับโปรไฟล์ไปมาได้โดยไม่ต้องแยกล็อกอินกัน จะปิดการทำงานมีผลตั้งแต่วันที่ 14 ธันวาคม 2026 เป็นต้นไป โดยโปรไฟล์ที่สร้างแยกขึ้นมาของบัญชีจะถูกลบออกอย่างถาวร เหลือเฉพาะโปรไฟล์หลัก และเพจที่ผูกกับบัญชีเท่านั้น ทั้งนี้ Facebook ได้ส่งอีเมลแจ้งการเปลี่ยนแปลงนี้สำหรับผู้ใช้งานที่จะได้รับผลกระทบแล้ว Facebook มี ฟีเจอร์สร้างโปรไฟล์แยกตั้งแต่ปี 2023 โดยตอนนั้นให้เหตุผลว่าเพื่อให้ผู้ใช้งานสะดวกในการสร้างโปรไฟล์สำหรับแต่ละสถานการณ์ เช่น บางคนอาจแยกบัญชีสำหรับรับเพื่อนที่ทำงานกับเรื่องส่วน หรือเพื่อใช้ในความสนใจเฉพาะ เป็นต้น ทั้งนี้ Facebook ไม่ได้บอกเหตุผลที่ยกเลิกระบบโปรไฟล์แยกนี้แต่อย่างใด ที่มา: Facebook arjin Fri, 13/11/2026 - 19:45",
+    "title": "Amazon ซื้อเทคโนโลยีและทีมงานของสตาร์ทอัป Decart เพื่อเสริมการพัฒนาชิป AI Trainium",
+    "url": "https://www.blognone.com/node/152247",
+    "summary": "Amazon ซื้อเทคโนโลยีและทีมงานของสตาร์ทอัป Decart เพื่อเสริมการพัฒนาชิป AI Trainium Body Amazon ประกาศเข้าซื้อเทคโนโลยี AI ของ Decart สตาร์ทอัปจากอิสราเอล โดยในข้อตกลงนี้ Amazon จะได้เทคโนโลยีทั้งหมดของ Decart Optimization Stack (DOS) รวมทั้งทีมผู้ก่อตั้ง 3 คน, นักวิจัย AI และวิศวกร เข้าร่วมงานกับ Amazon ดีลนี้จึงไม่ใช่การซื้อกิจการทั้งหมด ตัวเลขไม่มีการเปิดเผยเป็นทางการ แต่คาดว่าอยู่ที่ราว 7.5 พันล้านดอลลาร์ Peter DeSantis หัวหน้าฝ่ายพัฒนาโมเดล AI, ชิปประมวลผลและควอนตัมของ Amazon บอกว่าเทคโนโลยีของ Decart จะนำมาใช้ในการพัฒนาชิปปรับแต่ง ตลอดจนงานปรับแต่ง AI ในขั้นตอน Inference สำหรับลูกค้าของบริษัทต่อไป Amazon มีชิปประมวลผล AI ของตนเองชื่อ Trainium ซึ่งเทคโนโลยี DOS ของ Decart นี้ จะช่วยให้ลูกค้าที่ต้องการรัน AI บน Trainium สามารถพอร์ตเวิร์กโหลดที่อยู่บนแพลตฟอร์มอื่นมารันได้ง่ายขึ้น ที่มา: Amazon และ TechCrunch arjin Tue, 24/11/2026 - 20:38",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 13 Nov 2026 12:45:04 +0000",
+    "published": "Tue, 24 Nov 2026 13:38:45 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044607+00:00"
-  },
-  {
-    "title": "FAA สั่งเที่ยวบินสหรัฐหยุดบินทั่วประเทศ ไม่ใช่ก่อการร้าย แต่ซอฟต์แวร์ขัดข้อง",
-    "url": "https://www.blognone.com/node/152177",
-    "summary": "FAA สั่งเที่ยวบินสหรัฐหยุดบินทั่วประเทศ ไม่ใช่ก่อการร้าย แต่ซอฟต์แวร์ขัดข้อง Body Federal Aviation Administration (FAA) หน่วยงานควบคุมการบินของรัฐบาลสหรัฐอเมริกา สั่งให้เที่ยวบินทั่วประเทศจอดรอที่สนามบิน ไม่ให้บินขึ้น ด้วยเหตุผลเรื่องซอฟต์แวร์การสื่อสารระหว่างศูนย์ควบคุมการบิน (Air Route Traffic Control Centers) ขัดข้อง FAA ยืนยันว่านี่ไม่เกี่ยวข้องกับเหตุการณ์ก่อการร้ายใดๆ แต่ตอนนี้ยังไม่มีรายละเอียดว่าซอฟต์แวร์ขัดข้องอย่างไร ในประกาศของ FAA ใช้คำว่า temporary telecommunications outage เว็บไซต์ Ars Technica ให้ข้อมูลว่า FAA เพิ่งเปิดระบบ AI ช่วยจัดการเส้นทางบินตัวใหม่ชื่อ SMART ไปเมื่อวันที่ 10 พฤศจิกายน ซึ่งอาจเป็นเหตุผลของซอฟต์แวร์ขัดข้องครั้งนี้ ที่มา - Ars Technica , TechCrunch ภาพแผนที่เครื่องบินจาก FlightRadar24 เป็นสนามบินย่าน San Francisco Bay Area สามแห่ง เวลาไทยประมาณ 6:40 น. ของวันที่ 14 พย. There has been a temporary telecommunications outage - out of an abundance of caution all flights have been halted. Every flight has been accounted for and international flights will be",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Fri, 13 Nov 2026 23:44:03 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-15T09:30:10.044556+00:00"
+    "researched_at": "2026-11-25T10:29:21.499331+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -437,6 +445,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-15T09:30:10.043934+00:00"
+    "researched_at": "2026-11-25T10:29:21.498675+00:00"
   }
 ]
