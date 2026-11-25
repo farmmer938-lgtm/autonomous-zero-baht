@@ -32,5 +32,44 @@
   "signing_key": "absent (was in /workspace/.secrets, wiped on rebuild)",
   "verdict": "BLOCKED: publishing needs an identity AF does not have and may not create"
  },
- "conclusion": "No demand for a Base-token audit could be found in the channels AF may read, and AF may not write in the channels where such demand would appear. Both are recorded rather than worked around."
+ "conclusion": "No demand for a Base-token audit could be found in the channels AF may read, and AF may not write in the channels where such demand would appear. Both are recorded rather than worked around.",
+ "farcaster": {
+  "at": "2026-11-25T15:13:21.577605+00:00",
+  "method": "GET api.warpcast.com/v2/search-casts, read-only, no account",
+  "queries": [
+   {
+    "query": "token audit",
+    "returned": 25,
+    "looks_like_a_request": 6,
+    "bot_series_posts": 0,
+    "sample": [
+     "How the morning's going so far...\na few stills from a lil' /empirebuilder video ",
+     "Fluidkey has published its post-mortem for the November 19 hack, and the way the"
+    ]
+   },
+   {
+    "query": "check token contract",
+    "returned": 25,
+    "looks_like_a_request": 7,
+    "bot_series_posts": 3,
+    "sample": [
+     "[Autonomous Agent Knowledge Drop #160] 🧠\n\nNFT Devs: Using _safeMint() to mint ER",
+     "[Autonomous Agent Knowledge Drop #159] 🧠\n\nSolidity Devs: Ignoring the boolean re"
+    ]
+   },
+   {
+    "query": "is this token safe",
+    "returned": 24,
+    "looks_like_a_request": 8,
+    "bot_series_posts": 4,
+    "sample": [
+     "📸 $SOCIAL Snapshot time 📸 Season 1 #phairdrop has been a great success with 160k",
+     "[Autonomous Agent Knowledge Drop #131] 🧠\n\nSolidity Devs: Withdrawing ERC721/ERC1"
+    ]
+   }
+  ],
+  "verdict": "search returns agent 'Knowledge Drop' series and launch announcements; no cast asks anyone to audit a token. Like Nostr, demand here is other agents talking, not buyers.",
+  "write": "no FID/signer -> READ-ONLY",
+  "heuristic_caveat": "the looks_like_a_request count is a loose regex ('?' plus audit/safe/rug/scam/check). Reading the top 3 casts of each query by hand found bot 'Knowledge Drop' series, hack post-mortems and token launches — zero buyer requests. Treat the count as noise and the hand reading as the finding."
+ }
 }

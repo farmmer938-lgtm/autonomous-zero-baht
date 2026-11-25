@@ -1,0 +1,119 @@
+{
+ "schema": "af.discoverability.v1",
+ "pages": [
+  {
+   "path": "audit/index.html",
+   "title": "Base token audit — chain facts, evidence, delivered in an issue | AF",
+   "http": null,
+   "internal_links": [
+    "site/audit/cases",
+    "site/audit/guides/check-a-base-token.html",
+    "site/audit/guides/mint-authority.html",
+    "site/audit/guides/scanner-vs-evidence.html",
+    "site/reviews.html",
+    "site/reviews/base-0x0090be84e7a76dc78dde53005a75c72250f30d22.json",
+    "site/reviews/base-0x00998e8534e7905123a65eee17922febeeeb8a0f.json",
+    "site/reviews/base-0x0147409985b41ed8bee3dc1139643350cdd513f0.json",
+    "site/status.html",
+    "site/store.html"
+   ]
+  },
+  {
+   "path": "audit/cases/index.html",
+   "title": "Three Base token audits, three different verdicts | AF",
+   "http": null,
+   "internal_links": [
+    "site/audit",
+    "site/audit/guides/check-a-base-token.html",
+    "site/reviews.html",
+    "site/reviews/base-0x089e1d9678569dbf2ee5c3bdff0699aee157d709.json",
+    "site/reviews/base-0x1252230193c0aaa10eb8b59a31ed8ec92e27a081.json",
+    "site/reviews/base-0x20116282bf477f796749567d283ef733d3ee5704.json"
+   ]
+  },
+  {
+   "path": "audit/guides/check-a-base-token.html",
+   "title": "How to check a Base token yourself, without a scanner",
+   "http": null,
+   "internal_links": [
+    "site/audit",
+    "site/audit/cases",
+    "site/audit/guides/mint-authority.html",
+    "site/audit/guides/scanner-vs-evidence.html",
+    "site/reviews.html"
+   ]
+  },
+  {
+   "path": "audit/guides/mint-authority.html",
+   "title": "Mint authority on Base: how to check if a token can still print",
+   "http": null,
+   "internal_links": [
+    "site/audit",
+    "site/audit/cases",
+    "site/audit/guides/check-a-base-token.html",
+    "site/audit/guides/scanner-vs-evidence.html"
+   ]
+  },
+  {
+   "path": "audit/guides/scanner-vs-evidence.html",
+   "title": "Scanner score vs evidence-based audit: what the difference costs you",
+   "http": null,
+   "internal_links": [
+    "site/audit",
+    "site/audit/cases",
+    "site/audit/guides/check-a-base-token.html",
+    "site/audit/guides/mint-authority.html"
+   ]
+  },
+  {
+   "path": "reviews.html",
+   "title": "AF — token review & promotion",
+   "http": null,
+   "internal_links": [
+    "site/pay-all.html"
+   ]
+  },
+  {
+   "path": "store.html",
+   "title": "AF Store — pay-per-call data tools (x402)",
+   "http": null,
+   "internal_links": [
+    "site/audit",
+    "site/data/live_endpoint.json",
+    "site/leaderboard.html",
+    "site/media/song_mv_4k.html",
+    "site/profile.html",
+    "site/reconciler.html"
+   ]
+  },
+  {
+   "path": "index.html",
+   "title": "Zero-Baht Research",
+   "http": null,
+   "internal_links": [
+    "site/p/jensen-huang-กลับเข้าสำนักงานใหญ่-nvidia-แล้ว-พนักงานยืนปรบมือต้อนรับอ.html",
+    "site/p/rea-the-open-source-ai-tool-that-can-reverse-engineer-almost-anything-.html",
+    "site/p/tidal-แบนเพลงที่สร้างด้วย-ai-ทั้งเพลงออกจากแพลตฟอร์ม.html",
+    "site/p/รู้จักกับ-ainu-โซลูชั่น-ai-ของไทยที่ช่วยสร้าง-digital-trust-ให้การทำธุ.html",
+    "site/p/ลือ-พนักงาน-openai-และ-anthropic-กังวล-โมเดลรุ่นใช้ภายในเริ่มเก่งเกินจ.html",
+    "store.html"
+   ]
+  }
+ ],
+ "problems": [],
+ "sitemap": {
+  "urls": 13,
+  "error": null,
+  "not_a_local_page": [],
+  "all_local": true
+ },
+ "robots": {
+  "present": true,
+  "blocks_all": false,
+  "mentions_sitemap": true
+ },
+ "indexing": null,
+ "indexing_note": "not measurable from here: no Search Console property, and search engines reject automated queries. Unknown is not the same as not indexed.",
+ "backlinks_found": null,
+ "backlinks_note": "no backlink source AF may query without an account"
+}
