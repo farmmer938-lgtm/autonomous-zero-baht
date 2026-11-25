@@ -1,0 +1,94 @@
+name: AF Revenue Pipeline (free, no secrets)
+
+# H4/H5: discover -> evaluate -> record, every 6 hours, on GitHub's infrastructure.
+# It moves no money and claims nothing: it ranks the listings it can read and writes the
+# result to data/, so the next agent starts from evidence instead of re-searching.
+#
+# K is out of the loop: a normal run never fails, so GitHub never emails K. A real failure
+# opens an issue labelled af-alert, and an act_now opportunity opens one labelled af-revenue.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 */6 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: af-revenue-pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover and rank (read-only public APIs)
+        run: python tools/af_opportunity_rank.py --write
+
+      - name: Build the revenue report
+        run: python tools/af_revenue_report.py --write
+
+      - name: Commit the evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/opportunities.json data/revenue_report.json data/REVENUE_REPORT.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: revenue pipeline (opportunities + report)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            git push
+          else
+            echo "No change."
+          fi
+
+      - name: Alert only when money is actually claimable
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, subprocess, pathlib
+
+          def gh(*a):
+              return subprocess.run(["gh", *a], capture_output=True, text=True).stdout.strip()
+
+          d = json.loads(pathlib.Path("data/revenue_report.json").read_text())
+          n = d["headline"]["act_now_opportunities"]
+          title = "AF: claimable paid work available"
+          open_now = gh("issue", "list", "--label", "af-revenue", "--state", "open",
+                        "--json", "number", "--jq", ".[0].number")
+          if n > 0:
+              body = (f"act_now = {n}\n\n" + json.dumps(d["found"]["act_now"], indent=1) +
+                      "\n\nThis issue was opened by an AI agent (OpenHands) on behalf of K.")
+              if open_now:
+                  gh("issue", "comment", str(open_now), "--body", body)
+              else:
+                  gh("issue", "create", "--title", title, "--label", "af-revenue",
+                     "--body", body)
+              print(f"act_now={n}: reported")
+          else:
+              if open_now:
+                  gh("issue", "close", str(open_now), "--comment",
+                     "No claimable work in the latest run. This issue was closed by an AI agent "
+                     "(OpenHands) on behalf of K.")
+              print("act_now=0: nothing to claim")
+          PY
+
+      - name: Report a failure without emailing K
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --label af-alert \
+            --title "AF alert: revenue pipeline failed" \
+            --body "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
+
+          This issue was opened by an AI agent (OpenHands) on behalf of K."

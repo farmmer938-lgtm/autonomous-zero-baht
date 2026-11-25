@@ -1,0 +1,95 @@
+{
+ "schema": "af.revenue_report.v1",
+ "at": "2026-11-25T14:14:10.532727+00:00",
+ "headline": {
+  "cash_received_usdc": 0,
+  "cash_payments": 0,
+  "net_after_costs_usdc": 0,
+  "act_now_opportunities": 0,
+  "needs_owner": 0
+ },
+ "found": {
+  "source": "data/opportunities.json",
+  "checked_at": "2026-11-25T14:09:29.417278+00:00",
+  "total": 51,
+  "by_verdict": {
+   "loss": 1,
+   "ignore": 50
+  },
+  "act_now": [],
+  "rails_not_counted": [
+   {
+    "rail": "x402 cashier",
+    "status": "PARKED",
+    "checked": true,
+    "why": "no server in this repo, ephemeral host is dead (404), free hosting needs a new account"
+   },
+   {
+    "rail": "memo-invoice",
+    "status": "LIVE, no buyers",
+    "checked": true,
+    "why": "af_selfserve invoices are published; 0 third-party payments ever matched"
+   },
+   {
+    "rail": "moltjobs",
+    "status": "BID ONLY ON funded:true",
+    "checked": false,
+    "why": "escrowed USDC on Base; settlement goes to the custody wallet, not the payout address"
+   },
+   {
+    "rail": "opentask",
+    "status": "UNKNOWN",
+    "checked": false,
+    "why": "credential present, funding state not read in this run"
+   },
+   {
+    "rail": "superteam earn",
+    "status": "UNKNOWN",
+    "checked": false,
+    "why": "credential present, no funded listing verified in this run"
+   }
+  ]
+ },
+ "taken": {
+  "note": "no claim has been executed; the ledger has no third-party order"
+ },
+ "cash": {
+  "source": "site/paid/index.json",
+  "usdc": 0,
+  "payments": 0,
+  "ledger_rows": 0
+ },
+ "pending": {
+  "count": 0,
+  "note": "matched but fewer than 12 confirmations; not counted as cash"
+ },
+ "costs": {
+  "usd": 0,
+  "lines": [],
+  "note": "free tiers only; a paid service would appear here as a negative"
+ },
+ "needs_you": [],
+ "chain_audit": {
+  "source": "data/revenue_verify.json",
+  "at": "2026-11-25T11:07:03.183035+00:00",
+  "verdict": "CONTINUOUS",
+  "inbound_usdc_total": 0.100038,
+  "inbound_tx_total": 2,
+  "balance_usdc": 0.010038,
+  "note": "window is the last 49k blocks; tools/af_inbound_audit.py walks all of it"
+ },
+ "monitor": {
+  "manifest_age_hours": 53.63,
+  "manifest_stale": true,
+  "manifest_base": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev",
+  "public_watch_healthy": true,
+  "public_watch_fail": [],
+  "public_watch_warn": [
+   "cashier",
+   "opentask"
+  ],
+  "workflow_runs_seen": 5,
+  "workflow_runs_failed": 0,
+  "last_workflow_failures": []
+ }
+}
