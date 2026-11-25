@@ -2,13 +2,13 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
- "generatedAt": "2026-11-25T14:39:54.411659+00:00",
+ "generatedAt": "2026-11-25T14:41:06.810623+00:00",
  "reads": {
   "name": "USD Coin",
   "symbol": "USDC",
   "decimals": 6,
-  "totalSupply": 4326170446204316,
-  "totalSupplyTokens": 4326170446.204316,
+  "totalSupply": 4325452758056476,
+  "totalSupplyTokens": 4325452758.056476,
   "owner": "0x3abd6f64a422225e61e435bae41db12096106df7",
   "proxyImplementation": "0x2ce6311ddae708829bc0784c967b7d77d19fd779",
   "proxyAdmin": "0x4fc7850364958d97b4d3f5a08f79db2493f8ca44",
@@ -33,5 +33,5 @@
   "paused() is present — transfers can be frozen by whoever controls it"
  ],
  "errors": [],
- "blockNumber": 62136095
+ "blockNumber": 62136457
 }
