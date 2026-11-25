@@ -36,6 +36,14 @@ class WorkflowSafetyTests(unittest.TestCase):
                 self.assertRegex(version, r"^[0-9a-f]{40}$",
                                  f"{path} uses mutable ref {ref!r}; pin a commit SHA")
 
+    def test_workflow_run_never_checks_out_the_triggering_run(self):
+        for path in WORKFLOWS:
+            text = path.read_text(encoding="utf-8")
+            if "workflow_run" not in text:
+                continue
+            self.assertNotIn("workflow_run.head_sha", text,
+                             f"{path} would execute code from the run that triggered it")
+
     def test_no_step_silently_swallows_failure(self):
         for path in WORKFLOWS:
             for line in path.read_text(encoding="utf-8").splitlines():
