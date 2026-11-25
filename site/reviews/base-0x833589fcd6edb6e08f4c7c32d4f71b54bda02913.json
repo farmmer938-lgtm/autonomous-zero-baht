@@ -2,23 +2,36 @@
  "chain": "base",
  "chainId": 8453,
  "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
- "generatedAt": "2026-11-18T14:43:49.296523+00:00",
+ "generatedAt": "2026-11-25T14:39:54.411659+00:00",
  "reads": {
   "name": "USD Coin",
   "symbol": "USDC",
   "decimals": 6,
-  "totalSupply": 4286230701458233,
-  "totalSupplyTokens": 4286230701.458233,
+  "totalSupply": 4326170446204316,
+  "totalSupplyTokens": 4326170446.204316,
   "owner": "0x3abd6f64a422225e61e435bae41db12096106df7",
+  "proxyImplementation": "0x2ce6311ddae708829bc0784c967b7d77d19fd779",
   "proxyAdmin": "0x4fc7850364958d97b4d3f5a08f79db2493f8ca44",
-  "masterMinter": "0x2230393edad0299b7e7b59f20aa856cd1bed52e1"
+  "masterMinter": "0x2230393edad0299b7e7b59f20aa856cd1bed52e1",
+  "bytecodeSelectors": {
+   "mint": true,
+   "isMinter": true,
+   "paused": true
+  },
+  "bytecodeScannedAddress": "0x2ce6311ddae708829bc0784c967b7d77d19fd779",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
  },
  "flags": [
-  "owner is a single EOA \u2014 one key controls this token",
-  "USDC-style proxy \u2014 admin() controls upgrades",
-  "masterMinter() exists \u2014 a separate key can grant mint rights"
+  "owner is a single EOA — one key controls this token",
+  "UPGRADEABLE PROXY — the implementation can be replaced by whoever controls the admin",
+  "USDC-style proxy — admin() controls upgrades",
+  "masterMinter() exists — a separate key can grant mint rights",
+  "mint(address,uint256) IS present in the bytecode — supply can still be increased by whoever holds mint rights (not necessarily the owner; access control is a separate question)",
+  "paused() is present — transfers can be frozen by whoever controls it"
  ],
  "errors": [],
- "blockNumber": 59113269,
- "verdict": "single-key owner"
+ "blockNumber": 62136095
 }

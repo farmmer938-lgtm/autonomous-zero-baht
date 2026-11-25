@@ -1,0 +1,17 @@
+{
+ "schema": "af.audit_order.v1",
+ "issue": 75,
+ "at": "2026-11-25T14:39:54.411629+00:00",
+ "chain": "base",
+ "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+ "question": "Self-test of the order pipeline. Not a customer order; closed immediately.",
+ "payment_intent": "I am just asking a question (no payment)",
+ "price_usdc": 0.5,
+ "pay_to": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+ "payment_tx": null,
+ "paid": false,
+ "status": "delivered_unpaid",
+ "verdict": "upgradeable AND controlled by one key — highest control risk · mint still present · can be paused",
+ "report_path": "site/reviews/base-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.json",
+ "report_sha256": "b1c307253dac35d7ab9f0babd670dc1d282dd8df94ace21cc29fa785a075887c"
+}
