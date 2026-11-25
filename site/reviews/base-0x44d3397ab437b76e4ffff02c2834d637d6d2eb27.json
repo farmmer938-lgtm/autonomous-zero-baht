@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x44d3397ab437b76e4ffff02c2834d637d6d2eb27",
+ "generatedAt": "2026-11-25T10:31:43.748699+00:00",
+ "reads": {
+  "name": "TerribleTURKEY",
+  "symbol": "TRKY",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000,
+  "totalSupplyTokens": 1000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x44d3397ab437b76e4ffff02c2834d637d6d2eb27",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x44d3397a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62061641,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 26347.1457,
+ "poolCreatedAt": "2026-11-25T10:09:55Z",
+ "poolName": "TRKY / ETH 0.3%",
+ "outreach": {
+  "symbol": "TRKY",
+  "name": "TerribleTURKEY",
+  "priceUsd": "0.006577",
+  "fdv": 6577,
+  "liquidityUsd": null,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x3e6ba6cd4bd939390a77e1fcbff3e081e618325b30333f26c1385c12e1d1786f",
+  "pairUrl": "https://dexscreener.com/base/0x3e6ba6cd4bd939390a77e1fcbff3e081e618325b30333f26c1385c12e1d1786f"
+ }
+}

@@ -1,6 +1,6 @@
 {
  "schema": "af.service.queue.v1",
- "generatedAt": "2026-11-25T08:32:33.672854+00:00",
+ "generatedAt": "2026-11-25T10:32:51.740528+00:00",
  "business": {
   "what": "AF verifies one control-plane fact per request and publishes it, block-pinned.",
   "price_usd": 0.005,
@@ -13,5 +13,7 @@
  "revenue_usd": 0,
  "requests": [],
  "payments_seen": [],
+ "unmatched_payments": [],
+ "match_rules": "A request is paid only when its issue names the tx hash, or when exactly one open request and one claimable payment exist and the payment is not older than the request. Anything else is reported as unmatched, not guessed.",
  "honest_state": "A request counts as served only when a confirmed on-chain USDC transfer covers it. Unmatched payments are listed as seen, not guessed. Zero requests means zero demand, not zero capability."
 }

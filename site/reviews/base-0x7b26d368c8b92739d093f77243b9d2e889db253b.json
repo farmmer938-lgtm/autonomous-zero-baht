@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x7b26d368c8b92739d093f77243b9d2e889db253b",
+ "generatedAt": "2026-11-25T10:31:40.436659+00:00",
+ "reads": {
+  "name": "BASKET",
+  "symbol": "BASKET",
+  "decimals": 18,
+  "totalSupply": 5400000000000000000000000000,
+  "totalSupplyTokens": 5400000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x7b26d368c8b92739d093f77243b9d2e889db253b",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x7b26d368\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62061624,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 52912.6438,
+ "poolCreatedAt": "2026-11-25T10:14:01Z",
+ "poolName": "BASKET / WETH",
+ "outreach": {
+  "symbol": "BASKET",
+  "name": "BASKET",
+  "priceUsd": "0.000005498",
+  "fdv": 29690,
+  "liquidityUsd": 54124.16,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x78c406995850AA557482eD5B405Eaa3083e26816",
+  "pairUrl": "https://dexscreener.com/base/0x78c406995850aa557482ed5b405eaa3083e26816"
+ }
+}

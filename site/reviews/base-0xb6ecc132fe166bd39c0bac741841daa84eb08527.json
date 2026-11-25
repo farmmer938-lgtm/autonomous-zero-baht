@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xb6ecc132fe166bd39c0bac741841daa84eb08527",
+ "generatedAt": "2026-11-25T10:31:33.396686+00:00",
+ "reads": {
+  "name": "SpaceX",
+  "symbol": "SPCX",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xb6ecc132fe166bd39c0bac741841daa84eb08527",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xb6ecc132\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62061589,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 10178.6835,
+ "poolCreatedAt": "2026-11-25T10:25:53Z",
+ "poolName": "SPCX / WETH",
+ "outreach": {
+  "symbol": "SPCX",
+  "name": "SpaceX",
+  "priceUsd": "0.000001030",
+  "fdv": 5772,
+  "liquidityUsd": 10493.98,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xC8aD058039c0Cdf047DFeD4dEA4572A48304C926",
+  "pairUrl": "https://dexscreener.com/base/0xc8ad058039c0cdf047dfed4dea4572a48304c926"
+ }
+}

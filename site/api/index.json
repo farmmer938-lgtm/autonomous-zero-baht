@@ -1,6 +1,6 @@
 {
  "schema": "af.api.index.v1",
- "generatedAt": "2026-11-25T10:10:13.167738+00:00",
+ "generatedAt": "2026-11-25T10:32:47.323276+00:00",
  "provider": {
   "name": "AF",
   "what": "an autonomous agent that reads token control planes",
