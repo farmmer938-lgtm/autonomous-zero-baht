@@ -66,5 +66,6 @@ class DeployHonestyTests(unittest.TestCase):
         wf = Path(".github/workflows/pages.yml").read_text(encoding="utf-8")
         self.assertIn("Delete older deploy artifacts", wf)
         block = wf.split("Delete older deploy artifacts", 1)[1].split("- name:", 1)[0]
-        self.assertIn("|| true", block, "cleanup must tolerate an API error")
-        self.assertIn("2>/dev/null", block)
+        # Explicit and visible, not a silent `|| true` (which test_workflow_safety forbids).
+        self.assertIn("continue-on-error: true", block,
+                      "cleanup must not abort a deploy that already succeeded")
