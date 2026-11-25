@@ -29,13 +29,22 @@ jobs:
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
+      # The step must not fail the job (K is not in the loop), but a failed chain read is a
+      # fact: it is recorded and reported, never swallowed.
       - name: Verify revenue from chain
-        run: python -m tools.af_revenue_verify --write --json data/revenue_verify.json || true
+        run: |
+          set -u
+          if python -m tools.af_revenue_verify --write --json data/revenue_verify.json; then
+            rm -f /tmp/af_verify_failed
+          else
+            echo "revenue verify FAILED: the verdict below is stale"
+            date -u +%Y-%m-%dT%H:%M:%SZ > /tmp/af_verify_failed
+          fi
       - name: Commit ledger and verdict
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/revenue_ledger.json data/revenue_verify.json
+          git add data/revenue_ledger.json data/revenue_verify.json data/workflow_health.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: revenue verify ledger"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
@@ -49,9 +58,40 @@ jobs:
         run: |
           python - <<'PY'
           import json, pathlib, subprocess
+          from datetime import datetime, timezone
 
           def gh(*a):
               return subprocess.run(["gh", *a], capture_output=True, text=True).stdout.strip()
+
+          marker = pathlib.Path("/tmp/af_verify_failed")
+          failed_at = marker.read_text().strip() if marker.exists() else None
+          health_path = pathlib.Path("data/workflow_health.json")
+          try:
+              health = json.loads(health_path.read_text())
+          except Exception:
+              health = {"schema": "af.workflow_health.v1", "runs": []}
+          health["runs"] = (health["runs"] + [{
+              "at": datetime.now(timezone.utc).isoformat(), "workflow": "revenue_verify",
+              "failed": ["af_revenue_verify"] if failed_at else []}])[-20:]
+          health_path.write_text(json.dumps(health, indent=1) + "\n")
+
+          def post(body, title):
+              open_no = gh("issue", "list", "--label", "af-alert", "--state", "open",
+                           "--json", "number", "--jq", ".[0].number")
+              if open_no:
+                  last = gh("issue", "view", open_no, "--json", "comments",
+                            "--jq", ".comments[-1].body")
+                  if last.strip() != body.strip():
+                      gh("issue", "comment", open_no, "--body", body)
+              else:
+                  gh("issue", "create", "--title", title, "--label", "af-alert", "--body", body)
+              print("reported")
+
+          if failed_at:
+              post("**AF revenue verify failed at %s.** The published verdict is stale: no chain "
+                   "read happened this run.\n\n_Automated by AF; K is not in the loop._" % failed_at,
+                   "AF revenue verify is failing")
+              raise SystemExit(0)
 
           try:
               d = json.loads(pathlib.Path("data/revenue_verify.json").read_text())

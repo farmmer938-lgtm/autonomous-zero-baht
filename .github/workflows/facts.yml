@@ -56,7 +56,7 @@ jobs:
           run af_scan       python -m tools.af_selfserve --scan --write
           run af_service    python -m tools.af_service --write
           echo "--- failed steps: $(wc -l < /tmp/af_failed.txt) ---"
-          cat /tmp/af_failed.txt || true
+          cat /tmp/af_failed.txt
 
       - name: Record run health
         env:

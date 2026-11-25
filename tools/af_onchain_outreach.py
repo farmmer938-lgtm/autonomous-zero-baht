@@ -227,6 +227,10 @@ def main() -> int:
     if not do_send:
         print("dry-run only. add --send to actually send.")
         return 0
+    if os.environ.get("AF_OUTREACH_CONFIRM") != "1":
+        print("REFUSED: sending spends real ETH on unsolicited on-chain memos. "
+              "Set AF_OUTREACH_CONFIRM=1 to confirm you mean to send.")
+        return 1
     if not key:
         print("REFUSED: no signing key available")
         return 1
