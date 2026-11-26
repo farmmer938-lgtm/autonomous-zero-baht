@@ -77,3 +77,20 @@ content farming.
 | 4 | cash received | **0.00 USDC** |
 | 5 | cost | **0.00** |
 | 6 | net | **0.00 USDC** |
+
+## HOLD window — 2026-11-25 → 2026-12-25 (K's directive)
+
+| rule | how it is enforced |
+|---|---|
+| keep the ten pages, add none | no page is added; `docs/E2_PANEL.md` says so and the stop rule is unchanged |
+| record each check with a timestamp | `python3 tools/af_e2_hold.py --record` appends one line to `data/e2_hold_log.jsonl` |
+| never count a 200 / sitemap / deploy as a visitor | `visits` and `discovery.search_console` are `None` in every record; a test asserts it |
+| separate genuine enquiries from bot / owner / self-test | the record has four counters; only `genuine` may ever rise, and only from a real message |
+| no message, no account, no spend | nothing in the hold path can send or pay |
+| decision date is fixed | `DECISION_DATE = 2026-12-25`, asserted by a test; `--status` prints days left |
+
+Baseline recorded 2026-11-26T01:17Z: 10 of 10 checked paths answering 200, visits `null`,
+genuine enquiries `0`, paid `0.00`.
+
+What this recorder cannot do: measure a visitor. No analytics is installed and none will be
+without K's decision, so `visits` stays `null` and the day-30 report will say `null`, not `0`.
