@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x29dca380bf659f182f877aabae73ea89ae93106a",
+ "generatedAt": "2026-11-26T21:30:52.551011+00:00",
+ "reads": {
+  "name": "UBR",
+  "symbol": "United Bitcoin Reserve",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x29dca380bf659f182f877aabae73ea89ae93106a",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x29dca380\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62691385,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 125933835.3012,
+ "poolCreatedAt": "2026-11-26T21:02:50Z",
+ "poolName": "United Bitcoin Reserve / WETH",
+ "outreach": {
+  "symbol": "United Bitcoin Reserve",
+  "name": "UBR",
+  "priceUsd": "0.08402",
+  "fdv": 840271575,
+  "liquidityUsd": 126041077.13,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x618358c4372b55adedf2abc5247efb1918317b154b66a771b77db494693e3f72",
+  "pairUrl": "https://dexscreener.com/base/0x618358c4372b55adedf2abc5247efb1918317b154b66a771b77db494693e3f72"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x21c00d93b3c94f19111cae1ddd4c7e46e399f665",
+ "generatedAt": "2026-11-26T21:31:00.018404+00:00",
+ "reads": {
+  "name": "USOI",
+  "symbol": "United Stat\u200aes Oi\u200al Ind\u200aex",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x21c00d93b3c94f19111cae1ddd4c7e46e399f665",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x21c00d93\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62691422,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 27932938.8501,
+ "poolCreatedAt": "2026-11-26T21:02:44Z",
+ "poolName": "United Stat\u200aes Oi\u200al Ind\u200aex / WETH",
+ "outreach": {
+  "symbol": "United Stat\u200aes Oi\u200al Ind\u200aex",
+  "name": "USOI",
+  "priceUsd": "0.01863",
+  "fdv": 186377036,
+  "liquidityUsd": 27956725.8,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x9c9fc9228eea6d9e54c9645d798337d1cc979bbf175d90cc073214796bffe14c",
+  "pairUrl": "https://dexscreener.com/base/0x9c9fc9228eea6d9e54c9645d798337d1cc979bbf175d90cc073214796bffe14c"
+ }
+}

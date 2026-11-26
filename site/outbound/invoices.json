@@ -9,174 +9,174 @@
  "note": "The exact amount is the order reference. No account needed.",
  "invoices": [
   {
-   "token": "0x3614d49e72146328378c3e1ed43d81205460ce1c",
+   "token": "0x926e6039ccd075c1ae6d2ed38cb4cb927ef2c217",
+   "symbol": "LAPTOP",
+   "amount_usdc": 15.296,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x926e6039ccd075c1ae6d2ed38cb4cb927ef2c217.json"
+  },
+  {
+   "token": "0xb5309bc0c77e6392ca7456d228170259ffb85a6d",
+   "symbol": "Basecat",
+   "amount_usdc": 15.601,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb5309bc0c77e6392ca7456d228170259ffb85a6d.json"
+  },
+  {
+   "token": "0x0f41746a6b604a41dfea047696837217a9b5ab04",
+   "symbol": "Global Oil Trust Fund",
+   "amount_usdc": 15.087,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0f41746a6b604a41dfea047696837217a9b5ab04.json"
+  },
+  {
+   "token": "0x258bb93569b9803b6f5527cfde07c13ec356e780",
    "symbol": "UBR",
-   "amount_usdc": 15.058,
+   "amount_usdc": 15.454,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3614d49e72146328378c3e1ed43d81205460ce1c.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x258bb93569b9803b6f5527cfde07c13ec356e780.json"
   },
   {
-   "token": "0x201b4cb72d0d03276bb7d8592397f8f7d45fa228",
-   "symbol": "AVAX",
-   "amount_usdc": 15.223,
+   "token": "0x29dca380bf659f182f877aabae73ea89ae93106a",
+   "symbol": "United Bitcoin Reserve",
+   "amount_usdc": 15.661,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x201b4cb72d0d03276bb7d8592397f8f7d45fa228.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x29dca380bf659f182f877aabae73ea89ae93106a.json"
   },
   {
-   "token": "0xcc642bbed9d6f7b031e42cc312cca504b14be71a",
-   "symbol": "LIQUIDBGT",
-   "amount_usdc": 15.412,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xcc642bbed9d6f7b031e42cc312cca504b14be71a.json"
-  },
-  {
-   "token": "0xe9d129a483253efbfe10cf82f90a185aa098c650",
-   "symbol": "AVAX",
-   "amount_usdc": 15.738,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xe9d129a483253efbfe10cf82f90a185aa098c650.json"
-  },
-  {
-   "token": "0xa36f7eb7441c307e394a40c61a7f5e64e1b7bc16",
-   "symbol": "REBOOT",
-   "amount_usdc": 15.881,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xa36f7eb7441c307e394a40c61a7f5e64e1b7bc16.json"
-  },
-  {
-   "token": "0x2fdee736918bbaf29cd2b0293a182544ff0858d4",
-   "symbol": "UKFLMS",
-   "amount_usdc": 15.276,
-   "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2fdee736918bbaf29cd2b0293a182544ff0858d4.json"
-  },
-  {
-   "token": "0x310bb190b28de4ee51aa76effa9cded82a6d77bd",
+   "token": "0x19ccb926a25d1a3b27b4c5b27dc3508f980d0808",
    "symbol": "United Global Oil Supply",
-   "amount_usdc": 15.61,
+   "amount_usdc": 15.423,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x310bb190b28de4ee51aa76effa9cded82a6d77bd.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x19ccb926a25d1a3b27b4c5b27dc3508f980d0808.json"
   },
   {
-   "token": "0x310584f67d3b8b30477697b97dd3ac60ee3491d2",
+   "token": "0x21c00d93b3c94f19111cae1ddd4c7e46e399f665",
    "symbol": "United Stat\u200aes Oi\u200al Ind\u200aex",
-   "amount_usdc": 15.571,
+   "amount_usdc": 15.317,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x310584f67d3b8b30477697b97dd3ac60ee3491d2.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x21c00d93b3c94f19111cae1ddd4c7e46e399f665.json"
   },
   {
-   "token": "0x22c896e29fad6c3c2ced6657d0b2ffca102783e7",
+   "token": "0x25fd9b79e6f92a3e1853d0816f3f63418f08a29a",
    "symbol": "U\u200aS\u200aO\u200aE",
-   "amount_usdc": 15.326,
+   "amount_usdc": 15.417,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x22c896e29fad6c3c2ced6657d0b2ffca102783e7.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x25fd9b79e6f92a3e1853d0816f3f63418f08a29a.json"
   },
   {
-   "token": "0x0fce6853b8663278c6c64f56649e6630c07cecf8",
+   "token": "0x19094f5599fc68a979f380be7d9b9dc041f0da5e",
    "symbol": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad",
-   "amount_usdc": 15.814,
+   "amount_usdc": 15.994,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0fce6853b8663278c6c64f56649e6630c07cecf8.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x19094f5599fc68a979f380be7d9b9dc041f0da5e.json"
   },
   {
-   "token": "0x273d94f70da140d3c53bd7f4ed8d1382f18963e9",
+   "token": "0x2da058e499211d5913395cb996b2052fa8bd148b",
    "symbol": "ATX PROJECT",
-   "amount_usdc": 15.262,
+   "amount_usdc": 15.486,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x273d94f70da140d3c53bd7f4ed8d1382f18963e9.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2da058e499211d5913395cb996b2052fa8bd148b.json"
   },
   {
-   "token": "0x227be3fdfc26195345ce48d47c353c1882768e6a",
+   "token": "0x249b0708d7421881d4d04ad869d99f82dc32b4e1",
    "symbol": "XST",
-   "amount_usdc": 15.761,
+   "amount_usdc": 15.411,
    "tier": "base",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x227be3fdfc26195345ce48d47c353c1882768e6a.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x249b0708d7421881d4d04ad869d99f82dc32b4e1.json"
+  },
+  {
+   "token": "0x159e2d40358e5afd7d1bb22ef1496b86dd4b2928",
+   "symbol": "CMC20",
+   "amount_usdc": 15.859,
+   "tier": "base",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x159e2d40358e5afd7d1bb22ef1496b86dd4b2928.json"
   }
  ],
  "micro_invoices": [
   {
-   "token": "0x3614d49e72146328378c3e1ed43d81205460ce1c",
+   "token": "0x926e6039ccd075c1ae6d2ed38cb4cb927ef2c217",
+   "symbol": "LAPTOP",
+   "amount_usdc": 0.89,
+   "tier": "micro_fix",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x926e6039ccd075c1ae6d2ed38cb4cb927ef2c217.json"
+  },
+  {
+   "token": "0xb5309bc0c77e6392ca7456d228170259ffb85a6d",
+   "symbol": "Basecat",
+   "amount_usdc": 0.604,
+   "tier": "micro_fix",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb5309bc0c77e6392ca7456d228170259ffb85a6d.json"
+  },
+  {
+   "token": "0x0f41746a6b604a41dfea047696837217a9b5ab04",
+   "symbol": "Global Oil Trust Fund",
+   "amount_usdc": 0.804,
+   "tier": "micro_fix",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0f41746a6b604a41dfea047696837217a9b5ab04.json"
+  },
+  {
+   "token": "0x258bb93569b9803b6f5527cfde07c13ec356e780",
    "symbol": "UBR",
-   "amount_usdc": 0.621,
+   "amount_usdc": 0.762,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3614d49e72146328378c3e1ed43d81205460ce1c.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x258bb93569b9803b6f5527cfde07c13ec356e780.json"
   },
   {
-   "token": "0x201b4cb72d0d03276bb7d8592397f8f7d45fa228",
-   "symbol": "AVAX",
-   "amount_usdc": 0.503,
+   "token": "0x29dca380bf659f182f877aabae73ea89ae93106a",
+   "symbol": "United Bitcoin Reserve",
+   "amount_usdc": 0.599,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x201b4cb72d0d03276bb7d8592397f8f7d45fa228.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x29dca380bf659f182f877aabae73ea89ae93106a.json"
   },
   {
-   "token": "0xcc642bbed9d6f7b031e42cc312cca504b14be71a",
-   "symbol": "LIQUIDBGT",
-   "amount_usdc": 0.84,
-   "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xcc642bbed9d6f7b031e42cc312cca504b14be71a.json"
-  },
-  {
-   "token": "0xe9d129a483253efbfe10cf82f90a185aa098c650",
-   "symbol": "AVAX",
-   "amount_usdc": 0.833,
-   "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xe9d129a483253efbfe10cf82f90a185aa098c650.json"
-  },
-  {
-   "token": "0xa36f7eb7441c307e394a40c61a7f5e64e1b7bc16",
-   "symbol": "REBOOT",
-   "amount_usdc": 0.62,
-   "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xa36f7eb7441c307e394a40c61a7f5e64e1b7bc16.json"
-  },
-  {
-   "token": "0x2fdee736918bbaf29cd2b0293a182544ff0858d4",
-   "symbol": "UKFLMS",
-   "amount_usdc": 0.828,
-   "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2fdee736918bbaf29cd2b0293a182544ff0858d4.json"
-  },
-  {
-   "token": "0x310bb190b28de4ee51aa76effa9cded82a6d77bd",
+   "token": "0x19ccb926a25d1a3b27b4c5b27dc3508f980d0808",
    "symbol": "United Global Oil Supply",
-   "amount_usdc": 0.934,
+   "amount_usdc": 0.572,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x310bb190b28de4ee51aa76effa9cded82a6d77bd.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x19ccb926a25d1a3b27b4c5b27dc3508f980d0808.json"
   },
   {
-   "token": "0x310584f67d3b8b30477697b97dd3ac60ee3491d2",
+   "token": "0x21c00d93b3c94f19111cae1ddd4c7e46e399f665",
    "symbol": "United Stat\u200aes Oi\u200al Ind\u200aex",
-   "amount_usdc": 0.989,
+   "amount_usdc": 0.754,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x310584f67d3b8b30477697b97dd3ac60ee3491d2.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x21c00d93b3c94f19111cae1ddd4c7e46e399f665.json"
   },
   {
-   "token": "0x22c896e29fad6c3c2ced6657d0b2ffca102783e7",
+   "token": "0x25fd9b79e6f92a3e1853d0816f3f63418f08a29a",
    "symbol": "U\u200aS\u200aO\u200aE",
-   "amount_usdc": 0.652,
+   "amount_usdc": 0.711,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x22c896e29fad6c3c2ced6657d0b2ffca102783e7.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x25fd9b79e6f92a3e1853d0816f3f63418f08a29a.json"
   },
   {
-   "token": "0x0fce6853b8663278c6c64f56649e6630c07cecf8",
+   "token": "0x19094f5599fc68a979f380be7d9b9dc041f0da5e",
    "symbol": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad",
-   "amount_usdc": 0.797,
+   "amount_usdc": 0.798,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0fce6853b8663278c6c64f56649e6630c07cecf8.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x19094f5599fc68a979f380be7d9b9dc041f0da5e.json"
   },
   {
-   "token": "0x273d94f70da140d3c53bd7f4ed8d1382f18963e9",
+   "token": "0x2da058e499211d5913395cb996b2052fa8bd148b",
    "symbol": "ATX PROJECT",
-   "amount_usdc": 0.589,
+   "amount_usdc": 0.771,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x273d94f70da140d3c53bd7f4ed8d1382f18963e9.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2da058e499211d5913395cb996b2052fa8bd148b.json"
   },
   {
-   "token": "0x227be3fdfc26195345ce48d47c353c1882768e6a",
+   "token": "0x249b0708d7421881d4d04ad869d99f82dc32b4e1",
    "symbol": "XST",
-   "amount_usdc": 0.546,
+   "amount_usdc": 0.897,
    "tier": "micro_fix",
-   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x227be3fdfc26195345ce48d47c353c1882768e6a.json"
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x249b0708d7421881d4d04ad869d99f82dc32b4e1.json"
+  },
+  {
+   "token": "0x159e2d40358e5afd7d1bb22ef1496b86dd4b2928",
+   "symbol": "CMC20",
+   "amount_usdc": 0.638,
+   "tier": "micro_fix",
+   "report": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x159e2d40358e5afd7d1bb22ef1496b86dd4b2928.json"
   }
  ]
 }
