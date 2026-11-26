@@ -97,26 +97,29 @@
     "max_gap_minutes": null
    },
    "distribution": {
-    "inbound_links_total": 3,
-    "external_links": 0,
-    "search_engine_index": "no evidence (a site: query returns no result page for the domain)",
+    "hyperlink_inbound_total": 2,
+    "self_authored": 2,
+    "external": 0,
+    "sitemap_inclusions": 1,
+    "classification": "not_measured",
+    "search_engine_index": "no_evidence (queried: 2 engine(s), not exhaustive)",
     "repo_metadata": "blocked: owner_only",
     "source": "AF_X402_INBOUND.json",
     "sources": [
-     "site/sitemap.xml (added 2026-11-26)",
-     "site/store.html storefront card (added 2026-11-26)",
-     "README.md paid-API line (added 2026-11-26)"
+     "site/store.html storefront card (AF-authored)",
+     "README.md paid-API line (AF-authored)"
     ],
+    "classification_reason": "every inbound hyperlink is AF-authored and there is no external link, no crawler hit and no referrer; a zero hit count still cannot separate 'nobody looked' from 'looked and did not want'",
     "interpretation_rule": [
-     "inbound_links_total = 0 at window start -> a zero hit count means the page is INVISIBLE (distribution), never a product or discovery finding",
-     "inbound_links_total > 0 and no crawler seen -> still cannot separate 'nobody looked' from 'looked and did not want'",
-     "a discovery conclusion needs a crawler hit, a referrer, or a direct external link; otherwise the honest answer is 'not measured'"
+     "external = 0 -> classification stays not_measured, no matter how many self-authored links exist",
+     "a discovery conclusion needs an external hyperlink, a crawler hit, or a referrer",
+     "sitemap inclusions never count as inbound links in reports"
     ],
-    "reading": "weak: internal links only, no external link and no search index - a zero cannot separate 'nobody looked' from 'looked and did not want'"
+    "reading": "not measured: every inbound hyperlink is AF-authored (external=0), so a zero hit count cannot separate 'nobody looked' from 'looked and did not want'"
    }
   }
  },
- "generated_at": "2026-11-26T15:12:03Z",
+ "generated_at": "2026-11-26T15:26:54Z",
  "window_days": 14,
  "total_hits": 26,
  "external_hits_14d": 0,

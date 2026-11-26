@@ -160,11 +160,17 @@
   }
  },
  "distribution": {
-  "inbound_links_total": 3,
-  "before_2026_11_26": 0,
-  "external_links": 0,
-  "search_engine_index": "no evidence",
-  "repo_metadata": "blocked: owner_only (PATCH repo -> 403)",
-  "reading": "weak: internal links only - a zero hit count cannot separate 'nobody looked' from 'looked and did not want'"
+  "hyperlink_inbound_total": 2,
+  "self_authored": 2,
+  "external": 0,
+  "sitemap_inclusions": 1,
+  "before_2026_11_26": {
+   "hyperlink_inbound_total": 0,
+   "sitemap_inclusions": 0
+  },
+  "classification": "not_measured",
+  "classification_reason": "every inbound hyperlink is AF-authored; no external link, no crawler hit, no referrer",
+  "search_engine_index": "no_evidence (queried: 2 engines, not exhaustive)",
+  "repo_metadata": "blocked: owner_only (PATCH repo -> 403)"
  }
 }

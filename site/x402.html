@@ -148,11 +148,19 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
     '<br><span class="mono">rule: 2 consecutive failed probes or a >90 min gap invalidates the window; a zero hit count from an invalidated window is not a discovery signal.</span>';
 
   const dist = (health && health.distribution) || {};
-  if (dist.reading) document.getElementById('reachability').innerHTML =
-    '<b>Can anyone find this page?</b> inbound links ' + esc(dist.inbound_links_total) +
-    ' (was ' + esc(dist.before_2026_11_26) + ' before 26 Nov) · external ' + esc(dist.external_links) +
-    ' · search index ' + esc(dist.search_engine_index) + ' · repo homepage/topics ' + esc(dist.repo_metadata) +
-    '<br><span class="mono">' + esc(dist.reading) + '</span>';
+  if (dist.classification) {
+    const row = (label, value, meaning) =>
+      '<tr><td>' + esc(label) + '</td><td><b>' + esc(value) + '</b></td><td>' + esc(meaning) + '</td></tr>';
+    document.getElementById('reachability').innerHTML =
+      '<b>Can anyone find this page? ' + esc(String(dist.classification).replace('_', ' ')) + '</b>' +
+      '<table style="margin:8px 0"><thead><tr><th>measure</th><th>value</th><th>what it means</th></tr></thead><tbody>' +
+      row('inbound hyperlinks', dist.hyperlink_inbound_total + ' (self ' + dist.self_authored + ' | external ' + dist.external + ')',
+          dist.external ? 'external discovery possible' : 'all self-authored -> NOT a discovery signal') +
+      row('sitemap inclusions', dist.sitemap_inclusions, 'crawler hint only, never an inbound link') +
+      row('search index', dist.search_engine_index, 'not exhausted -> unknown, not "none"') +
+      row('repo homepage/topics', dist.repo_metadata, 'owner-only step, not a request') +
+      '</tbody></table><span class="mono">' + esc(dist.classification_reason || '') + '</span>';
+  }
 
   const extPay = (health && health.external_payments) || [];
   if (extPay.length) document.getElementById('payments-body').innerHTML = extPay.map((p) =>
