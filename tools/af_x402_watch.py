@@ -113,12 +113,17 @@ def _samples_in(samples: list[dict], start: str, end: str) -> list[dict]:
 
 def window_status(samples: list[dict], start: str, end: str, today: str) -> dict:
     inside = _samples_in(samples, start, end)
+    rule = ("SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the "
+            "origin, so the observation is not comparable. If invalidated, the window ends: its numbers are "
+            "a failure log about host capability, not a demand finding. A second window needs a durable host, "
+            "which AF states as a capability gap.")
     if today < start:
         return {"status": "not_started", "starts": start, "uptime_pct": None, "invalidation_reason": None,
-                "samples": 0}
+                "samples": 0, "restart_rule": rule}
     if not inside:
         return {"status": "invalidated", "starts": start, "uptime_pct": None,
-                "invalidation_reason": "no probes recorded inside the window", "samples": 0}
+                "invalidation_reason": "no probes recorded inside the window", "samples": 0,
+                "restart_rule": rule}
 
     uptime = round(100 * sum(1 for s in inside if s.get("ok")) / len(inside), 2)
     worst_run, run = 0, 0
@@ -145,8 +150,7 @@ def window_status(samples: list[dict], start: str, end: str, today: str) -> dict
         "worst_consecutive_failures": worst_run,
         "max_gap_minutes": gap_min,
         "invalidation_reason": reason,
-        "restart_rule": "if invalidated, the window restarts on a new durable host; do not read its "
-                        "external_hits as a discovery signal",
+        "restart_rule": rule,
     }
 
 
