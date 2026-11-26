@@ -206,36 +206,50 @@
      "end": "2026-12-25"
     },
     "escalation_deadline": "2027-01-08",
-    "hits_definition": "organic external hits only: AF's own probes, crawler user agents and free-trial calls are excluded from paid.hits, so a branch can never be triggered by our own traffic",
-    "note": "declared before the window opens; 7 branches, every one names a next action",
+    "hits_definition": {
+     "external": "a request from a client that is neither AF (no x-af-self/x-af-nonce, not af-probe) nor a known crawler, to any path on the AF x402 endpoint host",
+     "external_to_product": "the subset of `external` whose path is a priced product or the manifest root; this is the page-level number, `external` alone is site-level",
+     "crawlers": "tracked separately in crawler_hits and never subtracted from paid_hits; reachability reads this field, the funnel does not",
+     "best_effort": "UA and referrer are self-reported, so organic classification is best-effort and not adversarial-proof: a forged UA can be misread, in either direction"
+    },
+    "channel_result_taxonomy": [
+     "success",
+     "failed",
+     "blocked",
+     "inconclusive"
+    ],
     "rules": [
      {
-      "if": "host invalidated (24h of failures / 1h DNS-connection / shutdown notice / 24h no probe)",
-      "then": "experiment void: host-capability failure log; the plan stops"
+      "if": "uptime.status == invalidated",
+      "then": "record the numbers as a host-capability failure log; the plan stops at the invalidated window instead of being extended; a new window needs a durable host (owner-only capability)"
      },
      {
-      "if": "external = 0",
-      "then": "inconclusive_by_capability: escalate owner-only channel; at the deadline 2027-01-08 it becomes FINAL (declare inconclusive, stop)"
+      "if": "external == 0",
+      "then": "no external arrival at all: escalate an owner-only channel (repo homepage/topics, human directories) or declare the experiment inconclusive-by-capability. Never change the product or the price on this result, never call it a discovery failure"
      },
      {
-      "if": "external > 0 and paid hits = 0 and all 4 candidates tried",
-      "then": "discovery_failed_by_channels: declare the experiment failed for organic discovery; stop"
+      "if": "external > 0 AND external_to_product == 0 AND a channel candidate is blocked",
+      "then": "traffic reached the host but never a priced path, and at least one channel is blocked, so distribution was never tested: unblock it or declare inconclusive. Do not call it discovery failure and do not touch the product"
      },
      {
-      "if": "external > 0 and paid hits = 0",
-      "then": "discovery: run the next untried candidate, one at a time"
+      "if": "external > 0 AND external_to_product == 0 AND no candidate tried yet",
+      "then": "arrivals never reached a priced path: check paths, redirects and the storefront link first, then run the next untried channel candidate"
      },
      {
-      "if": "paid hits > 0 and 402 = 0",
-      "then": "routing/presentation: fix routing first"
+      "if": "external > 0 AND external_to_product == 0 AND all candidates tried AND none blocked",
+      "then": "declare the experiment failed for organic discovery: every channel AF can execute was tried and measured, so the gap is capability (external distribution), not product or price. Stop the plan; do not invent a fifth channel after seeing the numbers"
      },
      {
-      "if": "402 > 0 and settled = 0",
-      "then": "friction: change price/trial after a labelled price-gate probe"
+      "if": "external_to_product > 0 AND 402_issued == 0",
+      "then": "requests reached a priced path but no 402 was issued: fix the payment layer before any conclusion about demand"
      },
      {
-      "if": "settled > 0",
-      "then": "conversion: keep price, scale that channel, verify tx on-chain"
+      "if": "402_issued > 0 AND settled_paid == 0",
+      "then": "change price tier or trial shape; verify with a labelled price-gate probe before claiming the price is wrong"
+     },
+     {
+      "if": "settled_paid > 0",
+      "then": "keep the price; scale the channel that produced the payer and record the first external payment only after the tx is verified on-chain"
      }
     ]
    }

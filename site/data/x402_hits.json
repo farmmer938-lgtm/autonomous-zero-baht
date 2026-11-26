@@ -7,15 +7,15 @@
    "discovery": "closed by AF rule (no directory listings until the 14-day health gate passes)",
    "decisive": false,
    "reading": "expected zero; cannot be used to judge the product or the channel",
-   "external_hits": 0,
-   "unique_external_agents": 0,
+   "external_hits": 3,
+   "unique_external_agents": 2,
    "crawler_hits": 3,
    "self_agent_hits": 28,
    "self_hits": 0,
-   "samples": 31,
+   "samples": 34,
    "funnel": {
     "paid": {
-     "hits": 0,
+     "hits": 3,
      "402_issued": 0,
      "settled_paid": 0,
      "200_delivered": 0
@@ -24,13 +24,14 @@
      "hits": 0,
      "200_skipped_402": 0
     },
+    "external_to_product": 3,
     "server_errors": 0,
     "other_status": 0,
-    "external_hits": 0
+    "external_hits": 3
    },
    "diagnosis": {
-    "cause": "discovery",
-    "meaning": "no paid hits arrived: fix the channel, not the product"
+    "cause": "routing",
+    "meaning": "paid hits arrived but no 402 was issued: the request never reached a priced product"
    }
   },
   "B": {
@@ -56,6 +57,7 @@
      "hits": 0,
      "200_skipped_402": 0
     },
+    "external_to_product": 0,
     "server_errors": 0,
     "other_status": 0,
     "external_hits": 0
@@ -124,46 +126,65 @@
       "id": "host_failure",
       "when": "uptime.status == invalidated",
       "outcome": "experiment_void_host_capability",
-      "next_action": "record the numbers as a host-capability failure log; the 30-day plan stops at the invalidated window instead of being extended; a new window needs a durable host, which is an owner-only capability"
+      "next_action": "record the numbers as a host-capability failure log; the plan stops at the invalidated window instead of being extended; a new window needs a durable host (owner-only capability)"
      },
      {
       "id": "inconclusive_by_capability",
-      "when": "distribution.external == 0",
+      "when": "external == 0",
       "outcome": "inconclusive_by_capability",
-      "next_action": "escalate to an owner-only channel (repo homepage/topics, human directories) as a capability gap, or declare the experiment inconclusive-by-capability. Never change the product or the price on this result, and never call it a discovery failure"
+      "next_action": "no external arrival at all: escalate an owner-only channel (repo homepage/topics, human directories) or declare the experiment inconclusive-by-capability. Never change the product or the price on this result, never call it a discovery failure"
      },
      {
-      "id": "discovery",
-      "when": "distribution.external > 0 AND paid.hits > 0 AND paid.402_issued == 0",
+      "id": "routing_no_product",
+      "when": "external > 0 AND external_to_product == 0 AND a channel candidate is blocked",
+      "outcome": "inconclusive_by_capability_blocked_channels",
+      "next_action": "traffic reached the host but never a priced path, and at least one channel is blocked, so distribution was never tested: unblock it or declare inconclusive. Do not call it discovery failure and do not touch the product"
+     },
+     {
+      "id": "routing_clean",
+      "when": "external > 0 AND external_to_product == 0 AND no candidate tried yet",
       "outcome": "routing_or_presentation",
-      "next_action": "the request never reached a priced product: fix routing first; if routing is clean, run channel candidates 1-4 (manifest wording, public sample, GitHub repo, static pages)"
+      "next_action": "arrivals never reached a priced path: check paths, redirects and the storefront link first, then run the next untried channel candidate"
      },
      {
       "id": "channels_exhausted",
-      "when": "distribution.external > 0 AND paid.hits == 0 AND all 4 channel candidates tried",
+      "when": "external > 0 AND external_to_product == 0 AND all candidates tried AND none blocked",
       "outcome": "discovery_failed_by_channels",
-      "next_action": "declare the experiment failed for organic discovery: every channel AF can execute has been tried and measured, so the remaining gap is capability (external distribution), not product or price. Stop the 30-day plan; do not invent a fifth channel after seeing the numbers"
+      "next_action": "declare the experiment failed for organic discovery: every channel AF can execute was tried and measured, so the gap is capability (external distribution), not product or price. Stop the plan; do not invent a fifth channel after seeing the numbers"
      },
      {
-      "id": "discovery_zero_paid",
-      "when": "distribution.external > 0 AND paid.hits == 0",
-      "outcome": "discovery",
-      "next_action": "run channel candidates 1-4, one at a time, each with its own measurement; do not touch the product"
+      "id": "routing",
+      "when": "external_to_product > 0 AND 402_issued == 0",
+      "outcome": "routing_or_presentation",
+      "next_action": "requests reached a priced path but no 402 was issued: fix the payment layer before any conclusion about demand"
      },
      {
       "id": "friction",
-      "when": "paid.402_issued > 0 AND paid.settled_paid == 0",
+      "when": "402_issued > 0 AND settled_paid == 0",
       "outcome": "friction",
-      "next_action": "change price tier or trial shape; verify with a labelled 1.00 price-gate probe before claiming the price is wrong"
+      "next_action": "change price tier or trial shape; verify with a labelled price-gate probe before claiming the price is wrong"
      },
      {
       "id": "conversion",
-      "when": "paid.settled_paid > 0",
+      "when": "settled_paid > 0",
       "outcome": "conversion",
-      "next_action": "keep the price; scale the channel that produced the payer and record it as the first external payment only after the tx is verified on-chain"
+      "next_action": "keep the price; scale the channel that produced the payer and record the first external payment only after the tx is verified on-chain"
      }
     ],
-    "hits_definition": "organic external hits only: AF's own probes, crawler user agents and free-trial calls are excluded from paid.hits, so a branch can never be triggered by our own traffic",
+    "hits_definition": {
+     "external": "a request from a client that is neither AF (no x-af-self/x-af-nonce, not af-probe) nor a known crawler, to any path on the AF x402 endpoint host",
+     "external_to_product": "the subset of `external` whose path is a priced product or the manifest root; this is the page-level number, `external` alone is site-level",
+     "paid_hits": "external_to_product hits that reached the payment layer (trial calls and AF probes excluded)",
+     "crawlers": "tracked separately in crawler_hits and never subtracted from paid_hits; reachability reads this field, the funnel does not",
+     "best_effort": "UA and referrer are self-reported, so organic classification is best-effort and not adversarial-proof: a forged UA can be misread, in either direction"
+    },
+    "channel_result_taxonomy": [
+     "success",
+     "failed",
+     "blocked",
+     "inconclusive"
+    ],
+    "blocked_candidates": [],
     "period": {
      "start": "2026-12-11",
      "end": "2026-12-25"
@@ -189,18 +210,18 @@
    }
   }
  },
- "generated_at": "2026-11-26T15:35:14Z",
+ "generated_at": "2026-11-26T15:42:49Z",
  "window_days": 14,
- "total_hits": 31,
- "external_hits_14d": 0,
- "external_hits_24h": 0,
- "unique_external_agents": 0,
+ "total_hits": 34,
+ "external_hits_14d": 3,
+ "external_hits_24h": 3,
+ "unique_external_agents": 2,
  "external_hits_14d_window": "A",
  "crawler_hits_14d": 3,
  "self_agent_hits_14d": 28,
  "funnel_14d": {
   "paid": {
-   "hits": 0,
+   "hits": 3,
    "402_issued": 0,
    "settled_paid": 0,
    "200_delivered": 0
@@ -209,15 +230,35 @@
    "hits": 0,
    "200_skipped_402": 0
   },
+  "external_to_product": 3,
   "server_errors": 0,
   "other_status": 0,
-  "external_hits": 0
+  "external_hits": 3
  },
  "self_hits_14d": 0,
- "top_external_ips": [],
- "by_user_agent": [],
- "by_path": [],
- "paid_paths_14d": 0,
+ "top_external_ips": [
+  [
+   "23.23.253.54",
+   2
+  ],
+  [
+   "98.91.77.46",
+   1
+  ]
+ ],
+ "by_user_agent": [
+  [
+   "Mozilla/5.0 (compatible)",
+   3
+  ]
+ ],
+ "by_path": [
+  [
+   "/",
+   3
+  ]
+ ],
+ "paid_paths_14d": 3,
  "funnel_reading": "see windows.<A|B>.funnel and windows.<A|B>.diagnosis",
  "reading": "A zero only counts inside window B. In window A discovery is closed by AF's own rule, so zero is the expected value and proves nothing about the product or the channel.",
  "source_log": "/workspace/.af_x402_hits.jsonl",
