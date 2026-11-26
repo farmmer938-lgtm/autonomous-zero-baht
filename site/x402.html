@@ -40,6 +40,8 @@
     <div class="card"><b id="p50">—</b><span>latency p50</span></div>
     <div class="card"><b id="p95">—</b><span>latency p95</span></div>
     <div class="card"><b id="lastok">—</b><span>last good answer</span></div>
+    <div class="card"><b id="exthits">—</b><span>external hits, 14d (non-crawler, not AF)</span></div>
+    <div class="card"><b id="extagents">—</b><span>unique external agents, 14d</span></div>
   </div>
 
   <h2 style="font-size:1.05rem;margin:0 0 4px">What is for sale</h2>
@@ -73,9 +75,9 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;',
 const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now() - Date.parse(iso)) / 60000); return m < 60 ? m + 'm ago' : (m/60).toFixed(1) + 'h ago'; };
 
 (async () => {
-  const [ep, health, status] = await Promise.all([
+  const [ep, health, hits, status] = await Promise.all([
     j('/data/x402_endpoint.json'), j('/data/x402_health.json'),
-    j('/data/x402_status.json').then(async (snap) => snap || (ep && ep.url ? await j(ep.url + '/status') : null))
+    j('/data/x402_hits.json'), j('/data/x402_status.json').then(async (snap) => snap || (ep && ep.url ? await j(ep.url + '/status') : null))
   ]);
 
   const url = ep && ep.url ? ep.url : null;
@@ -92,6 +94,10 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
   document.getElementById('p50').textContent = s.latency_p50_ms != null ? s.latency_p50_ms + ' ms' : '—';
   document.getElementById('p95').textContent = s.latency_p95_ms != null ? s.latency_p95_ms + ' ms' : '—';
   document.getElementById('lastok').textContent = age(s.last_ok_at);
+  // Demand is measured separately from uptime: a live endpoint with 0 external hits means
+  // nobody knows about it, which is a different problem from a broken endpoint.
+  document.getElementById('exthits').textContent = hits && hits.external_hits_14d != null ? hits.external_hits_14d : '—';
+  document.getElementById('extagents').textContent = hits && hits.unique_external_agents != null ? hits.unique_external_agents : '—';
 
   if (url) document.getElementById('trialcmd').textContent =
     'curl -s -X POST "' + url + '/vuln_lookup?trial=1" -H \'content-type: application/json\' \\\n  -d \'{"package":"lodash","ecosystem":"npm","version":"4.17.20"}\'';
