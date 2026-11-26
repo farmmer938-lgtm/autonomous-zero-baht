@@ -15,7 +15,7 @@
     "opportunity_score": 10,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.496991+00:00"
+    "researched_at": "2026-11-26T10:55:46.130923+00:00"
   },
   {
     "title": "Beginner Guide to CJ Affiliate (Commission Junction) in 2022",
@@ -33,7 +33,7 @@
     "opportunity_score": 10,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497608+00:00"
+    "researched_at": "2026-11-26T10:55:46.131528+00:00"
   },
   {
     "title": "รู้จักกับ AINU โซลูชั่น AI ของไทยที่ช่วยสร้าง Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากันรู้จักกับ AINU บริษัท AI ไทยที่ช่วยสร้าง Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากัน",
@@ -49,23 +49,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.498851+00:00"
-  },
-  {
-    "title": "[ลือ] พนักงาน OpenAI และ Anthropic กังวล โมเดลรุ่นใช้ภายในเริ่มเก่งเกินจนน่ากลัว",
-    "url": "https://www.blognone.com/node/152249",
-    "summary": "[ลือ] พนักงาน OpenAI และ Anthropic กังวล โมเดลรุ่นใช้ภายในเริ่มเก่งเกินจนน่ากลัว Body เว็บไซต์ Axios อ้างข้อมูลจากการสัมภาษณ์พนักงาน OpenAI และ Anthropic จำนวนรวมมากกว่า 24 คน ได้ข้อมูลตรงกันว่า โมเดล LLM ที่ใช้กันภายในมีความฉลาดขึ้นกว่าโมเดลที่เปิดต่อสาธารณะมาก (far more powerful) จนถึงระดับที่อาจเอาชนะระบบควบคุมโมเดลได้แล้ว ซึ่งเป็นสัญญาณอันตรายว่าเราสมควรเทรนโมเดลกันต่อไปมากแค่ไหน นักวิจัยรายหนึ่งระบุว่า โมเดลฉลาดขึ้นจนหลอกมนุษย์ได้แล้ว และทำให้ระบบควบคุมที่มีอยู่ในปัจจุบันล้าสมัย เพราะในอดีต โมเดลไม่รู้ว่าตัวเองอยู่ภายใต้ระบบควบคุม และมนุษย์สั่งให้โมเดล thinking out loud เพื่อทำความเข้าใจวิธีคิดของโมเดลว่าเป็นอย่างไร แต่โมเดลรุ่นปัจจุบันมักมีพฤติกรรมคิดเองภายใน แก้โจทย์ซับซ้อนขึ้นได้ แต่เปิดเผยรายละเอียดน้อยลง หรืออาจทำได้กระทั่งการหลอกมนุษย์ให้เข้าใจผิดไปอีกทาง เพื่อเอาใจมนุษย์ที่เฝ้ามอนิเตอร์อยู่ ส่วนโฆษกของ Anthropic ให้สัมภาษณ์แนวทางใหม่ของบริษัทที่เชื่อว่า วิธีการป้องกันด้วยการเก็บรักษาโมเดลนี้ไว้ใช้ภายในเพียงอย่างเดียว จะถือว่าไม่ปลอดภัยอีกต่อไปแล้วเช่นกัน ส่งผลให้ Anthropic ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Wed, 25 Nov 2026 02:39:51 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499178+00:00"
+    "researched_at": "2026-11-26T10:55:46.132487+00:00"
   },
   {
     "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
@@ -81,23 +65,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497235+00:00"
-  },
-  {
-    "title": "Tidal แบนเพลงที่สร้างด้วย AI ทั้งเพลงออกจากแพลตฟอร์ม",
-    "url": "https://www.blognone.com/node/152248",
-    "summary": "Tidal แบนเพลงที่สร้างด้วย AI ทั้งเพลงออกจากแพลตฟอร์ม Body Tidal แพลตฟอร์มฟังเพลงออนไลน์ ( ถูก Block/Square ซื้อกิจการมาตั้งแต่ปี 2021 ) ประกาศนโยบายใหม่ แบนเพลงที่สร้างด้วย AI ทั้งเพลง100% บนแพลตฟอร์ม Tidal บอกว่าตอนแรกใช้วิธี \"แปะป้าย\" ว่าเป็นเพลงที่สร้างด้วย AI แต่พบว่าไม่พอ เพราะปริมาณเพลง AI เพิ่มขึ้นอย่างรวดเร็ว โดยในรอบ 90 วันล่าสุด มีเพลง AI คิดเป็น 43% ของเพลงทั้งหมดที่ถูกส่งเข้ามาบนแพลตฟอร์ม บางวันพุ่งสูงไปถึง 60% และถ้าคิดเทียบกับคลังเพลงทั้งหมด 27 ล้านเพลง ตอนนี้มีเพลง AI แล้ว 6.3% แต่ปริมาณเพลง AI เยอะไม่ได้แปลว่าคนฟังเยอะตามไปด้วย สมาชิก Tidal แทบไม่ฟังเพลงเหล่านี้เลย โดย 96% ของเพลง AI มีคนฟัง 0 ครั้งในรอบ 3 เดือนล่าสุด นอกจากนี้เพลง AI ที่พยายามปลอมตัวเป็นเพลงของศิลปินคนอื่น (ด้วยวิธีการตั้งชื่อเพลงหรือชื่อศิลปิน) ยังสร้างปัญหาไปแย่งรายได้ที่ศิลปินควรได้ เพลงกลุ่มนี้มี 65,000 เพลงที่ถูกลบออกไปแล้ว ด้วยเหตุผลเหล่านี้ Tidal จึงตัดสินใจลบเพลงที่สร้างด้วย AI 100% ทั้งหมด เพื่อประโยชน์ของทั้งผู้ฟังและศิลปิน ส่วนเพลงที่ใช้ AI ช่วยบ้าง ยังอนุญาตให้อยู่บนแพลตฟอร์มได้ นโยบายใหม่จ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 24 Nov 2026 23:47:37 +0000",
-    "matched_keywords": [
-      "วิธี"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499256+00:00"
+    "researched_at": "2026-11-26T10:55:46.131173+00:00"
   },
   {
     "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
@@ -113,7 +81,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498063+00:00"
+    "researched_at": "2026-11-26T10:55:46.131888+00:00"
   },
   {
     "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
@@ -129,23 +97,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497318+00:00"
-  },
-  {
-    "title": "Jensen Huang กลับเข้าสำนักงานใหญ่ NVIDIA แล้ว พนักงานยืนปรบมือต้อนรับอย่างอบอุ่น",
-    "url": "https://www.blognone.com/node/152246",
-    "summary": "Jensen Huang กลับเข้าสำนักงานใหญ่ NVIDIA แล้ว พนักงานยืนปรบมือต้อนรับอย่างอบอุ่น Body มีประเด็นเพิ่มเติมจากการที่ NVIDIA ประกาศให้ Jensen Huang กลับมาเป็นซีอีโอบริษัทอีกครั้ง ถึงแม้มุมมองต่อเรื่องนี้จะมีหลากหลาย แต่มันก็เกิดขึ้นเช่นนี้แล้ว เริ่มที่ Huang ปรากฏตัวกลับเข้าไปทำงานที่สำนักงาน NVIDIA ใน Santa Clara เมื่อวันจันทร์ที่ผ่านมาตามเวลาท้องถิ่น โดยมีพนักงานหลายร้อยคนยืนปรบมือต้อนรับพร้อมส่งเสียงเชียร์ ซึ่ง Huang ก็กล่าวสั้น ๆ ว่าขอบคุณทุกคนสำหรับโอกาสที่สอง เขาจะเป็นซีอีโอที่ดีกว่าเดิม การตอบรับนี้สอดคล้องกับข่าวว่าพนักงาน NVIDIA มากกว่า 1 หมื่นคน ได้ร่วมลงชื่อในจดหมายเปิดผนึก เรียกร้องให้เขากลับมาเป็นซีอีโออีกครั้ง BREAKING: Jensen Huang returns to NVIDIA headquarters as CEO, welcomed with cheers, shout-outs and an outpouring of support from employees. “Thank you all for the second chance. I am going to be a better CEO the second time around.” https://t.co/ye9duf25NF — DogeDesigner (@cb_doge) November 23, 2026 ข่าวการกลับมาของ Huang นี้ ยังส่งผลทันทีต่อราคาหุ้นของ NVIDIA โดยปรับเพ",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 24 Nov 2026 12:09:17 +0000",
-    "matched_keywords": [
-      "ราคา"
-    ],
-    "keyword_score": 1,
-    "intent_score": 2,
-    "opportunity_score": 3,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499412+00:00"
+    "researched_at": "2026-11-26T10:55:46.131282+00:00"
   },
   {
     "title": "GeForce NOW powered by bro.game บริการ Cloud Gaming เซิร์ฟเวอร์ไทย เล่นเกม PC ระดับ AAA ด้วยพลัง GeForce RTX เริ่มต้น 99 บาทต่อวัน",
@@ -161,7 +113,7 @@
     "opportunity_score": 3,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499101+00:00"
+    "researched_at": "2026-11-26T10:55:46.132681+00:00"
   },
   {
     "title": "Canva Review 2022: Details, Pricing & Features",
@@ -177,7 +129,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498323+00:00"
+    "researched_at": "2026-11-26T10:55:46.132092+00:00"
   },
   {
     "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
@@ -193,21 +145,7 @@
     "opportunity_score": 3,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498137+00:00"
-  },
-  {
-    "title": "มีคนเล่น GTA 6 บน PS 5 วันแรกมากกว่า 39 ล้านคน สูงสุดในประวัติศาสตร์เกม PlayStation",
-    "url": "https://www.blognone.com/node/152245",
-    "summary": "มีคนเล่น GTA 6 บน PS 5 วันแรกมากกว่า 39 ล้านคน สูงสุดในประวัติศาสตร์เกม PlayStation Body นอกจาก GTA 6 จะทำ เงินเฉพาะวันแรก เป็นประวัติศาสตร์แล้ว ยังทำสถิติใหม่ให้กับ Sony ด้วย โดยทาง Sony ประกาศว่า มีคนเล่น GTA 6 พร้อมกันทั่วโลกบน PlayStation 5 มากกว่า 39 ล้านคน สูงสุดเท่าที่เคยมีมาในทุกเกมบน PlayStation และมากกว่าเกมทุกประเภททั้งแบบมัลติเพลเยอร์, ฟรีทูเพลย์ หรือเกมเล่นคนเดียว เฉพาะช่วงแรกที่เกมเปิดตัว มีชั่วโมงการเล่นรวมทั้งหมดบน PS5 ถึง 683 ล้านชั่วโมง เฉลี่ยในคิดเป็น 17.4 ชั่วโมงต่อคน นอกจากนี้ Sony ให้ข้อมูลน่าสนใจว่ามีเครื่องเล่น PS5 ใหม่ ที่เปิดใช้งานในวันนั้นสูงที่สุดตั้งแต่คอนโซลเริ่มขาย ซึ่ง 70% ก็เล่น GTA 6 นั่นเอง ที่มา: Sony arjin Tue, 24/11/2026 - 18:36",
-    "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 24 Nov 2026 11:36:10 +0000",
-    "matched_keywords": [],
-    "keyword_score": 0,
-    "intent_score": 0,
-    "opportunity_score": 0,
-    "freshness": "fresh",
-    "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499482+00:00"
+    "researched_at": "2026-11-26T10:55:46.131946+00:00"
   },
   {
     "title": "จากเขียนโค้ดด้วย AI สู่การสร้าง Agent-Native Architecture เจาะลึกเนื้อหา Deep Tech จากงาน LINE THAILAND DEVELOPER CONFERENCE 2026",
@@ -221,21 +159,49 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.498935+00:00"
+    "researched_at": "2026-11-26T10:55:46.132552+00:00"
   },
   {
-    "title": "Z.ai ปล่อย GLM-5.4 เปลี่ยนสถาปัตยกรรมเป็น Loop Transformer ลดต้นทุนการรัน",
-    "url": "https://www.blognone.com/node/152244",
-    "summary": "Z.ai ปล่อย GLM-5.4 เปลี่ยนสถาปัตยกรรมเป็น Loop Transformer ลดต้นทุนการรัน Body Z.ai ปล่อยโมเดลปัญญาประดิษฐ์ GLM-5.4 ที่จุดเปลี่ยนสำคัญคือการใช้สถาปัตยกรรม Loop Transformer ที่ช่วยให้โมเดลทำความฉลาดได้เทียบเท่าโมเดลขนาดใหญ่กว่ามากๆ แนวทาง Loop Transformer มีการเสนอมาตั้งแต่ปี 2018 แม้โมเดลที่ได้จะฉลาดขึ้นบ้างแต่ก็แพ้ต่อการขยายขนาดโมเดลไปเรื่อยๆ แนวทางของ Z.ai แทนที่จะฝึกโมเดลด้วย Loop Transformer แต่แรกกลับใช้โมเดล GLM-5 เดิมมาปรับเป็น Loop Transformer เพื่อให้ฉลาดขึ้นกว่าเดิม แม้ Z.ai จะโฆษณาว่า GLM-5.4 มีการปรับปรุงหลายอย่าง แต่ก็ไม่ยอมบอกผลทดสอบตรงๆ แต่กลับยกตัวอย่างโมเดลย่อขนาด 30B ที่ใช้สถาปัตยกรรมเดียวกับ GLM-5 แล้วแปลงมาเป็น Loop Transformer เหมือนกัน เพื่อแสดงให้เห็นว่าโมเดลทำคะแนนทดสอบได้ดีขึ้นมาก แถมยังตอบสั้นลงทำให้ประหยัดโทเค็น ตอนนี้ GLM-5.4 เปิดให้ใช้เฉพาะทาง GLM Coding Plan และ Z.ai บนเว็บเท่านั้น และจะเปิดให้ใช้ API และให้ดาวน์โหลดไฟล์โมเดลภายหลัง ที่มา - Z.ai lew Tue, 24/11/2026 - 08:01",
+    "title": "[ไม่ยืนยัน] Apple ทดสอบรัน macOS บน iPad แต่ยังไม่มีแผนนำออกมาใช้งานทั่วไป",
+    "url": "https://www.blognone.com/node/152259",
+    "summary": "[ไม่ยืนยัน] Apple ทดสอบรัน macOS บน iPad แต่ยังไม่มีแผนนำออกมาใช้งานทั่วไป Body Mark Gurman แห่ง Bloomberg คนเดิม ให้ข้อมูลในรายการพอดคาสต์ของเขา ตอบคำถามเรื่องความเป็นไปได้ที่ iPad จะรันระบบปฏิบัติการ macOS ได้ เพราะตอนนี้ก็ใช้ชิปตระกูล M เหมือนกัน โดยบอกว่าแอปเปิลก็มีการทดสอบรัน macOS บน iPad อยู่แล้ว แต่เป็นการใช้งานภายในเท่านั้น เขาบอกว่าแอปเปิลทดสอบแนวคิดดังกล่าวสำหรับ iPad จอใหญ่ ว่าหากใช้ macOS จะดีกว่าหรือไม่ อย่างไรก็ตาม Gurman ย้ำว่าทั้งหมดเป็นการทดสอบเท่านั้น แอปเปิลยังไม่มีแผนนำออกมาให้ใช้งานทั่วไป สุดท้าย Gurman บอกว่าแอปเปิลมีแผนปรับปรุง iPadOS และ iPad ให้มีความสามารถที่ใกล้เคียงกับการใช้ Mac แต่ถึงตอนนี้ เขายังไม่มีข้อมูลว่าแอปเปิลจะรวมระบบปฏิบัติการของสองอุปกรณ์นี้เข้าด้วยกัน ที่มา: 9to5Mac arjin Thu, 26/11/2026 - 11:52",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 24 Nov 2026 01:01:51 +0000",
+    "published": "Thu, 26 Nov 2026 04:52:18 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499560+00:00"
+    "researched_at": "2026-11-26T10:55:46.132861+00:00"
+  },
+  {
+    "title": "[ลือ] NVIDIA สั่งหยุดส่งชิปเข้าไทย มาเลเซีย สิงคโปร์ อินโดนีเซีย",
+    "url": "https://www.blognone.com/node/152261",
+    "summary": "[ลือ] NVIDIA สั่งหยุดส่งชิปเข้าไทย มาเลเซีย สิงคโปร์ อินโดนีเซีย Body สำนักข่าว Financial Times อ้างแหล่งข่าวไม่เปิดเผยตัวตน 3 ราย ระบุว่า NVIDIA สั่งผู้ผลิตเซิร์ฟเวอร์ เช่น Dell, Supermicro ให้หยุดส่งมอบเซิร์ฟเวอร์ไปยัง 4 ประเทศปลายทาง แม้จะไม่มีคำสั่งห้ามจากรัฐบาลก็ตาม ตอนนี้ไม่มีความแน่ชัดว่าเป็นการห้ามชั่วคราวหรือไม่ หรือจะมีกำหนดถึงเมื่อใด 4 ชาติในข่าวนี้เป็น 4 ชาติที่มีข่าวว่า Megaspeed บริษัทสิงคโปร์ ไปตั้งบริษัทลูกในแต่ละประเทศ เพื่อสร้างศูนย์ข้อมูลให้บริษัทปัญญาประดิษฐ์จีนเข้ามาใช้งาน ที่มา - Reuters lew Thu, 26/11/2026 - 16:10",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 26 Nov 2026 09:10:59 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-26T10:55:46.132751+00:00"
+  },
+  {
+    "title": "WhatsApp เพิ่มฟีเจอร์ตั้งเวลาส่งข้อความล่วงหน้า รองรับสูงสุด 14 วัน",
+    "url": "https://www.blognone.com/node/152255",
+    "summary": "WhatsApp เพิ่มฟีเจอร์ตั้งเวลาส่งข้อความล่วงหน้า รองรับสูงสุด 14 วัน Body WhatsApp ประกาศเพิ่มฟีเจอร์ตั้งเวลาส่งข้อความล่วงหน้า รองรับทั้งแชทแบบส่วนตัวและแชทแบบกลุ่ม สามารถใช้งานได้ใน WhatsApp บน iOS และ Android ขั้นตอนการใช้งาน เมื่อพิมพ์ข้อความที่ต้องการส่ง ให้กดค้างที่ปุ่ม Send เพื่อเรียกคำสั่ง Schedule สำหรับกำหนดเวลาส่งข้อความนี้ล่วงหน้า โดยสามารถตั้งเวลาล่วงหน้าตั้งแต่ 10 นาที จนถึง 14 วัน สามารถลบข้อความก่อนได้หากยังไม่ถึงกำหนดเวลาส่ง WhatsApp บอกว่าระบบส่งข้อความล่วงหน้าทำงานเบื้องหลัง เมื่อถึงกำหนดเวลาส่ง WhatsApp ของผู้ใช้งานไม่จำเป็นต้องเชื่อมต่อกับระบบ ข้อความได้รับการเข้ารหัส end-to-end เหมือนเดิม และรองรับทั้งข้อความตัวหนังสือ, รูปภาพ และวิดีโอ ที่มา: WhatsApp arjin Thu, 26/11/2026 - 09:02",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 26 Nov 2026 02:02:07 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-26T10:55:46.133037+00:00"
   },
   {
     "title": "What is Blockchain: Everything You Need to Know (2022)",
@@ -249,7 +215,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497905+00:00"
+    "researched_at": "2026-11-26T10:55:46.131765+00:00"
   },
   {
     "title": "Top 7 Best Wordpress Plugin Of All Time",
@@ -263,7 +229,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498416+00:00"
+    "researched_at": "2026-11-26T10:55:46.132164+00:00"
   },
   {
     "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
@@ -277,7 +243,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498232+00:00"
+    "researched_at": "2026-11-26T10:55:46.132020+00:00"
   },
   {
     "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
@@ -291,7 +257,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497421+00:00"
+    "researched_at": "2026-11-26T10:55:46.131378+00:00"
   },
   {
     "title": "Top 10 AI Content Generator & Writer Tools in 2022",
@@ -305,7 +271,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497516+00:00"
+    "researched_at": "2026-11-26T10:55:46.131455+00:00"
   },
   {
     "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
@@ -319,7 +285,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497699+00:00"
+    "researched_at": "2026-11-26T10:55:46.131600+00:00"
   },
   {
     "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -333,7 +299,21 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497983+00:00"
+    "researched_at": "2026-11-26T10:55:46.131826+00:00"
+  },
+  {
+    "title": "OpenAI พบ Big-O ใหม่ของการคูณเมตริกซ์ คือ O(n⁹⁄₄)",
+    "url": "https://www.blognone.com/node/152260",
+    "summary": "OpenAI พบ Big-O ใหม่ของการคูณเมตริกซ์ คือ O(n⁹⁄₄) Body OpenAI เผยแพร่รายงานวิจัยคณิตศาสตร์ชุดใหม่ต่อเนื่อง จากที่เคยเปิดเผยก่อนหน้านี้ โดยหนึ่งในนั้นคือบทพิสูจน์ว่า Big-O ของการคูณเมตริกซ์คือ O(n⁹⁄₄) ซึ่งเล็กลงกว่า O(n 2.371 ) ที่ เสนอโดย Virginia Vassilevska Williams, Yinzhan Xu, Zixuan Xu, Renfei Zhou เมื่อปี 2023 ( Quanta Magazine ) กระบวนการคูณเมตริกซ์เป็นหนึ่งในกระบวนการทำงานที่สำคัญที่สุดของคอมพิวเตอร์ยุคใหม่ เพราะการประมวลผล AI แบบ deep learning อาศัยการคูณเมตริกซ์จำนวนมหาศาล การสร้างกระบวนการคูณเมตริกซ์ใหม่ที่ประสิทธิภาพดีขึ้นจะลดระยะเวลาประมวลผลลงได้ในข้อมูลขนาดใหญ่ รายงานนี้ยังอยู่ในสถานะ preprint และก่อนหน้านี้ OpenAI เคยต้องถอนรายงานบางส่วนจากความผิดพลาดมาแล้ว ที่มา - GitHub: openai/math , The New Stack lew Thu, 26/11/2026 - 13:37",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 26 Nov 2026 06:37:54 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-26T10:55:46.132807+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
@@ -347,7 +327,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498584+00:00"
+    "researched_at": "2026-11-26T10:55:46.132294+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About Affiliate Marketing",
@@ -361,7 +341,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497811+00:00"
+    "researched_at": "2026-11-26T10:55:46.131661+00:00"
   },
   {
     "title": "Most Frequently Asked Questions About  Email Marketing",
@@ -375,7 +355,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498767+00:00"
+    "researched_at": "2026-11-26T10:55:46.132423+00:00"
   },
   {
     "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
@@ -389,7 +369,7 @@
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499015+00:00"
+    "researched_at": "2026-11-26T10:55:46.132616+00:00"
   },
   {
     "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
@@ -403,7 +383,7 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.497129+00:00"
+    "researched_at": "2026-11-26T10:55:46.131040+00:00"
   },
   {
     "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
@@ -417,21 +397,35 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498493+00:00"
+    "researched_at": "2026-11-26T10:55:46.132224+00:00"
   },
   {
-    "title": "Amazon ซื้อเทคโนโลยีและทีมงานของสตาร์ทอัป Decart เพื่อเสริมการพัฒนาชิป AI Trainium",
-    "url": "https://www.blognone.com/node/152247",
-    "summary": "Amazon ซื้อเทคโนโลยีและทีมงานของสตาร์ทอัป Decart เพื่อเสริมการพัฒนาชิป AI Trainium Body Amazon ประกาศเข้าซื้อเทคโนโลยี AI ของ Decart สตาร์ทอัปจากอิสราเอล โดยในข้อตกลงนี้ Amazon จะได้เทคโนโลยีทั้งหมดของ Decart Optimization Stack (DOS) รวมทั้งทีมผู้ก่อตั้ง 3 คน, นักวิจัย AI และวิศวกร เข้าร่วมงานกับ Amazon ดีลนี้จึงไม่ใช่การซื้อกิจการทั้งหมด ตัวเลขไม่มีการเปิดเผยเป็นทางการ แต่คาดว่าอยู่ที่ราว 7.5 พันล้านดอลลาร์ Peter DeSantis หัวหน้าฝ่ายพัฒนาโมเดล AI, ชิปประมวลผลและควอนตัมของ Amazon บอกว่าเทคโนโลยีของ Decart จะนำมาใช้ในการพัฒนาชิปปรับแต่ง ตลอดจนงานปรับแต่ง AI ในขั้นตอน Inference สำหรับลูกค้าของบริษัทต่อไป Amazon มีชิปประมวลผล AI ของตนเองชื่อ Trainium ซึ่งเทคโนโลยี DOS ของ Decart นี้ จะช่วยให้ลูกค้าที่ต้องการรัน AI บน Trainium สามารถพอร์ตเวิร์กโหลดที่อยู่บนแพลตฟอร์มอื่นมารันได้ง่ายขึ้น ที่มา: Amazon และ TechCrunch arjin Tue, 24/11/2026 - 20:38",
+    "title": "FC 27 นำเสียงนักพากย์ชื่อดัง John Motson กลับมาอีกครั้งด้วย AI",
+    "url": "https://www.blognone.com/node/152257",
+    "summary": "FC 27 นำเสียงนักพากย์ชื่อดัง John Motson กลับมาอีกครั้งด้วย AI Body เกมฟุตบอล EC Sports FC 27 เพิ่มฟีเจอร์ใหม่ที่น่าสนใจคือ นำเสียงคอมเมนเตเตอร์ชื่อดัง John Motson กลับมาอีกครั้งด้วย AI John Motson เป็นนักพากย์ฟุตบอลชาวอังกฤษ ที่พากย์บอลทางสถานี BBC มาตั้งแต่ปี 1971-2018 จำนวนมากกว่า 2,500 นัด และเคยพากย์เกม EA FIFA ระหว่างปี 1996-2006 ก่อนเสียชีวิตในปี 2023 การนำเสียงของ Motson มาใช้งานได้รับความยินยอมจากครอบครัวของเขาเป็นอย่างดี โดย Fred Motson ลูกชายของเขาบอกว่าเสียงของพ่อสร้างแรงบันดาลใจให้ผู้คนมากมาย และการนำเสียงกลับมาถือเป็นการรำลึกและรักษาความทรงจำต่อพ่อของเขา แนวทางของ EA มีทั้งการใช้เสียงต้นฉบับเดิม (ที่บันทึกเก็บไว้ในช่วงที่พากย์เกม FIFA นาน 10 ปี) ร่วมกับเสียงที่เทรนด้วย AI ผู้เล่น EA Sports FC 27 สามารถเปิดใช้งานเสียงของ Motson เป็นทางเลือกเพิ่มเติม นอกเหนือจากเสียงของนักพากย์คนอื่นๆ โดยจะต้องอัพเดตแพตช์เป็นเวอร์ชัน v1.3.0 ที่เริ่มปล่อยในวันนี้ ที่มา - EA Football video game EA Sports FC 27 will feature the digitally recreated voice of late BBC commentator John Motson, usi",
     "source": "https://www.blognone.com/atom.xml",
-    "published": "Tue, 24 Nov 2026 13:38:45 +0000",
+    "published": "Thu, 26 Nov 2026 02:07:11 +0000",
     "matched_keywords": [],
     "keyword_score": 0,
     "intent_score": 0,
     "opportunity_score": 0,
     "freshness": "fresh",
     "research_quality": "public_feed",
-    "researched_at": "2026-11-25T10:29:21.499331+00:00"
+    "researched_at": "2026-11-26T10:55:46.132986+00:00"
+  },
+  {
+    "title": "Dell รายงานผลประกอบการ ทำสถิติใหม่อีกไตรมาส รายได้ Server AI เพิ่มขึ้นเกือบ 4 เท่า",
+    "url": "https://www.blognone.com/node/152258",
+    "summary": "Dell รายงานผลประกอบการ ทำสถิติใหม่อีกไตรมาส รายได้ Server AI เพิ่มขึ้นเกือบ 4 เท่า Body Dell Technologies รายงานผลการดำเนินงานของไตรมาสที่ 3 ตามปีการเงินบริษัท 2027 สิ้นสุดเดือนตุลาคม รายได้รวมทำสถิติสูงสุดใหม่อีกไตรมาสโดยเพิ่มขึ้นถึง 103% จากช่วงเดียวกันในปีก่อนเป็น 54,937 ล้านดอลลาร์ และยังทำสถิติสูงสุดทั้งกำไรสุทธิที่เพิ่มขึ้นเป็น 5,673 ล้านดอลลาร์ และกระแสเงินสดจากการดำเนินงาน 4.5 พันล้านดอลลาร์ Jeff Clarke รองประธานและซีโอโอของ Dell คาดว่ารายได้ตลอดปีการเงิน 2027 จะเพิ่มขึ้นเป็น 2.02 แสนล้านดอลลาร์ ซึ่งมาจากกลุ่มธุรกิจ Infrastructure ที่เป็นรายได้หลักและเติบโตแข็งแกร่ง แบ็กล็อกสินค้าที่เกี่ยวกับ AI เพิ่มขึ้นเป็น 1.32 แสนล้านดอลลาร์ โดยมีคำสั่งซื้อใหม่เข้ามาในไตรมาสอีก 6.02 หมื่นล้านดอลลาร์ ที่น่าสนใจคือ Clarke บอกว่าแบ็กล็อกนี้สามารถรับรู้เป็นรายได้ทันทีเมื่อส่งมอบเพราะ Dell ทดสอบแร็กเซิร์ฟเวอร์ในทุกขั้นตอนให้พร้อมใช้งานทันทีเมื่อติดตั้งในพื้นที่ ตอนนี้มีลูกค้ามากกว่า 7,500 ราย ที่ใช้งาน Dell AI Factory รายได้ในกลุ่ม Infrastructure ของ Dell เพิ่มขึ้นถึง 198% เป็น 4.2 หมื่นล้านดอลล",
+    "source": "https://www.blognone.com/atom.xml",
+    "published": "Thu, 26 Nov 2026 02:41:55 +0000",
+    "matched_keywords": [],
+    "keyword_score": 0,
+    "intent_score": 0,
+    "opportunity_score": 0,
+    "freshness": "fresh",
+    "research_quality": "public_feed",
+    "researched_at": "2026-11-26T10:55:46.132923+00:00"
   },
   {
     "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
@@ -445,6 +439,6 @@
     "opportunity_score": 0,
     "freshness": "stale_unverified",
     "research_quality": "stale_unverified",
-    "researched_at": "2026-11-25T10:29:21.498675+00:00"
+    "researched_at": "2026-11-26T10:55:46.132365+00:00"
   }
 ]
