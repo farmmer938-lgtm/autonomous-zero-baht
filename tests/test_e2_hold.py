@@ -55,3 +55,53 @@ class HoldRecordTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class EvidenceIntegrityTests(unittest.TestCase):
+    def test_pii_is_refused(self):
+        for bad in ({"contact": "someone@example.com"},
+                    {"phone": "0812345678"},
+                    {"pay": "PromptPay 0899999999"},
+                    {"key": "0x" + "a" * 64},
+                    {"note": "seed phrase attached"}):
+            with self.assertRaises(ValueError, msg=str(bad)):
+                hold.assert_no_pii(bad)
+
+    def test_ordinary_record_passes_the_pii_guard(self):
+        row = hold.record(now=datetime(2026, 11, 26, tzinfo=timezone.utc), checker=FakeChecker())
+        self.assertEqual(hold.assert_no_pii(row), row)
+
+    def test_null_is_not_zero(self):
+        row = hold.record(now=datetime(2026, 11, 26, tzinfo=timezone.utc), checker=FakeChecker())
+        self.assertIsNone(row["visits"])
+        self.assertIsNone(row["discovery"]["search_console"])
+        self.assertEqual(row["discovery"]["referrals"], None)
+        self.assertIn("null means 'not measured'", row["note"])
+
+    def test_three_counts_are_reported_separately(self):
+        row = hold.record(now=datetime(2026, 11, 26, tzinfo=timezone.utc), checker=FakeChecker())
+        c = row["counts"]
+        self.assertEqual(c["e2_paths_checked"], 1)          # only audit/e2/ is in PATHS
+        self.assertEqual(c["panel_pages_expected"], 11)     # 10 token pages + index
+        self.assertNotIn("total_pages", c)                  # no number that invites double counting
+
+    def test_verify_log_flags_a_tampered_order(self):
+        tmp = Path("/tmp/e2_hold_verify.jsonl")
+        tmp.write_text('{"at":"2026-12-01T00:00:00+00:00"}\n{"at":"2026-11-01T00:00:00+00:00"}\n',
+                       encoding="utf-8")
+        res = hold.verify_log(tmp)
+        self.assertFalse(res["ok"])
+        self.assertTrue(any("monotonic" in p for p in res["problems"]))
+        tmp.unlink()
+
+    def test_verify_log_flags_pii_that_got_in(self):
+        tmp = Path("/tmp/e2_hold_pii.jsonl")
+        tmp.write_text('{"at":"2026-12-01T00:00:00+00:00","who":"a@b.co"}\n', encoding="utf-8")
+        res = hold.verify_log(tmp)
+        self.assertFalse(res["ok"])
+        tmp.unlink()
+
+    def test_no_workflow_runs_the_recorder_so_the_mode_is_on_demand(self):
+        """If someone wires a cron, this test flips and the report must change with it."""
+        row = hold.record(now=datetime(2026, 11, 26, tzinfo=timezone.utc), checker=FakeChecker())
+        self.assertEqual(row["measurement"]["mode"].startswith("on-demand"), not hold.scheduled())

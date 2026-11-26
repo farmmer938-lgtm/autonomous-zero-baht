@@ -94,3 +94,33 @@ genuine enquiries `0`, paid `0.00`.
 
 What this recorder cannot do: measure a visitor. No analytics is installed and none will be
 without K's decision, so `visits` stays `null` and the day-30 report will say `null`, not `0`.
+
+## Evidence integrity rules (K, 2026-11-26)
+
+| rule | state |
+|---|---|
+| 1. is there a scheduler that calls `af_e2_hold.py`? | **No.** `grep -rl af_e2_hold .github/workflows` → nothing. The 6-hourly `revenue_pipeline.yml` runs `af_publish_check.py` (availability) but not this recorder. |
+| 2. therefore the mode | **on-demand**, and every record carries `measurement.scheduled_runner: null` plus a mode string. A test flips the moment a workflow is wired. |
+| 3. every check appends a real timestamp and result | `data/e2_hold_log.jsonl`, append-only; `--verify-log` refuses non-JSON, PII, or non-monotonic timestamps |
+| 4. never turn `null` into `0` without measurement | `visits`, `discovery.search_console`, `discovery.referrals` stay `null`; `assert_no_pii` and the note text say why |
+| 5. three counts, never added together | `e2_paths_checked` · `html_pages_live` · `panel_pages_live` / `panel_pages_expected` |
+| 6. no PII in the public repo | emails, phone numbers, PromptPay handles, private keys and seed words are refused at write time |
+
+### What each count actually is (measured 2026-11-26T01:24Z)
+
+| number | value | what it counts |
+|---|---|---|
+| `e2_paths_checked` | 1 | `audit/e2/` appears once in `af_publish_check.PATHS` — a path, not a page |
+| `html_pages_live` | 8 | HTML among those 10 paths (sitemap.xml and robots.txt are not pages) |
+| `panel_pages_live` | 11 | the 10 token pages + the panel index, checked one by one, all 200 |
+| hold-log records | 2 | on-demand checks, both by the agent; **not** 29 days of monitoring |
+
+The only automatic trail that exists today is `data/published.json`, committed by the 6-hourly
+`revenue_pipeline.yml`: **4 commits** so far (2026-11-25T15:03Z → 16:27Z). That is an
+availability trail, not an audience measurement, and it will be reported as such.
+
+### Day-30 wording that is not allowed
+
+- "proved nobody discovered it" — only allowed if a real measurement returned 0.
+- "monitored for 30 days" — only allowed if the log holds the checks; otherwise the number of
+  actual checks is reported.
