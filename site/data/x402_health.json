@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T15:34:56Z",
+ "generated_at": "2026-11-26T23:25:00Z",
  "endpoint": "https://viewing-saw-stores-furniture.trycloudflare.com",
  "history": [
   {
@@ -89,18 +89,28 @@
     "health_200": true,
     "paywall_402": true
    }
+  },
+  {
+   "at": "2026-11-26T23:25:00Z",
+   "ok": false,
+   "latency_ms": null,
+   "checks": {
+    "status_200": false,
+    "health_200": false,
+    "paywall_402": false
+   }
   }
  ],
  "summary": {
-  "samples": 8,
+  "samples": 9,
   "window_start": "2026-11-26T14:33:20Z",
-  "window_days": 0.04,
-  "uptime_pct": 100.0,
-  "current_streak_samples": 8,
-  "current_streak_hours": 4.0,
+  "window_days": 0.37,
+  "uptime_pct": 88.89,
+  "current_streak_samples": 0,
+  "current_streak_hours": 0.0,
   "last_ok_at": "2026-11-26T15:34:56Z",
-  "last_check_at": "2026-11-26T15:34:56Z",
-  "last_check_ok": true,
+  "last_check_at": "2026-11-26T23:25:00Z",
+  "last_check_ok": false,
   "latency_p50_ms": 361,
   "latency_p95_ms": 375,
   "listable": false
@@ -168,13 +178,13 @@
     "degraded_from_failures": 2,
     "degraded_gap_hours": 2
    },
-   "status": "active",
+   "status": "degraded",
    "phase": "open",
-   "uptime_pct": 100.0,
-   "samples": 8,
-   "failed_probes": 0,
-   "max_gap_hours": 0.4,
-   "degraded_note": null,
+   "uptime_pct": 88.89,
+   "samples": 9,
+   "failed_probes": 1,
+   "max_gap_hours": 7.8,
+   "degraded_note": "one wave",
    "invalidation_reason": null
   },
   "B": {
@@ -198,64 +208,7 @@
    "phase": "pre_window",
    "uptime_pct": null,
    "invalidation_reason": null,
-   "samples": 0,
-   "exit_criteria": {
-    "declared_at": "2026-11-26",
-    "period": {
-     "start": "2026-12-11",
-     "end": "2026-12-25"
-    },
-    "escalation_deadline": "2027-01-08",
-    "hits_definition": {
-     "external": "a request from a client that is neither AF (no x-af-self/x-af-nonce, not af-probe) nor a known crawler, to any path on the AF x402 endpoint host",
-     "external_to_product": "the subset of `external` whose path is a priced product or the manifest root; this is the page-level number, `external` alone is site-level",
-     "paid_hits": "external_to_product hits that reached the payment layer (trial calls and AF probes excluded)",
-     "crawlers": "tracked separately in crawler_hits and never subtracted from paid_hits; reachability reads this field, the funnel does not",
-     "best_effort": "UA and referrer are self-reported, so organic classification is best-effort and not adversarial-proof: a forged UA can be misread, in either direction",
-     "terminal_semantic_guard": "if the derived numbers are stale by more than 14 days at window close, the result is NOT MEASURED, not inconclusive_by_capability_final: the observer failed, distribution was never observed. tools/af_x402_monitor.py reports this as terminal_guard"
-    },
-    "channel_result_taxonomy": [
-     "success",
-     "failed",
-     "blocked",
-     "inconclusive"
-    ],
-    "rules": [
-     {
-      "if": "uptime.status == invalidated",
-      "then": "record the numbers as a host-capability failure log; the plan stops at the invalidated window instead of being extended; a new window needs a durable host (owner-only capability)"
-     },
-     {
-      "if": "external == 0",
-      "then": "no external arrival at all: escalate an owner-only channel (repo homepage/topics, human directories) or declare the experiment inconclusive-by-capability. Never change the product or the price on this result, never call it a discovery failure"
-     },
-     {
-      "if": "external > 0 AND external_to_product == 0 AND a channel candidate is blocked",
-      "then": "traffic reached the host but never a priced path, and at least one channel is blocked, so distribution was never tested: unblock it or declare inconclusive. Do not call it discovery failure and do not touch the product"
-     },
-     {
-      "if": "external > 0 AND external_to_product == 0 AND no candidate tried yet",
-      "then": "arrivals never reached a priced path: check paths, redirects and the storefront link first, then run the next untried channel candidate"
-     },
-     {
-      "if": "external > 0 AND external_to_product == 0 AND all candidates tried AND none blocked",
-      "then": "declare the experiment failed for organic discovery: every channel AF can execute was tried and measured, so the gap is capability (external distribution), not product or price. Stop the plan; do not invent a fifth channel after seeing the numbers"
-     },
-     {
-      "if": "external_to_product > 0 AND 402_issued == 0",
-      "then": "requests reached a priced path but no 402 was issued: fix the payment layer before any conclusion about demand"
-     },
-     {
-      "if": "402_issued > 0 AND settled_paid == 0",
-      "then": "change price tier or trial shape; verify with a labelled price-gate probe before claiming the price is wrong"
-     },
-     {
-      "if": "settled_paid > 0",
-      "then": "keep the price; scale the channel that produced the payer and record the first external payment only after the tx is verified on-chain"
-     }
-    ],
-    "terminal_guard": "stale derived data at window close -> NOT MEASURED, not inconclusive_by_capability_final"
-   }
+   "samples": 0
   }
  },
  "distribution": {
