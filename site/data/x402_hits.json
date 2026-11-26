@@ -9,10 +9,10 @@
    "reading": "expected zero; cannot be used to judge the product or the channel",
    "external_hits": 0,
    "unique_external_agents": 0,
-   "crawler_hits": 0,
-   "self_agent_hits": 14,
+   "crawler_hits": 3,
+   "self_agent_hits": 17,
    "self_hits": 0,
-   "samples": 14,
+   "samples": 20,
    "funnel": {
     "paid": {
      "hits": 0,
@@ -86,18 +86,27 @@
     "updated_at": "2026-11-26T15:10:00Z",
     "state": "not_started",
     "decision_rule": "attempted=0 -> not started, conclude nothing; attempted>0 and accepted=0 -> host/URL problem (fix the URL, not the channel or the product); accepted>0 and paid hits=0 -> discovery problem; paid hits>0 and settled=0 -> product/price problem; settled>0 -> conversion signal"
+   },
+   "uptime": {
+    "source": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/data/x402_health.json",
+    "status": "not_started",
+    "uptime_pct": null,
+    "invalidation_reason": null,
+    "samples": 0,
+    "worst_consecutive_failures": null,
+    "max_gap_minutes": null
    }
   }
  },
- "generated_at": "2026-11-26T14:59:49Z",
+ "generated_at": "2026-11-26T15:06:14Z",
  "window_days": 14,
- "total_hits": 14,
+ "total_hits": 20,
  "external_hits_14d": 0,
  "external_hits_24h": 0,
  "unique_external_agents": 0,
  "external_hits_14d_window": "A",
- "crawler_hits_14d": 0,
- "self_agent_hits_14d": 14,
+ "crawler_hits_14d": 3,
+ "self_agent_hits_14d": 17,
  "funnel_14d": {
   "paid": {
    "hits": 0,
