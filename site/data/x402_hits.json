@@ -10,9 +10,9 @@
    "external_hits": 0,
    "unique_external_agents": 0,
    "crawler_hits": 3,
-   "self_agent_hits": 23,
+   "self_agent_hits": 28,
    "self_hits": 0,
-   "samples": 26,
+   "samples": 31,
    "funnel": {
     "paid": {
      "hits": 0,
@@ -139,6 +139,12 @@
       "next_action": "the request never reached a priced product: fix routing first; if routing is clean, run channel candidates 1-4 (manifest wording, public sample, GitHub repo, static pages)"
      },
      {
+      "id": "channels_exhausted",
+      "when": "distribution.external > 0 AND paid.hits == 0 AND all 4 channel candidates tried",
+      "outcome": "discovery_failed_by_channels",
+      "next_action": "declare the experiment failed for organic discovery: every channel AF can execute has been tried and measured, so the remaining gap is capability (external distribution), not product or price. Stop the 30-day plan; do not invent a fifth channel after seeing the numbers"
+     },
+     {
       "id": "discovery_zero_paid",
       "when": "distribution.external > 0 AND paid.hits == 0",
       "outcome": "discovery",
@@ -157,24 +163,41 @@
       "next_action": "keep the price; scale the channel that produced the payer and record it as the first external payment only after the tx is verified on-chain"
      }
     ],
+    "hits_definition": "organic external hits only: AF's own probes, crawler user agents and free-trial calls are excluded from paid.hits, so a branch can never be triggered by our own traffic",
+    "period": {
+     "start": "2026-12-11",
+     "end": "2026-12-25"
+    },
+    "escalation_deadline": "2027-01-08",
+    "channels": {
+     "tried": [],
+     "untried": [
+      "manifest_rewrite",
+      "public_sample_output",
+      "github_channel",
+      "static_report_pages"
+     ],
+     "next": "manifest_rewrite"
+    },
     "no_report_only_rule": "reporting 'not_measured' with no next action is not an allowed ending: every branch names a next step",
     "current": {
      "outcome": "pre_window",
      "rule": null,
-     "next_action": "window opens 2026-12-11; exit rules are already declared"
+     "phase": "pre_window",
+     "next_action": "window opens 2026-12-11 and closes 2026-12-25; exit rules are already declared"
     }
    }
   }
  },
- "generated_at": "2026-11-26T15:28:57Z",
+ "generated_at": "2026-11-26T15:35:14Z",
  "window_days": 14,
- "total_hits": 26,
+ "total_hits": 31,
  "external_hits_14d": 0,
  "external_hits_24h": 0,
  "unique_external_agents": 0,
  "external_hits_14d_window": "A",
  "crawler_hits_14d": 3,
- "self_agent_hits_14d": 23,
+ "self_agent_hits_14d": 28,
  "funnel_14d": {
   "paid": {
    "hits": 0,

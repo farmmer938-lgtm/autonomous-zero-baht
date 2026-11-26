@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T15:09:01Z",
+ "generated_at": "2026-11-26T15:34:56Z",
  "endpoint": "https://viewing-saw-stores-furniture.trycloudflare.com",
  "history": [
   {
@@ -78,20 +78,31 @@
     "health_200": true,
     "paywall_402": true
    }
+  },
+  {
+   "at": "2026-11-26T15:34:56Z",
+   "ok": true,
+   "latency_ms": 375,
+   "checks": {
+    "status_200": true,
+    "status_json": true,
+    "health_200": true,
+    "paywall_402": true
+   }
   }
  ],
  "summary": {
-  "samples": 7,
+  "samples": 8,
   "window_start": "2026-11-26T14:33:20Z",
-  "window_days": 0.02,
+  "window_days": 0.04,
   "uptime_pct": 100.0,
-  "current_streak_samples": 7,
-  "current_streak_hours": 3.5,
-  "last_ok_at": "2026-11-26T15:09:01Z",
-  "last_check_at": "2026-11-26T15:09:01Z",
+  "current_streak_samples": 8,
+  "current_streak_hours": 4.0,
+  "last_ok_at": "2026-11-26T15:34:56Z",
+  "last_check_at": "2026-11-26T15:34:56Z",
   "last_check_ok": true,
-  "latency_p50_ms": 360,
-  "latency_p95_ms": 367,
+  "latency_p50_ms": 361,
+  "latency_p95_ms": 375,
   "listable": false
  },
  "proof_tx": [
@@ -141,37 +152,78 @@
  "external_payments": [],
  "windows": {
   "A": {
-   "status": "active",
    "starts": "2026-11-26",
+   "ends": "2026-12-10",
+   "period": {
+    "start": "2026-11-26",
+    "end": "2026-12-10"
+   },
+   "escalation_deadline": "2026-12-24",
+   "restart_rule": "single shot: AF has no durable host and a fresh tunnel URL is a different origin, so a restart is not comparable. Invalidated = window ends, recorded as host-capability failure, not demand.",
+   "host_invalidated_spec": {
+    "failed_hours": 24,
+    "dns_connection_hours": 1,
+    "no_probe_hours": 24,
+    "explicit_notice": true,
+    "degraded_from_failures": 2,
+    "degraded_gap_hours": 2
+   },
+   "status": "active",
+   "phase": "open",
    "uptime_pct": 100.0,
-   "samples": 7,
-   "worst_consecutive_failures": 0,
-   "max_gap_minutes": 16,
-   "invalidation_reason": null,
-   "restart_rule": "SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the origin, so the observation is not comparable. If invalidated, the window ends: its numbers are a failure log about host capability, not a demand finding. A second window needs a durable host, which AF states as a capability gap."
+   "samples": 8,
+   "failed_probes": 0,
+   "max_gap_hours": 0.4,
+   "degraded_note": null,
+   "invalidation_reason": null
   },
   "B": {
-   "status": "not_started",
    "starts": "2026-12-11",
+   "ends": "2026-12-25",
+   "period": {
+    "start": "2026-12-11",
+    "end": "2026-12-25"
+   },
+   "escalation_deadline": "2027-01-08",
+   "restart_rule": "single shot: AF has no durable host and a fresh tunnel URL is a different origin, so a restart is not comparable. Invalidated = window ends, recorded as host-capability failure, not demand.",
+   "host_invalidated_spec": {
+    "failed_hours": 24,
+    "dns_connection_hours": 1,
+    "no_probe_hours": 24,
+    "explicit_notice": true,
+    "degraded_from_failures": 2,
+    "degraded_gap_hours": 2
+   },
+   "status": "not_started",
+   "phase": "pre_window",
    "uptime_pct": null,
    "invalidation_reason": null,
    "samples": 0,
-   "restart_rule": "SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the origin, so the observation is not comparable. If invalidated, the window ends: its numbers are a failure log about host capability, not a demand finding. A second window needs a durable host, which AF states as a capability gap.",
    "exit_criteria": {
     "declared_at": "2026-11-26",
-    "note": "declared before the window opens; every branch names a next action so 'not measured' cannot be the ending",
+    "period": {
+     "start": "2026-12-11",
+     "end": "2026-12-25"
+    },
+    "escalation_deadline": "2027-01-08",
+    "hits_definition": "organic external hits only: AF's own probes, crawler user agents and free-trial calls are excluded from paid.hits, so a branch can never be triggered by our own traffic",
+    "note": "declared before the window opens; 7 branches, every one names a next action",
     "rules": [
      {
-      "if": "host invalidated",
-      "then": "experiment void: host-capability failure log; the plan stops, no extension"
+      "if": "host invalidated (24h of failures / 1h DNS-connection / shutdown notice / 24h no probe)",
+      "then": "experiment void: host-capability failure log; the plan stops"
      },
      {
       "if": "external = 0",
-      "then": "inconclusive_by_capability: escalate owner-only channel or declare inconclusive; never change product/price, never call it discovery failure"
+      "then": "inconclusive_by_capability: escalate owner-only channel; at the deadline 2027-01-08 it becomes FINAL (declare inconclusive, stop)"
+     },
+     {
+      "if": "external > 0 and paid hits = 0 and all 4 candidates tried",
+      "then": "discovery_failed_by_channels: declare the experiment failed for organic discovery; stop"
      },
      {
       "if": "external > 0 and paid hits = 0",
-      "then": "discovery: run channel candidates 1-4, one at a time"
+      "then": "discovery: run the next untried candidate, one at a time"
      },
      {
       "if": "paid hits > 0 and 402 = 0",
@@ -183,7 +235,7 @@
      },
      {
       "if": "settled > 0",
-      "then": "conversion: keep price, scale the channel, verify the tx on-chain"
+      "then": "conversion: keep price, scale that channel, verify tx on-chain"
      }
     ]
    }

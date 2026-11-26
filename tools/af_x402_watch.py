@@ -12,6 +12,7 @@ Run: python3 tools/af_x402_watch.py
 from __future__ import annotations
 
 import json
+import os
 import statistics
 import sys
 import time
@@ -29,10 +30,18 @@ MAX_SAMPLES = 672  # 14 days at 30-minute probes
 # invalidates the window, and the window must be restarted rather than reinterpreted.
 WINDOW_A = ("2026-11-26", "2026-12-10")
 WINDOW_B = ("2026-12-11", "2026-12-25")
-INVALIDATE_CONSECUTIVE_FAILURES = 2
-INVALIDATE_MAX_GAP_MIN = 90
+# Operational definition of "the host is dead" (declared 2026-11-26, before window B):
+#   invalidated := >= 24h of consecutive failed probes (5xx/timeout), OR
+#                  >= 1h of consecutive DNS/connection failures, OR an explicit shutdown notice, OR
+#                  >= 24h with no probe at all (unknown is not healthy)
+#   2..24h of failures, or a 2..24h probe gap, is degraded: a warning that does not void the window.
+INVALIDATE_FAILED_HOURS = 24
+INVALIDATE_CONN_HOURS = 1
+INVALIDATE_GAP_HOURS = 24
+DEGRADED_FAILURES = 2
+DEGRADED_GAP_HOURS = 2
+ESCALATION_DAYS_AFTER_CLOSE = 14
 CHEAPEST = "/csv_to_json"
-
 
 def _req(url: str, method: str = "GET", body: bytes | None = None, headers: dict | None = None):
     req = urllib.request.Request(url, data=body, method=method)
@@ -111,47 +120,85 @@ def _samples_in(samples: list[dict], start: str, end: str) -> list[dict]:
     return [s for s in samples if start <= s["at"][:10] <= end]
 
 
-def window_status(samples: list[dict], start: str, end: str, today: str) -> dict:
+def _hours_between(a: str, b: str) -> float:
+    fmt = "%Y-%m-%dT%H:%M:%SZ"
+    return (datetime.strptime(b, fmt) - datetime.strptime(a, fmt)).total_seconds() / 3600
+
+
+CONN_ERROR_TOKENS = ("dns", "name resolution", "connection", "refused", "unreachable", "timed out")
+
+
+def window_status(samples: list[dict], start: str, end: str, today: str, notice: bool = False,
+                  escalation_days: int = ESCALATION_DAYS_AFTER_CLOSE) -> dict:
     inside = _samples_in(samples, start, end)
-    rule = ("SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the "
-            "origin, so the observation is not comparable. If invalidated, the window ends: its numbers are "
-            "a failure log about host capability, not a demand finding. A second window needs a durable host, "
-            "which AF states as a capability gap.")
+    escalation_deadline = (datetime.strptime(end, "%Y-%m-%d") + timedelta(days=escalation_days)).strftime("%Y-%m-%d")
+    rule = ("single shot: AF has no durable host and a fresh tunnel URL is a different origin, so a restart "
+            "is not comparable. Invalidated = window ends, recorded as host-capability failure, not demand.")
+    base = {"starts": start, "ends": end, "period": {"start": start, "end": end},
+            "escalation_deadline": escalation_deadline, "restart_rule": rule,
+            "host_invalidated_spec": {"failed_hours": INVALIDATE_FAILED_HOURS,
+                                      "dns_connection_hours": INVALIDATE_CONN_HOURS,
+                                      "no_probe_hours": INVALIDATE_GAP_HOURS,
+                                      "explicit_notice": True,
+                                      "degraded_from_failures": DEGRADED_FAILURES,
+                                      "degraded_gap_hours": DEGRADED_GAP_HOURS}}
     if today < start:
-        return {"status": "not_started", "starts": start, "uptime_pct": None, "invalidation_reason": None,
-                "samples": 0, "restart_rule": rule}
+        return {**base, "status": "not_started", "phase": "pre_window", "uptime_pct": None,
+                "invalidation_reason": None, "samples": 0}
     if not inside:
-        return {"status": "invalidated", "starts": start, "uptime_pct": None,
-                "invalidation_reason": "no probes recorded inside the window", "samples": 0,
-                "restart_rule": rule}
+        return {**base, "status": "invalidated", "phase": "open" if today <= end else "closed",
+                "uptime_pct": None, "invalidation_reason": "no probes recorded inside the window",
+                "samples": 0}
 
     uptime = round(100 * sum(1 for s in inside if s.get("ok")) / len(inside), 2)
-    worst_run, run = 0, 0
+
+    worst_run, run_start, run_kind = 0, None, None
+    invalid_reason = None
+    degraded = False
     for s in inside:
-        run = run + 1 if not s.get("ok") else 0
-        worst_run = max(worst_run, run)
+        if not s.get("ok"):
+            if run_start is None:
+                run_start = s["at"]
+            kind = "conn" if any(t in str(s.get("error") or "").lower() for t in CONN_ERROR_TOKENS) else "http"
+            run_kind = kind
+            hours = _hours_between(run_start, s["at"])
+            if hours >= INVALIDATE_FAILED_HOURS and invalid_reason is None:
+                invalid_reason = f"{round(hours, 1)}h of consecutive failed probes (>= {INVALIDATE_FAILED_HOURS}h invalidates)"
+            elif kind == "conn" and hours >= INVALIDATE_CONN_HOURS and invalid_reason is None:
+                invalid_reason = (f"{round(hours, 1)}h of DNS/connection failures "
+                                  f"(>= {INVALIDATE_CONN_HOURS}h invalidates)")
+        else:
+            if run_start is not None:
+                worst_run = max(worst_run, len([x for x in inside if run_start <= x["at"] <= s["at"] and not x.get("ok")]))
+            run_start, run_kind = None, None
 
-    gap_min = 0
+    gap_hours = 0.0
     for prev, cur in zip(inside, inside[1:]):
-        a = datetime.strptime(prev["at"], "%Y-%m-%dT%H:%M:%SZ")
-        b = datetime.strptime(cur["at"], "%Y-%m-%dT%H:%M:%SZ")
-        gap_min = max(gap_min, int((b - a).total_seconds() / 60))
+        gap_hours = max(gap_hours, _hours_between(prev["at"], cur["at"]))
+    if gap_hours >= INVALIDATE_GAP_HOURS and invalid_reason is None:
+        invalid_reason = f"{round(gap_hours, 1)}h with no probe (>= {INVALIDATE_GAP_HOURS}h invalidates)"
+    if notice and invalid_reason is None:
+        invalid_reason = "explicit shutdown notice"
 
-    reason = None
-    if worst_run >= INVALIDATE_CONSECUTIVE_FAILURES:
-        reason = f"{worst_run} consecutive failed probes (>= {INVALIDATE_CONSECUTIVE_FAILURES} invalidates)"
-    elif gap_min > INVALIDATE_MAX_GAP_MIN:
-        reason = f"{gap_min} minute gap between probes (> {INVALIDATE_MAX_GAP_MIN} invalidates)"
-    return {
-        "status": "invalidated" if reason else "active",
-        "starts": start,
-        "uptime_pct": uptime,
-        "samples": len(inside),
-        "worst_consecutive_failures": worst_run,
-        "max_gap_minutes": gap_min,
-        "invalidation_reason": reason,
-        "restart_rule": rule,
-    }
+    if not invalid_reason:
+        failed_total = sum(1 for s in inside if not s.get("ok"))
+        if failed_total >= DEGRADED_FAILURES or gap_hours >= DEGRADED_GAP_HOURS:
+            degraded = True
+
+    if invalid_reason:
+        status = "invalidated"
+    elif degraded:
+        status = "degraded"
+    else:
+        status = "active"
+
+    phase = "closed" if today > end else "open"
+    follows = "one wave" if degraded and not invalid_reason else None
+    return {**base, "status": status, "phase": phase, "uptime_pct": uptime, "samples": len(inside),
+            "failed_probes": sum(1 for s in inside if not s.get("ok")),
+            "max_gap_hours": round(gap_hours, 1),
+            "degraded_note": follows,
+            "invalidation_reason": invalid_reason}
 
 
 def main() -> int:
@@ -181,9 +228,10 @@ def main() -> int:
     health["summary"] = summarise(samples)
     health["proof_tx"] = health.get("proof_tx") or []
     today = sample["at"][:10]
+    notice = os.environ.get("AF_HOST_SHUTDOWN_NOTICE") == "1"
     health["windows"] = {
         "A": window_status(samples, *WINDOW_A, today),
-        "B": window_status(samples, *WINDOW_B, today),
+        "B": window_status(samples, *WINDOW_B, today, notice=notice),
     }
     health["generated_at"] = sample["at"]
     HEALTH_FILE.parent.mkdir(parents=True, exist_ok=True)

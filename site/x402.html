@@ -142,7 +142,8 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
 
   const wb = ((health && health.windows) || {}).B || {};
   document.getElementById('windowb').innerHTML =
-    '<b>Window B survival: ' + esc(wb.status || 'unknown') + '.</b> ' +
+    '<b>Window B ' + esc(wb.period ? wb.period.start + ' → ' + wb.period.end : '') + ' — survival: ' +
+    esc(wb.status || 'unknown') + '.</b> ' +
     (wb.uptime_pct != null ? 'uptime ' + wb.uptime_pct + '% over ' + (wb.samples || 0) + ' probes; ' : '') +
     (wb.invalidation_reason ? '<span class="bad">invalidated: ' + esc(wb.invalidation_reason) + '</span>' : 'no invalidation') +
     '<br><span class="mono">rule: 2 consecutive failed probes or a >90 min gap invalidates the window; a zero hit count from an invalidated window is not a discovery signal.</span>';
@@ -169,7 +170,10 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
     document.getElementById('windowb').insertAdjacentHTML('beforeend',
       '<br><b>Exit criteria (declared ' + esc(xc.exit_criteria.declared_at) + ', before the data):</b>' +
       '<table style="margin:8px 0"><thead><tr><th>if window B ends with…</th><th>then AF does</th></tr></thead><tbody>' +
-      rules + '</tbody></table>');
+      rules + '</tbody></table>' +
+      '<span class="mono">period ' + esc(xc.exit_criteria.period.start) + ' → ' + esc(xc.exit_criteria.period.end) +
+      ' · escalation deadline ' + esc(xc.exit_criteria.escalation_deadline) +
+      ' · hits = organic external only (AF probes, crawlers and trials excluded)</span>');
   }
 
   const extPay = (health && health.external_payments) || [];
