@@ -101,10 +101,10 @@ without K's decision, so `visits` stays `null` and the day-30 report will say `n
 |---|---|
 | 1. is there a scheduler that calls `af_e2_hold.py`? | **No.** `grep -rl af_e2_hold .github/workflows` → nothing. The 6-hourly `revenue_pipeline.yml` runs `af_publish_check.py` (availability) but not this recorder. |
 | 2. therefore the mode | **on-demand**, and every record carries `measurement.scheduled_runner: null` plus a mode string. A test flips the moment a workflow is wired. |
-| 3. every check appends a real timestamp and result | `data/e2_hold_log.jsonl`, append-only; `--verify-log` refuses non-JSON, PII, or non-monotonic timestamps |
+| 3. every check appends a real timestamp and result | `data/e2_hold_log.jsonl`, append-only; `--verify-log` is a **structural and chronological** check (see limits below) |
 | 4. never turn `null` into `0` without measurement | `visits`, `discovery.search_console`, `discovery.referrals` stay `null`; `assert_no_pii` and the note text say why |
 | 5. three counts, never added together | `e2_paths_checked` · `html_pages_live` · `panel_pages_live` / `panel_pages_expected` |
-| 6. no PII in the public repo | emails, phone numbers, PromptPay handles, private keys and seed words are refused at write time |
+| 6. no PII in the public repo | pattern filter at write time, plus a rule: message content is never stored (see limits below) |
 
 ### What each count actually is (measured 2026-11-26T01:24Z)
 
@@ -119,8 +119,23 @@ The only automatic trail that exists today is `data/published.json`, committed b
 `revenue_pipeline.yml`: **4 commits** so far (2026-11-25T15:03Z → 16:27Z). That is an
 availability trail, not an audience measurement, and it will be reported as such.
 
+### Limits of these two guards (K, 2026-11-26) — state them, do not paper over them
+
+**`--verify-log` is not proof against tampering.** It catches malformed lines, PII-shaped strings
+and timestamps that go backwards. It cannot prove that no one edited a value, deleted a line, or
+rewrote content while keeping the order intact. A real guarantee would need signed commits or an
+external append-only store; HOLD has neither. Correct name: *structural and chronological check*.
+
+**`assert_no_pii` is a pattern filter, not PII detection.** It matches email addresses, Thai phone
+numbers, PromptPay handles, 64-hex private keys and seed-word phrases. It will not catch a person's
+name, an account name, or identifying free text. The only safe rule is therefore upstream: **the log
+stores counts, statuses and timestamps, never a message's content.** If an enquiry ever arrives, the
+number goes in the log and the content stays where the person put it.
+
 ### Day-30 wording that is not allowed
 
 - "proved nobody discovered it" — only allowed if a real measurement returned 0.
 - "monitored for 30 days" — only allowed if the log holds the checks; otherwise the number of
   actual checks is reported.
+- "the log cannot be tampered with" — never allowed; see the limits above.
+- calling `revenue_pipeline` commits "HOLD measurements" — they are availability updates, nothing else.
