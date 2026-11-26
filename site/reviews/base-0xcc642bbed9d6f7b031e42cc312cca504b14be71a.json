@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xcc642bbed9d6f7b031e42cc312cca504b14be71a",
+ "generatedAt": "2026-11-26T08:16:25.250395+00:00",
+ "reads": {
+  "name": "X1000XLiquidBGT",
+  "symbol": "LIQUIDBGT",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xcc642bbed9d6f7b031e42cc312cca504b14be71a",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xcc642bbe\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62453048,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 13533.4213,
+ "poolCreatedAt": "2026-11-26T08:06:32Z",
+ "poolName": "LIQUIDBGT / WETH",
+ "outreach": {
+  "symbol": "LIQUIDBGT",
+  "name": "X1000XLiquidBGT",
+  "priceUsd": "0.000001350",
+  "fdv": 7564,
+  "liquidityUsd": 13657.24,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x4B36f9ea9493439e487A0C416e2c9f3334dA47c4",
+  "pairUrl": "https://dexscreener.com/base/0x4b36f9ea9493439e487a0c416e2c9f3334da47c4"
+ }
+}

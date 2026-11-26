@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xe9d129a483253efbfe10cf82f90a185aa098c650",
+ "generatedAt": "2026-11-26T08:16:29.248896+00:00",
+ "reads": {
+  "name": "Avalanche Global Network",
+  "symbol": "AVAX",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xe9d129a483253efbfe10cf82f90a185aa098c650",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xe9d129a4\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62453068,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 214620.9229,
+ "poolCreatedAt": "2026-11-26T08:04:05Z",
+ "poolName": "AVAX / WETH",
+ "outreach": {
+  "symbol": "AVAX",
+  "name": "Avalanche Global Network",
+  "priceUsd": "0.0002149",
+  "fdv": 214914,
+  "liquidityUsd": 212764.71,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xdfd0d78f46684f588d43551b2f311b96a60c7306ccf6fd209a57bc28d5a150fb",
+  "pairUrl": "https://dexscreener.com/base/0xdfd0d78f46684f588d43551b2f311b96a60c7306ccf6fd209a57bc28d5a150fb"
+ }
+}

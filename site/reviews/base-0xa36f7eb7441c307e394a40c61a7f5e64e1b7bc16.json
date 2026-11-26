@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0xa36f7eb7441c307e394a40c61a7f5e64e1b7bc16",
+ "generatedAt": "2026-11-26T08:16:32.862844+00:00",
+ "reads": {
+  "name": "Reboot",
+  "symbol": "REBOOT",
+  "decimals": 18,
+  "totalSupply": 4500000000000000000000000000,
+  "totalSupplyTokens": 4500000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0xa36f7eb7441c307e394a40c61a7f5e64e1b7bc16",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0xa36f7eb7\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62453087,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 153876.2224,
+ "poolCreatedAt": "2026-11-26T07:46:55Z",
+ "poolName": "REBOOT / WETH",
+ "outreach": {
+  "symbol": "REBOOT",
+  "name": "Reboot",
+  "priceUsd": "0.00001966",
+  "fdv": 88514,
+  "liquidityUsd": 154453.77,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xA9Bd7Bc80a54aF7475b2f124d0B120E59fCA4C58",
+  "pairUrl": "https://dexscreener.com/base/0xa9bd7bc80a54af7475b2f124d0b120e59fca4c58"
+ }
+}
