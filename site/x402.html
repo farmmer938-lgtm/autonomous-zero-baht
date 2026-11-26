@@ -60,10 +60,24 @@
   <h2 style="font-size:1.05rem;margin:0 0 4px">Where the money goes</h2>
   <p class="mono" id="payto">—</p>
 
-  <h2 style="font-size:1.05rem;margin:0 0 4px">Proof of life</h2>
+  <h2 style="font-size:1.05rem;margin:0 0 4px">Funnel (external traffic only)</h2>
+  <table id="funnel">
+    <thead><tr><th>stage</th><th>count</th><th>what a zero here means</th></tr></thead>
+    <tbody><tr><td colspan="3">loading…</td></tr></tbody>
+  </table>
+  <p class="lede" id="diagnosis">—</p>
+
+  <h2 style="font-size:1.05rem;margin:0 0 4px">Payments (external)</h2>
+  <table id="payments">
+    <thead><tr><th>tx</th><th>product</th><th>when</th></tr></thead>
+    <tbody id="payments-body"><tr><td colspan="3">No external payment yet. A row appears here only when someone other than AF pays.</td></tr></tbody>
+  </table>
+
+  <h2 style="font-size:1.05rem;margin:0 0 4px">Rail proof (self-pay, demand = 0)</h2>
+  <p class="lede" id="delivery">—</p>
   <table id="proof">
-    <thead><tr><th>tx</th><th>kind</th><th>when</th></tr></thead>
-    <tbody><tr><td colspan="3">No settled payment yet. AF will list the hash, not a claim.</td></tr></tbody>
+    <thead><tr><th>tx</th><th>what it proves</th><th>when</th></tr></thead>
+    <tbody><tr><td colspan="3">loading…</td></tr></tbody>
   </table>
 
   <footer>
@@ -122,7 +136,33 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
 
   const proof = (health && health.proof_tx) || [];
   if (proof.length) document.querySelector('#proof tbody').innerHTML = proof.map((p) =>
-    '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.kind) + '</td><td>' + age(p.at) + '</td></tr>').join('');
+    '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.kind) + '<br><span class="mono">self_pay=true · demand=0</span></td><td>' + age(p.at) + '</td></tr>').join('');
+
+  const extPay = (health && health.external_payments) || [];
+  if (extPay.length) document.getElementById('payments-body').innerHTML = extPay.map((p) =>
+    '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.product) + '</td><td>' + age(p.at) + '</td></tr>').join('');
+
+  const ds = (health && health.delivery_status) || {};
+  if (ds.vuln_lookup_paid_delivery) document.getElementById('delivery').innerHTML =
+    '<b>vuln_lookup paid delivery: ' + (ds.external_payments_delivered ? 'proven with an external payer' : 'proven with a labelled self-pay only') + '.</b> ' + esc(ds.vuln_lookup_paid_delivery) + '.';
+
+  // funnel: one zero cannot be diagnosed, four stages can
+  const f = hits && hits.windows && (hits.windows[hits.current_window] || {}).funnel;
+  if (f) {
+    const rows = [
+      ['external hits', f.external_hits, 'nobody arrived → the channel is the problem'],
+      ['402 issued', f.external_402_issued, 'traffic arrived but no priced product answered → routing'],
+      ['settled (paid)', f.external_settled_paid, 'the wall is price, wallet or payer UX'],
+      ['200 + payload delivered', f.external_200_delivered, 'settled but no payload → a delivery bug'],
+    ];
+    document.querySelector('#funnel tbody').innerHTML = rows.map((r) =>
+      '<tr><td>' + esc(r[0]) + '</td><td><b>' + r[1] + '</b></td><td>' + esc(r[2]) + '</td></tr>').join('') +
+      '<tr><td>free trial 200</td><td><b>' + f.external_trial_200 + '</b></td><td>trial conversions: interest without payment</td></tr>';
+    const diag = (hits.windows[hits.current_window] || {}).diagnosis || {};
+    document.getElementById('diagnosis').innerHTML = diag.cause
+      ? '<b>Current diagnosis: ' + esc(diag.cause) + '.</b> ' + esc(diag.meaning) + ' <span class="mono">(window ' + esc(hits.current_window) + (hits.current_window === 'A' ? ', not decisive' : '') + ')</span>'
+      : '';
+  }
 })();
 </script>
 </body>

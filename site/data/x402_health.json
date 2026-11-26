@@ -64,14 +64,33 @@
  "proof_tx": [
   {
    "tx": "0x67185744a22e5158d791cbe711bfe76883f45f7db2ca2bcc6a335c0c1221f8ab",
-   "kind": "self-pay rail proof · 0.001 USDC · demand 0",
-   "at": "2026-11-26T14:52:00Z",
+   "kind": "rail proof · /ping · 0.001 USDC · payload: pong",
+   "at": "2026-11-26T14:46:29Z",
    "labels": {
     "self_pay": true,
     "rail_proof_only": true,
     "demand": 0,
-    "verified_onchain": "block 62570073, USDC Transfer 0.001 from 0xf3c9..7702 to itself, status success"
+    "delivered": true,
+    "verified_onchain": "block 62570073, USDC Transfer 0.001, status success"
+   }
+  },
+  {
+   "tx": "0x2bb3a07b33534b5378fdc45254bf7e229eb6d92e9f41efc6ea6147910ca7279f",
+   "kind": "paid delivery proof · /vuln_lookup_proof · 0.004 USDC · payload: 4 CVEs for lodash 4.17.20",
+   "at": "2026-11-26T14:53:57Z",
+   "labels": {
+    "self_pay": true,
+    "rail_proof_only": true,
+    "demand": 0,
+    "delivered": true,
+    "response_sha256": "b1a52823b8452002",
+    "verified_onchain": "block 62572316, USDC Transfer 0.004, status success"
    }
   }
- ]
+ ],
+ "delivery_status": {
+  "vuln_lookup_paid_delivery": "proven at proof SKU price (0.004 USDC, same handler) by a labelled self-pay; the 1.00 USDC list-price path has never been exercised",
+  "external_payments_delivered": 0
+ },
+ "external_payments": []
 }
