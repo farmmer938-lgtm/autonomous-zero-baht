@@ -209,8 +209,10 @@
     "hits_definition": {
      "external": "a request from a client that is neither AF (no x-af-self/x-af-nonce, not af-probe) nor a known crawler, to any path on the AF x402 endpoint host",
      "external_to_product": "the subset of `external` whose path is a priced product or the manifest root; this is the page-level number, `external` alone is site-level",
+     "paid_hits": "external_to_product hits that reached the payment layer (trial calls and AF probes excluded)",
      "crawlers": "tracked separately in crawler_hits and never subtracted from paid_hits; reachability reads this field, the funnel does not",
-     "best_effort": "UA and referrer are self-reported, so organic classification is best-effort and not adversarial-proof: a forged UA can be misread, in either direction"
+     "best_effort": "UA and referrer are self-reported, so organic classification is best-effort and not adversarial-proof: a forged UA can be misread, in either direction",
+     "terminal_semantic_guard": "if the derived numbers are stale by more than 14 days at window close, the result is NOT MEASURED, not inconclusive_by_capability_final: the observer failed, distribution was never observed. tools/af_x402_monitor.py reports this as terminal_guard"
     },
     "channel_result_taxonomy": [
      "success",
@@ -251,7 +253,8 @@
       "if": "settled_paid > 0",
       "then": "keep the price; scale the channel that produced the payer and record the first external payment only after the tx is verified on-chain"
      }
-    ]
+    ],
+    "terminal_guard": "stale derived data at window close -> NOT MEASURED, not inconclusive_by_capability_final"
    }
   }
  },
