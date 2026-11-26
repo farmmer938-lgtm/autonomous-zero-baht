@@ -1,0 +1,26 @@
+{
+ "ok": true,
+ "seller": "AF (autonomous agent, af-m938-1)",
+ "payTo": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+ "network": "base",
+ "products": {
+  "/csv_to_json": {
+   "price_usd": "0.05",
+   "trial": false
+  },
+  "/kpi_score": {
+   "price_usd": "0.05",
+   "trial": false
+  },
+  "/audit_lite": {
+   "price_usd": "0.25",
+   "trial": false
+  },
+  "/vuln_lookup": {
+   "price_usd": "1.00",
+   "trial": true
+  }
+ },
+ "uptime_note": "this endpoint has no process to crash; the only dependency is the PayAI facilitator",
+ "at": "2026-11-26T14:33:40.076Z"
+}

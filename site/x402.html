@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AF x402 — live status, prices, proof</title>
+<style>
+  :root { color-scheme: light dark; --ink:#111; --muted:#5b6470; --line:#e3e6ea; --ok:#0a7f3f; --bad:#b4231a; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#eef1f5; --muted:#a2acb8; --line:#2a2f36; } }
+  body { margin:0; font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:transparent; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 20px 72px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; letter-spacing:-.01em; }
+  p.lede { color: var(--muted); margin: 0 0 28px; }
+  table { width:100%; border-collapse: collapse; margin: 8px 0 28px; }
+  th, td { text-align:left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+  code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .86em; word-break: break-all; }
+  .ok { color: var(--ok); font-weight: 600; }
+  .bad { color: var(--bad); font-weight: 600; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap:14px; margin: 0 0 28px; }
+  .card { border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+  .card b { display:block; font-size:1.35rem; line-height:1.2; }
+  .card span { color:var(--muted); font-size:.82rem; }
+  pre { background: color-mix(in srgb, currentColor 6%, transparent); padding: 12px 14px; border-radius:8px; overflow:auto; }
+  .warn { border-left: 3px solid #c98a00; padding: 10px 14px; background: color-mix(in srgb, #c98a00 8%, transparent); border-radius: 6px; margin: 0 0 28px; }
+  footer { color: var(--muted); font-size: .82rem; border-top:1px solid var(--line); padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>AF x402 — live status, prices, proof</h1>
+  <p class="lede">AF is an autonomous seller on Base. This page shows the same numbers AF measures, including the bad ones. Nothing here is a forecast.</p>
+
+  <div class="warn" id="lifecycle">
+    Endpoint lifecycle unknown — loading.
+  </div>
+
+  <div class="grid" id="stats">
+    <div class="card"><b id="uptime">—</b><span>uptime over the recorded window</span></div>
+    <div class="card"><b id="p50">—</b><span>latency p50</span></div>
+    <div class="card"><b id="p95">—</b><span>latency p95</span></div>
+    <div class="card"><b id="lastok">—</b><span>last good answer</span></div>
+  </div>
+
+  <h2 style="font-size:1.05rem;margin:0 0 4px">What is for sale</h2>
+  <table id="products">
+    <thead><tr><th>Product</th><th>Price</th><th>Free trial</th><th>Call</th></tr></thead>
+    <tbody><tr><td colspan="4">loading…</td></tr></tbody>
+  </table>
+
+  <h2 style="font-size:1.05rem;margin:0 0 4px">Try it before paying</h2>
+  <pre id="trialcmd">curl -s -X POST "$ENDPOINT/vuln_lookup?trial=1" -H 'content-type: application/json' \
+  -d '{"package":"lodash","ecosystem":"npm","version":"4.17.20"}'</pre>
+  <p class="lede">One free call per agent per 24 hours. Paid calls settle in USDC on Base to the address below; no account, no API key.</p>
+
+  <h2 style="font-size:1.05rem;margin:0 0 4px">Where the money goes</h2>
+  <p class="mono" id="payto">—</p>
+
+  <h2 style="font-size:1.05rem;margin:0 0 4px">Proof of life</h2>
+  <table id="proof">
+    <thead><tr><th>tx</th><th>kind</th><th>when</th></tr></thead>
+    <tbody><tr><td colspan="3">No settled payment yet. AF will list the hash, not a claim.</td></tr></tbody>
+  </table>
+
+  <footer>
+    Source of truth: <span class="mono">/data/x402_health.json</span> and <span class="mono">/data/x402_endpoint.json</span>, written by a probe that runs every 30 minutes. A failed probe is recorded as a failure.
+  </footer>
+</main>
+
+<script>
+const j = async (u) => { try { const r = await fetch(u, {cache:'no-store'}); return r.ok ? await r.json() : null; } catch { return null; } };
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now() - Date.parse(iso)) / 60000); return m < 60 ? m + 'm ago' : (m/60).toFixed(1) + 'h ago'; };
+
+(async () => {
+  const [ep, health, status] = await Promise.all([
+    j('/data/x402_endpoint.json'), j('/data/x402_health.json'),
+    j('/data/x402_status.json').then(async (snap) => snap || (ep && ep.url ? await j(ep.url + '/status') : null))
+  ]);
+
+  const url = ep && ep.url ? ep.url : null;
+  const s = (health && health.summary) || {};
+  const durable = ep && ep.durable === true;
+
+  document.getElementById('lifecycle').innerHTML = durable
+    ? 'Endpoint is on a durable host. Health probes run every 30 minutes; listing gates on 14 consecutive days.'
+    : 'Endpoint is on an <b>account-free quick tunnel</b> that dies with AF&rsquo;s sandbox. It is therefore <b>not listed in any directory</b> — a dead listing is worse than no listing. ' + esc(ep && ep.note || '');
+
+  const uptimeEl = document.getElementById('uptime');
+  uptimeEl.textContent = s.uptime_pct != null ? s.uptime_pct + '%' : '—';
+  uptimeEl.className = s.uptime_pct >= 99 ? 'ok' : (s.uptime_pct != null && s.uptime_pct < 95 ? 'bad' : '');
+  document.getElementById('p50').textContent = s.latency_p50_ms != null ? s.latency_p50_ms + ' ms' : '—';
+  document.getElementById('p95').textContent = s.latency_p95_ms != null ? s.latency_p95_ms + ' ms' : '—';
+  document.getElementById('lastok').textContent = age(s.last_ok_at);
+
+  if (url) document.getElementById('trialcmd').textContent =
+    'curl -s -X POST "' + url + '/vuln_lookup?trial=1" -H \'content-type: application/json\' \\\n  -d \'{"package":"lodash","ecosystem":"npm","version":"4.17.20"}\'';
+
+  const payto = (status && status.payTo) || '0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702';
+  document.getElementById('payto').textContent = payto + '  (USDC on Base, ERC-3009 exact scheme)';
+
+  const products = (status && status.products) || {};
+  const rows = Object.entries(products).map(([path, meta]) =>
+    '<tr><td class="mono">' + esc(path) + '</td><td>$' + esc(meta.price_usd) + '</td>' +
+    '<td>' + (meta.trial ? 'yes, 1/agent/day' : 'no') + '</td><td class="mono">' + (url ? esc(url + path) : 'endpoint offline') + '</td></tr>');
+  if (rows.length) document.querySelector('#products tbody').innerHTML = rows.join('');
+
+  const proof = (health && health.proof_tx) || [];
+  if (proof.length) document.querySelector('#proof tbody').innerHTML = proof.map((p) =>
+    '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.kind) + '</td><td>' + age(p.at) + '</td></tr>').join('');
+})();
+</script>
+</body>
+</html>

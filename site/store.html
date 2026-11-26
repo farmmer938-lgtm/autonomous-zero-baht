@@ -347,21 +347,43 @@ fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   a.textContent=d.public_base+(d.status?' ('+d.status+')':'');
   a.href=d.public_base;
 }).catch(()=>{ document.getElementById('liveBase').textContent='not published yet'; });
-/* Catalog is rendered from the live manifest, never hardcoded, so a new SKU shows up
-   the moment it is published. */
-fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+/* The catalog must stay sellable when the paid host is down: it runs in an ephemeral
+   sandbox, so a stale stamp means the host is gone. Fresh stamp -> live manifest prices.
+   Stale or missing -> the static catalog (af-catalog.json) with the durable way to buy:
+   USDC on Base to the payout address, delivered by a scheduled GitHub Action. */
+const LIVE_FRESH_MIN=180;
+fetch('data/live_endpoint.json',{cache:'no-store'}).then(r=>r.json()).then(async d=>{
   const c=d&&d.cashier; const tb=document.querySelector('#catalogTable tbody');
-  if(!c||!c.price_usd_by_tool||!tb){ return; }
-  const prices=c.price_usd_by_tool; tb.innerHTML='';
-  Object.keys(prices).forEach(k=>{
+  if(!tb) return;
+  const t=Date.parse((d&&d.updated_at)||'');
+  const fresh=!isNaN(t) && (Date.now()-t)/60000 <= LIVE_FRESH_MIN;
+  const hero=document.getElementById('catalogHero');
+  if(c&&c.price_usd_by_tool&&fresh){
+    tb.innerHTML='';
+    Object.keys(c.price_usd_by_tool).forEach(k=>{
+      const tr=document.createElement('tr');
+      const td1=document.createElement('td'); td1.textContent=k;
+      const td2=document.createElement('td'); td2.textContent=c.price_usd_by_tool[k];
+      if(c.hero&&k===c.hero){ td1.style.fontWeight='600'; td2.style.fontWeight='600'; }
+      tr.appendChild(td1); tr.appendChild(td2); tb.appendChild(tr);
+    });
+    if(hero&&c.hero){ hero.textContent='Hero product: '+c.hero+' — a deterministic data-quality audit (score, grade, ready-to-load verdict).'; }
+    return;
+  }
+  const j=await (await fetch('af-catalog.json',{cache:'no-store'})).json();
+  tb.innerHTML='';
+  (j.products||[]).forEach(p=>{
     const tr=document.createElement('tr');
-    const td1=document.createElement('td'); td1.textContent=k;
-    const td2=document.createElement('td'); td2.textContent=prices[k];
-    if(c.hero&&k===c.hero){ td1.style.fontWeight='600'; td2.style.fontWeight='600'; }
+    const td1=document.createElement('td'); td1.textContent=p.name;
+    const td2=document.createElement('td'); td2.textContent=p.price_usd+' ('+p.unit+')';
     tr.appendChild(td1); tr.appendChild(td2); tb.appendChild(tr);
   });
-  const h=document.getElementById('catalogHero');
-  if(h&&c.hero){ h.textContent='Hero product: '+c.hero+' — a deterministic data-quality audit (score, grade, ready-to-load verdict).'; }
+  if(hero){
+    hero.innerHTML='Paid host is offline (it runs in an ephemeral sandbox), so the prices above come from the '+
+      'static catalog and the SKUs are still for sale: pay USDC on Base to '+
+      '<b>'+(j.seller&&j.seller.payout_address||'')+'</b> and the delivery is produced by a scheduled '+
+      'GitHub Action — no login and no human step. QR and 35 tokens on <a href="pay-all.html">pay-all.html</a>.';
+  }
 }).catch(()=>{});
 </script>
 </body>
