@@ -10,9 +10,9 @@
    "external_hits": 0,
    "unique_external_agents": 0,
    "crawler_hits": 3,
-   "self_agent_hits": 17,
+   "self_agent_hits": 23,
    "self_hits": 0,
-   "samples": 20,
+   "samples": 26,
    "funnel": {
     "paid": {
      "hits": 0,
@@ -83,7 +83,7 @@
     },
     "source": "AF_X402_LISTINGS.json (maintained by AF from real API responses, not inferred)",
     "window": "B",
-    "updated_at": "2026-11-26T15:10:00Z",
+    "updated_at": "2026-11-26T15:50:00Z",
     "state": "not_started",
     "decision_rule": "attempted=0 -> not started, conclude nothing; attempted>0 and accepted=0 -> host/URL problem (fix the URL, not the channel or the product); accepted>0 and paid hits=0 -> discovery problem; paid hits>0 and settled=0 -> product/price problem; settled>0 -> conversion signal"
    },
@@ -95,18 +95,36 @@
     "samples": 0,
     "worst_consecutive_failures": null,
     "max_gap_minutes": null
+   },
+   "distribution": {
+    "inbound_links_total": 3,
+    "external_links": 0,
+    "search_engine_index": "no evidence (a site: query returns no result page for the domain)",
+    "repo_metadata": "blocked: owner_only",
+    "source": "AF_X402_INBOUND.json",
+    "sources": [
+     "site/sitemap.xml (added 2026-11-26)",
+     "site/store.html storefront card (added 2026-11-26)",
+     "README.md paid-API line (added 2026-11-26)"
+    ],
+    "interpretation_rule": [
+     "inbound_links_total = 0 at window start -> a zero hit count means the page is INVISIBLE (distribution), never a product or discovery finding",
+     "inbound_links_total > 0 and no crawler seen -> still cannot separate 'nobody looked' from 'looked and did not want'",
+     "a discovery conclusion needs a crawler hit, a referrer, or a direct external link; otherwise the honest answer is 'not measured'"
+    ],
+    "reading": "weak: internal links only, no external link and no search index - a zero cannot separate 'nobody looked' from 'looked and did not want'"
    }
   }
  },
- "generated_at": "2026-11-26T15:06:14Z",
+ "generated_at": "2026-11-26T15:12:03Z",
  "window_days": 14,
- "total_hits": 20,
+ "total_hits": 26,
  "external_hits_14d": 0,
  "external_hits_24h": 0,
  "unique_external_agents": 0,
  "external_hits_14d_window": "A",
  "crawler_hits_14d": 3,
- "self_agent_hits_14d": 17,
+ "self_agent_hits_14d": 23,
  "funnel_14d": {
   "paid": {
    "hits": 0,

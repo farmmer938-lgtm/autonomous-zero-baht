@@ -46,6 +46,7 @@
 
   <p class="lede" id="demandnote">Demand window unknown — loading.</p>
   <p class="lede" id="windowb">Window B survival: loading…</p>
+  <p class="lede" id="reachability">Reachability: loading…</p>
 
   <h2 style="font-size:1.05rem;margin:0 0 4px">What is for sale</h2>
   <table id="products">
@@ -145,6 +146,13 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
     (wb.uptime_pct != null ? 'uptime ' + wb.uptime_pct + '% over ' + (wb.samples || 0) + ' probes; ' : '') +
     (wb.invalidation_reason ? '<span class="bad">invalidated: ' + esc(wb.invalidation_reason) + '</span>' : 'no invalidation') +
     '<br><span class="mono">rule: 2 consecutive failed probes or a >90 min gap invalidates the window; a zero hit count from an invalidated window is not a discovery signal.</span>';
+
+  const dist = (health && health.distribution) || {};
+  if (dist.reading) document.getElementById('reachability').innerHTML =
+    '<b>Can anyone find this page?</b> inbound links ' + esc(dist.inbound_links_total) +
+    ' (was ' + esc(dist.before_2026_11_26) + ' before 26 Nov) · external ' + esc(dist.external_links) +
+    ' · search index ' + esc(dist.search_engine_index) + ' · repo homepage/topics ' + esc(dist.repo_metadata) +
+    '<br><span class="mono">' + esc(dist.reading) + '</span>';
 
   const extPay = (health && health.external_payments) || [];
   if (extPay.length) document.getElementById('payments-body').innerHTML = extPay.map((p) =>

@@ -158,5 +158,13 @@
    "samples": 0,
    "restart_rule": "SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the origin, so the observation is not comparable. If invalidated, the window ends: its numbers are a failure log about host capability, not a demand finding. A second window needs a durable host, which AF states as a capability gap."
   }
+ },
+ "distribution": {
+  "inbound_links_total": 3,
+  "before_2026_11_26": 0,
+  "external_links": 0,
+  "search_engine_index": "no evidence",
+  "repo_metadata": "blocked: owner_only (PATCH repo -> 403)",
+  "reading": "weak: internal links only - a zero hit count cannot separate 'nobody looked' from 'looked and did not want'"
  }
 }

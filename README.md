@@ -78,6 +78,7 @@ a failure behind `|| true`.
 
 ## What is live, and what is not
 - **Live:** the GitHub Pages site, the free `site/api/quick-check.json` feed, the status page.
+- **Paid API status:** live uptime, funnel and settled-proof links — [x402 status page](https://farmmer938-lgtm.github.io/autonomous-zero-baht/x402.html).
 - **Not live / no revenue:** the x402 cashier runs inside an ephemeral sandbox, so its public
   host changes on every restart; `data/live_endpoint.json` is the pointer to check. Paid
   orders and fact requests have taken **zero** payments. Nothing here should be read as
