@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T14:35:07Z",
+ "generated_at": "2026-11-26T14:47:45Z",
  "endpoint": "https://viewing-saw-stores-furniture.trycloudflare.com",
  "history": [
   {
@@ -34,21 +34,44 @@
     "health_200": true,
     "paywall_402": true
    }
+  },
+  {
+   "at": "2026-11-26T14:47:45Z",
+   "ok": true,
+   "latency_ms": 360,
+   "checks": {
+    "status_200": true,
+    "status_json": true,
+    "health_200": true,
+    "paywall_402": true
+   }
   }
  ],
  "summary": {
-  "samples": 3,
+  "samples": 4,
   "window_start": "2026-11-26T14:33:20Z",
-  "window_days": 0.0,
+  "window_days": 0.01,
   "uptime_pct": 100.0,
-  "current_streak_samples": 3,
-  "current_streak_hours": 1.5,
-  "last_ok_at": "2026-11-26T14:35:07Z",
-  "last_check_at": "2026-11-26T14:35:07Z",
+  "current_streak_samples": 4,
+  "current_streak_hours": 2.0,
+  "last_ok_at": "2026-11-26T14:47:45Z",
+  "last_check_at": "2026-11-26T14:47:45Z",
   "last_check_ok": true,
-  "latency_p50_ms": 240,
-  "latency_p95_ms": 240,
+  "latency_p50_ms": 300,
+  "latency_p95_ms": 360,
   "listable": false
  },
- "proof_tx": []
+ "proof_tx": [
+  {
+   "tx": "0x67185744a22e5158d791cbe711bfe76883f45f7db2ca2bcc6a335c0c1221f8ab",
+   "kind": "self-pay rail proof · 0.001 USDC · demand 0",
+   "at": "2026-11-26T14:52:00Z",
+   "labels": {
+    "self_pay": true,
+    "rail_proof_only": true,
+    "demand": 0,
+    "verified_onchain": "block 62570073, USDC Transfer 0.001 from 0xf3c9..7702 to itself, status success"
+   }
+  }
+ ]
 }

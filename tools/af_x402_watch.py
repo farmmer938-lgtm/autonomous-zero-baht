@@ -28,6 +28,8 @@ CHEAPEST = "/csv_to_json"
 
 def _req(url: str, method: str = "GET", body: bytes | None = None, headers: dict | None = None):
     req = urllib.request.Request(url, data=body, method=method)
+    req.add_header("x-af-self", "1")
+    req.add_header("user-agent", "af-probe/1.0")
     for k, v in (headers or {}).items():
         req.add_header(k, v)
     started = time.time()

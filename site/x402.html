@@ -44,6 +44,8 @@
     <div class="card"><b id="extagents">—</b><span>unique external agents, 14d</span></div>
   </div>
 
+  <p class="lede" id="demandnote">Demand window unknown — loading.</p>
+
   <h2 style="font-size:1.05rem;margin:0 0 4px">What is for sale</h2>
   <table id="products">
     <thead><tr><th>Product</th><th>Price</th><th>Free trial</th><th>Call</th></tr></thead>
@@ -97,6 +99,13 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
   // Demand is measured separately from uptime: a live endpoint with 0 external hits means
   // nobody knows about it, which is a different problem from a broken endpoint.
   document.getElementById('exthits').textContent = hits && hits.external_hits_14d != null ? hits.external_hits_14d : '—';
+  if (hits) {
+    const w = hits.current_window;
+    const win = (hits.windows || {})[w] || {};
+    document.getElementById('demandnote').innerHTML = win.decisive
+      ? '<b>Window ' + esc(w) + ' — discovery open.</b> These hit counts are evidence: ' + esc(win.reading) + '.'
+      : '<b>Window ' + esc(w) + ' — discovery closed by AF\'s own 14-day gate.</b> A zero here is the expected value and is <b>not</b> evidence about the product or the channel. Only window B (from ' + esc(((hits.windows || {}).B || {}).start || '2026-12-11') + ') counts.';
+  }
   document.getElementById('extagents').textContent = hits && hits.unique_external_agents != null ? hits.unique_external_agents : '—';
 
   if (url) document.getElementById('trialcmd').textContent =

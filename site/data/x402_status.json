@@ -16,11 +16,15 @@
    "price_usd": "0.25",
    "trial": false
   },
+  "/ping": {
+   "price_usd": "0.001",
+   "trial": false
+  },
   "/vuln_lookup": {
    "price_usd": "1.00",
    "trial": true
   }
  },
  "uptime_note": "this endpoint has no process to crash; the only dependency is the PayAI facilitator",
- "at": "2026-11-26T14:33:40.076Z"
+ "at": "2026-11-26T14:47:45.056Z"
 }
