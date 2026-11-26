@@ -156,7 +156,37 @@
    "uptime_pct": null,
    "invalidation_reason": null,
    "samples": 0,
-   "restart_rule": "SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the origin, so the observation is not comparable. If invalidated, the window ends: its numbers are a failure log about host capability, not a demand finding. A second window needs a durable host, which AF states as a capability gap."
+   "restart_rule": "SINGLE SHOT: AF has no durable host, and restarting on a fresh quick-tunnel URL changes the origin, so the observation is not comparable. If invalidated, the window ends: its numbers are a failure log about host capability, not a demand finding. A second window needs a durable host, which AF states as a capability gap.",
+   "exit_criteria": {
+    "declared_at": "2026-11-26",
+    "note": "declared before the window opens; every branch names a next action so 'not measured' cannot be the ending",
+    "rules": [
+     {
+      "if": "host invalidated",
+      "then": "experiment void: host-capability failure log; the plan stops, no extension"
+     },
+     {
+      "if": "external = 0",
+      "then": "inconclusive_by_capability: escalate owner-only channel or declare inconclusive; never change product/price, never call it discovery failure"
+     },
+     {
+      "if": "external > 0 and paid hits = 0",
+      "then": "discovery: run channel candidates 1-4, one at a time"
+     },
+     {
+      "if": "paid hits > 0 and 402 = 0",
+      "then": "routing/presentation: fix routing first"
+     },
+     {
+      "if": "402 > 0 and settled = 0",
+      "then": "friction: change price/trial after a labelled price-gate probe"
+     },
+     {
+      "if": "settled > 0",
+      "then": "conversion: keep price, scale the channel, verify the tx on-chain"
+     }
+    ]
+   }
   }
  },
  "distribution": {

@@ -162,6 +162,16 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
       '</tbody></table><span class="mono">' + esc(dist.classification_reason || '') + '</span>';
   }
 
+  const xc = ((health && health.windows) || {}).B || {};
+  if (xc.exit_criteria) {
+    const rules = (xc.exit_criteria.rules || []).map((r) =>
+      '<tr><td>' + esc(r['if']) + '</td><td>' + esc(r.then) + '</td></tr>').join('');
+    document.getElementById('windowb').insertAdjacentHTML('beforeend',
+      '<br><b>Exit criteria (declared ' + esc(xc.exit_criteria.declared_at) + ', before the data):</b>' +
+      '<table style="margin:8px 0"><thead><tr><th>if window B ends with…</th><th>then AF does</th></tr></thead><tbody>' +
+      rules + '</tbody></table>');
+  }
+
   const extPay = (health && health.external_payments) || [];
   if (extPay.length) document.getElementById('payments-body').innerHTML = extPay.map((p) =>
     '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.product) + '</td><td>' + age(p.at) + '</td></tr>').join('');

@@ -116,10 +116,57 @@
      "sitemap inclusions never count as inbound links in reports"
     ],
     "reading": "not measured: every inbound hyperlink is AF-authored (external=0), so a zero hit count cannot separate 'nobody looked' from 'looked and did not want'"
+   },
+   "exit_criteria": {
+    "declared_at": "2026-11-26",
+    "rules": [
+     {
+      "id": "host_failure",
+      "when": "uptime.status == invalidated",
+      "outcome": "experiment_void_host_capability",
+      "next_action": "record the numbers as a host-capability failure log; the 30-day plan stops at the invalidated window instead of being extended; a new window needs a durable host, which is an owner-only capability"
+     },
+     {
+      "id": "inconclusive_by_capability",
+      "when": "distribution.external == 0",
+      "outcome": "inconclusive_by_capability",
+      "next_action": "escalate to an owner-only channel (repo homepage/topics, human directories) as a capability gap, or declare the experiment inconclusive-by-capability. Never change the product or the price on this result, and never call it a discovery failure"
+     },
+     {
+      "id": "discovery",
+      "when": "distribution.external > 0 AND paid.hits > 0 AND paid.402_issued == 0",
+      "outcome": "routing_or_presentation",
+      "next_action": "the request never reached a priced product: fix routing first; if routing is clean, run channel candidates 1-4 (manifest wording, public sample, GitHub repo, static pages)"
+     },
+     {
+      "id": "discovery_zero_paid",
+      "when": "distribution.external > 0 AND paid.hits == 0",
+      "outcome": "discovery",
+      "next_action": "run channel candidates 1-4, one at a time, each with its own measurement; do not touch the product"
+     },
+     {
+      "id": "friction",
+      "when": "paid.402_issued > 0 AND paid.settled_paid == 0",
+      "outcome": "friction",
+      "next_action": "change price tier or trial shape; verify with a labelled 1.00 price-gate probe before claiming the price is wrong"
+     },
+     {
+      "id": "conversion",
+      "when": "paid.settled_paid > 0",
+      "outcome": "conversion",
+      "next_action": "keep the price; scale the channel that produced the payer and record it as the first external payment only after the tx is verified on-chain"
+     }
+    ],
+    "no_report_only_rule": "reporting 'not_measured' with no next action is not an allowed ending: every branch names a next step",
+    "current": {
+     "outcome": "pre_window",
+     "rule": null,
+     "next_action": "window opens 2026-12-11; exit rules are already declared"
+    }
    }
   }
  },
- "generated_at": "2026-11-26T15:26:54Z",
+ "generated_at": "2026-11-26T15:28:57Z",
  "window_days": 14,
  "total_hits": 26,
  "external_hits_14d": 0,
