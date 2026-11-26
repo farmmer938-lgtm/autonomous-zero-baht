@@ -143,21 +143,38 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
     '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.product) + '</td><td>' + age(p.at) + '</td></tr>').join('');
 
   const ds = (health && health.delivery_status) || {};
-  if (ds.vuln_lookup_paid_delivery) document.getElementById('delivery').innerHTML =
-    '<b>vuln_lookup paid delivery: ' + (ds.external_payments_delivered ? 'proven with an external payer' : 'proven with a labelled self-pay only') + '.</b> ' + esc(ds.vuln_lookup_paid_delivery) + '.';
+  if (ds.vuln_lookup_paid_delivery) {
+    const li = (arr) => arr.map((x) => '<li>' + esc(x) + '</li>').join('');
+    document.getElementById('delivery').innerHTML =
+      '<b>Paid delivery: ' + (ds.external_payments_delivered ? 'proven with an external payer' : 'proven with a labelled self-pay only') + '.</b><br>' +
+      '<span class="ok">proven:</span><ul style="margin:6px 0 10px 18px">' + li(ds.proven || []) + '</ul>' +
+      '<span class="bad">unproven:</span><ul style="margin:6px 0 0 18px">' + li(ds.unproven || []) + '</ul>' +
+      '<p class="mono" style="margin-top:8px">proof_sku_state: ' + esc(ds.proof_sku_state || 'unknown') + '</p>';
+  }
 
   // funnel: one zero cannot be diagnosed, four stages can
   const f = hits && hits.windows && (hits.windows[hits.current_window] || {}).funnel;
   if (f) {
+    const paid = f.paid || {};
+    const trial = f.trial || {};
     const rows = [
-      ['external hits', f.external_hits, 'nobody arrived → the channel is the problem'],
-      ['402 issued', f.external_402_issued, 'traffic arrived but no priced product answered → routing'],
-      ['settled (paid)', f.external_settled_paid, 'the wall is price, wallet or payer UX'],
-      ['200 + payload delivered', f.external_200_delivered, 'settled but no payload → a delivery bug'],
+      ['paid: hits', paid.hits, 'nobody arrived → the channel is the problem'],
+      ['paid: 402 issued', paid['402_issued'], 'traffic arrived but no priced product answered → routing'],
+      ['paid: settled', paid.settled_paid, 'the wall is price, wallet or payer UX'],
+      ['paid: 200 + payload', paid['200_delivered'], 'settled but no payload → a delivery bug'],
+      ['trial: hits (skips 402 by design)', trial.hits, 'trial is free: it is not a paid hit and never proves 402'],
+      ['trial: 200 without payment', trial['200_skipped_402'], 'interest without money — a lead, not revenue'],
+      ['server errors (5xx)', f.server_errors, 'outranks every other diagnosis: the endpoint broke'],
     ];
     document.querySelector('#funnel tbody').innerHTML = rows.map((r) =>
-      '<tr><td>' + esc(r[0]) + '</td><td><b>' + r[1] + '</b></td><td>' + esc(r[2]) + '</td></tr>').join('') +
-      '<tr><td>free trial 200</td><td><b>' + f.external_trial_200 + '</b></td><td>trial conversions: interest without payment</td></tr>';
+      '<tr><td>' + esc(r[0]) + '</td><td><b>' + (r[1] ?? 0) + '</b></td><td>' + esc(r[2]) + '</td></tr>').join('');
+    const L = ((hits.windows.B || {}).listings) || {};
+    if (L.state) {
+      document.getElementById('diagnosis').insertAdjacentHTML('beforeend',
+        '<br><span class="mono">listings: state=' + esc(L.state) + ' · attempted ' +
+        esc(JSON.stringify(L.attempted || {})) + ' · accepted ' + esc(JSON.stringify(L.accepted || {})) +
+        '</span><br><span class="lede">' + esc(L.decision_rule || '') + '</span>');
+    }
     const diag = (hits.windows[hits.current_window] || {}).diagnosis || {};
     document.getElementById('diagnosis').innerHTML = diag.cause
       ? '<b>Current diagnosis: ' + esc(diag.cause) + '.</b> ' + esc(diag.meaning) + ' <span class="mono">(window ' + esc(hits.current_window) + (hits.current_window === 'A' ? ', not decisive' : '') + ')</span>'

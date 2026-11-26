@@ -84,12 +84,23 @@
     "demand": 0,
     "delivered": true,
     "response_sha256": "b1a52823b8452002",
-    "verified_onchain": "block 62572316, USDC Transfer 0.004, status success"
+    "verified_onchain": "block 62572316, USDC Transfer 0.004, status success",
+    "response_bytes": 1721
    }
   }
  ],
  "delivery_status": {
-  "vuln_lookup_paid_delivery": "proven at proof SKU price (0.004 USDC, same handler) by a labelled self-pay; the 1.00 USDC list-price path has never been exercised",
+  "proven": [
+   "settle -> 200 + payload at proof SKU price (0.004 USDC, same handler as /vuln_lookup)",
+   "1.00 USDC 402 challenge is issued correctly: amount 1000000, network base, Base USDC, AF payTo",
+   "the facilitator parsed a signed 1.00 authorization and rejected it only on balance (invalid_exact_evm_insufficient_balance) - the amount itself is accepted, no cap below 1.00"
+  ],
+  "unproven": [
+   "an actual 1.00 USDC settlement: AF holds 0.010038 USDC, so the amount cannot be funded",
+   "an external payer at any price"
+  ],
+  "vuln_lookup_paid_delivery": "proven at the 0.004 proof SKU; the 1.00 settlement is unproven (funds), while the 1.00 challenge and facilitator acceptance are proven",
+  "proof_sku_state": "gated + disabled: /vuln_lookup_proof returns 404 unless x-af-self:1 AND AF_PROOF_SKU=1",
   "external_payments_delivered": 0
  },
  "external_payments": []

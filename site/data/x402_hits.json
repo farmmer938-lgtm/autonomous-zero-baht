@@ -10,20 +10,27 @@
    "external_hits": 0,
    "unique_external_agents": 0,
    "crawler_hits": 0,
-   "self_agent_hits": 11,
+   "self_agent_hits": 14,
    "self_hits": 0,
-   "samples": 11,
+   "samples": 14,
    "funnel": {
-    "external_hits": 0,
-    "external_402_issued": 0,
-    "external_settled_paid": 0,
-    "external_200_delivered": 0,
-    "external_trial_200": 0,
-    "external_server_errors": 0
+    "paid": {
+     "hits": 0,
+     "402_issued": 0,
+     "settled_paid": 0,
+     "200_delivered": 0
+    },
+    "trial": {
+     "hits": 0,
+     "200_skipped_402": 0
+    },
+    "server_errors": 0,
+    "other_status": 0,
+    "external_hits": 0
    },
    "diagnosis": {
     "cause": "discovery",
-    "meaning": "hits=0: nobody arrived - fix the channel, not the product"
+    "meaning": "no paid hits arrived: fix the channel, not the product"
    }
   },
   "B": {
@@ -39,54 +46,72 @@
    "self_hits": 0,
    "samples": 0,
    "funnel": {
-    "external_hits": 0,
-    "external_402_issued": 0,
-    "external_settled_paid": 0,
-    "external_200_delivered": 0,
-    "external_trial_200": 0,
-    "external_server_errors": 0
+    "paid": {
+     "hits": 0,
+     "402_issued": 0,
+     "settled_paid": 0,
+     "200_delivered": 0
+    },
+    "trial": {
+     "hits": 0,
+     "200_skipped_402": 0
+    },
+    "server_errors": 0,
+    "other_status": 0,
+    "external_hits": 0
    },
    "diagnosis": {
     "cause": "discovery",
-    "meaning": "hits=0: nobody arrived - fix the channel, not the product"
+    "meaning": "no paid hits arrived: fix the channel, not the product"
    },
    "listings": {
     "attempted": {
      "402index": 0,
      "payai": 0,
      "cdp_bazaar": 0,
-     "mcp_registry": 0
+     "mcp_registry": "n/a"
     },
     "accepted": {
      "402index": 0,
      "payai": 0,
      "cdp_bazaar": 0,
-     "mcp_registry": 0
+     "mcp_registry": "n/a"
     },
     "rejected_reason": {},
-    "source": "AF_X402_LISTINGS.json (maintained by AF, not inferred)",
+    "na_reason": {
+     "mcp_registry": "cannot be attempted under AF's own rules: publishing needs GitHub device-flow login (one human code entry), which AF will not ask for"
+    },
+    "source": "AF_X402_LISTINGS.json (maintained by AF from real API responses, not inferred)",
     "window": "B",
     "updated_at": "2026-11-26T15:10:00Z",
-    "decision_rule": "accepted=0 -> fix host/URL first (not the channel, not the product); accepted>0 and hits=0 -> discovery problem; accepted>0 and hits>0 and settled=0 -> product/price problem"
+    "state": "not_started",
+    "decision_rule": "attempted=0 -> not started, conclude nothing; attempted>0 and accepted=0 -> host/URL problem (fix the URL, not the channel or the product); accepted>0 and paid hits=0 -> discovery problem; paid hits>0 and settled=0 -> product/price problem; settled>0 -> conversion signal"
    }
   }
  },
- "generated_at": "2026-11-26T14:54:36Z",
+ "generated_at": "2026-11-26T14:59:49Z",
  "window_days": 14,
- "total_hits": 11,
+ "total_hits": 14,
  "external_hits_14d": 0,
  "external_hits_24h": 0,
  "unique_external_agents": 0,
  "external_hits_14d_window": "A",
  "crawler_hits_14d": 0,
- "self_agent_hits_14d": 11,
+ "self_agent_hits_14d": 14,
  "funnel_14d": {
-  "external_hits": 0,
-  "external_402_issued": 0,
-  "external_settled_paid": 0,
-  "external_200_delivered": 0,
-  "external_trial_200": 0,
-  "external_server_errors": 0
+  "paid": {
+   "hits": 0,
+   "402_issued": 0,
+   "settled_paid": 0,
+   "200_delivered": 0
+  },
+  "trial": {
+   "hits": 0,
+   "200_skipped_402": 0
+  },
+  "server_errors": 0,
+  "other_status": 0,
+  "external_hits": 0
  },
  "self_hits_14d": 0,
  "top_external_ips": [],
