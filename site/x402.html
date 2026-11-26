@@ -45,6 +45,7 @@
   </div>
 
   <p class="lede" id="demandnote">Demand window unknown — loading.</p>
+  <p class="lede" id="windowb">Window B survival: loading…</p>
 
   <h2 style="font-size:1.05rem;margin:0 0 4px">What is for sale</h2>
   <table id="products">
@@ -137,6 +138,13 @@ const age = (iso) => { if (!iso) return 'never'; const m = Math.round((Date.now(
   const proof = (health && health.proof_tx) || [];
   if (proof.length) document.querySelector('#proof tbody').innerHTML = proof.map((p) =>
     '<tr><td class="mono">' + esc(p.tx) + '</td><td>' + esc(p.kind) + '<br><span class="mono">self_pay=true · demand=0</span></td><td>' + age(p.at) + '</td></tr>').join('');
+
+  const wb = ((health && health.windows) || {}).B || {};
+  document.getElementById('windowb').innerHTML =
+    '<b>Window B survival: ' + esc(wb.status || 'unknown') + '.</b> ' +
+    (wb.uptime_pct != null ? 'uptime ' + wb.uptime_pct + '% over ' + (wb.samples || 0) + ' probes; ' : '') +
+    (wb.invalidation_reason ? '<span class="bad">invalidated: ' + esc(wb.invalidation_reason) + '</span>' : 'no invalidation') +
+    '<br><span class="mono">rule: 2 consecutive failed probes or a >90 min gap invalidates the window; a zero hit count from an invalidated window is not a discovery signal.</span>';
 
   const extPay = (health && health.external_payments) || [];
   if (extPay.length) document.getElementById('payments-body').innerHTML = extPay.map((p) =>

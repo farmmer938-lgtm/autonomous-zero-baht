@@ -23,6 +23,14 @@ from pathlib import Path
 ENDPOINT_FILE = Path("site/data/x402_endpoint.json")
 HEALTH_FILE = Path("site/data/x402_health.json")
 MAX_SAMPLES = 672  # 14 days at 30-minute probes
+
+# Window B needs its own survival proof: if the host dies mid-window, external_hits=0 means "infra
+# dead", not "discovery problem". Two consecutive failed probes (~60 min) or a 90-minute gap
+# invalidates the window, and the window must be restarted rather than reinterpreted.
+WINDOW_A = ("2026-11-26", "2026-12-10")
+WINDOW_B = ("2026-12-11", "2026-12-25")
+INVALIDATE_CONSECUTIVE_FAILURES = 2
+INVALIDATE_MAX_GAP_MIN = 90
 CHEAPEST = "/csv_to_json"
 
 
@@ -99,6 +107,49 @@ def summarise(samples: list[dict]) -> dict:
     }
 
 
+def _samples_in(samples: list[dict], start: str, end: str) -> list[dict]:
+    return [s for s in samples if start <= s["at"][:10] <= end]
+
+
+def window_status(samples: list[dict], start: str, end: str, today: str) -> dict:
+    inside = _samples_in(samples, start, end)
+    if today < start:
+        return {"status": "not_started", "starts": start, "uptime_pct": None, "invalidation_reason": None,
+                "samples": 0}
+    if not inside:
+        return {"status": "invalidated", "starts": start, "uptime_pct": None,
+                "invalidation_reason": "no probes recorded inside the window", "samples": 0}
+
+    uptime = round(100 * sum(1 for s in inside if s.get("ok")) / len(inside), 2)
+    worst_run, run = 0, 0
+    for s in inside:
+        run = run + 1 if not s.get("ok") else 0
+        worst_run = max(worst_run, run)
+
+    gap_min = 0
+    for prev, cur in zip(inside, inside[1:]):
+        a = datetime.strptime(prev["at"], "%Y-%m-%dT%H:%M:%SZ")
+        b = datetime.strptime(cur["at"], "%Y-%m-%dT%H:%M:%SZ")
+        gap_min = max(gap_min, int((b - a).total_seconds() / 60))
+
+    reason = None
+    if worst_run >= INVALIDATE_CONSECUTIVE_FAILURES:
+        reason = f"{worst_run} consecutive failed probes (>= {INVALIDATE_CONSECUTIVE_FAILURES} invalidates)"
+    elif gap_min > INVALIDATE_MAX_GAP_MIN:
+        reason = f"{gap_min} minute gap between probes (> {INVALIDATE_MAX_GAP_MIN} invalidates)"
+    return {
+        "status": "invalidated" if reason else "active",
+        "starts": start,
+        "uptime_pct": uptime,
+        "samples": len(inside),
+        "worst_consecutive_failures": worst_run,
+        "max_gap_minutes": gap_min,
+        "invalidation_reason": reason,
+        "restart_rule": "if invalidated, the window restarts on a new durable host; do not read its "
+                        "external_hits as a discovery signal",
+    }
+
+
 def main() -> int:
     if not ENDPOINT_FILE.exists():
         print(f"no endpoint file at {ENDPOINT_FILE}")
@@ -125,6 +176,11 @@ def main() -> int:
     health["history"] = samples
     health["summary"] = summarise(samples)
     health["proof_tx"] = health.get("proof_tx") or []
+    today = sample["at"][:10]
+    health["windows"] = {
+        "A": window_status(samples, *WINDOW_A, today),
+        "B": window_status(samples, *WINDOW_B, today),
+    }
     health["generated_at"] = sample["at"]
     HEALTH_FILE.parent.mkdir(parents=True, exist_ok=True)
     HEALTH_FILE.write_text(json.dumps(health, ensure_ascii=False, indent=1))

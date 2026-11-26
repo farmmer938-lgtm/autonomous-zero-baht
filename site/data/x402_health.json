@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T14:47:45Z",
+ "generated_at": "2026-11-26T15:04:43Z",
  "endpoint": "https://viewing-saw-stores-furniture.trycloudflare.com",
  "history": [
   {
@@ -45,20 +45,31 @@
     "health_200": true,
     "paywall_402": true
    }
+  },
+  {
+   "at": "2026-11-26T15:04:43Z",
+   "ok": true,
+   "latency_ms": 367,
+   "checks": {
+    "status_200": true,
+    "status_json": true,
+    "health_200": true,
+    "paywall_402": true
+   }
   }
  ],
  "summary": {
-  "samples": 4,
+  "samples": 5,
   "window_start": "2026-11-26T14:33:20Z",
-  "window_days": 0.01,
+  "window_days": 0.02,
   "uptime_pct": 100.0,
-  "current_streak_samples": 4,
-  "current_streak_hours": 2.0,
-  "last_ok_at": "2026-11-26T14:47:45Z",
-  "last_check_at": "2026-11-26T14:47:45Z",
+  "current_streak_samples": 5,
+  "current_streak_hours": 2.5,
+  "last_ok_at": "2026-11-26T15:04:43Z",
+  "last_check_at": "2026-11-26T15:04:43Z",
   "last_check_ok": true,
-  "latency_p50_ms": 300,
-  "latency_p95_ms": 360,
+  "latency_p50_ms": 360,
+  "latency_p95_ms": 367,
   "listable": false
  },
  "proof_tx": [
@@ -100,8 +111,29 @@
    "an external payer at any price"
   ],
   "vuln_lookup_paid_delivery": "proven at the 0.004 proof SKU; the 1.00 settlement is unproven (funds), while the 1.00 challenge and facilitator acceptance are proven",
-  "proof_sku_state": "gated + disabled: /vuln_lookup_proof returns 404 unless x-af-self:1 AND AF_PROOF_SKU=1",
-  "external_payments_delivered": 0
+  "proof_sku_state": "gated + disabled: /vuln_lookup_proof returns 404 unless x-af-nonce matches AF_PROOF_NONCE AND AF_PROOF_SKU=1",
+  "external_payments_delivered": 0,
+  "trial_output": "metadata_only (count + safe_to_ship; no CVE list, no fixed versions)",
+  "ping_in_discovery": "no (/ping is operational and excluded from manifest, /health and /status)"
  },
- "external_payments": []
+ "external_payments": [],
+ "windows": {
+  "A": {
+   "status": "active",
+   "starts": "2026-11-26",
+   "uptime_pct": 100.0,
+   "samples": 5,
+   "worst_consecutive_failures": 0,
+   "max_gap_minutes": 16,
+   "invalidation_reason": null,
+   "restart_rule": "if invalidated, the window restarts on a new durable host; do not read its external_hits as a discovery signal"
+  },
+  "B": {
+   "status": "not_started",
+   "starts": "2026-12-11",
+   "uptime_pct": null,
+   "invalidation_reason": null,
+   "samples": 0
+  }
+ }
 }
