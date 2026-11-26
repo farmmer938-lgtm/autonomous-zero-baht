@@ -1,6 +1,6 @@
 {
  "schema": "af.revenue_report.v1",
- "at": "2026-11-25T15:03:39.497254+00:00",
+ "at": "2026-11-26T01:45:43.314050+00:00",
  "headline": {
   "cash_received_usdc": 0,
   "cash_payments": 0,
@@ -10,7 +10,7 @@
  },
  "found": {
   "source": "data/opportunities.json",
-  "checked_at": "2026-11-25T15:03:39.442143+00:00",
+  "checked_at": "2026-11-26T01:45:43.263080+00:00",
   "total": 51,
   "by_verdict": {
    "loss": 1,
@@ -71,15 +71,15 @@
  "needs_you": [],
  "chain_audit": {
   "source": "data/revenue_verify.json",
-  "at": "2026-11-25T11:07:03.183035+00:00",
-  "verdict": "CONTINUOUS",
+  "at": "2026-11-25T21:55:31.532461+00:00",
+  "verdict": "FIRST",
   "inbound_usdc_total": 0.100038,
   "inbound_tx_total": 2,
   "balance_usdc": 0.010038,
   "note": "window is the last 49k blocks; tools/af_inbound_audit.py walks all of it"
  },
  "monitor": {
-  "manifest_age_hours": 54.46,
+  "manifest_age_hours": 65.16,
   "manifest_stale": true,
   "manifest_base": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev",
   "public_watch_healthy": true,
@@ -88,7 +88,7 @@
    "cashier",
    "opentask"
   ],
-  "workflow_runs_seen": 5,
+  "workflow_runs_seen": 7,
   "workflow_runs_failed": 0,
   "last_workflow_failures": []
  }

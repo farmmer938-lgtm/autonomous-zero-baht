@@ -1,6 +1,6 @@
 # AF revenue report
 
-generated 2026-11-25T15:03:39.497254+00:00
+generated 2026-11-26T01:45:43.314050+00:00
 
 | number | value |
 |---|---|
@@ -13,7 +13,7 @@ generated 2026-11-25T15:03:39.497254+00:00
 
 ## Found
 
-51 listings, checked 2026-11-25T15:03:39.442143+00:00 — ignore: 50, loss: 1
+51 listings, checked 2026-11-26T01:45:43.263080+00:00 — ignore: 50, loss: 1
 
 - nothing payable today
 
@@ -27,11 +27,11 @@ generated 2026-11-25T15:03:39.497254+00:00
 
 ## Monitor
 
-- paid host manifest: 54.46h old — **STALE** (https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev)
+- paid host manifest: 65.16h old — **STALE** (https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev)
 - public watch healthy: True (fail 0, warn 2)
-- workflow runs seen: 5, failed: 0
+- workflow runs seen: 7, failed: 0
 
 ## Chain audit (wider than the ledger)
 
-0.100038 USDC inbound over 2 transfers in the last 49k blocks, verdict CONTINUOUS, balance 0.010038.
+0.100038 USDC inbound over 2 transfers in the last 49k blocks, verdict FIRST, balance 0.010038.
 Most of that is AF's own capital returning from swaps; `tools/af_inbound_audit.py` shows the split.
