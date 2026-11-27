@@ -1,7 +1,11 @@
+import sys
 import unittest
+from pathlib import Path
 
-from tools.af_selfserve import assign_amounts, invoice_map, invoices, micro_invoices
-from tools.af_service import PRICE_USD, reconcile
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+
+from af_selfserve import assign_amounts, invoice_map, invoices, micro_invoices
+from af_service import PRICE_USD, reconcile
 
 TX_A = "0x" + "a" * 64
 TX_B = "0x" + "b" * 64

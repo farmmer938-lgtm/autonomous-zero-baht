@@ -64,13 +64,24 @@ def _load_drafts(draft_paths):
     return drafts
 
 
-def _page_shell(title: str, body: str) -> str:
+BASE = "https://farmmer938-lgtm.github.io/autonomous-zero-baht/"
+
+
+def _page_shell(title: str, body: str, path: str = "") -> str:
+    canonical = BASE + path
+    desc = "สรุปข่าวเทคโนโลยีที่คัดแล้ว พร้อมลิงก์ต้นทางทุกเรื่อง และร้านที่จ่ายเป็นครั้งด้วย USDC"
+    jsonld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Zero-Baht Research",
+              "url": canonical, "inLanguage": "th",
+              "description": desc}
     return f"""<!doctype html>
 <html lang="th">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{_esc(title)}</title>
+<meta name="description" content="{_esc(desc)}">
+<link rel="canonical" href="{canonical}">
+<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
 <style>
 :root{{--bg:#0d1117;--card:#161b22;--fg:#e6edf3;--mut:#8b949e;--acc:#58a6ff}}
 *{{box-sizing:border-box}}
@@ -113,7 +124,8 @@ def build_site(draft_paths):
                 "<p class='mut'>หน้านี้สรุปและชี้แหล่งข้อมูลต้นทาง ไม่ได้ยืนยันข้อเท็จจริงแทนผู้อ่าน "
                 "โปรดตรวจสอบกับแหล่งต้นทางก่อนตัดสินใจ</p>",
                 f"<div class='foot mut'>{_esc(disclosure)}<br>เผยแพร่อัตโนมัติโดย Autonomous Zero-Baht Business OS · {_esc(now)}</div>"]
-        (POSTS_DIR / f"{pid}.html").write_text(_page_shell(title, "".join(body)), encoding="utf-8")
+        (POSTS_DIR / f"{pid}.html").write_text(
+            _page_shell(title, "".join(body), f"p/{pid}.html"), encoding="utf-8")
         index.append({"id": pid, "title": title, "source_url": source_url,
                       "score": data.get("research_score", 0)})
 

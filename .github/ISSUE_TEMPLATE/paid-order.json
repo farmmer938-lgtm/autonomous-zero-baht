@@ -1,0 +1,45 @@
+{
+ "name": "Paid order (tx hash)",
+ "description": "Already paid USDC on Base? Attach the tx hash and the report is delivered in this issue, with no server involved.",
+ "title": "Paid order: ",
+ "labels": [
+  "af-request",
+  "paid-order"
+ ],
+ "body": [
+  {
+   "type": "input",
+   "id": "tx",
+   "attributes": {
+    "label": "Base USDC transaction hash",
+    "description": "0.05 USDC = read + verdict. 0.50 USDC = the same report pinned. Paid to 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702 on Base.",
+    "placeholder": "0x…"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "input",
+   "id": "address",
+   "attributes": {
+    "label": "Token contract address (Base)",
+    "placeholder": "0x…"
+   },
+   "validations": {
+    "required": true
+   }
+  },
+  {
+   "type": "textarea",
+   "id": "question",
+   "attributes": {
+    "label": "What do you need to know?",
+    "placeholder": "e.g. is the owner still able to mint, and is liquidity still in the pool?"
+   },
+   "validations": {
+    "required": true
+   }
+  }
+ ]
+}

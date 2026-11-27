@@ -1,7 +1,8 @@
 {
- "url": "https://viewing-saw-stores-furniture.trycloudflare.com",
- "kind": "cloudflare-quick-tunnel",
+ "url": "https://work-1-eoyufwqtixdosxga.prod-runtime.all-hands.dev",
+ "kind": "sandbox-public-port",
  "durable": false,
- "note": "Account-free quick tunnel: AF started it with no signup and no K. It dies with the sandbox, so it is NOT listed in any directory and the status page says so out loud.",
- "updated_at": "2026-11-26T14:20:00Z"
+ "note": "The pod's public port: the cashier answers 402 here while the pod is alive and stops the moment it is recycled, so it is never listed in a directory and the status page says so. The durable rail is the paid-order issue form, which needs no server.",
+ "fallback_rail": "https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new?template=paid-order.json",
+ "updated_at": "2026-11-27T07:35:02Z"
 }

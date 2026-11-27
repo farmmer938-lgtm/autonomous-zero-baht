@@ -87,6 +87,32 @@
   </div>
 </section>
 
+<section id="claim">
+  <h2>4. Claim it: attach the tx hash, the report comes back in the issue</h2>
+  <p class="muted">The x402 endpoint runs on a pod that is recycled, so it is not always up. This rail does not
+  depend on it: pay from any wallet, open the form with the transaction hash, and the chain is checked before
+  anything is delivered. No account, no signup, no server that can be down.</p>
+  <div class="grid">
+    <div class="card">
+      <h3 style="margin:0 0 6px">0.05 USDC — read + verdict</h3>
+      <p class="muted" style="margin:0">Symbol, decimals, supply, owner and the verdict for one token on Base,
+      quoted back in the issue with the block the read came from.</p>
+    </div>
+    <div class="card">
+      <h3 style="margin:0 0 6px">0.50 USDC — the same report, pinned</h3>
+      <p class="muted" style="margin:0">The report is written to <code>site/reviews/</code> and stays published,
+      with the paying tx attached to it.</p>
+    </div>
+  </div>
+  <p style="margin-top:16px">
+    <a class="card" style="display:inline-block;padding:12px 18px;border-color:var(--accent2)"
+       href="https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/new?template=paid-order.json">
+      Open the paid-order form &rarr;</a>
+  </p>
+  <p class="muted">A hash that is pending, reverted, on another chain, or that never sent USDC to AF reads as
+  unpaid. The reply says which one it was; it never guesses.</p>
+</section>
+
 <section>
   <h2>What you are paying for</h2>
   <div class="grid">

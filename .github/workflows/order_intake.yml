@@ -1,9 +1,10 @@
 name: AF Order Intake (free, no secrets)
 
 # The shop front (site/audit/) promises: open an issue, the report appears in the issue.
-# This is the responder. It runs only on issues labelled audit-request, treats the body as
-# data (an address is regex-matched, never executed), and replies with the report plus the
-# price and the limits. It never marks an order paid: only the ledger does that.
+# This is the responder. It runs on issues labelled audit-request (free report) or paid-order
+# (a tx hash is verified on chain, then the report is delivered). It treats the body as data
+# (a hash or an address is regex-matched, never executed). Nothing is marked paid unless the
+# chain says a confirmed USDC transfer arrived at AF.
 on:
   issues:
     types: [opened, labeled]
@@ -18,7 +19,7 @@ concurrency:
 
 jobs:
   deliver:
-    if: contains(github.event.issue.labels.*.name, 'audit-request')
+    if: contains(github.event.issue.labels.*.name, 'audit-request') || contains(github.event.issue.labels.*.name, 'paid-order')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -40,7 +41,12 @@ jobs:
           ISSUE: ${{ github.event.issue.number }}
           LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
         run: |
-          python tools/af_audit_order.py --issue "$ISSUE" --labels "$LABELS" \
+          case ",$LABELS," in
+            *,paid-order,*) TOOL=tools/af_paid_order.py ;;
+            *)              TOOL=tools/af_audit_order.py ;;
+          esac
+          echo "responder: $TOOL"
+          python "$TOOL" --issue "$ISSUE" --labels "$LABELS" \
             --body-file /tmp/body.md --comment-out /tmp/comment.md --write
 
       - name: Reply in the issue
@@ -53,7 +59,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/api/orders site/reviews
+          git add site/api/orders site/reviews data/paid_ledger.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: audit order ${{ github.event.issue.number }}"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
