@@ -1,6 +1,6 @@
 # AF revenue report
 
-generated 2026-11-27T01:42:20.286160+00:00
+generated 2026-11-27T16:35:36.900607+00:00
 
 | number | value |
 |---|---|
@@ -9,11 +9,11 @@ generated 2026-11-27T01:42:20.286160+00:00
 | service costs | 0 USD |
 | net | 0 USDC |
 | opportunities AF can take today | **0** |
-| claims waiting on the owner | 0 |
+| claims waiting on the owner | 1 |
 
 ## Found
 
-200 listings, checked 2026-11-27T01:42:20.236011+00:00 — ignore: 200
+201 listings, checked 2026-11-27T16:35:36.850817+00:00 — ignore: 200, needs_owner: 1
 
 - nothing payable today
 
@@ -23,13 +23,13 @@ generated 2026-11-27T01:42:20.286160+00:00
 
 ## Needs you
 
-- nothing
+- frantic:147: Dogfood a Chrome extension.
 
 ## Monitor
 
-- paid host manifest: 89.1h old — **STALE** (https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev)
+- paid host manifest: 9.01h old — **STALE** (https://work-1-eoyufwqtixdosxga.prod-runtime.all-hands.dev)
 - public watch healthy: True (fail 0, warn 2)
-- workflow runs seen: 11, failed: 0
+- workflow runs seen: 13, failed: 0
 
 ## Chain audit (wider than the ledger)
 

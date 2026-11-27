@@ -1,18 +1,19 @@
 {
  "schema": "af.revenue_report.v1",
- "at": "2026-11-27T01:42:20.286160+00:00",
+ "at": "2026-11-27T16:35:36.900607+00:00",
  "headline": {
   "cash_received_usdc": 0,
   "cash_payments": 0,
   "net_after_costs_usdc": 0,
   "act_now_opportunities": 0,
-  "needs_owner": 0
+  "needs_owner": 1
  },
  "found": {
   "source": "data/opportunities.json",
-  "checked_at": "2026-11-27T01:42:20.236011+00:00",
-  "total": 200,
+  "checked_at": "2026-11-27T16:35:36.850817+00:00",
+  "total": 201,
   "by_verdict": {
+   "needs_owner": 1,
    "ignore": 200
   },
   "act_now": [],
@@ -67,10 +68,18 @@
   "lines": [],
   "note": "free tiers only; a paid service would appear here as a negative"
  },
- "needs_you": [],
+ "needs_you": [
+  {
+   "id": "frantic:147",
+   "title": "Dogfood a Chrome extension.",
+   "reasons": [
+    "claim needs an identity only K can provide"
+   ]
+  }
+ ],
  "chain_audit": {
   "source": "data/revenue_verify.json",
-  "at": "2026-11-26T21:48:31.680353+00:00",
+  "at": "2026-11-27T08:55:25.256786+00:00",
   "verdict": "FIRST",
   "inbound_usdc_total": 0.100038,
   "inbound_tx_total": 2,
@@ -78,16 +87,16 @@
   "note": "window is the last 49k blocks; tools/af_inbound_audit.py walks all of it"
  },
  "monitor": {
-  "manifest_age_hours": 89.1,
+  "manifest_age_hours": 9.01,
   "manifest_stale": true,
-  "manifest_base": "https://work-1-szkgvrypvhwdfybu.prod-runtime.all-hands.dev",
+  "manifest_base": "https://work-1-eoyufwqtixdosxga.prod-runtime.all-hands.dev",
   "public_watch_healthy": true,
   "public_watch_fail": [],
   "public_watch_warn": [
    "cashier",
    "opentask"
   ],
-  "workflow_runs_seen": 11,
+  "workflow_runs_seen": 13,
   "workflow_runs_failed": 0,
   "last_workflow_failures": []
  }
