@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x08096af6d7407317547f30065d40f66b122afbae",
+ "generatedAt": "2026-11-27T08:29:22.032117+00:00",
+ "reads": {
+  "name": "National American Trust Fund",
+  "symbol": "NATF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x08096af6d7407317547f30065d40f66b122afbae",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x08096af6\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62888932,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 426230.9893,
+ "poolCreatedAt": "2026-11-27T08:10:38Z",
+ "poolName": "NATF / WETH",
+ "outreach": {
+  "symbol": "NATF",
+  "name": "National American Trust Fund",
+  "priceUsd": "0.0002139",
+  "fdv": 213992,
+  "liquidityUsd": 211852.21,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xa731934b2f14ab4de7e866d3285ee7173940f4b18d03f5ea9117f5e18839d9d2",
+  "pairUrl": "https://dexscreener.com/base/0xa731934b2f14ab4de7e866d3285ee7173940f4b18d03f5ea9117f5e18839d9d2"
+ }
+}

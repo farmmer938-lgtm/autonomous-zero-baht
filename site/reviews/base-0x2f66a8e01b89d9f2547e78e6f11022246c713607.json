@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x2f66a8e01b89d9f2547e78e6f11022246c713607",
+ "generatedAt": "2026-11-27T08:29:29.008262+00:00",
+ "reads": {
+  "name": "National American Oil Fund",
+  "symbol": "NAOF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000,
+  "totalSupplyTokens": 1000000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x2f66a8e01b89d9f2547e78e6f11022246c713607",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x2f66a8e0\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 62888967,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 213160.051,
+ "poolCreatedAt": "2026-11-27T08:01:38Z",
+ "poolName": "NAOF / WETH",
+ "outreach": {
+  "symbol": "NAOF",
+  "name": "National American Oil Fund",
+  "priceUsd": "0.0002142",
+  "fdv": 214240,
+  "liquidityUsd": 212097.37,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xccdc998a72a5ddb9267a084d1b71a3d9aa5f7f04931c31019075a6f9dd96acb2",
+  "pairUrl": "https://dexscreener.com/base/0xccdc998a72a5ddb9267a084d1b71a3d9aa5f7f04931c31019075a6f9dd96acb2"
+ }
+}
