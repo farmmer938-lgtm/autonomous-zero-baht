@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x52764124ad99e0049f8953add01efcda4723fba3",
+ "generatedAt": "2026-11-27T21:16:15.433710+00:00",
+ "reads": {
+  "name": "Halve Hearted",
+  "symbol": "HALFHEART",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000,
+  "totalSupplyTokens": 100000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x52764124ad99e0049f8953add01efcda4723fba3",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x52764124\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 63119000,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 20395.9234,
+ "poolCreatedAt": "2026-11-27T20:57:31Z",
+ "poolName": "HALFHEART / WETH",
+ "outreach": {
+  "symbol": "HALFHEART",
+  "name": "Halve Hearted",
+  "priceUsd": "0.0000001021",
+  "fdv": 10214,
+  "liquidityUsd": 10214.08,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x5fed8de693e6b2157cebf8b3687e6ccf23c1fa88730db4ccaa59f8bd81a086fb",
+  "pairUrl": "https://dexscreener.com/base/0x5fed8de693e6b2157cebf8b3687e6ccf23c1fa88730db4ccaa59f8bd81a086fb"
+ }
+}

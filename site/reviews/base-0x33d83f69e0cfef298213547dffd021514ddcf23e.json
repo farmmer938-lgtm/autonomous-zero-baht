@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x33d83f69e0cfef298213547dffd021514ddcf23e",
+ "generatedAt": "2026-11-27T21:16:19.195767+00:00",
+ "reads": {
+  "name": "UBR",
+  "symbol": "UBR",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x33d83f69e0cfef298213547dffd021514ddcf23e",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x33d83f69\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 63119018,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 2151407363.3657,
+ "poolCreatedAt": "2026-11-27T20:44:27Z",
+ "poolName": "UBR / WETH",
+ "outreach": {
+  "symbol": "UBR",
+  "name": "UBR",
+  "priceUsd": "1.43",
+  "fdv": 14359135263,
+  "liquidityUsd": 2153874138.02,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x9b6e772cea67f08733245e645fc78d8f125613b3b999f6df0b0c07fcdb992078",
+  "pairUrl": "https://dexscreener.com/base/0x9b6e772cea67f08733245e645fc78d8f125613b3b999f6df0b0c07fcdb992078"
+ }
+}

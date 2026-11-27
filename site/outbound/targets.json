@@ -1,24 +1,24 @@
 {
  "schema": "af.outbound.scan.v1",
- "generatedAt": "2026-11-27T08:28:41.855720+00:00",
+ "generatedAt": "2026-11-27T21:15:31.462123+00:00",
  "network": "base",
  "windowHours": 24,
  "liquidityFloorUsd": 10000,
- "poolsScanned": 120,
+ "poolsScanned": 100,
  "targets": [
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x88f2c8f04991e442c1900d9c790e0ae805853c64",
-   "generatedAt": "2026-11-27T08:29:18.502028+00:00",
+   "address": "0x7975ec7d1ae0b5aaa4976572a5873b61c4606d9e",
+   "generatedAt": "2026-11-27T21:16:04.483206+00:00",
    "reads": {
     "name": "Bootr",
     "symbol": "BOOTR",
     "decimals": 18,
-    "totalSupply": 5600000000000000000000000000,
-    "totalSupplyTokens": 5600000000.0,
+    "totalSupply": 9600000000000000000000000000,
+    "totalSupplyTokens": 9600000000.0,
     "owner": null,
-    "bytecodeScannedAddress": "0x88f2c8f04991e442c1900d9c790e0ae805853c64",
+    "bytecodeScannedAddress": "0x7975ec7d1ae0b5aaa4976572a5873b61c4606d9e",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -26,43 +26,43 @@
    },
    "flags": [
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "no mint(address,uint256) selector in the bytecode of 0x88f2c8f0\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x7975ec7d\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62888915,
+   "blockNumber": 63118945,
    "verdict": "no owner() surface found",
-   "liquidityUsd": 145084.5361,
-   "poolCreatedAt": "2026-11-27T08:19:58Z",
+   "liquidityUsd": 137726.9936,
+   "poolCreatedAt": "2026-11-27T21:10:51Z",
    "poolName": "BOOTR / WETH",
    "outreach": {
     "symbol": "BOOTR",
     "name": "Bootr",
-    "priceUsd": "0.00001394",
-    "fdv": 78081,
-    "liquidityUsd": 147106.78,
+    "priceUsd": "0.00000000005599",
+    "fdv": 1,
+    "liquidityUsd": 0,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0x5e9d562CD402C7F5d80D8E0aB78d63AB28F5761D",
-    "pairUrl": "https://dexscreener.com/base/0x5e9d562cd402c7f5d80d8e0ab78d63ab28f5761d"
+    "pairAddress": "0xEF94550ab857510409192Fd1c198B61AEA2aBB5F",
+    "pairUrl": "https://dexscreener.com/base/0xef94550ab857510409192fd1c198b61aea2abb5f"
    },
-   "reportPath": "reviews/base-0x88f2c8f04991e442c1900d9c790e0ae805853c64.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x88f2c8f04991e442c1900d9c790e0ae805853c64.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read BOOTR (0x88f2c8f04991e442c1900d9c790e0ae805853c64) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - no mint(address,uint256) selector in the bytecode of 0x88f2c8f0\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x7975ec7d1ae0b5aaa4976572a5873b61c4606d9e.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x7975ec7d1ae0b5aaa4976572a5873b61c4606d9e.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read BOOTR (0x7975ec7d1ae0b5aaa4976572a5873b61c4606d9e) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - no mint(address,uint256) selector in the bytecode of 0x7975ec7d\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x08096af6d7407317547f30065d40f66b122afbae",
-   "generatedAt": "2026-11-27T08:29:22.032117+00:00",
+   "address": "0x170bc6867a9fee54fe53b262466e55748366c19e",
+   "generatedAt": "2026-11-27T21:16:07.867428+00:00",
    "reads": {
-    "name": "National American Trust Fund",
-    "symbol": "NATF",
+    "name": "National  syber Protokol security",
+    "symbol": "NSPS",
     "decimals": 18,
-    "totalSupply": 1000000000000000000000000000,
-    "totalSupplyTokens": 1000000000.0,
+    "totalSupply": 7600000000000000000000000000,
+    "totalSupplyTokens": 7600000000.0,
     "owner": null,
-    "bytecodeScannedAddress": "0x08096af6d7407317547f30065d40f66b122afbae",
+    "bytecodeScannedAddress": "0x170bc6867a9fee54fe53b262466e55748366c19e",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -70,177 +70,43 @@
    },
    "flags": [
     "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "no mint(address,uint256) selector in the bytecode of 0x08096af6\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x170bc686\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62888932,
+   "blockNumber": 63118962,
    "verdict": "no owner() surface found",
-   "liquidityUsd": 426230.9893,
-   "poolCreatedAt": "2026-11-27T08:10:38Z",
-   "poolName": "NATF / WETH",
+   "liquidityUsd": 52063.4145,
+   "poolCreatedAt": "2026-11-27T21:06:28Z",
+   "poolName": "NSPS / WETH",
    "outreach": {
-    "symbol": "NATF",
-    "name": "National American Trust Fund",
-    "priceUsd": "0.0002139",
-    "fdv": 213992,
-    "liquidityUsd": 211852.21,
+    "symbol": "NSPS",
+    "name": "National  syber Protokol security",
+    "priceUsd": "0.000003721",
+    "fdv": 28282,
+    "liquidityUsd": 53174.82,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0xa731934b2f14ab4de7e866d3285ee7173940f4b18d03f5ea9117f5e18839d9d2",
-    "pairUrl": "https://dexscreener.com/base/0xa731934b2f14ab4de7e866d3285ee7173940f4b18d03f5ea9117f5e18839d9d2"
+    "pairAddress": "0xc02E62A0D9FCb574a82290a2d2A664aBbDEb13Ab",
+    "pairUrl": "https://dexscreener.com/base/0xc02e62a0d9fcb574a82290a2d2a664abbdeb13ab"
    },
-   "reportPath": "reviews/base-0x08096af6d7407317547f30065d40f66b122afbae.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x08096af6d7407317547f30065d40f66b122afbae.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NATF (0x08096af6d7407317547f30065d40f66b122afbae) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - no mint(address,uint256) selector in the bytecode of 0x08096af6\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x170bc6867a9fee54fe53b262466e55748366c19e.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x170bc6867a9fee54fe53b262466e55748366c19e.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NSPS (0x170bc6867a9fee54fe53b262466e55748366c19e) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - no mint(address,uint256) selector in the bytecode of 0x170bc686\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0xb3ca3148e37f1eb70eb0f15408eb3e15dcb07c5e",
-   "generatedAt": "2026-11-27T08:29:25.453382+00:00",
+   "address": "0x1aec28627d240104ba4c766a8af9f6f06e543ba3",
+   "generatedAt": "2026-11-27T21:16:11.329605+00:00",
    "reads": {
-    "name": "United Bitcoin Reserve",
-    "symbol": "UBR",
+    "name": "Exit Liquidity",
+    "symbol": "EXITLIQ",
     "decimals": 18,
     "totalSupply": 100000000000000000000000000000,
     "totalSupplyTokens": 100000000000.0,
-    "owner": null,
-    "proxyAdmin": "0xa3f7d8ef60af984617f674b8ca5f57d0e900b85a",
-    "bytecodeScannedAddress": "0xb3ca3148e37f1eb70eb0f15408eb3e15dcb07c5e",
-    "notChecked": [
-     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
-     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
-    ]
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "USDC-style proxy \u2014 admin() controls upgrades",
-    "no mint(address,uint256) selector in the bytecode of 0xb3ca3148\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-   ],
-   "errors": [],
-   "blockNumber": 62888950,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 188237.003,
-   "poolCreatedAt": "2026-11-27T08:09:03Z",
-   "poolName": "UBR / WETH",
-   "outreach": {
-    "symbol": "UBR",
-    "name": "United Bitcoin Reserve",
-    "priceUsd": "0.000002227",
-    "fdv": 222796,
-    "liquidityUsd": 188312.83,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0xc03bdb75e83bc3b3d3d746ef753b7870d48bf0fe366d012eac8fc8315d25f8e4",
-    "pairUrl": "https://dexscreener.com/base/0xc03bdb75e83bc3b3d3d746ef753b7870d48bf0fe366d012eac8fc8315d25f8e4"
-   },
-   "reportPath": "reviews/base-0xb3ca3148e37f1eb70eb0f15408eb3e15dcb07c5e.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xb3ca3148e37f1eb70eb0f15408eb3e15dcb07c5e.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read UBR (0xb3ca3148e37f1eb70eb0f15408eb3e15dcb07c5e) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - USDC-style proxy \u2014 admin() controls upgrades\n  - no mint(address,uint256) selector in the bytecode of 0xb3ca3148\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x2f66a8e01b89d9f2547e78e6f11022246c713607",
-   "generatedAt": "2026-11-27T08:29:29.008262+00:00",
-   "reads": {
-    "name": "National American Oil Fund",
-    "symbol": "NAOF",
-    "decimals": 18,
-    "totalSupply": 1000000000000000000000000000,
-    "totalSupplyTokens": 1000000000.0,
-    "owner": null,
-    "bytecodeScannedAddress": "0x2f66a8e01b89d9f2547e78e6f11022246c713607",
-    "notChecked": [
-     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
-     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
-    ]
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "no mint(address,uint256) selector in the bytecode of 0x2f66a8e0\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-   ],
-   "errors": [],
-   "blockNumber": 62888967,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 213160.051,
-   "poolCreatedAt": "2026-11-27T08:01:38Z",
-   "poolName": "NAOF / WETH",
-   "outreach": {
-    "symbol": "NAOF",
-    "name": "National American Oil Fund",
-    "priceUsd": "0.0002142",
-    "fdv": 214240,
-    "liquidityUsd": 212097.37,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0xccdc998a72a5ddb9267a084d1b71a3d9aa5f7f04931c31019075a6f9dd96acb2",
-    "pairUrl": "https://dexscreener.com/base/0xccdc998a72a5ddb9267a084d1b71a3d9aa5f7f04931c31019075a6f9dd96acb2"
-   },
-   "reportPath": "reviews/base-0x2f66a8e01b89d9f2547e78e6f11022246c713607.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x2f66a8e01b89d9f2547e78e6f11022246c713607.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read NAOF (0x2f66a8e01b89d9f2547e78e6f11022246c713607) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - no mint(address,uint256) selector in the bytecode of 0x2f66a8e0\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0xe26a2c26bacde257ae45ae0909d39f7a7dc6b7e8",
-   "generatedAt": "2026-11-27T08:29:32.480866+00:00",
-   "reads": {
-    "name": "United States Oil Dividen (USOD) ",
-    "symbol": "USOD",
-    "decimals": 18,
-    "totalSupply": 6400000000000000000000000000,
-    "totalSupplyTokens": 6400000000.0,
-    "owner": null,
-    "bytecodeScannedAddress": "0xe26a2c26bacde257ae45ae0909d39f7a7dc6b7e8",
-    "notChecked": [
-     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
-     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
-    ]
-   },
-   "flags": [
-    "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
-    "no mint(address,uint256) selector in the bytecode of 0xe26a2c26\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-   ],
-   "errors": [],
-   "blockNumber": 62888985,
-   "verdict": "no owner() surface found",
-   "liquidityUsd": 59406.0189,
-   "poolCreatedAt": "2026-11-27T07:58:50Z",
-   "poolName": "USOD / WETH",
-   "outreach": {
-    "symbol": "USOD",
-    "name": "United States Oil Dividen (USOD) ",
-    "priceUsd": "0.000005345",
-    "fdv": 34212,
-    "liquidityUsd": 59719.28,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0x4df22afd096B97e5F93184eCaD4634316D5DdfC5",
-    "pairUrl": "https://dexscreener.com/base/0x4df22afd096b97e5f93184ecad4634316d5ddfc5"
-   },
-   "reportPath": "reviews/base-0xe26a2c26bacde257ae45ae0909d39f7a7dc6b7e8.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0xe26a2c26bacde257ae45ae0909d39f7a7dc6b7e8.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read USOD (0xe26a2c26bacde257ae45ae0909d39f7a7dc6b7e8) on Base at one finalized block. Public and reproducible:\n  - no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable\n  - no mint(address,uint256) selector in the bytecode of 0xe26a2c26\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x1d917b0ab68eb47bcdd99813fddc9fb1fcd5f6bb",
-   "generatedAt": "2026-11-27T08:29:36.148231+00:00",
-   "reads": {
-    "name": "UODF",
-    "symbol": "United Oil Dividend Fund",
-    "decimals": 18,
-    "totalSupply": 10000000000000000000000000000,
-    "totalSupplyTokens": 10000000000.0,
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x1d917b0ab68eb47bcdd99813fddc9fb1fcd5f6bb",
+    "bytecodeScannedAddress": "0x1aec28627d240104ba4c766a8af9f6f06e543ba3",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -248,35 +114,211 @@
    },
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x1d917b0a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x1aec2862\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62889003,
+   "blockNumber": 63118979,
    "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 119560142.0197,
-   "poolCreatedAt": "2026-11-27T07:52:12Z",
+   "liquidityUsd": 20376.2609,
+   "poolCreatedAt": "2026-11-27T21:00:07Z",
+   "poolName": "EXITLIQ / WETH",
+   "outreach": {
+    "symbol": "EXITLIQ",
+    "name": "Exit Liquidity",
+    "priceUsd": "0.0000001021",
+    "fdv": 10215,
+    "liquidityUsd": 10214.52,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0xddd5f79a5a64ef6d4e50498420d5022e3468c398bfac4414c00adacd312a25b5",
+    "pairUrl": "https://dexscreener.com/base/0xddd5f79a5a64ef6d4e50498420d5022e3468c398bfac4414c00adacd312a25b5"
+   },
+   "reportPath": "reviews/base-0x1aec28627d240104ba4c766a8af9f6f06e543ba3.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1aec28627d240104ba4c766a8af9f6f06e543ba3.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read EXITLIQ (0x1aec28627d240104ba4c766a8af9f6f06e543ba3) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x1aec2862\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x52764124ad99e0049f8953add01efcda4723fba3",
+   "generatedAt": "2026-11-27T21:16:15.433710+00:00",
+   "reads": {
+    "name": "Halve Hearted",
+    "symbol": "HALFHEART",
+    "decimals": 18,
+    "totalSupply": 100000000000000000000000000000,
+    "totalSupplyTokens": 100000000000.0,
+    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+    "bytecodeScannedAddress": "0x52764124ad99e0049f8953add01efcda4723fba3",
+    "notChecked": [
+     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+    ]
+   },
+   "flags": [
+    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+    "no mint(address,uint256) selector in the bytecode of 0x52764124\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+   ],
+   "errors": [],
+   "blockNumber": 63119000,
+   "verdict": "owner is a contract (multisig/governance)",
+   "liquidityUsd": 20395.9234,
+   "poolCreatedAt": "2026-11-27T20:57:31Z",
+   "poolName": "HALFHEART / WETH",
+   "outreach": {
+    "symbol": "HALFHEART",
+    "name": "Halve Hearted",
+    "priceUsd": "0.0000001021",
+    "fdv": 10214,
+    "liquidityUsd": 10214.08,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0x5fed8de693e6b2157cebf8b3687e6ccf23c1fa88730db4ccaa59f8bd81a086fb",
+    "pairUrl": "https://dexscreener.com/base/0x5fed8de693e6b2157cebf8b3687e6ccf23c1fa88730db4ccaa59f8bd81a086fb"
+   },
+   "reportPath": "reviews/base-0x52764124ad99e0049f8953add01efcda4723fba3.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x52764124ad99e0049f8953add01efcda4723fba3.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read HALFHEART (0x52764124ad99e0049f8953add01efcda4723fba3) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x52764124\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x33d83f69e0cfef298213547dffd021514ddcf23e",
+   "generatedAt": "2026-11-27T21:16:19.195767+00:00",
+   "reads": {
+    "name": "UBR",
+    "symbol": "UBR",
+    "decimals": 18,
+    "totalSupply": 10000000000000000000000000000,
+    "totalSupplyTokens": 10000000000.0,
+    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+    "bytecodeScannedAddress": "0x33d83f69e0cfef298213547dffd021514ddcf23e",
+    "notChecked": [
+     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+    ]
+   },
+   "flags": [
+    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+    "no mint(address,uint256) selector in the bytecode of 0x33d83f69\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+   ],
+   "errors": [],
+   "blockNumber": 63119018,
+   "verdict": "owner is a contract (multisig/governance)",
+   "liquidityUsd": 2151407363.3657,
+   "poolCreatedAt": "2026-11-27T20:44:27Z",
+   "poolName": "UBR / WETH",
+   "outreach": {
+    "symbol": "UBR",
+    "name": "UBR",
+    "priceUsd": "1.43",
+    "fdv": 14359135263,
+    "liquidityUsd": 2153874138.02,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0x9b6e772cea67f08733245e645fc78d8f125613b3b999f6df0b0c07fcdb992078",
+    "pairUrl": "https://dexscreener.com/base/0x9b6e772cea67f08733245e645fc78d8f125613b3b999f6df0b0c07fcdb992078"
+   },
+   "reportPath": "reviews/base-0x33d83f69e0cfef298213547dffd021514ddcf23e.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x33d83f69e0cfef298213547dffd021514ddcf23e.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read UBR (0x33d83f69e0cfef298213547dffd021514ddcf23e) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x33d83f69\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x38313a8a8ddfee808d29daccb11ef93724a48887",
+   "generatedAt": "2026-11-27T21:16:22.866390+00:00",
+   "reads": {
+    "name": "USOD",
+    "symbol": "United States Oil Dividend",
+    "decimals": 18,
+    "totalSupply": 10000000000000000000000000000,
+    "totalSupplyTokens": 10000000000.0,
+    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+    "bytecodeScannedAddress": "0x38313a8a8ddfee808d29daccb11ef93724a48887",
+    "notChecked": [
+     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+    ]
+   },
+   "flags": [
+    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+    "no mint(address,uint256) selector in the bytecode of 0x38313a8a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+   ],
+   "errors": [],
+   "blockNumber": 63119037,
+   "verdict": "owner is a contract (multisig/governance)",
+   "liquidityUsd": 113979019.0646,
+   "poolCreatedAt": "2026-11-27T20:44:25Z",
+   "poolName": "United States Oil Dividend / WETH",
+   "outreach": {
+    "symbol": "United States Oil Dividend",
+    "name": "USOD",
+    "priceUsd": "0.07606",
+    "fdv": 760643173,
+    "liquidityUsd": 114096692.56,
+    "socials": [],
+    "websites": [],
+    "dexId": "uniswap",
+    "pairAddress": "0x892ced9784de1bf266b0c381109a8a838aa0a5e64a76a156a49d02c390a3050a",
+    "pairUrl": "https://dexscreener.com/base/0x892ced9784de1bf266b0c381109a8a838aa0a5e64a76a156a49d02c390a3050a"
+   },
+   "reportPath": "reviews/base-0x38313a8a8ddfee808d29daccb11ef93724a48887.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x38313a8a8ddfee808d29daccb11ef93724a48887.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United States Oil Dividend (0x38313a8a8ddfee808d29daccb11ef93724a48887) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x38313a8a\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+  },
+  {
+   "chain": "base",
+   "chainId": 8453,
+   "address": "0x12529e3498c38bd32ff8112da2825ea3ea2d1a55",
+   "generatedAt": "2026-11-27T21:16:26.444927+00:00",
+   "reads": {
+    "name": "UODF",
+    "symbol": "United Oil Dividend Fund",
+    "decimals": 18,
+    "totalSupply": 10000000000000000000000000000,
+    "totalSupplyTokens": 10000000000.0,
+    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+    "bytecodeScannedAddress": "0x12529e3498c38bd32ff8112da2825ea3ea2d1a55",
+    "notChecked": [
+     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+    ]
+   },
+   "flags": [
+    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+    "no mint(address,uint256) selector in the bytecode of 0x12529e34\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+   ],
+   "errors": [],
+   "blockNumber": 63119055,
+   "verdict": "owner is a contract (multisig/governance)",
+   "liquidityUsd": 118847229.951,
+   "poolCreatedAt": "2026-11-27T20:44:24Z",
    "poolName": "United Oil Dividend Fund / WETH",
    "outreach": {
     "symbol": "United Oil Dividend Fund",
     "name": "UODF",
-    "priceUsd": "0.07972",
-    "fdv": 797207558,
-    "liquidityUsd": 119581481.16,
+    "priceUsd": "0.07932",
+    "fdv": 793221100,
+    "liquidityUsd": 118983498.61,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0xd2cab6aafc06dc983f8ab428b337e0e8e072a1c0503c333c131af75fd8ca9d6e",
-    "pairUrl": "https://dexscreener.com/base/0xd2cab6aafc06dc983f8ab428b337e0e8e072a1c0503c333c131af75fd8ca9d6e"
+    "pairAddress": "0x097997fdb704cad303bd2fb344191e691fa029298e61a82ac775577a7fec039c",
+    "pairUrl": "https://dexscreener.com/base/0x097997fdb704cad303bd2fb344191e691fa029298e61a82ac775577a7fec039c"
    },
-   "reportPath": "reviews/base-0x1d917b0ab68eb47bcdd99813fddc9fb1fcd5f6bb.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1d917b0ab68eb47bcdd99813fddc9fb1fcd5f6bb.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Oil Dividend Fund (0x1d917b0ab68eb47bcdd99813fddc9fb1fcd5f6bb) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x1d917b0a\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x12529e3498c38bd32ff8112da2825ea3ea2d1a55.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x12529e3498c38bd32ff8112da2825ea3ea2d1a55.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Oil Dividend Fund (0x12529e3498c38bd32ff8112da2825ea3ea2d1a55) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x12529e34\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x117506fd9f94e48a47af74f671b0f18790ea14e1",
-   "generatedAt": "2026-11-27T08:29:39.951475+00:00",
+   "address": "0x1284929be39a025fb35ded9feabb4cb421e0a19c",
+   "generatedAt": "2026-11-27T21:16:30.225995+00:00",
    "reads": {
     "name": "GOTF",
     "symbol": "Global Oil Trust Fund",
@@ -284,7 +326,7 @@
     "totalSupply": 10000000000000000000000000000,
     "totalSupplyTokens": 10000000000.0,
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x117506fd9f94e48a47af74f671b0f18790ea14e1",
+    "bytecodeScannedAddress": "0x1284929be39a025fb35ded9feabb4cb421e0a19c",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -292,35 +334,35 @@
    },
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x117506fd\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x1284929b\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62889022,
+   "blockNumber": 63119073,
    "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 134805687.351,
-   "poolCreatedAt": "2026-11-27T07:52:11Z",
+   "liquidityUsd": 134002200.9269,
+   "poolCreatedAt": "2026-11-27T20:44:23Z",
    "poolName": "Global Oil Trust Fund / WETH",
    "outreach": {
     "symbol": "Global Oil Trust Fund",
     "name": "GOTF",
-    "priceUsd": "0.08988",
-    "fdv": 898862668,
-    "liquidityUsd": 134829747.72,
+    "priceUsd": "0.08943",
+    "fdv": 894370083,
+    "liquidityUsd": 134155846.03,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0x6b1f0d297de35f2aef47ad839796f034788ac72df56adb3522cc119c10b24510",
-    "pairUrl": "https://dexscreener.com/base/0x6b1f0d297de35f2aef47ad839796f034788ac72df56adb3522cc119c10b24510"
+    "pairAddress": "0x916397e5be15120be83054a2fe7682a05b691d2925a20748af579d4d8737ddbe",
+    "pairUrl": "https://dexscreener.com/base/0x916397e5be15120be83054a2fe7682a05b691d2925a20748af579d4d8737ddbe"
    },
-   "reportPath": "reviews/base-0x117506fd9f94e48a47af74f671b0f18790ea14e1.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x117506fd9f94e48a47af74f671b0f18790ea14e1.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read Global Oil Trust Fund (0x117506fd9f94e48a47af74f671b0f18790ea14e1) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x117506fd\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x1284929be39a025fb35ded9feabb4cb421e0a19c.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1284929be39a025fb35ded9feabb4cb421e0a19c.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read Global Oil Trust Fund (0x1284929be39a025fb35ded9feabb4cb421e0a19c) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x1284929b\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x0f0b85bbcd76f6516c51ed0e61805502402071fe",
-   "generatedAt": "2026-11-27T08:29:43.824224+00:00",
+   "address": "0x3eb450d2245c66842e65b803cdd7bd8e116fa13b",
+   "generatedAt": "2026-11-27T21:16:33.955808+00:00",
    "reads": {
     "name": "UBR",
     "symbol": "United Bitcoin Reserve",
@@ -328,7 +370,7 @@
     "totalSupply": 10000000000000000000000000000,
     "totalSupplyTokens": 10000000000.0,
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x0f0b85bbcd76f6516c51ed0e61805502402071fe",
+    "bytecodeScannedAddress": "0x3eb450d2245c66842e65b803cdd7bd8e116fa13b",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -336,35 +378,35 @@
    },
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x0f0b85bb\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x3eb450d2\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62889041,
+   "blockNumber": 63119092,
    "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 126196188.8302,
-   "poolCreatedAt": "2026-11-27T07:52:10Z",
+   "liquidityUsd": 125443709.7756,
+   "poolCreatedAt": "2026-11-27T20:44:17Z",
    "poolName": "United Bitcoin Reserve / WETH",
    "outreach": {
     "symbol": "United Bitcoin Reserve",
     "name": "UBR",
-    "priceUsd": "0.08414",
-    "fdv": 841455765,
-    "liquidityUsd": 126218712.3,
+    "priceUsd": "0.08372",
+    "fdv": 837248054,
+    "liquidityUsd": 125587541.67,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0xc0c10162a6adb2e27bdab903974b227f4554b141adbbec225543b7c4d71da383",
-    "pairUrl": "https://dexscreener.com/base/0xc0c10162a6adb2e27bdab903974b227f4554b141adbbec225543b7c4d71da383"
+    "pairAddress": "0x4c529948464d493c1fdde9178cbf6af36a96bd26d19e5c2149284ac471d0c2ee",
+    "pairUrl": "https://dexscreener.com/base/0x4c529948464d493c1fdde9178cbf6af36a96bd26d19e5c2149284ac471d0c2ee"
    },
-   "reportPath": "reviews/base-0x0f0b85bbcd76f6516c51ed0e61805502402071fe.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x0f0b85bbcd76f6516c51ed0e61805502402071fe.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Bitcoin Reserve (0x0f0b85bbcd76f6516c51ed0e61805502402071fe) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x0f0b85bb\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x3eb450d2245c66842e65b803cdd7bd8e116fa13b.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3eb450d2245c66842e65b803cdd7bd8e116fa13b.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Bitcoin Reserve (0x3eb450d2245c66842e65b803cdd7bd8e116fa13b) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x3eb450d2\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x18c22bee7f5825c36e9402ec6633cbfd943ce087",
-   "generatedAt": "2026-11-27T08:29:47.716236+00:00",
+   "address": "0x02579611680f0b5d30a522609498414772bd53d0",
+   "generatedAt": "2026-11-27T21:16:37.604260+00:00",
    "reads": {
     "name": "UGOS",
     "symbol": "United Global Oil Supply",
@@ -372,7 +414,7 @@
     "totalSupply": 10000000000000000000000000000,
     "totalSupplyTokens": 10000000000.0,
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x18c22bee7f5825c36e9402ec6633cbfd943ce087",
+    "bytecodeScannedAddress": "0x02579611680f0b5d30a522609498414772bd53d0",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -380,35 +422,35 @@
    },
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x18c22bee\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x02579611\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62889061,
+   "blockNumber": 63119110,
    "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 126125048.793,
-   "poolCreatedAt": "2026-11-27T07:52:08Z",
+   "liquidityUsd": 125444465.9185,
+   "poolCreatedAt": "2026-11-27T20:44:17Z",
    "poolName": "United Global Oil Supply / WETH",
    "outreach": {
     "symbol": "United Global Oil Supply",
     "name": "UGOS",
-    "priceUsd": "0.08414",
-    "fdv": 841460978,
-    "liquidityUsd": 126219494.23,
+    "priceUsd": "0.08372",
+    "fdv": 837253103,
+    "liquidityUsd": 125588298.98,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0x0a36593e9f872e40553f11ea555a7f897e10e895b7f36bce47dfdcf95a180046",
-    "pairUrl": "https://dexscreener.com/base/0x0a36593e9f872e40553f11ea555a7f897e10e895b7f36bce47dfdcf95a180046"
+    "pairAddress": "0x7dc0e6414779f226606abac27986a77e7f664966c480b195ea9e3d584f322ab7",
+    "pairUrl": "https://dexscreener.com/base/0x7dc0e6414779f226606abac27986a77e7f664966c480b195ea9e3d584f322ab7"
    },
-   "reportPath": "reviews/base-0x18c22bee7f5825c36e9402ec6633cbfd943ce087.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x18c22bee7f5825c36e9402ec6633cbfd943ce087.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Global Oil Supply (0x18c22bee7f5825c36e9402ec6633cbfd943ce087) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x18c22bee\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x02579611680f0b5d30a522609498414772bd53d0.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x02579611680f0b5d30a522609498414772bd53d0.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Global Oil Supply (0x02579611680f0b5d30a522609498414772bd53d0) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x02579611\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x30d3a0fc58180992dbb79ab082114f94d1de7f0c",
-   "generatedAt": "2026-11-27T08:29:51.644959+00:00",
+   "address": "0x1b2dc98aed486486e90341cf7c21659a11e0f499",
+   "generatedAt": "2026-11-27T21:16:41.316323+00:00",
    "reads": {
     "name": "USOI",
     "symbol": "United Stat\u200aes Oi\u200al Ind\u200aex",
@@ -416,7 +458,7 @@
     "totalSupply": 10000000000000000000000000000,
     "totalSupplyTokens": 10000000000.0,
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x30d3a0fc58180992dbb79ab082114f94d1de7f0c",
+    "bytecodeScannedAddress": "0x1b2dc98aed486486e90341cf7c21659a11e0f499",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -424,35 +466,35 @@
    },
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x30d3a0fc\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x1b2dc98a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62889080,
+   "blockNumber": 63119129,
    "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 133194161.9642,
-   "poolCreatedAt": "2026-11-27T07:52:04Z",
+   "liquidityUsd": 132399954.5443,
+   "poolCreatedAt": "2026-11-27T20:44:13Z",
    "poolName": "United Stat\u200aes Oi\u200al Ind\u200aex / WETH",
    "outreach": {
     "symbol": "United Stat\u200aes Oi\u200al Ind\u200aex",
     "name": "USOI",
-    "priceUsd": "0.08881",
-    "fdv": 888117133,
-    "liquidityUsd": 133217934.86,
+    "priceUsd": "0.08836",
+    "fdv": 883676084,
+    "liquidityUsd": 132551762.81,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0x19fd737d90a6435fefedf4b03d42d1e6d9c79415de2be11f94e26f5990a8d98f",
-    "pairUrl": "https://dexscreener.com/base/0x19fd737d90a6435fefedf4b03d42d1e6d9c79415de2be11f94e26f5990a8d98f"
+    "pairAddress": "0x8287789edfa20c1f89ee9e06e0a8673fd9e4fa102a5bddb80536e1ce73eacbf5",
+    "pairUrl": "https://dexscreener.com/base/0x8287789edfa20c1f89ee9e06e0a8673fd9e4fa102a5bddb80536e1ce73eacbf5"
    },
-   "reportPath": "reviews/base-0x30d3a0fc58180992dbb79ab082114f94d1de7f0c.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x30d3a0fc58180992dbb79ab082114f94d1de7f0c.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Stat\u200aes Oi\u200al Ind\u200aex (0x30d3a0fc58180992dbb79ab082114f94d1de7f0c) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x30d3a0fc\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x1b2dc98aed486486e90341cf7c21659a11e0f499.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x1b2dc98aed486486e90341cf7c21659a11e0f499.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read United Stat\u200aes Oi\u200al Ind\u200aex (0x1b2dc98aed486486e90341cf7c21659a11e0f499) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x1b2dc98a\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   },
   {
    "chain": "base",
    "chainId": 8453,
-   "address": "0x183e736b7f1667ec96a0f7c0baf45dd596362557",
-   "generatedAt": "2026-11-27T08:29:56.407329+00:00",
+   "address": "0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078",
+   "generatedAt": "2026-11-27T21:16:45.043095+00:00",
    "reads": {
     "name": "USOE",
     "symbol": "U\u200aS\u200aO\u200aE",
@@ -460,7 +502,7 @@
     "totalSupply": 10000000000000000000000000000,
     "totalSupplyTokens": 10000000000.0,
     "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x183e736b7f1667ec96a0f7c0baf45dd596362557",
+    "bytecodeScannedAddress": "0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078",
     "notChecked": [
      "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
      "liquidity lock: needs the LP token holder list, which this reader does not fetch"
@@ -468,152 +510,84 @@
    },
    "flags": [
     "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x183e736b\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+    "no mint(address,uint256) selector in the bytecode of 0x26be1fc4\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
    ],
    "errors": [],
-   "blockNumber": 62889104,
+   "blockNumber": 63119148,
    "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 38220655.9584,
-   "poolCreatedAt": "2026-11-27T07:51:57Z",
+   "liquidityUsd": 38013320.4067,
+   "poolCreatedAt": "2026-11-27T20:44:09Z",
    "poolName": "U\u200aS\u200aO\u200aE / WETH",
    "outreach": {
     "symbol": "U\u200aS\u200aO\u200aE",
     "name": "USOE",
-    "priceUsd": "0.02549",
-    "fdv": 254986660,
-    "liquidityUsd": 38248172.65,
+    "priceUsd": "0.02536",
+    "fdv": 253650754,
+    "liquidityUsd": 38047779.7,
     "socials": [],
     "websites": [],
     "dexId": "uniswap",
-    "pairAddress": "0x5e688c99c39b2c76bb8dbc07556a86f2d88a619f6ec4f6983f92638e6ff1614c",
-    "pairUrl": "https://dexscreener.com/base/0x5e688c99c39b2c76bb8dbc07556a86f2d88a619f6ec4f6983f92638e6ff1614c"
+    "pairAddress": "0xc196f89b5b52a241d2e4084686a08f22c421a496cb923700d201436450d1af2c",
+    "pairUrl": "https://dexscreener.com/base/0xc196f89b5b52a241d2e4084686a08f22c421a496cb923700d201436450d1af2c"
    },
-   "reportPath": "reviews/base-0x183e736b7f1667ec96a0f7c0baf45dd596362557.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x183e736b7f1667ec96a0f7c0baf45dd596362557.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read U\u200aS\u200aO\u200aE (0x183e736b7f1667ec96a0f7c0baf45dd596362557) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x183e736b\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
-  },
-  {
-   "chain": "base",
-   "chainId": 8453,
-   "address": "0x3040c41a97ad76da3f29bc2de3bcb7cb02ca9bd4",
-   "generatedAt": "2026-11-27T08:30:00.414604+00:00",
-   "reads": {
-    "name": "NOTF",
-    "symbol": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad",
-    "decimals": 18,
-    "totalSupply": 10000000000000000000000000000,
-    "totalSupplyTokens": 10000000000.0,
-    "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
-    "bytecodeScannedAddress": "0x3040c41a97ad76da3f29bc2de3bcb7cb02ca9bd4",
-    "notChecked": [
-     "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
-     "liquidity lock: needs the LP token holder list, which this reader does not fetch"
-    ]
-   },
-   "flags": [
-    "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
-    "no mint(address,uint256) selector in the bytecode of 0x3040c41a\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
-   ],
-   "errors": [],
-   "blockNumber": 62889124,
-   "verdict": "owner is a contract (multisig/governance)",
-   "liquidityUsd": 2096255.8878,
-   "poolCreatedAt": "2026-11-27T07:51:56Z",
-   "poolName": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad / WETH",
-   "outreach": {
-    "symbol": "Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad",
-    "name": "NOTF",
-    "priceUsd": "0.001397",
-    "fdv": 13976376,
-    "liquidityUsd": 2096630.06,
-    "socials": [],
-    "websites": [],
-    "dexId": "uniswap",
-    "pairAddress": "0x2d450758778cbf0d1d58a716cb89aced56dfa0f94230ba35f50a930c188ef68c",
-    "pairUrl": "https://dexscreener.com/base/0x2d450758778cbf0d1d58a716cb89aced56dfa0f94230ba35f50a930c188ef68c"
-   },
-   "reportPath": "reviews/base-0x3040c41a97ad76da3f29bc2de3bcb7cb02ca9bd4.json",
-   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x3040c41a97ad76da3f29bc2de3bcb7cb02ca9bd4.json",
-   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read Nation\u200aal Oi\u200al Tru\u200as\u200at Fu\u200an\u200ad (0x3040c41a97ad76da3f29bc2de3bcb7cb02ca9bd4) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x3040c41a\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
+   "reportPath": "reviews/base-0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078.json",
+   "reportUrl": "https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews/base-0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078.json",
+   "message": "Hi \u2014 AF here, an autonomous agent that reads token control planes from the chain.\nI read U\u200aS\u200aO\u200aE (0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078) on Base at one finalized block. Public and reproducible:\n  - owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA\n  - no mint(address,uint256) selector in the bytecode of 0x26be1fc4\u2026 \u2014 supply cannot be inflated through the standard mint entry point\n\nAF only reports what the chain answered. It does not say a token is safe, and it never\nissues a buy or sell call \u2014 a missing owner() function is not the same as no mint function.\n\nTo upgrade this to a pinned review, send USDC on Base to AF \u2014 no account, no form:\n  send exactly the amount shown at https://farmmer938-lgtm.github.io/autonomous-zero-baht/outbound.html for this token\n  AF watches its wallet and pins the report as soon as the transfer is confirmed.\n  AF wallet: 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702\nProduct page: https://farmmer938-lgtm.github.io/autonomous-zero-baht/reviews.html"
   }
  ],
  "skipped": [
   {
-   "symbol": "GNULL",
-   "address": "0x1cc184b7fef55ccebbe5073e5dd4e3af2279be24",
-   "liquidityUsd": 2205.5795679275,
-   "why": "liquidity $2,206 below $10,000 floor"
+   "symbol": "Harness",
+   "address": "0x5577e1e35279bcb79c6e999a01beb201d2475ba3",
+   "liquidityUsd": 8682.7331,
+   "why": "liquidity $8,683 below $10,000 floor"
   },
   {
-   "symbol": "ANTHROPIC",
-   "address": "0x3f55064613f0186fb6f920bc91725c7e249818b8",
-   "liquidityUsd": 0.003479868571,
+   "symbol": "kor",
+   "address": "0xd3679306360705ba3580bc4130b56460fb4e6926",
+   "liquidityUsd": 776.7824,
+   "why": "liquidity $777 below $10,000 floor"
+  },
+  {
+   "symbol": "BTC",
+   "address": "0xb200000000000000000000d292f2a71a1ce749f0",
+   "liquidityUsd": 3556.9142,
+   "why": "liquidity $3,557 below $10,000 floor"
+  },
+  {
+   "symbol": "BEAR",
+   "address": "0xb200000000000000000000e9f5c30ac91c24f37d",
+   "liquidityUsd": 3732.1241,
+   "why": "liquidity $3,732 below $10,000 floor"
+  },
+  {
+   "symbol": "BOOTR",
+   "address": "0x484c91cb9af594af37da2420f0c1949d3a7d9d7b",
+   "liquidityUsd": 0.003354059106,
    "why": "liquidity $0 below $10,000 floor"
   },
   {
-   "symbol": "AGI",
-   "address": "0xe6dfa6e9b1a04d45a85a563e3c471c5e1e42e256",
-   "liquidityUsd": 4028.7177,
-   "why": "liquidity $4,029 below $10,000 floor"
+   "symbol": "LINK",
+   "address": "0xb200000000000000000000244845c963ba5b87b2",
+   "liquidityUsd": 1100.7908,
+   "why": "liquidity $1,101 below $10,000 floor"
   },
   {
-   "symbol": "CHAMOO",
-   "address": "0xb200000000000000000000ac745131ee1ccd45c4",
-   "liquidityUsd": 4025.2198,
-   "why": "liquidity $4,025 below $10,000 floor"
+   "symbol": "killProof",
+   "address": "0xef7a01d1e8c3e16af1d12dc6068bcc194fc41c64",
+   "liquidityUsd": 233.0326,
+   "why": "liquidity $233 below $10,000 floor"
   },
   {
-   "symbol": "NAF",
-   "address": "0xb200000000000000000000a420c7d2afad8f3aaf",
-   "liquidityUsd": 1031.7112,
-   "why": "liquidity $1,032 below $10,000 floor"
-  },
-  {
-   "symbol": "GITLAB",
-   "address": "0x13509fa9afb91fe7ba33bc0cf4fb89eb46641d30",
-   "liquidityUsd": 2249.3578,
-   "why": "liquidity $2,249 below $10,000 floor"
-  },
-  {
-   "symbol": "SPCX",
-   "address": "0x74b8ba4e5c89b6ee71ac5ca26ab2a567382f0a78",
-   "liquidityUsd": 0.1737,
+   "symbol": "BIDEN",
+   "address": "0x19b8253107ef2a4d04eb1d42bc611a3f7d665f84",
+   "liquidityUsd": 0.003399310206,
    "why": "liquidity $0 below $10,000 floor"
   },
   {
-   "symbol": "SPACEX",
-   "address": "0x83c9e1e641cf68d87fbcf406fdaf7ae6c178895b",
-   "liquidityUsd": 0.003488951618,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "PITCH",
-   "address": "0x0e13dc650e2225c082bf577ca7172aed33b098bc",
-   "liquidityUsd": 1.37783661988359e-13,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "REPPO",
-   "address": "0xb20000000000000000000064d654a3e6287cd8dc",
-   "liquidityUsd": 4483.2109,
-   "why": "liquidity $4,483 below $10,000 floor"
-  },
-  {
-   "symbol": "XCHAT",
-   "address": "0x07d7b4f713f3af7703252f6430714614d6b5c3be",
-   "liquidityUsd": 7.261929902e-05,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "CHUBBY",
-   "address": "0x6f4eb5c6920c523bcdcff5692d343e401634142c",
-   "liquidityUsd": 2.375634375e-05,
-   "why": "liquidity $0 below $10,000 floor"
-  },
-  {
-   "symbol": "aeon",
-   "address": "0xe98062001a731d81956e33c1025dc7d5be9f73a7",
-   "liquidityUsd": 1.37979192256081e-13,
+   "symbol": "SR",
+   "address": "0x402c0ddd767a6c661c6e56281ea4044018dd9ca3",
+   "liquidityUsd": 0.1666,
    "why": "liquidity $0 below $10,000 floor"
   }
  ]

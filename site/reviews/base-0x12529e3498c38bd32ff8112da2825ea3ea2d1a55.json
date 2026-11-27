@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x12529e3498c38bd32ff8112da2825ea3ea2d1a55",
+ "generatedAt": "2026-11-27T21:16:26.444927+00:00",
+ "reads": {
+  "name": "UODF",
+  "symbol": "United Oil Dividend Fund",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x12529e3498c38bd32ff8112da2825ea3ea2d1a55",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x12529e34\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 63119055,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 118847229.951,
+ "poolCreatedAt": "2026-11-27T20:44:24Z",
+ "poolName": "United Oil Dividend Fund / WETH",
+ "outreach": {
+  "symbol": "United Oil Dividend Fund",
+  "name": "UODF",
+  "priceUsd": "0.07932",
+  "fdv": 793221100,
+  "liquidityUsd": 118983498.61,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0x097997fdb704cad303bd2fb344191e691fa029298e61a82ac775577a7fec039c",
+  "pairUrl": "https://dexscreener.com/base/0x097997fdb704cad303bd2fb344191e691fa029298e61a82ac775577a7fec039c"
+ }
+}

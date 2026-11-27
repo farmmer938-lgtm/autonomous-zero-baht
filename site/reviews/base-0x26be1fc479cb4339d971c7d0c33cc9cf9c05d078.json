@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078",
+ "generatedAt": "2026-11-27T21:16:45.043095+00:00",
+ "reads": {
+  "name": "USOE",
+  "symbol": "U\u200aS\u200aO\u200aE",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000,
+  "totalSupplyTokens": 10000000000.0,
+  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "bytecodeScannedAddress": "0x26be1fc479cb4339d971c7d0c33cc9cf9c05d078",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "owner is a CONTRACT (likely a multisig or governance) \u2014 not a single EOA",
+  "no mint(address,uint256) selector in the bytecode of 0x26be1fc4\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 63119148,
+ "verdict": "owner is a contract (multisig/governance)",
+ "liquidityUsd": 38013320.4067,
+ "poolCreatedAt": "2026-11-27T20:44:09Z",
+ "poolName": "U\u200aS\u200aO\u200aE / WETH",
+ "outreach": {
+  "symbol": "U\u200aS\u200aO\u200aE",
+  "name": "USOE",
+  "priceUsd": "0.02536",
+  "fdv": 253650754,
+  "liquidityUsd": 38047779.7,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xc196f89b5b52a241d2e4084686a08f22c421a496cb923700d201436450d1af2c",
+  "pairUrl": "https://dexscreener.com/base/0xc196f89b5b52a241d2e4084686a08f22c421a496cb923700d201436450d1af2c"
+ }
+}
