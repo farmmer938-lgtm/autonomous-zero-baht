@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T15:24:58Z",
+ "generated_at": "2026-11-27T23:36:58Z",
  "endpoint": "https://work-1-eoyufwqtixdosxga.prod-runtime.all-hands.dev",
  "history": [
   {
@@ -119,17 +119,27 @@
     "health_200": false,
     "paywall_402": false
    }
+  },
+  {
+   "at": "2026-11-27T23:36:58Z",
+   "ok": false,
+   "latency_ms": null,
+   "checks": {
+    "status_200": false,
+    "health_200": false,
+    "paywall_402": false
+   }
   }
  ],
  "summary": {
-  "samples": 11,
+  "samples": 12,
   "window_start": "2026-11-26T14:33:20Z",
-  "window_days": 1.04,
-  "uptime_pct": 72.73,
+  "window_days": 1.38,
+  "uptime_pct": 66.67,
   "current_streak_samples": 0,
   "current_streak_hours": 0.0,
   "last_ok_at": "2026-11-26T15:34:56Z",
-  "last_check_at": "2026-11-27T15:24:58Z",
+  "last_check_at": "2026-11-27T23:36:58Z",
   "last_check_ok": false,
   "latency_p50_ms": 361,
   "latency_p95_ms": 375,
@@ -198,14 +208,14 @@
     "degraded_from_failures": 2,
     "degraded_gap_hours": 2
    },
-   "status": "degraded",
+   "status": "invalidated",
    "phase": "open",
-   "uptime_pct": 72.73,
-   "samples": 11,
-   "failed_probes": 3,
+   "uptime_pct": 66.67,
+   "samples": 12,
+   "failed_probes": 4,
    "max_gap_hours": 10.2,
-   "degraded_note": "one wave",
-   "invalidation_reason": null
+   "degraded_note": null,
+   "invalidation_reason": "24.2h of consecutive failed probes (>= 24h invalidates)"
   },
   "B": {
    "starts": "2026-12-11",
