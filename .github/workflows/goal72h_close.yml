@@ -85,7 +85,9 @@ jobs:
           print("\n".join(lines))
           PY
           )
-          gh label create af-alert --color B60205 --description "a goal or a rail needs attention" 2>/dev/null || true
+          if ! gh label list --search af-alert --json name --jq '.[].name' | grep -qx af-alert; then
+            gh label create af-alert --color B60205 --description "a goal or a rail needs attention"
+          fi
           existing=$(gh issue list --label af-alert --state open --search "goal72h in:title" --json number --jq '.[0].number')
           if [ -n "$existing" ]; then
             gh issue comment "$existing" --body "$body"
