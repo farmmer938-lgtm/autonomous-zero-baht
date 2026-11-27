@@ -61,9 +61,11 @@ def verdict(now: datetime | None = None, start_block: int = GOAL_START_BLOCK,
     now = now or datetime.now(timezone.utc)
     deadline = datetime.fromisoformat(GOAL_DEADLINE.replace("Z", "+00:00"))
     if transfers is None:
-        transfers = scan(start_block)
+        tip = int(ss.rpc("eth_blockNumber", []), 16)
+        transfers = scan(start_block, end_block=tip)
+    else:
+        tip = max((t["block"] for t in transfers), default=start_block)
     transfers = sorted(transfers, key=lambda t: t["block"])
-    tip = max((t["block"] for t in transfers), default=start_block)
 
     excluded, qualified = [], []
     for t in transfers:
