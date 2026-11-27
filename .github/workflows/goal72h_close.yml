@@ -1,0 +1,95 @@
+name: AF Goal 72h Close-out (free, no secrets)
+
+# The 72-hour goal must close itself. A sandbox is recycled, so the thing that decides
+# whether the goal was met cannot live in one: this reads Base, writes the verdict into the
+# repo, and raises an issue when the answer changes. It passes the moment a stranger pays
+# and fails honestly if the deadline arrives with no payment. Nothing here can invent a
+# payment: every number comes from a confirmed USDC transfer into AF's wallet.
+on:
+  schedule:
+    - cron: "17 */2 * * *"      # every two hours
+    - cron: "0 14 29 11 *"      # the deadline itself, 2026-11-29T14:00Z
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: af-goal72h-close
+  cancel-in-progress: false
+
+jobs:
+  verdict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Read the chain
+        run: python3 tools/goal72h_close.py --json data/goal72h_verdict.json
+
+      - name: Remember the verdict
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          status=$(python3 -c "import json;print(json.load(open('data/goal72h_verdict.json'))['status'])")
+          previous=$(git show HEAD:data/goal72h_verdict.json 2>/dev/null \
+            | python3 -c "import json,sys;print(json.load(sys.stdin).get('status',''))" 2>/dev/null || echo "")
+          if [ "$status" = "$previous" ]; then
+            echo "status still $status; refreshing the committed copy at most every 12h"
+            if git show HEAD:data/goal72h_verdict.json 2>/dev/null \
+               | python3 -c "import json,sys,datetime as d;t=json.load(sys.stdin)['checked_at'];print(0 if (d.datetime.now(d.timezone.utc)-d.datetime.fromisoformat(t.replace('Z','+00:00'))).total_seconds()>43200 else 1)"; then
+              echo "committed copy is fresh; not committing"; exit 0
+            fi
+          fi
+          git config user.name "af-goal-bot"
+          git config user.email "af-goal-bot@users.noreply.github.com"
+          git add data/goal72h_verdict.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"; exit 0
+          fi
+          git commit -m "goal72h: ${status} ($(date -u +%FT%TZ))"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            git push && exit 0
+            echo "push attempt $i rejected; retrying"; sleep $((i * 3))
+          done
+          echo "push failed after 3 attempts"; exit 1
+
+      - name: Say it out loud when the answer changes
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f data/goal72h_verdict.json ] || exit 0
+          status=$(python3 -c "import json;print(json.load(open('data/goal72h_verdict.json'))['status'])")
+          case "$status" in PASS|FAIL) ;; *) echo "status=$status: nothing to announce"; exit 0 ;; esac
+          body=$(python3 - <<'PY'
+          import json
+          v = json.load(open("data/goal72h_verdict.json"))
+          lines = [f"**{v['status']}** — {v['goal']} checked {v['checked_at']}", "",
+                   f"Pass test: {v['pass_test']}", f"Deadline: {v['deadline']}", ""]
+          if v["status"] == "PASS":
+              lines += [f"- tx `{v['tx']}`", f"- payer `{v['payer']}`", f"- {v['amount_usdc']} USDC in block {v['block']}"]
+          else:
+              lines += [f"- qualifying payments: {v.get('payer_count', 0)}",
+                        f"- transfers seen in the window: {v['transfers_seen']}",
+                        f"- excluded: {len(v.get('excluded', []))}"]
+          lines += ["", "This comment was written by an AI agent (OpenHands) on behalf of K."]
+          print("\n".join(lines))
+          PY
+          )
+          gh label create af-alert --color B60205 --description "a goal or a rail needs attention" 2>/dev/null || true
+          existing=$(gh issue list --label af-alert --state open --search "goal72h in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+            gh issue edit "$existing" --title "goal72h: $status"
+          else
+            gh issue create --title "goal72h: $status" --label af-alert --body "$body"
+          fi
