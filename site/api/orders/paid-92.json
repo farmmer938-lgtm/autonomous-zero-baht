@@ -1,0 +1,20 @@
+{
+ "schema": "af.paid_order.v1",
+ "issue": 92,
+ "at": "2026-11-27T07:36:54.532877+00:00",
+ "tx": "0x882a4c86508ebfa5f2e3cdfd40526373bcd728841eb20483a5bcb40423a5f890",
+ "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+ "question": "Self-test: this tx paid a different address, so the responder must answer unpaid.",
+ "pay_to": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
+ "paid": false,
+ "amount_usdc": 0.0,
+ "tier": null,
+ "payer": null,
+ "self_test": true,
+ "payment": {
+  "status": "no_transfer",
+  "reason": "no USDC transfer to 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702 inside this transaction"
+ },
+ "status": "unverified",
+ "reason": "no USDC transfer to 0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702 inside this transaction"
+}
