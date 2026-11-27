@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T23:25:00Z",
+ "generated_at": "2026-11-27T05:12:46Z",
  "endpoint": "https://viewing-saw-stores-furniture.trycloudflare.com",
  "history": [
   {
@@ -99,17 +99,27 @@
     "health_200": false,
     "paywall_402": false
    }
+  },
+  {
+   "at": "2026-11-27T05:12:46Z",
+   "ok": false,
+   "latency_ms": null,
+   "checks": {
+    "status_200": false,
+    "health_200": false,
+    "paywall_402": false
+   }
   }
  ],
  "summary": {
-  "samples": 9,
+  "samples": 10,
   "window_start": "2026-11-26T14:33:20Z",
-  "window_days": 0.37,
-  "uptime_pct": 88.89,
+  "window_days": 0.61,
+  "uptime_pct": 80.0,
   "current_streak_samples": 0,
   "current_streak_hours": 0.0,
   "last_ok_at": "2026-11-26T15:34:56Z",
-  "last_check_at": "2026-11-26T23:25:00Z",
+  "last_check_at": "2026-11-27T05:12:46Z",
   "last_check_ok": false,
   "latency_p50_ms": 361,
   "latency_p95_ms": 375,
@@ -180,9 +190,9 @@
    },
    "status": "degraded",
    "phase": "open",
-   "uptime_pct": 88.89,
-   "samples": 9,
-   "failed_probes": 1,
+   "uptime_pct": 80.0,
+   "samples": 10,
+   "failed_probes": 2,
    "max_gap_hours": 7.8,
    "degraded_note": "one wave",
    "invalidation_reason": null
