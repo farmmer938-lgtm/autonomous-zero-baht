@@ -53,7 +53,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           ISSUE: ${{ github.event.issue.number }}
-        run: gh issue comment "$ISSUE" --body-file /tmp/comment.md
+        run: |
+          # A form issue fires both `opened` and `labeled`, so the same answer would be
+          # posted twice. The order header is deterministic, so it is the dedupe key.
+          head -1 /tmp/comment.md > /tmp/head.txt
+          if gh issue view "$ISSUE" --json comments --jq '.comments[].body' | grep -qF -f /tmp/head.txt; then
+            echo "already answered; not posting a second copy"
+          else
+            gh issue comment "$ISSUE" --body-file /tmp/comment.md
+          fi
 
       - name: Commit the order record and the report
         run: |
@@ -62,8 +70,15 @@ jobs:
           git add site/api/orders site/reviews data/paid_ledger.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: audit order ${{ github.event.issue.number }}"
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
-            git push
+            # Two events can fire for one issue, so a push can lose the race. Retry rather
+            # than fail: an uncommitted order record is an order AF cannot prove it served.
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+              git push && exit 0
+              echo "push attempt $i rejected; retrying"
+              sleep $((i * 3))
+            done
+            echo "push failed after 3 attempts"; exit 1
           else
             echo "No change."
           fi
