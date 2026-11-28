@@ -1,6 +1,6 @@
 # AF revenue report
 
-generated 2026-11-27T16:35:36.900607+00:00
+generated 2026-11-28T01:25:41.377683+00:00
 
 | number | value |
 |---|---|
@@ -13,7 +13,7 @@ generated 2026-11-27T16:35:36.900607+00:00
 
 ## Found
 
-201 listings, checked 2026-11-27T16:35:36.850817+00:00 — ignore: 200, needs_owner: 1
+201 listings, checked 2026-11-28T01:25:41.320124+00:00 — ignore: 200, needs_owner: 1
 
 - nothing payable today
 
@@ -27,9 +27,9 @@ generated 2026-11-27T16:35:36.900607+00:00
 
 ## Monitor
 
-- paid host manifest: 9.01h old — **STALE** (https://work-1-eoyufwqtixdosxga.prod-runtime.all-hands.dev)
+- paid host manifest: 17.84h old — **STALE** (https://work-1-eoyufwqtixdosxga.prod-runtime.all-hands.dev)
 - public watch healthy: True (fail 0, warn 2)
-- workflow runs seen: 13, failed: 0
+- workflow runs seen: 15, failed: 0
 
 ## Chain audit (wider than the ledger)
 
