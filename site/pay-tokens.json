@@ -1,6 +1,6 @@
 {
  "schema": "af.pay.tokens.v1",
- "generatedAt": "2026-11-27T21:15:31.400512+00:00",
+ "generatedAt": "2026-11-28T07:45:50.977462+00:00",
  "payout_address": "0xf3C99a6d6e7C6b2ae00b44dC42cC3eb7691D7702",
  "note": "Every token below was read from its contract on that chain (symbol/decimals). Anything that did not answer was dropped, not guessed.",
  "chains": [

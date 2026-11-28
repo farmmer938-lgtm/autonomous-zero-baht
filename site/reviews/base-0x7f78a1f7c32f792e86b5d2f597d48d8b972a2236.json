@@ -1,0 +1,41 @@
+{
+ "chain": "base",
+ "chainId": 8453,
+ "address": "0x7f78a1f7c32f792e86b5d2f597d48d8b972a2236",
+ "generatedAt": "2026-11-28T07:46:46.538788+00:00",
+ "reads": {
+  "name": "ANDURIL PRESTOCK",
+  "symbol": "ANDURL",
+  "decimals": 18,
+  "totalSupply": 5600000000000000000000000000,
+  "totalSupplyTokens": 5600000000.0,
+  "owner": null,
+  "bytecodeScannedAddress": "0x7f78a1f7c32f792e86b5d2f597d48d8b972a2236",
+  "notChecked": [
+   "transfer tax / honeypot: needs a live buy+sell simulation, not a static read",
+   "liquidity lock: needs the LP token holder list, which this reader does not fetch"
+  ]
+ },
+ "flags": [
+  "no owner() function \u2014 ownership is either renounced at the code level or the contract is not Ownable",
+  "no mint(address,uint256) selector in the bytecode of 0x7f78a1f7\u2026 \u2014 supply cannot be inflated through the standard mint entry point"
+ ],
+ "errors": [],
+ "blockNumber": 63308155,
+ "verdict": "no owner() surface found",
+ "liquidityUsd": 55831.6075,
+ "poolCreatedAt": "2026-11-28T07:19:53Z",
+ "poolName": "ANDURL / WETH",
+ "outreach": {
+  "symbol": "ANDURL",
+  "name": "ANDURIL PRESTOCK",
+  "priceUsd": "0.000005708",
+  "fdv": 31968,
+  "liquidityUsd": 56369.31,
+  "socials": [],
+  "websites": [],
+  "dexId": "uniswap",
+  "pairAddress": "0xdd07c9B7236830FC9629078ADB5df4d912af1be9",
+  "pairUrl": "https://dexscreener.com/base/0xdd07c9b7236830fc9629078adb5df4d912af1be9"
+ }
+}
